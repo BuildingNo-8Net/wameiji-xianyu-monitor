@@ -86,6 +86,64 @@ def test_detail_queue_keeps_an_older_unverified_listing_after_later_ingest(
     assert [candidate.id for candidate in queued] == [first_id]
 
 
+def test_detail_queue_prioritizes_unverified_listing_over_stale_refresh(
+    tmp_path: Path,
+) -> None:
+    """Fresh source links must not be starved by an old detail refresh."""
+
+    db_path = tmp_path / "selection.db"
+    init_db(db_path)
+    pool = list_discovery_pools(db_path)[0]
+    assert pool.id is not None
+    stale_id = upsert_discovery_candidate(
+        db_path,
+        DiscoveryCandidate(
+            pool_id=pool.id,
+            media_type="cd",
+            identity_key="source:stale-detail-refresh",
+            title="Previously Verified Album 初回限定盤",
+            source_item_id="stale-detail-refresh",
+            source_url="/mall/mercari/detail/stale-detail-refresh",
+            source_price=1200,
+            source_currency="JPY",
+            availability="available",
+        ),
+    )
+    record_discovery_candidate_detail_attempt(
+        db_path,
+        stale_id,
+        pipeline_stage="resale_queued",
+        detail_verified=True,
+    )
+    with sqlite3.connect(db_path) as conn:
+        conn.execute(
+            """
+            UPDATE discovery_candidates
+            SET detail_verified_at = datetime(CURRENT_TIMESTAMP, '-181 minutes')
+            WHERE id = ?
+            """,
+            (stale_id,),
+        )
+    unverified_id = upsert_discovery_candidate(
+        db_path,
+        DiscoveryCandidate(
+            pool_id=pool.id,
+            media_type="cd",
+            identity_key="source:never-verified",
+            title="Never Verified Album CD",
+            source_item_id="never-verified",
+            source_url="/mall/mercari/detail/never-verified",
+            source_price=900,
+            source_currency="JPY",
+            availability="available",
+        ),
+    )
+
+    queued = list_discovery_detail_queue(db_path, pool.id, limit=1)
+
+    assert [candidate.id for candidate in queued] == [unverified_id]
+
+
 def test_init_db_quarantines_pre_epoch_unverified_detail_debt_once(tmp_path: Path) -> None:
     """Old search cards must not starve the first real detail-first batch."""
 

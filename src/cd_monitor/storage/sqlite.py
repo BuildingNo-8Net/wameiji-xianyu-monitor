@@ -2202,7 +2202,10 @@ def list_discovery_detail_queue(
                   AND datetime(detail_verified_at) <= datetime(CURRENT_TIMESTAMP, ?)
                 )
               )
-            ORDER BY datetime(first_seen_at) ASC, id ASC
+            ORDER BY
+              CASE WHEN detail_verified = 0 THEN 0 ELSE 1 END,
+              datetime(first_seen_at) ASC,
+              id ASC
             LIMIT ?
             """,
             (
