@@ -124,6 +124,34 @@ def test_pages_build_includes_the_automatic_selection_board(tmp_path: Path) -> N
     assert "sigmerchantimg" in script
 
 
+def test_pages_build_fingerprints_runtime_configuration(tmp_path: Path) -> None:
+    """A deployment must not reuse an earlier API endpoint from browser cache."""
+
+    root = Path(__file__).resolve().parents[1]
+    destination = tmp_path / "site"
+
+    subprocess.run(
+        [
+            sys.executable,
+            "scripts/build_pages.py",
+            "--api-base",
+            "https://collector.example",
+            "--dest",
+            str(destination),
+        ],
+        cwd=root,
+        check=True,
+    )
+
+    index = (destination / "index.html").read_text(encoding="utf-8")
+    generated = list(destination.glob("runtime-config.*.js"))
+    assert len(generated) == 1
+    assert generated[0].name in index
+    assert 'apiBase: "https://collector.example"' in generated[0].read_text(
+        encoding="utf-8"
+    )
+
+
 def test_pages_build_copies_verified_snapshot_and_images(tmp_path: Path) -> None:
     root = Path(__file__).resolve().parents[1]
     destination = tmp_path / "site"
