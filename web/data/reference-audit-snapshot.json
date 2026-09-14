@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:35:33.271784+00:00",
+  "generated_at": "2026-09-14T17:37:51.727961+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 53 条双侧记录中，挖煤姬页面已复核 20 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 53 条双侧记录中，挖煤姬页面已复核 21 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 53,
-    "wameiji_platform_found_count": 20,
+    "wameiji_platform_found_count": 21,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -1340,26 +1340,26 @@
       "reference_product_id": 118,
       "stable_key": "sample:a950f8bcd52ac6bc24d0e3f49daa1a39106197937a390e9686dca4243a4d070c",
       "wameiji": {
-        "title": "EGOIST 当事者 期间生产限定盘 CD+Blu-ray",
-        "version_evidence": "Mercari Shops当前在库1件；明确规格为期间生产限定盘Blu-ray Disc付，品番VVCL-2243、JAN 4547366610642，2023-05-10发行。",
+        "title": "EGOIST / 当事者 Blu-ray付期間生産限定盤",
+        "version_evidence": "VVCL-2243; 2023-05-10; CD+Blu-ray; 期间生产限定盘；Digipak。抽选券/明信片/序列号及附纸均不保证。",
         "catalog_no": "VVCL-2243",
-        "barcode": "4547366610642",
-        "price": 2200.0,
+        "barcode": null,
+        "price": 1174.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/5ngbC5B7PPeqVS3XWrTSQD",
-        "observed_at": "2026-09-14T05:43:18Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576b77337033434c6a43615745726669596242382f",
+        "observed_at": "2026-09-14T17:37:51Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "EGOIST 当事者 日版期间生产限定 CD+BD",
-        "version_evidence": "闲鱼当前检索结果明确列出当事者、日版、期间限定CD+BD；全新未拆条目说明带原包装膜袋、四角尖、现货最后一份。",
-        "catalog_no": "VVCL-2243",
-        "barcode": "4547366610642",
-        "price": 188.0,
+        "title": "EGOIST 当事者 期间生产限定版 CD+BD",
+        "version_evidence": "闲鱼现货页明确为CD+BD、日版正版、全新未拆；未提供品番，无法以编号锁定。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 200.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=EGOIST%20%E5%BD%93%E4%BA%8B%E8%80%85%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A%20CD%2BBD",
-        "observed_at": "2026-09-14T05:43:43Z",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.2.4bf5152dnHU2pY&id=1020304049843&categoryId=126864811",
+        "observed_at": "2026-09-14T17:37:51Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
