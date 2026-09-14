@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:33:11.950827+00:00",
+  "generated_at": "2026-09-14T18:49:51.702571+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 27 条双侧记录中，挖煤姬页面已复核 50 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 25 条双侧记录中，挖煤姬页面已复核 58 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 27,
-    "wameiji_platform_found_count": 50,
-    "found_any_count": 95,
-    "not_currently_listed_both_count": 27
+    "both_found_count": 25,
+    "wameiji_platform_found_count": 58,
+    "found_any_count": 94,
+    "not_currently_listed_both_count": 29
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 27
+      "count": 25
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 33
+      "count": 30
     },
     {
       "wameiji": "not_currently_listed",
@@ -29,7 +29,7 @@
     {
       "wameiji": "price_unfavorable",
       "xianyu": "found",
-      "count": 2
+      "count": 5
     },
     {
       "wameiji": "blocked",
@@ -39,7 +39,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 27
+      "count": 29
     },
     {
       "wameiji": "price_unfavorable",
@@ -268,62 +268,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1054559572404&categoryId=126864811",
         "observed_at": "2026-09-14T17:44:42Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 62,
-      "stable_key": "sample:bff8940f0463daa789c026a5da0ed2842d7aea3fc8c1f9904c2956ae54a10a42",
-      "wameiji": {
-        "title": "米津玄師 IRIS OUT レコード チェンソーマン JANE DOE",
-        "version_evidence": "人工打开详情：新品未开封，¥4,299，2天前上架；标题和说明只出现IRIS OUT/JANE DOE，未出现KICK BACK、版号、转速或欧洲限定信息。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 4299.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m68662771879",
-        "observed_at": "2026-09-14T03:42:11Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK 黑胶 LP（在售检索结果）",
-        "version_evidence": "人工逐页浏览的当前结果：¥178新品未拆卖家称含A面IRIS OUT、JANE DOE、KICK BACK及B面三首KICK BACK混音；同页其他卖家对33/45 RPM、欧洲版、预售/现货说法互相冲突，未能锁定与样本完全相同版次。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 178.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=IRIS%20OUT%20JANE%20DOE%20KICK%20BACK%20%E9%BB%91%E8%83%B6%20LP",
-        "observed_at": "2026-09-14T03:42:09Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 72,
-      "stable_key": "sample:dbe0251491b62a24a6dc1f6b19e4836db50a991ceeefa10f9a2f940fe3de6305",
-      "wameiji": {
-        "title": "【CD】milet / Made of Glass(通常盤) (SECL-3339)",
-        "version_evidence": "通常盘 CD album；SECL-3339；JAN 4547366822137；2026-08-19；16曲；库存剩1",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 3850.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JWJvNSivH5R8Vcb8KGDzW",
-        "observed_at": "2026-09-14T03:59:18Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "milet Made of Glass 四专 通常盘 日版CD，全新未拆",
-        "version_evidence": "通常盘 CD only；闲鱼结果明确标注日版首版、全新不拆，15曲；不含另售A4文件夹",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 185.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E6%97%A5%E7%89%88%20%E9%80%9A%E5%B8%B8%E7%9B%98",
-        "observed_at": "2026-09-14T03:59:01Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }

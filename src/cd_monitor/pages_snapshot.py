@@ -422,11 +422,14 @@ def export_reference_audit_snapshot(
         pair_counts[(wameiji_state, xianyu_state)] = (
             pair_counts.get((wameiji_state, xianyu_state), 0) + 1
         )
-        if wameiji_state == "found" or xianyu_state == "found":
+        if wameiji_state in {"found", "price_unfavorable"} or xianyu_state in {
+            "found",
+            "price_unfavorable",
+        }:
             found_any_count += 1
         wameiji_observation = public_observation(row, "wameiji")
         if (
-            wameiji_state == "found"
+            wameiji_state in {"found", "price_unfavorable"}
             and bool(wameiji_observation["is_wameiji_platform"])
         ):
             wameiji_platform_found_count += 1

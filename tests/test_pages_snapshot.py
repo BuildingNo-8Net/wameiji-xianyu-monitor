@@ -146,7 +146,8 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
               note TEXT
             );
             INSERT INTO reference_products (id, stable_key) VALUES
-              (1, 'reference:one'), (2, 'reference:two'), (3, 'reference:three');
+              (1, 'reference:one'), (2, 'reference:two'), (3, 'reference:three'),
+              (4, 'reference:four');
             INSERT INTO reference_market_observations
               (id, reference_product_id, market, observation_state, observed_at, observed_title,
                version_evidence, catalog_no, barcode, price, currency, source_url, note)
@@ -162,6 +163,10 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
               (5, 3, 'wameiji', 'not_currently_listed', '2026-09-14T01:04:00Z', NULL,
                NULL, NULL, NULL, NULL, NULL, NULL, 'private note'),
               (6, 3, 'xianyu', 'not_currently_listed', '2026-09-14T01:05:00Z', NULL,
+               NULL, NULL, NULL, NULL, NULL, NULL, 'private note'),
+              (7, 4, 'wameiji', 'price_unfavorable', '2026-09-14T01:06:00Z', 'Japan expensive',
+               'Exact LP', 'LP-1', '444', 4600, 'JPY', 'https://meruki.cn/mall/mercari/detail/four', 'private note'),
+              (8, 4, 'xianyu', 'not_currently_listed', '2026-09-14T01:07:00Z', NULL,
                NULL, NULL, NULL, NULL, NULL, NULL, 'private note');
             """
         )
@@ -176,10 +181,10 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
 
     payload = json.loads(result.snapshot_path.read_text(encoding="utf-8"))
     assert payload["summary"] == {
-        "reference_product_count": 3,
+        "reference_product_count": 4,
         "both_found_count": 1,
-        "wameiji_platform_found_count": 0,
-        "found_any_count": 2,
+        "wameiji_platform_found_count": 1,
+        "found_any_count": 3,
         "not_currently_listed_both_count": 1,
     }
     assert payload["state_pairs"] == [
@@ -190,6 +195,7 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
             "xianyu": "not_currently_listed",
             "count": 1,
         },
+        {"wameiji": "price_unfavorable", "xianyu": "not_currently_listed", "count": 1},
     ]
     assert payload["dual_found_pairs"] == [
         {
