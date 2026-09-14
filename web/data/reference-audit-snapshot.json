@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:53:23.806094+00:00",
+  "generated_at": "2026-09-14T17:54:19.241354+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 48 条双侧记录中，挖煤姬页面已复核 30 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 47 条双侧记录中，挖煤姬页面已复核 30 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 48,
+    "both_found_count": 47,
     "wameiji_platform_found_count": 30,
-    "found_any_count": 99,
-    "not_currently_listed_both_count": 23
+    "found_any_count": 98,
+    "not_currently_listed_both_count": 24
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 48
+      "count": 47
     },
     {
       "wameiji": "found",
@@ -39,7 +39,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 23
+      "count": 24
     },
     {
       "wameiji": "price_unfavorable",
@@ -1136,34 +1136,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
         "observed_at": "2026-09-14T05:38:52Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 116,
-      "stable_key": "sample:00a377b0aac9c07415fdb2b9b5d77a1a5800613f87a237d20fc427b6f3c6ab86",
-      "wameiji": {
-        "title": "FINAL FANTASY X ザナルカンドにて Compilation Album / FFX 25th Anniversary To Zanarkand Album CD",
-        "version_evidence": "Mercari当前条目明确说明为FFX 25th Anniversary To Zanarkand Album，收录ザナルカンドにて的15个改编版本，格式CD；匹配样本会场限定合辑而非一般FFX原声。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 3400.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m82652747780",
-        "observed_at": "2026-09-14T05:41:02Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "FINAL FANTASY X 25th Anniversary To Zanarkand Compilation Album CD",
-        "version_evidence": "闲鱼当前代购页正文明确写FFX 25th Anniversary To Zanarkand Album、15种ザナルカンドにて改编、CD、全新未拆；与样本合辑一致。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 185.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1078183639126&categoryId=126862148",
-        "observed_at": "2026-09-14T05:41:28Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
