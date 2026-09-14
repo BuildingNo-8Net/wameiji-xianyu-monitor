@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:17:47.041714+00:00",
+  "generated_at": "2026-09-14T18:19:25.172278+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 34 条双侧记录中，挖煤姬页面已复核 42 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 33 条双侧记录中，挖煤姬页面已复核 43 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 34,
-    "wameiji_platform_found_count": 42,
+    "both_found_count": 33,
+    "wameiji_platform_found_count": 43,
     "found_any_count": 97,
     "not_currently_listed_both_count": 25
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 34
+      "count": 33
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 27
+      "count": 28
     },
     {
       "wameiji": "not_currently_listed",
@@ -464,34 +464,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076551457469&categoryId=126862148",
         "observed_at": "2026-09-14T17:41:33Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 88,
-      "stable_key": "jan:0602478377792",
-      "wameiji": {
-        "title": "藤井風 Prema Colored Vinyl アナログ盤／輸入盤 未開封",
-        "version_evidence": "进口Colored Vinyl，Prema第三张全英文专辑，9曲含Casket Girl、I Need U Back、Hachiko、Love Like This、Prema；与样本进口透明胶LP方向对应。页面正文未列0602478377792，条码待实物封底核验",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 7000.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m12464843709",
-        "observed_at": "2026-09-14T04:23:51Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "藤井风 Prema 三专黑胶 LP 国际版透明胶 全新未开封",
-        "version_evidence": "卖家明确国际版透明胶、全新未开封；与样本排除欧版/日版的进口透明胶方向相符。页面未展示样本条码0602478377792",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 245.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E8%97%A4%E4%BA%95%E9%A3%8E%20Prema%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T04:23:51Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
