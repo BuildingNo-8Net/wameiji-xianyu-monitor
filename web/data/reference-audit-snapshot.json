@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T16:36:22.002911+00:00",
+  "generated_at": "2026-09-14T16:37:37.227341+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 1 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1576,14 +1576,14 @@
         "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "supercell My Dearest 罪恶王冠OP 初回限定 CD+DVD + 原袋侧标卡牌应募券",
-        "version_evidence": "闲鱼当前条目明确为罪恶王冠主题曲My Dearest初回限定CD+DVD，带原袋、侧标、卡牌和应募券；曲目与样本一致。",
+        "title": "罪恶王冠主题曲 My Dearest CD+DVD 初回限定盘",
+        "version_evidence": "初回限定 CD+DVD；无侧封；带卡牌和应募券；盘面完美。该附件组合与挖煤姬的特典卡版接近但不完全相同。",
         "catalog_no": null,
         "barcode": null,
-        "price": 158.0,
+        "price": 144.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=supercell%20My%20Dearest%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20CD%2BDVD",
-        "observed_at": "2026-09-14T05:53:06Z",
+        "source_url": "https://www.goofish.com/item?id=1037357615567&categoryId=126864811",
+        "observed_at": "2026-09-14T16:37:36Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
