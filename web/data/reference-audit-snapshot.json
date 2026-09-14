@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T16:47:45.088851+00:00",
+  "generated_at": "2026-09-14T16:50:45.322402+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 4 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 5 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 56,
-    "wameiji_platform_found_count": 4,
+    "wameiji_platform_found_count": 5,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -52,26 +52,26 @@
       "reference_product_id": 2,
       "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
       "wameiji": {
-        "title": "Under-Mentality-initial-limited-CD-Blu-ray",
-        "version_evidence": "initial-limited-CD-Blu-ray-bonus-condition-pending",
-        "catalog_no": null,
+        "title": "【中古】アニメ系CD ツユ / アンダーメンタリティ[Blu-ray付初回限定盤]",
+        "version_evidence": "PCCA-6204; 初回限定盘 CD+Blu-ray; 含スリーヴケース; 2023-06-21; 状态通常/没有明显损伤或污渍",
+        "catalog_no": "PCCA-6204",
         "barcode": null,
-        "price": 10000.0,
+        "price": 13925.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m75853529309",
-        "observed_at": "2026-09-13T16:22:59Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d34543241356a57524a6848387a553933757a2f",
+        "observed_at": "2026-09-14T16:50:34Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "TUYU-Under-Mentality-initial-limited-CD-BD-booklet-slipcase",
-        "version_evidence": "initial-limited-CD-BD-booklet-slipcase-bonus;source-screenshot-only-says-initial-limited",
+        "title": "TUYU（ツユ）3rd专辑 Under Mentality 初回限定 BD蓝光版",
+        "version_evidence": "初回限定 CD+BD蓝光+画册+三方背硬盒; 全套配件; 几乎全新; 标价800元包邮",
         "catalog_no": null,
         "barcode": null,
         "price": 800.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1080956335537",
-        "observed_at": "2026-09-13T16:23:11Z",
+        "observed_at": "2026-09-14T16:50:34Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
