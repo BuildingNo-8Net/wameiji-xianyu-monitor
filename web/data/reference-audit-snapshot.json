@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:20:53.867063+00:00",
+  "generated_at": "2026-09-14T17:22:33.045312+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 13 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 14 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 55,
-    "wameiji_platform_found_count": 13,
+    "wameiji_platform_found_count": 14,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -1284,26 +1284,26 @@
       "reference_product_id": 113,
       "stable_key": "sample:940ec4a7b6149823c65d365a4e998430bfb3f0ee550f4637d06d2bd90d25b57c",
       "wameiji": {
-        "title": "Ado 狂言 1st LP 完全生产限定 2LP 全新未开封",
-        "version_evidence": "Mercari item m56300190259: Ado 狂言 complete production limited analog record, 2LP, new unused and unopened. Seller says bought from Tower Records in 2023 and dark-stored; posted 1 day ago.",
+        "title": "Ado 狂言 LP アナログ レコード 完全生産限定盤 2枚組 新品 未開封",
+        "version_evidence": "完全生産限定盤；LPアナログ2枚組；新品未使用・未開封",
         "catalog_no": null,
         "barcode": null,
-        "price": 35000.0,
+        "price": 33000.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m56300190259",
-        "observed_at": "2026-09-14T05:35:45Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35363330303139303235392f",
+        "observed_at": "2026-09-14T17:22:33Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "Ado 狂言 1st LP 日版完全生产限定 2LP 全新未拆",
-        "version_evidence": "Manual Chrome search showed a full-price domestic card: Ado 狂言 Japanese complete production limited edition, 2LP, factory wrap intact, stated as in-stock. Seller asserts official authenticity. Lower-priced card at CNY 800 was excluded because identity evidence was insufficient against the Japan-market price context.",
+        "title": "全新现货 Ado《狂言》黑胶 日版完全生产限定盘",
+        "version_evidence": "日版完全生产限定盘；2LP黑胶；全新未拆、塑封完整",
         "catalog_no": null,
         "barcode": null,
         "price": 2300.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Ado%20%E7%8B%82%E8%A8%80%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%202LP%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:36:14Z",
+        "source_url": "https://www.goofish.com/item?id=1067631204594&categoryId=126864811",
+        "observed_at": "2026-09-14T17:22:33Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
