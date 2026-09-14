@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T16:54:07.103838+00:00",
+  "generated_at": "2026-09-14T17:07:49.080875+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 7 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 8 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 56,
-    "wameiji_platform_found_count": 7,
+    "both_found_count": 55,
+    "wameiji_platform_found_count": 8,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 56
+      "count": 55
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 9
+      "count": 10
     },
     {
       "wameiji": "not_currently_listed",
@@ -72,34 +72,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1080956335537",
         "observed_at": "2026-09-14T16:50:34Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 4,
-      "stable_key": "sample:2ab9b3aa29d6a05cfaaf3b6497f8ba709e3fbd135fb92451f5ae383cc3312334",
-      "wameiji": {
-        "title": "Hamidashi-Creative-Totsu-first-edition",
-        "version_evidence": "exact-search-result-title-initial-edition-condition-and-bonus-pending",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 10585.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JMjbHLNWzNmqUJQsykdaf",
-        "observed_at": "2026-09-13T16:32:53Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "Hamidashi-Creative-Totsu-first-limited-edition",
-        "version_evidence": "exact-title-transliteration-current-search-result-complete-booklet-and-artwork",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 80.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=HamidashiCreativeTotsuFirstEdition",
-        "observed_at": "2026-09-13T16:32:54Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
