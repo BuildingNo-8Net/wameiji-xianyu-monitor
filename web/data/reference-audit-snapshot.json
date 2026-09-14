@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:25:47.769209+00:00",
+  "generated_at": "2026-09-14T17:27:06.886953+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 54 条双侧记录中，挖煤姬页面已复核 16 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 54 条双侧记录中，挖煤姬页面已复核 17 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 54,
-    "wameiji_platform_found_count": 16,
+    "wameiji_platform_found_count": 17,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -1144,26 +1144,26 @@
       "reference_product_id": 108,
       "stable_key": "sample:54e0dcfb28f13c4bb7d786be4a8d04a4814407a241fa1718f1861f89df922b25",
       "wameiji": {
-        "title": "ヨルシカ 幻燈 音楽画集 加藤隆 25曲対応",
-        "version_evidence": "Mercari item m51414436751 is a current purchasable exact music art book: description says it is an audio-enabled art book with paintings by Takashi Kato and music by Yorushika. It was opened, displayed on a shelf, and is near-unused; no lottery ticket or sealed condition claimed.",
+        "title": "【美品・帯あり】ヨルシカ 幻燈 音楽画集アルバム 加藤隆 アルバム",
+        "version_evidence": "ヨルシカ音楽・加藤隆作画的可聆听音乐画集；带腰封；本体近未使用",
         "catalog_no": null,
         "barcode": null,
-        "price": 10000.0,
+        "price": 9999.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m51414436751",
-        "observed_at": "2026-09-14T05:26:37Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37383033363535353939382f",
+        "observed_at": "2026-09-14T17:27:06Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "ヨルシカ 幻灯 音乐画集 加藤隆 全新未拆",
-        "version_evidence": "Manual Chrome search showed a domestic current listing titled yorushika夜鹿幻灯画集 全新未拆封 可直拍当天发货. Other direct cards confirm the same Yorushika x Takashi Kato music art book. No historical lottery ticket or poster is recorded as available.",
+        "title": "夜鹿 幻灯 音乐画集",
+        "version_evidence": "加藤隆作画、Yorushika乐曲；当前描述未声明成色、外袋、QR使用状态或特典",
         "catalog_no": null,
         "barcode": null,
-        "price": 1000.0,
+        "price": 450.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E3%83%A8%E3%83%AB%E3%82%B7%E3%82%AB%20%E5%B9%BB%E7%81%AF%20%E5%8A%A0%E8%97%A4%E9%9A%86%20%E9%9F%B3%E4%B9%90%E7%94%BB%E9%9B%86%20%E5%85%A8%E6%96%B0",
-        "observed_at": "2026-09-14T05:27:01Z",
+        "source_url": "https://www.goofish.com/item?id=1066763813328&categoryId=126860296",
+        "observed_at": "2026-09-14T17:27:06Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
