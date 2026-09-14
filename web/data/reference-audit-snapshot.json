@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:42:51.353997+00:00",
+  "generated_at": "2026-09-14T17:44:42.143250+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 51 条双侧记录中，挖煤姬页面已复核 24 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 51 条双侧记录中，挖煤姬页面已复核 25 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 51,
-    "wameiji_platform_found_count": 24,
+    "wameiji_platform_found_count": 25,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -248,26 +248,26 @@
       "reference_product_id": 61,
       "stable_key": "jan:4988031460023",
       "wameiji": {
-        "title": "宇多田ヒカル『First Love』アナログ盤／生産限定盤【未開封】",
-        "version_evidence": "人工 Chrome 商品页：未开封、新品未使用、4小时前；明确180g双LP、2014 Remastered、含First Love-John Luongo Remix。页面当时未向辅助信息展示价格，未猜填",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
+        "title": "Hikaru Utada First Love Limited Edition 180g 2LP",
+        "version_evidence": "Current Rakuten page: UPJY-9202/3, JAN 4988031460023, 2 records, manufactured 2022, released 2022-03-10; limited-production 180g edition with First Love - John Luongo Remix bonus track.",
+        "catalog_no": "UPJY-9202/3",
+        "barcode": "4988031460023",
+        "price": 5014.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m18620474340",
-        "observed_at": "2026-09-14T03:39:28Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fmifsoft%2Fupjy-9202%2F",
+        "observed_at": "2026-09-14T17:44:42Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "宇多田光 First Love 黑胶日版LP 2022完全生产限定版",
-        "version_evidence": "人工 Chrome 精确检索唯一命中：¥275，全新未拆，1999首专之2022完全生产限定版、180g双胶片、日版正版",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 275.0,
+        "title": "Hikaru Utada First Love Japanese 2022 reissue 2LP, new domestic stock",
+        "version_evidence": "Current domestic listing explicitly states UPJY-9202/3, Japanese 2022 reissue, 180g 2LP, 14 tracks and new/unused condition.",
+        "catalog_no": "UPJY-9202/3",
+        "barcode": "4988031460023",
+        "price": 388.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1023507423621&categoryId=202061902",
-        "observed_at": "2026-09-14T03:39:32Z",
+        "source_url": "https://www.goofish.com/item?id=1054559572404&categoryId=126864811",
+        "observed_at": "2026-09-14T17:44:42Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
