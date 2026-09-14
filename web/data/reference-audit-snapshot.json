@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:37:51.727961+00:00",
+  "generated_at": "2026-09-14T17:40:23.708955+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 53 条双侧记录中，挖煤姬页面已复核 21 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 52 条双侧记录中，挖煤姬页面已复核 22 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 53,
-    "wameiji_platform_found_count": 21,
+    "both_found_count": 52,
+    "wameiji_platform_found_count": 22,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 53
+      "count": 52
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 12
+      "count": 13
     },
     {
       "wameiji": "not_currently_listed",
@@ -660,34 +660,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=Aimer%20After%20Dark%20%E6%97%A5%E7%89%88%20CD%20DFCL-2046",
         "observed_at": "2026-09-14T04:21:01Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 86,
-      "stable_key": "jan:4988018102540",
-      "wameiji": {
-        "title": "LP(30cm) / 坂本龍一 / 1996 30th Anniversary Edition (完全生産限定盤)",
-        "version_evidence": "FLJG-9012，JAN 4988018102540，2026-04-08发售，完全生产限定盘；与样本30周年日版黑胶对应。当前可见正文仅展开A/B面，2LP全套结构须以实物或展开后的C/D面复核",
-        "catalog_no": "FLJG-9012",
-        "barcode": "4988018102540",
-        "price": 7700.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JVuQmyfof7AvLNo8wM728",
-        "observed_at": "2026-09-14T04:22:01Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "特惠现货 坂本龙一 1996 30周年 30th Anniversary Edition 日本完全生产限定双黑胶2LP",
-        "version_evidence": "卖家明确30周年、日版完全生产限定、双黑胶2LP、全新未拆；样本同为2026-04-08发售30周年2LP",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 425.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80%201996%2030%E5%91%A8%E5%B9%B4%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T04:22:01Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
