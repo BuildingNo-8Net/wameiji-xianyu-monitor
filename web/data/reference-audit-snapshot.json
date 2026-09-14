@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:08:20.931809+00:00",
+  "generated_at": "2026-09-14T18:10:07.156365+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 40 条双侧记录中，挖煤姬页面已复核 37 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 39 条双侧记录中，挖煤姬页面已复核 38 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 40,
-    "wameiji_platform_found_count": 37,
+    "both_found_count": 39,
+    "wameiji_platform_found_count": 38,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 40
+      "count": 39
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 23
+      "count": 24
     },
     {
       "wameiji": "not_currently_listed",
@@ -380,34 +380,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=LiSA%20BEST-Way-%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4",
         "observed_at": "2026-09-14T03:54:25Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 71,
-      "stable_key": "sample:127ddd6fc3102fb03d7d5db1ecc09010287607a8eafffd16340ad1a7536eb975",
-      "wameiji": {
-        "title": "CD / milet / Made of Glass (CD+2DVD) (初回生産限定盤)",
-        "version_evidence": "人工打开详情：¥14,300包邮、新品未使用、18日前；SECL-3335，JAN 4547366822120，2026-08-19，CD+2DVD初回盘。",
-        "catalog_no": "SECL-3335",
-        "barcode": "4547366822120",
-        "price": 14300.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JVuQi2P9DcqA3RcaZiHAs",
-        "observed_at": "2026-09-14T03:56:00Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "milet Made of Glass 初回限定盘 CD+2DVD（卖家规格为准）",
-        "version_evidence": "人工Chrome精确检索：¥699全款包邮含税，当前现货；卖家明确初回有CD+BD和CD+2DVD两种。与样本标题的2BD说法冲突，故不将其视作已验证规格。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 699.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%98%20CD%202Blu-ray",
-        "observed_at": "2026-09-14T03:56:46Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
