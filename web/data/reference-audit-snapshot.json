@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:02:24+00:00",
+  "generated_at": "2026-09-14T18:03:27+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 43 条双侧记录中，挖煤姬页面已复核 34 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 42 条双侧记录中，挖煤姬页面已复核 35 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 43,
-    "wameiji_platform_found_count": 34,
+    "both_found_count": 42,
+    "wameiji_platform_found_count": 35,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 43
+      "count": 42
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 20
+      "count": 21
     },
     {
       "wameiji": "not_currently_listed",
@@ -492,34 +492,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.4.2474719aI08nYr&id=1083698476054&categoryId=126864811",
         "observed_at": "2026-09-14T17:35:33Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 81,
-      "stable_key": "sample:b71bd68b25f439bb1ba89f6a51ce730b2bcaec68d53275e6b070da402ee330ab",
-      "wameiji": {
-        "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set Reconstructed Edition クリア・ヴァイナル",
-        "version_evidence": "透明色2LP；SQEX-11185；JAN 4988601471947；新品未開封、库存1；封入MP3下载码",
-        "catalog_no": "SQEX-11185",
-        "barcode": "4988601471947",
-        "price": 19800.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JTNc7fsMTBRmpxUdwqdL2",
-        "observed_at": "2026-09-14T04:15:43Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "尼尔机械纪元/人工生命 Reconstructed Edition 透明胶2LP",
-        "version_evidence": "透明胶2LP；全新未拆；卖家称含展示架与DLC下载码，35曲；同一规格",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 899.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=NieR%20Automata%20Gestalt%20Replicant%20Reconstructed%20Edition%202LP%20%E9%80%8F%E6%98%8E%E8%83%B6",
-        "observed_at": "2026-09-14T04:15:30Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
