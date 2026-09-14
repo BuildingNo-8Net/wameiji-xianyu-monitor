@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T00:32:41.100276+08:00",
+  "generated_at": "2026-09-14T16:36:22.002911+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 0 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 1 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 56,
-    "wameiji_platform_found_count": 0,
+    "wameiji_platform_found_count": 1,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -1564,16 +1564,16 @@
       "reference_product_id": 123,
       "stable_key": "sample:8eca2b4954af65dc107ed855efa7769426b259d852d12b3d684b4644c4b1a5f3",
       "wameiji": {
-        "title": "supercell My Dearest 初回生产限定盘 CD+DVD + 特典卡",
-        "version_evidence": "Mercari当前条目明确为My Dearest初回限定盘CD+DVD，含特典卡，罪恶王冠关联；照片中的内容即全部。",
+        "title": "【特典付き】My Dearest supercell 初回限定盤 CD アニメ",
+        "version_evidence": "初回限定盤 CD+DVD；特典カード付き。商品说明写明照片所示即全部；唱片与外盒整体干净，状态为无明显伤污。",
         "catalog_no": null,
         "barcode": null,
         "price": 1600.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m34135105020",
-        "observed_at": "2026-09-14T05:52:20Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33343133353130353032302f",
+        "observed_at": "2026-09-14T16:35:41Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
         "title": "supercell My Dearest 罪恶王冠OP 初回限定 CD+DVD + 原袋侧标卡牌应募券",
