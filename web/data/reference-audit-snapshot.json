@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:24:05.846843+00:00",
+  "generated_at": "2026-09-14T17:25:47.769209+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 54 条双侧记录中，挖煤姬页面已复核 15 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 54 条双侧记录中，挖煤姬页面已复核 16 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 54,
-    "wameiji_platform_found_count": 15,
+    "wameiji_platform_found_count": 16,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -612,26 +612,26 @@
       "reference_product_id": 82,
       "stable_key": "jan:4547366548556",
       "wameiji": {
-        "title": "【新品未開封】【入手困難レコード】宇多田ヒカルBADモード＜180g重量盤＞",
-        "version_evidence": "手工搜索结果卡标价6480日元，标题明确新品未开封与180g重量盘；详情页正文仅确认新品未使用LP，未在文字中列出 ESJL-3123-4、2LP 或完全限定版",
-        "catalog_no": null,
+        "title": "宇多田ヒカル / BADモード 【生産限定盤】(追加生産分 / 2枚組 / 180グラム重量盤レコード) 【LP】",
+        "version_evidence": "ESJL-3123；生産限定盤（追加生産分）；2枚組180g重量盤LP；新品",
+        "catalog_no": "ESJL-3123",
         "barcode": null,
-        "price": 6480.0,
+        "price": 5093.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m69677308373",
-        "observed_at": "2026-09-14T04:18:43Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhmvjapan%2F12565453%2F",
+        "observed_at": "2026-09-14T17:25:47Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
         "title": "宇多田光 BAD模式 LP唱片 日本代购",
-        "version_evidence": "卖家页面称完全生产限定盘、2张装黑胶、180g，Epic ESJL-3123/42；样本封面为 ESJL-3123-4，卖家斜杠写法存疑",
-        "catalog_no": null,
+        "version_evidence": "完全生产限定盘；2张装180g黑胶；ESJL-3123/42（卖家写法）",
+        "catalog_no": "ESJL-3123",
         "barcode": null,
         "price": 1184.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1046558259171&categoryId=126862148",
-        "observed_at": "2026-09-14T04:18:35Z",
+        "observed_at": "2026-09-14T17:25:47Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
