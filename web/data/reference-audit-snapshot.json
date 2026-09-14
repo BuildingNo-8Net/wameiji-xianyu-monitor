@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T16:37:37.227341+00:00",
+  "generated_at": "2026-09-14T16:43:04.320706+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 1 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 2 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 56,
-    "wameiji_platform_found_count": 1,
+    "wameiji_platform_found_count": 2,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -1116,26 +1116,26 @@
       "reference_product_id": 106,
       "stable_key": "sample:33c23769f83f85146973c4589645fc933d0dc5c4e439bb6692a662f7263f573e",
       "wameiji": {
-        "title": "EGOIST The Everlasting Guilty Crown 初回 CD+DVD 同版 已使用",
-        "version_evidence": "Mercari item m70655374511 explicitly contains The Everlasting Guilty Crown by EGOIST, CD plus DVD. Current item posted 1 day ago; condition is used with no noticeable damage.",
+        "title": "アニメCD EGOIST カード付)The Everlasting Guilty Crown/DVD付限定盤",
+        "version_evidence": "卡片附属、DVD 限定盘。品相为有些许伤污：唱片有损伤，解说与腰封为普通品相；商品页警告实际状态可能与参考图不同。",
         "catalog_no": null,
         "barcode": null,
-        "price": 555.0,
+        "price": 990.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m70655374511",
-        "observed_at": "2026-09-14T05:21:16Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/market/detail/569747975801282560?shopid=149720279596601344",
+        "observed_at": "2026-09-14T16:43:02Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "EGOIST The Everlasting Guilty Crown 日版初回限定 CD+DVD 全新未拆",
-        "version_evidence": "Manual card: The Everlasting Guilty Crown EGOIST Japanese first-limited CD+DVD, factory self-seal, unopened, current stock. Seller states no rattle and no visible case crack.",
+        "title": "罪恶王冠 EGOIST The Everlasting Guilty Crown 初回限定版 日版CD+DVD",
+        "version_evidence": "小卡齐全；外盒稍有磨损和小裂纹；光盘整体干净、约98新，可正常播放。该品相优于挖煤姬端“唱片有损伤”的记录，不能视作同成色利润对照。",
         "catalog_no": null,
         "barcode": null,
-        "price": 498.0,
+        "price": 85.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=EGOIST%20The%20Everlasting%20Guilty%20Crown%20%E5%88%9D%E5%9B%9E%20CD%20DVD",
-        "observed_at": "2026-09-14T05:21:39Z",
+        "source_url": "https://www.goofish.com/item?id=1075130454230&categoryId=126864811",
+        "observed_at": "2026-09-14T16:43:04Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
