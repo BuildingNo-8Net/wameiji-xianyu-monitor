@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:04:56+00:00",
+  "generated_at": "2026-09-14T18:08:20.931809+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 41 条双侧记录中，挖煤姬页面已复核 36 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 40 条双侧记录中，挖煤姬页面已复核 37 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 41,
-    "wameiji_platform_found_count": 36,
+    "both_found_count": 40,
+    "wameiji_platform_found_count": 37,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 41
+      "count": 40
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 22
+      "count": 23
     },
     {
       "wameiji": "not_currently_listed",
@@ -884,34 +884,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.71f11c6fEQsozC&id=1053881094998&categoryId=126864811",
         "observed_at": "2026-09-14T18:01:14Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 111,
-      "stable_key": "sample:4b9d9eceb4d076317f12b55d9211e66f0e9d3b656ba4571db9f349b8741a3657",
-      "wameiji": {
-        "title": "Ado WORLD TOUR 2025 Hibana 初回限定盘 Blu-ray 两碟组 写真集 明信片",
-        "version_evidence": "Mercari Shops product 2JNtzyJNeARHGBbNZP4tqx: domestic-Japan official new sealed initial limited Blu-ray, stock 1. Includes Saitama and Orlando Blu-ray discs, hard-cover case, live photo book, and glitter postcard. Current page does not state an application lottery serial, so none is claimed.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 14999.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JNtzyJNeARHGBbNZP4tqx",
-        "observed_at": "2026-09-14T05:31:44Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "Ado WORLD TOUR 2025 Hibana 初回限定蓝光 全新未拆",
-        "version_evidence": "Manual Chrome search showed a full-price domestic current individual listing for the initial limited Blu-ray, sealed, with calendar poster, at CNY 505. It matches the Hibana initial Blu-ray product. CNY 40-45 cards asserting initial Blu-ray were excluded as implausibly priced and lacking trustworthy edition-component evidence; multi-option cards were excluded.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 505.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Ado%20WORLD%20TOUR%202025%20Hibana%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20Blu-ray",
-        "observed_at": "2026-09-14T05:32:06Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
