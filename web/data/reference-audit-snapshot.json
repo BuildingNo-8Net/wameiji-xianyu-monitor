@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:22:33.045312+00:00",
+  "generated_at": "2026-09-14T17:24:05.846843+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 14 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 54 条双侧记录中，挖煤姬页面已复核 15 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 55,
-    "wameiji_platform_found_count": 14,
+    "both_found_count": 54,
+    "wameiji_platform_found_count": 15,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 55
+      "count": 54
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 10
+      "count": 11
     },
     {
       "wameiji": "not_currently_listed",
@@ -1192,34 +1192,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20for%20ART%20EDITION%20%E5%BD%A9%E8%83%B6",
         "observed_at": "2026-09-14T05:28:28Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 110,
-      "stable_key": "sample:51bb9ee0ad79a92236e6d2bd7a5b94f28ff66ac9fcff526a34e260ac1546d779",
-      "wameiji": {
-        "title": "n-buna 月を歩いている 初回生産限定盤 CD 絵本 花の咲いたカエル",
-        "version_evidence": "Mercari item m18205653066 lists exact first-press limited CD, catalog DUED-1149, with picture book 花の咲いたカエル. Condition is no noticeable damage with minor signs of use. The source opaque blue box is consistent; reclosable OPP outer sleeve is not independently stated on this listing.",
-        "catalog_no": "DUED-1149",
-        "barcode": null,
-        "price": 7999.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m18205653066",
-        "observed_at": "2026-09-14T05:29:17Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "n-buna 月を歩いている 初回限定 纸质收纳盒 可重复封口OPP套",
-        "version_evidence": "Manual Chrome search showed an exact domestic listing with the source configuration: n-buna 月を歩いている, first limited, paper storage box and reclosable transparent OPP sleeve. Normal plastic-case editions and CD-only cards were excluded. Current card does not independently state the source minor-use condition.",
-        "catalog_no": "DUED-1149",
-        "barcode": null,
-        "price": 888.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=n-buna%20%E6%9C%88%E3%82%92%E6%AD%A9%E3%81%84%E3%81%A6%E3%81%84%E3%82%8B%20%E5%88%9D%E5%9B%9E",
-        "observed_at": "2026-09-14T05:29:57Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
