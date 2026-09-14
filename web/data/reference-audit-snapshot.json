@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:03:27+00:00",
+  "generated_at": "2026-09-14T18:04:56+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 42 条双侧记录中，挖煤姬页面已复核 35 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 41 条双侧记录中，挖煤姬页面已复核 36 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 42,
-    "wameiji_platform_found_count": 35,
+    "both_found_count": 41,
+    "wameiji_platform_found_count": 36,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 42
+      "count": 41
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 21
+      "count": 22
     },
     {
       "wameiji": "not_currently_listed",
@@ -296,34 +296,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=IRIS%20OUT%20JANE%20DOE%20KICK%20BACK%20%E9%BB%91%E8%83%B6%20LP",
         "observed_at": "2026-09-14T03:42:09Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 63,
-      "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
-      "wameiji": {
-        "title": "めありー 彼はきっと魔法を使う。",
-        "version_evidence": "人工打开详情：¥30,000，2个月前；めありー翻唱Orangestar乐曲的专辑，含Animate购入特典CD；购买后避光保存，未能试听，盒有细小划痕，页面状态为无明显伤污。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 30000.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m66160678665",
-        "observed_at": "2026-09-14T03:44:16Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "Orangestar 彼はきっと魔法を使う。めありー CD",
-        "version_evidence": "人工Chrome精确检索首条：¥128；默认不含侧标边纸，整体标称九成新以上，卖家称约6–7周发货；另有¥155预售新品与¥124.5全新现货系列货源。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 128.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Orangestar%20%E5%BD%BC%E3%81%AF%E3%81%8D%E3%81%A3%E3%81%A8%E9%AD%94%E6%B3%95%E3%82%92%E4%BD%BF%E3%81%86%E3%80%82%20%E3%82%81%E3%81%82%E3%82%8A%E3%83%BC",
-        "observed_at": "2026-09-14T03:44:13Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
