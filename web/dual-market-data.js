@@ -1,7 +1,6 @@
 (function (global) {
   "use strict";
 
-  const MAX_LIVE_AGE_MS = 180 * 60 * 1000;
   const SNAPSHOT_PATH = "data/dual-market-snapshot.json";
   const POLICY_VERSION = "wameiji-xianyu-net-v2";
   const LEGACY_POLICY_VERSION = "wameiji-xianyu-net-v1";
@@ -114,6 +113,7 @@
           mode: "live_api",
           unavailable: false,
           stale: false,
+          historical: false,
         };
       } catch (error) {
         apiError = error;
@@ -128,12 +128,14 @@
       });
       if (!response.ok) throw new Error("GET snapshot -> " + response.status);
       const board = normalizedBoard(await response.json());
-      const generatedAtMs = Date.parse(board.generated_at || "");
       return {
         ...board,
         mode: "verified_static_snapshot",
         unavailable: false,
-        stale: !Number.isFinite(generatedAtMs) || Date.now() - generatedAtMs > MAX_LIVE_AGE_MS,
+        // A Pages snapshot is preserved evidence.  It must remain readable
+        // after the collection timestamp, with its timestamp shown in the UI.
+        stale: false,
+        historical: true,
         api_error: live ? errorText(apiError) : "",
       };
     } catch (snapshotError) {

@@ -26,7 +26,54 @@
     refreshing: false,
     liveApiBlocked: false,
     liveMode: false,
+    dismissedDualMarketComparisonIds: new Set(),
   };
+
+  const DISMISSED_DUAL_MARKET_COMPARISONS_KEY = "wameiji-xianyu.dismissed-dual-market-comparisons.v1";
+
+  function comparisonIdKey(value) {
+    const number = Number(value);
+    return Number.isSafeInteger(number) && number > 0 ? String(number) : "";
+  }
+
+  function loadDismissedDualMarketComparisonIds() {
+    try {
+      const stored = JSON.parse(window.localStorage.getItem(DISMISSED_DUAL_MARKET_COMPARISONS_KEY) || "[]");
+      return new Set(Array.isArray(stored) ? stored.map(comparisonIdKey).filter(Boolean) : []);
+    } catch (_) {
+      return new Set();
+    }
+  }
+
+  function saveDismissedDualMarketComparisonIds() {
+    try {
+      window.localStorage.setItem(
+        DISMISSED_DUAL_MARKET_COMPARISONS_KEY,
+        JSON.stringify(Array.from(view.dismissedDualMarketComparisonIds)),
+      );
+    } catch (_) {
+      // Private browsing or storage restrictions should not block the board.
+    }
+  }
+
+  function isDualMarketComparisonDismissed(comparisonId) {
+    return view.dismissedDualMarketComparisonIds.has(comparisonIdKey(comparisonId));
+  }
+
+  function dismissDualMarketComparison(comparisonId) {
+    const key = comparisonIdKey(comparisonId);
+    if (!key) return;
+    view.dismissedDualMarketComparisonIds.add(key);
+    saveDismissedDualMarketComparisonIds();
+    renderFeed();
+  }
+
+  function restoreDismissedDualMarketComparisons() {
+    if (!view.dismissedDualMarketComparisonIds.size) return;
+    view.dismissedDualMarketComparisonIds.clear();
+    saveDismissedDualMarketComparisonIds();
+    renderFeed();
+  }
 
   function esc(value) {
     if (value === null || value === undefined) return "";
@@ -107,10 +154,10 @@
       if (view.dualMarketBoard.mode === "verified_static_snapshot") {
         const when = timeLabel(view.dualMarketBoard.generated_at);
         setDiscoveryStatus(
-          view.dualMarketBoard.stale
-            ? "Pages 历史快照 · " + when + " · 不代表当前可买"
+          view.dualMarketBoard.historical
+            ? "Pages 历史快照 · " + when + " · 下单前重新核验"
             : "Pages 已核验快照 · " + when + " · 采集仅在本机运行",
-          view.dualMarketBoard.stale ? "paused_quality" : "idle",
+          "idle",
         );
         return;
       }
@@ -754,8 +801,13 @@
     const evidence = "匹配证据：同款键完全一致；两侧品相均为 "
       + String(item.xianyu.condition_group || "待核验")
       + "；闲鱼为搜索挂牌样本，挖煤姬为商品详情已核验。";
+    const comparisonId = comparisonIdKey(item.comparison_id);
+    const dismissControl = comparisonId
+      ? '<button class="dismiss-dual-market-card" type="button" data-dismiss-dual-market-card="' + esc(comparisonId) + '" aria-label="隐藏此机会卡" title="仅在本浏览器隐藏此卡，不删除公开原始记录">×</button>'
+      : "";
     return [
       '<article class="op-card discovery-op-card dual-market-card" data-dual-market-comparison-id="' + esc(item.comparison_id || "") + '">',
+        dismissControl,
         xianyuSide,
         '<div class="analysis">',
           '<div class="comparison-rail"><span>挖煤姬进货（JPY） → 闲鱼国内销售（CNY）</span></div>',
@@ -794,12 +846,14 @@
     const query = String(view.query || view.advancedFilter && view.advancedFilter.q || "").trim().toLowerCase();
     let eligible = Array.isArray(board.eligible) ? board.eligible.slice() : [];
     if (query) eligible = eligible.filter((item) => dualMarketSearchText(item).includes(query));
+    eligible = eligible.filter((item) => !isDualMarketComparisonDismissed(item.comparison_id));
     eligible.sort((left, right) => (
       (Number(right.calculation && right.calculation.expected_profit_cny) || 0)
       - (Number(left.calculation && left.calculation.expected_profit_cny) || 0)
     ));
     if (eligible.length) {
       target.innerHTML = eligible.map(eligibleComparisonCard).join("");
+      appendDismissedDualMarketRestore(target);
       appendSelectableCandidatePool(target);
       return;
     }
@@ -816,6 +870,7 @@
     ));
     if (verifiedPositiveCandidates.length) {
       target.innerHTML = verifiedPositiveCandidates.map(opportunityCard).join("");
+      appendDismissedDualMarketRestore(target);
       appendSelectableCandidatePool(target);
       return;
     }
@@ -825,8 +880,18 @@
     const below = Number(summary.below_margin_count) || 0;
     target.innerHTML = '<div class="empty-state">已评估 ' + esc(evaluated)
       + ' 条：成本待补 ' + esc(pending) + ' 条，当前未形成正利润 ' + esc(below)
-      + ' 条；当前没有净利润为正且成本证据完整的机会。页面不会用旧样本补卡。</div>';
+      + ' 条；当前没有尚未隐藏的净利润为正且成本证据完整的机会。</div>';
+    appendDismissedDualMarketRestore(target);
     appendSelectableCandidatePool(target);
+  }
+
+  function appendDismissedDualMarketRestore(target) {
+    const count = view.dismissedDualMarketComparisonIds.size;
+    if (!count) return;
+    target.insertAdjacentHTML(
+      "beforeend",
+      '<div class="dismissed-dual-market-restore"><span>已在此浏览器隐藏 ' + esc(count) + ' 张机会卡</span><button type="button" data-restore-dismissed-dual-market-cards>恢复已隐藏</button></div>',
+    );
   }
 
   function itemSearchText(item) {
@@ -1156,6 +1221,16 @@
       document.querySelector('[data-page="tasks"]')?.click();
     });
     document.getElementById("homeFeed")?.addEventListener("click", async (event) => {
+      const dismissButton = event.target.closest("[data-dismiss-dual-market-card]");
+      if (dismissButton) {
+        dismissDualMarketComparison(dismissButton.dataset.dismissDualMarketCard);
+        return;
+      }
+      const restoreButton = event.target.closest("[data-restore-dismissed-dual-market-cards]");
+      if (restoreButton) {
+        restoreDismissedDualMarketComparisons();
+        return;
+      }
       const button = event.target.closest("[data-selection-feedback]");
       if (!button) return;
       const candidateId = Number(button.dataset.candidateId);
@@ -1202,7 +1277,8 @@
     // listener. Queue one tick so this module always uses the same Page token.
     setTimeout(async () => {
       const api = window.CD_MONITOR_API;
-      const staticSnapshotOnly = new URLSearchParams(window.location.search).get("snapshot") === "1";
+      const staticSnapshotOnly = new URLSearchParams(window.location.search).get("snapshot") === "1"
+        || /(^|\.)github\.io$/i.test(new URL(window.location.href).hostname);
       view.liveMode = !staticSnapshotOnly;
       if (staticSnapshotOnly) {
         view.liveApiBlocked = true;
@@ -1213,6 +1289,7 @@
           setCommandMessage("需要 Render 访问令牌才能读取选品广场；填写后刷新此页即可继续。", true);
         }
       }
+      view.dismissedDualMarketComparisonIds = loadDismissedDualMarketComparisonIds();
       bindControls();
       keepBoardKpisVisible();
       refreshBoard();

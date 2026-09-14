@@ -787,6 +787,23 @@ body.kuro .comparison-rail span:last-child { color: var(--kuro-rose); text-align
 body.kuro .comparison-rail i { font-size: 15px; line-height: 1; color: var(--kuro-blue); font-style: normal; }
 body.kuro .comparison-catalog { margin: 12px 0 0; color: var(--kuro-muted); font-size: 12px; line-height: 1.55; word-break: break-word; }
 body.kuro .dual-market-card { border-color: rgba(111, 116, 210, 0.24); }
+body.kuro .dual-market-card { position: relative; }
+body.kuro .dismiss-dual-market-card {
+  position: absolute; top: 8px; right: 8px; z-index: 3;
+  width: 26px; height: 26px; border: 1px solid rgba(180, 80, 80, .24);
+  border-radius: 50%; background: rgba(255, 255, 255, .92); color: #a84a5c;
+  cursor: pointer; font: 700 19px/1 system-ui, sans-serif;
+}
+body.kuro .dismiss-dual-market-card:hover { background: #fff0f3; border-color: #c95a70; }
+body.kuro .dismissed-dual-market-restore {
+  grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; gap: 10px;
+  padding: 10px 13px; border: 1px dashed rgba(111, 116, 210, .38); border-radius: 13px;
+  background: rgba(247, 249, 255, .86); color: var(--kuro-muted); font-size: 12px;
+}
+body.kuro .dismissed-dual-market-restore button {
+  border: 1px solid var(--kuro-line); border-radius: 999px; padding: 5px 10px;
+  background: #fff; color: var(--kuro-ink); cursor: pointer; font: inherit; font-weight: 700;
+}
 body.kuro .dual-market-card .metric strong { color: var(--kuro-ink); }
 body.kuro .dual-market-card .metric:nth-child(3) strong { color: var(--kuro-crimson); }
 body.kuro .dual-market-waiting { border-style: dashed; box-shadow: none; }

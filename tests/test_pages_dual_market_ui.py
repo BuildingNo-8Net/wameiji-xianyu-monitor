@@ -160,10 +160,10 @@ def test_homepage_loads_snapshot_loader_before_the_board_renderer() -> None:
 def test_homepage_busts_cached_renderer_and_styles_after_selection_grid_fix() -> None:
     homepage = Path("web/index.html").read_text(encoding="utf-8")
 
-    assert "app.js?v=20260909-strict-net-v1" in homepage
-    assert "dual-market-data.js?v=20260909-strict-net-v1" in homepage
-    assert "discovery-ui.js?v=20260913-selection-grid-v3" in homepage
-    assert "styles/kuro.css?v=20260913-selection-grid-v3" in homepage
+    assert "app.js?v=20260914-pages-static-v1" in homepage
+    assert "dual-market-data.js?v=20260914-pages-static-v1" in homepage
+    assert "discovery-ui.js?v=20260914-pages-static-v1" in homepage
+    assert "styles/kuro.css?v=20260914-pages-static-v1" in homepage
 
 
 def test_board_refresh_decouples_legacy_api_failures_from_dual_market_data() -> None:
@@ -199,8 +199,72 @@ def test_static_snapshot_status_is_explicit_about_freshness() -> None:
 
     assert "Pages 已核验快照" in javascript
     assert "Pages 历史快照" in javascript
-    assert "不代表当前可买" in javascript
+    assert "下单前重新核验" in javascript
     assert "采集仅在本机运行" in javascript
+
+
+def test_static_snapshot_keeps_verified_cards_regardless_of_snapshot_age() -> None:
+    """GitHub Pages is a historical evidence board, not a three-hour TTL cache."""
+    loader = Path("web/dual-market-data.js").read_text(encoding="utf-8")
+    harness = f"""
+const window = {{}};
+const document = {{ baseURI: "https://example.github.io/board/" }};
+const payload = {{
+  schema_version: 2,
+  generated_at: "2000-01-01T00:00:00+08:00",
+  strategy: {{
+    policy_version: "wameiji-xianyu-net-v2",
+    trade_direction: "wameiji_jpy_to_xianyu_cny",
+    minimum_net_margin: 0,
+  }},
+  summary: {{
+    evaluated_count: 1,
+    eligible_count: 1,
+    below_margin_count: 0,
+    cost_pending_count: 0,
+    waiting_wameiji_count: 0,
+    waiting_xianyu_count: 0,
+  }},
+  eligible: [{{ comparison_id: 77 }}],
+}};
+async function fetch() {{
+  return {{ ok: true, json: async () => payload }};
+}}
+{loader}
+window.DualMarketData.load({{ live: false }}).then((board) => {{
+  if (board.stale !== false) throw new Error("dated snapshot should remain displayable");
+  if (board.eligible.length !== 1) throw new Error("verified card was removed");
+}}).catch((error) => {{ console.error(error); process.exit(1); }});
+"""
+
+    result = subprocess.run(
+        ["node", "-e", harness],
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+
+    assert result.returncode == 0, result.stderr or result.stdout
+
+
+def test_dual_market_cards_can_be_hidden_locally_and_recovered() -> None:
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    renderer = extract_dual_market_renderer(javascript)
+
+    assert 'data-dismiss-dual-market-card' in renderer
+    assert 'aria-label="隐藏此机会卡"' in renderer
+    assert "dismissDualMarketComparison" in javascript
+    assert "restoreDismissedDualMarketComparisons" in javascript
+    assert "localStorage" in javascript
+    assert "isDualMarketComparisonDismissed" in javascript
+    assert "eligible = eligible.filter" in renderer
+
+
+def test_public_pages_bootstrap_has_no_external_runtime_config_dependency() -> None:
+    homepage = Path("web/index.html").read_text(encoding="utf-8")
+
+    assert 'window.CD_MONITOR_CONFIG = { apiBase: "", accessToken: "" };' in homepage
+    assert '<script async src="runtime-config.js"></script>' in homepage
 
 
 def test_home_feed_is_two_columns_with_compact_three_part_cards() -> None:

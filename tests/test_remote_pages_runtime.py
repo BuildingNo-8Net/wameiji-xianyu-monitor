@@ -236,6 +236,23 @@ def test_remote_pages_prompts_and_loads_live_board_by_default() -> None:
     )
 
 
+def test_public_github_pages_uses_the_static_snapshot_without_prompting() -> None:
+    """The public URL must render without an API token or a collector call."""
+
+    _run_browserless_app_harness(
+        'if (promptCount !== 0) throw new Error("unexpected token prompt"); '
+        'if (!requests.some((url) => url.includes("/data/dual-market-snapshot.json"))) '
+        'throw new Error("static snapshot was not requested: " + requests.join(", ")); '
+        'if (requests.some((url) => url.startsWith("https://collector.example"))) '
+        'throw new Error("public Pages requested the collector: " + requests.join(", "));',
+        api_base="https://collector.example",
+        page_origin="https://niuzipai-gif.github.io",
+        include_discovery=True,
+        run_initial_timeouts=True,
+        require_access_token=True,
+    )
+
+
 def test_remote_pages_uses_stored_credential_without_reprompting() -> None:
     """A returning operator should enter the current board without another prompt."""
 
