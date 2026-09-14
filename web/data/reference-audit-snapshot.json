@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T16:52:09.367240+00:00",
+  "generated_at": "2026-09-14T16:54:07.103838+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 6 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 7 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 56,
-    "wameiji_platform_found_count": 6,
+    "wameiji_platform_found_count": 7,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -248,26 +248,26 @@
       "reference_product_id": 60,
       "stable_key": "sample:30ad874d4d5f95bf483b9c8abe51322dc69a3bbdd8ff03cca0e5886a5e37ca61",
       "wameiji": {
-        "title": "BURNOUT SYNDROMES ハイキュー!!×BOS - 主題歌たちの宴 - 初回生産限定盤",
-        "version_evidence": "人工 Chrome 商品页：¥6,980、9日前、全新未开封；CD+BD+AmiAmi限定アクリルバッジ。样本的Sofmap杯垫及大方卡不在该条验证范围",
-        "catalog_no": null,
+        "title": "【中古】アニメ系CD BURNOUT SYNDROMES / ハイキュー!! × BOS - 主題歌たちの宴 -[Blu-ray付初回生産限定盤]",
+        "version_evidence": "ESCL-6268; 2026-08-19; 初回生産限定 CD+Blu-ray; 中古、无明显损伤; 日本国内运费买家承担; 输出不可",
+        "catalog_no": "ESCL-6268",
         "barcode": null,
-        "price": 6980.0,
+        "price": 6600.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m98995665733",
-        "observed_at": "2026-09-14T03:38:24Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576551696f33687654777643716145676b7332752f",
+        "observed_at": "2026-09-14T16:54:07Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "ハイキュー!!×BOS - 主題歌たちの宴 - BURNOUT SYNDROMES 初回限定版 CD+BD",
-        "version_evidence": "人工 Chrome 精确检索命中：¥319称现货、全新未拆；初回配置为CD+BD演唱会。另有¥50定金预订及¥160定金预售，未作为完整到手价",
+        "title": "现货♥排球少年初回限定版CD+BD演唱会BURNOUT SYNDROMES主题曲翻唱集",
+        "version_evidence": "初回限定 CD+BD; 全新未拆、原包装膜袋完好; 标价319–379元包邮",
         "catalog_no": null,
         "barcode": null,
         "price": 319.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1076904677109&categoryId=126860296",
-        "observed_at": "2026-09-14T03:38:27Z",
+        "source_url": "https://www.goofish.com/item?id=1076904677109",
+        "observed_at": "2026-09-14T16:54:07Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
