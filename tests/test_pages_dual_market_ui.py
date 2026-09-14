@@ -87,6 +87,13 @@ def test_homepage_exposes_the_full_reference_audit_queue_separately_from_profit_
     assert "待挖煤姬复核" in javascript
 
 
+def test_historical_profit_kpi_is_not_labeled_as_current_full_audit_result() -> None:
+    homepage = Path("web/index.html").read_text(encoding="utf-8")
+
+    assert "历史利润卡（9/9 快照）" in homepage
+    assert '<small>达标机会</small><strong id="kpiToday">' not in homepage
+
+
 def test_dual_market_ui_fails_closed_when_its_board_is_unavailable() -> None:
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     loader = Path("web/dual-market-data.js").read_text(encoding="utf-8")

@@ -64,19 +64,19 @@
           <div class="hero-copy">
             <div class="eyebrow">Selection board · evidence-first</div>
             <h2>选品广场 · CD 与 GalGame 实体</h2>
-            <p class="lead">优先展示已核验的商品机会：左侧闲鱼以淡黄色显示搜索挂牌价样本，右侧挖煤姬以淡粉白显示详情已核验进货价；只计算“挖煤姬进货 → 闲鱼国内销售”的到手净利，净利润为正即可进入机会流。全部候选保留在下方可选品池，暂缺价格不降级。</p>
+            <p class="lead">页面分为两层：下方的 9/9 历史利润卡只保留当时的计算证据，不代表 125 个样本已完成或当前仍可买；历史卡中闲鱼以淡黄色显示搜索挂牌价样本，挖煤姬以淡粉白显示详情已核验进货价。再下方的参考样本审计区展示真实覆盖与逐件复核进度。只有“挖煤姬进货 → 闲鱼国内销售”版本、成色、附件和到手成本均核对后，净利润为正才会进入当前机会流。</p>
             <div class="stats">
-              <div class="stat"><small>达标机会</small><strong id="kpiToday">--</strong></div>
-              <div class="stat"><small>闲鱼预计净利</small><strong id="kpiProfit">--</strong></div>
-              <div class="stat"><small>闲鱼最高净利</small><strong id="kpiMax">--</strong></div>
-              <div class="stat"><small>命中率</small><strong id="kpiHitRate">--</strong></div>
+              <div class="stat"><small>历史利润卡（9/9 快照）</small><strong id="kpiToday">--</strong></div>
+              <div class="stat"><small>历史闲鱼预计净利</small><strong id="kpiProfit">--</strong></div>
+              <div class="stat"><small>历史闲鱼最高净利</small><strong id="kpiMax">--</strong></div>
+              <div class="stat"><small>历史命中率</small><strong id="kpiHitRate">--</strong></div>
             </div>
           </div>
         </div>
         <div class="section-head">
           <div>
-            <h3>首页机会流 · 图片优先信息流</h3>
-            <p>一行两条机会；每条卡内左侧闲鱼、中间净利与成本、右侧挖煤姬，只保留净利润为正的同款机会。</p>
+            <h3>历史利润卡 · 9/9 快照</h3>
+            <p>一行两条机会，左侧闲鱼、中间成本与净利、右侧挖煤姬；仅用于保留当时的净利计算证据，不是 125 个样本的完成数，也不表示今天仍有货。当前人工复核进度见下方参考样本审计区。</p>
           </div>
           <div class="filters">
             <button class="pill active" data-discovery-filter="all">全部机会</button>
@@ -93,7 +93,7 @@
           <span aria-hidden="true">→</span>
           <div><small>未形成正利润</small><strong id="funnelBelowMargin">--</strong></div>
           <span aria-hidden="true">→</span>
-          <div class="eligible"><small>达标机会</small><strong id="funnelEligible">--</strong></div>
+          <div class="eligible"><small>历史达标（9/9）</small><strong id="funnelEligible">--</strong></div>
         </div>
         <div class="feed" id="homeFeed" data-empty="当前没有成本证据完整且净利润为正的同款机会；可选品池仍会保留全部候选。">
           <div class="empty-state">正在加载机会数据…</div>
