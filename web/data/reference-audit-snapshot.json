@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:07:49.080875+00:00",
+  "generated_at": "2026-09-14T17:09:40.872644+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 8 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 9 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 55,
-    "wameiji_platform_found_count": 8,
+    "wameiji_platform_found_count": 9,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -108,26 +108,26 @@
       "reference_product_id": 8,
       "stable_key": "sample:9cb168701acdc46fee86f43c6ae35fda5bca7eddd8e4033c7d6aa0fd1bf3bf54",
       "wameiji": {
-        "title": "WHITE_ALBUM2_Original_Soundtrack_kazusa_with_obi",
-        "version_evidence": "exact-title-with-obi-current-result-condition-pending",
+        "title": "WHITEALBUM2 ORIGINALSOUNDTRACK～kazusa～帯付",
+        "version_evidence": "人工 Chrome 挖煤姬详情：WHITE ALBUM2 Original Soundtrack ～kazusa～；带侧标，二手无明显伤污。卖家称中古购入、导入电脑一次后避光保存，侧标收在CD封套内寄出。",
         "catalog_no": null,
         "barcode": null,
         "price": 16100.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m67214647991",
-        "observed_at": "2026-09-13T16:37:00Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d36373231343634373939312f",
+        "observed_at": "2026-09-14T17:09:40Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "WHITE_ALBUM2_Original_Soundtrack_kazusa_Japanese_original_sealed",
-        "version_evidence": "exact-title-current-Japanese-original-sealed-listing-no-direct-item-id-exposed",
+        "title": "『全新未拆』WHITE ALBUM2 Original Soundtrack ～kazusa～ 冬马和纱角色OST",
+        "version_evidence": "人工 Chrome 闲鱼详情：AQUAPLUS发行、日版正版、CD、全新未拆封、360元包邮。与挖煤姬同为kazusa单张原声，但成色为全新对二手；不能作为进货盈利机会。",
         "catalog_no": null,
         "barcode": null,
         "price": 360.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=WHITE%20ALBUM2%20Original%20Soundtrack%20kazusa",
-        "observed_at": "2026-09-13T16:37:02Z",
+        "source_url": "https://www.goofish.com/item?id=1077273348061&categoryId=126864811",
+        "observed_at": "2026-09-14T17:09:40Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
