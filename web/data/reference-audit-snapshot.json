@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:49:51.702571+00:00",
+  "generated_at": "2026-09-14T18:53:42.115206+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 25 条双侧记录中，挖煤姬页面已复核 58 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -165,25 +165,25 @@
       "stable_key": "sample:f51c7e9a3f32ba6d360a8b20e083ffb708d6723faeafe89fefa679e79e48d346",
       "wameiji": {
         "title": "Aimer daydream【初回生産限定盤A】Blu-ray",
-        "version_evidence": "初回生产限定盘 A，CD+Blu-ray；2016-09-21。蓝光含 Aimer Live Tour DAWN 最终公演影像（部分除外）。无明显伤污，卖家承担日本国内运费；未见侧标或其他附件的文字确认。",
-        "catalog_no": null,
+        "version_evidence": "Current Wameiji detail page identifies daydream initial-production limited edition A with Blu-ray; description gives 2016-09-21 album and live-tour Blu-ray content. Product state: used, no noticeable damage. Reference catalog remains SECL-1983.",
+        "catalog_no": "SECL-1983",
         "barcode": null,
         "price": 1200.0,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34333031303633383734372f",
-        "observed_at": "2026-09-14T16:44:52Z",
+        "observed_at": "2026-09-14T18:53:33Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true
       },
       "xianyu": {
         "title": "【现货】正品 Aimer《daydream》初回限定盘A（CD+BD）原装正版日版",
-        "version_evidence": "标题与说明确认初回 A、CD+Blu-ray。页面页首为¥283包邮；同页变体文字另列全新未拆A版BD¥298、近新无侧标A版BD¥268。变体选择与侧标/附件尚未锁定，不能将¥283作为固定同规格售价。",
-        "catalog_no": null,
+        "version_evidence": "Current Xianyu listing explicitly identifies Aimer daydream initial limited A, CD+Blu-ray, 13 CD tracks plus 3 Blu-ray tracks, sealed with obi. This matches the initial-A CD+BD form rather than normal CD or limited B DVD.",
+        "catalog_no": "SECL-1983",
         "barcode": null,
         "price": 283.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1041583191474&categoryId=126864811",
-        "observed_at": "2026-09-14T16:44:53Z",
+        "observed_at": "2026-09-14T18:53:33Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
