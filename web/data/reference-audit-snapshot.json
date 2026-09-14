@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:32:04.216438+00:00",
+  "generated_at": "2026-09-14T18:33:11.950827+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 27 条双侧记录中，挖煤姬页面已复核 49 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 27 条双侧记录中，挖煤姬页面已复核 50 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 27,
-    "wameiji_platform_found_count": 49,
+    "wameiji_platform_found_count": 50,
     "found_any_count": 95,
     "not_currently_listed_both_count": 27
   },
@@ -724,26 +724,26 @@
       "reference_product_id": 121,
       "stable_key": "sample:caa38dfe850824afd7db4e1e7874a674a6a52a83a817d1a2114ba9ef2141b969",
       "wameiji": {
-        "title": "EGOIST Departures ～あなたにおくるアイの歌～ 初回生产限定盘附属册子/设定画册",
-        "version_evidence": "Mercari当前单独册子条目明确写罪恶王冠、Departures初回生产限定盘、EGOIST starring INORI YUZURIHA，内容为设定数据、插画与分镜等；确定是初回盘附属册子，而非CD本体。",
+        "title": "Departures ～あなたにおくるアイの歌～ 初回生産限定盤付属 冊子・ブックレット",
+        "version_evidence": "Chrome 人工详情：罪恶王冠 Departures 初回生産限定盘的独立册子，EGOIST starring INORI YUZURIHA；卖家明确说明内容为设定数据、插画、分镜，文件夹保存。仅册子本体，不是 CD/DVD 或其他周边。",
         "catalog_no": null,
         "barcode": null,
         "price": 1600.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m53293013114",
-        "observed_at": "2026-09-14T05:47:14Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35333239333031333131342f",
+        "observed_at": "2026-09-14T18:33:11Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "EGOIST Departures 初回限定附属 INORI YUZURIHA 设定册/迷你画册",
-        "version_evidence": "闲鱼当前条目明确标注罪恶王冠、EGOIST、INORI YUZURIHA、Departures初回限定，并说明含原画、设定稿、手稿草图与人物设定；为独立册子而非CD。",
+        "title": "罪恶王冠 EGOIST Departures 初回限定附属 INORI YUZURIHA 迷你设定画册",
+        "version_evidence": "Chrome 人工详情：标题明确 EGOIST、INORI YUZURIHA、Departures 初回限定，并列原画、设定稿、手稿草图与人物设定；明确为迷你绘本/画册而非完整 CD，附 OPP 袋。",
         "catalog_no": null,
         "barcode": null,
-        "price": 69.0,
+        "price": 62.9,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=977136403407&categoryId=126860296",
-        "observed_at": "2026-09-14T05:47:39Z",
+        "observed_at": "2026-09-14T18:33:11Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
