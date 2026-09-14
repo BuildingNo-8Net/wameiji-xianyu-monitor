@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:44:42.143250+00:00",
+  "generated_at": "2026-09-14T17:48:05.165254+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 51 条双侧记录中，挖煤姬页面已复核 25 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 50 条双侧记录中，挖煤姬页面已复核 26 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 51,
-    "wameiji_platform_found_count": 25,
+    "both_found_count": 50,
+    "wameiji_platform_found_count": 26,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 51
+      "count": 50
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 14
+      "count": 15
     },
     {
       "wameiji": "not_currently_listed",
@@ -576,34 +576,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1046558259171&categoryId=126862148",
         "observed_at": "2026-09-14T17:25:47Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 84,
-      "stable_key": "sample:b4fa44f140d3615b59819f9021e39f674e836647e160070df8c86ec6116bd2f8",
-      "wameiji": {
-        "title": "(新品未開封) ZARD／ZARD Best Request ~35th Anniversary~ (通常盤) (3CD) JBCJ-9086",
-        "version_evidence": "JBCJ-9086；3枚Blu-spec CD2、全35曲、歌词册，页面称通常盘与完全限定盘共通的3CD内容；与样本的3CD Blu-spec CD2对应",
-        "catalog_no": "JBCJ-9086",
-        "barcode": null,
-        "price": 3500.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/4ZWsHASSBDvv6eVj2d4HTH",
-        "observed_at": "2026-09-14T04:20:17Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "坂井泉水 ZARD Best Request 35周年纪念 3CD套装日版 原版 全新未拆",
-        "version_evidence": "卖家标注35周年、粉丝票选35首、3CD、Blu-spec CD2；未在文案给出JBCJ-9086，但结构与样本3CD Blu-spec CD2一致",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 218.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077997934936&categoryId=126864811",
-        "observed_at": "2026-09-14T04:20:17Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
