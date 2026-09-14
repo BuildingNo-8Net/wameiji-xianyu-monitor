@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:21:58.595000+00:00",
+  "generated_at": "2026-09-14T18:23:13.488108+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 31 条双侧记录中，挖煤姬页面已复核 45 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 30 条双侧记录中，挖煤姬页面已复核 46 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 31,
-    "wameiji_platform_found_count": 45,
+    "both_found_count": 30,
+    "wameiji_platform_found_count": 46,
     "found_any_count": 97,
     "not_currently_listed_both_count": 25
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 31
+      "count": 30
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 30
+      "count": 31
     },
     {
       "wameiji": "not_currently_listed",
@@ -884,34 +884,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1037357615567&categoryId=126864811",
         "observed_at": "2026-09-14T16:37:36Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 124,
-      "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
-      "wameiji": {
-        "title": "トゲナシトゲアリ 棘ナシ ［LP+ステッカー］＜完全生産限定盤＞",
-        "version_evidence": "商品页明确 LP+封面图贴纸、完全生産限定盤、2nd Album 棘ナシ；全新未开封",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 5999.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m92368332376",
-        "observed_at": "2026-09-14T05:56:44Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "国现 无刺/有刺 トゲナシトゲアリ Girls Band Cry 黑胶 1专2专 完全生产限定盘",
-        "version_evidence": "结果卡明确 棘ナシ 与 棘アリ 两款黑胶、完全生产限定盘、全新未拆、有库存可直拍；目标为棘ナシ/无刺选项",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 295.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E3%83%88%E3%82%B2%E3%83%8A%E3%82%B7%E3%83%88%E3%82%B2%E3%82%A2%E3%83%AA%20%E6%A3%98%E3%83%8A%E3%82%B7%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:57:02Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
