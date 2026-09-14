@@ -14,6 +14,7 @@
     dualMarketBoard: null,
     commands: [],
     referenceStatus: null,
+    referenceAudit: null,
     referenceObservations: [],
     referenceProfiles: null,
     referenceDirections: null,
@@ -254,6 +255,19 @@
     });
   }
 
+  async function loadReferenceAudit() {
+    const response = await fetch(
+      new URL("data/reference-audit-snapshot.json", document.baseURI).toString(),
+      { cache: "no-store" },
+    );
+    if (!response.ok) throw new Error("reference audit snapshot -> " + response.status);
+    const payload = await response.json();
+    if (!payload || payload.mode !== "reference_audit_snapshot" || !payload.summary) {
+      throw new Error("reference audit snapshot is invalid");
+    }
+    return payload;
+  }
+
   function toLegacyOpportunity(item) {
     return {
       ...item,
@@ -311,6 +325,88 @@
     setText("kpiHitRate", hitRate + "%");
     if (profitFunnel) profitFunnel.hidden = true;
     renderDiscoveryStatus(summary);
+  }
+
+  function referenceAuditCount(value) {
+    const count = Number(value);
+    return Number.isFinite(count) && count >= 0 ? String(Math.floor(count)) : "--";
+  }
+
+  function referenceAuditObservationMarkup(label, observation, currency) {
+    const source = observation && typeof observation === "object" ? observation : {};
+    const href = safeHttpUrl(source.source_url);
+    const title = esc(source.title || "未命名商品记录");
+    const price = currency === "JPY" ? jpy(source.price, displayJpyCnyRate()) : cny(source.price);
+    const evidence = source.version_evidence ? '<p>' + esc(source.version_evidence) + '</p>' : "";
+    const catalog = [source.catalog_no, source.barcode].filter(Boolean).join(" · ");
+    const heading = href
+      ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
+      : '<span>' + title + '</span>';
+    return [
+      '<div class="reference-audit-side">',
+        '<small>' + esc(label) + '</small>',
+        '<b>' + heading + '</b>',
+        '<strong>' + esc(price) + '</strong>',
+        catalog ? '<em>' + esc(catalog) + '</em>' : "",
+        evidence,
+      '</div>',
+    ].join("");
+  }
+
+  function referenceAuditPairMarkup(pair) {
+    const item = pair && typeof pair === "object" ? pair : {};
+    return [
+      '<article class="reference-audit-pair">',
+        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 待逐件核验</div>',
+        '<div class="reference-audit-sides">',
+          referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY"),
+          referenceAuditObservationMarkup("挖煤姬进货侧", item.wameiji, "JPY"),
+        '</div>',
+      '</article>',
+    ].join("");
+  }
+
+  function renderReferenceAudit() {
+    const audit = view.referenceAudit;
+    const state = document.getElementById("referenceAuditState");
+    const pairList = document.getElementById("referenceAuditPairList");
+    const pairSummary = document.getElementById("referenceAuditPairSummary");
+    if (!audit) {
+      setText("referenceAuditTotal", "--");
+      setText("referenceAuditBothFound", "--");
+      setText("referenceAuditFoundAny", "--");
+      setText("referenceAuditUnavailable", "--");
+      setText("referenceAuditDisclaimer", "审计快照尚未发布；不能从达标卡数量推断全量进度。");
+      if (pairSummary) pairSummary.textContent = "双侧已发现记录暂未发布";
+      if (pairList) pairList.innerHTML = '<div class="empty-state">审计快照缺失，不把利润卡当成样本总数。</div>';
+      if (state) {
+        state.textContent = "审计快照待发布";
+        state.className = "status warn";
+      }
+      return;
+    }
+    const summary = audit.summary || {};
+    const pairs = Array.isArray(audit.dual_found_pairs) ? audit.dual_found_pairs : [];
+    setText("referenceAuditTotal", referenceAuditCount(summary.reference_product_count));
+    setText("referenceAuditBothFound", referenceAuditCount(summary.both_found_count));
+    setText("referenceAuditFoundAny", referenceAuditCount(summary.found_any_count));
+    setText("referenceAuditUnavailable", referenceAuditCount(summary.not_currently_listed_both_count));
+    setText(
+      "referenceAuditDisclaimer",
+      String(audit.disclaimer || "双侧已发现不等于达标机会；逐件补齐可比性和成本证据后才会进入利润筛选。"),
+    );
+    if (pairSummary) {
+      pairSummary.textContent = "双侧已发现 " + pairs.length + " 条待逐件核验记录（不是达标机会）";
+    }
+    if (pairList) {
+      pairList.innerHTML = pairs.length
+        ? pairs.map(referenceAuditPairMarkup).join("")
+        : '<div class="empty-state">当前没有双侧已发现记录。</div>';
+    }
+    if (state) {
+      state.textContent = "审计快照 · " + timeLabel(audit.generated_at);
+      state.className = "status blue";
+    }
   }
 
   function referenceStateLabel(state) {
@@ -1058,10 +1154,11 @@
     view.refreshing = true;
     try {
       const emptyBoard = { summary: {}, pools: [], opportunities: [], selectable_candidates: [], research_candidates: [] };
-      const [board, commandPayload, dualMarketBoard, referenceStatus, referenceObservationPayload, referenceProfilePayload, referenceDirectionPayload, candidateDirectionPayload, selectionFeedbackStatus, selectionFeedbackPayload] = await Promise.all([
+      const [board, commandPayload, dualMarketBoard, referenceAudit, referenceStatus, referenceObservationPayload, referenceProfilePayload, referenceDirectionPayload, candidateDirectionPayload, selectionFeedbackStatus, selectionFeedbackPayload] = await Promise.all([
         apiGet("/api/discovery/board").catch(() => emptyBoard),
         apiGet("/api/discovery/commands").catch(() => ({ items: [] })),
         window.DualMarketData.load({ apiGet, live: view.liveMode }),
+        loadReferenceAudit().catch(() => null),
         apiGet("/api/reference-memory/status").catch(() => null),
         apiGet("/api/reference-memory/observations?limit=3").catch(() => null),
         apiGet("/api/reference-memory/profiles?limit=3").catch(() => null),
@@ -1072,6 +1169,7 @@
       ]);
       view.board = board || { summary: {}, pools: [], opportunities: [], selectable_candidates: [], research_candidates: [] };
       view.dualMarketBoard = dualMarketBoard;
+      view.referenceAudit = referenceAudit;
       view.commands = (commandPayload && commandPayload.items) || [];
       view.referenceStatus = referenceStatus;
       view.referenceObservations = (referenceObservationPayload && referenceObservationPayload.items) || [];
@@ -1089,6 +1187,7 @@
         window.state.totalOpportunities = window.state.opportunities.length;
       }
       renderKpis(view.board.summary || {});
+      renderReferenceAudit();
       renderReferenceMemory();
       renderSelectionFeedback();
       renderFeed();

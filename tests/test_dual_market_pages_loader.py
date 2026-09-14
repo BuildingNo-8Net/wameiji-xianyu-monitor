@@ -152,7 +152,7 @@ if (!result.api_error.includes("schema_version")) throw new Error(result.api_err
     )
 
 
-def test_loader_marks_an_old_snapshot_as_stale() -> None:
+def test_loader_keeps_an_old_snapshot_as_historical_evidence() -> None:
     run_loader(
         {
             SNAPSHOT_URL: {
@@ -162,7 +162,7 @@ def test_loader_marks_an_old_snapshot_as_stale() -> None:
             },
         },
         """
-if (result.mode !== "verified_static_snapshot" || !result.stale) {
+if (result.mode !== "verified_static_snapshot" || result.stale || !result.historical) {
   throw new Error(JSON.stringify(result));
 }
 """,

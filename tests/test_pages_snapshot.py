@@ -11,6 +11,7 @@ from pathlib import Path
 import pytest
 from PIL import Image
 
+import cd_monitor.pages_snapshot as pages_snapshot
 from cd_monitor.pages_snapshot import (
     ALLOWED_IMAGE_HOSTS,
     DownloadedImage,
@@ -115,6 +116,107 @@ def verified_board() -> dict[str, object]:
         "waiting_xianyu": [],
         "collector": {"state": "paused"},
     }
+
+
+def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_cards(
+    tmp_path: Path,
+) -> None:
+    """Pages must expose the audit queue instead of implying four profit cards are all work."""
+    db_path = tmp_path / "dual-market.db"
+    with __import__("sqlite3").connect(db_path) as conn:
+        conn.executescript(
+            """
+            CREATE TABLE reference_products (
+              id INTEGER PRIMARY KEY,
+              stable_key TEXT NOT NULL
+            );
+            CREATE TABLE reference_market_observations (
+              id INTEGER PRIMARY KEY,
+              reference_product_id INTEGER NOT NULL,
+              market TEXT NOT NULL,
+              observation_state TEXT NOT NULL,
+              observed_at TEXT,
+              observed_title TEXT,
+              version_evidence TEXT,
+              catalog_no TEXT,
+              barcode TEXT,
+              price REAL,
+              currency TEXT,
+              source_url TEXT,
+              note TEXT
+            );
+            INSERT INTO reference_products (id, stable_key) VALUES
+              (1, 'reference:one'), (2, 'reference:two'), (3, 'reference:three');
+            INSERT INTO reference_market_observations
+              (id, reference_product_id, market, observation_state, observed_at, observed_title,
+               version_evidence, catalog_no, barcode, price, currency, source_url, note)
+            VALUES
+              (1, 1, 'wameiji', 'found', '2026-09-14T01:00:00Z', 'Japan first press',
+               'CD+BD sealed', 'VVCL-1', '111', 2000, 'JPY', 'https://jp.mercari.com/item/one', 'private note'),
+              (2, 1, 'xianyu', 'found', '2026-09-14T01:01:00Z', 'Domestic first press',
+               'CD+BD sealed', 'VVCL-1', '111', 220, 'CNY', 'https://www.goofish.com/item?id=one', 'private note'),
+              (3, 2, 'wameiji', 'found', '2026-09-14T01:02:00Z', 'Japan second',
+               'CD only', NULL, NULL, 500, 'JPY', 'https://jp.mercari.com/item/two', 'private note'),
+              (4, 2, 'xianyu', 'not_currently_listed', '2026-09-14T01:03:00Z', NULL,
+               NULL, NULL, NULL, NULL, NULL, NULL, 'private note'),
+              (5, 3, 'wameiji', 'not_currently_listed', '2026-09-14T01:04:00Z', NULL,
+               NULL, NULL, NULL, NULL, NULL, NULL, 'private note'),
+              (6, 3, 'xianyu', 'not_currently_listed', '2026-09-14T01:05:00Z', NULL,
+               NULL, NULL, NULL, NULL, NULL, NULL, 'private note');
+            """
+        )
+
+    export = getattr(pages_snapshot, "export_reference_audit_snapshot", None)
+    assert callable(export), "Pages needs an audit snapshot export, not just profit cards"
+    result = export(
+        db_path,
+        tmp_path / "web",
+        generated_at=datetime.fromisoformat("2026-09-15T10:00:00+08:00"),
+    )
+
+    payload = json.loads(result.snapshot_path.read_text(encoding="utf-8"))
+    assert payload["summary"] == {
+        "reference_product_count": 3,
+        "both_found_count": 1,
+        "found_any_count": 2,
+        "not_currently_listed_both_count": 1,
+    }
+    assert payload["state_pairs"] == [
+        {"wameiji": "found", "xianyu": "found", "count": 1},
+        {"wameiji": "found", "xianyu": "not_currently_listed", "count": 1},
+        {
+            "wameiji": "not_currently_listed",
+            "xianyu": "not_currently_listed",
+            "count": 1,
+        },
+    ]
+    assert payload["dual_found_pairs"] == [
+        {
+            "reference_product_id": 1,
+            "stable_key": "reference:one",
+            "wameiji": {
+                "title": "Japan first press",
+                "version_evidence": "CD+BD sealed",
+                "catalog_no": "VVCL-1",
+                "barcode": "111",
+                "price": 2000.0,
+                "currency": "JPY",
+                "source_url": "https://jp.mercari.com/item/one",
+                "observed_at": "2026-09-14T01:00:00Z",
+            },
+            "xianyu": {
+                "title": "Domestic first press",
+                "version_evidence": "CD+BD sealed",
+                "catalog_no": "VVCL-1",
+                "barcode": "111",
+                "price": 220.0,
+                "currency": "CNY",
+                "source_url": "https://www.goofish.com/item?id=one",
+                "observed_at": "2026-09-14T01:01:00Z",
+            },
+        }
+    ]
+    assert "private note" not in result.snapshot_path.read_text(encoding="utf-8")
 
 
 def test_publish_image_allowlist_covers_verified_wameiji_marketplace_cdns() -> None:

@@ -69,6 +69,21 @@ def test_homepage_distinguishes_xianyu_search_evidence_from_wameiji_detail() -> 
     assert "只有详情已核验的来源才会进入机会流" not in homepage
 
 
+def test_homepage_exposes_the_full_reference_audit_queue_separately_from_profit_cards() -> None:
+    """Four eligible cards must never visually imply that every reference was finished."""
+    homepage = Path("web/index.html").read_text(encoding="utf-8")
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+
+    assert 'id="referenceAuditPanel"' in homepage
+    assert "125 个参考样本" in homepage
+    assert "双侧已发现" in homepage
+    assert "不是达标机会" in homepage
+    assert 'id="referenceAuditPairList"' in homepage
+    assert 'data/reference-audit-snapshot.json' in javascript
+    assert "renderReferenceAudit" in javascript
+    assert "双侧已发现不等于达标机会" in javascript
+
+
 def test_dual_market_ui_fails_closed_when_its_board_is_unavailable() -> None:
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     loader = Path("web/dual-market-data.js").read_text(encoding="utf-8")

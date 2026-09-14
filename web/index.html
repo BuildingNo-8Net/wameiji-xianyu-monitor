@@ -98,6 +98,27 @@
         <div class="feed" id="homeFeed" data-empty="当前没有成本证据完整且净利润为正的同款机会；可选品池仍会保留全部候选。">
           <div class="empty-state">正在加载机会数据…</div>
         </div>
+        <section class="reference-audit-panel" id="referenceAuditPanel" aria-labelledby="referenceAuditTitle">
+          <div class="reference-audit-head">
+            <div>
+              <div class="eyebrow">Reference audit · coverage is not profit</div>
+              <h3 id="referenceAuditTitle">125 个参考样本 · 双侧核验进度</h3>
+              <p>这里公开样本覆盖与双侧已发现记录，防止把少量达标卡误当成全量完成。双侧已发现记录不是达标机会：仍须逐件确认版本、成色、附件、落地成本与净利润。</p>
+            </div>
+            <span class="status blue" id="referenceAuditState">读取审计快照…</span>
+          </div>
+          <div class="reference-audit-metrics">
+            <div><small>参考样本</small><strong id="referenceAuditTotal">--</strong></div>
+            <div><small>双侧已发现</small><strong id="referenceAuditBothFound">--</strong></div>
+            <div><small>任一侧已发现</small><strong id="referenceAuditFoundAny">--</strong></div>
+            <div><small>两侧当前未见</small><strong id="referenceAuditUnavailable">--</strong></div>
+          </div>
+          <p class="reference-audit-disclaimer" id="referenceAuditDisclaimer">双侧已发现不等于达标机会。</p>
+          <details class="reference-audit-pairs">
+            <summary id="referenceAuditPairSummary">双侧已发现记录读取中…</summary>
+            <div class="reference-audit-pair-list" id="referenceAuditPairList" aria-live="polite"></div>
+          </details>
+        </section>
         <details class="secondary-evidence">
           <summary><span>研究依据与运行状态</span><span>正样本、登录与采集状态</span></summary>
           <section class="reference-memory-panel" aria-labelledby="referenceMemoryTitle">

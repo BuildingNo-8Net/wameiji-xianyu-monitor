@@ -413,6 +413,26 @@ body.kuro .pill.active { background: linear-gradient(135deg, var(--kuro-blue), #
 
 /* Opportunity feed (home) */
 body.kuro .feed { display: flex; flex-direction: column; gap: 18px; }
+body.kuro .reference-audit-panel { margin: 24px 0; padding: 22px; border: 1px solid rgba(111, 116, 210, .25); border-radius: 22px; background: linear-gradient(135deg, rgba(241, 247, 255, .94), rgba(255, 250, 252, .9)); box-shadow: 0 12px 36px rgba(80, 105, 150, .06); }
+body.kuro .reference-audit-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+body.kuro .reference-audit-head h3 { margin: 4px 0 6px; font-size: 20px; }
+body.kuro .reference-audit-head p, body.kuro .reference-audit-disclaimer { margin: 0; color: var(--kuro-muted); font-size: 13px; line-height: 1.7; }
+body.kuro .reference-audit-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 18px 0 12px; }
+body.kuro .reference-audit-metrics > div { padding: 13px 15px; border: 1px solid var(--kuro-line); border-radius: 15px; background: rgba(255, 255, 255, .72); }
+body.kuro .reference-audit-metrics small { display: block; color: var(--kuro-muted); font-size: 12px; margin-bottom: 3px; }
+body.kuro .reference-audit-metrics strong { font-size: 22px; }
+body.kuro .reference-audit-pairs { margin-top: 14px; border: 1px solid rgba(219, 230, 246, .9); border-radius: 15px; background: rgba(255, 255, 255, .56); overflow: hidden; }
+body.kuro .reference-audit-pairs > summary { padding: 12px 14px; cursor: pointer; color: var(--kuro-ink); font-size: 13px; font-weight: 800; }
+body.kuro .reference-audit-pair-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding: 0 12px 12px; }
+body.kuro .reference-audit-pair { min-width: 0; border: 1px solid rgba(219, 230, 246, .85); border-radius: 13px; background: rgba(250, 252, 255, .78); padding: 12px; }
+body.kuro .reference-audit-pair-id { margin-bottom: 8px; color: var(--kuro-muted); font-size: 11px; font-weight: 800; }
+body.kuro .reference-audit-sides { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+body.kuro .reference-audit-side { min-width: 0; }
+body.kuro .reference-audit-side small, body.kuro .reference-audit-side em { display: block; color: var(--kuro-muted); font-size: 11px; font-style: normal; }
+body.kuro .reference-audit-side b, body.kuro .reference-audit-side b a { display: block; color: var(--kuro-ink); font-size: 12px; line-height: 1.45; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+body.kuro .reference-audit-side b a:hover { color: var(--kuro-blue); text-decoration: underline; }
+body.kuro .reference-audit-side strong { display: block; margin-top: 5px; color: var(--kuro-rose); font-size: 12px; }
+body.kuro .reference-audit-side p { display: -webkit-box; margin: 6px 0 0; color: var(--kuro-muted); font-size: 11px; line-height: 1.45; overflow: hidden; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
 body.kuro .research-queue { display: grid; gap: 14px; margin-top: 26px; }
 body.kuro .research-queue-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
 body.kuro .research-queue-head h3 { margin: 0; font-size: 18px; }
@@ -635,10 +655,14 @@ body.kuro .setting-line { color: var(--kuro-muted); font-size: 13px; line-height
 body.kuro .doctor-pre { background: #0e1530; color: #cfe1ff; padding: 18px; border-radius: 14px; font-size: 12px; line-height: 1.6; overflow-x: auto; max-height: 360px; }
 
 @media (max-width: 900px) {
+  body.kuro .reference-audit-metrics { grid-template-columns: repeat(2, 1fr); }
+  body.kuro .reference-audit-pair-list { grid-template-columns: 1fr; }
   body.kuro .reference-memory-metrics, body.kuro .reference-profiles { grid-template-columns: repeat(2, 1fr); }
   body.kuro .reference-observations { grid-template-columns: 1fr; }
 }
 @media (max-width: 560px) {
+  body.kuro .reference-audit-head { flex-direction: column; }
+  body.kuro .reference-audit-metrics, body.kuro .reference-audit-sides { grid-template-columns: 1fr; }
   body.kuro .reference-memory-metrics, body.kuro .reference-profiles { grid-template-columns: 1fr; }
 }
 

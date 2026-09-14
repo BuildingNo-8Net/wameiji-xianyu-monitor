@@ -1,0 +1,1395 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-15T00:27:51.386118+08:00",
+  "mode": "reference_audit_snapshot",
+  "disclaimer": "双侧已发现仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。",
+  "summary": {
+    "reference_product_count": 125,
+    "both_found_count": 56,
+    "found_any_count": 99,
+    "not_currently_listed_both_count": 23
+  },
+  "state_pairs": [
+    {
+      "wameiji": "found",
+      "xianyu": "found",
+      "count": 56
+    },
+    {
+      "wameiji": "found",
+      "xianyu": "not_currently_listed",
+      "count": 9
+    },
+    {
+      "wameiji": "not_currently_listed",
+      "xianyu": "found",
+      "count": 32
+    },
+    {
+      "wameiji": "price_unfavorable",
+      "xianyu": "found",
+      "count": 2
+    },
+    {
+      "wameiji": "blocked",
+      "xianyu": "blocked",
+      "count": 2
+    },
+    {
+      "wameiji": "not_currently_listed",
+      "xianyu": "not_currently_listed",
+      "count": 23
+    },
+    {
+      "wameiji": "price_unfavorable",
+      "xianyu": "not_currently_listed",
+      "count": 1
+    }
+  ],
+  "dual_found_pairs": [
+    {
+      "reference_product_id": 2,
+      "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
+      "wameiji": {
+        "title": "Under-Mentality-initial-limited-CD-Blu-ray",
+        "version_evidence": "initial-limited-CD-Blu-ray-bonus-condition-pending",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 10000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m75853529309",
+        "observed_at": "2026-09-13T16:22:59Z"
+      },
+      "xianyu": {
+        "title": "TUYU-Under-Mentality-initial-limited-CD-BD-booklet-slipcase",
+        "version_evidence": "initial-limited-CD-BD-booklet-slipcase-bonus;source-screenshot-only-says-initial-limited",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 800.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080956335537",
+        "observed_at": "2026-09-13T16:23:11Z"
+      }
+    },
+    {
+      "reference_product_id": 4,
+      "stable_key": "sample:2ab9b3aa29d6a05cfaaf3b6497f8ba709e3fbd135fb92451f5ae383cc3312334",
+      "wameiji": {
+        "title": "Hamidashi-Creative-Totsu-first-edition",
+        "version_evidence": "exact-search-result-title-initial-edition-condition-and-bonus-pending",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 10585.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JMjbHLNWzNmqUJQsykdaf",
+        "observed_at": "2026-09-13T16:32:53Z"
+      },
+      "xianyu": {
+        "title": "Hamidashi-Creative-Totsu-first-limited-edition",
+        "version_evidence": "exact-title-transliteration-current-search-result-complete-booklet-and-artwork",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 80.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=HamidashiCreativeTotsuFirstEdition",
+        "observed_at": "2026-09-13T16:32:54Z"
+      }
+    },
+    {
+      "reference_product_id": 6,
+      "stable_key": "sample:5262161d4824d7e693f64f7ccb05f83ec9d891902a71ce9311ae36266fc98880",
+      "wameiji": {
+        "title": "Imasugu-Oniichan-ni-Imouto-datte-Iitai-complete-production-limited-PC-software",
+        "version_evidence": "exact-title-current-listing-condition-and-bonus-pending",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3500.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m18875535321",
+        "observed_at": "2026-09-13T16:34:10Z"
+      },
+      "xianyu": {
+        "title": "Imasugu-Oniichan-ni-Imouto-datte-Iitai-complete-production-limited-three-discs-no-artbook",
+        "version_evidence": "exact-title-three-discs-and-manual-but-no-artbook-not-price-comparable",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 300.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1041306363872",
+        "observed_at": "2026-09-13T16:34:12Z"
+      }
+    },
+    {
+      "reference_product_id": 8,
+      "stable_key": "sample:9cb168701acdc46fee86f43c6ae35fda5bca7eddd8e4033c7d6aa0fd1bf3bf54",
+      "wameiji": {
+        "title": "WHITE_ALBUM2_Original_Soundtrack_kazusa_with_obi",
+        "version_evidence": "exact-title-with-obi-current-result-condition-pending",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 16100.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m67214647991",
+        "observed_at": "2026-09-13T16:37:00Z"
+      },
+      "xianyu": {
+        "title": "WHITE_ALBUM2_Original_Soundtrack_kazusa_Japanese_original_sealed",
+        "version_evidence": "exact-title-current-Japanese-original-sealed-listing-no-direct-item-id-exposed",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 360.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=WHITE%20ALBUM2%20Original%20Soundtrack%20kazusa",
+        "observed_at": "2026-09-13T16:37:02Z"
+      }
+    },
+    {
+      "reference_product_id": 51,
+      "stable_key": "sample:6991b7346484a1ee5ef2d96fd2854030c0a6e946b00527586b0f9b2af2ca31a3",
+      "wameiji": {
+        "title": "Fate/hollow ataraxia 限定版 PS Vita（ねんどろいどぷちアヴェンジャー等付属）",
+        "version_evidence": "人工 Chrome 商品页：限定版、PS Vita、剩1；¥2,980。含特制收纳BOX、本体、未开封粘土人ぷち Avenger、Capsule/Hanafuda material、下载码传单；外箱/软件/资料集无明显伤污，下载码可用性未确认",
+        "catalog_no": "VLJM-35123",
+        "barcode": null,
+        "price": 2980.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/uSP4r9C4vTKiDgiX7FuniN",
+        "observed_at": "2026-09-14T03:28:57Z"
+      },
+      "xianyu": {
+        "title": "Fate/hollow ataraxia PSV 限定版（虚空明镜）日版日文限定版",
+        "version_evidence": "人工 Chrome 精确检索命中多条：¥1,500称全新未拆；¥240称附件全含小安粘土人；¥217为原盒近全新；须逐条以图和附件为准",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1500.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=Fate%2Fhollow%20ataraxia%20PSV%20%E9%99%90%E5%AE%9A%E7%89%88",
+        "observed_at": "2026-09-14T03:28:59Z"
+      }
+    },
+    {
+      "reference_product_id": 53,
+      "stable_key": "sample:f51c7e9a3f32ba6d360a8b20e083ffb708d6723faeafe89fefa679e79e48d346",
+      "wameiji": {
+        "title": "Aimer / daydream〈初回生産限定盤A 合体スリーブ封入 CD＋Blu-ray〉",
+        "version_evidence": "人工 Chrome 商品页：¥2,999，7日前发布；初回A为CD+BD并有合体外套，说明提及收录现场影像；状态“无明显伤污”，但卖家提示自宅保管、或有漏检",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2999.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m96837283375",
+        "observed_at": "2026-09-14T03:30:56Z"
+      },
+      "xianyu": {
+        "title": "Aimer《daydream》初回生产限定盘A（CD+BD）",
+        "version_evidence": "人工 Chrome 精确检索命中：¥283称原装正版日版、全新未拆、带侧标；另有¥766.66称全新未拆且含FC限定写真、¥560称CD+BD+相册特典；附件和运费须逐条核验",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 283.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=Aimer%20Daydream%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4%20A",
+        "observed_at": "2026-09-14T03:30:59Z"
+      }
+    },
+    {
+      "reference_product_id": 58,
+      "stable_key": "sample:1efbfc4868bcf9990abfe2cee8978219783836d2db9d082cb0ca569103b3608e",
+      "wameiji": {
+        "title": "新品未開封・完全数量生産限定盤 LEO-NiNE / LiSA",
+        "version_evidence": "人工 Chrome 精确检索商品卡：¥2,800，标题明确新品未开封、完全数量生产限定盘；未将未加载出的详情补写为已验证内容",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2800.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m86371457544",
+        "observed_at": "2026-09-14T03:35:52Z"
+      },
+      "xianyu": {
+        "title": "LiSA 织部里沙 LEO-NiNE 完全生产限定盘 CD+BD+写真集",
+        "version_evidence": "人工 Chrome 精确检索命中：¥150称日版正版、全新仅拆封未使用；¥145称仅拆、外包装四角完好；¥200/288称全新未拆；配置为CD+BD+写真集",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 150.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=LiSA%20LEO-NiNE%20%E5%AE%8C%E5%85%A8%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4",
+        "observed_at": "2026-09-14T03:35:54Z"
+      }
+    },
+    {
+      "reference_product_id": 60,
+      "stable_key": "sample:30ad874d4d5f95bf483b9c8abe51322dc69a3bbdd8ff03cca0e5886a5e37ca61",
+      "wameiji": {
+        "title": "BURNOUT SYNDROMES ハイキュー!!×BOS - 主題歌たちの宴 - 初回生産限定盤",
+        "version_evidence": "人工 Chrome 商品页：¥6,980、9日前、全新未开封；CD+BD+AmiAmi限定アクリルバッジ。样本的Sofmap杯垫及大方卡不在该条验证范围",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 6980.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m98995665733",
+        "observed_at": "2026-09-14T03:38:24Z"
+      },
+      "xianyu": {
+        "title": "ハイキュー!!×BOS - 主題歌たちの宴 - BURNOUT SYNDROMES 初回限定版 CD+BD",
+        "version_evidence": "人工 Chrome 精确检索命中：¥319称现货、全新未拆；初回配置为CD+BD演唱会。另有¥50定金预订及¥160定金预售，未作为完整到手价",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 319.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1076904677109&categoryId=126860296",
+        "observed_at": "2026-09-14T03:38:27Z"
+      }
+    },
+    {
+      "reference_product_id": 61,
+      "stable_key": "jan:4988031460023",
+      "wameiji": {
+        "title": "宇多田ヒカル『First Love』アナログ盤／生産限定盤【未開封】",
+        "version_evidence": "人工 Chrome 商品页：未开封、新品未使用、4小时前；明确180g双LP、2014 Remastered、含First Love-John Luongo Remix。页面当时未向辅助信息展示价格，未猜填",
+        "catalog_no": null,
+        "barcode": null,
+        "price": null,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m18620474340",
+        "observed_at": "2026-09-14T03:39:28Z"
+      },
+      "xianyu": {
+        "title": "宇多田光 First Love 黑胶日版LP 2022完全生产限定版",
+        "version_evidence": "人工 Chrome 精确检索唯一命中：¥275，全新未拆，1999首专之2022完全生产限定版、180g双胶片、日版正版",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 275.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1023507423621&categoryId=202061902",
+        "observed_at": "2026-09-14T03:39:32Z"
+      }
+    },
+    {
+      "reference_product_id": 62,
+      "stable_key": "sample:bff8940f0463daa789c026a5da0ed2842d7aea3fc8c1f9904c2956ae54a10a42",
+      "wameiji": {
+        "title": "米津玄師 IRIS OUT レコード チェンソーマン JANE DOE",
+        "version_evidence": "人工打开详情：新品未开封，¥4,299，2天前上架；标题和说明只出现IRIS OUT/JANE DOE，未出现KICK BACK、版号、转速或欧洲限定信息。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 4299.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m68662771879",
+        "observed_at": "2026-09-14T03:42:11Z"
+      },
+      "xianyu": {
+        "title": "米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK 黑胶 LP（在售检索结果）",
+        "version_evidence": "人工逐页浏览的当前结果：¥178新品未拆卖家称含A面IRIS OUT、JANE DOE、KICK BACK及B面三首KICK BACK混音；同页其他卖家对33/45 RPM、欧洲版、预售/现货说法互相冲突，未能锁定与样本完全相同版次。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 178.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=IRIS%20OUT%20JANE%20DOE%20KICK%20BACK%20%E9%BB%91%E8%83%B6%20LP",
+        "observed_at": "2026-09-14T03:42:09Z"
+      }
+    },
+    {
+      "reference_product_id": 63,
+      "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
+      "wameiji": {
+        "title": "めありー 彼はきっと魔法を使う。",
+        "version_evidence": "人工打开详情：¥30,000，2个月前；めありー翻唱Orangestar乐曲的专辑，含Animate购入特典CD；购买后避光保存，未能试听，盒有细小划痕，页面状态为无明显伤污。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 30000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m66160678665",
+        "observed_at": "2026-09-14T03:44:16Z"
+      },
+      "xianyu": {
+        "title": "Orangestar 彼はきっと魔法を使う。めありー CD",
+        "version_evidence": "人工Chrome精确检索首条：¥128；默认不含侧标边纸，整体标称九成新以上，卖家称约6–7周发货；另有¥155预售新品与¥124.5全新现货系列货源。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 128.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=Orangestar%20%E5%BD%BC%E3%81%AF%E3%81%8D%E3%81%A3%E3%81%A8%E9%AD%94%E6%B3%95%E3%82%92%E4%BD%BF%E3%81%86%E3%80%82%20%E3%82%81%E3%81%82%E3%82%8A%E3%83%BC",
+        "observed_at": "2026-09-14T03:44:13Z"
+      }
+    },
+    {
+      "reference_product_id": 65,
+      "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
+      "wameiji": {
+        "title": "CD／かいりきベア／【スリーブケース・アートブック付】ベノマ 初回生産限定盤",
+        "version_evidence": "人工打开详情：¥1,650包邮、库存1、2日前；标题明确含外套盒和画册，SCGA00092，JAN 4562424561162，2020-01-15，页面状态无明显伤污。商家不保证侧标及图示以外附件。",
+        "catalog_no": "SCGA00092",
+        "barcode": "4562424561162",
+        "price": 1650.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JGLSsnkCsLUxPxvFQxDCS",
+        "observed_at": "2026-09-14T03:46:36Z"
+      },
+      "xianyu": {
+        "title": "怪力熊 蛮魔（ベノマ）CD 日本代购",
+        "version_evidence": "人工Chrome以中文别称复核：¥81代购条目写明为日本Mercari二手商品，标题称贝诺玛；标价不含税费与运费，未提供外套盒、画册、侧标是否齐全的可核验说明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 81.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E6%80%AA%E5%8A%9B%E7%86%8A%20%E3%83%99%E3%83%8E%E3%83%9E",
+        "observed_at": "2026-09-14T03:46:34Z"
+      }
+    },
+    {
+      "reference_product_id": 66,
+      "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
+      "wameiji": {
+        "title": "【中古】アニメ系CD 初音ミク / Winterland’s Anthology",
+        "version_evidence": "人工打开详情：¥14,131，另付运费¥440–1,850，库存1，5日前；KARENT，KRCD-0011，2017-01-25，状态通常/页面为无明显伤污，图片仅示意。",
+        "catalog_no": "KRCD-0011",
+        "barcode": null,
+        "price": 14131.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JWXcZeojiJzoehyCxtRhQ",
+        "observed_at": "2026-09-14T03:47:48Z"
+      },
+      "xianyu": {
+        "title": "雪初音2017 Winterland's Anthology 带侧",
+        "version_evidence": "人工Chrome精确检索：¥650，标题称带侧、无明显瑕疵，默认顺丰到付；另有¥900双签条目，非普通版可比价。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 650.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E9%9B%AA%E5%88%9D%E9%9F%B3%202017%20Winterland%27s%20Anthology",
+        "observed_at": "2026-09-14T03:47:45Z"
+      }
+    },
+    {
+      "reference_product_id": 70,
+      "stable_key": "sample:2f55489119f038fdc84478ecfa6acb1d156b9c0b9788f449f73b54cb08912459",
+      "wameiji": {
+        "title": "【新品未開封】LiSA BEST-Way- 初回生産限定盤",
+        "version_evidence": "人工打开详情：¥8,300，15日前；新品购入后暗处保存，页面状态新品未使用；明确含初回限定影像与初回限定フォトブック『Way』。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 8300.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m63567137416",
+        "observed_at": "2026-09-14T03:54:28Z"
+      },
+      "xianyu": {
+        "title": "LiSA BEST-Way- 初回生产限定盘（CD+蓝光）",
+        "version_evidence": "人工Chrome精确检索：¥63起的日淘代购单张Way初回盘，CD+蓝光；原商品描述为已播放数次、无明显伤污但部分商品有轻微变形。另有¥81的Day/Way条目，不能直接视为单张同套。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 63.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=LiSA%20BEST-Way-%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4",
+        "observed_at": "2026-09-14T03:54:25Z"
+      }
+    },
+    {
+      "reference_product_id": 71,
+      "stable_key": "sample:127ddd6fc3102fb03d7d5db1ecc09010287607a8eafffd16340ad1a7536eb975",
+      "wameiji": {
+        "title": "CD / milet / Made of Glass (CD+2DVD) (初回生産限定盤)",
+        "version_evidence": "人工打开详情：¥14,300包邮、新品未使用、18日前；SECL-3335，JAN 4547366822120，2026-08-19，CD+2DVD初回盘。",
+        "catalog_no": "SECL-3335",
+        "barcode": "4547366822120",
+        "price": 14300.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JVuQi2P9DcqA3RcaZiHAs",
+        "observed_at": "2026-09-14T03:56:00Z"
+      },
+      "xianyu": {
+        "title": "milet Made of Glass 初回限定盘 CD+2DVD（卖家规格为准）",
+        "version_evidence": "人工Chrome精确检索：¥699全款包邮含税，当前现货；卖家明确初回有CD+BD和CD+2DVD两种。与样本标题的2BD说法冲突，故不将其视作已验证规格。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 699.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%98%20CD%202Blu-ray",
+        "observed_at": "2026-09-14T03:56:46Z"
+      }
+    },
+    {
+      "reference_product_id": 72,
+      "stable_key": "sample:dbe0251491b62a24a6dc1f6b19e4836db50a991ceeefa10f9a2f940fe3de6305",
+      "wameiji": {
+        "title": "【CD】milet / Made of Glass(通常盤) (SECL-3339)",
+        "version_evidence": "通常盘 CD album；SECL-3339；JAN 4547366822137；2026-08-19；16曲；库存剩1",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3850.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JWJvNSivH5R8Vcb8KGDzW",
+        "observed_at": "2026-09-14T03:59:18Z"
+      },
+      "xianyu": {
+        "title": "milet Made of Glass 四专 通常盘 日版CD，全新未拆",
+        "version_evidence": "通常盘 CD only；闲鱼结果明确标注日版首版、全新不拆，15曲；不含另售A4文件夹",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 185.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E6%97%A5%E7%89%88%20%E9%80%9A%E5%B8%B8%E7%9B%98",
+        "observed_at": "2026-09-14T03:59:01Z"
+      }
+    },
+    {
+      "reference_product_id": 74,
+      "stable_key": "sample:1d0637fcaf7b16b3b1277d25395e69cd6f58f3bee3206d67e0b1f994b30b2be4",
+      "wameiji": {
+        "title": "ZARD Forever Best～25th Anniversary新品未開封③",
+        "version_evidence": "Blu-spec CD2 4枚組；数量限定生産；52曲；2016-02-10 25周年发售；详情标为新品未使用",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3290.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m47481058045",
+        "observed_at": "2026-09-14T04:03:55Z"
+      },
+      "xianyu": {
+        "title": "ZARD Forever Best~25th Anniversary~ 日版4CD 25周年贴 全新未拆",
+        "version_evidence": "4枚组、52曲、25周年标签贴纸；源图同名4CD，卖家表述日版正版且全新未拆",
+        "catalog_no": null,
+        "barcode": "4560109082155",
+        "price": 222.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=ZARD%20Forever%20Best%2025th%20Anniversary%204CD%20%E5%85%A8%E6%96%B0",
+        "observed_at": "2026-09-14T04:03:44Z"
+      }
+    },
+    {
+      "reference_product_id": 76,
+      "stable_key": "sample:1bbd79ed18293461be255478156b87853880febe847889ef1b746d908473b862",
+      "wameiji": {
+        "title": "milet Made of Glass ４th アルバム 初回生産限定盤",
+        "version_evidence": "详情明确为Blu-ray而非DVD；CD全15曲 + 1枚Blu-ray（台北巡演、FC Live、幕后）；新品未使用",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 13000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m41729237357",
+        "observed_at": "2026-09-14T04:06:57Z"
+      },
+      "xianyu": {
+        "title": "milet Made of Glass 初回限定盘（卖家标题CD+2Blu-ray）",
+        "version_evidence": "实拍封底写 Disc 1 CD / Disc 2 BD，故按CD+BD两碟初回盘记录；外附文件夹明确不含",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 699.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20CD%20Blu-ray",
+        "observed_at": "2026-09-14T04:06:40Z"
+      }
+    },
+    {
+      "reference_product_id": 79,
+      "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
+      "wameiji": {
+        "title": "鬼滅の刃 無限城編 第一章 猗窩座再来 完全生産限定版 Blu-ray",
+        "version_evidence": "完全生产限定；松島晃描き下ろし収納BOX+特製ブックレット明确；卖家文字未逐项确认2BD+2CD",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m12104977981",
+        "observed_at": "2026-09-14T04:12:00Z"
+      },
+      "xianyu": {
+        "title": "鬼灭之刃 无限城篇 第一章 猗窝座再来 完全生产限定版 Blu-ray",
+        "version_evidence": "完全生产限定；2BD+2CD+解说册+特制盒为样本组件；当前卖家称仅拆封、内容物完整",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 618.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83%20%E6%97%A0%E9%99%90%E5%9F%8E%20%E7%8C%97%E7%AA%9D%E5%BA%A7%E5%86%8D%E6%9D%A5%202BD%202CD%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A",
+        "observed_at": "2026-09-14T04:11:49Z"
+      }
+    },
+    {
+      "reference_product_id": 80,
+      "stable_key": "sample:d8a57e0ec747ed8171d21536aa5bc89840f690aa977e5226465dfc842917dec4",
+      "wameiji": {
+        "title": "新品未開封 EGOIST GREATEST HITS 完全生産限定盤 2017年",
+        "version_evidence": "VVCL-1148~50；完全生産限定盤 CD＋Blu-ray＋EGOISTAG仕様；新品未開封；CD16曲",
+        "catalog_no": "VVCL-1148-50",
+        "barcode": null,
+        "price": 20000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m41365565241",
+        "observed_at": "2026-09-14T04:13:47Z"
+      },
+      "xianyu": {
+        "title": "EGOIST GREATEST HITS 2011-2017 ALTER EGO 完全生产限定 CD+Blu-ray+狗牌",
+        "version_evidence": "完全生产限定；CD+Blu-ray+狗牌；卖家称全新未拆、有侧封、东西齐全；白色收纳盒未在文字逐项确认",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 650.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=EGOIST%20GREATEST%20HITS%202011-2017%20ALTER%20EGO%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A",
+        "observed_at": "2026-09-14T04:13:34Z"
+      }
+    },
+    {
+      "reference_product_id": 81,
+      "stable_key": "sample:b71bd68b25f439bb1ba89f6a51ce730b2bcaec68d53275e6b070da402ee330ab",
+      "wameiji": {
+        "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set Reconstructed Edition クリア・ヴァイナル",
+        "version_evidence": "透明色2LP；SQEX-11185；JAN 4988601471947；新品未開封、库存1；封入MP3下载码",
+        "catalog_no": "SQEX-11185",
+        "barcode": "4988601471947",
+        "price": 19800.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JTNc7fsMTBRmpxUdwqdL2",
+        "observed_at": "2026-09-14T04:15:43Z"
+      },
+      "xianyu": {
+        "title": "尼尔机械纪元/人工生命 Reconstructed Edition 透明胶2LP",
+        "version_evidence": "透明胶2LP；全新未拆；卖家称含展示架与DLC下载码，35曲；同一规格",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 899.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=NieR%20Automata%20Gestalt%20Replicant%20Reconstructed%20Edition%202LP%20%E9%80%8F%E6%98%8E%E8%83%B6",
+        "observed_at": "2026-09-14T04:15:30Z"
+      }
+    },
+    {
+      "reference_product_id": 82,
+      "stable_key": "jan:4547366548556",
+      "wameiji": {
+        "title": "【新品未開封】【入手困難レコード】宇多田ヒカルBADモード＜180g重量盤＞",
+        "version_evidence": "手工搜索结果卡标价6480日元，标题明确新品未开封与180g重量盘；详情页正文仅确认新品未使用LP，未在文字中列出 ESJL-3123-4、2LP 或完全限定版",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 6480.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m69677308373",
+        "observed_at": "2026-09-14T04:18:43Z"
+      },
+      "xianyu": {
+        "title": "宇多田光 BAD模式 LP唱片 日本代购",
+        "version_evidence": "卖家页面称完全生产限定盘、2张装黑胶、180g，Epic ESJL-3123/42；样本封面为 ESJL-3123-4，卖家斜杠写法存疑",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1184.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1046558259171&categoryId=126862148",
+        "observed_at": "2026-09-14T04:18:35Z"
+      }
+    },
+    {
+      "reference_product_id": 84,
+      "stable_key": "sample:b4fa44f140d3615b59819f9021e39f674e836647e160070df8c86ec6116bd2f8",
+      "wameiji": {
+        "title": "(新品未開封) ZARD／ZARD Best Request ~35th Anniversary~ (通常盤) (3CD) JBCJ-9086",
+        "version_evidence": "JBCJ-9086；3枚Blu-spec CD2、全35曲、歌词册，页面称通常盘与完全限定盘共通的3CD内容；与样本的3CD Blu-spec CD2对应",
+        "catalog_no": "JBCJ-9086",
+        "barcode": null,
+        "price": 3500.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/4ZWsHASSBDvv6eVj2d4HTH",
+        "observed_at": "2026-09-14T04:20:17Z"
+      },
+      "xianyu": {
+        "title": "坂井泉水 ZARD Best Request 35周年纪念 3CD套装日版 原版 全新未拆",
+        "version_evidence": "卖家标注35周年、粉丝票选35首、3CD、Blu-spec CD2；未在文案给出JBCJ-9086，但结构与样本3CD Blu-spec CD2一致",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 218.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077997934936&categoryId=126864811",
+        "observed_at": "2026-09-14T04:20:17Z"
+      }
+    },
+    {
+      "reference_product_id": 85,
+      "stable_key": "sample:5f07ca6b5b66d68cc812a889dbd590473cb0237ee4a4a00722b662d990d308ef",
+      "wameiji": {
+        "title": "CD Aimer After Dark DFCL2046 DefSTAR Records 未開封 /00110",
+        "version_evidence": "DFCL-2046；Aimer After Dark，CD，盘/封套/腰封均新品(M)，特别标注未开封及带腰封；与样本12曲日版CD对应",
+        "catalog_no": "DFCL-2046",
+        "barcode": null,
+        "price": 2535.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JTaz3FVrUaf3uck4TPDmf",
+        "observed_at": "2026-09-14T04:21:01Z"
+      },
+      "xianyu": {
+        "title": "【现货未拆】Aimer - After Dark 日版首版 DFCL-2046 1CD 12曲",
+        "version_evidence": "页面明确DFCL-2046、2013-11-20、1CD、12曲，曲目含After Rain、Amazing Grace、六等星之夜；与样本一致",
+        "catalog_no": "DFCL-2046",
+        "barcode": null,
+        "price": 158.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=Aimer%20After%20Dark%20%E6%97%A5%E7%89%88%20CD%20DFCL-2046",
+        "observed_at": "2026-09-14T04:21:01Z"
+      }
+    },
+    {
+      "reference_product_id": 86,
+      "stable_key": "jan:4988018102540",
+      "wameiji": {
+        "title": "LP(30cm) / 坂本龍一 / 1996 30th Anniversary Edition (完全生産限定盤)",
+        "version_evidence": "FLJG-9012，JAN 4988018102540，2026-04-08发售，完全生产限定盘；与样本30周年日版黑胶对应。当前可见正文仅展开A/B面，2LP全套结构须以实物或展开后的C/D面复核",
+        "catalog_no": "FLJG-9012",
+        "barcode": "4988018102540",
+        "price": 7700.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JVuQmyfof7AvLNo8wM728",
+        "observed_at": "2026-09-14T04:22:01Z"
+      },
+      "xianyu": {
+        "title": "特惠现货 坂本龙一 1996 30周年 30th Anniversary Edition 日本完全生产限定双黑胶2LP",
+        "version_evidence": "卖家明确30周年、日版完全生产限定、双黑胶2LP、全新未拆；样本同为2026-04-08发售30周年2LP",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 425.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80%201996%2030%E5%91%A8%E5%B9%B4%20%E9%BB%91%E8%83%B6",
+        "observed_at": "2026-09-14T04:22:01Z"
+      }
+    },
+    {
+      "reference_product_id": 87,
+      "stable_key": "sample:37135d9f8a4bdb83e0327e2eb17d7c263cbdcf29595a06997b3238b1c05abb30",
+      "wameiji": {
+        "title": "Kalafina All Time Best 2008-2018 完全生産限定盤",
+        "version_evidence": "VVCL 1332-7；完全生产限定盘6CD、精选辑及武道馆live音源、豪华60P历史写真集；与样本完全生产限定版一致",
+        "catalog_no": "VVCL-1332-7",
+        "barcode": null,
+        "price": 11000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m23333966729",
+        "observed_at": "2026-09-14T04:22:57Z"
+      },
+      "xianyu": {
+        "title": "Kalafina All Time Best 2008-2018 完全生产限定盘 6CD 豪华60页历史写真集",
+        "version_evidence": "VVCL 1332-7；完全生产限定盘、6张CD、日本武道馆live音源、豪华60页历史写真集；与样本十周年完全生产限定版对应",
+        "catalog_no": "VVCL-1332-7",
+        "barcode": null,
+        "price": 580.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1076551457469&categoryId=126862148",
+        "observed_at": "2026-09-14T04:22:57Z"
+      }
+    },
+    {
+      "reference_product_id": 88,
+      "stable_key": "jan:0602478377792",
+      "wameiji": {
+        "title": "藤井風 Prema Colored Vinyl アナログ盤／輸入盤 未開封",
+        "version_evidence": "进口Colored Vinyl，Prema第三张全英文专辑，9曲含Casket Girl、I Need U Back、Hachiko、Love Like This、Prema；与样本进口透明胶LP方向对应。页面正文未列0602478377792，条码待实物封底核验",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 7000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m12464843709",
+        "observed_at": "2026-09-14T04:23:51Z"
+      },
+      "xianyu": {
+        "title": "藤井风 Prema 三专黑胶 LP 国际版透明胶 全新未开封",
+        "version_evidence": "卖家明确国际版透明胶、全新未开封；与样本排除欧版/日版的进口透明胶方向相符。页面未展示样本条码0602478377792",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 245.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E8%97%A4%E4%BA%95%E9%A3%8E%20Prema%20%E9%BB%91%E8%83%B6",
+        "observed_at": "2026-09-14T04:23:51Z"
+      }
+    },
+    {
+      "reference_product_id": 90,
+      "stable_key": "sample:9803de94996a638e57e8ed0604061181b786ac9176ea1c9e3845d0a0a22728cf",
+      "wameiji": {
+        "title": "【新品未開封】宇多田ヒカル パッパパラダイス 完全生産限定盤 7インチレコード",
+        "version_evidence": "完全生产限定7寸黑胶；A面 パッパパラダイス feat. 甲本ヒロト，B面 パッパパラダイス；樱桃小丸子新ED。与样本7寸日版限定盘对应",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3100.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m13728935092",
+        "observed_at": "2026-09-14T04:25:42Z"
+      },
+      "xianyu": {
+        "title": "宇多田光 Papa Paradise 7寸单曲胶 日亚特典 全新未拆",
+        "version_evidence": "日版完全生产限定7寸单曲胶、对开式胶套、内附折叠海报；卖家加注日亚大卡特典。与样本7寸LP海报套装/樱桃小丸子ED一致",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 198.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20%E3%83%91%E3%83%83%E3%83%91%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9%207%E5%AF%B8%20%E9%BB%91%E8%83%B6%20%E6%B5%B7%E6%8A%A5",
+        "observed_at": "2026-09-14T04:25:42Z"
+      }
+    },
+    {
+      "reference_product_id": 91,
+      "stable_key": "jan:4547366558180",
+      "wameiji": {
+        "title": "milet Walkin In My Lane initial limited B CD DVD SECL-2765",
+        "version_evidence": "Initial limited B CD+DVD; catalog SECL-2765; JAN 4547366558180; 3 CD tracks and 20 DVD tracks shown.",
+        "catalog_no": "SECL-2765",
+        "barcode": "4547366558180",
+        "price": 3200.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JNEgL8M4FCyam5tmxBZG5",
+        "observed_at": "2026-09-14T04:29:03Z"
+      },
+      "xianyu": {
+        "title": "milet Walkin' In My Lane（初回生産限定盤B）全新未拆",
+        "version_evidence": "初回生産限定盤B；CD+DVD；卡片完整展示CD三曲及milet 1st tour SEVENTH HEAVEN最终场DVD 20曲，与样本的CD+DVD和首场巡演相符",
+        "catalog_no": "SECL-2765",
+        "barcode": "4547366558180",
+        "price": 150.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=milet%20Walkin%20In%20My%20Lane%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20B",
+        "observed_at": "2026-09-14T04:28:29Z"
+      }
+    },
+    {
+      "reference_product_id": 92,
+      "stable_key": "sample:a82c563e6a7d69b6d814f417a2f9e8de5bafc4766406bc5efd8a91d824585dba",
+      "wameiji": {
+        "title": "Frieren Original Soundtrack initial production limited Evan Call, new sealed",
+        "version_evidence": "Season 2 Original Soundtrack; Evan Call; listing title and description identify initial production limited version; new unopened; visible track list includes The Journey Continues through The Golden Land.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3980.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m78522861084",
+        "observed_at": "2026-09-14T04:30:06Z"
+      },
+      "xianyu": {
+        "title": "Frieren Season 2 OST Evan Call initial production limited edition, sealed",
+        "version_evidence": "Friend Beyond Journey End Season2 OST; Evan Call; initial production limited; original first edition style storage box; item text lists included sticker, bonus booklet, and concert lottery entry paper.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 233.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2%20Season2%20OST%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20Evan%20Call",
+        "observed_at": "2026-09-14T04:29:59Z"
+      }
+    },
+    {
+      "reference_product_id": 93,
+      "stable_key": "sample:6fb1ff711ef2e17080646c6634cd82522f397e41fb10c16598bf2c6b5a12eb53",
+      "wameiji": {
+        "title": "Utada Hikaru SCIENCE FICTION complete production limited 2CD special package, new unused",
+        "version_evidence": "Complete production limited 2CD plus special package; lenticular 188mm special digipak and 36-page full-color booklet. Seller says purchased only to obtain serial code, then unplayed and new.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m83808420857",
+        "observed_at": "2026-09-14T04:31:25Z"
+      },
+      "xianyu": {
+        "title": "Utada Hikaru SCIENCE FICTION 25th best, complete limited 2CD, new sealed",
+        "version_evidence": "Complete production limited 2CD; 25th anniversary; listing says new sealed and includes bonus sticker, booklet, and lottery card. Another page confirms the 2CD has 26 tracks and the edition has special lenticular 188mm package plus 36-page booklet.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 300.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20SCIENCE%20FICTION%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%E7%9B%98%202CD%20%E7%89%B9%E5%85%B8",
+        "observed_at": "2026-09-14T04:31:17Z"
+      }
+    },
+    {
+      "reference_product_id": 94,
+      "stable_key": "sample:09cdcbeb0b4c28229a0a44cf5d18efb56ac4d318f8358eb6c8e7bfeedeea45c7",
+      "wameiji": {
+        "title": "Yoko Takahashi Cruel Angel Thesis EVANGELION 30th Anniversary Edition LP color vinyl initial limited",
+        "version_evidence": "Exact title identifies color vinyl initial limited edition for Evangelion 30th anniversary. Current shop stock remaining 1, includes shipping, listed 3 days ago.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9800.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JWauph9k4xYJyFMaQNHQz",
+        "observed_at": "2026-09-14T04:32:31Z"
+      },
+      "xianyu": {
+        "title": "Yoko Takahashi Cruel Angel Thesis EVANGELION 30th Anniversary colored vinyl initial limited LP",
+        "version_evidence": "Yoko Takahashi; Cruel Angel Thesis EVANGELION 30th Anniversary Edition; initial limited transparent colored vinyl LP; listing confirms enclosed jacket illustration card; new unopened with no dents.",
+        "catalog_no": "NAS-2164",
+        "barcode": "4988003660604",
+        "price": 339.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC%20EVA%2030%E5%91%A8%E5%B9%B4%20LP%20%E9%AB%98%E6%A1%A5%E6%B4%8B%E5%AD%90",
+        "observed_at": "2026-09-14T04:32:23Z"
+      }
+    },
+    {
+      "reference_product_id": 95,
+      "stable_key": "sample:9a0a8c853cf97da137006cd669e4874097d2de38bfe89fbb1de505cfdb7abcb5",
+      "wameiji": {
+        "title": "milet inside you EP CD DVD initial production limited",
+        "version_evidence": "milet debut EP; initial production limited edition; CD plus DVD two-disc configuration, explicitly stated on detail page.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m89211460005",
+        "observed_at": "2026-09-14T04:33:24Z"
+      },
+      "xianyu": {
+        "title": "milet inside you EP initial production limited CD plus DVD, new sealed",
+        "version_evidence": "milet debut EP inside you EP, initial production limited, CD plus DVD. Listing expressly says new unopened and non-remote shipping included.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1080.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=milet%20inside%20you%20EP%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4%20CD%20DVD",
+        "observed_at": "2026-09-14T04:33:16Z"
+      }
+    },
+    {
+      "reference_product_id": 99,
+      "stable_key": "jan:4988031460030",
+      "wameiji": {
+        "title": "宇多田ヒカル Distance 生産限定盤 180g重量盤 LP 新品未開封",
+        "version_evidence": "Mercari item m45033420126; product description explicitly states Distance, 生産限定盤, 180g重量盤, LP; condition 新品、未使用.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 6280.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m45033420126",
+        "observed_at": "2026-09-14T05:10:23Z"
+      },
+      "xianyu": {
+        "title": "宇多田光 Distance 日版 2022年再版 生产限定盘 黑胶唱片2LP 全新未拆",
+        "version_evidence": "Manual search card: states 宇多田光 二专 Distance, 2022年再版, 生产限定盘, 黑胶唱片2LP, 全新未拆; exact 2022 edition.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 275.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20Distance%20%E9%BB%91%E8%83%B6%202LP",
+        "observed_at": "2026-09-14T05:10:56Z"
+      }
+    },
+    {
+      "reference_product_id": 100,
+      "stable_key": "sample:b48c761166295009614f7ec087051ca05bc893ea7783f6f13aef65b7ff87478b",
+      "wameiji": {
+        "title": "あいみょん 青春のエキサイトメント 数量限定 180g重量盤 2枚組 10th anniversary card封入 新品未開封",
+        "version_evidence": "Mercari item m38923412257 explicitly states 数量限定の180g重量盤2枚組 and 特典10th anniversary card封入; new unopened.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 7880.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m38923412257",
+        "observed_at": "2026-09-14T05:11:44Z"
+      },
+      "xianyu": {
+        "title": "爱缪 Aimyon 青春のエキサイトメント 10周年纪念限定 日版红色彩胶黑胶2LP 180g 含10周年纪念卡 全新未拆",
+        "version_evidence": "Manual search card: 10周年纪念限定, 日版红胶2LP, 180g彩胶, 全新未拆, and 10周年纪念卡特典. This matches the sample edition and included card.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 315.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=AIMYON%20%E9%9D%92%E6%98%A5%E3%81%AE%E3%82%A8%E3%82%AD%E3%82%B5%E3%82%A4%E3%83%88%E3%83%A1%E3%83%B3%E3%83%88%2010%E5%91%A8%E5%B9%B4%202LP%20180g%20%E9%BB%91%E8%83%B6",
+        "observed_at": "2026-09-14T05:12:07Z"
+      }
+    },
+    {
+      "reference_product_id": 101,
+      "stable_key": "sample:f563e120e9993f3353054debbd6cb77b10137b023425ad8c3925c649d1a4a21c",
+      "wameiji": {
+        "title": "milet eyes 完全生産限定盤 アナログ盤2枚組 重量盤 新品未使用",
+        "version_evidence": "Mercari item m51647522231 explicitly confirms 完全生産限定盤, アナログ盤2枚組, 重量盤, and new unused; posted 14 days ago.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 8000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m51647522231",
+        "observed_at": "2026-09-14T05:12:59Z"
+      },
+      "xianyu": {
+        "title": "milet eyes 日版完全生产限定盘 2LP重量盘 全新未拆 含12页小册子 18首",
+        "version_evidence": "Manual search card: milet eyes, 完全生产限定盘 2LP, 规格品番 SEJL-86, 2 discs heavyweight, 18 tracks, and 12-page booklet; listed as current domestic stock and new unopened.",
+        "catalog_no": "SEJL-86",
+        "barcode": null,
+        "price": 415.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=milet%20eyes%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%20%E9%BB%91%E8%83%B6%202LP",
+        "observed_at": "2026-09-14T05:13:20Z"
+      }
+    },
+    {
+      "reference_product_id": 102,
+      "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
+      "wameiji": {
+        "title": "YOASOBI THE BOOK 完全生産限定盤 ピンクカラーヴァイナル LP 新品未開封 メーカー特典ステッカー付き",
+        "version_evidence": "Mercari item m95759221146 explicitly says THE BOOK, 完全生産限定盤, ピンクカラーヴァイナル仕様 LP, 2024-10-23 release, new unopened, with manufacturer sticker. Purchase link is live.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 14444.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m95759221146",
+        "observed_at": "2026-09-14T05:14:23Z"
+      },
+      "xianyu": {
+        "title": "YOASOBI THE BOOK 限量版粉色彩胶黑胶LP 全新 现货当天发",
+        "version_evidence": "Manual search card: YOASOBI The Book limited pink-color vinyl LP, new, current stock, same edition; item explicitly notes no seal design and provides real-product photos.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 318.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20%E7%B2%89%E8%83%B6%20%E9%BB%91%E8%83%B6",
+        "observed_at": "2026-09-14T05:15:18Z"
+      }
+    },
+    {
+      "reference_product_id": 105,
+      "stable_key": "sample:e4cd06c35ac46b70f47c68f324805ecbe4414f8928f8cffe5af3778e9381d9e5",
+      "wameiji": {
+        "title": "ヨルシカ 書簡型小説 二人称 新品未開封 初版形态",
+        "version_evidence": "Mercari item m95692185293: 書簡型小説「二人称」, new unopened, seller says it has not been taken out of the shipping carton; posted 1 day ago. Standard retail price stated ¥7700.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 8400.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m95692185293",
+        "observed_at": "2026-09-14T05:19:17Z"
+      },
+      "xianyu": {
+        "title": "夜鹿 n-buna 二人称 书简型小说 日版 全新未拆 32小信封 约170张原稿信纸 大信封 外盒",
+        "version_evidence": "Manual current card: full 32 small envelopes, about 170 manuscript/letter pages, 1 large envelope, unopened original outer box, no CD and no bonus. Exact sample form.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 400.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E5%A4%9C%E9%B9%BF%20n-buna%20%E4%BA%8C%E4%BA%BA%E7%A7%B0%20%E4%B9%A6%E7%AE%80%E5%9E%8B%E5%B0%8F%E8%AF%B4%20%E5%85%A8%E6%96%B0%E6%9C%AA%E6%8B%86",
+        "observed_at": "2026-09-14T05:19:42Z"
+      }
+    },
+    {
+      "reference_product_id": 106,
+      "stable_key": "sample:33c23769f83f85146973c4589645fc933d0dc5c4e439bb6692a662f7263f573e",
+      "wameiji": {
+        "title": "EGOIST The Everlasting Guilty Crown 初回 CD+DVD 同版 已使用",
+        "version_evidence": "Mercari item m70655374511 explicitly contains The Everlasting Guilty Crown by EGOIST, CD plus DVD. Current item posted 1 day ago; condition is used with no noticeable damage.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 555.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m70655374511",
+        "observed_at": "2026-09-14T05:21:16Z"
+      },
+      "xianyu": {
+        "title": "EGOIST The Everlasting Guilty Crown 日版初回限定 CD+DVD 全新未拆",
+        "version_evidence": "Manual card: The Everlasting Guilty Crown EGOIST Japanese first-limited CD+DVD, factory self-seal, unopened, current stock. Seller states no rattle and no visible case crack.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 498.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=EGOIST%20The%20Everlasting%20Guilty%20Crown%20%E5%88%9D%E5%9B%9E%20CD%20DVD",
+        "observed_at": "2026-09-14T05:21:39Z"
+      }
+    },
+    {
+      "reference_product_id": 107,
+      "stable_key": "sample:a30bbb3f193ff984f77ff7a4d8ccf8cd481183a475e875b1d52d882fce1e2ca5",
+      "wameiji": {
+        "title": "アンディ・ラウ 回到你身邊 日本初LP化 初回生産限定 180gブラックLP B2ポスター 歌詞対訳付",
+        "version_evidence": "Mercari Shops item SXTf7VmwoizE3VCPJfHAhH: exact title 回到イ尓身邊, 日本初リリース, 180g black LP, B2 poster, lyrics/translation, UIJY-75324, 2025-09-24; new and stock 1.",
+        "catalog_no": "UIJY-75324",
+        "barcode": null,
+        "price": 6950.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/SXTf7VmwoizE3VCPJfHAhH",
+        "observed_at": "2026-09-14T05:23:24Z"
+      },
+      "xianyu": {
+        "title": "刘德华 回到你身边 日本初回限定 180g黑胶LP 全新未拆",
+        "version_evidence": "Manual Chrome search for 刘德华 回到你身边 日版黑胶 showed multiple current domestic listings. One listing specifies 2025 Japanese first LP release, 2025-09-24, original Universal Music, new sealed. Other matching cards state Japanese first limited edition and 180g LP; source collection is not treated as a four-title set.",
+        "catalog_no": "UIJY-75324",
+        "barcode": null,
+        "price": 338.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E5%88%98%E5%BE%B7%E5%8D%8E%20%E5%9B%9E%E5%88%B0%E4%BD%A0%E8%BA%AB%E8%BE%B9%20%E6%97%A5%E7%89%88%E9%BB%91%E8%83%B6",
+        "observed_at": "2026-09-14T05:25:23Z"
+      }
+    },
+    {
+      "reference_product_id": 108,
+      "stable_key": "sample:54e0dcfb28f13c4bb7d786be4a8d04a4814407a241fa1718f1861f89df922b25",
+      "wameiji": {
+        "title": "ヨルシカ 幻燈 音楽画集 加藤隆 25曲対応",
+        "version_evidence": "Mercari item m51414436751 is a current purchasable exact music art book: description says it is an audio-enabled art book with paintings by Takashi Kato and music by Yorushika. It was opened, displayed on a shelf, and is near-unused; no lottery ticket or sealed condition claimed.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 10000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m51414436751",
+        "observed_at": "2026-09-14T05:26:37Z"
+      },
+      "xianyu": {
+        "title": "ヨルシカ 幻灯 音乐画集 加藤隆 全新未拆",
+        "version_evidence": "Manual Chrome search showed a domestic current listing titled yorushika夜鹿幻灯画集 全新未拆封 可直拍当天发货. Other direct cards confirm the same Yorushika x Takashi Kato music art book. No historical lottery ticket or poster is recorded as available.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1000.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E3%83%A8%E3%83%AB%E3%82%B7%E3%82%AB%20%E5%B9%BB%E7%81%AF%20%E5%8A%A0%E8%97%A4%E9%9A%86%20%E9%9F%B3%E4%B9%90%E7%94%BB%E9%9B%86%20%E5%85%A8%E6%96%B0",
+        "observed_at": "2026-09-14T05:27:01Z"
+      }
+    },
+    {
+      "reference_product_id": 109,
+      "stable_key": "sample:f0af407b900be9c399e6a0dfea7bc1b53f09fbc578249c141593a6d71437624c",
+      "wameiji": {
+        "title": "YOASOBI THE BOOK for ART EDITION 海外限定 2LP 新品未开封 两份装",
+        "version_evidence": "Mercari item m42348502657: The Book For Yoasobi Art Edition overseas-limited analog record, two copies of 2LP, new sealed, postage included. The reference barcode 820200663191 returned no direct Mercari result; barcode is preserved from source only and not independently printed in this listing.",
+        "catalog_no": null,
+        "barcode": "820200663191",
+        "price": 29800.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m42348502657",
+        "observed_at": "2026-09-14T05:28:05Z"
+      },
+      "xianyu": {
+        "title": "YOASOBI THE BOOK for ART EDITION 水蓝彩胶 2LP 全新未拆 国内现货",
+        "version_evidence": "Manual Chrome search showed full-price domestic-current cards for The Book For Yoasobi Art Edition: water-blue colored 2LP, new sealed, barcode 820200663191, listed as domestic stock and not pre-order. Deposit and in-transit pre-order cards were excluded.",
+        "catalog_no": null,
+        "barcode": "820200663191",
+        "price": 299.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20for%20ART%20EDITION%20%E5%BD%A9%E8%83%B6",
+        "observed_at": "2026-09-14T05:28:28Z"
+      }
+    },
+    {
+      "reference_product_id": 110,
+      "stable_key": "sample:51bb9ee0ad79a92236e6d2bd7a5b94f28ff66ac9fcff526a34e260ac1546d779",
+      "wameiji": {
+        "title": "n-buna 月を歩いている 初回生産限定盤 CD 絵本 花の咲いたカエル",
+        "version_evidence": "Mercari item m18205653066 lists exact first-press limited CD, catalog DUED-1149, with picture book 花の咲いたカエル. Condition is no noticeable damage with minor signs of use. The source opaque blue box is consistent; reclosable OPP outer sleeve is not independently stated on this listing.",
+        "catalog_no": "DUED-1149",
+        "barcode": null,
+        "price": 7999.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m18205653066",
+        "observed_at": "2026-09-14T05:29:17Z"
+      },
+      "xianyu": {
+        "title": "n-buna 月を歩いている 初回限定 纸质收纳盒 可重复封口OPP套",
+        "version_evidence": "Manual Chrome search showed an exact domestic listing with the source configuration: n-buna 月を歩いている, first limited, paper storage box and reclosable transparent OPP sleeve. Normal plastic-case editions and CD-only cards were excluded. Current card does not independently state the source minor-use condition.",
+        "catalog_no": "DUED-1149",
+        "barcode": null,
+        "price": 888.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=n-buna%20%E6%9C%88%E3%82%92%E6%AD%A9%E3%81%84%E3%81%A6%E3%81%84%E3%82%8B%20%E5%88%9D%E5%9B%9E",
+        "observed_at": "2026-09-14T05:29:57Z"
+      }
+    },
+    {
+      "reference_product_id": 111,
+      "stable_key": "sample:4b9d9eceb4d076317f12b55d9211e66f0e9d3b656ba4571db9f349b8741a3657",
+      "wameiji": {
+        "title": "Ado WORLD TOUR 2025 Hibana 初回限定盘 Blu-ray 两碟组 写真集 明信片",
+        "version_evidence": "Mercari Shops product 2JNtzyJNeARHGBbNZP4tqx: domestic-Japan official new sealed initial limited Blu-ray, stock 1. Includes Saitama and Orlando Blu-ray discs, hard-cover case, live photo book, and glitter postcard. Current page does not state an application lottery serial, so none is claimed.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 14999.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JNtzyJNeARHGBbNZP4tqx",
+        "observed_at": "2026-09-14T05:31:44Z"
+      },
+      "xianyu": {
+        "title": "Ado WORLD TOUR 2025 Hibana 初回限定蓝光 全新未拆",
+        "version_evidence": "Manual Chrome search showed a full-price domestic current individual listing for the initial limited Blu-ray, sealed, with calendar poster, at CNY 505. It matches the Hibana initial Blu-ray product. CNY 40-45 cards asserting initial Blu-ray were excluded as implausibly priced and lacking trustworthy edition-component evidence; multi-option cards were excluded.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 505.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=Ado%20WORLD%20TOUR%202025%20Hibana%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20Blu-ray",
+        "observed_at": "2026-09-14T05:32:06Z"
+      }
+    },
+    {
+      "reference_product_id": 112,
+      "stable_key": "sample:7cd35a051c64ad55a72942402e1f6df751ddb4d4a6272b95cbc28814ca011647",
+      "wameiji": {
+        "title": "MAN WITH A MISSION×milet 絆ノ奇跡 コイコガレ 期间生产限定 CD加DVD",
+        "version_evidence": "Mercari item m41548908685 is a current period-production limited CD+DVD edition with Demon Slayer illustrated jacket and sleeve. Condition is no noticeable damage with minor signs of use. No poster, file, or time-limited benefit is stated on the current page.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1080.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m41548908685",
+        "observed_at": "2026-09-14T05:34:14Z"
+      },
+      "xianyu": {
+        "title": "MAN WITH A MISSION×milet 绊ノ奇迹 コイコガレ CD加DVD期间限定盘",
+        "version_evidence": "Manual Chrome search showed a current domestic full-price card for period-limited CD+DVD with Demon Slayer Swordsmith Village OP/ED, six-track configuration, sealed and stated original packaging. Seller claims Japanese official edition. No specific poster character or seller-written bonus claim is independently verified.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 60.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=MAN%20WITH%20A%20MISSION%20milet%20%E7%BB%8A%E3%83%8E%E5%A5%87%E8%B7%A1%20%E3%82%B3%E3%82%A4%E3%82%B3%E3%82%AC%E3%83%AC%20CD%20DVD%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A",
+        "observed_at": "2026-09-14T05:34:46Z"
+      }
+    },
+    {
+      "reference_product_id": 113,
+      "stable_key": "sample:940ec4a7b6149823c65d365a4e998430bfb3f0ee550f4637d06d2bd90d25b57c",
+      "wameiji": {
+        "title": "Ado 狂言 1st LP 完全生产限定 2LP 全新未开封",
+        "version_evidence": "Mercari item m56300190259: Ado 狂言 complete production limited analog record, 2LP, new unused and unopened. Seller says bought from Tower Records in 2023 and dark-stored; posted 1 day ago.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 35000.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m56300190259",
+        "observed_at": "2026-09-14T05:35:45Z"
+      },
+      "xianyu": {
+        "title": "Ado 狂言 1st LP 日版完全生产限定 2LP 全新未拆",
+        "version_evidence": "Manual Chrome search showed a full-price domestic card: Ado 狂言 Japanese complete production limited edition, 2LP, factory wrap intact, stated as in-stock. Seller asserts official authenticity. Lower-priced card at CNY 800 was excluded because identity evidence was insufficient against the Japan-market price context.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2300.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=Ado%20%E7%8B%82%E8%A8%80%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%202LP%20%E9%BB%91%E8%83%B6",
+        "observed_at": "2026-09-14T05:36:14Z"
+      }
+    },
+    {
+      "reference_product_id": 114,
+      "stable_key": "sample:9ceab5cf2bc2e2fe00a0b61ed76dbe8032d96537e13de04aba13627cca0ff86c",
+      "wameiji": {
+        "title": "米津玄師 BOOTLEG 初回限定 ブート盘 CD 仿LP封套 插画 海报 伪黑胶",
+        "version_evidence": "Mercari Shops 2JWKCtYJ4j8aebwsotrwcJ explicitly lists the BOOTLEG boot version with analog-style jacket, art illustration, poster, and dummy record. It is used in no-noticeable-damage condition; product title does not guarantee the original outer bag, so it is not claimed. Catalog SRCL-9567, JAN 4547366329674.",
+        "catalog_no": "SRCL-9567",
+        "barcode": "4547366329674",
+        "price": 4989.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JWKCtYJ4j8aebwsotrwcJ",
+        "observed_at": "2026-09-14T05:37:08Z"
+      },
+      "xianyu": {
+        "title": "米津玄师 BOOTLEG 初回限定 ブート盘 CD+仿LP封套 插画 海报 仿制唱片",
+        "version_evidence": "闲鱼当前检索按SRCL-9567命中；页面正文标注SRCL-9567/8、JAN 4547366329674，12英寸唱片封套、艺术插画大海报和仿制唱片；介质为CD，不是可播放黑胶。",
+        "catalog_no": "SRCL-9567",
+        "barcode": "4547366329674",
+        "price": 291.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
+        "observed_at": "2026-09-14T05:38:52Z"
+      }
+    },
+    {
+      "reference_product_id": 116,
+      "stable_key": "sample:00a377b0aac9c07415fdb2b9b5d77a1a5800613f87a237d20fc427b6f3c6ab86",
+      "wameiji": {
+        "title": "FINAL FANTASY X ザナルカンドにて Compilation Album / FFX 25th Anniversary To Zanarkand Album CD",
+        "version_evidence": "Mercari当前条目明确说明为FFX 25th Anniversary To Zanarkand Album，收录ザナルカンドにて的15个改编版本，格式CD；匹配样本会场限定合辑而非一般FFX原声。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3400.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m82652747780",
+        "observed_at": "2026-09-14T05:41:02Z"
+      },
+      "xianyu": {
+        "title": "FINAL FANTASY X 25th Anniversary To Zanarkand Compilation Album CD",
+        "version_evidence": "闲鱼当前代购页正文明确写FFX 25th Anniversary To Zanarkand Album、15种ザナルカンドにて改编、CD、全新未拆；与样本合辑一致。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 185.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1078183639126&categoryId=126862148",
+        "observed_at": "2026-09-14T05:41:28Z"
+      }
+    },
+    {
+      "reference_product_id": 117,
+      "stable_key": "sample:22d91e29af15b5a5c7296974a67394f6031149808e799e733fa9fdc1be5a72de",
+      "wameiji": {
+        "title": "SawanoHiroyuki[nZk] X.U. / scaPEGoat DVD付期间生产限定盘",
+        "version_evidence": "Mercari当前条目正文明确标注TV动画终结的炽天使主题歌X.U.|scaPEGoat、DVD付き、期间生产限定盘；对应样本的本体，不含样本加售海报。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 555.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m950942469",
+        "observed_at": "2026-09-14T05:42:13Z"
+      },
+      "xianyu": {
+        "title": "SawanoHiroyuki[nZk] X.U. / scaPEGoat 期间生产限定 CD+DVD",
+        "version_evidence": "闲鱼当前库存余1条目明确标注X.U. / scaPEGoat、期间生产限定版、CD+DVD、终结的炽天使TV动画OP/ED主题曲和带侧标。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 228.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=649583488611&categoryId=126864811",
+        "observed_at": "2026-09-14T05:42:33Z"
+      }
+    },
+    {
+      "reference_product_id": 118,
+      "stable_key": "sample:a950f8bcd52ac6bc24d0e3f49daa1a39106197937a390e9686dca4243a4d070c",
+      "wameiji": {
+        "title": "EGOIST 当事者 期间生产限定盘 CD+Blu-ray",
+        "version_evidence": "Mercari Shops当前在库1件；明确规格为期间生产限定盘Blu-ray Disc付，品番VVCL-2243、JAN 4547366610642，2023-05-10发行。",
+        "catalog_no": "VVCL-2243",
+        "barcode": "4547366610642",
+        "price": 2200.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/5ngbC5B7PPeqVS3XWrTSQD",
+        "observed_at": "2026-09-14T05:43:18Z"
+      },
+      "xianyu": {
+        "title": "EGOIST 当事者 日版期间生产限定 CD+BD",
+        "version_evidence": "闲鱼当前检索结果明确列出当事者、日版、期间限定CD+BD；全新未拆条目说明带原包装膜袋、四角尖、现货最后一份。",
+        "catalog_no": "VVCL-2243",
+        "barcode": "4547366610642",
+        "price": 188.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=EGOIST%20%E5%BD%93%E4%BA%8B%E8%80%85%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A%20CD%2BBD",
+        "observed_at": "2026-09-14T05:43:43Z"
+      }
+    },
+    {
+      "reference_product_id": 119,
+      "stable_key": "sample:39873d90047e7417a1b16ebed6bec6ac7f713516c0572ce06c97dbac3224b8f7",
+      "wameiji": {
+        "title": "ヨルシカ 夏草が邪魔をする CD",
+        "version_evidence": "Mercari Shops当前在库1件，型番DUED-1223，2017-06-28发行；对应样本本体。",
+        "catalog_no": "DUED-1223",
+        "barcode": null,
+        "price": 1643.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JWkuehnoJCtSbfZmFkeka",
+        "observed_at": "2026-09-14T05:44:41Z"
+      },
+      "xianyu": {
+        "title": "ヨルシカ 夏草が邪魔をする DUED-1223 日版通常盘CD",
+        "version_evidence": "闲鱼当前条目明确标注日版、全新未拆、Tower Records塔店背回、DUED-1223及2017-06-28发行。",
+        "catalog_no": "DUED-1223",
+        "barcode": null,
+        "price": 105.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E5%A4%9C%E9%B9%BF%20%E5%A4%8F%E8%8D%89%E9%82%AA%E9%AD%94%20DUED-1223",
+        "observed_at": "2026-09-14T05:45:06Z"
+      }
+    },
+    {
+      "reference_product_id": 120,
+      "stable_key": "sample:633c50493ed8741f5fd2b2d8b9ad0ea601ef9d795bec43593c0e4309ae702e67",
+      "wameiji": {
+        "title": "GARNiDELiA MIRAI 期间生产限定动画盘 CD+DVD",
+        "version_evidence": "Mercari Shops当前在库1件，标题明确MIRAI、期间生产限定アニメ盘、DVD付；JAN 4560429729075。",
+        "catalog_no": null,
+        "barcode": "4560429729075",
+        "price": 611.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JW4Ldon5H9NfUsdGQwmGX",
+        "observed_at": "2026-09-14T05:45:56Z"
+      },
+      "xianyu": {
+        "title": "GARNiDELiA MIRAI 期间生产限定盘 CD+DVD",
+        "version_evidence": "闲鱼当前条目明确标注MIRAI、期间生产限定盘、CD+DVD；另一张同检索卡虽宣称全新未拆但已标明MIRAI已出，故不采用。",
+        "catalog_no": null,
+        "barcode": "4560429729075",
+        "price": 91.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=GARNiDELiA%20MIRAI%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A%20CD%2BDVD",
+        "observed_at": "2026-09-14T05:46:21Z"
+      }
+    },
+    {
+      "reference_product_id": 121,
+      "stable_key": "sample:caa38dfe850824afd7db4e1e7874a674a6a52a83a817d1a2114ba9ef2141b969",
+      "wameiji": {
+        "title": "EGOIST Departures ～あなたにおくるアイの歌～ 初回生产限定盘附属册子/设定画册",
+        "version_evidence": "Mercari当前单独册子条目明确写罪恶王冠、Departures初回生产限定盘、EGOIST starring INORI YUZURIHA，内容为设定数据、插画与分镜等；确定是初回盘附属册子，而非CD本体。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1600.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m53293013114",
+        "observed_at": "2026-09-14T05:47:14Z"
+      },
+      "xianyu": {
+        "title": "EGOIST Departures 初回限定附属 INORI YUZURIHA 设定册/迷你画册",
+        "version_evidence": "闲鱼当前条目明确标注罪恶王冠、EGOIST、INORI YUZURIHA、Departures初回限定，并说明含原画、设定稿、手稿草图与人物设定；为独立册子而非CD。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 69.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=977136403407&categoryId=126860296",
+        "observed_at": "2026-09-14T05:47:39Z"
+      }
+    },
+    {
+      "reference_product_id": 122,
+      "stable_key": "sample:a9b4dad675e202fbbb11d6ace63a1a1bf019d3583bfc98d6af14b6b6b61291a0",
+      "wameiji": {
+        "title": "Aimer 星の消えた夜に Blu-ray付完全生产限定盘 2CD+BD+歌词册+写真册+收纳BOX",
+        "version_evidence": "Mercari Shops当前在库1件，型番VVCL-1961；详情明确3枚组为CD两枚+Blu-ray一枚，并含歌词册、写真册和收纳BOX。",
+        "catalog_no": "VVCL-1961",
+        "barcode": null,
+        "price": 3610.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/nFvYGZe3X8uLkVoDUjmgBB",
+        "observed_at": "2026-09-14T05:48:46Z"
+      },
+      "xianyu": {
+        "title": "Aimer 星の消えた夜に 完全生产限定版 2CD+BD",
+        "version_evidence": "闲鱼当前条目明确标注Aimer十周年专辑、完全生产限定版、2CD+BD、全新未拆；与挖煤姬同品番VVCL-1961的逐盘明细一致。",
+        "catalog_no": "VVCL-1961",
+        "barcode": null,
+        "price": 399.99,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1030153019863&categoryId=126864811",
+        "observed_at": "2026-09-14T05:49:20Z"
+      }
+    },
+    {
+      "reference_product_id": 123,
+      "stable_key": "sample:8eca2b4954af65dc107ed855efa7769426b259d852d12b3d684b4644c4b1a5f3",
+      "wameiji": {
+        "title": "supercell My Dearest 初回生产限定盘 CD+DVD + 特典卡",
+        "version_evidence": "Mercari当前条目明确为My Dearest初回限定盘CD+DVD，含特典卡，罪恶王冠关联；照片中的内容即全部。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1600.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m34135105020",
+        "observed_at": "2026-09-14T05:52:20Z"
+      },
+      "xianyu": {
+        "title": "supercell My Dearest 罪恶王冠OP 初回限定 CD+DVD + 原袋侧标卡牌应募券",
+        "version_evidence": "闲鱼当前条目明确为罪恶王冠主题曲My Dearest初回限定CD+DVD，带原袋、侧标、卡牌和应募券；曲目与样本一致。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 158.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=supercell%20My%20Dearest%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20CD%2BDVD",
+        "observed_at": "2026-09-14T05:53:06Z"
+      }
+    },
+    {
+      "reference_product_id": 124,
+      "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
+      "wameiji": {
+        "title": "トゲナシトゲアリ 棘ナシ ［LP+ステッカー］＜完全生産限定盤＞",
+        "version_evidence": "商品页明确 LP+封面图贴纸、完全生産限定盤、2nd Album 棘ナシ；全新未开封",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5999.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/item/m92368332376",
+        "observed_at": "2026-09-14T05:56:44Z"
+      },
+      "xianyu": {
+        "title": "国现 无刺/有刺 トゲナシトゲアリ Girls Band Cry 黑胶 1专2专 完全生产限定盘",
+        "version_evidence": "结果卡明确 棘ナシ 与 棘アリ 两款黑胶、完全生产限定盘、全新未拆、有库存可直拍；目标为棘ナシ/无刺选项",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 295.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E3%83%88%E3%82%B2%E3%83%8A%E3%82%B7%E3%83%88%E3%82%B2%E3%82%A2%E3%83%AA%20%E6%A3%98%E3%83%8A%E3%82%B7%20%E9%BB%91%E8%83%B6",
+        "observed_at": "2026-09-14T05:57:02Z"
+      }
+    }
+  ]
+}

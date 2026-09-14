@@ -8,6 +8,7 @@ import json
 import math
 import os
 import shutil
+import sqlite3
 import tempfile
 from dataclasses import dataclass
 from datetime import datetime
@@ -104,6 +105,13 @@ class SnapshotExportResult:
     manifest_path: Path
     asset_paths: tuple[Path, ...]
     dropped_comparison_ids: tuple[int, ...]
+
+
+@dataclass(frozen=True)
+class ReferenceAuditSnapshotExportResult:
+    """Public, non-profit reference-audit snapshot for GitHub Pages."""
+
+    snapshot_path: Path
 
 
 def _parsed_https_url(value: object) -> object:
@@ -308,6 +316,151 @@ def _atomic_json(path: Path, payload: dict[str, object]) -> None:
         os.replace(temp_name, path)
     finally:
         Path(temp_name).unlink(missing_ok=True)
+
+
+def export_reference_audit_snapshot(
+    db_path: Path,
+    web_dir: Path,
+    *,
+    generated_at: datetime,
+) -> ReferenceAuditSnapshotExportResult:
+    """Export the evidence queue without promoting it to a profit opportunity.
+
+    A reference observation records that a listing was found on one or both
+    marketplaces.  It does not prove comparable condition, attachments, a
+    complete landed-cost calculation, or profitability.  The Pages payload
+    deliberately keeps these records separate from ``eligible`` cards.
+    """
+    if generated_at.utcoffset() is None:
+        raise SnapshotExportError("generated_at must include a timezone")
+
+    latest_pairs_query = """
+        WITH ranked AS (
+            SELECT
+              reference_product_id, market, observation_state, observed_at,
+              observed_title, version_evidence, catalog_no, barcode, price,
+              currency, source_url,
+              ROW_NUMBER() OVER (
+                PARTITION BY reference_product_id, market
+                ORDER BY observed_at DESC, id DESC
+              ) AS latest_rank
+            FROM reference_market_observations
+        ),
+        paired AS (
+            SELECT
+              product.id AS reference_product_id,
+              product.stable_key AS stable_key,
+              wameiji.observation_state AS wameiji_state,
+              wameiji.observed_at AS wameiji_observed_at,
+              wameiji.observed_title AS wameiji_title,
+              wameiji.version_evidence AS wameiji_version_evidence,
+              wameiji.catalog_no AS wameiji_catalog_no,
+              wameiji.barcode AS wameiji_barcode,
+              wameiji.price AS wameiji_price,
+              wameiji.currency AS wameiji_currency,
+              wameiji.source_url AS wameiji_source_url,
+              xianyu.observation_state AS xianyu_state,
+              xianyu.observed_at AS xianyu_observed_at,
+              xianyu.observed_title AS xianyu_title,
+              xianyu.version_evidence AS xianyu_version_evidence,
+              xianyu.catalog_no AS xianyu_catalog_no,
+              xianyu.barcode AS xianyu_barcode,
+              xianyu.price AS xianyu_price,
+              xianyu.currency AS xianyu_currency,
+              xianyu.source_url AS xianyu_source_url
+            FROM reference_products AS product
+            LEFT JOIN ranked AS wameiji
+              ON wameiji.reference_product_id = product.id
+             AND wameiji.market = 'wameiji'
+             AND wameiji.latest_rank = 1
+            LEFT JOIN ranked AS xianyu
+              ON xianyu.reference_product_id = product.id
+             AND xianyu.market = 'xianyu'
+             AND xianyu.latest_rank = 1
+        )
+        SELECT * FROM paired
+        ORDER BY reference_product_id ASC
+    """
+    with sqlite3.connect(db_path) as connection:
+        connection.row_factory = sqlite3.Row
+        rows = list(connection.execute(latest_pairs_query))
+
+    def state(row: sqlite3.Row, market: str) -> str:
+        return str(row[f"{market}_state"] or "not_observed")
+
+    def public_observation(row: sqlite3.Row, market: str) -> dict[str, object]:
+        return {
+            "title": row[f"{market}_title"],
+            "version_evidence": row[f"{market}_version_evidence"],
+            "catalog_no": row[f"{market}_catalog_no"],
+            "barcode": row[f"{market}_barcode"],
+            "price": row[f"{market}_price"],
+            "currency": row[f"{market}_currency"],
+            "source_url": row[f"{market}_source_url"],
+            "observed_at": row[f"{market}_observed_at"],
+        }
+
+    pair_counts: dict[tuple[str, str], int] = {}
+    dual_found_pairs: list[dict[str, object]] = []
+    found_any_count = 0
+    not_currently_listed_both_count = 0
+    for row in rows:
+        wameiji_state = state(row, "wameiji")
+        xianyu_state = state(row, "xianyu")
+        pair_counts[(wameiji_state, xianyu_state)] = (
+            pair_counts.get((wameiji_state, xianyu_state), 0) + 1
+        )
+        if wameiji_state == "found" or xianyu_state == "found":
+            found_any_count += 1
+        if (
+            wameiji_state == "not_currently_listed"
+            and xianyu_state == "not_currently_listed"
+        ):
+            not_currently_listed_both_count += 1
+        if wameiji_state == "found" and xianyu_state == "found":
+            dual_found_pairs.append(
+                {
+                    "reference_product_id": int(row["reference_product_id"]),
+                    "stable_key": str(row["stable_key"] or ""),
+                    "wameiji": public_observation(row, "wameiji"),
+                    "xianyu": public_observation(row, "xianyu"),
+                }
+            )
+
+    def pair_sort_key(item: tuple[tuple[str, str], int]) -> tuple[int, int, str, str]:
+        (wameiji_state, xianyu_state), _ = item
+        return (
+            0 if wameiji_state == "found" else 1,
+            0 if xianyu_state == "found" else 1,
+            wameiji_state,
+            xianyu_state,
+        )
+
+    payload: dict[str, object] = {
+        "schema_version": 1,
+        "generated_at": generated_at.isoformat(),
+        "mode": "reference_audit_snapshot",
+        "disclaimer": (
+            "双侧已发现仅表示已找到两端商品记录；未证明同版本、同成色、"
+            "同附件、成本完整或正利润，不能当作达标机会。"
+        ),
+        "summary": {
+            "reference_product_count": len(rows),
+            "both_found_count": len(dual_found_pairs),
+            "found_any_count": found_any_count,
+            "not_currently_listed_both_count": not_currently_listed_both_count,
+        },
+        "state_pairs": [
+            {"wameiji": wameiji_state, "xianyu": xianyu_state, "count": count}
+            for ((wameiji_state, xianyu_state), count) in sorted(
+                pair_counts.items(), key=pair_sort_key
+            )
+        ],
+        "dual_found_pairs": dual_found_pairs,
+    }
+    snapshot_path = Path(web_dir) / "data" / "reference-audit-snapshot.json"
+    _atomic_json(snapshot_path, payload)
+    return ReferenceAuditSnapshotExportResult(snapshot_path=snapshot_path)
 
 
 def export_pages_snapshot(
