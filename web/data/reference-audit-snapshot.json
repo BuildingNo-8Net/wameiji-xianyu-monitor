@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:15:41.536837+00:00",
+  "generated_at": "2026-09-14T18:17:47.041714+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 35 条双侧记录中，挖煤姬页面已复核 42 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 34 条双侧记录中，挖煤姬页面已复核 42 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 35,
+    "both_found_count": 34,
     "wameiji_platform_found_count": 42,
-    "found_any_count": 98,
-    "not_currently_listed_both_count": 24
+    "found_any_count": 97,
+    "not_currently_listed_both_count": 25
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 35
+      "count": 34
     },
     {
       "wameiji": "found",
@@ -39,7 +39,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 24
+      "count": 25
     },
     {
       "wameiji": "price_unfavorable",
@@ -296,34 +296,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=IRIS%20OUT%20JANE%20DOE%20KICK%20BACK%20%E9%BB%91%E8%83%B6%20LP",
         "observed_at": "2026-09-14T03:42:09Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 65,
-      "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
-      "wameiji": {
-        "title": "CD／かいりきベア／【スリーブケース・アートブック付】ベノマ 初回生産限定盤",
-        "version_evidence": "人工打开详情：¥1,650包邮、库存1、2日前；标题明确含外套盒和画册，SCGA00092，JAN 4562424561162，2020-01-15，页面状态无明显伤污。商家不保证侧标及图示以外附件。",
-        "catalog_no": "SCGA00092",
-        "barcode": "4562424561162",
-        "price": 1650.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JGLSsnkCsLUxPxvFQxDCS",
-        "observed_at": "2026-09-14T03:46:36Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "怪力熊 蛮魔（ベノマ）CD 日本代购",
-        "version_evidence": "人工Chrome以中文别称复核：¥81代购条目写明为日本Mercari二手商品，标题称贝诺玛；标价不含税费与运费，未提供外套盒、画册、侧标是否齐全的可核验说明。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 81.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E6%80%AA%E5%8A%9B%E7%86%8A%20%E3%83%99%E3%83%8E%E3%83%9E",
-        "observed_at": "2026-09-14T03:46:34Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
