@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:31:06.776043+00:00",
+  "generated_at": "2026-09-14T18:32:04.216438+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 28 条双侧记录中，挖煤姬页面已复核 49 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 27 条双侧记录中，挖煤姬页面已复核 49 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 28,
+    "both_found_count": 27,
     "wameiji_platform_found_count": 49,
-    "found_any_count": 96,
-    "not_currently_listed_both_count": 26
+    "found_any_count": 95,
+    "not_currently_listed_both_count": 27
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 28
+      "count": 27
     },
     {
       "wameiji": "found",
@@ -39,7 +39,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 26
+      "count": 27
     },
     {
       "wameiji": "price_unfavorable",
@@ -632,34 +632,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.71f11c6fEQsozC&id=1053881094998&categoryId=126864811",
         "observed_at": "2026-09-14T18:01:14Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 112,
-      "stable_key": "sample:7cd35a051c64ad55a72942402e1f6df751ddb4d4a6272b95cbc28814ca011647",
-      "wameiji": {
-        "title": "MAN WITH A MISSION×milet 絆ノ奇跡 コイコガレ 期间生产限定 CD加DVD",
-        "version_evidence": "Mercari item m41548908685 is a current period-production limited CD+DVD edition with Demon Slayer illustrated jacket and sleeve. Condition is no noticeable damage with minor signs of use. No poster, file, or time-limited benefit is stated on the current page.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1080.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m41548908685",
-        "observed_at": "2026-09-14T05:34:14Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "MAN WITH A MISSION×milet 绊ノ奇迹 コイコガレ CD加DVD期间限定盘",
-        "version_evidence": "Manual Chrome search showed a current domestic full-price card for period-limited CD+DVD with Demon Slayer Swordsmith Village OP/ED, six-track configuration, sealed and stated original packaging. Seller claims Japanese official edition. No specific poster character or seller-written bonus claim is independently verified.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 60.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=MAN%20WITH%20A%20MISSION%20milet%20%E7%BB%8A%E3%83%8E%E5%A5%87%E8%B7%A1%20%E3%82%B3%E3%82%A4%E3%82%B3%E3%82%AC%E3%83%AC%20CD%20DVD%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T05:34:46Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
