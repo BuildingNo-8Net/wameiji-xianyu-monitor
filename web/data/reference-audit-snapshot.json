@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:50:57.265529+00:00",
+  "generated_at": "2026-09-14T17:52:01.943191+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 49 条双侧记录中，挖煤姬页面已复核 28 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 48 条双侧记录中，挖煤姬页面已复核 29 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 49,
-    "wameiji_platform_found_count": 28,
+    "both_found_count": 48,
+    "wameiji_platform_found_count": 29,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 49
+      "count": 48
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 16
+      "count": 17
     },
     {
       "wameiji": "not_currently_listed",
@@ -716,34 +716,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=milet%20Walkin%20In%20My%20Lane%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20B",
         "observed_at": "2026-09-14T04:28:29Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 92,
-      "stable_key": "sample:a82c563e6a7d69b6d814f417a2f9e8de5bafc4766406bc5efd8a91d824585dba",
-      "wameiji": {
-        "title": "Frieren Original Soundtrack initial production limited Evan Call, new sealed",
-        "version_evidence": "Season 2 Original Soundtrack; Evan Call; listing title and description identify initial production limited version; new unopened; visible track list includes The Journey Continues through The Golden Land.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 3980.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m78522861084",
-        "observed_at": "2026-09-14T04:30:06Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "Frieren Season 2 OST Evan Call initial production limited edition, sealed",
-        "version_evidence": "Friend Beyond Journey End Season2 OST; Evan Call; initial production limited; original first edition style storage box; item text lists included sticker, bonus booklet, and concert lottery entry paper.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 233.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2%20Season2%20OST%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20Evan%20Call",
-        "observed_at": "2026-09-14T04:29:59Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
