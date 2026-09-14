@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:55:28.841832+00:00",
+  "generated_at": "2026-09-14T17:58:43+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 46 条双侧记录中，挖煤姬页面已复核 31 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 45 条双侧记录中，挖煤姬页面已复核 32 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 46,
-    "wameiji_platform_found_count": 31,
+    "both_found_count": 45,
+    "wameiji_platform_found_count": 32,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 46
+      "count": 45
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 18
+      "count": 19
     },
     {
       "wameiji": "not_currently_listed",
@@ -940,34 +940,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1075130454230&categoryId=126864811",
         "observed_at": "2026-09-14T16:43:04Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 107,
-      "stable_key": "sample:a30bbb3f193ff984f77ff7a4d8ccf8cd481183a475e875b1d52d882fce1e2ca5",
-      "wameiji": {
-        "title": "アンディ・ラウ 回到你身邊 日本初LP化 初回生産限定 180gブラックLP B2ポスター 歌詞対訳付",
-        "version_evidence": "Mercari Shops item SXTf7VmwoizE3VCPJfHAhH: exact title 回到イ尓身邊, 日本初リリース, 180g black LP, B2 poster, lyrics/translation, UIJY-75324, 2025-09-24; new and stock 1.",
-        "catalog_no": "UIJY-75324",
-        "barcode": null,
-        "price": 6950.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/SXTf7VmwoizE3VCPJfHAhH",
-        "observed_at": "2026-09-14T05:23:24Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "刘德华 回到你身边 日本初回限定 180g黑胶LP 全新未拆",
-        "version_evidence": "Manual Chrome search for 刘德华 回到你身边 日版黑胶 showed multiple current domestic listings. One listing specifies 2025 Japanese first LP release, 2025-09-24, original Universal Music, new sealed. Other matching cards state Japanese first limited edition and 180g LP; source collection is not treated as a four-title set.",
-        "catalog_no": "UIJY-75324",
-        "barcode": null,
-        "price": 338.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%88%98%E5%BE%B7%E5%8D%8E%20%E5%9B%9E%E5%88%B0%E4%BD%A0%E8%BA%AB%E8%BE%B9%20%E6%97%A5%E7%89%88%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:25:23Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
