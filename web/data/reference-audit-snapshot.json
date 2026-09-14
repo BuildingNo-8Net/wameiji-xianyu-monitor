@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:09:40.872644+00:00",
+  "generated_at": "2026-09-14T17:13:00.390594+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 9 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 10 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 55,
-    "wameiji_platform_found_count": 9,
+    "wameiji_platform_found_count": 10,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -136,26 +136,26 @@
       "reference_product_id": 51,
       "stable_key": "sample:6991b7346484a1ee5ef2d96fd2854030c0a6e946b00527586b0f9b2af2ca31a3",
       "wameiji": {
-        "title": "Fate/hollow ataraxia 限定版 PS Vita（ねんどろいどぷちアヴェンジャー等付属）",
-        "version_evidence": "人工 Chrome 商品页：限定版、PS Vita、剩1；¥2,980。含特制收纳BOX、本体、未开封粘土人ぷち Avenger、Capsule/Hanafuda material、下载码传单；外箱/软件/资料集无明显伤污，下载码可用性未确认",
+        "title": "Fate/hollow ataraxia 限定版 PS Vita 未開封ねんどろいどぷちアヴェンジャー付 付属品完備",
+        "version_evidence": "PS Vita limited edition; KADOKAWA GAMES / TYPE-MOON; catalog VLJM-35123. Seller detail lists storage box, Vita game/case/cartridge, unopened Nendoroid Petit Avenger, capsule material, hanafuda material, and code leaflets (code validity unknown).",
         "catalog_no": "VLJM-35123",
         "barcode": null,
         "price": 2980.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/uSP4r9C4vTKiDgiX7FuniN",
-        "observed_at": "2026-09-14T03:28:57Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f755350347239433476544b69446769583746756e694e2f",
+        "observed_at": "2026-09-14T17:13:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "Fate/hollow ataraxia PSV 限定版（虚空明镜）日版日文限定版",
-        "version_evidence": "人工 Chrome 精确检索命中多条：¥1,500称全新未拆；¥240称附件全含小安粘土人；¥217为原盒近全新；须逐条以图和附件为准",
+        "title": "fate 虚空明镜 Fate/hollow ataraxia PSV限定版 同捆特典小安粘土人 日版日文限定版 附件全",
+        "version_evidence": "Current listing title explicitly claims PSV limited edition, bundled Nendoroid Petit Avenger, Japanese release, and complete accessories. Page-text does not enumerate every component or condition; comparison remains seller-claim level pending image/detail confirmation.",
         "catalog_no": null,
         "barcode": null,
-        "price": 1500.0,
+        "price": 240.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Fate%2Fhollow%20ataraxia%20PSV%20%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-14T03:28:59Z",
+        "source_url": "https://www.goofish.com/item?id=1057027726898&categoryId=126856346",
+        "observed_at": "2026-09-14T17:13:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
