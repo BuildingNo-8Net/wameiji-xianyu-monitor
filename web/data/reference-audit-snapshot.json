@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:15:11.681547+00:00",
+  "generated_at": "2026-09-14T17:17:59.191360+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 11 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 12 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 55,
-    "wameiji_platform_found_count": 11,
+    "wameiji_platform_found_count": 12,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -1508,26 +1508,26 @@
       "reference_product_id": 122,
       "stable_key": "sample:a9b4dad675e202fbbb11d6ace63a1a1bf019d3583bfc98d6af14b6b6b61291a0",
       "wameiji": {
-        "title": "Aimer 星の消えた夜に Blu-ray付完全生产限定盘 2CD+BD+歌词册+写真册+收纳BOX",
-        "version_evidence": "Mercari Shops当前在库1件，型番VVCL-1961；详情明确3枚组为CD两枚+Blu-ray一枚，并含歌词册、写真册和收纳BOX。",
+        "title": "【中古】邦楽CD Aimer / 星の消えた夜に[Blu-ray付完全生産限定盤]",
+        "version_evidence": "Catalog VVCL-1961; release 2022-01-26; complete-production limited edition. Store description enumerates 3 discs (2 CDs + Blu-ray), lyric booklet, photobooklet, and storage box.",
         "catalog_no": "VVCL-1961",
         "barcode": null,
         "price": 3610.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/nFvYGZe3X8uLkVoDUjmgBB",
-        "observed_at": "2026-09-14T05:48:46Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f6e467659475a65335838754c6b566f44556a6d6742422f",
+        "observed_at": "2026-09-14T17:17:59Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "Aimer 星の消えた夜に 完全生产限定版 2CD+BD",
-        "version_evidence": "闲鱼当前条目明确标注Aimer十周年专辑、完全生产限定版、2CD+BD、全新未拆；与挖煤姬同品番VVCL-1961的逐盘明细一致。",
+        "title": "aimer十周年专辑 星の消えた夜に 完全生产限定版 2CD+BD",
+        "version_evidence": "Current listing expressly says Aimer 10th-anniversary complete-production limited edition, 2CD+BD. Seller claims new and sealed, while Wameiji is used-normal, so condition is not comparable for a resale-profit conclusion.",
         "catalog_no": "VVCL-1961",
         "barcode": null,
         "price": 399.99,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1030153019863&categoryId=126864811",
-        "observed_at": "2026-09-14T05:49:20Z",
+        "observed_at": "2026-09-14T17:17:59Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
