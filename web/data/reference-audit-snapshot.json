@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:20:41.743843+00:00",
+  "generated_at": "2026-09-14T18:21:58.595000+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 32 条双侧记录中，挖煤姬页面已复核 44 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 31 条双侧记录中，挖煤姬页面已复核 45 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 32,
-    "wameiji_platform_found_count": 44,
+    "both_found_count": 31,
+    "wameiji_platform_found_count": 45,
     "found_any_count": 97,
     "not_currently_listed_both_count": 25
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 32
+      "count": 31
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 29
+      "count": 30
     },
     {
       "wameiji": "not_currently_listed",
@@ -576,34 +576,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=986636106958&categoryId=126864811",
         "observed_at": "2026-09-14T17:20:53Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 100,
-      "stable_key": "sample:b48c761166295009614f7ec087051ca05bc893ea7783f6f13aef65b7ff87478b",
-      "wameiji": {
-        "title": "あいみょん 青春のエキサイトメント 数量限定 180g重量盤 2枚組 10th anniversary card封入 新品未開封",
-        "version_evidence": "Mercari item m38923412257 explicitly states 数量限定の180g重量盤2枚組 and 特典10th anniversary card封入; new unopened.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 7880.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m38923412257",
-        "observed_at": "2026-09-14T05:11:44Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "爱缪 Aimyon 青春のエキサイトメント 10周年纪念限定 日版红色彩胶黑胶2LP 180g 含10周年纪念卡 全新未拆",
-        "version_evidence": "Manual search card: 10周年纪念限定, 日版红胶2LP, 180g彩胶, 全新未拆, and 10周年纪念卡特典. This matches the sample edition and included card.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 315.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=AIMYON%20%E9%9D%92%E6%98%A5%E3%81%AE%E3%82%A8%E3%82%AD%E3%82%B5%E3%82%A4%E3%83%88%E3%83%A1%E3%83%B3%E3%83%88%2010%E5%91%A8%E5%B9%B4%202LP%20180g%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:12:07Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
