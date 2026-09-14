@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:24:06.926405+00:00",
+  "generated_at": "2026-09-14T18:25:14.606059+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 29 条双侧记录中，挖煤姬页面已复核 46 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 29 条双侧记录中，挖煤姬页面已复核 47 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 29,
-    "wameiji_platform_found_count": 46,
+    "wameiji_platform_found_count": 47,
     "found_any_count": 96,
     "not_currently_listed_both_count": 26
   },
