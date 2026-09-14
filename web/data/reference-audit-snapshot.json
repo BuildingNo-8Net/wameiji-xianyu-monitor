@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:19:25.172278+00:00",
+  "generated_at": "2026-09-14T18:20:41.743843+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 33 条双侧记录中，挖煤姬页面已复核 43 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 32 条双侧记录中，挖煤姬页面已复核 44 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 33,
-    "wameiji_platform_found_count": 43,
+    "both_found_count": 32,
+    "wameiji_platform_found_count": 44,
     "found_any_count": 97,
     "not_currently_listed_both_count": 25
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 33
+      "count": 32
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 28
+      "count": 29
     },
     {
       "wameiji": "not_currently_listed",
@@ -576,34 +576,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=986636106958&categoryId=126864811",
         "observed_at": "2026-09-14T17:20:53Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 99,
-      "stable_key": "jan:4988031460030",
-      "wameiji": {
-        "title": "宇多田ヒカル Distance 生産限定盤 180g重量盤 LP 新品未開封",
-        "version_evidence": "Mercari item m45033420126; product description explicitly states Distance, 生産限定盤, 180g重量盤, LP; condition 新品、未使用.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 6280.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m45033420126",
-        "observed_at": "2026-09-14T05:10:23Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "宇多田光 Distance 日版 2022年再版 生产限定盘 黑胶唱片2LP 全新未拆",
-        "version_evidence": "Manual search card: states 宇多田光 二专 Distance, 2022年再版, 生产限定盘, 黑胶唱片2LP, 全新未拆; exact 2022 edition.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 275.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20Distance%20%E9%BB%91%E8%83%B6%202LP",
-        "observed_at": "2026-09-14T05:10:56Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
