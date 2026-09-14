@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:48:05.165254+00:00",
+  "generated_at": "2026-09-14T17:49:52.769456+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 50 条双侧记录中，挖煤姬页面已复核 26 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 50 条双侧记录中，挖煤姬页面已复核 27 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 50,
-    "wameiji_platform_found_count": 26,
+    "wameiji_platform_found_count": 27,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -668,26 +668,26 @@
       "reference_product_id": 90,
       "stable_key": "sample:9803de94996a638e57e8ed0604061181b786ac9176ea1c9e3845d0a0a22728cf",
       "wameiji": {
-        "title": "【新品未開封】宇多田ヒカル パッパパラダイス 完全生産限定盤 7インチレコード",
-        "version_evidence": "完全生产限定7寸黑胶；A面 パッパパラダイス feat. 甲本ヒロト，B面 パッパパラダイス；樱桃小丸子新ED。与样本7寸日版限定盘对应",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 3100.0,
+        "title": "宇多田ヒカル / パッパパラダイス (完全生産限定盤) 7-inch EP",
+        "version_evidence": "乐天新品；完全生产限定盘 7-inch EP；目录号 ESKL-6、JAN 4547366811827；A面 feat. 甲本ヒロト，B面单曲版本；2026-06-24发行。",
+        "catalog_no": "ESKL-6",
+        "barcode": "4547366811827",
+        "price": 2500.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m13728935092",
-        "observed_at": "2026-09-14T04:25:42Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Fazneskl-6%2F",
+        "observed_at": "2026-09-14T17:49:52Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "宇多田光 Papa Paradise 7寸单曲胶 日亚特典 全新未拆",
-        "version_evidence": "日版完全生产限定7寸单曲胶、对开式胶套、内附折叠海报；卖家加注日亚大卡特典。与样本7寸LP海报套装/樱桃小丸子ED一致",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 198.0,
+        "title": "宇多田光《PAPPAPARADISE》7寸EP黑胶",
+        "version_evidence": "当前个人卖家实页：全新未拆、日版完全生产限定盘、2026-06-24发行；CAT NO ESKL6、BARCODE 4547366811827；与挖煤姬同目录号/JAN。",
+        "catalog_no": "ESKL-6",
+        "barcode": "4547366811827",
+        "price": 188.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20%E3%83%91%E3%83%83%E3%83%91%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9%207%E5%AF%B8%20%E9%BB%91%E8%83%B6%20%E6%B5%B7%E6%8A%A5",
-        "observed_at": "2026-09-14T04:25:42Z",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.18152ebbEP9iZ0&id=1051496429555&categoryId=126864811",
+        "observed_at": "2026-09-14T17:49:52Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
