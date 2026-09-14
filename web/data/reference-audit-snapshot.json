@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:40:23.708955+00:00",
+  "generated_at": "2026-09-14T17:41:33.284331+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 52 条双侧记录中，挖煤姬页面已复核 22 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 52 条双侧记录中，挖煤姬页面已复核 23 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 52,
-    "wameiji_platform_found_count": 22,
+    "wameiji_platform_found_count": 23,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -668,26 +668,26 @@
       "reference_product_id": 87,
       "stable_key": "sample:37135d9f8a4bdb83e0327e2eb17d7c263cbdcf29595a06997b3238b1c05abb30",
       "wameiji": {
-        "title": "Kalafina All Time Best 2008-2018 完全生産限定盤",
-        "version_evidence": "VVCL 1332-7；完全生产限定盘6CD、精选辑及武道馆live音源、豪华60P历史写真集；与样本完全生产限定版一致",
-        "catalog_no": "VVCL-1332-7",
+        "title": "Kalafina All Time Best 2008-2018 Complete Limited Production Edition",
+        "version_evidence": "Current Mercari page: VVCL 1332-7, complete limited-production 6-CD box (best album plus Nippon Budokan live audio) with 60-page history photo book.",
+        "catalog_no": "VVCL 1332-7",
         "barcode": null,
         "price": 11000.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m23333966729",
-        "observed_at": "2026-09-14T04:22:57Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333333333936363732392f",
+        "observed_at": "2026-09-14T17:41:33Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "Kalafina All Time Best 2008-2018 完全生产限定盘 6CD 豪华60页历史写真集",
-        "version_evidence": "VVCL 1332-7；完全生产限定盘、6张CD、日本武道馆live音源、豪华60页历史写真集；与样本十周年完全生产限定版对应",
-        "catalog_no": "VVCL-1332-7",
+        "title": "Kalafina All Time Best 2008-2018 Complete Limited Production Edition 6CD Photo Book",
+        "version_evidence": "Current result explicitly states VVCL 1332-7, complete limited-production 6-CD box and 60-page history photo book.",
+        "catalog_no": "VVCL 1332-7",
         "barcode": null,
         "price": 580.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076551457469&categoryId=126862148",
-        "observed_at": "2026-09-14T04:22:57Z",
+        "observed_at": "2026-09-14T17:41:33Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
