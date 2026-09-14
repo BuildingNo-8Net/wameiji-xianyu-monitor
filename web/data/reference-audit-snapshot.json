@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:10:07.156365+00:00",
+  "generated_at": "2026-09-14T18:11:19.758777+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 39 条双侧记录中，挖煤姬页面已复核 38 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 38 条双侧记录中，挖煤姬页面已复核 38 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 39,
+    "both_found_count": 38,
     "wameiji_platform_found_count": 38,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
@@ -14,7 +14,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 39
+      "count": 38
     },
     {
       "wameiji": "found",
@@ -24,7 +24,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 33
+      "count": 34
     },
     {
       "wameiji": "price_unfavorable",
@@ -912,34 +912,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1067631204594&categoryId=126864811",
         "observed_at": "2026-09-14T17:22:33Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 114,
-      "stable_key": "sample:9ceab5cf2bc2e2fe00a0b61ed76dbe8032d96537e13de04aba13627cca0ff86c",
-      "wameiji": {
-        "title": "米津玄師 BOOTLEG 初回限定 ブート盘 CD 仿LP封套 插画 海报 伪黑胶",
-        "version_evidence": "Mercari Shops 2JWKCtYJ4j8aebwsotrwcJ explicitly lists the BOOTLEG boot version with analog-style jacket, art illustration, poster, and dummy record. It is used in no-noticeable-damage condition; product title does not guarantee the original outer bag, so it is not claimed. Catalog SRCL-9567, JAN 4547366329674.",
-        "catalog_no": "SRCL-9567",
-        "barcode": "4547366329674",
-        "price": 4989.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JWKCtYJ4j8aebwsotrwcJ",
-        "observed_at": "2026-09-14T05:37:08Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "米津玄师 BOOTLEG 初回限定 ブート盘 CD+仿LP封套 插画 海报 仿制唱片",
-        "version_evidence": "闲鱼当前检索按SRCL-9567命中；页面正文标注SRCL-9567/8、JAN 4547366329674，12英寸唱片封套、艺术插画大海报和仿制唱片；介质为CD，不是可播放黑胶。",
-        "catalog_no": "SRCL-9567",
-        "barcode": "4547366329674",
-        "price": 291.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
-        "observed_at": "2026-09-14T05:38:52Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
