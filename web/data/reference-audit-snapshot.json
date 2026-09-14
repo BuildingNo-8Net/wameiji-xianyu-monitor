@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:13:11.701391+00:00",
+  "generated_at": "2026-09-14T18:14:18.491175+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 36 条双侧记录中，挖煤姬页面已复核 40 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 35 条双侧记录中，挖煤姬页面已复核 41 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 36,
-    "wameiji_platform_found_count": 40,
+    "both_found_count": 35,
+    "wameiji_platform_found_count": 41,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 36
+      "count": 35
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 26
+      "count": 27
     },
     {
       "wameiji": "not_currently_listed",
@@ -324,34 +324,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E6%80%AA%E5%8A%9B%E7%86%8A%20%E3%83%99%E3%83%8E%E3%83%9E",
         "observed_at": "2026-09-14T03:46:34Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 66,
-      "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
-      "wameiji": {
-        "title": "【中古】アニメ系CD 初音ミク / Winterland’s Anthology",
-        "version_evidence": "人工打开详情：¥14,131，另付运费¥440–1,850，库存1，5日前；KARENT，KRCD-0011，2017-01-25，状态通常/页面为无明显伤污，图片仅示意。",
-        "catalog_no": "KRCD-0011",
-        "barcode": null,
-        "price": 14131.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JWXcZeojiJzoehyCxtRhQ",
-        "observed_at": "2026-09-14T03:47:48Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "雪初音2017 Winterland's Anthology 带侧",
-        "version_evidence": "人工Chrome精确检索：¥650，标题称带侧、无明显瑕疵，默认顺丰到付；另有¥900双签条目，非普通版可比价。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 650.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E9%9B%AA%E5%88%9D%E9%9F%B3%202017%20Winterland%27s%20Anthology",
-        "observed_at": "2026-09-14T03:47:45Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
