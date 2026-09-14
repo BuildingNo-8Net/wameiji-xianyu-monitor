@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:23:13.488108+00:00",
+  "generated_at": "2026-09-14T18:24:06.926405+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 30 条双侧记录中，挖煤姬页面已复核 46 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 29 条双侧记录中，挖煤姬页面已复核 46 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 30,
+    "both_found_count": 29,
     "wameiji_platform_found_count": 46,
-    "found_any_count": 97,
-    "not_currently_listed_both_count": 25
+    "found_any_count": 96,
+    "not_currently_listed_both_count": 26
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 30
+      "count": 29
     },
     {
       "wameiji": "found",
@@ -39,7 +39,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 25
+      "count": 26
     },
     {
       "wameiji": "price_unfavorable",
@@ -576,34 +576,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=986636106958&categoryId=126864811",
         "observed_at": "2026-09-14T17:20:53Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 102,
-      "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
-      "wameiji": {
-        "title": "YOASOBI THE BOOK 完全生産限定盤 ピンクカラーヴァイナル LP 新品未開封 メーカー特典ステッカー付き",
-        "version_evidence": "Mercari item m95759221146 explicitly says THE BOOK, 完全生産限定盤, ピンクカラーヴァイナル仕様 LP, 2024-10-23 release, new unopened, with manufacturer sticker. Purchase link is live.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 14444.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m95759221146",
-        "observed_at": "2026-09-14T05:14:23Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "YOASOBI THE BOOK 限量版粉色彩胶黑胶LP 全新 现货当天发",
-        "version_evidence": "Manual search card: YOASOBI The Book limited pink-color vinyl LP, new, current stock, same edition; item explicitly notes no seal design and provides real-product photos.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 318.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20%E7%B2%89%E8%83%B6%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:15:18Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
