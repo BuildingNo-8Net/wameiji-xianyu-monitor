@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T16:50:45.322402+00:00",
+  "generated_at": "2026-09-14T16:52:09.367240+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 5 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 6 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 56,
-    "wameiji_platform_found_count": 5,
+    "wameiji_platform_found_count": 6,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -108,26 +108,26 @@
       "reference_product_id": 6,
       "stable_key": "sample:5262161d4824d7e693f64f7ccb05f83ec9d891902a71ce9311ae36266fc98880",
       "wameiji": {
-        "title": "Imasugu-Oniichan-ni-Imouto-datte-Iitai-complete-production-limited-PC-software",
-        "version_evidence": "exact-title-current-listing-condition-and-bonus-pending",
+        "title": "いますぐお兄ちゃんに妹だっていいたい! 完全生産限定版 PCソフト",
+        "version_evidence": "完全生産限定版 PC软件; 未使用品、碟未开封; 无明显损伤; 日本国内运费卖家承担; 代购手续费200日元",
         "catalog_no": null,
         "barcode": null,
         "price": 3500.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m18875535321",
-        "observed_at": "2026-09-13T16:34:10Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31383837353533353332312f",
+        "observed_at": "2026-09-14T16:52:09Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "Imasugu-Oniichan-ni-Imouto-datte-Iitai-complete-production-limited-three-discs-no-artbook",
-        "version_evidence": "exact-title-three-discs-and-manual-but-no-artbook-not-price-comparable",
+        "title": "【出】现在就想告诉哥哥我是妹妹！完全生产限定版",
+        "version_evidence": "Windows XP/Vista/7/8; 三张碟+说明书; 无原画集; 轻微使用痕迹; 300元顺丰包邮",
         "catalog_no": null,
         "barcode": null,
         "price": 300.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1041306363872",
-        "observed_at": "2026-09-13T16:34:12Z",
+        "observed_at": "2026-09-14T16:52:09Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
