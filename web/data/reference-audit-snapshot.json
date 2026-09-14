@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:27:06.886953+00:00",
+  "generated_at": "2026-09-14T17:29:11.588634+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 54 条双侧记录中，挖煤姬页面已复核 17 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 54 条双侧记录中，挖煤姬页面已复核 18 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 54,
-    "wameiji_platform_found_count": 17,
+    "wameiji_platform_found_count": 18,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -864,26 +864,26 @@
       "reference_product_id": 93,
       "stable_key": "sample:6fb1ff711ef2e17080646c6634cd82522f397e41fb10c16598bf2c6b5a12eb53",
       "wameiji": {
-        "title": "Utada Hikaru SCIENCE FICTION complete production limited 2CD special package, new unused",
-        "version_evidence": "Complete production limited 2CD plus special package; lenticular 188mm special digipak and 36-page full-color booklet. Seller says purchased only to obtain serial code, then unplayed and new.",
-        "catalog_no": null,
+        "title": "【中古】邦楽CD 宇多田ヒカル / SCIENCE FICTION[完全生産限定盤]",
+        "version_evidence": "ESCL-5925；完全生産限定盤/出道25周年；CD2枚组、歌词册、透明套、Digipak",
+        "catalog_no": "ESCL-5925",
         "barcode": null,
-        "price": 3000.0,
+        "price": 1752.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m83808420857",
-        "observed_at": "2026-09-14T04:31:25Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576b71506877706e64415a71574b6a46674855732f",
+        "observed_at": "2026-09-14T17:29:11Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "Utada Hikaru SCIENCE FICTION 25th best, complete limited 2CD, new sealed",
-        "version_evidence": "Complete production limited 2CD; 25th anniversary; listing says new sealed and includes bonus sticker, booklet, and lottery card. Another page confirms the 2CD has 26 tracks and the edition has special lenticular 188mm package plus 36-page booklet.",
-        "catalog_no": null,
+        "title": "【现货】宇多田光 科幻小说 SCIENCE FICTION 2CD+SPECIAL PACKAGE 完全生产限定盘",
+        "version_evidence": "ESCL5925；2CD+SPECIAL PACKAGE；全新正版",
+        "catalog_no": "ESCL-5925",
         "barcode": null,
-        "price": 300.0,
+        "price": 290.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20SCIENCE%20FICTION%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%E7%9B%98%202CD%20%E7%89%B9%E5%85%B8",
-        "observed_at": "2026-09-14T04:31:17Z",
+        "source_url": "https://www.goofish.com/item?id=790914461030&categoryId=126864811",
+        "observed_at": "2026-09-14T17:29:11Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
