@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:17:59.191360+00:00",
+  "generated_at": "2026-09-14T17:20:53.867063+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 12 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 13 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 55,
-    "wameiji_platform_found_count": 12,
+    "wameiji_platform_found_count": 13,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -920,26 +920,26 @@
       "reference_product_id": 95,
       "stable_key": "sample:9a0a8c853cf97da137006cd669e4874097d2de38bfe89fbb1de505cfdb7abcb5",
       "wameiji": {
-        "title": "milet inside you EP CD DVD initial production limited",
-        "version_evidence": "milet debut EP; initial production limited edition; CD plus DVD two-disc configuration, explicitly stated on detail page.",
+        "title": "milet inside you EP CD+DVD 初回生産限定盤",
+        "version_evidence": "初回生産限定盤；CD+DVD 2枚組",
         "catalog_no": null,
         "barcode": null,
         "price": 3000.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m89211460005",
-        "observed_at": "2026-09-14T04:33:24Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d38393231313436303030352f",
+        "observed_at": "2026-09-14T17:20:53Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "milet inside you EP initial production limited CD plus DVD, new sealed",
-        "version_evidence": "milet debut EP inside you EP, initial production limited, CD plus DVD. Listing expressly says new unopened and non-remote shipping included.",
+        "title": "米蕾 milet inside you ep 初回生产限定盘",
+        "version_evidence": "初回生产限定盘；CD+DVD；全新未拆",
         "catalog_no": null,
         "barcode": null,
         "price": 1080.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=milet%20inside%20you%20EP%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4%20CD%20DVD",
-        "observed_at": "2026-09-14T04:33:16Z",
+        "source_url": "https://www.goofish.com/item?id=986636106958&categoryId=126864811",
+        "observed_at": "2026-09-14T17:20:53Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
