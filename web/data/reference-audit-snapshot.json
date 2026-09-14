@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:12:16.470717+00:00",
+  "generated_at": "2026-09-14T18:13:11.701391+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 37 条双侧记录中，挖煤姬页面已复核 39 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 36 条双侧记录中，挖煤姬页面已复核 40 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 37,
-    "wameiji_platform_found_count": 39,
+    "both_found_count": 36,
+    "wameiji_platform_found_count": 40,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 37
+      "count": 36
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 25
+      "count": 26
     },
     {
       "wameiji": "not_currently_listed",
@@ -940,34 +940,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.2.4bf5152dnHU2pY&id=1020304049843&categoryId=126864811",
         "observed_at": "2026-09-14T17:37:51Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 120,
-      "stable_key": "sample:633c50493ed8741f5fd2b2d8b9ad0ea601ef9d795bec43593c0e4309ae702e67",
-      "wameiji": {
-        "title": "GARNiDELiA MIRAI 期间生产限定动画盘 CD+DVD",
-        "version_evidence": "Mercari Shops当前在库1件，标题明确MIRAI、期间生产限定アニメ盘、DVD付；JAN 4560429729075。",
-        "catalog_no": null,
-        "barcode": "4560429729075",
-        "price": 611.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JW4Ldon5H9NfUsdGQwmGX",
-        "observed_at": "2026-09-14T05:45:56Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "GARNiDELiA MIRAI 期间生产限定盘 CD+DVD",
-        "version_evidence": "闲鱼当前条目明确标注MIRAI、期间生产限定盘、CD+DVD；另一张同检索卡虽宣称全新未拆但已标明MIRAI已出，故不采用。",
-        "catalog_no": null,
-        "barcode": "4560429729075",
-        "price": 91.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=GARNiDELiA%20MIRAI%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A%20CD%2BDVD",
-        "observed_at": "2026-09-14T05:46:21Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
