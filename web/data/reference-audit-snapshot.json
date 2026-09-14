@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:49:52.769456+00:00",
+  "generated_at": "2026-09-14T17:50:57.265529+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 50 条双侧记录中，挖煤姬页面已复核 27 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 49 条双侧记录中，挖煤姬页面已复核 28 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 50,
-    "wameiji_platform_found_count": 27,
+    "both_found_count": 49,
+    "wameiji_platform_found_count": 28,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 50
+      "count": 49
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 15
+      "count": 16
     },
     {
       "wameiji": "not_currently_listed",
@@ -884,34 +884,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=AIMYON%20%E9%9D%92%E6%98%A5%E3%81%AE%E3%82%A8%E3%82%AD%E3%82%B5%E3%82%A4%E3%83%88%E3%83%A1%E3%83%B3%E3%83%88%2010%E5%91%A8%E5%B9%B4%202LP%20180g%20%E9%BB%91%E8%83%B6",
         "observed_at": "2026-09-14T05:12:07Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 101,
-      "stable_key": "sample:f563e120e9993f3353054debbd6cb77b10137b023425ad8c3925c649d1a4a21c",
-      "wameiji": {
-        "title": "milet eyes 完全生産限定盤 アナログ盤2枚組 重量盤 新品未使用",
-        "version_evidence": "Mercari item m51647522231 explicitly confirms 完全生産限定盤, アナログ盤2枚組, 重量盤, and new unused; posted 14 days ago.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 8000.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m51647522231",
-        "observed_at": "2026-09-14T05:12:59Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "milet eyes 日版完全生产限定盘 2LP重量盘 全新未拆 含12页小册子 18首",
-        "version_evidence": "Manual search card: milet eyes, 完全生产限定盘 2LP, 规格品番 SEJL-86, 2 discs heavyweight, 18 tracks, and 12-page booklet; listed as current domestic stock and new unopened.",
-        "catalog_no": "SEJL-86",
-        "barcode": null,
-        "price": 415.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=milet%20eyes%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%20%E9%BB%91%E8%83%B6%202LP",
-        "observed_at": "2026-09-14T05:13:20Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
