@@ -78,10 +78,13 @@ def test_homepage_exposes_the_full_reference_audit_queue_separately_from_profit_
     assert "125 个参考样本" in homepage
     assert "双侧已发现" in homepage
     assert "不是达标机会" in homepage
+    assert "挖煤姬页面已复核" in homepage
     assert 'id="referenceAuditPairList"' in homepage
     assert 'data/reference-audit-snapshot.json' in javascript
     assert "renderReferenceAudit" in javascript
     assert "双侧已发现不等于达标机会" in javascript
+    assert "日本来源侧" in javascript
+    assert "待挖煤姬复核" in javascript
 
 
 def test_dual_market_ui_fails_closed_when_its_board_is_unavailable() -> None:

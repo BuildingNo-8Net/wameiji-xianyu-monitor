@@ -178,6 +178,7 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
     assert payload["summary"] == {
         "reference_product_count": 3,
         "both_found_count": 1,
+        "wameiji_platform_found_count": 0,
         "found_any_count": 2,
         "not_currently_listed_both_count": 1,
     }
@@ -203,6 +204,8 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
                 "currency": "JPY",
                 "source_url": "https://jp.mercari.com/item/one",
                 "observed_at": "2026-09-14T01:00:00Z",
+                "marketplace_host": "jp.mercari.com",
+                "is_wameiji_platform": False,
             },
             "xianyu": {
                 "title": "Domestic first press",
@@ -213,6 +216,8 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
                 "currency": "CNY",
                 "source_url": "https://www.goofish.com/item?id=one",
                 "observed_at": "2026-09-14T01:01:00Z",
+                "marketplace_host": "www.goofish.com",
+                "is_wameiji_platform": False,
             },
         }
     ]

@@ -1,11 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T00:27:51.386118+08:00",
+  "generated_at": "2026-09-15T00:32:41.100276+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧已发现仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧记录中，挖煤姬页面已复核 0 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 56,
+    "wameiji_platform_found_count": 0,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -58,7 +59,9 @@
         "price": 10000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m75853529309",
-        "observed_at": "2026-09-13T16:22:59Z"
+        "observed_at": "2026-09-13T16:22:59Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "TUYU-Under-Mentality-initial-limited-CD-BD-booklet-slipcase",
@@ -68,7 +71,9 @@
         "price": 800.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1080956335537",
-        "observed_at": "2026-09-13T16:23:11Z"
+        "observed_at": "2026-09-13T16:23:11Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -82,7 +87,9 @@
         "price": 10585.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JMjbHLNWzNmqUJQsykdaf",
-        "observed_at": "2026-09-13T16:32:53Z"
+        "observed_at": "2026-09-13T16:32:53Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Hamidashi-Creative-Totsu-first-limited-edition",
@@ -92,7 +99,9 @@
         "price": 80.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=HamidashiCreativeTotsuFirstEdition",
-        "observed_at": "2026-09-13T16:32:54Z"
+        "observed_at": "2026-09-13T16:32:54Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -106,7 +115,9 @@
         "price": 3500.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m18875535321",
-        "observed_at": "2026-09-13T16:34:10Z"
+        "observed_at": "2026-09-13T16:34:10Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Imasugu-Oniichan-ni-Imouto-datte-Iitai-complete-production-limited-three-discs-no-artbook",
@@ -116,7 +127,9 @@
         "price": 300.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1041306363872",
-        "observed_at": "2026-09-13T16:34:12Z"
+        "observed_at": "2026-09-13T16:34:12Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -130,7 +143,9 @@
         "price": 16100.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m67214647991",
-        "observed_at": "2026-09-13T16:37:00Z"
+        "observed_at": "2026-09-13T16:37:00Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "WHITE_ALBUM2_Original_Soundtrack_kazusa_Japanese_original_sealed",
@@ -140,7 +155,9 @@
         "price": 360.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=WHITE%20ALBUM2%20Original%20Soundtrack%20kazusa",
-        "observed_at": "2026-09-13T16:37:02Z"
+        "observed_at": "2026-09-13T16:37:02Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -154,7 +171,9 @@
         "price": 2980.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/uSP4r9C4vTKiDgiX7FuniN",
-        "observed_at": "2026-09-14T03:28:57Z"
+        "observed_at": "2026-09-14T03:28:57Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Fate/hollow ataraxia PSV 限定版（虚空明镜）日版日文限定版",
@@ -164,7 +183,9 @@
         "price": 1500.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=Fate%2Fhollow%20ataraxia%20PSV%20%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-14T03:28:59Z"
+        "observed_at": "2026-09-14T03:28:59Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -178,7 +199,9 @@
         "price": 2999.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m96837283375",
-        "observed_at": "2026-09-14T03:30:56Z"
+        "observed_at": "2026-09-14T03:30:56Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Aimer《daydream》初回生产限定盘A（CD+BD）",
@@ -188,7 +211,9 @@
         "price": 283.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=Aimer%20Daydream%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4%20A",
-        "observed_at": "2026-09-14T03:30:59Z"
+        "observed_at": "2026-09-14T03:30:59Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -202,7 +227,9 @@
         "price": 2800.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m86371457544",
-        "observed_at": "2026-09-14T03:35:52Z"
+        "observed_at": "2026-09-14T03:35:52Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "LiSA 织部里沙 LEO-NiNE 完全生产限定盘 CD+BD+写真集",
@@ -212,7 +239,9 @@
         "price": 150.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=LiSA%20LEO-NiNE%20%E5%AE%8C%E5%85%A8%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4",
-        "observed_at": "2026-09-14T03:35:54Z"
+        "observed_at": "2026-09-14T03:35:54Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -226,7 +255,9 @@
         "price": 6980.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m98995665733",
-        "observed_at": "2026-09-14T03:38:24Z"
+        "observed_at": "2026-09-14T03:38:24Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "ハイキュー!!×BOS - 主題歌たちの宴 - BURNOUT SYNDROMES 初回限定版 CD+BD",
@@ -236,7 +267,9 @@
         "price": 319.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076904677109&categoryId=126860296",
-        "observed_at": "2026-09-14T03:38:27Z"
+        "observed_at": "2026-09-14T03:38:27Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -250,7 +283,9 @@
         "price": null,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m18620474340",
-        "observed_at": "2026-09-14T03:39:28Z"
+        "observed_at": "2026-09-14T03:39:28Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "宇多田光 First Love 黑胶日版LP 2022完全生产限定版",
@@ -260,7 +295,9 @@
         "price": 275.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1023507423621&categoryId=202061902",
-        "observed_at": "2026-09-14T03:39:32Z"
+        "observed_at": "2026-09-14T03:39:32Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -274,7 +311,9 @@
         "price": 4299.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m68662771879",
-        "observed_at": "2026-09-14T03:42:11Z"
+        "observed_at": "2026-09-14T03:42:11Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK 黑胶 LP（在售检索结果）",
@@ -284,7 +323,9 @@
         "price": 178.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=IRIS%20OUT%20JANE%20DOE%20KICK%20BACK%20%E9%BB%91%E8%83%B6%20LP",
-        "observed_at": "2026-09-14T03:42:09Z"
+        "observed_at": "2026-09-14T03:42:09Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -298,7 +339,9 @@
         "price": 30000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m66160678665",
-        "observed_at": "2026-09-14T03:44:16Z"
+        "observed_at": "2026-09-14T03:44:16Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Orangestar 彼はきっと魔法を使う。めありー CD",
@@ -308,7 +351,9 @@
         "price": 128.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=Orangestar%20%E5%BD%BC%E3%81%AF%E3%81%8D%E3%81%A3%E3%81%A8%E9%AD%94%E6%B3%95%E3%82%92%E4%BD%BF%E3%81%86%E3%80%82%20%E3%82%81%E3%81%82%E3%82%8A%E3%83%BC",
-        "observed_at": "2026-09-14T03:44:13Z"
+        "observed_at": "2026-09-14T03:44:13Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -322,7 +367,9 @@
         "price": 1650.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JGLSsnkCsLUxPxvFQxDCS",
-        "observed_at": "2026-09-14T03:46:36Z"
+        "observed_at": "2026-09-14T03:46:36Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "怪力熊 蛮魔（ベノマ）CD 日本代购",
@@ -332,7 +379,9 @@
         "price": 81.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E6%80%AA%E5%8A%9B%E7%86%8A%20%E3%83%99%E3%83%8E%E3%83%9E",
-        "observed_at": "2026-09-14T03:46:34Z"
+        "observed_at": "2026-09-14T03:46:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -346,7 +395,9 @@
         "price": 14131.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JWXcZeojiJzoehyCxtRhQ",
-        "observed_at": "2026-09-14T03:47:48Z"
+        "observed_at": "2026-09-14T03:47:48Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "雪初音2017 Winterland's Anthology 带侧",
@@ -356,7 +407,9 @@
         "price": 650.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E9%9B%AA%E5%88%9D%E9%9F%B3%202017%20Winterland%27s%20Anthology",
-        "observed_at": "2026-09-14T03:47:45Z"
+        "observed_at": "2026-09-14T03:47:45Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -370,7 +423,9 @@
         "price": 8300.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m63567137416",
-        "observed_at": "2026-09-14T03:54:28Z"
+        "observed_at": "2026-09-14T03:54:28Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "LiSA BEST-Way- 初回生产限定盘（CD+蓝光）",
@@ -380,7 +435,9 @@
         "price": 63.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=LiSA%20BEST-Way-%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4",
-        "observed_at": "2026-09-14T03:54:25Z"
+        "observed_at": "2026-09-14T03:54:25Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -394,7 +451,9 @@
         "price": 14300.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JVuQi2P9DcqA3RcaZiHAs",
-        "observed_at": "2026-09-14T03:56:00Z"
+        "observed_at": "2026-09-14T03:56:00Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "milet Made of Glass 初回限定盘 CD+2DVD（卖家规格为准）",
@@ -404,7 +463,9 @@
         "price": 699.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%98%20CD%202Blu-ray",
-        "observed_at": "2026-09-14T03:56:46Z"
+        "observed_at": "2026-09-14T03:56:46Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -418,7 +479,9 @@
         "price": 3850.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JWJvNSivH5R8Vcb8KGDzW",
-        "observed_at": "2026-09-14T03:59:18Z"
+        "observed_at": "2026-09-14T03:59:18Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "milet Made of Glass 四专 通常盘 日版CD，全新未拆",
@@ -428,7 +491,9 @@
         "price": 185.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E6%97%A5%E7%89%88%20%E9%80%9A%E5%B8%B8%E7%9B%98",
-        "observed_at": "2026-09-14T03:59:01Z"
+        "observed_at": "2026-09-14T03:59:01Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -442,7 +507,9 @@
         "price": 3290.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m47481058045",
-        "observed_at": "2026-09-14T04:03:55Z"
+        "observed_at": "2026-09-14T04:03:55Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "ZARD Forever Best~25th Anniversary~ 日版4CD 25周年贴 全新未拆",
@@ -452,7 +519,9 @@
         "price": 222.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=ZARD%20Forever%20Best%2025th%20Anniversary%204CD%20%E5%85%A8%E6%96%B0",
-        "observed_at": "2026-09-14T04:03:44Z"
+        "observed_at": "2026-09-14T04:03:44Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -466,7 +535,9 @@
         "price": 13000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m41729237357",
-        "observed_at": "2026-09-14T04:06:57Z"
+        "observed_at": "2026-09-14T04:06:57Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "milet Made of Glass 初回限定盘（卖家标题CD+2Blu-ray）",
@@ -476,7 +547,9 @@
         "price": 699.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20CD%20Blu-ray",
-        "observed_at": "2026-09-14T04:06:40Z"
+        "observed_at": "2026-09-14T04:06:40Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -490,7 +563,9 @@
         "price": 9000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m12104977981",
-        "observed_at": "2026-09-14T04:12:00Z"
+        "observed_at": "2026-09-14T04:12:00Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "鬼灭之刃 无限城篇 第一章 猗窝座再来 完全生产限定版 Blu-ray",
@@ -500,7 +575,9 @@
         "price": 618.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83%20%E6%97%A0%E9%99%90%E5%9F%8E%20%E7%8C%97%E7%AA%9D%E5%BA%A7%E5%86%8D%E6%9D%A5%202BD%202CD%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T04:11:49Z"
+        "observed_at": "2026-09-14T04:11:49Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -514,7 +591,9 @@
         "price": 20000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m41365565241",
-        "observed_at": "2026-09-14T04:13:47Z"
+        "observed_at": "2026-09-14T04:13:47Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "EGOIST GREATEST HITS 2011-2017 ALTER EGO 完全生产限定 CD+Blu-ray+狗牌",
@@ -524,7 +603,9 @@
         "price": 650.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=EGOIST%20GREATEST%20HITS%202011-2017%20ALTER%20EGO%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T04:13:34Z"
+        "observed_at": "2026-09-14T04:13:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -538,7 +619,9 @@
         "price": 19800.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JTNc7fsMTBRmpxUdwqdL2",
-        "observed_at": "2026-09-14T04:15:43Z"
+        "observed_at": "2026-09-14T04:15:43Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "尼尔机械纪元/人工生命 Reconstructed Edition 透明胶2LP",
@@ -548,7 +631,9 @@
         "price": 899.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=NieR%20Automata%20Gestalt%20Replicant%20Reconstructed%20Edition%202LP%20%E9%80%8F%E6%98%8E%E8%83%B6",
-        "observed_at": "2026-09-14T04:15:30Z"
+        "observed_at": "2026-09-14T04:15:30Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -562,7 +647,9 @@
         "price": 6480.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m69677308373",
-        "observed_at": "2026-09-14T04:18:43Z"
+        "observed_at": "2026-09-14T04:18:43Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "宇多田光 BAD模式 LP唱片 日本代购",
@@ -572,7 +659,9 @@
         "price": 1184.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1046558259171&categoryId=126862148",
-        "observed_at": "2026-09-14T04:18:35Z"
+        "observed_at": "2026-09-14T04:18:35Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -586,7 +675,9 @@
         "price": 3500.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/4ZWsHASSBDvv6eVj2d4HTH",
-        "observed_at": "2026-09-14T04:20:17Z"
+        "observed_at": "2026-09-14T04:20:17Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "坂井泉水 ZARD Best Request 35周年纪念 3CD套装日版 原版 全新未拆",
@@ -596,7 +687,9 @@
         "price": 218.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077997934936&categoryId=126864811",
-        "observed_at": "2026-09-14T04:20:17Z"
+        "observed_at": "2026-09-14T04:20:17Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -610,7 +703,9 @@
         "price": 2535.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JTaz3FVrUaf3uck4TPDmf",
-        "observed_at": "2026-09-14T04:21:01Z"
+        "observed_at": "2026-09-14T04:21:01Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "【现货未拆】Aimer - After Dark 日版首版 DFCL-2046 1CD 12曲",
@@ -620,7 +715,9 @@
         "price": 158.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=Aimer%20After%20Dark%20%E6%97%A5%E7%89%88%20CD%20DFCL-2046",
-        "observed_at": "2026-09-14T04:21:01Z"
+        "observed_at": "2026-09-14T04:21:01Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -634,7 +731,9 @@
         "price": 7700.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JVuQmyfof7AvLNo8wM728",
-        "observed_at": "2026-09-14T04:22:01Z"
+        "observed_at": "2026-09-14T04:22:01Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "特惠现货 坂本龙一 1996 30周年 30th Anniversary Edition 日本完全生产限定双黑胶2LP",
@@ -644,7 +743,9 @@
         "price": 425.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80%201996%2030%E5%91%A8%E5%B9%B4%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T04:22:01Z"
+        "observed_at": "2026-09-14T04:22:01Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -658,7 +759,9 @@
         "price": 11000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m23333966729",
-        "observed_at": "2026-09-14T04:22:57Z"
+        "observed_at": "2026-09-14T04:22:57Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Kalafina All Time Best 2008-2018 完全生产限定盘 6CD 豪华60页历史写真集",
@@ -668,7 +771,9 @@
         "price": 580.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076551457469&categoryId=126862148",
-        "observed_at": "2026-09-14T04:22:57Z"
+        "observed_at": "2026-09-14T04:22:57Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -682,7 +787,9 @@
         "price": 7000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m12464843709",
-        "observed_at": "2026-09-14T04:23:51Z"
+        "observed_at": "2026-09-14T04:23:51Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "藤井风 Prema 三专黑胶 LP 国际版透明胶 全新未开封",
@@ -692,7 +799,9 @@
         "price": 245.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E8%97%A4%E4%BA%95%E9%A3%8E%20Prema%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T04:23:51Z"
+        "observed_at": "2026-09-14T04:23:51Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -706,7 +815,9 @@
         "price": 3100.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m13728935092",
-        "observed_at": "2026-09-14T04:25:42Z"
+        "observed_at": "2026-09-14T04:25:42Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "宇多田光 Papa Paradise 7寸单曲胶 日亚特典 全新未拆",
@@ -716,7 +827,9 @@
         "price": 198.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20%E3%83%91%E3%83%83%E3%83%91%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9%207%E5%AF%B8%20%E9%BB%91%E8%83%B6%20%E6%B5%B7%E6%8A%A5",
-        "observed_at": "2026-09-14T04:25:42Z"
+        "observed_at": "2026-09-14T04:25:42Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -730,7 +843,9 @@
         "price": 3200.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JNEgL8M4FCyam5tmxBZG5",
-        "observed_at": "2026-09-14T04:29:03Z"
+        "observed_at": "2026-09-14T04:29:03Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "milet Walkin' In My Lane（初回生産限定盤B）全新未拆",
@@ -740,7 +855,9 @@
         "price": 150.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=milet%20Walkin%20In%20My%20Lane%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20B",
-        "observed_at": "2026-09-14T04:28:29Z"
+        "observed_at": "2026-09-14T04:28:29Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -754,7 +871,9 @@
         "price": 3980.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m78522861084",
-        "observed_at": "2026-09-14T04:30:06Z"
+        "observed_at": "2026-09-14T04:30:06Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Frieren Season 2 OST Evan Call initial production limited edition, sealed",
@@ -764,7 +883,9 @@
         "price": 233.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E8%91%AC%E9%80%81%E7%9A%84%E8%8A%99%E8%8E%89%E8%8E%B2%20Season2%20OST%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20Evan%20Call",
-        "observed_at": "2026-09-14T04:29:59Z"
+        "observed_at": "2026-09-14T04:29:59Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -778,7 +899,9 @@
         "price": 3000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m83808420857",
-        "observed_at": "2026-09-14T04:31:25Z"
+        "observed_at": "2026-09-14T04:31:25Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Utada Hikaru SCIENCE FICTION 25th best, complete limited 2CD, new sealed",
@@ -788,7 +911,9 @@
         "price": 300.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20SCIENCE%20FICTION%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%E7%9B%98%202CD%20%E7%89%B9%E5%85%B8",
-        "observed_at": "2026-09-14T04:31:17Z"
+        "observed_at": "2026-09-14T04:31:17Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -802,7 +927,9 @@
         "price": 9800.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JWauph9k4xYJyFMaQNHQz",
-        "observed_at": "2026-09-14T04:32:31Z"
+        "observed_at": "2026-09-14T04:32:31Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Yoko Takahashi Cruel Angel Thesis EVANGELION 30th Anniversary colored vinyl initial limited LP",
@@ -812,7 +939,9 @@
         "price": 339.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC%20EVA%2030%E5%91%A8%E5%B9%B4%20LP%20%E9%AB%98%E6%A1%A5%E6%B4%8B%E5%AD%90",
-        "observed_at": "2026-09-14T04:32:23Z"
+        "observed_at": "2026-09-14T04:32:23Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -826,7 +955,9 @@
         "price": 3000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m89211460005",
-        "observed_at": "2026-09-14T04:33:24Z"
+        "observed_at": "2026-09-14T04:33:24Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "milet inside you EP initial production limited CD plus DVD, new sealed",
@@ -836,7 +967,9 @@
         "price": 1080.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=milet%20inside%20you%20EP%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4%20CD%20DVD",
-        "observed_at": "2026-09-14T04:33:16Z"
+        "observed_at": "2026-09-14T04:33:16Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -850,7 +983,9 @@
         "price": 6280.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m45033420126",
-        "observed_at": "2026-09-14T05:10:23Z"
+        "observed_at": "2026-09-14T05:10:23Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "宇多田光 Distance 日版 2022年再版 生产限定盘 黑胶唱片2LP 全新未拆",
@@ -860,7 +995,9 @@
         "price": 275.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20Distance%20%E9%BB%91%E8%83%B6%202LP",
-        "observed_at": "2026-09-14T05:10:56Z"
+        "observed_at": "2026-09-14T05:10:56Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -874,7 +1011,9 @@
         "price": 7880.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m38923412257",
-        "observed_at": "2026-09-14T05:11:44Z"
+        "observed_at": "2026-09-14T05:11:44Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "爱缪 Aimyon 青春のエキサイトメント 10周年纪念限定 日版红色彩胶黑胶2LP 180g 含10周年纪念卡 全新未拆",
@@ -884,7 +1023,9 @@
         "price": 315.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=AIMYON%20%E9%9D%92%E6%98%A5%E3%81%AE%E3%82%A8%E3%82%AD%E3%82%B5%E3%82%A4%E3%83%88%E3%83%A1%E3%83%B3%E3%83%88%2010%E5%91%A8%E5%B9%B4%202LP%20180g%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:12:07Z"
+        "observed_at": "2026-09-14T05:12:07Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -898,7 +1039,9 @@
         "price": 8000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m51647522231",
-        "observed_at": "2026-09-14T05:12:59Z"
+        "observed_at": "2026-09-14T05:12:59Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "milet eyes 日版完全生产限定盘 2LP重量盘 全新未拆 含12页小册子 18首",
@@ -908,7 +1051,9 @@
         "price": 415.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=milet%20eyes%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%20%E9%BB%91%E8%83%B6%202LP",
-        "observed_at": "2026-09-14T05:13:20Z"
+        "observed_at": "2026-09-14T05:13:20Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -922,7 +1067,9 @@
         "price": 14444.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m95759221146",
-        "observed_at": "2026-09-14T05:14:23Z"
+        "observed_at": "2026-09-14T05:14:23Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "YOASOBI THE BOOK 限量版粉色彩胶黑胶LP 全新 现货当天发",
@@ -932,7 +1079,9 @@
         "price": 318.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20%E7%B2%89%E8%83%B6%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:15:18Z"
+        "observed_at": "2026-09-14T05:15:18Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -946,7 +1095,9 @@
         "price": 8400.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m95692185293",
-        "observed_at": "2026-09-14T05:19:17Z"
+        "observed_at": "2026-09-14T05:19:17Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "夜鹿 n-buna 二人称 书简型小说 日版 全新未拆 32小信封 约170张原稿信纸 大信封 外盒",
@@ -956,7 +1107,9 @@
         "price": 400.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E5%A4%9C%E9%B9%BF%20n-buna%20%E4%BA%8C%E4%BA%BA%E7%A7%B0%20%E4%B9%A6%E7%AE%80%E5%9E%8B%E5%B0%8F%E8%AF%B4%20%E5%85%A8%E6%96%B0%E6%9C%AA%E6%8B%86",
-        "observed_at": "2026-09-14T05:19:42Z"
+        "observed_at": "2026-09-14T05:19:42Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -970,7 +1123,9 @@
         "price": 555.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m70655374511",
-        "observed_at": "2026-09-14T05:21:16Z"
+        "observed_at": "2026-09-14T05:21:16Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "EGOIST The Everlasting Guilty Crown 日版初回限定 CD+DVD 全新未拆",
@@ -980,7 +1135,9 @@
         "price": 498.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=EGOIST%20The%20Everlasting%20Guilty%20Crown%20%E5%88%9D%E5%9B%9E%20CD%20DVD",
-        "observed_at": "2026-09-14T05:21:39Z"
+        "observed_at": "2026-09-14T05:21:39Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -994,7 +1151,9 @@
         "price": 6950.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/SXTf7VmwoizE3VCPJfHAhH",
-        "observed_at": "2026-09-14T05:23:24Z"
+        "observed_at": "2026-09-14T05:23:24Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "刘德华 回到你身边 日本初回限定 180g黑胶LP 全新未拆",
@@ -1004,7 +1163,9 @@
         "price": 338.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E5%88%98%E5%BE%B7%E5%8D%8E%20%E5%9B%9E%E5%88%B0%E4%BD%A0%E8%BA%AB%E8%BE%B9%20%E6%97%A5%E7%89%88%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:25:23Z"
+        "observed_at": "2026-09-14T05:25:23Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1018,7 +1179,9 @@
         "price": 10000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m51414436751",
-        "observed_at": "2026-09-14T05:26:37Z"
+        "observed_at": "2026-09-14T05:26:37Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "ヨルシカ 幻灯 音乐画集 加藤隆 全新未拆",
@@ -1028,7 +1191,9 @@
         "price": 1000.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E3%83%A8%E3%83%AB%E3%82%B7%E3%82%AB%20%E5%B9%BB%E7%81%AF%20%E5%8A%A0%E8%97%A4%E9%9A%86%20%E9%9F%B3%E4%B9%90%E7%94%BB%E9%9B%86%20%E5%85%A8%E6%96%B0",
-        "observed_at": "2026-09-14T05:27:01Z"
+        "observed_at": "2026-09-14T05:27:01Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1042,7 +1207,9 @@
         "price": 29800.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m42348502657",
-        "observed_at": "2026-09-14T05:28:05Z"
+        "observed_at": "2026-09-14T05:28:05Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "YOASOBI THE BOOK for ART EDITION 水蓝彩胶 2LP 全新未拆 国内现货",
@@ -1052,7 +1219,9 @@
         "price": 299.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20for%20ART%20EDITION%20%E5%BD%A9%E8%83%B6",
-        "observed_at": "2026-09-14T05:28:28Z"
+        "observed_at": "2026-09-14T05:28:28Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1066,7 +1235,9 @@
         "price": 7999.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m18205653066",
-        "observed_at": "2026-09-14T05:29:17Z"
+        "observed_at": "2026-09-14T05:29:17Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "n-buna 月を歩いている 初回限定 纸质收纳盒 可重复封口OPP套",
@@ -1076,7 +1247,9 @@
         "price": 888.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=n-buna%20%E6%9C%88%E3%82%92%E6%AD%A9%E3%81%84%E3%81%A6%E3%81%84%E3%82%8B%20%E5%88%9D%E5%9B%9E",
-        "observed_at": "2026-09-14T05:29:57Z"
+        "observed_at": "2026-09-14T05:29:57Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1090,7 +1263,9 @@
         "price": 14999.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JNtzyJNeARHGBbNZP4tqx",
-        "observed_at": "2026-09-14T05:31:44Z"
+        "observed_at": "2026-09-14T05:31:44Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Ado WORLD TOUR 2025 Hibana 初回限定蓝光 全新未拆",
@@ -1100,7 +1275,9 @@
         "price": 505.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=Ado%20WORLD%20TOUR%202025%20Hibana%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20Blu-ray",
-        "observed_at": "2026-09-14T05:32:06Z"
+        "observed_at": "2026-09-14T05:32:06Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1114,7 +1291,9 @@
         "price": 1080.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m41548908685",
-        "observed_at": "2026-09-14T05:34:14Z"
+        "observed_at": "2026-09-14T05:34:14Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "MAN WITH A MISSION×milet 绊ノ奇迹 コイコガレ CD加DVD期间限定盘",
@@ -1124,7 +1303,9 @@
         "price": 60.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=MAN%20WITH%20A%20MISSION%20milet%20%E7%BB%8A%E3%83%8E%E5%A5%87%E8%B7%A1%20%E3%82%B3%E3%82%A4%E3%82%B3%E3%82%AC%E3%83%AC%20CD%20DVD%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T05:34:46Z"
+        "observed_at": "2026-09-14T05:34:46Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1138,7 +1319,9 @@
         "price": 35000.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m56300190259",
-        "observed_at": "2026-09-14T05:35:45Z"
+        "observed_at": "2026-09-14T05:35:45Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Ado 狂言 1st LP 日版完全生产限定 2LP 全新未拆",
@@ -1148,7 +1331,9 @@
         "price": 2300.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=Ado%20%E7%8B%82%E8%A8%80%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%202LP%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:36:14Z"
+        "observed_at": "2026-09-14T05:36:14Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1162,7 +1347,9 @@
         "price": 4989.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JWKCtYJ4j8aebwsotrwcJ",
-        "observed_at": "2026-09-14T05:37:08Z"
+        "observed_at": "2026-09-14T05:37:08Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "米津玄师 BOOTLEG 初回限定 ブート盘 CD+仿LP封套 插画 海报 仿制唱片",
@@ -1172,7 +1359,9 @@
         "price": 291.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
-        "observed_at": "2026-09-14T05:38:52Z"
+        "observed_at": "2026-09-14T05:38:52Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1186,7 +1375,9 @@
         "price": 3400.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m82652747780",
-        "observed_at": "2026-09-14T05:41:02Z"
+        "observed_at": "2026-09-14T05:41:02Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "FINAL FANTASY X 25th Anniversary To Zanarkand Compilation Album CD",
@@ -1196,7 +1387,9 @@
         "price": 185.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1078183639126&categoryId=126862148",
-        "observed_at": "2026-09-14T05:41:28Z"
+        "observed_at": "2026-09-14T05:41:28Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1210,7 +1403,9 @@
         "price": 555.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m950942469",
-        "observed_at": "2026-09-14T05:42:13Z"
+        "observed_at": "2026-09-14T05:42:13Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "SawanoHiroyuki[nZk] X.U. / scaPEGoat 期间生产限定 CD+DVD",
@@ -1220,7 +1415,9 @@
         "price": 228.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=649583488611&categoryId=126864811",
-        "observed_at": "2026-09-14T05:42:33Z"
+        "observed_at": "2026-09-14T05:42:33Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1234,7 +1431,9 @@
         "price": 2200.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/5ngbC5B7PPeqVS3XWrTSQD",
-        "observed_at": "2026-09-14T05:43:18Z"
+        "observed_at": "2026-09-14T05:43:18Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "EGOIST 当事者 日版期间生产限定 CD+BD",
@@ -1244,7 +1443,9 @@
         "price": 188.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=EGOIST%20%E5%BD%93%E4%BA%8B%E8%80%85%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A%20CD%2BBD",
-        "observed_at": "2026-09-14T05:43:43Z"
+        "observed_at": "2026-09-14T05:43:43Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1258,7 +1459,9 @@
         "price": 1643.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JWkuehnoJCtSbfZmFkeka",
-        "observed_at": "2026-09-14T05:44:41Z"
+        "observed_at": "2026-09-14T05:44:41Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "ヨルシカ 夏草が邪魔をする DUED-1223 日版通常盘CD",
@@ -1268,7 +1471,9 @@
         "price": 105.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E5%A4%9C%E9%B9%BF%20%E5%A4%8F%E8%8D%89%E9%82%AA%E9%AD%94%20DUED-1223",
-        "observed_at": "2026-09-14T05:45:06Z"
+        "observed_at": "2026-09-14T05:45:06Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1282,7 +1487,9 @@
         "price": 611.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/2JW4Ldon5H9NfUsdGQwmGX",
-        "observed_at": "2026-09-14T05:45:56Z"
+        "observed_at": "2026-09-14T05:45:56Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "GARNiDELiA MIRAI 期间生产限定盘 CD+DVD",
@@ -1292,7 +1499,9 @@
         "price": 91.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=GARNiDELiA%20MIRAI%20%E6%9C%9F%E9%97%B4%E9%99%90%E5%AE%9A%20CD%2BDVD",
-        "observed_at": "2026-09-14T05:46:21Z"
+        "observed_at": "2026-09-14T05:46:21Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1306,7 +1515,9 @@
         "price": 1600.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m53293013114",
-        "observed_at": "2026-09-14T05:47:14Z"
+        "observed_at": "2026-09-14T05:47:14Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "EGOIST Departures 初回限定附属 INORI YUZURIHA 设定册/迷你画册",
@@ -1316,7 +1527,9 @@
         "price": 69.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=977136403407&categoryId=126860296",
-        "observed_at": "2026-09-14T05:47:39Z"
+        "observed_at": "2026-09-14T05:47:39Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1330,7 +1543,9 @@
         "price": 3610.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/shops/product/nFvYGZe3X8uLkVoDUjmgBB",
-        "observed_at": "2026-09-14T05:48:46Z"
+        "observed_at": "2026-09-14T05:48:46Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "Aimer 星の消えた夜に 完全生产限定版 2CD+BD",
@@ -1340,7 +1555,9 @@
         "price": 399.99,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1030153019863&categoryId=126864811",
-        "observed_at": "2026-09-14T05:49:20Z"
+        "observed_at": "2026-09-14T05:49:20Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1354,7 +1571,9 @@
         "price": 1600.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m34135105020",
-        "observed_at": "2026-09-14T05:52:20Z"
+        "observed_at": "2026-09-14T05:52:20Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "supercell My Dearest 罪恶王冠OP 初回限定 CD+DVD + 原袋侧标卡牌应募券",
@@ -1364,7 +1583,9 @@
         "price": 158.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=supercell%20My%20Dearest%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20CD%2BDVD",
-        "observed_at": "2026-09-14T05:53:06Z"
+        "observed_at": "2026-09-14T05:53:06Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     },
     {
@@ -1378,7 +1599,9 @@
         "price": 5999.0,
         "currency": "JPY",
         "source_url": "https://jp.mercari.com/item/m92368332376",
-        "observed_at": "2026-09-14T05:56:44Z"
+        "observed_at": "2026-09-14T05:56:44Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false
       },
       "xianyu": {
         "title": "国现 无刺/有刺 トゲナシトゲアリ Girls Band Cry 黑胶 1专2专 完全生产限定盘",
@@ -1388,7 +1611,9 @@
         "price": 295.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E3%83%88%E3%82%B2%E3%83%8A%E3%82%B7%E3%83%88%E3%82%B2%E3%82%A2%E3%83%AA%20%E6%A3%98%E3%83%8A%E3%82%B7%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:57:02Z"
+        "observed_at": "2026-09-14T05:57:02Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       }
     }
   ]

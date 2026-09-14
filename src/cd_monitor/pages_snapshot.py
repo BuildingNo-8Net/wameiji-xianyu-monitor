@@ -30,6 +30,7 @@ ALLOWED_IMAGE_HOSTS = frozenset(
         "img.fril.jp",
     }
 )
+WAMEIJI_PLATFORM_HOSTS = frozenset({"meruki.cn", "www.meruki.cn"})
 IMAGE_EXTENSIONS = {"JPEG": ".jpg", "PNG": ".png", "WEBP": ".webp"}
 MAX_IMAGE_BYTES = 15 * 1024 * 1024
 MIN_IMAGE_EDGE = 80
@@ -389,6 +390,14 @@ def export_reference_audit_snapshot(
         return str(row[f"{market}_state"] or "not_observed")
 
     def public_observation(row: sqlite3.Row, market: str) -> dict[str, object]:
+        raw_url = str(row[f"{market}_source_url"] or "").strip()
+        try:
+            parsed_url = _parsed_https_url(raw_url)
+            source_url = raw_url
+            source_host = str(parsed_url.hostname or "").casefold()
+        except SnapshotExportError:
+            source_url = ""
+            source_host = ""
         return {
             "title": row[f"{market}_title"],
             "version_evidence": row[f"{market}_version_evidence"],
@@ -396,13 +405,16 @@ def export_reference_audit_snapshot(
             "barcode": row[f"{market}_barcode"],
             "price": row[f"{market}_price"],
             "currency": row[f"{market}_currency"],
-            "source_url": row[f"{market}_source_url"],
+            "source_url": source_url,
             "observed_at": row[f"{market}_observed_at"],
+            "marketplace_host": source_host,
+            "is_wameiji_platform": source_host in WAMEIJI_PLATFORM_HOSTS,
         }
 
     pair_counts: dict[tuple[str, str], int] = {}
     dual_found_pairs: list[dict[str, object]] = []
     found_any_count = 0
+    wameiji_platform_found_count = 0
     not_currently_listed_both_count = 0
     for row in rows:
         wameiji_state = state(row, "wameiji")
@@ -412,6 +424,12 @@ def export_reference_audit_snapshot(
         )
         if wameiji_state == "found" or xianyu_state == "found":
             found_any_count += 1
+        wameiji_observation = public_observation(row, "wameiji")
+        if (
+            wameiji_state == "found"
+            and bool(wameiji_observation["is_wameiji_platform"])
+        ):
+            wameiji_platform_found_count += 1
         if (
             wameiji_state == "not_currently_listed"
             and xianyu_state == "not_currently_listed"
@@ -422,7 +440,7 @@ def export_reference_audit_snapshot(
                 {
                     "reference_product_id": int(row["reference_product_id"]),
                     "stable_key": str(row["stable_key"] or ""),
-                    "wameiji": public_observation(row, "wameiji"),
+                    "wameiji": wameiji_observation,
                     "xianyu": public_observation(row, "xianyu"),
                 }
             )
@@ -441,12 +459,15 @@ def export_reference_audit_snapshot(
         "generated_at": generated_at.isoformat(),
         "mode": "reference_audit_snapshot",
         "disclaimer": (
-            "双侧已发现仅表示已找到两端商品记录；未证明同版本、同成色、"
+            "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、"
             "同附件、成本完整或正利润，不能当作达标机会。"
+            f"当前 {len(dual_found_pairs)} 条双侧记录中，挖煤姬页面已复核 "
+            f"{wameiji_platform_found_count} 条；其余日本来源需改由挖煤姬页面逐件复核。"
         ),
         "summary": {
             "reference_product_count": len(rows),
             "both_found_count": len(dual_found_pairs),
+            "wameiji_platform_found_count": wameiji_platform_found_count,
             "found_any_count": found_any_count,
             "not_currently_listed_both_count": not_currently_listed_both_count,
         },

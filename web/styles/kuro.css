@@ -417,7 +417,7 @@ body.kuro .reference-audit-panel { margin: 24px 0; padding: 22px; border: 1px so
 body.kuro .reference-audit-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
 body.kuro .reference-audit-head h3 { margin: 4px 0 6px; font-size: 20px; }
 body.kuro .reference-audit-head p, body.kuro .reference-audit-disclaimer { margin: 0; color: var(--kuro-muted); font-size: 13px; line-height: 1.7; }
-body.kuro .reference-audit-metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 18px 0 12px; }
+body.kuro .reference-audit-metrics { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin: 18px 0 12px; }
 body.kuro .reference-audit-metrics > div { padding: 13px 15px; border: 1px solid var(--kuro-line); border-radius: 15px; background: rgba(255, 255, 255, .72); }
 body.kuro .reference-audit-metrics small { display: block; color: var(--kuro-muted); font-size: 12px; margin-bottom: 3px; }
 body.kuro .reference-audit-metrics strong { font-size: 22px; }

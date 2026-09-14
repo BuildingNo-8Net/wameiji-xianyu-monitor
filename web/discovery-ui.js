@@ -355,12 +355,17 @@
 
   function referenceAuditPairMarkup(pair) {
     const item = pair && typeof pair === "object" ? pair : {};
+    const japaneseSource = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
+    const sourceHost = String(japaneseSource.marketplace_host || "日本来源");
+    const japaneseLabel = japaneseSource.is_wameiji_platform
+      ? "挖煤姬进货侧"
+      : "日本来源侧 · " + sourceHost + "（待挖煤姬复核）";
     return [
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 待逐件核验</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY"),
-          referenceAuditObservationMarkup("挖煤姬进货侧", item.wameiji, "JPY"),
+          referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY"),
         '</div>',
       '</article>',
     ].join("");
@@ -374,6 +379,7 @@
     if (!audit) {
       setText("referenceAuditTotal", "--");
       setText("referenceAuditBothFound", "--");
+      setText("referenceAuditWameijiPlatform", "--");
       setText("referenceAuditFoundAny", "--");
       setText("referenceAuditUnavailable", "--");
       setText("referenceAuditDisclaimer", "审计快照尚未发布；不能从达标卡数量推断全量进度。");
@@ -389,6 +395,7 @@
     const pairs = Array.isArray(audit.dual_found_pairs) ? audit.dual_found_pairs : [];
     setText("referenceAuditTotal", referenceAuditCount(summary.reference_product_count));
     setText("referenceAuditBothFound", referenceAuditCount(summary.both_found_count));
+    setText("referenceAuditWameijiPlatform", referenceAuditCount(summary.wameiji_platform_found_count));
     setText("referenceAuditFoundAny", referenceAuditCount(summary.found_any_count));
     setText("referenceAuditUnavailable", referenceAuditCount(summary.not_currently_listed_both_count));
     setText(
