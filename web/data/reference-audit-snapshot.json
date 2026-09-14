@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:32:31.055245+00:00",
+  "generated_at": "2026-09-14T17:35:33.271784+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 53 条双侧记录中，挖煤姬页面已复核 19 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 53 条双侧记录中，挖煤姬页面已复核 20 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 53,
-    "wameiji_platform_found_count": 19,
+    "wameiji_platform_found_count": 20,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -500,26 +500,26 @@
       "reference_product_id": 76,
       "stable_key": "sample:1bbd79ed18293461be255478156b87853880febe847889ef1b746d908473b862",
       "wameiji": {
-        "title": "milet Made of Glass ４th アルバム 初回生産限定盤",
-        "version_evidence": "详情明确为Blu-ray而非DVD；CD全15曲 + 1枚Blu-ray（台北巡演、FC Live、幕后）；新品未使用",
+        "title": "milet made of glass CD+Blu-ray 新品未開封",
+        "version_evidence": "CD+Blu-ray; 未使用/新品未开封；商品页无商品说明、未提供品番，不能据此确认是否与其他初回盘附件完全一致。",
         "catalog_no": null,
         "barcode": null,
-        "price": 13000.0,
+        "price": 12222.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m41729237357",
-        "observed_at": "2026-09-14T04:06:57Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333637373039353635392f",
+        "observed_at": "2026-09-14T17:35:33Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "milet Made of Glass 初回限定盘（卖家标题CD+2Blu-ray）",
-        "version_evidence": "实拍封底写 Disc 1 CD / Disc 2 BD，故按CD+BD两碟初回盘记录；外附文件夹明确不含",
+        "title": "milet 全新原创专辑 Made of Glass 初回生产限定盘 CD+BD / CD+2DVD",
+        "version_evidence": "CD+BD与CD+2DVD两种初回盘均列699元；全款包邮含税。该页明确日本直采发回、预计3-4周发货，非现成本地库存。",
         "catalog_no": null,
         "barcode": null,
         "price": 699.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20CD%20Blu-ray",
-        "observed_at": "2026-09-14T04:06:40Z",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.4.2474719aI08nYr&id=1083698476054&categoryId=126864811",
+        "observed_at": "2026-09-14T17:35:33Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
