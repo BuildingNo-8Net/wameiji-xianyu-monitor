@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:54:19.241354+00:00",
+  "generated_at": "2026-09-14T17:55:28.841832+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 47 条双侧记录中，挖煤姬页面已复核 30 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 46 条双侧记录中，挖煤姬页面已复核 31 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 47,
-    "wameiji_platform_found_count": 30,
+    "both_found_count": 46,
+    "wameiji_platform_found_count": 31,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 47
+      "count": 46
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 17
+      "count": 18
     },
     {
       "wameiji": "not_currently_listed",
@@ -1192,34 +1192,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.2.4bf5152dnHU2pY&id=1020304049843&categoryId=126864811",
         "observed_at": "2026-09-14T17:37:51Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 119,
-      "stable_key": "sample:39873d90047e7417a1b16ebed6bec6ac7f713516c0572ce06c97dbac3224b8f7",
-      "wameiji": {
-        "title": "ヨルシカ 夏草が邪魔をする CD",
-        "version_evidence": "Mercari Shops当前在库1件，型番DUED-1223，2017-06-28发行；对应样本本体。",
-        "catalog_no": "DUED-1223",
-        "barcode": null,
-        "price": 1643.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JWkuehnoJCtSbfZmFkeka",
-        "observed_at": "2026-09-14T05:44:41Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "ヨルシカ 夏草が邪魔をする DUED-1223 日版通常盘CD",
-        "version_evidence": "闲鱼当前条目明确标注日版、全新未拆、Tower Records塔店背回、DUED-1223及2017-06-28发行。",
-        "catalog_no": "DUED-1223",
-        "barcode": null,
-        "price": 105.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%A4%9C%E9%B9%BF%20%E5%A4%8F%E8%8D%89%E9%82%AA%E9%AD%94%20DUED-1223",
-        "observed_at": "2026-09-14T05:45:06Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
