@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:13:00.390594+00:00",
+  "generated_at": "2026-09-14T17:15:11.681547+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 10 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧记录中，挖煤姬页面已复核 11 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 55,
-    "wameiji_platform_found_count": 10,
+    "wameiji_platform_found_count": 11,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -192,26 +192,26 @@
       "reference_product_id": 58,
       "stable_key": "sample:1efbfc4868bcf9990abfe2cee8978219783836d2db9d082cb0ca569103b3608e",
       "wameiji": {
-        "title": "新品未開封・完全数量生産限定盤 LEO-NiNE / LiSA",
-        "version_evidence": "人工 Chrome 精确检索商品卡：¥2,800，标题明确新品未开封、完全数量生产限定盘；未将未加载出的详情补写为已验证内容",
+        "title": "LiSA LEO-NiNE 完全生産限定盤（CD+Blu-ray+上製本フォトブック）",
+        "version_evidence": "Exact three-piece edition: CD + Blu-ray + hardbound photobook. Seller states two postcards are included as an extra, so the cards must not be silently treated as part of the base edition.",
         "catalog_no": null,
         "barcode": null,
-        "price": 2800.0,
+        "price": 1279.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m86371457544",
-        "observed_at": "2026-09-14T03:35:52Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/paypay/detail/z607937962",
+        "observed_at": "2026-09-14T17:15:11Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
         "title": "LiSA 织部里沙 LEO-NiNE 完全生产限定盘 CD+BD+写真集",
-        "version_evidence": "人工 Chrome 精确检索命中：¥150称日版正版、全新仅拆封未使用；¥145称仅拆、外包装四角完好；¥200/288称全新未拆；配置为CD+BD+写真集",
+        "version_evidence": "Current listing explicitly states Japanese CD + BD + photobook configuration, the 13-track CD, Blu-ray MV/live footage, Japanese edition, and nearly-new opened-only storage condition. It does not mention the two postcards included by the Wameiji listing.",
         "catalog_no": null,
         "barcode": null,
-        "price": 150.0,
+        "price": 145.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=LiSA%20LEO-NiNE%20%E5%AE%8C%E5%85%A8%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4",
-        "observed_at": "2026-09-14T03:35:54Z",
+        "source_url": "https://www.goofish.com/item?id=1051289253288&categoryId=126864811",
+        "observed_at": "2026-09-14T17:15:11Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
