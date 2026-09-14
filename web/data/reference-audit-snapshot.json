@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:14:18.491175+00:00",
+  "generated_at": "2026-09-14T18:15:41.536837+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 35 条双侧记录中，挖煤姬页面已复核 41 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 35 条双侧记录中，挖煤姬页面已复核 42 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 35,
-    "wameiji_platform_found_count": 41,
+    "wameiji_platform_found_count": 42,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -584,26 +584,26 @@
       "reference_product_id": 94,
       "stable_key": "sample:09cdcbeb0b4c28229a0a44cf5d18efb56ac4d318f8358eb6c8e7bfeedeea45c7",
       "wameiji": {
-        "title": "Yoko Takahashi Cruel Angel Thesis EVANGELION 30th Anniversary Edition LP color vinyl initial limited",
-        "version_evidence": "Exact title identifies color vinyl initial limited edition for Evangelion 30th anniversary. Current shop stock remaining 1, includes shipping, listed 3 days ago.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 9800.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JWauph9k4xYJyFMaQNHQz",
-        "observed_at": "2026-09-14T04:32:31Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "Yoko Takahashi Cruel Angel Thesis EVANGELION 30th Anniversary colored vinyl initial limited LP",
-        "version_evidence": "Yoko Takahashi; Cruel Angel Thesis EVANGELION 30th Anniversary Edition; initial limited transparent colored vinyl LP; listing confirms enclosed jacket illustration card; new unopened with no dents.",
+        "title": "高橋洋子 / 残酷な天使のテーゼ A Cruel Angel's Thesis EVANGELION 30th Anniversary Edition LP",
+        "version_evidence": "Current PayPay card gives NAS-2164 / SKU 4988003660604; 2026-02-21 King Records domestic color-vinyl initial limited LP, one record, with eight listed tracks and Yamashita Ikuto jacket illustration.",
         "catalog_no": "NAS-2164",
         "barcode": "4988003660604",
-        "price": 339.0,
+        "price": 19800.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/paypay/detail/x1244399830",
+        "observed_at": "2026-09-14T18:15:41Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "高桥洋子《残酷的天使的 thesis》EVA 30周年初回限定彩胶 LP / NAS-2164 / 4988003660604",
+        "version_evidence": "Current Xianyu card explicitly matches NAS-2164 and SKU 4988003660604, the colored-vinyl initial limited LP, its 2026-02-21 release, and the eight-track contents; card claims new unused.",
+        "catalog_no": "NAS-2164",
+        "barcode": "4988003660604",
+        "price": 1063.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E6%AE%8B%E9%85%B7%E3%81%AA%E5%A4%A9%E4%BD%BF%E3%81%AE%E3%83%86%E3%83%BC%E3%82%BC%20EVA%2030%E5%91%A8%E5%B9%B4%20LP%20%E9%AB%98%E6%A1%A5%E6%B4%8B%E5%AD%90",
-        "observed_at": "2026-09-14T04:32:23Z",
+        "source_url": "https://www.goofish.com/item?id=1084635308774&categoryId=126862148",
+        "observed_at": "2026-09-14T18:15:41Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
