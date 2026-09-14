@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:59:48+00:00",
+  "generated_at": "2026-09-14T18:01:14+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 44 条双侧记录中，挖煤姬页面已复核 32 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 44 条双侧记录中，挖煤姬页面已复核 33 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 44,
-    "wameiji_platform_found_count": 32,
+    "wameiji_platform_found_count": 33,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -948,26 +948,26 @@
       "reference_product_id": 109,
       "stable_key": "sample:f0af407b900be9c399e6a0dfea7bc1b53f09fbc578249c141593a6d71437624c",
       "wameiji": {
-        "title": "YOASOBI THE BOOK for ART EDITION 海外限定 2LP 新品未开封 两份装",
-        "version_evidence": "Mercari item m42348502657: The Book For Yoasobi Art Edition overseas-limited analog record, two copies of 2LP, new sealed, postage included. The reference barcode 820200663191 returned no direct Mercari result; barcode is preserved from source only and not independently printed in this listing.",
-        "catalog_no": null,
+        "title": "THE BOOK for, (YOASOBI ART EDITION) color vinyl / 2LP",
+        "version_evidence": null,
+        "catalog_no": "BOOK4VINYL2",
         "barcode": "820200663191",
-        "price": 29800.0,
+        "price": 5599.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m42348502657",
-        "observed_at": "2026-09-14T05:28:05Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/market/detail/533363023135772672?shopid=454533197263278081",
+        "observed_at": "2026-09-14T18:01:14Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "YOASOBI THE BOOK for ART EDITION 水蓝彩胶 2LP 全新未拆 国内现货",
-        "version_evidence": "Manual Chrome search showed full-price domestic-current cards for The Book For Yoasobi Art Edition: water-blue colored 2LP, new sealed, barcode 820200663191, listed as domestic stock and not pre-order. Deposit and in-transit pre-order cards were excluded.",
-        "catalog_no": null,
+        "title": "YOASOBI The Book For (Yoasobi Art Edition) 彩胶唱片预定 BK4艺术版",
+        "version_evidence": null,
+        "catalog_no": "BOOK4VINYL2",
         "barcode": "820200663191",
-        "price": 299.0,
+        "price": 351.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20for%20ART%20EDITION%20%E5%BD%A9%E8%83%B6",
-        "observed_at": "2026-09-14T05:28:28Z",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.71f11c6fEQsozC&id=1053881094998&categoryId=126864811",
+        "observed_at": "2026-09-14T18:01:14Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
