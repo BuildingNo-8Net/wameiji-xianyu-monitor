@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:27:37.236507+00:00",
+  "generated_at": "2026-09-14T18:31:06.776043+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 29 条双侧记录中，挖煤姬页面已复核 48 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 28 条双侧记录中，挖煤姬页面已复核 49 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 29,
-    "wameiji_platform_found_count": 48,
+    "both_found_count": 28,
+    "wameiji_platform_found_count": 49,
     "found_any_count": 96,
     "not_currently_listed_both_count": 26
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 29
+      "count": 28
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 32
+      "count": 33
     },
     {
       "wameiji": "not_currently_listed",
@@ -296,34 +296,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=IRIS%20OUT%20JANE%20DOE%20KICK%20BACK%20%E9%BB%91%E8%83%B6%20LP",
         "observed_at": "2026-09-14T03:42:09Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 70,
-      "stable_key": "sample:2f55489119f038fdc84478ecfa6acb1d156b9c0b9788f449f73b54cb08912459",
-      "wameiji": {
-        "title": "【新品未開封】LiSA BEST-Way- 初回生産限定盤",
-        "version_evidence": "人工打开详情：¥8,300，15日前；新品购入后暗处保存，页面状态新品未使用；明确含初回限定影像与初回限定フォトブック『Way』。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 8300.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m63567137416",
-        "observed_at": "2026-09-14T03:54:28Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "LiSA BEST-Way- 初回生产限定盘（CD+蓝光）",
-        "version_evidence": "人工Chrome精确检索：¥63起的日淘代购单张Way初回盘，CD+蓝光；原商品描述为已播放数次、无明显伤污但部分商品有轻微变形。另有¥81的Day/Way条目，不能直接视为单张同套。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 63.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=LiSA%20BEST-Way-%20%E5%88%9D%E5%9B%9E%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4",
-        "observed_at": "2026-09-14T03:54:25Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
