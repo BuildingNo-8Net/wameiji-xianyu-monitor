@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:58:43+00:00",
+  "generated_at": "2026-09-14T17:59:48+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 45 条双侧记录中，挖煤姬页面已复核 32 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 44 条双侧记录中，挖煤姬页面已复核 32 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 45,
+    "both_found_count": 44,
     "wameiji_platform_found_count": 32,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
@@ -14,7 +14,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 45
+      "count": 44
     },
     {
       "wameiji": "found",
@@ -24,7 +24,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 32
+      "count": 33
     },
     {
       "wameiji": "price_unfavorable",
@@ -884,34 +884,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20%E7%B2%89%E8%83%B6%20%E9%BB%91%E8%83%B6",
         "observed_at": "2026-09-14T05:15:18Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 105,
-      "stable_key": "sample:e4cd06c35ac46b70f47c68f324805ecbe4414f8928f8cffe5af3778e9381d9e5",
-      "wameiji": {
-        "title": "ヨルシカ 書簡型小説 二人称 新品未開封 初版形态",
-        "version_evidence": "Mercari item m95692185293: 書簡型小説「二人称」, new unopened, seller says it has not been taken out of the shipping carton; posted 1 day ago. Standard retail price stated ¥7700.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 8400.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/item/m95692185293",
-        "observed_at": "2026-09-14T05:19:17Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "夜鹿 n-buna 二人称 书简型小说 日版 全新未拆 32小信封 约170张原稿信纸 大信封 外盒",
-        "version_evidence": "Manual current card: full 32 small envelopes, about 170 manuscript/letter pages, 1 large envelope, unopened original outer box, no CD and no bonus. Exact sample form.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 400.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%A4%9C%E9%B9%BF%20n-buna%20%E4%BA%8C%E4%BA%BA%E7%A7%B0%20%E4%B9%A6%E7%AE%80%E5%9E%8B%E5%B0%8F%E8%AF%B4%20%E5%85%A8%E6%96%B0%E6%9C%AA%E6%8B%86",
-        "observed_at": "2026-09-14T05:19:42Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
