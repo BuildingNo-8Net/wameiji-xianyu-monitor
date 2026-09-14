@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T17:52:01.943191+00:00",
+  "generated_at": "2026-09-14T17:53:23.806094+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 48 条双侧记录中，挖煤姬页面已复核 29 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 48 条双侧记录中，挖煤姬页面已复核 30 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 48,
-    "wameiji_platform_found_count": 29,
+    "wameiji_platform_found_count": 30,
     "found_any_count": 99,
     "not_currently_listed_both_count": 23
   },
@@ -584,26 +584,26 @@
       "reference_product_id": 85,
       "stable_key": "sample:5f07ca6b5b66d68cc812a889dbd590473cb0237ee4a4a00722b662d990d308ef",
       "wameiji": {
-        "title": "CD Aimer After Dark DFCL2046 DefSTAR Records 未開封 /00110",
-        "version_evidence": "DFCL-2046；Aimer After Dark，CD，盘/封套/腰封均新品(M)，特别标注未开封及带腰封；与样本12曲日版CD对应",
+        "title": "Aimer / After Dark / DFCL-2046",
+        "version_evidence": "乐天新品；目录号 DFCL-2046、JAN 4560429724513；2013-11-20，1CD/12曲，含After Rain、Amazing Grace、RE:I AM等曲目。页面未明确首批外盒或其他渠道特典，故仅核对基础常规实体盘。",
         "catalog_no": "DFCL-2046",
-        "barcode": null,
-        "price": 2535.0,
+        "barcode": "4560429724513",
+        "price": 1971.0,
         "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JTaz3FVrUaf3uck4TPDmf",
-        "observed_at": "2026-09-14T04:21:01Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Fazndfcl-2046%2F",
+        "observed_at": "2026-09-14T17:53:23Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "【现货未拆】Aimer - After Dark 日版首版 DFCL-2046 1CD 12曲",
-        "version_evidence": "页面明确DFCL-2046、2013-11-20、1CD、12曲，曲目含After Rain、Amazing Grace、六等星之夜；与样本一致",
+        "title": "Aimer - After Dark 日版首版 全新未拆",
+        "version_evidence": "当前个人卖家实页：DFCL-2046，2013-11-20，1CD/12曲，曲目与挖煤姬页面一致；全新未拆、现货。页面未给JAN，但目录号、发行日、介质和曲目完整对应。",
         "catalog_no": "DFCL-2046",
         "barcode": null,
         "price": 158.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Aimer%20After%20Dark%20%E6%97%A5%E7%89%88%20CD%20DFCL-2046",
-        "observed_at": "2026-09-14T04:21:01Z",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.3.305a3342fbu6VY&id=909027010379&categoryId=126864811",
+        "observed_at": "2026-09-14T17:53:23Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
