@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T18:11:19.758777+00:00",
+  "generated_at": "2026-09-14T18:12:16.470717+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 38 条双侧记录中，挖煤姬页面已复核 38 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 37 条双侧记录中，挖煤姬页面已复核 39 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 38,
-    "wameiji_platform_found_count": 38,
+    "both_found_count": 37,
+    "wameiji_platform_found_count": 39,
     "found_any_count": 98,
     "not_currently_listed_both_count": 24
   },
@@ -14,12 +14,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 38
+      "count": 37
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 24
+      "count": 25
     },
     {
       "wameiji": "not_currently_listed",
@@ -576,34 +576,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.18152ebbEP9iZ0&id=1051496429555&categoryId=126864811",
         "observed_at": "2026-09-14T17:49:52Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 91,
-      "stable_key": "jan:4547366558180",
-      "wameiji": {
-        "title": "milet Walkin In My Lane initial limited B CD DVD SECL-2765",
-        "version_evidence": "Initial limited B CD+DVD; catalog SECL-2765; JAN 4547366558180; 3 CD tracks and 20 DVD tracks shown.",
-        "catalog_no": "SECL-2765",
-        "barcode": "4547366558180",
-        "price": 3200.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JNEgL8M4FCyam5tmxBZG5",
-        "observed_at": "2026-09-14T04:29:03Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false
-      },
-      "xianyu": {
-        "title": "milet Walkin' In My Lane（初回生産限定盤B）全新未拆",
-        "version_evidence": "初回生産限定盤B；CD+DVD；卡片完整展示CD三曲及milet 1st tour SEVENTH HEAVEN最终场DVD 20曲，与样本的CD+DVD和首场巡演相符",
-        "catalog_no": "SECL-2765",
-        "barcode": "4547366558180",
-        "price": 150.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=milet%20Walkin%20In%20My%20Lane%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20B",
-        "observed_at": "2026-09-14T04:28:29Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
