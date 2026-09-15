@@ -76,15 +76,25 @@ def test_homepage_exposes_the_full_reference_audit_queue_separately_from_profit_
 
     assert 'id="referenceAuditPanel"' in homepage
     assert "125 个参考样本" in homepage
-    assert "双侧已发现" in homepage
-    assert "不是达标机会" in homepage
+    assert "双侧实物观察" in homepage
+    assert "绝不伪装成达标机会" in homepage
     assert "挖煤姬页面已复核" in homepage
     assert 'id="referenceAuditPairList"' in homepage
     assert 'data/reference-audit-snapshot.json' in javascript
     assert "renderReferenceAudit" in javascript
-    assert "双侧已发现不等于达标机会" in javascript
+    assert "双侧实物观察" in javascript
     assert "日本来源侧" in javascript
     assert "待挖煤姬复核" in javascript
+
+
+def test_homepage_keeps_unprofitable_dual_listings_in_the_observation_queue() -> None:
+    """The public audit must not hide real two-sided listings behind a profit gate."""
+    homepage = Path("web/index.html").read_text(encoding="utf-8")
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+
+    assert "双侧实物观察" in homepage
+    assert "dual_observed_pairs" in javascript
+    assert "双侧实物观察" in javascript
 
 
 def test_historical_profit_kpi_is_not_labeled_as_current_full_audit_result() -> None:
@@ -182,13 +192,13 @@ def test_homepage_loads_snapshot_loader_before_the_board_renderer() -> None:
     assert homepage.index("dual-market-data.js") < homepage.index("discovery-ui.js")
 
 
-def test_homepage_busts_cached_renderer_and_styles_after_selection_grid_fix() -> None:
+def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> None:
     homepage = Path("web/index.html").read_text(encoding="utf-8")
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260915-reference-audit-v1" in homepage
-    assert "styles/kuro.css?v=20260915-reference-audit-v1" in homepage
+    assert "discovery-ui.js?v=20260915-dual-observation-v2" in homepage
+    assert "styles/kuro.css?v=20260915-default-palette-v2" in homepage
 
 
 def test_board_refresh_decouples_legacy_api_failures_from_dual_market_data() -> None:

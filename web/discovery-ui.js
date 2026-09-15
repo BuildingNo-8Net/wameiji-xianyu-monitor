@@ -392,9 +392,14 @@
       return;
     }
     const summary = audit.summary || {};
-    const pairs = Array.isArray(audit.dual_found_pairs) ? audit.dual_found_pairs : [];
+    const pairs = Array.isArray(audit.dual_observed_pairs)
+      ? audit.dual_observed_pairs
+      : (Array.isArray(audit.dual_found_pairs) ? audit.dual_found_pairs : []);
     setText("referenceAuditTotal", referenceAuditCount(summary.reference_product_count));
-    setText("referenceAuditBothFound", referenceAuditCount(summary.both_found_count));
+    setText(
+      "referenceAuditBothFound",
+      referenceAuditCount(summary.both_observed_count ?? summary.both_found_count),
+    );
     setText("referenceAuditWameijiPlatform", referenceAuditCount(summary.wameiji_platform_found_count));
     setText("referenceAuditFoundAny", referenceAuditCount(summary.found_any_count));
     setText("referenceAuditUnavailable", referenceAuditCount(summary.not_currently_listed_both_count));
@@ -403,12 +408,12 @@
       String(audit.disclaimer || "双侧已发现不等于达标机会；逐件补齐可比性和成本证据后才会进入利润筛选。"),
     );
     if (pairSummary) {
-      pairSummary.textContent = "双侧已发现 " + pairs.length + " 条待逐件核验记录（不是达标机会）";
+      pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条待逐件核验记录（不是达标机会）";
     }
     if (pairList) {
       pairList.innerHTML = pairs.length
         ? pairs.map(referenceAuditPairMarkup).join("")
-        : '<div class="empty-state">当前没有双侧已发现记录。</div>';
+        : '<div class="empty-state">当前没有双侧实物观察记录。</div>';
     }
     if (state) {
       state.textContent = "审计快照 · " + timeLabel(audit.generated_at);

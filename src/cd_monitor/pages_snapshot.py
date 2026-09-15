@@ -14,7 +14,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Callable
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 import requests
 from PIL import Image
@@ -125,6 +125,32 @@ def _parsed_https_url(value: object) -> object:
     ):
         raise SnapshotExportError("source URL must be public HTTPS without credentials")
     return parsed
+
+
+def _is_wameiji_detail_listing(value: object) -> bool:
+    """Return whether a URL is a concrete Wameiji listing, not a search page."""
+    try:
+        parsed = _parsed_https_url(value)
+    except SnapshotExportError:
+        return False
+    return (
+        str(parsed.hostname or "").casefold() in WAMEIJI_PLATFORM_HOSTS
+        and parsed.path.startswith("/mall/")
+        and "/detail/" in parsed.path
+    )
+
+
+def _is_xianyu_item_listing(value: object) -> bool:
+    """Return whether a URL is a concrete Xianyu item, not a search result page."""
+    try:
+        parsed = _parsed_https_url(value)
+    except SnapshotExportError:
+        return False
+    return (
+        str(parsed.hostname or "").casefold() in {"goofish.com", "www.goofish.com"}
+        and parsed.path == "/item"
+        and bool(parse_qs(parsed.query).get("id"))
+    )
 
 
 def download_public_image(url: str) -> DownloadedImage:
@@ -413,6 +439,7 @@ def export_reference_audit_snapshot(
 
     pair_counts: dict[tuple[str, str], int] = {}
     dual_found_pairs: list[dict[str, object]] = []
+    dual_observed_pairs: list[dict[str, object]] = []
     found_any_count = 0
     wameiji_platform_found_count = 0
     not_currently_listed_both_count = 0
@@ -428,9 +455,8 @@ def export_reference_audit_snapshot(
         }:
             found_any_count += 1
         wameiji_observation = public_observation(row, "wameiji")
-        if (
-            wameiji_state in {"found", "price_unfavorable"}
-            and bool(wameiji_observation["is_wameiji_platform"])
+        if wameiji_state in {"found", "price_unfavorable"} and _is_wameiji_detail_listing(
+            wameiji_observation["source_url"]
         ):
             wameiji_platform_found_count += 1
         if (
@@ -438,15 +464,21 @@ def export_reference_audit_snapshot(
             and xianyu_state == "not_currently_listed"
         ):
             not_currently_listed_both_count += 1
+        pair = {
+            "reference_product_id": int(row["reference_product_id"]),
+            "stable_key": str(row["stable_key"] or ""),
+            "wameiji": wameiji_observation,
+            "xianyu": public_observation(row, "xianyu"),
+        }
         if wameiji_state == "found" and xianyu_state == "found":
-            dual_found_pairs.append(
-                {
-                    "reference_product_id": int(row["reference_product_id"]),
-                    "stable_key": str(row["stable_key"] or ""),
-                    "wameiji": wameiji_observation,
-                    "xianyu": public_observation(row, "xianyu"),
-                }
-            )
+            dual_found_pairs.append(pair)
+        if wameiji_state in {"found", "price_unfavorable"} and xianyu_state in {
+            "found",
+            "price_unfavorable",
+        } and _is_wameiji_detail_listing(wameiji_observation["source_url"]) and _is_xianyu_item_listing(
+            pair["xianyu"]["source_url"]
+        ):
+            dual_observed_pairs.append(pair)
 
     def pair_sort_key(item: tuple[tuple[str, str], int]) -> tuple[int, int, str, str]:
         (wameiji_state, xianyu_state), _ = item
@@ -464,12 +496,13 @@ def export_reference_audit_snapshot(
         "disclaimer": (
             "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、"
             "同附件、成本完整或正利润，不能当作达标机会。"
-            f"当前 {len(dual_found_pairs)} 条双侧记录中，挖煤姬页面已复核 "
+            f"当前 {len(dual_observed_pairs)} 条双侧实物观察中，挖煤姬页面已复核 "
             f"{wameiji_platform_found_count} 条；其余日本来源需改由挖煤姬页面逐件复核。"
         ),
         "summary": {
             "reference_product_count": len(rows),
             "both_found_count": len(dual_found_pairs),
+            "both_observed_count": len(dual_observed_pairs),
             "wameiji_platform_found_count": wameiji_platform_found_count,
             "found_any_count": found_any_count,
             "not_currently_listed_both_count": not_currently_listed_both_count,
@@ -481,6 +514,7 @@ def export_reference_audit_snapshot(
             )
         ],
         "dual_found_pairs": dual_found_pairs,
+        "dual_observed_pairs": dual_observed_pairs,
     }
     snapshot_path = Path(web_dir) / "data" / "reference-audit-snapshot.json"
     _atomic_json(snapshot_path, payload)

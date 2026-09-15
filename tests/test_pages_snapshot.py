@@ -183,6 +183,7 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
     assert payload["summary"] == {
         "reference_product_count": 4,
         "both_found_count": 1,
+        "both_observed_count": 0,
         "wameiji_platform_found_count": 1,
         "found_any_count": 3,
         "not_currently_listed_both_count": 1,
@@ -228,6 +229,98 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
         }
     ]
     assert "private note" not in result.snapshot_path.read_text(encoding="utf-8")
+
+
+def test_reference_audit_export_keeps_a_dual_observation_when_price_is_unfavorable(
+    tmp_path: Path,
+) -> None:
+    """A real listing pair remains public evidence even when it is not profitable."""
+    db_path = tmp_path / "dual-market.db"
+    with __import__("sqlite3").connect(db_path) as conn:
+        conn.executescript(
+            """
+            CREATE TABLE reference_products (
+              id INTEGER PRIMARY KEY,
+              stable_key TEXT NOT NULL
+            );
+            CREATE TABLE reference_market_observations (
+              id INTEGER PRIMARY KEY,
+              reference_product_id INTEGER NOT NULL,
+              market TEXT NOT NULL,
+              observation_state TEXT NOT NULL,
+              observed_at TEXT,
+              observed_title TEXT,
+              version_evidence TEXT,
+              catalog_no TEXT,
+              barcode TEXT,
+              price REAL,
+              currency TEXT,
+              source_url TEXT,
+              note TEXT
+            );
+            INSERT INTO reference_products (id, stable_key)
+              VALUES (1, 'reference:unprofitable-but-real'),
+                     (2, 'reference:search-results-are-not-listings');
+            INSERT INTO reference_market_observations
+              (id, reference_product_id, market, observation_state, observed_at,
+               observed_title, version_evidence, price, currency, source_url)
+            VALUES
+              (1, 1, 'wameiji', 'price_unfavorable', '2026-09-15T01:00:00Z',
+               'Japan exact item', 'same edition', 4600, 'JPY',
+               'https://www.meruki.cn/mall/mercari/detail/one'),
+              (2, 1, 'xianyu', 'found', '2026-09-15T01:01:00Z',
+               'Domestic exact item', 'same edition', 220, 'CNY',
+               'https://www.goofish.com/item?id=one'),
+              (3, 2, 'wameiji', 'found', '2026-09-15T01:02:00Z',
+               'Search result, not a chosen Japan listing', 'unknown', 800, 'JPY',
+               'https://www.meruki.cn/search?keywords=one'),
+              (4, 2, 'xianyu', 'found', '2026-09-15T01:03:00Z',
+               'Domestic exact item', 'same edition', 220, 'CNY',
+               'https://www.goofish.com/item?id=two');
+            """
+        )
+
+    result = pages_snapshot.export_reference_audit_snapshot(
+        db_path,
+        tmp_path / "web",
+        generated_at=datetime.fromisoformat("2026-09-15T10:00:00+08:00"),
+    )
+
+    payload = json.loads(result.snapshot_path.read_text(encoding="utf-8"))
+    assert payload["summary"]["both_observed_count"] == 1
+    assert [item["stable_key"] for item in payload["dual_observed_pairs"]] == [
+        "reference:unprofitable-but-real"
+    ]
+    assert payload["dual_observed_pairs"] == [
+        {
+            "reference_product_id": 1,
+            "stable_key": "reference:unprofitable-but-real",
+            "wameiji": {
+                "title": "Japan exact item",
+                "version_evidence": "same edition",
+                "catalog_no": None,
+                "barcode": None,
+                "price": 4600.0,
+                "currency": "JPY",
+                "source_url": "https://www.meruki.cn/mall/mercari/detail/one",
+                "observed_at": "2026-09-15T01:00:00Z",
+                "marketplace_host": "www.meruki.cn",
+                "is_wameiji_platform": True,
+            },
+            "xianyu": {
+                "title": "Domestic exact item",
+                "version_evidence": "same edition",
+                "catalog_no": None,
+                "barcode": None,
+                "price": 220.0,
+                "currency": "CNY",
+                "source_url": "https://www.goofish.com/item?id=one",
+                "observed_at": "2026-09-15T01:01:00Z",
+                "marketplace_host": "www.goofish.com",
+                "is_wameiji_platform": False,
+            },
+        }
+    ]
 
 
 def test_publish_image_allowlist_covers_verified_wameiji_marketplace_cdns() -> None:
