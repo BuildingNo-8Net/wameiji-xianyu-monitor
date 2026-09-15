@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T23:57:46.234985+08:00",
+  "generated_at": "2026-09-16T00:00:15.158272+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 38 条双侧实物观察、44 条单边待补观察中，挖煤姬页面已复核 70 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 39 条双侧实物观察、44 条单边待补观察中，挖煤姬页面已复核 71 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 36,
-    "both_observed_count": 38,
+    "both_found_count": 37,
+    "both_observed_count": 39,
     "single_observed_count": 44,
-    "wameiji_platform_found_count": 70,
+    "wameiji_platform_found_count": 71,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 36
+      "count": 37
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 21
+      "count": 20
     },
     {
       "wameiji": "price_unfavorable",
@@ -466,6 +466,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1041583191474&categoryId=126864811",
         "observed_at": "2026-09-14T18:53:33Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 54,
+      "stable_key": "sample:fadb1a708c0fcea5a74806ee589c7790202d027ee3a124f622f8b477a98be5fa",
+      "wameiji": {
+        "title": "TYPE-MOON Fes. 10TH アニバーサリー BDBox完全生産限定版",
+        "version_evidence": "商品说明明确TYPE-MOON Fes. -10TH ANNIVERSARY Blu-ray Box完全生産限定版，4碟（本篇蓝光2、特典蓝光1、特典CD1），含三方背BOX、特制Digipak、36P册子；与样本规格对应。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 6480.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34353136373833303538352f",
+        "observed_at": "2026-09-15T16:00:01Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "型月10周年庆典蓝光套装 完全生产限定版",
+        "version_evidence": "详情明确TYPE-MOON Fes. 10TH ANNIVERSARY Blu-ray Disc BOX完全生产限定版；4碟（2主蓝光+1特典蓝光+1特典CD），对应样本。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 290.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1076443392812&categoryId=126860296",
+        "observed_at": "2026-09-15T16:00:04Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
@@ -1420,6 +1448,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1041583191474&categoryId=126864811",
         "observed_at": "2026-09-14T18:53:33Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 54,
+      "stable_key": "sample:fadb1a708c0fcea5a74806ee589c7790202d027ee3a124f622f8b477a98be5fa",
+      "wameiji": {
+        "title": "TYPE-MOON Fes. 10TH アニバーサリー BDBox完全生産限定版",
+        "version_evidence": "商品说明明确TYPE-MOON Fes. -10TH ANNIVERSARY Blu-ray Box完全生産限定版，4碟（本篇蓝光2、特典蓝光1、特典CD1），含三方背BOX、特制Digipak、36P册子；与样本规格对应。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 6480.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34353136373833303538352f",
+        "observed_at": "2026-09-15T16:00:01Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "型月10周年庆典蓝光套装 完全生产限定版",
+        "version_evidence": "详情明确TYPE-MOON Fes. 10TH ANNIVERSARY Blu-ray Disc BOX完全生产限定版；4碟（2主蓝光+1特典蓝光+1特典CD），对应样本。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 290.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1076443392812&categoryId=126860296",
+        "observed_at": "2026-09-15T16:00:04Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
