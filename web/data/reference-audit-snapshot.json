@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T13:36:49.688500+08:00",
+  "generated_at": "2026-09-15T13:39:46.463695+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 32 条双侧记录中，挖煤姬页面已复核 66 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 33 条双侧记录中，挖煤姬页面已复核 67 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 32,
-    "wameiji_platform_found_count": 66,
+    "both_found_count": 33,
+    "wameiji_platform_found_count": 67,
     "found_any_count": 98,
     "not_currently_listed_both_count": 25
   },
@@ -14,7 +14,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 32
+      "count": 33
     },
     {
       "wameiji": "found",
@@ -24,7 +24,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 29
+      "count": 28
     },
     {
       "wameiji": "price_unfavorable",
@@ -324,6 +324,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=TYPE-MOON%20ACE%20Vol.14",
         "observed_at": "2026-09-15T13:36:04+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 20,
+      "stable_key": "sample:17b42e4e041d599cf25e145c4bd29fab7ded93f75a99217a324abb347eb9ca6a",
+      "wameiji": {
+        "title": "虚ノ少女 ドラマCD",
+        "version_evidence": "Exact title and physical drama CD. Search-result condition is used; supplied sample was described as new unopened and visually includes orange obi, so condition/obi parity is not established.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3200.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303535363231393335302f",
+        "observed_at": "2026-09-15T13:38:47+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "全新未拆 ig社 虚之少女 广播剧CD 不包邮",
+        "version_evidence": "Exact title, Innocent Grey, physical CD, and new unopened condition from visible current result. Excluded distinct 天に結ぶ夢 versions from primary comparison.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 200.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E8%99%9A%E4%B9%8B%E5%B0%91%E5%A5%B3%20%E5%B9%BF%E6%92%AD%E5%89%A7%20CD",
+        "observed_at": "2026-09-15T13:39:32+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
