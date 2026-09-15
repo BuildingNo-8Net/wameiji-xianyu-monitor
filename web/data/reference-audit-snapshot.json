@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T23:28:25.619691+08:00",
+  "generated_at": "2026-09-15T23:31:13.283868+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 36 条双侧实物观察、45 条单边待补观察中，挖煤姬页面已复核 68 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 37 条双侧实物观察、44 条单边待补观察中，挖煤姬页面已复核 69 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 34,
-    "both_observed_count": 36,
-    "single_observed_count": 45,
-    "wameiji_platform_found_count": 68,
+    "both_found_count": 35,
+    "both_observed_count": 37,
+    "single_observed_count": 44,
+    "wameiji_platform_found_count": 69,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 34
+      "count": 35
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 22
+      "count": 21
     },
     {
       "wameiji": "price_unfavorable",
@@ -354,6 +354,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1079059188188&categoryId=126856346",
         "observed_at": "2026-09-15T15:05:12Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 49,
+      "stable_key": "sample:d0abb08f85b31398414aa836fce5b9e22bf0b8102338fa1fefe261b61ef77604",
+      "wameiji": {
+        "title": "医龍 Team Medical Dragon オリジナル・サウンドトラック",
+        "version_evidence": "当前为首部《医龍 Team Medical Dragon》OST 单张；UNIVERSAL SIGMA，河野伸、澤野弘之。样本闲鱼标题写 1/2/3，当前挖煤姬并非三张套装。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d36363635393138393236382f",
+        "observed_at": "2026-09-15T15:31:01Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "医龙 original soundtrack，泽野弘之，日剧《医龙》原声带，日版首版CD",
+        "version_evidence": "人工 Chrome 精确检索命中：日版首版、原装盒、已拆；碟面有划痕，卖家要求购买前看视频",
+        "catalog_no": "UPCI-1047",
+        "barcode": null,
+        "price": 25.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1052144094157&categoryId=126864811",
+        "observed_at": "2026-09-14T03:27:17Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
@@ -1252,6 +1280,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077008889189&categoryId=126864811",
         "observed_at": "2026-09-15T15:11:52Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 49,
+      "stable_key": "sample:d0abb08f85b31398414aa836fce5b9e22bf0b8102338fa1fefe261b61ef77604",
+      "wameiji": {
+        "title": "医龍 Team Medical Dragon オリジナル・サウンドトラック",
+        "version_evidence": "当前为首部《医龍 Team Medical Dragon》OST 单张；UNIVERSAL SIGMA，河野伸、澤野弘之。样本闲鱼标题写 1/2/3，当前挖煤姬并非三张套装。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d36363635393138393236382f",
+        "observed_at": "2026-09-15T15:31:01Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "医龙 original soundtrack，泽野弘之，日剧《医龙》原声带，日版首版CD",
+        "version_evidence": "人工 Chrome 精确检索命中：日版首版、原装盒、已拆；碟面有划痕，卖家要求购买前看视频",
+        "catalog_no": "UPCI-1047",
+        "barcode": null,
+        "price": 25.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1052144094157&categoryId=126864811",
+        "observed_at": "2026-09-14T03:27:17Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
@@ -2316,25 +2372,6 @@
         "observed_at": "2026-09-15T15:28:13Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true
-      }
-    },
-    {
-      "reference_product_id": 49,
-      "stable_key": "sample:d0abb08f85b31398414aa836fce5b9e22bf0b8102338fa1fefe261b61ef77604",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "医龙 original soundtrack，泽野弘之，日剧《医龙》原声带，日版首版CD",
-        "version_evidence": "人工 Chrome 精确检索命中：日版首版、原装盒、已拆；碟面有划痕，卖家要求购买前看视频",
-        "catalog_no": "UPCI-1047",
-        "barcode": null,
-        "price": 25.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1052144094157&categoryId=126864811",
-        "observed_at": "2026-09-14T03:27:17Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
       }
     },
     {
