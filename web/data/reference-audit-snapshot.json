@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-14T19:00:13.593844+00:00",
+  "generated_at": "2026-09-15T12:19:44.165909+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 25 条双侧记录中，挖煤姬页面已复核 58 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 31 条双侧记录中，挖煤姬页面已复核 64 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 25,
-    "wameiji_platform_found_count": 58,
-    "found_any_count": 94,
-    "not_currently_listed_both_count": 29
+    "both_found_count": 31,
+    "wameiji_platform_found_count": 64,
+    "found_any_count": 97,
+    "not_currently_listed_both_count": 26
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 25
+      "count": 31
     },
     {
       "wameiji": "found",
@@ -24,7 +24,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 33
+      "count": 30
     },
     {
       "wameiji": "price_unfavorable",
@@ -39,7 +39,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 29
+      "count": 26
     },
     {
       "wameiji": "price_unfavorable",
@@ -128,6 +128,174 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077273348061&categoryId=126864811",
         "observed_at": "2026-09-14T17:09:40Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 10,
+      "stable_key": "sample:ad66f99c63ff08ac4aa3b4ebdc929cc1ed8d6f132701959b7ce16855b3ae3481",
+      "wameiji": {
+        "title": "ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna",
+        "version_evidence": "搜索结果中的精确同名游戏CD；标为二手；页面启用仅看有货",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 4950.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=1&identity=all&keywords=WHITE+ALBUM2+ORIGINAL+SOUNDTRACK+%EF%BD%9Esetsuna%EF%BD%9E",
+        "observed_at": "2026-09-15T11:58:59+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "『全新未拆』 WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS",
+        "version_evidence": "日版正版；全新未拆封；主页两件以上有优惠",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 100.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=WHITE%20ALBUM2%20ORIGINAL%20SOUNDTRACK%20setsuna&spm=a21ybx.search.searchInput.0",
+        "observed_at": "2026-09-15T11:59:20+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 11,
+      "stable_key": "sample:f5dd5351eb7f50c7ffaf8eb0eab2776712c5b0ea176ed01937d43b1c328a32e6",
+      "wameiji": {
+        "title": "【中古】同人ドラマCDソフト 空の境界 ドラマCD ～俯瞰風景～ / Magic・Cage",
+        "version_evidence": "精确为Magic・Cage同人Drama CD；页面启用仅看有货；参考图可见日文侧标",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1400.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E7%A9%BA%E3%81%AE%E5%A2%83%E7%95%8C+%E4%BF%AF%E7%9E%B0%E9%A2%A8%E6%99%AF+%E3%83%89%E3%83%A9%E3%83%9ECD",
+        "observed_at": "2026-09-15T11:59:54+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "空之境界 俯瞰风景 两仪式 drama广播剧",
+        "version_evidence": "日版正版中古；2002年Magic Cage发行；无侧标；页面说明收录OP/ED/角色",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 130.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1070237273564&categoryId=126864811",
+        "observed_at": "2026-09-15T12:00:16+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 12,
+      "stable_key": "sample:42c0201d64442898da4f832fb139de819e97d4b9b1b3ba8b73247a54012c375d",
+      "wameiji": {
+        "title": "ツユ CD「やっぱり雨は降るんだね」レンタル落ち 帯あり",
+        "version_evidence": "首专同名CD；带侧标；明确为租赁流出二手；页面启用仅看有货",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 6200.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=1&identity=all&keywords=TUYU+%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E9%9B%A8%E3%81%AF%E9%99%8D%E3%82%8B%E3%82%93%E3%81%A0%E3%81%AD+CD",
+        "observed_at": "2026-09-15T12:01:04+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "TUYU 专辑 CD やっぱり雨は降るんだね",
+        "version_evidence": "日版正版；收录11首；页面未说明侧标/开封状态",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 240.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=TUYU%20%E3%83%84%E3%83%A6%20%E3%82%84%E3%81%A3%E3%81%B1%E3%82%8A%E9%9B%A8%E3%81%AF%E9%99%8D%E3%82%8B%E3%82%93%E3%81%A0%E3%81%AD%20CD&spm=a21ybx.search.searchInput.0",
+        "observed_at": "2026-09-15T12:01:30+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 15,
+      "stable_key": "sample:5630f456531b04a9d23d69dc721d4e98835ec0546cb987022baacc8438e2c9e9",
+      "wameiji": {
+        "title": "【新品未開封】Rewrite リライトPC用ゲーム 初回限定版",
+        "version_evidence": "Key/PC游戏；初回限定版；新品未开封；页面启用仅看有货",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5800.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=Key+Rewrite+%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88+%E6%9C%AA%E9%96%8B%E5%B0%81",
+        "observed_at": "2026-09-15T12:04:20+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【未开封】《Rewrite》初回限定版（Key出品PC游戏）",
+        "version_evidence": "初回限定版；未拆封；页面称附带赠品；日本代购卡片",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 313.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1081181550520&categoryId=126856327",
+        "observed_at": "2026-09-15T12:04:53+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 16,
+      "stable_key": "sample:d580264c560ec284bc4c396afd45d4739bfd1f225eba2726520e7a2f798fd1ce",
+      "wameiji": {
+        "title": "●帯付き Kanon AIR Piano Arrange Album Re-feel",
+        "version_evidence": "Key Sounds Label；Kanon/AIR Piano Arrange Album Re-feel；明确带侧标",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=1&identity=all&keywords=Kanon+AIR+Piano+Arrange+Album+Re-feel+KSL-0010",
+        "observed_at": "2026-09-15T12:05:42+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Kanon AIR Piano Arrange Album Re-feel Key Sounds Label 日版CD 带侧",
+        "version_evidence": "完整标题与Key Sounds Label一致；明确日版、带侧；收录鸟之诗、雪之少女、夏影",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 155.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1084359968546&categoryId=126864811",
+        "observed_at": "2026-09-15T12:07:04+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 17,
+      "stable_key": "sample:ed58f0f7d2ca7b1d9a2a6f8cc556156695f882856ab06745247823bb8121ad46",
+      "wameiji": {
+        "title": "narcissu SIDE 2nd ナルキッソス PCゲーム 2枚組",
+        "version_evidence": "narcissu SIDE 2nd；PC游戏；2张CD-ROM；页面启用仅看有货",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5500.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=1&identity=all&keywords=narcissu+SIDE+2nd+2+CD-ROM+PC%E3%82%B2%E3%83%BC%E3%83%A0",
+        "observed_at": "2026-09-15T12:09:48+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "水仙 ナルキッソス narcissu SIDE 2nd 猫猫社 游戏本体 ost",
+        "version_evidence": "narcissu SIDE 2nd；猫猫社/stage NANA；游戏本体；卖家称成色好、东西齐全、含原声",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 445.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E6%B0%B4%E4%BB%99%20narcissu%20SIDE%202nd%20%E6%B8%B8%E6%88%8F%E6%9C%AC%E4%BD%93&spm=a21ybx.search.searchInput.0",
+        "observed_at": "2026-09-15T12:10:48+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
