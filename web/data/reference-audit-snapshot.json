@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T12:19:44.165909+08:00",
+  "generated_at": "2026-09-15T13:36:49.688500+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 31 条双侧记录中，挖煤姬页面已复核 64 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 32 条双侧记录中，挖煤姬页面已复核 66 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 31,
-    "wameiji_platform_found_count": 64,
-    "found_any_count": 97,
-    "not_currently_listed_both_count": 26
+    "both_found_count": 32,
+    "wameiji_platform_found_count": 66,
+    "found_any_count": 98,
+    "not_currently_listed_both_count": 25
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 31
+      "count": 32
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 31
+      "count": 32
     },
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 30
+      "count": 29
     },
     {
       "wameiji": "price_unfavorable",
@@ -39,7 +39,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 26
+      "count": 25
     },
     {
       "wameiji": "price_unfavorable",
@@ -165,13 +165,13 @@
       "stable_key": "sample:f5dd5351eb7f50c7ffaf8eb0eab2776712c5b0ea176ed01937d43b1c328a32e6",
       "wameiji": {
         "title": "【中古】同人ドラマCDソフト 空の境界 ドラマCD ～俯瞰風景～ / Magic・Cage",
-        "version_evidence": "精确为Magic・Cage同人Drama CD；页面启用仅看有货；参考图可见日文侧标",
+        "version_evidence": "Exact source detail: Magic・Cage MGCG-1408, release 2002-08-09, pressed CD; ordinary used condition; booklet content is described.",
         "catalog_no": null,
         "barcode": null,
         "price": 1400.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E7%A9%BA%E3%81%AE%E5%A2%83%E7%95%8C+%E4%BF%AF%E7%9E%B0%E9%A2%A8%E6%99%AF+%E3%83%89%E3%83%A9%E3%83%9ECD",
-        "observed_at": "2026-09-15T11:59:54+08:00",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f6e76515776446f564d4546596b6644575a6e736e574e2f",
+        "observed_at": "2026-09-15T13:30:48+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true
       },
@@ -296,6 +296,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E6%B0%B4%E4%BB%99%20narcissu%20SIDE%202nd%20%E6%B8%B8%E6%88%8F%E6%9C%AC%E4%BD%93&spm=a21ybx.search.searchInput.0",
         "observed_at": "2026-09-15T12:10:48+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 19,
+      "stable_key": "sample:9023460e3fa6165ddb5c804ea951e0ff307b0c57a8de381bc1e7e6de16ad4817",
+      "wameiji": {
+        "title": "TYPEMOONエース　vol.14　付録付き",
+        "version_evidence": "Exact volume 14, used, visibly marked 付録付き (with supplements). The supplied sample also claims magazine + CD + poster; those individual attachment details are not visible in this result.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1599.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d39323835393735343533302f",
+        "observed_at": "2026-09-15T13:35:27+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "TYPE-MOON ACE Vol.14 日版杂志 成色如图 附录以及海报齐全",
+        "version_evidence": "Exact volume and physical item. Listing explicitly says supplements and poster are complete; nearly-new condition. Excluded a separate PDF-only virtual item from comparison.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 150.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=TYPE-MOON%20ACE%20Vol.14",
+        "observed_at": "2026-09-15T13:36:04+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
