@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T23:31:13.283868+08:00",
+  "generated_at": "2026-09-15T23:44:03.782376+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 37 条双侧实物观察、44 条单边待补观察中，挖煤姬页面已复核 69 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -9,8 +9,8 @@
     "both_observed_count": 37,
     "single_observed_count": 44,
     "wameiji_platform_found_count": 69,
-    "found_any_count": 99,
-    "not_currently_listed_both_count": 24
+    "found_any_count": 98,
+    "not_currently_listed_both_count": 25
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 33
+      "count": 32
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 24
+      "count": 25
     },
     {
       "wameiji": "price_unfavorable",
