@@ -966,6 +966,17 @@ def test_frontend_exposes_user_overrides_form() -> None:
             assert theme in kuro_css, f"missing theme variant: {theme}"
 
 
+def test_public_board_sage_palette_falls_back_to_the_default_rose() -> None:
+    """A stale browser theme preference must not leave the public board green."""
+    kuro_css = (Path("web") / "styles" / "kuro.css").read_text(encoding="utf-8")
+    sage_start = kuro_css.index('body.kuro[data-kuro-theme="sage"]')
+    sage_end = kuro_css.index('body.kuro[data-kuro-theme="ink"]', sage_start)
+    sage_palette = kuro_css[sage_start:sage_end]
+
+    assert "--kuro-rose: #c25b78" in sage_palette
+    assert "--kuro-accent: #e58aa3" in sage_palette
+
+
 def test_web_server_can_evaluate_files_from_inline_content(tmp_path) -> None:
     """The /api/import/evaluate-files endpoint must accept raw pasted content
     (not just file paths) and route it through the same evaluator as the CLI.

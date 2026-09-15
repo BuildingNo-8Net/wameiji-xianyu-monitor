@@ -743,7 +743,9 @@ body.kuro .user-overrides-form select,
 body.kuro .user-overrides-form input { padding: 6px 10px; border-radius: 8px; border: 1px solid var(--kuro-line); background: #fff; font-size: 13px; }
 body.kuro .user-overrides-form button { padding: 8px 14px; border-radius: 8px; border: 0; background: var(--kuro-rose); color: #fff; cursor: pointer; }
 body.kuro .user-overrides-form button:hover { filter: brightness(1.05); }
-body.kuro[data-kuro-theme="sage"] { --kuro-rose: #4f7a4f; --kuro-accent: #6ba97e; }
+/* Public Pages always keeps the original rose presentation.  A stale
+   local browser preference must not recolor the shared evidence board. */
+body.kuro[data-kuro-theme="sage"] { --kuro-rose: #c25b78; --kuro-accent: #e58aa3; }
 body.kuro[data-kuro-theme="ink"]  { --kuro-rose: #2f2a3a; --kuro-accent: #5a4d6b; }
 body.kuro[data-kuro-theme="sand"] { --kuro-rose: #b08a55; --kuro-accent: #d2b27a; }
 body.kuro[data-kuro-theme="rose"] { --kuro-rose: #c25b78; --kuro-accent: #e58aa3; }
