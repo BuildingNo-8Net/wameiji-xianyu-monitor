@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T00:00:15.158272+08:00",
+  "generated_at": "2026-09-16T00:02:09.162337+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 39 条双侧实物观察、44 条单边待补观察中，挖煤姬页面已复核 71 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 40 条双侧实物观察、44 条单边待补观察中，挖煤姬页面已复核 72 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 37,
-    "both_observed_count": 39,
+    "both_found_count": 38,
+    "both_observed_count": 40,
     "single_observed_count": 44,
-    "wameiji_platform_found_count": 71,
+    "wameiji_platform_found_count": 72,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 37
+      "count": 38
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 20
+      "count": 19
     },
     {
       "wameiji": "price_unfavorable",
@@ -494,6 +494,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076443392812&categoryId=126860296",
         "observed_at": "2026-09-15T16:00:04Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 55,
+      "stable_key": "sample:0dc9988288567b17514d4ce7ae8a6ab616392cde155c24f2da0636b910336f1f",
+      "wameiji": {
+        "title": "TYPE-MOON 10th Anniversary Phantasm／Type‐Moon",
+        "version_evidence": "详情标明角川书店、2012-08-01、ISBN/JAN 9784041102435；与样本TYPE-MOON 10th Anniversary Phantasm画集对应。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1720.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4b7967594a32445a437462426938426b534e42782f",
+        "observed_at": "2026-09-15T16:01:53Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Type-MOON十周年画集 TYPE-MOON 10th Anniversary Phantasm",
+        "version_evidence": "详情明确398页，左侧再刷、右侧带书腰的初版首刷；与样本画集身份对应。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 228.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=977270387587&categoryId=126860296",
+        "observed_at": "2026-09-15T16:01:56Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
@@ -1476,6 +1504,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076443392812&categoryId=126860296",
         "observed_at": "2026-09-15T16:00:04Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 55,
+      "stable_key": "sample:0dc9988288567b17514d4ce7ae8a6ab616392cde155c24f2da0636b910336f1f",
+      "wameiji": {
+        "title": "TYPE-MOON 10th Anniversary Phantasm／Type‐Moon",
+        "version_evidence": "详情标明角川书店、2012-08-01、ISBN/JAN 9784041102435；与样本TYPE-MOON 10th Anniversary Phantasm画集对应。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1720.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4b7967594a32445a437462426938426b534e42782f",
+        "observed_at": "2026-09-15T16:01:53Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Type-MOON十周年画集 TYPE-MOON 10th Anniversary Phantasm",
+        "version_evidence": "详情明确398页，左侧再刷、右侧带书腰的初版首刷；与样本画集身份对应。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 228.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=977270387587&categoryId=126860296",
+        "observed_at": "2026-09-15T16:01:56Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
