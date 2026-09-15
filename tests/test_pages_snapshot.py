@@ -184,6 +184,7 @@ def test_reference_audit_export_keeps_the_full_coverage_separate_from_profit_car
         "reference_product_count": 4,
         "both_found_count": 1,
         "both_observed_count": 0,
+        "single_observed_count": 2,
         "wameiji_platform_found_count": 1,
         "found_any_count": 3,
         "not_currently_listed_both_count": 1,
@@ -318,6 +319,79 @@ def test_reference_audit_export_keeps_a_dual_observation_when_price_is_unfavorab
                 "observed_at": "2026-09-15T01:01:00Z",
                 "marketplace_host": "www.goofish.com",
                 "is_wameiji_platform": False,
+            },
+        }
+    ]
+
+
+def test_reference_audit_export_keeps_a_concrete_one_sided_listing_visible(
+    tmp_path: Path,
+) -> None:
+    """A current listing must remain in the public queue while its other market is missing."""
+    db_path = tmp_path / "dual-market.db"
+    with __import__("sqlite3").connect(db_path) as conn:
+        conn.executescript(
+            """
+            CREATE TABLE reference_products (
+              id INTEGER PRIMARY KEY,
+              stable_key TEXT NOT NULL
+            );
+            CREATE TABLE reference_market_observations (
+              id INTEGER PRIMARY KEY,
+              reference_product_id INTEGER NOT NULL,
+              market TEXT NOT NULL,
+              observation_state TEXT NOT NULL,
+              observed_at TEXT,
+              observed_title TEXT,
+              version_evidence TEXT,
+              catalog_no TEXT,
+              barcode TEXT,
+              price REAL,
+              currency TEXT,
+              source_url TEXT,
+              note TEXT
+            );
+            INSERT INTO reference_products (id, stable_key)
+              VALUES (1, 'reference:one-sided-but-real');
+            INSERT INTO reference_market_observations
+              (id, reference_product_id, market, observation_state, observed_at,
+               observed_title, version_evidence, price, currency, source_url)
+            VALUES
+              (1, 1, 'wameiji', 'found', '2026-09-15T01:00:00Z',
+               'Japan exact item', 'initial edition', 4600, 'JPY',
+               'https://www.meruki.cn/mall/mercari/detail/one'),
+              (2, 1, 'xianyu', 'not_currently_listed', '2026-09-15T01:01:00Z',
+               'No current domestic listing', 'exact search empty', NULL, NULL,
+               'https://www.goofish.com/search?q=one');
+            """
+        )
+
+    result = pages_snapshot.export_reference_audit_snapshot(
+        db_path,
+        tmp_path / "web",
+        generated_at=datetime.fromisoformat("2026-09-15T10:00:00+08:00"),
+    )
+
+    payload = json.loads(result.snapshot_path.read_text(encoding="utf-8"))
+    assert payload["summary"]["single_observed_count"] == 1
+    assert payload["single_observed_records"] == [
+        {
+            "reference_product_id": 1,
+            "stable_key": "reference:one-sided-but-real",
+            "available_market": "wameiji",
+            "missing_market": "xianyu",
+            "counterpart_state": "not_currently_listed",
+            "observation": {
+                "title": "Japan exact item",
+                "version_evidence": "initial edition",
+                "catalog_no": None,
+                "barcode": None,
+                "price": 4600.0,
+                "currency": "JPY",
+                "source_url": "https://www.meruki.cn/mall/mercari/detail/one",
+                "observed_at": "2026-09-15T01:00:00Z",
+                "marketplace_host": "www.meruki.cn",
+                "is_wameiji_platform": True,
             },
         }
     ]

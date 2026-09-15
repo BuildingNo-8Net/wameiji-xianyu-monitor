@@ -371,11 +371,36 @@
     ].join("");
   }
 
+  function referenceAuditSingleMarkup(record) {
+    const item = record && typeof record === "object" ? record : {};
+    const availableMarket = item.available_market === "wameiji" ? "wameiji" : "xianyu";
+    const missingMarket = item.missing_market === "wameiji" ? "wameiji" : "xianyu";
+    const observation = item.observation && typeof item.observation === "object" ? item.observation : {};
+    const availableLabel = availableMarket === "wameiji" ? "挖煤姬进货侧" : "闲鱼销售侧";
+    const missingLabel = missingMarket === "wameiji" ? "挖煤姬进货侧待补" : "闲鱼销售侧待补";
+    const currency = availableMarket === "wameiji" ? "JPY" : "CNY";
+    return [
+      '<article class="reference-audit-pair">',
+        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 单边待补</div>',
+        '<div class="reference-audit-sides">',
+          referenceAuditObservationMarkup(availableLabel, observation, currency),
+          '<div class="reference-audit-side">',
+            '<small>' + esc(missingLabel) + '</small>',
+            '<b>当前没有可公开核对的具体商品页</b>',
+            '<p>最近状态：' + esc(referenceStateLabel(item.counterpart_state)) + '</p>',
+          '</div>',
+        '</div>',
+      '</article>',
+    ].join("");
+  }
+
   function renderReferenceAudit() {
     const audit = view.referenceAudit;
     const state = document.getElementById("referenceAuditState");
     const pairList = document.getElementById("referenceAuditPairList");
     const pairSummary = document.getElementById("referenceAuditPairSummary");
+    const singleList = document.getElementById("referenceAuditSingleList");
+    const singleSummary = document.getElementById("referenceAuditSingleSummary");
     if (!audit) {
       setText("referenceAuditTotal", "--");
       setText("referenceAuditBothFound", "--");
@@ -385,6 +410,8 @@
       setText("referenceAuditDisclaimer", "审计快照尚未发布；不能从达标卡数量推断全量进度。");
       if (pairSummary) pairSummary.textContent = "双侧已发现记录暂未发布";
       if (pairList) pairList.innerHTML = '<div class="empty-state">审计快照缺失，不把利润卡当成样本总数。</div>';
+      if (singleSummary) singleSummary.textContent = "单边待补观察暂未发布";
+      if (singleList) singleList.innerHTML = '<div class="empty-state">审计快照缺失，无法展示单边实物记录。</div>';
       if (state) {
         state.textContent = "审计快照待发布";
         state.className = "status warn";
@@ -395,6 +422,9 @@
     const pairs = Array.isArray(audit.dual_observed_pairs)
       ? audit.dual_observed_pairs
       : (Array.isArray(audit.dual_found_pairs) ? audit.dual_found_pairs : []);
+    const singles = Array.isArray(audit.single_observed_records)
+      ? audit.single_observed_records
+      : [];
     setText("referenceAuditTotal", referenceAuditCount(summary.reference_product_count));
     setText(
       "referenceAuditBothFound",
@@ -414,6 +444,14 @@
       pairList.innerHTML = pairs.length
         ? pairs.map(referenceAuditPairMarkup).join("")
         : '<div class="empty-state">当前没有双侧实物观察记录。</div>';
+    }
+    if (singleSummary) {
+      singleSummary.textContent = "单边待补观察 " + singles.length + " 条（已有一侧具体商品页，另一侧不能凑数）";
+    }
+    if (singleList) {
+      singleList.innerHTML = singles.length
+        ? singles.map(referenceAuditSingleMarkup).join("")
+        : '<div class="empty-state">当前没有单边待补观察记录。</div>';
     }
     if (state) {
       state.textContent = "审计快照 · " + timeLabel(audit.generated_at);

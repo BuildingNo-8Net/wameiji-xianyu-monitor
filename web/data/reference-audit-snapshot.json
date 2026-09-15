@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T23:07:58.632787+08:00",
+  "generated_at": "2026-09-15T23:10:17.658027+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 35 条双侧实物观察中，挖煤姬页面已复核 66 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 35 条双侧实物观察、45 条单边待补观察中，挖煤姬页面已复核 66 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 34,
     "both_observed_count": 35,
+    "single_observed_count": 45,
     "wameiji_platform_found_count": 66,
     "found_any_count": 98,
     "not_currently_listed_both_count": 25
@@ -1981,6 +1982,863 @@
         "observed_at": "2026-09-14T16:37:36Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
+      }
+    }
+  ],
+  "single_observed_records": [
+    {
+      "reference_product_id": 1,
+      "stable_key": "sample:a9d90f12e9ca56db33bf8d0cbec691301de16049652c9f7abbe3aa1145e97cc2",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典 音楽 CD",
+        "version_evidence": "Current Wameiji title explicitly ties TUYU やっぱり雨は降るんだね, Rei/礼衣, Animate bonus and CD. Product is used with no noticeable damage; descriptive text gives no further contents/accessory confirmation, so identity is title-supported only.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5379.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f43435454774233584e45685738466a4e546e7755694b2f",
+        "observed_at": "2026-09-14T19:00:03Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 2,
+      "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ツユ アンダーメンタリティ CD Blu-ray 初回限定盤 ピアノアレンジcd",
+        "version_evidence": "挖煤姬详情：初回限定盘（附Blu-ray）+钢琴编曲CD；已使用数次，纸箱背面有揭胶污渍；不含杯垫。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 18999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32303034333531383737382f",
+        "observed_at": "2026-09-15T14:36:15Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 3,
+      "stable_key": "sample:9b672eed92a617aaac757676f4d939f1602c08f8649bbdafaa72e2436f7764dc",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "全新未拆 Erdelåten -Where the Marsh Still Sings- 同人音乐CD",
+        "version_evidence": "Current Xianyu detail expressly gives the exact title, 'Rigël Theatre', M3, Celtic album CD and CD medium. Listing states new/sealed. Exact title and label evidence support the target identity.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 99.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1081818909170&categoryId=126864811",
+        "observed_at": "2026-09-14T18:58:21Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 5,
+      "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "［急出］枕社 樱之诗 初回限定版 带两张色纸和设定集",
+        "version_evidence": "闲鱼详情与实拍：樱之诗初回限定版、带两张色纸和设定集；盒子有挤压痕。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 500.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
+        "observed_at": "2026-09-15T14:35:15Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 9,
+      "stable_key": "sample:041a5116df1fb97ae1e1b9d3dca066b866cfc1150427596716d096355c90f6ef",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "eden初回限定",
+        "version_evidence": "初回限定版；盒子品相不错；明确缺内箱、缺卡牌；额外有一张来源未明CD",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 450.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1050892358760&categoryId=126864811",
+        "observed_at": "2026-09-15T12:08:37+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 13,
+      "stable_key": "sample:ce603c1a4a257a00440c4314206d290eaae6f7c91d99a984e11ae53bd722767a",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "月姬 月箱三件套 TYPE-MOON同人合集 CD",
+        "version_evidence": "三件套包含月姬、歌月十夜、猫姬；月姬中古，其余基本全新；卖家称东西齐全、应有侧标齐",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1300.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1078737361014&categoryId=126864811",
+        "observed_at": "2026-09-15T12:02:37+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 14,
+      "stable_key": "sample:b9f4a41e4e0629031357bed6126c015c47a2be1c996b40dccb2ecccbff75944e",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "全新未拆 minori eden* TRIAL DISC CD",
+        "version_evidence": "明确全新未拆；minori/eden*试用碟；图片与参考样本相符",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 170.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
+        "observed_at": "2026-09-15T12:03:34+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 15,
+      "stable_key": "sample:5630f456531b04a9d23d69dc721d4e98835ec0546cb987022baacc8438e2c9e9",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "found",
+      "observation": {
+        "title": "【未开封】《Rewrite》初回限定版（Key出品PC游戏）",
+        "version_evidence": "初回限定版；未拆封；页面称附带赠品；日本代购卡片",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 313.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1081181550520&categoryId=126856327",
+        "observed_at": "2026-09-15T12:04:53+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 16,
+      "stable_key": "sample:d580264c560ec284bc4c396afd45d4739bfd1f225eba2726520e7a2f798fd1ce",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "found",
+      "observation": {
+        "title": "Kanon AIR Piano Arrange Album Re-feel Key Sounds Label 日版CD 带侧",
+        "version_evidence": "完整标题与Key Sounds Label一致；明确日版、带侧；收录鸟之诗、雪之少女、夏影",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 155.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1084359968546&categoryId=126864811",
+        "observed_at": "2026-09-15T12:07:04+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 18,
+      "stable_key": "sample:d032aa66f4b46ec8705dea35453461728ee8963b54406e5110d5fa6ef3bd971f",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "殻ノ少女　ドラマCD　第三巻　シェオルの殻　初回限定版",
+        "version_evidence": "Search result visibly identifies volume 3, シェオルの殻, initial limited edition. Product image visually matches the sample cover; exact included bonus/obi remains unverified.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 19499.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32373137343538313936322f",
+        "observed_at": "2026-09-15T13:33:43+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 19,
+      "stable_key": "sample:9023460e3fa6165ddb5c804ea951e0ff307b0c57a8de381bc1e7e6de16ad4817",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "found",
+      "observation": {
+        "title": "TYPEMOONエース　vol.14　付録付き",
+        "version_evidence": "Exact volume 14, used, visibly marked 付録付き (with supplements). The supplied sample also claims magazine + CD + poster; those individual attachment details are not visible in this result.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1599.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d39323835393735343533302f",
+        "observed_at": "2026-09-15T13:35:27+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 20,
+      "stable_key": "sample:17b42e4e041d599cf25e145c4bd29fab7ded93f75a99217a324abb347eb9ca6a",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "found",
+      "observation": {
+        "title": "虚ノ少女 ドラマCD",
+        "version_evidence": "Exact title and physical drama CD. Search-result condition is used; supplied sample was described as new unopened and visually includes orange obi, so condition/obi parity is not established.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3200.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303535363231393335302f",
+        "observed_at": "2026-09-15T13:38:47+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 29,
+      "stable_key": "sample:ddcbc943aeb23cbafacd934dbcadbb388b9c4b4670f0171419545cdd74e8ce5f",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【现货】Innocent grey 原生音乐CD…Haruka Shimotsuki Collection ｢トロイメライ｣ [右]亲签日版原版",
+        "version_evidence": "Title includes exact Haruka Shimotsuki Collection トロイメライ; observed offer is 4 CDs bundled and says the target disc is personally signed.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5000.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=990215330547&categoryId=126864811",
+        "observed_at": "2026-09-14T02:06:58Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 39,
+      "stable_key": "sample:d90d360f99492a3862214e4e9c3f74cea0a0809b76f91e2a5833f4c42edff53c",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "Pop Sensation Key Sounds Label Summer Pockets 夏日口袋 音乐CD…带特典亚克力挂件",
+        "version_evidence": "Exact Pop Sensation / Key Sounds Label / Summer Pockets album; listing says Japanese genuine, new and sealed, with bonus acrylic charm.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 240.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1074234249234&categoryId=126860296",
+        "observed_at": "2026-09-14T02:14:46Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 43,
+      "stable_key": "sample:7a375cf45a84b6a8262df9d8a5fffa144c0aa17594601bda4b6e1c014053d4b5",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【预定】正品 Eureka tohma ユーリカ トーマ ボカロCD 原装正版日版",
+        "version_evidence": "闲鱼精确检索命中 1 条；1CD，全新未拆；带侧标价898、无侧标价868。样本图仅可确认封面 Eureka，不能据此核对侧标/成色。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 868.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077008889189&categoryId=126864811",
+        "observed_at": "2026-09-14T02:17:47Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 45,
+      "stable_key": "sample:981b5b6da481374d1d95f70c25288f36624dda6915ad0fc2f33f74742426b3ca",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "AD:PIANO IV -monochrome- / DIVERSE SYSTEM",
+        "version_evidence": "DVSP-0167; 2016-12-31; 2-disc pressed CD; exact monochrome IV edition, not other AD:PIANO volumes",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 12164.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4c6357756448396538644a7a4367747458525a79486e2f",
+        "observed_at": "2026-09-14T18:47:34Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 49,
+      "stable_key": "sample:d0abb08f85b31398414aa836fce5b9e22bf0b8102338fa1fefe261b61ef77604",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "医龙 original soundtrack，泽野弘之，日剧《医龙》原声带，日版首版CD",
+        "version_evidence": "人工 Chrome 精确检索命中：日版首版、原装盒、已拆；碟面有划痕，卖家要求购买前看视频",
+        "catalog_no": "UPCI-1047",
+        "barcode": null,
+        "price": 25.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1052144094157&categoryId=126864811",
+        "observed_at": "2026-09-14T03:27:17Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 56,
+      "stable_key": "sample:1fd51e4ead2b2779f66fd5126f386cbd42d1a0eb4d4fb13b48d56d074e61257d",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "かいりきベア — セイデンキ少女",
+        "version_evidence": "KRRC-6; 2015-08-16; standard used CD; reference edition has no obi",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 16815.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4463434872674551474e684d69464733766b6f4a39642f",
+        "observed_at": "2026-09-14T18:45:46Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 63,
+      "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "めありー / 彼はきっと魔法を使う。 [CD]",
+        "version_evidence": null,
+        "catalog_no": "MARY-1004",
+        "barcode": "4526180430025",
+        "price": 1393.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fmifsoft%2Fmary-1004%2F",
+        "observed_at": "2026-09-14T18:04:56Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 64,
+      "stable_key": "sample:13578faa50a3a80b50d618fd0cccea2a8925d838cc43dfc3032cdb82a6596bab",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "livetune feat. Hatsune Miku — Tell Your World EP 初回限定盤 CD+DVD",
+        "version_evidence": "Initial limited edition; CD+DVD; special digipak with Mebae illustrated jacket; lyric booklet present",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1800.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34323935363032313137382f",
+        "observed_at": "2026-09-14T18:41:35Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 66,
+      "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
+        "version_evidence": "Current Surugaya shop card identifies KARENT title Winterland’s Anthology, catalog KRCD-0011, release 2017-01-25, condition normally used. Image is illustrative and page does not enumerate inserts or extras.",
+        "catalog_no": "KRCD-0011",
+        "barcode": null,
+        "price": 14131.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5758635a656f6a694a7a6f6568794378745268512f",
+        "observed_at": "2026-09-14T18:14:18Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 70,
+      "stable_key": "sample:2f55489119f038fdc84478ecfa6acb1d156b9c0b9788f449f73b54cb08912459",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "LiSA BEST-Way- DVD付初回生産限定盤",
+        "version_evidence": "Chrome 人工打开挖煤姬详情：VVCL-1225，2018-05-09，CD + DVD 的初回生产限定盘；商店中古、商品状态通常/无明显伤污。页面说明图片仅示意，未确认样本所称的写真册、特装外盒或随机明信片。",
+        "catalog_no": "VVCL-1225",
+        "barcode": null,
+        "price": 631.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d376478504a69534143763759766e6850697a2f",
+        "observed_at": "2026-09-14T18:30:57Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 71,
+      "stable_key": "sample:127ddd6fc3102fb03d7d5db1ecc09010287607a8eafffd16340ad1a7536eb975",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "milet / Made of Glass (初回生産限定盤／輸出不可／CD+2DVD) [SECL-3335]",
+        "version_evidence": "New Rakuten listing; SECL-3335, JAN 4547366822120, initial production limited CD+2DVD with sleeve case. The same release also has a separate Blu-ray edition SECL-3332; they are not interchangeable.",
+        "catalog_no": "SECL-3335",
+        "barcode": "4547366822120",
+        "price": 14300.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fcyberbay%2Fsecl-3335%2F",
+        "observed_at": "2026-09-14T18:10:07Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 74,
+      "stable_key": "sample:1d0637fcaf7b16b3b1277d25395e69cd6f58f3bee3206d67e0b1f994b30b2be4",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ZARD Forever Best 25th Anniversary 4-CD Blu-spec CD2",
+        "version_evidence": "Current Rakuten page: JBCJ-9055, released 2016-02-10; 4-CD Blu-spec CD2 edition with 52 listed tracks, not the separately priced seasonal limited-jacket variants.",
+        "catalog_no": "JBCJ-9055",
+        "barcode": "4560109082155",
+        "price": 4070.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsoundace%2Fjbcj-9055%2F",
+        "observed_at": "2026-09-14T17:42:51Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 75,
+      "stable_key": "sample:e2fddc401fbc648ed9d8a593b4eb6c14e63d7f4d0e8395a2e4cf85442db74a2d",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "水树奈奈 NANA MIZUKI VISION×VISION 初回限定蓝光4BD合集 含特典照片卡",
+        "version_evidence": "4枚组Blu-ray；初回限定；卖家称附特典照片卡，预计2026-09-16起出货",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 427.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080395302448&categoryId=202061902",
+        "observed_at": "2026-09-14T04:04:50Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 79,
+      "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来 完全生産限定版 Blu-ray",
+        "version_evidence": "ANZX-18501; JAN 4534530164223; 本編Blu-ray+2CD+特典Blu-ray; 完全生産限定版; 新品; 2026-07-29",
+        "catalog_no": "ANZX-18501",
+        "barcode": "4534530164223",
+        "price": 9680.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-2%2Faznanzx-18501%2F",
+        "observed_at": "2026-09-14T17:32:31Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 80,
+      "stable_key": "sample:d8a57e0ec747ed8171d21536aa5bc89840f690aa977e5226465dfc842917dec4",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "EGOIST / GREATEST HITS 2011-2017 ALTER EGO [完全生産限定盤]",
+        "version_evidence": null,
+        "catalog_no": "VVCL-1148",
+        "barcode": null,
+        "price": 9795.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d6e6b6f337158426e354433474b37485351572f",
+        "observed_at": "2026-09-14T18:02:24Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 81,
+      "stable_key": "sample:b71bd68b25f439bb1ba89f6a51ce730b2bcaec68d53275e6b070da402ee330ab",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set Reconstructed Edition clear vinyl",
+        "version_evidence": null,
+        "catalog_no": "SQEX-11185",
+        "barcode": "4988601471947",
+        "price": 19800.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a544e633766734d5442526d707855647771644c322f",
+        "observed_at": "2026-09-14T18:03:27Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 84,
+      "stable_key": "sample:b4fa44f140d3615b59819f9021e39f674e836647e160070df8c86ec6116bd2f8",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ZARD Best Request ～35th Anniversary～ (Blu-specCD2) (通常盤)",
+        "version_evidence": "乐天新品；目录号 JBCJ-9086，JAN 4580740635633；通常盘 3CD（Blu-spec CD2）、35曲。页面与完全生产限定版区分，故仅可比此常规版。",
+        "catalog_no": "JBCJ-9086",
+        "barcode": "4580740635633",
+        "price": 2993.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznjbcj-9086%2F",
+        "observed_at": "2026-09-14T17:48:05Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 86,
+      "stable_key": "jan:4988018102540",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "LP(30cm) / Ryuichi Sakamoto / 1996 30th Anniversary Edition (Limited Production) / FLJG-9012",
+        "version_evidence": "Current Rakuten page: FLJG-9012, JAN 4988018102540, 2026-04-08 release, LP(30cm), limited-production edition; 1996 remastered for its 30th anniversary.",
+        "catalog_no": "FLJG-9012",
+        "barcode": "4988018102540",
+        "price": 7700.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznfljg-9012%2F",
+        "observed_at": "2026-09-14T17:40:23Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 88,
+      "stable_key": "jan:0602478377792",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "新品未開封 Prema＜限定盤/Colored Vinyl＞ 藤井風 レコード",
+        "version_evidence": "Manual detail: Prema [RECORD] Limited/Colored Vinyl, unused; serial-number inclusion; gatefold jacket, one colored-vinyl LP, 9 English-language tracks. Reference sample barcode 0602478377792 was searched; page does not display the barcode.",
+        "catalog_no": null,
+        "barcode": "0602478377792",
+        "price": 11000.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuma/detail/7c4e2728f8da292a20da07d790441006",
+        "observed_at": "2026-09-14T18:19:25Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 91,
+      "stable_key": "jan:4547366558180",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "milet / Walkin’ In My Lane (初回生産限定盤B / CD+DVD) [SECL-2765]",
+        "version_evidence": "New Rakuten listing; SECL-2765, JAN 4547366558180, initial production limited B CD+DVD. Initial A is SECL-2763 (CD+Blu-ray) and standard is SECL-2767, which are not interchangeable.",
+        "catalog_no": "SECL-2765",
+        "barcode": "4547366558180",
+        "price": 3200.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fcyberbay%2Fsecl-2765%2F",
+        "observed_at": "2026-09-14T18:12:16Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 92,
+      "stable_key": "sample:a82c563e6a7d69b6d814f417a2f9e8de5bafc4766406bc5efd8a91d824585dba",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "葬送のフリーレン Season2 ORIGINAL SOUNDTRACK",
+        "version_evidence": "乐天新品，目录号 THCA-60299、JAN 4988104115997，Evan Call，22首曲目。页面为厂家订货，未承诺首批生产附带的抽选券或其他首批特典，因此只确认基础CD，不能宣称首批附加物同版。",
+        "catalog_no": "THCA-60299",
+        "barcode": "4988104115997",
+        "price": 3080.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznthca-60299%2F",
+        "observed_at": "2026-09-14T17:52:01Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 99,
+      "stable_key": "jan:4988031460030",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "宇多田ヒカル Distance＜生産限定盤/180g重量盤＞",
+        "version_evidence": "Exact edition search UPJY-9204 / 4988031460030 surfaced the current detail: production-limited 180g heavy-weight vinyl, new/unopened, LP; sample is the 2LP 2022 reissue. Detail title does not print the catalog, while matching search card explicitly identifies UPJY-9204.",
+        "catalog_no": "UPJY-9204",
+        "barcode": "4988031460030",
+        "price": 6280.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuma/detail/6f8d50003b0179a95e3986c600e41107",
+        "observed_at": "2026-09-14T18:20:41Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 100,
+      "stable_key": "sample:b48c761166295009614f7ec087051ca05bc893ea7783f6f13aef65b7ff87478b",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "あいみょん / 青春のエキサイトメント（数量限定盤／180g重量盤／カラーヴァイナル） [レコード 12inch]",
+        "version_evidence": "Manual detail confirms maker WPJL-10295/6, JAN 4943674436231, 2026 issue: limited 2 x 12-inch, 180g colored vinyl; first production includes Aimyon 10th Anniversary CARD with campaign QR. Product page identifies the 1st album and 2-disc configuration.",
+        "catalog_no": "WPJL-10295/6",
+        "barcode": "4943674436231",
+        "price": 5940.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fguruguru2%2Fwpjl-10295%2F",
+        "observed_at": "2026-09-14T18:21:58Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 101,
+      "stable_key": "sample:f563e120e9993f3353054debbd6cb77b10137b023425ad8c3925c649d1a4a21c",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "milet eyes＜完全生産限定盤＞",
+        "version_evidence": "人工打开挖煤姬实页：未使用；完全生产限定盘、模拟唱片2枚组（重量盘）。当前详情未打印目录号；用精确检索词 SEJL-86 / JAN 4547366771497 进入，实体页仅按标题和2LP配置确认。",
+        "catalog_no": "SEJL-86",
+        "barcode": "4547366771497",
+        "price": 8000.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35313634373532323233312f",
+        "observed_at": "2026-09-14T17:50:57Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 103,
+      "stable_key": "sample:cb00b6c6cd5b63e0d39026abdb442ca06d4341a559ba392b22369db364daf350",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "星野源 Gen【生産限定アナログ盤】＜生産限定盤＞ LPレコード アルバム VIJL-60366/7",
+        "version_evidence": "Manual detail confirms domestic new 6th album Gen: VIJL-60366/7, JAN 4988002948420, production-limited two-heavyweight-LP configuration, 16 named tracks. No store or Rakuten special benefit is included.",
+        "catalog_no": "VIJL-60366/7",
+        "barcode": "4988002948420",
+        "price": 15800.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fneobest%2F4988002948420%2F",
+        "observed_at": "2026-09-14T18:25:14Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 105,
+      "stable_key": "sample:e4cd06c35ac46b70f47c68f324805ecbe4414f8928f8cffe5af3778e9381d9e5",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "国内现货 夜鹿n-buna《二人称》书简型小说 一公斤全新未拆",
+        "version_evidence": null,
+        "catalog_no": "ISBN 978-4-06-541634-1",
+        "barcode": "9784065416341",
+        "price": 400.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.2cf71c49K2qcRw&id=1079615195026&categoryId=126860296",
+        "observed_at": "2026-09-14T17:59:48Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 107,
+      "stable_key": "sample:a30bbb3f193ff984f77ff7a4d8ccf8cd481183a475e875b1d52d882fce1e2ca5",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "LP(30cm) / アンディ・ラウ(劉徳華) / あなたの元に戻る(回到□身邊) (解説歌詞対訳付/180g重量盤) (初回生産限定盤)",
+        "version_evidence": null,
+        "catalog_no": "UIJY-75324",
+        "barcode": "4988031785546",
+        "price": 4950.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznuijy-75324%2F",
+        "observed_at": "2026-09-14T17:58:34Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 110,
+      "stable_key": "sample:51bb9ee0ad79a92236e6d2bd7a5b94f28ff66ac9fcff526a34e260ac1546d779",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "月を歩いている(初回生産限定盤)",
+        "version_evidence": "三方背スリーブ、n-buna原作オリジナル童話「花の咲いたカエル」付；JAN 4571192993532；規格品番 DUED1174；CD 1枚組",
+        "catalog_no": "DUED1174",
+        "barcode": "4571192993532",
+        "price": 11550.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/market/detail/561762539112112129?shopid=150214744753020928",
+        "observed_at": "2026-09-14T17:24:05Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 111,
+      "stable_key": "sample:4b9d9eceb4d076317f12b55d9211e66f0e9d3b656ba4571db9f349b8741a3657",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "BD / Ado / Hibana (さいたまスーパーアリーナ&オーランド) (Blu-ray) (初回限定盤) / TYXT-19045",
+        "version_evidence": "New Rakuten listing: initial limited 2-Blu-ray edition; product no. TYXT-19045; JAN 4988031852927; released 2026-03-25. The page does not itemize the bonus contents.",
+        "catalog_no": "TYXT-19045",
+        "barcode": "4988031852927",
+        "price": 10467.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Fazntyxt-19045%2F",
+        "observed_at": "2026-09-14T18:08:20Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 114,
+      "stable_key": "sample:9ceab5cf2bc2e2fe00a0b61ed76dbe8032d96537e13de04aba13627cca0ff86c",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "米津玄师《BOOTLEG》CD＋黑胶唱片豪华包装；SRCL-9567/8；JAN 4547366329674",
+        "version_evidence": "Current Xianyu card explicitly states the initial bootleg edition SRCL-9567/8, Jan 4547366329674, CD plus 12-inch record sleeve, art illustration, poster, and replica record. Condition: used, outer box wear and light scratches; record surface said to play normally.",
+        "catalog_no": "SRCL-9567/8",
+        "barcode": "4547366329674",
+        "price": 291.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
+        "observed_at": "2026-09-14T18:11:19Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 119,
+      "stable_key": "sample:39873d90047e7417a1b16ebed6bec6ac7f713516c0572ce06c97dbac3224b8f7",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ヨルシカ / 夏草が邪魔をする",
+        "version_evidence": "人工打开挖煤姬实页：中古CD；品番 DUED-1223，JAN 4589686422857，2017-06-28。页面明确除标题所写附件外均不保证，腰封、下载码和抽选券不可保证。",
+        "catalog_no": "DUED-1223",
+        "barcode": "4589686422857",
+        "price": 1623.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a475136746e4d784457754d435641514a6a6250342f",
+        "observed_at": "2026-09-14T17:55:28Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 120,
+      "stable_key": "sample:633c50493ed8741f5fd2b2d8b9ad0ea601ef9d795bec43593c0e4309ae702e67",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "MIRAI (期間生産限定アニメ盤) (DVD付) [CD] / GARNiDELiA",
+        "version_evidence": "Current Wameiji Mercari shop card gives JAN 4560429729075 and identifies the limited anime edition with DVD. It does not state a catalog number, and it expressly says an obi is not guaranteed unless the title states 帯あり.",
+        "catalog_no": null,
+        "barcode": "4560429729075",
+        "price": 611.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a57344c646f6e3548394e665573644751776d47582f",
+        "observed_at": "2026-09-14T18:13:11Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
+      "reference_product_id": 124,
+      "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "棘ナシ (完全生産限定アナログレコード盤) / トゲナシトゲアリ",
+        "version_evidence": "Manual detail locks sample as 2nd album 棘ナシ (not sibling 棘アリ): UMJK-9162, JAN 4988031862438, 2026-08-19, complete-production limited analog. One LP with 12 named tracks and 棘ナシ record-jacket artwork sticker.",
+        "catalog_no": "UMJK-9162",
+        "barcode": "4988031862438",
+        "price": 5500.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fakaikumasan%2F4988031862438%2F",
+        "observed_at": "2026-09-14T18:23:13Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
       }
     }
   ]

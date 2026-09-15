@@ -440,6 +440,7 @@ def export_reference_audit_snapshot(
     pair_counts: dict[tuple[str, str], int] = {}
     dual_found_pairs: list[dict[str, object]] = []
     dual_observed_pairs: list[dict[str, object]] = []
+    single_observed_records: list[dict[str, object]] = []
     found_any_count = 0
     wameiji_platform_found_count = 0
     not_currently_listed_both_count = 0
@@ -455,9 +456,16 @@ def export_reference_audit_snapshot(
         }:
             found_any_count += 1
         wameiji_observation = public_observation(row, "wameiji")
-        if wameiji_state in {"found", "price_unfavorable"} and _is_wameiji_detail_listing(
-            wameiji_observation["source_url"]
-        ):
+        xianyu_observation = public_observation(row, "xianyu")
+        has_wameiji_listing = (
+            wameiji_state in {"found", "price_unfavorable"}
+            and _is_wameiji_detail_listing(wameiji_observation["source_url"])
+        )
+        has_xianyu_listing = (
+            xianyu_state in {"found", "price_unfavorable"}
+            and _is_xianyu_item_listing(xianyu_observation["source_url"])
+        )
+        if has_wameiji_listing:
             wameiji_platform_found_count += 1
         if (
             wameiji_state == "not_currently_listed"
@@ -468,17 +476,27 @@ def export_reference_audit_snapshot(
             "reference_product_id": int(row["reference_product_id"]),
             "stable_key": str(row["stable_key"] or ""),
             "wameiji": wameiji_observation,
-            "xianyu": public_observation(row, "xianyu"),
+            "xianyu": xianyu_observation,
         }
         if wameiji_state == "found" and xianyu_state == "found":
             dual_found_pairs.append(pair)
-        if wameiji_state in {"found", "price_unfavorable"} and xianyu_state in {
-            "found",
-            "price_unfavorable",
-        } and _is_wameiji_detail_listing(wameiji_observation["source_url"]) and _is_xianyu_item_listing(
-            pair["xianyu"]["source_url"]
-        ):
+        if has_wameiji_listing and has_xianyu_listing:
             dual_observed_pairs.append(pair)
+        elif has_wameiji_listing or has_xianyu_listing:
+            available_market = "wameiji" if has_wameiji_listing else "xianyu"
+            missing_market = "xianyu" if has_wameiji_listing else "wameiji"
+            counterpart_state = xianyu_state if has_wameiji_listing else wameiji_state
+            observation = wameiji_observation if has_wameiji_listing else xianyu_observation
+            single_observed_records.append(
+                {
+                    "reference_product_id": int(row["reference_product_id"]),
+                    "stable_key": str(row["stable_key"] or ""),
+                    "available_market": available_market,
+                    "missing_market": missing_market,
+                    "counterpart_state": counterpart_state,
+                    "observation": observation,
+                }
+            )
 
     def pair_sort_key(item: tuple[tuple[str, str], int]) -> tuple[int, int, str, str]:
         (wameiji_state, xianyu_state), _ = item
@@ -496,13 +514,15 @@ def export_reference_audit_snapshot(
         "disclaimer": (
             "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、"
             "同附件、成本完整或正利润，不能当作达标机会。"
-            f"当前 {len(dual_observed_pairs)} 条双侧实物观察中，挖煤姬页面已复核 "
+            f"当前 {len(dual_observed_pairs)} 条双侧实物观察、"
+            f"{len(single_observed_records)} 条单边待补观察中，挖煤姬页面已复核 "
             f"{wameiji_platform_found_count} 条；其余日本来源需改由挖煤姬页面逐件复核。"
         ),
         "summary": {
             "reference_product_count": len(rows),
             "both_found_count": len(dual_found_pairs),
             "both_observed_count": len(dual_observed_pairs),
+            "single_observed_count": len(single_observed_records),
             "wameiji_platform_found_count": wameiji_platform_found_count,
             "found_any_count": found_any_count,
             "not_currently_listed_both_count": not_currently_listed_both_count,
@@ -515,6 +535,7 @@ def export_reference_audit_snapshot(
         ],
         "dual_found_pairs": dual_found_pairs,
         "dual_observed_pairs": dual_observed_pairs,
+        "single_observed_records": single_observed_records,
     }
     snapshot_path = Path(web_dir) / "data" / "reference-audit-snapshot.json"
     _atomic_json(snapshot_path, payload)

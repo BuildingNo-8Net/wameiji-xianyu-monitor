@@ -97,6 +97,17 @@ def test_homepage_keeps_unprofitable_dual_listings_in_the_observation_queue() ->
     assert "双侧实物观察" in javascript
 
 
+def test_homepage_keeps_concrete_one_sided_listings_in_the_primary_observation_queue() -> None:
+    """A source listing must be visible even before the opposite market is found."""
+    homepage = Path("web/index.html").read_text(encoding="utf-8")
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+
+    assert 'id="referenceAuditSingleSummary"' in homepage
+    assert 'id="referenceAuditSingleList"' in homepage
+    assert "single_observed_records" in javascript
+    assert "单边待补观察" in javascript
+
+
 def test_historical_profit_kpi_is_not_labeled_as_current_full_audit_result() -> None:
     homepage = Path("web/index.html").read_text(encoding="utf-8")
 
@@ -197,7 +208,7 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260915-dual-observation-v2" in homepage
+    assert "discovery-ui.js?v=20260915-single-observation-v3" in homepage
     assert "styles/kuro.css?v=20260915-default-palette-v2" in homepage
 
 
