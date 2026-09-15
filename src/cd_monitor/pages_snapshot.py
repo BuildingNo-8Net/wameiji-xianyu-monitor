@@ -345,6 +345,65 @@ def _atomic_json(path: Path, payload: dict[str, object]) -> None:
         Path(temp_name).unlink(missing_ok=True)
 
 
+def _atomic_bytes(path: Path, payload: bytes) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    handle, temp_name = tempfile.mkstemp(
+        prefix=f"{path.name}.",
+        suffix=".tmp",
+        dir=path.parent,
+    )
+    try:
+        with os.fdopen(handle, "wb") as stream:
+            stream.write(payload)
+        os.replace(temp_name, path)
+    finally:
+        Path(temp_name).unlink(missing_ok=True)
+
+
+def _publish_reference_sample_asset(
+    web_dir: Path,
+    *,
+    product_id: int,
+    source_path: str,
+) -> str:
+    """Publish a local user sample as a bounded WebP asset for the audit queue."""
+    source = Path(str(source_path or "").strip())
+    if not source.is_file():
+        return ""
+    try:
+        source_digest = hashlib.sha256(source.read_bytes()).hexdigest()[:16]
+    except OSError:
+        return ""
+    relative = Path("assets") / "reference-samples" / f"{product_id}-{source_digest}.webp"
+    destination = Path(web_dir) / relative
+    if destination.is_file():
+        return relative.as_posix()
+    try:
+        with Image.open(source) as image:
+            image.load()
+            width, height = image.size
+            if min(width, height) < MIN_IMAGE_EDGE:
+                return ""
+            image.thumbnail((960, 1600), Image.Resampling.LANCZOS)
+            if image.mode != "RGB":
+                if image.mode in {"RGBA", "LA"}:
+                    flattened = Image.new("RGB", image.size, "white")
+                    flattened.paste(image, mask=image.getchannel("A"))
+                    image = flattened
+                else:
+                    image = image.convert("RGB")
+            encoded = io.BytesIO()
+            image.save(encoded, format="WEBP", quality=86, method=3)
+    except (OSError, SyntaxError, ValueError):
+        return ""
+
+    body = encoded.getvalue()
+    if len(body) > MAX_IMAGE_BYTES:
+        return ""
+    _atomic_bytes(destination, body)
+    return relative.as_posix()
+
+
 def export_reference_audit_snapshot(
     db_path: Path,
     web_dir: Path,
@@ -411,6 +470,33 @@ def export_reference_audit_snapshot(
     with sqlite3.connect(db_path) as connection:
         connection.row_factory = sqlite3.Row
         rows = list(connection.execute(latest_pairs_query))
+        has_reference_samples = connection.execute(
+            "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'reference_product_samples'"
+        ).fetchone()
+        reference_sample_paths: dict[int, str] = {}
+        if has_reference_samples:
+            for sample in connection.execute(
+                """
+                SELECT product_id, source_path
+                FROM reference_product_samples
+                ORDER BY product_id ASC, id ASC
+                """
+            ):
+                reference_sample_paths.setdefault(
+                    int(sample["product_id"]), str(sample["source_path"] or "")
+                )
+
+    reference_image_urls: dict[int, str] = {}
+
+    def reference_image_url(row: sqlite3.Row) -> str:
+        product_id = int(row["reference_product_id"])
+        if product_id not in reference_image_urls:
+            reference_image_urls[product_id] = _publish_reference_sample_asset(
+                web_dir,
+                product_id=product_id,
+                source_path=reference_sample_paths.get(product_id, ""),
+            )
+        return reference_image_urls[product_id]
 
     def state(row: sqlite3.Row, market: str) -> str:
         return str(row[f"{market}_state"] or "not_observed")
@@ -472,31 +558,39 @@ def export_reference_audit_snapshot(
             and xianyu_state == "not_currently_listed"
         ):
             not_currently_listed_both_count += 1
-        pair = {
-            "reference_product_id": int(row["reference_product_id"]),
-            "stable_key": str(row["stable_key"] or ""),
-            "wameiji": wameiji_observation,
-            "xianyu": xianyu_observation,
-        }
+        def public_pair() -> dict[str, object]:
+            pair: dict[str, object] = {
+                "reference_product_id": int(row["reference_product_id"]),
+                "stable_key": str(row["stable_key"] or ""),
+                "wameiji": wameiji_observation,
+                "xianyu": xianyu_observation,
+            }
+            image_url = reference_image_url(row)
+            if image_url:
+                pair["reference_image_url"] = image_url
+            return pair
+
         if wameiji_state == "found" and xianyu_state == "found":
-            dual_found_pairs.append(pair)
+            dual_found_pairs.append(public_pair())
         if has_wameiji_listing and has_xianyu_listing:
-            dual_observed_pairs.append(pair)
+            dual_observed_pairs.append(public_pair())
         elif has_wameiji_listing or has_xianyu_listing:
             available_market = "wameiji" if has_wameiji_listing else "xianyu"
             missing_market = "xianyu" if has_wameiji_listing else "wameiji"
             counterpart_state = xianyu_state if has_wameiji_listing else wameiji_state
             observation = wameiji_observation if has_wameiji_listing else xianyu_observation
-            single_observed_records.append(
-                {
-                    "reference_product_id": int(row["reference_product_id"]),
-                    "stable_key": str(row["stable_key"] or ""),
-                    "available_market": available_market,
-                    "missing_market": missing_market,
-                    "counterpart_state": counterpart_state,
-                    "observation": observation,
-                }
-            )
+            single: dict[str, object] = {
+                "reference_product_id": int(row["reference_product_id"]),
+                "stable_key": str(row["stable_key"] or ""),
+                "available_market": available_market,
+                "missing_market": missing_market,
+                "counterpart_state": counterpart_state,
+                "observation": observation,
+            }
+            image_url = reference_image_url(row)
+            if image_url:
+                single["reference_image_url"] = image_url
+            single_observed_records.append(single)
 
     def pair_sort_key(item: tuple[tuple[str, str], int]) -> tuple[int, int, str, str]:
         (wameiji_state, xianyu_state), _ = item

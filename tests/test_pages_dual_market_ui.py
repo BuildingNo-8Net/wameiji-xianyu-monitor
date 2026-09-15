@@ -39,6 +39,12 @@ const result = usableProductImage(
 if (result !== "https://example.github.io/project/assets/dual-market/snapshot/4-xianyu.webp") {{
   throw new Error("unexpected image URL: " + result);
 }}
+const referenceImage = usableProductImage(
+  "assets/reference-samples/52-verified.webp"
+);
+if (referenceImage !== "https://example.github.io/project/assets/reference-samples/52-verified.webp") {{
+  throw new Error("reference image was not resolved: " + referenceImage);
+}}
 if (usableProductImage("../private.png") !== "") {{
   throw new Error("relative paths outside the published asset tree must be rejected");
 }}
@@ -106,6 +112,19 @@ def test_homepage_keeps_concrete_one_sided_listings_in_the_primary_observation_q
     assert 'id="referenceAuditSingleList"' in homepage
     assert "single_observed_records" in javascript
     assert "单边待补观察" in javascript
+
+
+def test_reference_audit_cards_keep_reference_images_and_platform_colours() -> None:
+    """The audit queue is image-led and never leaves the two markets colourless."""
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    stylesheet = Path("web/styles/kuro.css").read_text(encoding="utf-8")
+
+    assert "reference_image_url" in javascript
+    assert "reference-audit-reference-image" in javascript
+    assert '"xianyu-side"' in javascript
+    assert '"wameiji-side"' in javascript
+    assert ".reference-audit-side.xianyu-side" in stylesheet
+    assert ".reference-audit-side.wameiji-side" in stylesheet
 
 
 def test_historical_profit_kpi_is_not_labeled_as_current_full_audit_result() -> None:
@@ -208,8 +227,8 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260915-single-observation-v3" in homepage
-    assert "styles/kuro.css?v=20260915-default-palette-v2" in homepage
+    assert "discovery-ui.js?v=20260916-reference-images-v4" in homepage
+    assert "styles/kuro.css?v=20260916-reference-images-v3" in homepage
 
 
 def test_board_refresh_decouples_legacy_api_failures_from_dual_market_data() -> None:

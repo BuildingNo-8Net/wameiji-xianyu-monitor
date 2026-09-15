@@ -332,8 +332,9 @@
     return Number.isFinite(count) && count >= 0 ? String(Math.floor(count)) : "--";
   }
 
-  function referenceAuditObservationMarkup(label, observation, currency) {
+  function referenceAuditObservationMarkup(label, observation, currency, market) {
     const source = observation && typeof observation === "object" ? observation : {};
+    const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
     const href = safeHttpUrl(source.source_url);
     const title = esc(source.title || "未命名商品记录");
     const price = currency === "JPY" ? jpy(source.price, displayJpyCnyRate()) : cny(source.price);
@@ -343,7 +344,7 @@
       ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
       : '<span>' + title + '</span>';
     return [
-      '<div class="reference-audit-side">',
+      '<div class="reference-audit-side ' + marketClass + '">',
         '<small>' + esc(label) + '</small>',
         '<b>' + heading + '</b>',
         '<strong>' + esc(price) + '</strong>',
@@ -363,11 +364,23 @@
     return [
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 待逐件核验</div>',
+        referenceAuditImageMarkup(item.reference_image_url, item.reference_product_id),
         '<div class="reference-audit-sides">',
-          referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY"),
-          referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY"),
+          referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY", "xianyu"),
+          referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY", "wameiji"),
         '</div>',
       '</article>',
+    ].join("");
+  }
+
+  function referenceAuditImageMarkup(imageUrl, referenceProductId) {
+    const image = usableProductImage(imageUrl);
+    if (!image) return "";
+    return [
+      '<figure class="reference-audit-reference-image">',
+        '<img src="' + esc(image) + '" alt="参考样本 #' + esc(referenceProductId || "") + '" loading="lazy" />',
+        '<figcaption>用户参考样本图 · 非当前在售图</figcaption>',
+      '</figure>',
     ].join("");
   }
 
@@ -382,9 +395,10 @@
     return [
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 单边待补</div>',
+        referenceAuditImageMarkup(item.reference_image_url, item.reference_product_id),
         '<div class="reference-audit-sides">',
-          referenceAuditObservationMarkup(availableLabel, observation, currency),
-          '<div class="reference-audit-side">',
+          referenceAuditObservationMarkup(availableLabel, observation, currency, availableMarket),
+          '<div class="reference-audit-side ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
             '<small>' + esc(missingLabel) + '</small>',
             '<b>当前没有可公开核对的具体商品页</b>',
             '<p>最近状态：' + esc(referenceStateLabel(item.counterpart_state)) + '</p>',
@@ -653,7 +667,7 @@
   function usableProductImage(value) {
     const relative = String(value || "").trim();
     let url = safeHttpUrl(relative);
-    if (!url && /^assets\/dual-market\/[A-Za-z0-9+._/-]+$/.test(relative) && !relative.includes("..")) {
+    if (!url && /^assets\/(?:dual-market|reference-samples)\/[A-Za-z0-9+._/-]+$/.test(relative) && !relative.includes("..")) {
       url = new URL(relative, document.baseURI).toString();
     }
     if (!url) return "";

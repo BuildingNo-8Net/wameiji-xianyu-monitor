@@ -397,6 +397,75 @@ def test_reference_audit_export_keeps_a_concrete_one_sided_listing_visible(
     ]
 
 
+def test_reference_audit_export_publishes_the_user_reference_image(
+    tmp_path: Path,
+) -> None:
+    """Observed listing cards must retain the user's original sample image."""
+    db_path = tmp_path / "dual-market.db"
+    source_image = tmp_path / "IMG_1730.PNG"
+    source_image.write_bytes(png_bytes("gold"))
+    with __import__("sqlite3").connect(db_path) as conn:
+        conn.executescript(
+            """
+            CREATE TABLE reference_products (
+              id INTEGER PRIMARY KEY,
+              stable_key TEXT NOT NULL
+            );
+            CREATE TABLE reference_product_samples (
+              id INTEGER PRIMARY KEY,
+              product_id INTEGER NOT NULL,
+              source_path TEXT NOT NULL
+            );
+            CREATE TABLE reference_market_observations (
+              id INTEGER PRIMARY KEY,
+              reference_product_id INTEGER NOT NULL,
+              market TEXT NOT NULL,
+              observation_state TEXT NOT NULL,
+              observed_at TEXT,
+              observed_title TEXT,
+              version_evidence TEXT,
+              catalog_no TEXT,
+              barcode TEXT,
+              price REAL,
+              currency TEXT,
+              source_url TEXT,
+              note TEXT
+            );
+            INSERT INTO reference_products (id, stable_key)
+              VALUES (1, 'reference:illustrated');
+            INSERT INTO reference_market_observations
+              (id, reference_product_id, market, observation_state, observed_at,
+               observed_title, version_evidence, price, currency, source_url)
+            VALUES
+              (1, 1, 'wameiji', 'found', '2026-09-16T01:00:00Z',
+               'Japanese exact listing', 'first press', 4600, 'JPY',
+               'https://www.meruki.cn/mall/mercari/detail/one'),
+              (2, 1, 'xianyu', 'found', '2026-09-16T01:01:00Z',
+               'Domestic exact listing', 'first press', 220, 'CNY',
+               'https://www.goofish.com/item?id=one');
+            """
+        )
+        conn.execute(
+            "INSERT INTO reference_product_samples (id, product_id, source_path) VALUES (1, 1, ?)",
+            (str(source_image),),
+        )
+
+    result = pages_snapshot.export_reference_audit_snapshot(
+        db_path,
+        tmp_path / "web",
+        generated_at=datetime.fromisoformat("2026-09-16T10:00:00+08:00"),
+    )
+
+    payload = json.loads(result.snapshot_path.read_text(encoding="utf-8"))
+    image_url = payload["dual_observed_pairs"][0]["reference_image_url"]
+    source_digest = hashlib.sha256(source_image.read_bytes()).hexdigest()[:16]
+    assert image_url == f"assets/reference-samples/1-{source_digest}.webp"
+    image_path = result.snapshot_path.parent.parent / image_url
+    assert image_path.is_file()
+    with Image.open(image_path) as image:
+        image.verify()
+
+
 def test_publish_image_allowlist_covers_verified_wameiji_marketplace_cdns() -> None:
     assert {
         "auctions.c.yimg.jp",
