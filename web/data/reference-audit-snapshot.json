@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T23:05:51.199084+08:00",
+  "generated_at": "2026-09-15T23:07:58.632787+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 33 条双侧实物观察中，挖煤姬页面已复核 64 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 35 条双侧实物观察中，挖煤姬页面已复核 66 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 34,
-    "both_observed_count": 33,
-    "wameiji_platform_found_count": 64,
+    "both_observed_count": 35,
+    "wameiji_platform_found_count": 66,
     "found_any_count": 98,
     "not_currently_listed_both_count": 25
   },
@@ -25,12 +25,12 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 25
+      "count": 23
     },
     {
       "wameiji": "price_unfavorable",
       "xianyu": "found",
-      "count": 6
+      "count": 8
     },
     {
       "wameiji": "blocked",
@@ -1167,6 +1167,62 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1079059188188&categoryId=126856346",
         "observed_at": "2026-09-15T15:05:12Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 34,
+      "stable_key": "sample:d1b63c9760f2554630ee04929b70dabf45e6c19859fd4d437afa3bdb9205a2c3",
+      "wameiji": {
+        "title": "Summer Pockets REFLECTION BLUE 初回限定版（色紙無）",
+        "version_evidence": "人工内置浏览器挖煤姬精确检索结果的具体商品链接：初回限定版，明确缺色纸，二手，15,000日元；其余附件与闲鱼内容物齐全样本未确认一致。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 15000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35303537373632323630372f",
+        "observed_at": "2026-09-15T15:06:53Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Summer Pockets REFLECTION BLUE 初回限定版中古成色好，内容物齐全",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：初回限定版，内容物齐全、外观良好，包邮，标价520元；与挖煤姬缺色纸版本附件不一致。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 520.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1072040844596&categoryId=126860296",
+        "observed_at": "2026-09-15T15:06:53Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 38,
+      "stable_key": "sample:bfd76188b05e66049b8d739457ca8f891b9fbe4fa381a8c1e0b9c17cdf78814e",
+      "wameiji": {
+        "title": "魔法使いの夜 初回限定版 PS4版",
+        "version_evidence": "人工内置浏览器挖煤姬精确检索结果的具体商品链接：PS4 初回限定版，二手，5,780日元；套装内各附件、语言与闲鱼日版全套未逐项复核。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5780.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32383238333330303339322f",
+        "observed_at": "2026-09-15T15:07:39Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "PS4《魔法使之夜》初回限定版 日版全套",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：日版全套、支持中文、包普邮，标价340元；与挖煤姬二手件的设定集和特典完整度待逐项确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 340.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1082230607281&categoryId=126856346",
+        "observed_at": "2026-09-15T15:07:39Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
