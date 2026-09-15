@@ -966,6 +966,26 @@ def test_frontend_exposes_user_overrides_form() -> None:
             assert theme in kuro_css, f"missing theme variant: {theme}"
 
 
+def test_public_pages_theme_picker_applies_locally_before_api_sync() -> None:
+    """A GitHub Pages visitor has no same-origin settings API.
+
+    Choosing a theme must therefore update the page and browser storage before
+    any optional server persistence is attempted.  Otherwise the public
+    dashboard silently stays on its original theme after the Pages 404.
+    """
+    app_js = (Path("web") / "app.js").read_text(encoding="utf-8")
+    handler_start = app_js.index("function bindUserOverridesForm()")
+    handler_end = app_js.index("function applyKuroTheme(theme)")
+    handler = app_js[handler_start:handler_end]
+
+    assert 'addEventListener("change"' in handler
+    assert "applyKuroTheme(overrides.kuro_theme);" in handler
+    assert handler.index("applyKuroTheme(overrides.kuro_theme);") < handler.index(
+        'await postJson("/api/user-settings", overrides)'
+    )
+    assert "isGitHubPages" in handler
+
+
 def test_web_server_can_evaluate_files_from_inline_content(tmp_path) -> None:
     """The /api/import/evaluate-files endpoint must accept raw pasted content
     (not just file paths) and route it through the same evaluator as the CLI.

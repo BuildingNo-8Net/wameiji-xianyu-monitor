@@ -93,6 +93,11 @@
     }
   }
 
+  function isGitHubPages() {
+    const host = String(window.location.hostname || "").toLowerCase();
+    return host === "github.io" || host.endsWith(".github.io");
+  }
+
   // A Pages visitor can open the fixed URL and enter the Render token once.
   // Keep the prompt shared so the parallel bootstrap requests do not show a
   // dozen dialogs at the same time; the token is stored only in localStorage.
@@ -209,6 +214,18 @@
     accountFilter: "all",
     lastByKeyword: {},
   };
+
+  const KURO_THEMES = new Set(["rose", "sage", "ink", "sand"]);
+  function normalizeKuroTheme(theme) {
+    const candidate = String(theme || "").trim().toLowerCase();
+    return KURO_THEMES.has(candidate) ? candidate : "rose";
+  }
+  function savedKuroTheme() {
+    try { return localStorage.getItem("kuro_theme") || ""; } catch (_) { return ""; }
+  }
+  function currentKuroTheme() {
+    return normalizeKuroTheme(state.userSettings?.kuro_theme || savedKuroTheme());
+  }
 
   // ---------- page navigation ----------
   function switchPage(name) {
@@ -1315,7 +1332,7 @@ function buildProductUrl(opp) {
     // populate user-overrides form fields from saved values
     const uof = document.getElementById("userOverridesForm");
     if (uof) {
-      if (uof.elements["kuro_theme"]) uof.elements["kuro_theme"].value = us.kuro_theme || "rose";
+      if (uof.elements["kuro_theme"]) uof.elements["kuro_theme"].value = currentKuroTheme();
       const marginPct = Math.round(Number(us.min_margin || 0.30) * 100);
       if (uof.elements["min_margin"]) uof.elements["min_margin"].value = String(Number.isFinite(marginPct) ? marginPct : 30);
       if (uof.elements["min_diff"]) uof.elements["min_diff"].value = String(Number(us.min_diff || 1500));
@@ -1391,6 +1408,7 @@ async function refreshAll() {
     window.JPY_RATE = Number(_costCfg.wameiji_exchange_rate || 0.046);
     window.JPY_TO_CNY = window.JPY_RATE;
     state.userSettings = (us && us.items) || {};
+    applyKuroTheme(currentKuroTheme());
       if (xyLogin) state.xianyuLogin = xyLogin;
       if (wmLogin) state.wameijiLogin = wmLogin;
       if (doctor) state.doctor = doctor;
@@ -1612,6 +1630,12 @@ async function refreshAll() {
   function bindUserOverridesForm() {
     const form = document.getElementById("userOverridesForm");
     if (!form) return;
+    const themeInput = form.elements["kuro_theme"];
+    if (themeInput) {
+      themeInput.addEventListener("change", () => {
+        applyKuroTheme(themeInput.value);
+      });
+    }
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
       const fd = new FormData(form);
@@ -1621,17 +1645,27 @@ async function refreshAll() {
         min_margin: String((marginPct / 100).toFixed(2)),
         min_diff: String(Number(fd.get("min_diff") || 1500)),
       };
+      // The public GitHub Pages board is static: apply and remember the skin
+      // before the optional server write so a missing API can never block it.
+      applyKuroTheme(overrides.kuro_theme);
+      state.userSettings = { ...(state.userSettings || {}), ...overrides };
+      if (isGitHubPages()) {
+        renderSettings();
+        alert("主题已保存在当前浏览器。GitHub Pages 公开页不写入本机 API。");
+        return;
+      }
       try {
         const resp = await postJson("/api/user-settings", overrides);
-        state.userSettings = { ...(state.userSettings || {}), ...overrides };
-        applyKuroTheme(overrides.kuro_theme);
         alert("用户覆盖已保存：" + (resp.saved || 0) + " 项。");
         renderSettings();
-      } catch (err) { alert("保存失败：" + err.message); }
+      } catch (err) {
+        renderSettings();
+        alert("主题已保存在当前浏览器；后端同步失败：" + err.message);
+      }
     });
   }
   function applyKuroTheme(theme) {
-    const t = String(theme || "rose").toLowerCase();
+    const t = normalizeKuroTheme(theme);
     // CSS selectors target body.kuro[data-kuro-theme=...], so apply to body.
     const target = document.body || document.documentElement;
     target.setAttribute("data-kuro-theme", t);
@@ -1805,7 +1839,7 @@ async function refreshAll() {
   document.addEventListener("DOMContentLoaded", () => {
     const remoteViewer = isSeparateCollectorApi();
     bindNav();
-    applyKuroTheme(state.userSettings?.kuro_theme || localStorage.getItem("kuro_theme"));
+    applyKuroTheme(currentKuroTheme());
     if (!remoteViewer) {
       bindGlobalButtons();
       bindFeedFilter();
