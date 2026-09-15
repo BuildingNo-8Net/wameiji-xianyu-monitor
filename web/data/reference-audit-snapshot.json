@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T23:10:17.658027+08:00",
+  "generated_at": "2026-09-15T23:12:07.364170+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 35 条双侧实物观察、45 条单边待补观察中，挖煤姬页面已复核 66 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 36 条双侧实物观察、44 条单边待补观察中，挖煤姬页面已复核 67 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 34,
-    "both_observed_count": 35,
-    "single_observed_count": 45,
-    "wameiji_platform_found_count": 66,
+    "both_observed_count": 36,
+    "single_observed_count": 44,
+    "wameiji_platform_found_count": 67,
     "found_any_count": 98,
     "not_currently_listed_both_count": 25
   },
@@ -26,12 +26,12 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 23
+      "count": 22
     },
     {
       "wameiji": "price_unfavorable",
       "xianyu": "found",
-      "count": 8
+      "count": 9
     },
     {
       "wameiji": "blocked",
@@ -1229,6 +1229,34 @@
       }
     },
     {
+      "reference_product_id": 43,
+      "stable_key": "sample:7a375cf45a84b6a8262df9d8a5fffa144c0aa17594601bda4b6e1c014053d4b5",
+      "wameiji": {
+        "title": "Eureka tohma ユーリカ トーマ ボカロCD",
+        "version_evidence": "人工内置浏览器挖煤姬精确检索结果的具体商品链接：トーマ Eureka ボカロCD，二手，10,800日元；侧标、品相与闲鱼预定商品未逐项确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 10800.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31363135393839313937332f",
+        "observed_at": "2026-09-15T15:11:52Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【预定】正品 Eureka tohma ユーリカ トーマ ボカロCD",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：1CD，日版正版预定；近全新带侧898、无侧868，页面标价868元。预定库存及侧标需在下单前确认，不能当作现货。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 868.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077008889189&categoryId=126864811",
+        "observed_at": "2026-09-15T15:11:52Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
       "reference_product_id": 51,
       "stable_key": "sample:6991b7346484a1ee5ef2d96fd2854030c0a6e946b00527586b0f9b2af2ca31a3",
       "wameiji": {
@@ -2248,25 +2276,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1074234249234&categoryId=126860296",
         "observed_at": "2026-09-14T02:14:46Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 43,
-      "stable_key": "sample:7a375cf45a84b6a8262df9d8a5fffa144c0aa17594601bda4b6e1c014053d4b5",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "【预定】正品 Eureka tohma ユーリカ トーマ ボカロCD 原装正版日版",
-        "version_evidence": "闲鱼精确检索命中 1 条；1CD，全新未拆；带侧标价898、无侧标价868。样本图仅可确认封面 Eureka，不能据此核对侧标/成色。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 868.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077008889189&categoryId=126864811",
-        "observed_at": "2026-09-14T02:17:47Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
