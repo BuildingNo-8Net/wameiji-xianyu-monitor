@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T23:04:15.999537+08:00",
+  "generated_at": "2026-09-15T23:05:51.199084+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 32 条双侧实物观察中，挖煤姬页面已复核 63 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 33 条双侧实物观察中，挖煤姬页面已复核 64 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 33,
-    "both_observed_count": 32,
-    "wameiji_platform_found_count": 63,
+    "both_found_count": 34,
+    "both_observed_count": 33,
+    "wameiji_platform_found_count": 64,
     "found_any_count": 98,
     "not_currently_listed_both_count": 25
   },
@@ -15,7 +15,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 33
+      "count": 34
     },
     {
       "wameiji": "found",
@@ -25,7 +25,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 26
+      "count": 25
     },
     {
       "wameiji": "price_unfavorable",
@@ -325,6 +325,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1049669935688&categoryId=126860296",
         "observed_at": "2026-09-15T15:03:54Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 25,
+      "stable_key": "sample:d7bfb38307bbdaf4e3bf60db072f665b05f5bc2ded64bf125fe0caf58341f5ac",
+      "wameiji": {
+        "title": "PERSONA3 RELOAD LIMITED BOX",
+        "version_evidence": "人工内置浏览器挖煤姬精确检索结果卡：PS5 PERSONA3 RELOAD LIMITED BOX，9,000日元，二手；商品详情的配件清单和盒况尚未逐项打开核对。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35343439363038313931332f",
+        "observed_at": "2026-09-15T15:05:12Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "女神异闻录3 reload Limited Box P3R 限定版 PS5日版无中文",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：PS5 日版 Limited Box，描述称有全新/拆封库存、顺丰包邮，标价710元；未确认是否整套及与挖煤姬二手件的附件、盒况一致。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 710.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1079059188188&categoryId=126856346",
+        "observed_at": "2026-09-15T15:05:12Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
@@ -1111,6 +1139,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1049669935688&categoryId=126860296",
         "observed_at": "2026-09-15T15:03:54Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 25,
+      "stable_key": "sample:d7bfb38307bbdaf4e3bf60db072f665b05f5bc2ded64bf125fe0caf58341f5ac",
+      "wameiji": {
+        "title": "PERSONA3 RELOAD LIMITED BOX",
+        "version_evidence": "人工内置浏览器挖煤姬精确检索结果卡：PS5 PERSONA3 RELOAD LIMITED BOX，9,000日元，二手；商品详情的配件清单和盒况尚未逐项打开核对。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35343439363038313931332f",
+        "observed_at": "2026-09-15T15:05:12Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "女神异闻录3 reload Limited Box P3R 限定版 PS5日版无中文",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：PS5 日版 Limited Box，描述称有全新/拆封库存、顺丰包邮，标价710元；未确认是否整套及与挖煤姬二手件的附件、盒况一致。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 710.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1079059188188&categoryId=126856346",
+        "observed_at": "2026-09-15T15:05:12Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
