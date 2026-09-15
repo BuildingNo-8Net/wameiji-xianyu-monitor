@@ -9,9 +9,9 @@
   <link rel="stylesheet" href="styles/kuro.css?v=20260915-default-palette-v2" />
   <script>window.CD_MONITOR_CONFIG = { apiBase: "", accessToken: "" };</script>
   <script async src="runtime-config.js"></script>
-  <script src="app.js?v=20260915-reference-audit-v1" defer></script>
-  <script src="dual-market-data.js?v=20260915-reference-audit-v1" defer></script>
-  <script src="discovery-ui.js?v=20260915-reference-audit-v1" defer></script>
+  <script src="app.js?v=20260915-manual-candidates-v1" defer></script>
+  <script src="dual-market-data.js?v=20260915-manual-candidates-v1" defer></script>
+  <script src="discovery-ui.js?v=20260915-manual-candidates-v1" defer></script>
 </head>
 <body class="kuro" data-kuro-theme="rose">
     <button class="feed-new-pill" data-feed-new-pill type="button"></button>
@@ -64,7 +64,7 @@
           <div class="hero-copy">
             <div class="eyebrow">Selection board · evidence-first</div>
             <h2>选品广场 · CD 与 GalGame 实体</h2>
-            <p class="lead">页面分为两层：下方的 9/9 历史利润卡只保留当时的计算证据，不代表 125 个样本已完成或当前仍可买；历史卡中闲鱼以淡黄色显示搜索挂牌价样本，挖煤姬以淡粉白显示详情已核验进货价。再下方的参考样本审计区展示真实覆盖与逐件复核进度。只有“挖煤姬进货 → 闲鱼国内销售”版本、成色、附件和到手成本均核对后，净利润为正才会进入当前机会流。</p>
+            <p class="lead">顶部先显示本轮逐页人工复核、按保守成本预留后仍达标的候选；每张都列出两端证据与未闭合风险。下方的 9/9 历史利润卡仅保留旧计算证据，不代表 125 个样本已完成或当前仍可买；参考样本审计区展示真实覆盖与逐件复核进度。</p>
             <div class="stats">
               <div class="stat"><small>历史利润卡（9/9 快照）</small><strong id="kpiToday">--</strong></div>
               <div class="stat"><small>历史闲鱼预计净利</small><strong id="kpiProfit">--</strong></div>
@@ -73,6 +73,19 @@
             </div>
           </div>
         </div>
+        <section class="manual-verified-panel" id="manualVerifiedCandidatesPanel" aria-labelledby="manualVerifiedCandidatesTitle">
+          <div class="manual-verified-head">
+            <div>
+              <div class="eyebrow">Manual review · current browser evidence</div>
+              <h3 id="manualVerifiedCandidatesTitle">本轮人工复核 · 保守预留后达标</h3>
+              <p id="manualVerifiedCandidatesDisclaimer">正在读取本轮人工复核证据…</p>
+            </div>
+            <span class="status blue" id="manualVerifiedCandidatesState">读取中…</span>
+          </div>
+          <div class="manual-verified-feed" id="manualVerifiedCandidatesFeed" aria-live="polite">
+            <div class="empty-state">正在读取人工复核卡…</div>
+          </div>
+        </section>
         <div class="section-head">
           <div>
             <h3>历史利润卡 · 9/9 快照</h3>
