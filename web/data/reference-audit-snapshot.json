@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-15T22:58:52.218276+08:00",
+  "generated_at": "2026-09-15T23:04:15.999537+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 31 条双侧实物观察中，挖煤姬页面已复核 62 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 32 条双侧实物观察中，挖煤姬页面已复核 63 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 32,
-    "both_observed_count": 31,
-    "wameiji_platform_found_count": 62,
+    "both_found_count": 33,
+    "both_observed_count": 32,
+    "wameiji_platform_found_count": 63,
     "found_any_count": 98,
     "not_currently_listed_both_count": 25
   },
@@ -15,7 +15,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 32
+      "count": 33
     },
     {
       "wameiji": "found",
@@ -25,7 +25,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 27
+      "count": 26
     },
     {
       "wameiji": "price_unfavorable",
@@ -297,6 +297,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E8%99%9A%E4%B9%8B%E5%B0%91%E5%A5%B3%20%E5%B9%BF%E6%92%AD%E5%89%A7%20CD",
         "observed_at": "2026-09-15T13:39:32+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 24,
+      "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
+      "wameiji": {
+        "title": "【中古】ゲームミュージックCD 魔法使いの夜 オリジナル・サウンドトラック[初回仕様]",
+        "version_evidence": "人工内置浏览器挖煤姬详情：SVWC-7853，3CD，初回仕様；商品说明称初回版含スリーヴケース。店铺中古、无明显伤污；具体附件与闲鱼带侧封且外盒凹痕版本仍待逐件比对。",
+        "catalog_no": "SVWC-7853",
+        "barcode": "4534530054845",
+        "price": 5870.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576f5a5733546b69644172534751394b736b4e432f",
+        "observed_at": "2026-09-15T15:03:54Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：日版 3CD BOX，带侧封；外盒右下及背面有凹痕，描述标价303元。与挖煤姬初回仕様的盒况、侧封和附件未证实相同。",
+        "catalog_no": "SVWC-7853~7855",
+        "barcode": null,
+        "price": 303.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1049669935688&categoryId=126860296",
+        "observed_at": "2026-09-15T15:03:54Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
@@ -1055,6 +1083,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1070237273564&categoryId=126864811",
         "observed_at": "2026-09-15T12:00:16+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 24,
+      "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
+      "wameiji": {
+        "title": "【中古】ゲームミュージックCD 魔法使いの夜 オリジナル・サウンドトラック[初回仕様]",
+        "version_evidence": "人工内置浏览器挖煤姬详情：SVWC-7853，3CD，初回仕様；商品说明称初回版含スリーヴケース。店铺中古、无明显伤污；具体附件与闲鱼带侧封且外盒凹痕版本仍待逐件比对。",
+        "catalog_no": "SVWC-7853",
+        "barcode": "4534530054845",
+        "price": 5870.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576f5a5733546b69644172534751394b736b4e432f",
+        "observed_at": "2026-09-15T15:03:54Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：日版 3CD BOX，带侧封；外盒右下及背面有凹痕，描述标价303元。与挖煤姬初回仕様的盒况、侧封和附件未证实相同。",
+        "catalog_no": "SVWC-7853~7855",
+        "barcode": null,
+        "price": 303.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1049669935688&categoryId=126860296",
+        "observed_at": "2026-09-15T15:03:54Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
