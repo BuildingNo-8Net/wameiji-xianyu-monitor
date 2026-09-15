@@ -18,7 +18,6 @@
     referenceObservations: [],
     referenceProfiles: null,
     referenceDirections: null,
-    manualVerifiedCandidates: null,
     candidateDirections: [],
     selectionFeedbackStatus: null,
     selectionFeedback: [],
@@ -29,21 +28,13 @@
     liveApiBlocked: false,
     liveMode: false,
     dismissedDualMarketComparisonIds: new Set(),
-    dismissedManualVerifiedCandidateIds: new Set(),
   };
 
   const DISMISSED_DUAL_MARKET_COMPARISONS_KEY = "wameiji-xianyu.dismissed-dual-market-comparisons.v1";
-  const DISMISSED_MANUAL_VERIFIED_CANDIDATES_KEY = "wameiji-xianyu.dismissed-manual-verified-candidates.v1";
-  const MANUAL_VERIFIED_CANDIDATES_PATH = "data/manual-verified-candidates.json";
 
   function comparisonIdKey(value) {
     const number = Number(value);
     return Number.isSafeInteger(number) && number > 0 ? String(number) : "";
-  }
-
-  function manualCandidateIdKey(value) {
-    const key = String(value || "").trim();
-    return /^[A-Za-z0-9._-]{3,160}$/.test(key) ? key : "";
   }
 
   function loadDismissedDualMarketComparisonIds() {
@@ -83,41 +74,6 @@
     view.dismissedDualMarketComparisonIds.clear();
     saveDismissedDualMarketComparisonIds();
     renderFeed();
-  }
-
-  function loadDismissedManualVerifiedCandidateIds() {
-    try {
-      const stored = JSON.parse(window.localStorage.getItem(DISMISSED_MANUAL_VERIFIED_CANDIDATES_KEY) || "[]");
-      return new Set(Array.isArray(stored) ? stored.map(manualCandidateIdKey).filter(Boolean) : []);
-    } catch (_) {
-      return new Set();
-    }
-  }
-
-  function saveDismissedManualVerifiedCandidateIds() {
-    try {
-      window.localStorage.setItem(
-        DISMISSED_MANUAL_VERIFIED_CANDIDATES_KEY,
-        JSON.stringify(Array.from(view.dismissedManualVerifiedCandidateIds)),
-      );
-    } catch (_) {
-      // Storage denial should not block the public board.
-    }
-  }
-
-  function dismissManualVerifiedCandidate(candidateId) {
-    const key = manualCandidateIdKey(candidateId);
-    if (!key) return;
-    view.dismissedManualVerifiedCandidateIds.add(key);
-    saveDismissedManualVerifiedCandidateIds();
-    renderManualVerifiedCandidates();
-  }
-
-  function restoreDismissedManualVerifiedCandidates() {
-    if (!view.dismissedManualVerifiedCandidateIds.size) return;
-    view.dismissedManualVerifiedCandidateIds.clear();
-    saveDismissedManualVerifiedCandidateIds();
-    renderManualVerifiedCandidates();
   }
 
   function esc(value) {
@@ -312,19 +268,6 @@
     return payload;
   }
 
-  async function loadManualVerifiedCandidates() {
-    const response = await fetch(
-      new URL(MANUAL_VERIFIED_CANDIDATES_PATH, document.baseURI).toString(),
-      { cache: "no-store" },
-    );
-    if (!response.ok) throw new Error("manual verified candidates -> " + response.status);
-    const payload = await response.json();
-    if (!payload || Number(payload.schema_version) !== 1 || !Array.isArray(payload.candidates)) {
-      throw new Error("manual verified candidates are invalid");
-    }
-    return payload;
-  }
-
   function toLegacyOpportunity(item) {
     return {
       ...item,
@@ -470,105 +413,6 @@
     if (state) {
       state.textContent = "审计快照 · " + timeLabel(audit.generated_at);
       state.className = "status blue";
-    }
-  }
-
-  function manualEvidenceSourceMarkup(label, url) {
-    const href = safeHttpUrl(url);
-    return href
-      ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(label) + '</a>'
-      : '<span>' + esc(label) + '</span>';
-  }
-
-  function manualVerifiedCandidateMarkup(candidate) {
-    const item = candidate && typeof candidate === "object" ? candidate : {};
-    const wameiji = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
-    const xianyu = item.xianyu && typeof item.xianyu === "object" ? item.xianyu : {};
-    const calculation = item.calculation && typeof item.calculation === "object" ? item.calculation : {};
-    const image = usableProductImage(item.reference_sample_image);
-    const imageMarkup = image
-      ? '<img src="' + esc(image) + '" alt="' + esc(item.title || "参考样本图") + '" loading="lazy" />'
-      : '<span>参考样本图缺失</span>';
-    return [
-      '<article class="manual-verified-card" data-manual-verified-candidate-id="' + esc(manualCandidateIdKey(item.id)) + '">',
-        '<button class="dismiss-manual-verified-card" type="button" data-dismiss-manual-verified-card="' + esc(manualCandidateIdKey(item.id)) + '" aria-label="隐藏此人工复核卡" title="仅在本浏览器隐藏此卡，不删除公开原始记录">×</button>',
-        '<div class="manual-verified-product">',
-          '<div class="manual-verified-thumb">' + imageMarkup + '</div>',
-          '<div>',
-            '<div class="manual-verified-labels"><span class="tag hot">本轮人工复核</span><span class="status ok">' + esc(item.status_label || "保守预留后达标") + '</span></div>',
-            '<h4>' + esc(item.title || "未命名候选") + '</h4>',
-            '<p>' + esc(item.reference_sample_image_note || "参考样本图") + '</p>',
-          '</div>',
-        '</div>',
-        '<div class="manual-verified-sides">',
-          '<section class="manual-verified-side market">',
-            '<small>挖煤姬 · 进货侧 · 详情人工复核</small>',
-            '<b>' + esc(wameiji.title || "未命名商品") + '</b>',
-            '<strong>' + esc(jpy(wameiji.price_jpy, 0.045)) + '</strong>',
-            '<p>' + esc(wameiji.condition || "品相待核") + ' · ' + esc(wameiji.japan_domestic_shipping || "日本国内运费待核") + '</p>',
-            '<p>代购费 ' + esc(cny(wameiji.proxy_fee_cny)) + ' · ' + manualEvidenceSourceMarkup("打开挖煤姬详情", wameiji.url) + '</p>',
-          '</section>',
-          '<section class="manual-verified-side xianyu">',
-            '<small>闲鱼 · 销售侧 · 搜索页人工复核</small>',
-            '<b>' + esc(xianyu.title || "未命名商品") + '</b>',
-            '<strong>' + esc(cny(xianyu.price_cny)) + '</strong>',
-            '<p>' + esc(xianyu.seller_type || "个人闲置") + ' · ' + esc(xianyu.shipping || "运费待核") + '</p>',
-            '<p>' + esc(xianyu.condition || "品相待核") + ' · ' + manualEvidenceSourceMarkup("打开闲鱼检索", xianyu.url) + '</p>',
-          '</section>',
-        '</div>',
-        '<div class="manual-verified-analysis">',
-          '<div class="manual-verified-metrics">',
-            '<div><small>保守落地成本</small><strong>' + esc(cny(calculation.landed_cost_cny)) + '</strong></div>',
-            '<div><small>预留成本</small><strong>' + esc(cny(calculation.conservative_cost_reserve_cny)) + '</strong></div>',
-            '<div><small>预计净利</small><strong>' + esc(cny(calculation.expected_profit_cny)) + '</strong></div>',
-            '<div><small>净利率</small><strong>' + esc(percent(calculation.net_margin)) + '</strong></div>',
-          '</div>',
-          '<p><b>版本与成色：</b>' + esc(item.version_match || "待核") + '；' + esc(item.condition_match || "待核") + '</p>',
-          '<p class="manual-verified-risk"><b>下单前复核：</b>' + esc(item.remaining_risk || "最终运费、库存与附件") + '</p>',
-        '</div>',
-      '</article>',
-    ].join("");
-  }
-
-  function renderManualVerifiedCandidates() {
-    const payload = view.manualVerifiedCandidates;
-    const state = document.getElementById("manualVerifiedCandidatesState");
-    const disclaimer = document.getElementById("manualVerifiedCandidatesDisclaimer");
-    const feed = document.getElementById("manualVerifiedCandidatesFeed");
-    if (!payload) {
-      if (state) {
-        state.textContent = "人工复核快照未发布";
-        state.className = "status warn";
-      }
-      if (disclaimer) disclaimer.textContent = "人工复核快照暂不可用；不把历史利润卡冒充为当前候选。";
-      if (feed) feed.innerHTML = '<div class="empty-state">本轮人工复核卡暂未发布。</div>';
-      return;
-    }
-    const allCandidates = Array.isArray(payload.candidates) ? payload.candidates : [];
-    const candidates = allCandidates.filter(
-      (candidate) => !view.dismissedManualVerifiedCandidateIds.has(manualCandidateIdKey(candidate && candidate.id)),
-    );
-    const policy = payload.policy && typeof payload.policy === "object" ? payload.policy : {};
-    if (disclaimer) {
-      disclaimer.textContent = String(payload.disclaimer || "人工复核卡按显式预留成本计算；不是采购指令。");
-    }
-    if (feed) {
-      feed.innerHTML = candidates.length
-        ? candidates.map(manualVerifiedCandidateMarkup).join("")
-        : '<div class="empty-state">当前没有尚未隐藏的本轮人工复核卡。</div>';
-      if (view.dismissedManualVerifiedCandidateIds.size) {
-        feed.insertAdjacentHTML(
-          "beforeend",
-          '<div class="dismissed-manual-verified-restore"><span>已在此浏览器隐藏 ' + esc(view.dismissedManualVerifiedCandidateIds.size) + ' 张人工复核卡</span><button type="button" data-restore-manual-verified-cards>恢复已隐藏</button></div>',
-        );
-      }
-    }
-    if (state) {
-      const minimum = Number(policy.minimum_net_margin);
-      state.textContent = "已复核 " + allCandidates.length + " 条 · 当前显示 " + candidates.length + " 条 · 门槛 "
-        + (Number.isFinite(minimum) ? Math.round(minimum * 100) + "%" : "--")
-        + " · " + timeLabel(payload.generated_at);
-      state.className = candidates.length ? "status good" : "status warn";
     }
   }
 
@@ -766,7 +610,7 @@
   function usableProductImage(value) {
     const relative = String(value || "").trim();
     let url = safeHttpUrl(relative);
-    if (!url && /^assets\/(?:dual-market|reference-samples)\/[A-Za-z0-9+._/-]+$/.test(relative) && !relative.includes("..")) {
+    if (!url && /^assets\/dual-market\/[A-Za-z0-9+._/-]+$/.test(relative) && !relative.includes("..")) {
       url = new URL(relative, document.baseURI).toString();
     }
     if (!url) return "";
@@ -1317,12 +1161,11 @@
     view.refreshing = true;
     try {
       const emptyBoard = { summary: {}, pools: [], opportunities: [], selectable_candidates: [], research_candidates: [] };
-      const [board, commandPayload, dualMarketBoard, referenceAudit, manualVerifiedCandidates, referenceStatus, referenceObservationPayload, referenceProfilePayload, referenceDirectionPayload, candidateDirectionPayload, selectionFeedbackStatus, selectionFeedbackPayload] = await Promise.all([
+      const [board, commandPayload, dualMarketBoard, referenceAudit, referenceStatus, referenceObservationPayload, referenceProfilePayload, referenceDirectionPayload, candidateDirectionPayload, selectionFeedbackStatus, selectionFeedbackPayload] = await Promise.all([
         apiGet("/api/discovery/board").catch(() => emptyBoard),
         apiGet("/api/discovery/commands").catch(() => ({ items: [] })),
         window.DualMarketData.load({ apiGet, live: view.liveMode }),
         loadReferenceAudit().catch(() => null),
-        loadManualVerifiedCandidates().catch(() => null),
         apiGet("/api/reference-memory/status").catch(() => null),
         apiGet("/api/reference-memory/observations?limit=3").catch(() => null),
         apiGet("/api/reference-memory/profiles?limit=3").catch(() => null),
@@ -1334,7 +1177,6 @@
       view.board = board || { summary: {}, pools: [], opportunities: [], selectable_candidates: [], research_candidates: [] };
       view.dualMarketBoard = dualMarketBoard;
       view.referenceAudit = referenceAudit;
-      view.manualVerifiedCandidates = manualVerifiedCandidates;
       view.commands = (commandPayload && commandPayload.items) || [];
       view.referenceStatus = referenceStatus;
       view.referenceObservations = (referenceObservationPayload && referenceObservationPayload.items) || [];
@@ -1352,7 +1194,6 @@
         window.state.totalOpportunities = window.state.opportunities.length;
       }
       renderKpis(view.board.summary || {});
-      renderManualVerifiedCandidates();
       renderReferenceAudit();
       renderReferenceMemory();
       renderSelectionFeedback();
@@ -1485,15 +1326,6 @@
     document.getElementById("sideLegacyToolsBtn")?.addEventListener("click", () => {
       document.querySelector('[data-page="tasks"]')?.click();
     });
-    document.getElementById("manualVerifiedCandidatesFeed")?.addEventListener("click", (event) => {
-      const dismissButton = event.target.closest("[data-dismiss-manual-verified-card]");
-      if (dismissButton) {
-        dismissManualVerifiedCandidate(dismissButton.dataset.dismissManualVerifiedCard);
-        return;
-      }
-      const restoreButton = event.target.closest("[data-restore-manual-verified-cards]");
-      if (restoreButton) restoreDismissedManualVerifiedCandidates();
-    });
     document.getElementById("homeFeed")?.addEventListener("click", async (event) => {
       const dismissButton = event.target.closest("[data-dismiss-dual-market-card]");
       if (dismissButton) {
@@ -1564,7 +1396,6 @@
         }
       }
       view.dismissedDualMarketComparisonIds = loadDismissedDualMarketComparisonIds();
-      view.dismissedManualVerifiedCandidateIds = loadDismissedManualVerifiedCandidateIds();
       bindControls();
       keepBoardKpisVisible();
       refreshBoard();
