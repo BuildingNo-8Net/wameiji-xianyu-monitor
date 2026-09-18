@@ -210,13 +210,13 @@ npx -y localtunnel --port 8765 --local-host 127.0.0.1
 
 访问 `https://<tunnel-domain>/?access_token=<token>` 会设置本会话 cookie；未带 token 的请求会返回 `401 unauthorized`。不要把不带 token 的隧道链接公开转发。
 
-当前远程预览进程已在本机 `127.0.0.1:8765` 后方启动，并通过 localhost.run SSH 反向隧道暴露。已验证入口：
+不要把真实 token 或固定公网隧道地址提交到仓库；访问时从 Render 环境变量读取 `WEB_ACCESS_TOKEN`，临时替换上面的占位符。
 
-```text
-https://4e3f58027aff37.lhr.life/?access_token=p0TFJ2PG7Vwv5Rm1DixKB9YzeluIsWot
-```
+## 前端预览：选品广场
 
-带 token 页面返回 200 且加载 `WAMEIJI-XIANYU`；该 lhr.life 地址已验证不会出现 localtunnel 中间确认页。公网 HTML/JS 已确认包含中文界面、数据接入状态区、新版设置行、Browser-Harness 入口行、闲鱼登录态状态逻辑、真实数据接入流程命令、`--screenshot-output`、`--profile-dir`、`--network-output` 和完整 watchlist 字段；`/api/browser/status` 当前返回 `enabled=true`、Wameiji/Xianyu `human_required/not_configured`，不带 token 访问 `/api/health` 返回 401。
+选品广场将挖煤姬采购侧和闲鱼销售侧的同款证据并排展示，包含两侧图片、价格、落地成本、预估利润、利润率及匹配/详情核验状态。下图为双侧案例页面示意；截图中的价格和利润属于截图时点，不代表当前报价。
+
+![选品广场前端页面示意](docs/assets/selection-plaza.png)
 
 ## Manual Imports
 
