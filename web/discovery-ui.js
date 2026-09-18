@@ -378,7 +378,10 @@
     if (!image) return "";
     return [
       '<figure class="reference-audit-reference-image">',
-        '<img src="' + esc(image) + '" alt="参考样本 #' + esc(referenceProductId || "") + '" loading="lazy" />',
+        // Audit cards are visible evidence, not below-the-fold decoration. Load
+        // the preserved sample image immediately so the card never presents an
+        // empty white frame while the evidence is in view.
+        '<img src="' + esc(image) + '" alt="参考样本 #' + esc(referenceProductId || "") + '" loading="eager" decoding="async" />',
         '<figcaption>用户参考样本图 · 非当前在售图</figcaption>',
       '</figure>',
     ].join("");
