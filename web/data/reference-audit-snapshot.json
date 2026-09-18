@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T18:21:26+08:00",
+  "generated_at": "2026-09-19T00:52:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 42 条双侧实物观察、42 条单边待补观察中，挖煤姬页面已复核 72 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 43 条双侧实物观察、41 条单边待补观察中，挖煤姬页面已复核 73 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 40,
-    "both_observed_count": 42,
-    "single_observed_count": 42,
-    "wameiji_platform_found_count": 72,
+    "both_found_count": 41,
+    "both_observed_count": 43,
+    "single_observed_count": 41,
+    "wameiji_platform_found_count": 73,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 40
+      "count": 41
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 19
+      "count": 18
     },
     {
       "wameiji": "price_unfavorable",
@@ -1209,6 +1209,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/1-a9d90f12e9ca56db.webp"
+    },
+    {
+      "reference_product_id": 75,
+      "stable_key": "sample:e2fddc401fbc648ed9d8a593b4eb6c14e63d7f4d0e8395a2e4cf85442db74a2d",
+      "wameiji": {
+        "title": "水樹奈々/NANA MIZUKI LIVE VISION×VISION+〈4枚組〉",
+        "version_evidence": "挖煤姬详情：水樹奈々/NANA MIZUKI LIVE VISION×VISION+〈4枚組〉，定价11000日元；未使用、未开封；二手商品，卖家承担日本国内运费。页面未核实闲鱼侧所称初回限定与特典照片卡。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35313635343439343639352f",
+        "observed_at": "2026-09-18T16:50:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "水树奈奈NANA MIZUKI VISION×VISION初回限定蓝光4BD合集套装附特典照片卡《水樹奈々 NANA MIZUKI LIVE VISION × VISION+(4枚組Blu-ray)》最新巡回演唱会及花絮全记录♥2026-9-16起出货，迟订则不保送特典照片（迟订到货无特典则返还差价）预订从速！！",
+        "version_evidence": "闲鱼详情页：4枚 Blu-ray，初回限定，含特典照片卡；活动价427–549 CNY包邮，2026-09-16起发货，迟订不保证特典照片并返差价。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 427.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080395302448&categoryId=202061902",
+        "observed_at": "2026-09-18T16:50:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/75-e2fddc401fbc648e.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2429,6 +2458,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/1-a9d90f12e9ca56db.webp"
+    },
+    {
+      "reference_product_id": 75,
+      "stable_key": "sample:e2fddc401fbc648ed9d8a593b4eb6c14e63d7f4d0e8395a2e4cf85442db74a2d",
+      "wameiji": {
+        "title": "水樹奈々/NANA MIZUKI LIVE VISION×VISION+〈4枚組〉",
+        "version_evidence": "挖煤姬详情：水樹奈々/NANA MIZUKI LIVE VISION×VISION+〈4枚組〉，定价11000日元；未使用、未开封；二手商品，卖家承担日本国内运费。页面未核实闲鱼侧所称初回限定与特典照片卡。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35313635343439343639352f",
+        "observed_at": "2026-09-18T16:50:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "水树奈奈NANA MIZUKI VISION×VISION初回限定蓝光4BD合集套装附特典照片卡《水樹奈々 NANA MIZUKI LIVE VISION × VISION+(4枚組Blu-ray)》最新巡回演唱会及花絮全记录♥2026-9-16起出货，迟订则不保送特典照片（迟订到货无特典则返还差价）预订从速！！",
+        "version_evidence": "闲鱼详情页：4枚 Blu-ray，初回限定，含特典照片卡；活动价427–549 CNY包邮，2026-09-16起发货，迟订不保证特典照片并返差价。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 427.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080395302448&categoryId=202061902",
+        "observed_at": "2026-09-18T16:50:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/75-e2fddc401fbc648e.webp"
     }
   ],
   "single_observed_records": [
@@ -2851,26 +2909,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/71-127ddd6fc3102fb0.webp"
-    },
-    {
-      "reference_product_id": 75,
-      "stable_key": "sample:e2fddc401fbc648ed9d8a593b4eb6c14e63d7f4d0e8395a2e4cf85442db74a2d",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "水树奈奈 NANA MIZUKI VISION×VISION 初回限定蓝光4BD合集 含特典照片卡",
-        "version_evidence": "4枚组Blu-ray；初回限定；卖家称附特典照片卡，预计2026-09-16起出货",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 427.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1080395302448&categoryId=202061902",
-        "observed_at": "2026-09-14T04:04:50Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/75-e2fddc401fbc648e.webp"
     },
     {
       "reference_product_id": 79,
