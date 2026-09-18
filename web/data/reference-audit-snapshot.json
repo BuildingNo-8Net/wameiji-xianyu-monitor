@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T00:58:00+08:00",
+  "generated_at": "2026-09-19T01:00:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 44 条双侧实物观察、40 条单边待补观察中，挖煤姬页面已复核 73 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 45 条双侧实物观察、39 条单边待补观察中，挖煤姬页面已复核 73 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 42,
-    "both_observed_count": 44,
-    "single_observed_count": 40,
+    "both_found_count": 43,
+    "both_observed_count": 45,
+    "single_observed_count": 39,
     "wameiji_platform_found_count": 73,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 42
+      "count": 43
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 29
+      "count": 28
     },
     {
       "wameiji": "not_currently_listed",
@@ -1267,6 +1267,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/71-127ddd6fc3102fb0.webp"
+    },
+    {
+      "reference_product_id": 91,
+      "stable_key": "jan:4547366558180",
+      "wameiji": {
+        "title": "milet / Walkin’ In My Lane (初回生産限定盤B / CD+DVD) [SECL-2765]",
+        "version_evidence": "挖煤姬乐天详情：SECL-2765、JAN 4547366558180，初回生产限定B CD+DVD。初回A为 SECL-2763（CD+Blu-ray），通常盘为 SECL-2767，不能混同。",
+        "catalog_no": "SECL-2765",
+        "barcode": "4547366558180",
+        "price": 3200.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fcyberbay%2Fsecl-2765%2F",
+        "observed_at": "2026-09-14T18:12:16Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "现货 原装正版 milet Walkin' In My Lane 初回限定B CD+DVD 日版 全新未拆",
+        "version_evidence": "闲鱼搜索卡明确为 milet Walkin' In My Lane 初回限定B、CD+DVD、日版、全新未拆；当前挂牌188 CNY。此条目前只核到搜索卡，详情页、条码与附件尚未复核。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 188.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1001729302397&categoryId=126864811",
+        "observed_at": "2026-09-18T17:00:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/91-f0a22d4a1d39625c.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2545,6 +2574,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/71-127ddd6fc3102fb0.webp"
+    },
+    {
+      "reference_product_id": 91,
+      "stable_key": "jan:4547366558180",
+      "wameiji": {
+        "title": "milet / Walkin’ In My Lane (初回生産限定盤B / CD+DVD) [SECL-2765]",
+        "version_evidence": "挖煤姬乐天详情：SECL-2765、JAN 4547366558180，初回生产限定B CD+DVD。初回A为 SECL-2763（CD+Blu-ray），通常盘为 SECL-2767，不能混同。",
+        "catalog_no": "SECL-2765",
+        "barcode": "4547366558180",
+        "price": 3200.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fcyberbay%2Fsecl-2765%2F",
+        "observed_at": "2026-09-14T18:12:16Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "现货 原装正版 milet Walkin' In My Lane 初回限定B CD+DVD 日版 全新未拆",
+        "version_evidence": "闲鱼搜索卡明确为 milet Walkin' In My Lane 初回限定B、CD+DVD、日版、全新未拆；当前挂牌188 CNY。此条目前只核到搜索卡，详情页、条码与附件尚未复核。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 188.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1001729302397&categoryId=126864811",
+        "observed_at": "2026-09-18T17:00:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/91-f0a22d4a1d39625c.webp"
     }
   ],
   "single_observed_records": [
@@ -3067,26 +3125,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/88-aa8528ffb6b41761.webp"
-    },
-    {
-      "reference_product_id": 91,
-      "stable_key": "jan:4547366558180",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "milet / Walkin’ In My Lane (初回生産限定盤B / CD+DVD) [SECL-2765]",
-        "version_evidence": "New Rakuten listing; SECL-2765, JAN 4547366558180, initial production limited B CD+DVD. Initial A is SECL-2763 (CD+Blu-ray) and standard is SECL-2767, which are not interchangeable.",
-        "catalog_no": "SECL-2765",
-        "barcode": "4547366558180",
-        "price": 3200.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fcyberbay%2Fsecl-2765%2F",
-        "observed_at": "2026-09-14T18:12:16Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/91-f0a22d4a1d39625c.webp"
     },
     {
       "reference_product_id": 92,
