@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-18T18:19:37+08:00",
+  "generated_at": "2026-09-18T18:21:26+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 41 条双侧实物观察、43 条单边待补观察中，挖煤姬页面已复核 72 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 42 条双侧实物观察、42 条单边待补观察中，挖煤姬页面已复核 72 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 39,
-    "both_observed_count": 41,
-    "single_observed_count": 43,
+    "both_found_count": 40,
+    "both_observed_count": 42,
+    "single_observed_count": 42,
     "wameiji_platform_found_count": 72,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 39
+      "count": 40
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 31
+      "count": 30
     },
     {
       "wameiji": "not_currently_listed",
@@ -1180,6 +1180,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/74-1d0637fcaf7b16b3.webp"
+    },
+    {
+      "reference_product_id": 1,
+      "stable_key": "sample:a9d90f12e9ca56db33bf8d0cbec691301de16049652c9f7abbe3aa1145e97cc2",
+      "wameiji": {
+        "title": "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典 音楽 CD",
+        "version_evidence": "挖煤姬标题明确 TUYU やっぱり雨は降るんだね、礼衣、Animate 特典与 CD；中古、无明显伤污，但商品说明未进一步确认附件状态。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5379.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f43435454774233584e45685738466a4e546e7755694b2f",
+        "observed_at": "2026-09-14T19:00:03Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "やっぱり雨は降るんだね ツユ tuyu专辑CD",
+        "version_evidence": "闲鱼详情实拍显示 CD 本体与封面；标题为 やっぱり雨は降るんだね，存储介质标注 CD，标价239 CNY包邮。页面未声明 Animate 特典，因此附件/版本与挖煤姬侧仍待核对。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 239.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1075436690240&categoryId=0",
+        "observed_at": "2026-09-18T10:21:26Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/1-a9d90f12e9ca56db.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2371,18 +2400,13 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/74-1d0637fcaf7b16b3.webp"
-    }
-  ],
-  "single_observed_records": [
+    },
     {
       "reference_product_id": 1,
       "stable_key": "sample:a9d90f12e9ca56db33bf8d0cbec691301de16049652c9f7abbe3aa1145e97cc2",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
+      "wameiji": {
         "title": "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典 音楽 CD",
-        "version_evidence": "Current Wameiji title explicitly ties TUYU やっぱり雨は降るんだね, Rei/礼衣, Animate bonus and CD. Product is used with no noticeable damage; descriptive text gives no further contents/accessory confirmation, so identity is title-supported only.",
+        "version_evidence": "挖煤姬标题明确 TUYU やっぱり雨は降るんだね、礼衣、Animate 特典与 CD；中古、无明显伤污，但商品说明未进一步确认附件状态。",
         "catalog_no": null,
         "barcode": null,
         "price": 5379.0,
@@ -2392,8 +2416,22 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true
       },
+      "xianyu": {
+        "title": "やっぱり雨は降るんだね ツユ tuyu专辑CD",
+        "version_evidence": "闲鱼详情实拍显示 CD 本体与封面；标题为 やっぱり雨は降るんだね，存储介质标注 CD，标价239 CNY包邮。页面未声明 Animate 特典，因此附件/版本与挖煤姬侧仍待核对。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 239.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1075436690240&categoryId=0",
+        "observed_at": "2026-09-18T10:21:26Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
       "reference_image_url": "assets/reference-samples/1-a9d90f12e9ca56db.webp"
-    },
+    }
+  ],
+  "single_observed_records": [
     {
       "reference_product_id": 2,
       "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
