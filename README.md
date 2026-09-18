@@ -20,7 +20,7 @@ Render 免费 Web Service 的文件系统会在重启、重新部署或闲置唤
 ### 日常使用（最简单）
 
 1. 采集电脑双击项目根目录的 `启动采集电脑.cmd`。它会自动启动本地后端、数据库同步和自动选品工作器；已运行的进程不会重复启动。
-2. 家里电脑只打开 <https://niuzipai-gif.github.io/wameiji-xianyu-monitor/>。第一次看到令牌输入框时，从 Render 的 **Environment** 复制 `WEB_ACCESS_TOKEN` 粘贴进去；浏览器会记住它，之后不需要再输入。
+2. 家里电脑只打开 <https://buildingno-8net.github.io/wameiji-xianyu-monitor/>。第一次看到令牌输入框时，从 Render 的 **Environment** 复制 `WEB_ACCESS_TOKEN` 粘贴进去；浏览器会记住它，之后不需要再输入。
 3. 在左侧“操作”区点击“立即全量扫描”。采集电脑会在下一分钟内收到命令；扫描完成后，结果会随下一次数据库同步出现在“首页机会流”。无需输入具体 CD，也无需在家里的电脑安装插件。
 4. 需要调整方向时，进入“策略设置”页的“自动选品池”，改发现关键词、扫描间隔、每轮候选数、最低利润和最低利润率，点击保存即可。设置会由采集电脑执行。
 
@@ -36,8 +36,8 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\install-collector-
 
 首次接管按下面顺序操作：
 
-1. 在 Render 用本仓库的 Blueprint 创建 `wameiji-xianyu-api`，选择 Free。填写三个环境变量：`WEB_ALLOWED_ORIGINS=https://niuzipai-gif.github.io`、随机的 `WEB_ACCESS_TOKEN`、随机的 `CD_SYNC_TOKEN`。两个 token 只放 Render 和本机 `.env`，不要写进仓库。
-2. 把 Render 给出的 API 地址填入 GitHub 仓库变量 `CD_MONITOR_API_BASE`，然后手动运行一次 `Deploy frontend to GitHub Pages`。页面地址会是 `https://niuzipai-gif.github.io/<仓库名>/`。
+1. 在 Render 用本仓库的 Blueprint 创建 `wameiji-xianyu-api`，选择 Free。填写三个环境变量：`WEB_ALLOWED_ORIGINS=https://buildingno-8net.github.io`、随机的 `WEB_ACCESS_TOKEN`、随机的 `CD_SYNC_TOKEN`。两个 token 只放 Render 和本机 `.env`，不要写进仓库。
+2. 把 Render 给出的 API 地址填入 GitHub 仓库变量 `CD_MONITOR_API_BASE`，然后手动运行一次 `Deploy frontend to GitHub Pages`。页面地址会是 `https://buildingno-8net.github.io/<仓库名>/`。
 3. 在采集电脑的项目目录双击 `启动采集电脑.cmd`。它会读取本机 `.env` 中的 Render 地址和令牌，并同时启动发布循环与自动选品工作器；登录 profile、Cookie、原始快照和本地数据库都不会上传 GitHub。
 
    如需单独排查自动选品工作器，可运行：
