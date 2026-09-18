@@ -688,9 +688,12 @@
     return '<span class="status warn">' + esc(value || "待复核") + '</span>';
   }
 
-  function thumbMarkup(imageUrl, lineOne, lineTwo) {
+  function thumbMarkup(imageUrl, lineOne, lineTwo, options) {
     const image = usableProductImage(imageUrl);
-    if (image) return '<img src="' + esc(image) + '" alt="" loading="lazy" />';
+    if (image) {
+      const loading = options && options.eager ? "eager" : "lazy";
+      return '<img src="' + esc(image) + '" alt="" loading="' + loading + '" decoding="async" />';
+    }
     return '<span>' + esc(lineOne) + '<br />' + esc(lineTwo) + '</span>';
   }
 
@@ -903,7 +906,10 @@
       : jpy(item && item.price, exchangeRate || displayJpyCnyRate());
     const body = [
       '<div class="thumb ' + (isXianyu ? "xianyu-thumb" : "market-thumb") + '">',
-        thumbMarkup(image, tag, dualEvidenceLabel(item)),
+        // The four preserved opportunity cards are the primary public result.
+        // Load both marketplace captures eagerly so the yellow/pink cards never
+        // render as empty placeholders while the user is looking at them.
+        thumbMarkup(image, tag, dualEvidenceLabel(item), { eager: true }),
       '</div>',
       '<div class="product">',
         '<span class="tag ' + (isXianyu ? "xianyu-tag" : "hot") + '">' + esc(tag) + '</span>',

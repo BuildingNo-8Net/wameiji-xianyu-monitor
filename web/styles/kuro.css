@@ -966,6 +966,18 @@ body.kuro #homeFeed .discovery-op-card .thumb {
   height: 132px;
   border-radius: 11px;
 }
+/* Keep the restored yellow/pink opportunity cards image-first.  Marketplace
+   captures are already real listing photos; contain preserves the CD jacket
+   instead of cropping it into an indistinct colour block. */
+body.kuro #homeFeed .dual-market-card .thumb {
+  background: rgba(255, 255, 255, .92);
+  border-color: rgba(180, 194, 220, .8);
+}
+body.kuro #homeFeed .dual-market-card .thumb img {
+  object-fit: contain;
+  object-position: center;
+  background: #fff;
+}
 body.kuro #homeFeed .discovery-op-card .product .tag,
 body.kuro #homeFeed .discovery-op-card .product .status {
   padding: 3px 6px;
