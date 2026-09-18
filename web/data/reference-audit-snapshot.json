@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-16T00:21:10.868039+08:00",
+  "generated_at": "2026-09-18T18:12:56+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 40 条双侧实物观察、44 条单边待补观察中，挖煤姬页面已复核 72 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 41 条双侧实物观察、43 条单边待补观察中，挖煤姬页面已复核 72 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 38,
-    "both_observed_count": 40,
-    "single_observed_count": 44,
+    "both_found_count": 39,
+    "both_observed_count": 41,
+    "single_observed_count": 43,
     "wameiji_platform_found_count": 72,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 38
+      "count": 39
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 32
+      "count": 31
     },
     {
       "wameiji": "not_currently_listed",
@@ -1151,6 +1151,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/123-8eca2b4954af65dc.webp"
+    },
+    {
+      "reference_product_id": 74,
+      "stable_key": "sample:1d0637fcaf7b16b3b1277d25395e69cd6f58f3bee3206d67e0b1f994b30b2be4",
+      "wameiji": {
+        "title": "ZARD Forever Best 25th Anniversary 4-CD Blu-spec CD2",
+        "version_evidence": "Current Wameiji/Rakuten page: JBCJ-9055, released 2016-02-10; 4-CD Blu-spec CD2 edition with 52 listed tracks.",
+        "catalog_no": "JBCJ-9055",
+        "barcode": "4560109082155",
+        "price": 4070.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsoundace%2Fjbcj-9055%2F",
+        "observed_at": "2026-09-14T17:42:51Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【在途现货】ZARD Forever Best 25周年 日版正版 全新未拆正品CD",
+        "version_evidence": "闲鱼详情页标题、实拍封面与商品说明显示 ZARD Forever Best～25th Anniversary～ 4CD，2016.02.10，JAN 4560109082155；全新未拆，标价220 CNY包邮。",
+        "catalog_no": null,
+        "barcode": "4560109082155",
+        "price": 220.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1048243206741&categoryId=126864811",
+        "observed_at": "2026-09-18T10:12:56Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/74-1d0637fcaf7b16b3.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2313,6 +2342,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/123-8eca2b4954af65dc.webp"
+    },
+    {
+      "reference_product_id": 74,
+      "stable_key": "sample:1d0637fcaf7b16b3b1277d25395e69cd6f58f3bee3206d67e0b1f994b30b2be4",
+      "wameiji": {
+        "title": "ZARD Forever Best 25th Anniversary 4-CD Blu-spec CD2",
+        "version_evidence": "Current Wameiji/Rakuten page: JBCJ-9055, released 2016-02-10; 4-CD Blu-spec CD2 edition with 52 listed tracks.",
+        "catalog_no": "JBCJ-9055",
+        "barcode": "4560109082155",
+        "price": 4070.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsoundace%2Fjbcj-9055%2F",
+        "observed_at": "2026-09-14T17:42:51Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【在途现货】ZARD Forever Best 25周年 日版正版 全新未拆正品CD",
+        "version_evidence": "闲鱼详情页标题、实拍封面与商品说明显示 ZARD Forever Best～25th Anniversary～ 4CD，2016.02.10，JAN 4560109082155；全新未拆，标价220 CNY包邮。",
+        "catalog_no": null,
+        "barcode": "4560109082155",
+        "price": 220.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1048243206741&categoryId=126864811",
+        "observed_at": "2026-09-18T10:12:56Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/74-1d0637fcaf7b16b3.webp"
     }
   ],
   "single_observed_records": [
@@ -2755,26 +2813,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/71-127ddd6fc3102fb0.webp"
-    },
-    {
-      "reference_product_id": 74,
-      "stable_key": "sample:1d0637fcaf7b16b3b1277d25395e69cd6f58f3bee3206d67e0b1f994b30b2be4",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "ZARD Forever Best 25th Anniversary 4-CD Blu-spec CD2",
-        "version_evidence": "Current Rakuten page: JBCJ-9055, released 2016-02-10; 4-CD Blu-spec CD2 edition with 52 listed tracks, not the separately priced seasonal limited-jacket variants.",
-        "catalog_no": "JBCJ-9055",
-        "barcode": "4560109082155",
-        "price": 4070.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsoundace%2Fjbcj-9055%2F",
-        "observed_at": "2026-09-14T17:42:51Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/74-1d0637fcaf7b16b3.webp"
     },
     {
       "reference_product_id": 75,
