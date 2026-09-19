@@ -2,12 +2,12 @@
   "schema_version": 1,
   "generated_at": "2026-09-19T13:09:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 61 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 81 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 62 条双侧实物观察、22 条单边待补观察中，挖煤姬页面已复核 81 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 56,
-    "both_observed_count": 61,
-    "single_observed_count": 23,
+    "both_observed_count": 62,
+    "single_observed_count": 22,
     "wameiji_platform_found_count": 81,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -3444,6 +3444,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/29-ddcbc943aeb23cba.webp"
+    },
+    {
+      "reference_product_id": 45,
+      "stable_key": "sample:981b5b6da481374d1d95f70c25288f36624dda6915ad0fc2f33f74742426b3ca",
+      "wameiji": {
+        "title": "AD:PIANO IV -monochrome- / DIVERSE SYSTEM",
+        "version_evidence": "挖煤姬详情：Diverse System《AD:PIANO IV -monochrome-》，品番 DVSP-0167，2016-12-31 发售，2枚压片 CD；标价 12,164 日元。",
+        "catalog_no": "DVSP-0167",
+        "barcode": null,
+        "price": 12164.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4c6357756448396538644a7a4367747458525a79486e2f",
+        "observed_at": "2026-09-19T05:46:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【展示】AD:PIANO IV monochrome",
+        "version_evidence": "闲鱼详情页标题锁定 AD:PIANO IV monochrome，正文写明中古成色；页面标价 721 CNY、存储介质为 CD。该页明确是“展示”而非明确在售，不能据此判定当前可采购。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 721.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=882991778202&categoryId=126864811",
+        "observed_at": "2026-09-19T05:46:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/45-981b5b6da481374d.webp"
     }
   ],
   "single_observed_records": [
@@ -3606,26 +3635,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
-    },
-    {
-      "reference_product_id": 45,
-      "stable_key": "sample:981b5b6da481374d1d95f70c25288f36624dda6915ad0fc2f33f74742426b3ca",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "AD:PIANO IV -monochrome- / DIVERSE SYSTEM",
-        "version_evidence": "DVSP-0167; 2016-12-31; 2-disc pressed CD; exact monochrome IV edition, not other AD:PIANO volumes",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 12164.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4c6357756448396538644a7a4367747458525a79486e2f",
-        "observed_at": "2026-09-14T18:47:34Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/45-981b5b6da481374d.webp"
     },
     {
       "reference_product_id": 46,
