@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:49:15+08:00",
+  "generated_at": "2026-09-19T19:55:17+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 81 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 86 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 82 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 87 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 78,
-    "both_observed_count": 81,
+    "both_found_count": 79,
+    "both_observed_count": 82,
     "single_observed_count": 12,
-    "wameiji_platform_found_count": 86,
+    "wameiji_platform_found_count": 87,
     "found_any_count": 102,
     "not_currently_listed_both_count": 22
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 77
+      "count": 78
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 12
+      "count": 11
     },
     {
       "wameiji": "price_unfavorable",
@@ -50,6 +50,34 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 78,
+      "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
+      "wameiji": {
+        "title": "[新品未開封]Hikaru Utada - This Is The One LP",
+        "version_evidence": "挖煤姬当前详情页明确为 Utada《This Is The One》生产限定 180g 重量盘 LP；商品状态未使用，说明写明为 2026 年重制生产限定盘。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 130000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393438313535303037372f",
+        "observed_at": "2026-09-19T11:55:17Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "宇多田光《This Is The One》日版黑胶LP，环球首版，重量盘，全新未拆封，四角尖尖，品相完美。",
+        "version_evidence": "闲鱼当前详情页明确为《This Is The One》日版环球首版重量盘 LP；全新未拆封、四角尖尖、带额外封套，存储介质为 LP 黑胶唱片，标价 620 CNY。详情未展示目录号或 JAN。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 620.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.22.3c146913PToQyl&id=1075799771529&categoryId=126864811",
+        "observed_at": "2026-09-19T11:55:17Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
     {
       "reference_product_id": 42,
       "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
@@ -2311,6 +2339,34 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 78,
+      "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
+      "wameiji": {
+        "title": "[新品未開封]Hikaru Utada - This Is The One LP",
+        "version_evidence": "挖煤姬当前详情页明确为 Utada《This Is The One》生产限定 180g 重量盘 LP；商品状态未使用，说明写明为 2026 年重制生产限定盘。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 130000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393438313535303037372f",
+        "observed_at": "2026-09-19T11:55:17Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "宇多田光《This Is The One》日版黑胶LP，环球首版，重量盘，全新未拆封，四角尖尖，品相完美。",
+        "version_evidence": "闲鱼当前详情页明确为《This Is The One》日版环球首版重量盘 LP；全新未拆封、四角尖尖、带额外封套，存储介质为 LP 黑胶唱片，标价 620 CNY。详情未展示目录号或 JAN。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 620.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.22.3c146913PToQyl&id=1075799771529&categoryId=126864811",
+        "observed_at": "2026-09-19T11:55:17Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
     {
       "reference_product_id": 42,
       "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
@@ -5503,38 +5559,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 78,
-      "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "宇多田ヒカル This Is The One 日版180gアナログLP",
-        "version_evidence": "以艺人、专辑、模拟盘、180g精确检索，当前无结果",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB%20This%20Is%20The%20One%20%E3%82%A2%E3%83%8A%E3%83%AD%E3%82%B0%20180g",
-        "observed_at": "2026-09-14T04:10:23Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "宇多田光 This Is The One 日版180g限定LP（首版错版）",
-        "version_evidence": "1LP、180g、首版错版；卖家陈述全新未拆，收录Come Back To Me / Merry Christmas Mr. Lawrence等",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 199.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Utada%20This%20Is%20The%20One%20180g%20%E6%97%A5%E7%89%88%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T04:10:11Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
