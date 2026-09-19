@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T20:31:42+08:00",
+  "generated_at": "2026-09-19T20:37:34+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、15 条单边待补观察中，挖煤姬页面已复核 90 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、16 条单边待补观察中，挖煤姬页面已复核 91 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 15,
-    "wameiji_platform_found_count": 90,
-    "found_any_count": 104,
-    "not_currently_listed_both_count": 19
+    "single_observed_count": 16,
+    "wameiji_platform_found_count": 91,
+    "found_any_count": 105,
+    "not_currently_listed_both_count": 18
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 7
+      "count": 8
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 19
+      "count": 18
     },
     {
       "wameiji": "price_unfavorable",
@@ -4848,6 +4848,25 @@
       }
     },
     {
+      "reference_product_id": 73,
+      "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray",
+        "version_evidence": "挖煤姬当前详情页标题为《ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray》；商品介绍明确为 Blu-ray特装盤 Amazon限定版，写明新品未開封，商品状态未使用，价格15,000日元，可加入购物车和立即购买。样本中的初回特装版BD与该特装盘媒介和限定形态一致，但附件清单仍需下单前复核。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 15000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35333438363636383437322f",
+        "observed_at": "2026-09-19T13:00:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
       "reference_product_id": 3,
       "stable_key": "sample:9b672eed92a617aaac757676f4d939f1602c08f8649bbdafaa72e2436f7764dc",
       "available_market": "xianyu",
@@ -5573,38 +5592,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E6%99%93%E4%B9%8B%E6%8A%A4%E5%8D%AB%20%E7%AD%BE%E5%90%8D%E6%B5%B7%E6%8A%A5%20%E5%8D%A1",
         "observed_at": "2026-09-14T03:49:36Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 73,
-      "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "ポケモン feat. 初音ミク Project VOLTAGE Live! 初回特装版 Blu-ray",
-        "version_evidence": "源图为特装整套；在挖煤姬使用日文全名与Blu-ray精确检索，当前结果为空",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%20feat.%20%E5%88%9D%E9%9F%B3%E3%83%9F%E3%82%AF%20VOLTAGE%20Live%20%E5%88%9D%E5%9B%9E%E7%89%B9%E8%A3%85%E7%89%88%20Blu-ray",
-        "observed_at": "2026-09-14T04:02:13Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "宝可梦 feat. 初音未来 VOLTAGE Live! 初回特装版 BD",
-        "version_evidence": "源图为初回特装整套：BD、亚克力立牌2、明信片18、纪念册、特装外盒与金色票根特典；精确检索无结果",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E5%AE%9D%E5%8F%AF%E6%A2%A6%20feat.%20%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5%20VOLTAGE%20Live%20%E5%88%9D%E5%9B%9E%E7%89%B9%E8%A3%85%E7%89%88%20BD",
-        "observed_at": "2026-09-14T04:01:58Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
