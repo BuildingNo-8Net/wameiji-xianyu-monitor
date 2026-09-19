@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T23:04:39+08:00",
+  "generated_at": "2026-09-19T23:14:19+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -5638,26 +5638,26 @@
       "xianyu_state": "not_currently_listed",
       "wameiji": {
         "title": "暁の護衛 署名色紙＋特典カード套组",
-        "version_evidence": "人工Chrome精确日文检索未见同一署名色纸/特典卡组合；仅有其他暁の護衛複製原画、複製色紙等，不能等同。",
+        "version_evidence": "人工Chrome复核精确检索「暁の護衛 直筆サイン 色紙 特典カード」及扩大检索「暁の護衛 色紙／直筆色紙」；当前结果只有柊朱美、南城薫等複製イラスト色紙、二階堂麗華複製色紙及其他周边，未见样本图中群像签名色纸＋小卡的同一具体页，不能以近似品代替。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E7%9B%B4%E7%AD%86%E3%82%B5%E3%82%A4%E3%83%B3%20%E8%89%B2%E7%B4%99%20%E7%89%B9%E5%85%B8%E3%82%AB%E3%83%BC%E3%83%89",
-        "observed_at": "2026-09-14T03:49:38Z",
-        "marketplace_host": "jp.mercari.com",
+        "source_url": "https://www.meruki.cn/search?keywords=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B+%E7%9B%B4%E7%AD%86%E8%89%B2%E7%B4%99",
+        "observed_at": "2026-09-19T15:14:19Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
       },
       "xianyu": {
         "title": "晓之护卫 签名海报＋附卡套组",
-        "version_evidence": "人工Chrome精确中文检索未找到当前同一签名海报加卡套组；结果只有无关或其他作品。样本截图为已卖掉的历史条目。",
+        "version_evidence": "人工Chrome复核精确检索「晓之护卫 签名海报 特典卡」未找到当前结果；扩大检索「晓之护卫 色纸」只见南条薰、柊珠美等普通色纸/特典色纸，检索「晓之护卫 签名」仅见续作《Reminiscence》整盒及签名复制色纸（¥500），不是样本图中的群像签名海报＋附卡。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E6%99%93%E4%B9%8B%E6%8A%A4%E5%8D%AB%20%E7%AD%BE%E5%90%8D%E6%B5%B7%E6%8A%A5%20%E5%8D%A1",
-        "observed_at": "2026-09-14T03:49:36Z",
+        "source_url": "https://www.goofish.com/search?q=%E6%99%93%E4%B9%8B%E6%8A%A4%E5%8D%AB%20%E7%AD%BE%E5%90%8D%E6%B5%B7%E6%8A%A5%20%E7%89%B9%E5%85%B8%E5%8D%A1",
+        "observed_at": "2026-09-19T15:14:19Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
