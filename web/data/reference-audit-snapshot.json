@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T21:20:00+08:00",
+  "generated_at": "2026-09-19T21:45:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、17 条单边待补观察中，挖煤姬页面已复核 92 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、18 条单边待补观察中，挖煤姬页面已复核 93 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 17,
-    "wameiji_platform_found_count": 92,
-    "found_any_count": 106,
-    "not_currently_listed_both_count": 17
+    "single_observed_count": 18,
+    "wameiji_platform_found_count": 93,
+    "found_any_count": 107,
+    "not_currently_listed_both_count": 16
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 9
+      "count": 10
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 17
+      "count": 16
     },
     {
       "wameiji": "price_unfavorable",
@@ -5102,6 +5102,26 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
+    },
+    {
+      "reference_product_id": 67,
+      "stable_key": "sample:70b6fec6c7a329499ccbe3eb52ac7203378bff89a3e09cefafbba3ea952f3df1",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【中古】同人音楽CDソフト 自棄酒金魚掬い / 犬丸芝居小屋",
+        "version_evidence": "人工 Chrome 挖煤姬详情页核到 YKS-001；页面明确犬丸芝居小屋、压制 CD、附压制 DVD 的 2 枚组，品相为没有明显的损伤或污渍，价格19,566日元，并显示可加入购物车和立即购买。",
+        "catalog_no": "YKS-001",
+        "barcode": null,
+        "price": 19566.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576b6b5a4341736a384b764c6f414772333735622f",
+        "observed_at": "2026-09-19T13:45:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/67-70b6fec6c7a32949.webp"
     }
   ],
   "unavailable_records": [
@@ -5516,38 +5536,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E3%81%8B%E3%81%84%E3%82%8A%E3%81%8D%E3%83%99%E3%82%A2%20FOAM%20CHAM%20SCGA00092%204562424561162",
         "observed_at": "2026-09-14T18:17:47Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 67,
-      "stable_key": "sample:70b6fec6c7a329499ccbe3eb52ac7203378bff89a3e09cefafbba3ea952f3df1",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "犬丸芝居小屋 — 白菊酒金魚掬い",
-        "version_evidence": "Japanese doujin CD; reference shown is the physical disc with obi, and must not be replaced by goldfish-themed non-music goods",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E7%8A%AC%E4%B8%B8%E8%8A%9D%E5%B1%85%E5%B0%8F%E5%B1%8B%20%E7%99%BD%E8%8F%8A%E9%85%92%E9%87%91%E9%AD%9A%E6%8E%AC%E3%81%84",
-        "observed_at": "2026-09-14T18:44:36Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "犬丸芝居小屋 — 白菊酒金魚掬い",
-        "version_evidence": "Japanese doujin CD; reference shown is the physical disc with obi, and must not be replaced by goldfish-themed non-music goods",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E7%8A%AC%E4%B8%B8%E8%8A%9D%E5%B1%85%E5%B0%8F%E5%B1%8B%20%E7%99%BD%E8%8F%8A%E9%85%92%20%E9%87%91%E9%AD%9A",
-        "observed_at": "2026-09-14T18:44:36Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
