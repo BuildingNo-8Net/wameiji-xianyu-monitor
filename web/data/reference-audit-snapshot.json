@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:07:12+08:00",
+  "generated_at": "2026-09-19T14:11:12+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 71 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 72 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 64,
-    "both_observed_count": 71,
-    "single_observed_count": 13,
+    "both_found_count": 65,
+    "both_observed_count": 72,
+    "single_observed_count": 12,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 64
+      "count": 65
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 15
+      "count": 14
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 110,
+      "stable_key": "sample:51bb9ee0ad79a92236e6d2bd7a5b94f28ff66ac9fcff526a34e260ac1546d779",
+      "wameiji": {
+        "title": "月を歩いている(初回生産限定盤)",
+        "version_evidence": "挖煤姬详情锁定三方背套、n-buna 原作童话《花の咲いたカエル》附录、JAN 4571192993532、DUED1174、CD 1 枚。",
+        "catalog_no": "DUED1174",
+        "barcode": "4571192993532",
+        "price": 11550.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/market/detail/561762539112112129?shopid=150214744753020928",
+        "observed_at": "2026-09-14T17:24:05Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【现货】n-buna 月上漫步月を歩いている CD 初回盘",
+        "version_evidence": "闲鱼详情为 n-buna《月を歩いている》CD 初回盘，现货，标价区间 175–375 CNY；页面未展示 DUED1174、三方背或童话附录，初回限定版的具体附件需后续向卖家确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 175.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1075876239026&categoryId=126864811",
+        "observed_at": "2026-09-19T06:11:12Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/110-51bb9ee0ad79a922.webp"
+    },
     {
       "reference_product_id": 79,
       "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
@@ -1908,6 +1937,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 110,
+      "stable_key": "sample:51bb9ee0ad79a92236e6d2bd7a5b94f28ff66ac9fcff526a34e260ac1546d779",
+      "wameiji": {
+        "title": "月を歩いている(初回生産限定盤)",
+        "version_evidence": "挖煤姬详情锁定三方背套、n-buna 原作童话《花の咲いたカエル》附录、JAN 4571192993532、DUED1174、CD 1 枚。",
+        "catalog_no": "DUED1174",
+        "barcode": "4571192993532",
+        "price": 11550.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/market/detail/561762539112112129?shopid=150214744753020928",
+        "observed_at": "2026-09-14T17:24:05Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【现货】n-buna 月上漫步月を歩いている CD 初回盘",
+        "version_evidence": "闲鱼详情为 n-buna《月を歩いている》CD 初回盘，现货，标价区间 175–375 CNY；页面未展示 DUED1174、三方背或童话附录，初回限定版的具体附件需后续向卖家确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 175.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1075876239026&categoryId=126864811",
+        "observed_at": "2026-09-19T06:11:12Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/110-51bb9ee0ad79a922.webp"
+    },
     {
       "reference_product_id": 79,
       "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
@@ -4168,26 +4226,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/107-a30bbb3f193ff984.webp"
-    },
-    {
-      "reference_product_id": 110,
-      "stable_key": "sample:51bb9ee0ad79a92236e6d2bd7a5b94f28ff66ac9fcff526a34e260ac1546d779",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "月を歩いている(初回生産限定盤)",
-        "version_evidence": "三方背スリーブ、n-buna原作オリジナル童話「花の咲いたカエル」付；JAN 4571192993532；規格品番 DUED1174；CD 1枚組",
-        "catalog_no": "DUED1174",
-        "barcode": "4571192993532",
-        "price": 11550.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/market/detail/561762539112112129?shopid=150214744753020928",
-        "observed_at": "2026-09-14T17:24:05Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/110-51bb9ee0ad79a922.webp"
     },
     {
       "reference_product_id": 111,
