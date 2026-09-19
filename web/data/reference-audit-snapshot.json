@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T18:50:00+08:00",
+  "generated_at": "2026-09-19T18:56:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、7 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、8 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 76,
     "both_observed_count": 79,
-    "single_observed_count": 7,
+    "single_observed_count": 8,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
@@ -4686,6 +4686,26 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/41-24d2cce2c61c113f.webp"
+    },
+    {
+      "reference_product_id": 47,
+      "stable_key": "sample:992eddc9105c5a3ebf798879cd95fab61122c2eee2e54933b9237ce7de1fe1a6",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "Fate EXTRA Last Encore 月と花束 主题曲 CD+DVD 酸欠少女 さユり",
+        "version_evidence": "闲鱼详情页明确为 Fate/EXTRA Last Encore 主题曲《月と花束》，初回限定 CD+DVD，页面标注全新、有特典、日版正版、有日本购入记录；当前价格150 CNY包邮。人工核验到具体闲鱼商品页。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 150.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=849019159158&categoryId=126864811",
+        "observed_at": "2026-09-19T10:56:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/47-992eddc9105c5a3e.webp"
     }
   ],
   "unavailable_records": [
@@ -5103,38 +5123,6 @@
         "marketplace_host": "",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 47,
-      "stable_key": "sample:992eddc9105c5a3ebf798879cd95fab61122c2eee2e54933b9237ce7de1fe1a6",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "さユり 月と花束 / Fate/EXTRA Last Encore ED",
-        "version_evidence": "先以作品+艺人精确检索、再以“さユり 月と花束”核验，均未显示当前商品卡片。样本身份由封面标签与闲鱼精确结果交叉确认；初回版含CD+DVD。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/search?keyword=%E3%81%95%E3%83%A6%E3%82%8A%20%E6%9C%88%E3%81%A8%E8%8A%B1%E6%9D%9F",
-        "observed_at": "2026-09-14T03:24:42Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "Fate EXTRA Last Encore 月と花束 主题曲 CD+DVD / さユり",
-        "version_evidence": "精确结果有同款初回CD+DVD；一条称日版原装、带侧标、含CD/DVD/特典小卡、包邮，标价198。另有全新带特典包邮150和若干代购，未混为同一可比项。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 198.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Fate%20EXTRA%20Last%20Encore%20%E6%9C%88%E3%81%A8%E8%8A%B1%E6%9D%9F%20%E3%81%95%E3%83%A6%E3%82%8A",
-        "observed_at": "2026-09-14T03:24:44Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
