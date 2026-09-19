@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T12:12:13+08:00",
+  "generated_at": "2026-09-19T12:16:15+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 52 条双侧实物观察、32 条单边待补观察中，挖煤姬页面已复核 76 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 53 条双侧实物观察、31 条单边待补观察中，挖煤姬页面已复核 77 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 50,
-    "both_observed_count": 52,
-    "single_observed_count": 32,
-    "wameiji_platform_found_count": 76,
+    "both_found_count": 51,
+    "both_observed_count": 53,
+    "single_observed_count": 31,
+    "wameiji_platform_found_count": 77,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 50
+      "count": 51
     },
     {
       "wameiji": "found",
@@ -1499,6 +1499,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/70-2f55489119f038fd.webp"
+    },
+    {
+      "reference_product_id": 80,
+      "stable_key": "sample:d8a57e0ec747ed8171d21536aa5bc89840f690aa977e5226465dfc842917dec4",
+      "wameiji": {
+        "title": "【中古】アニメ系CD EGOIST / GREATEST HITS 2011-2017 ALTER EGO[完全生産限定盤]",
+        "version_evidence": "挖煤姬详情：型番 VVCL-1148，发行日 2017/12/27，完全生产限定盘；CD＋Blu-ray，Blu-ray 曲目与 EGOIST 代表曲及 MV 列表一致，商品页标注中古、无明显损伤或污渍。",
+        "catalog_no": "VVCL-1148",
+        "barcode": null,
+        "price": 9795.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a577054786671344b7a446979696878684d6145682f",
+        "observed_at": "2026-09-19T04:16:15Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "EGOIST GREATEST HITS 2011－2017 ALTER EGO 专辑 CD 完全生产限定 CD+Blu-ray 狗牌",
+        "version_evidence": "闲鱼详情明确为 EGOIST《GREATEST HITS 2011－2017 ALTER EGO》完全生产限定、CD+Blu-ray，狗牌全新未拆封、有侧封、东西齐全、成色很新；价格 650 CNY。与挖煤姬 VVCL-1148 规格同形态，详情未显示目录号。",
+        "catalog_no": "VVCL-1148",
+        "barcode": null,
+        "price": 650.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=932642096275&categoryId=126864811",
+        "observed_at": "2026-09-19T04:16:15Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/80-d8a57e0ec747ed81.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -3009,6 +3038,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/70-2f55489119f038fd.webp"
+    },
+    {
+      "reference_product_id": 80,
+      "stable_key": "sample:d8a57e0ec747ed8171d21536aa5bc89840f690aa977e5226465dfc842917dec4",
+      "wameiji": {
+        "title": "【中古】アニメ系CD EGOIST / GREATEST HITS 2011-2017 ALTER EGO[完全生産限定盤]",
+        "version_evidence": "挖煤姬详情：型番 VVCL-1148，发行日 2017/12/27，完全生产限定盘；CD＋Blu-ray，Blu-ray 曲目与 EGOIST 代表曲及 MV 列表一致，商品页标注中古、无明显损伤或污渍。",
+        "catalog_no": "VVCL-1148",
+        "barcode": null,
+        "price": 9795.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a577054786671344b7a446979696878684d6145682f",
+        "observed_at": "2026-09-19T04:16:15Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "EGOIST GREATEST HITS 2011－2017 ALTER EGO 专辑 CD 完全生产限定 CD+Blu-ray 狗牌",
+        "version_evidence": "闲鱼详情明确为 EGOIST《GREATEST HITS 2011－2017 ALTER EGO》完全生产限定、CD+Blu-ray，狗牌全新未拆封、有侧封、东西齐全、成色很新；价格 650 CNY。与挖煤姬 VVCL-1148 规格同形态，详情未显示目录号。",
+        "catalog_no": "VVCL-1148",
+        "barcode": null,
+        "price": 650.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=932642096275&categoryId=126864811",
+        "observed_at": "2026-09-19T04:16:15Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/80-d8a57e0ec747ed81.webp"
     }
   ],
   "single_observed_records": [
@@ -3391,26 +3449,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/79-9858d2501be30c42.webp"
-    },
-    {
-      "reference_product_id": 80,
-      "stable_key": "sample:d8a57e0ec747ed8171d21536aa5bc89840f690aa977e5226465dfc842917dec4",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "EGOIST / GREATEST HITS 2011-2017 ALTER EGO [完全生産限定盤]",
-        "version_evidence": null,
-        "catalog_no": "VVCL-1148",
-        "barcode": null,
-        "price": 9795.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d6e6b6f337158426e354433474b37485351572f",
-        "observed_at": "2026-09-14T18:02:24Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/80-d8a57e0ec747ed81.webp"
     },
     {
       "reference_product_id": 81,
