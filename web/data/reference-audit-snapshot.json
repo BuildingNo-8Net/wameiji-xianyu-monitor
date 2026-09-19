@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T23:46:47+08:00",
+  "generated_at": "2026-09-19T23:52:20+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、24 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -5401,27 +5401,27 @@
       "wameiji_state": "not_currently_listed",
       "xianyu_state": "not_currently_listed",
       "wameiji": {
-        "title": "CAUCASUS Miki Sugina Artworks exact search: no current item card",
-        "version_evidence": "人工Chrome精确检索《CAUCASUS Miki Sugina Artworks》；结果为无关的Caucasus音乐CD、普通画作/海报及展览图录，没有目标杉菜水姫画集具体页，排除相近词。",
+        "title": "CAUCASUS Miki Sugina Artworks exact and Japanese-author searches: no current item card",
+        "version_evidence": "人工Chrome打开挖煤姬检索「CAUCASUS Miki Sugina Artworks」「杉菜水姫 画集」「CAUCASUS 杉菜水姫」「七凭之祭 杉菜水姫」；只见同作者《花葬》作品第二集、电话卡/其他画集或无关商品，没有样本照片对应的 CAUCASUS/七凭之祭实体画集具体页，排除近似版本。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
         "source_url": "https://www.meruki.cn/search?keywords=CAUCASUS%20Miki%20Sugina%20Artworks",
-        "observed_at": "2026-09-19T14:23:59Z",
+        "observed_at": "2026-09-19T15:52:20Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "state": "not_currently_listed"
       },
       "xianyu": {
-        "title": "CAUCASUS Miki Sugina Artworks exact search: no matching listing",
-        "version_evidence": "人工Chrome精确检索页面显示小闲鱼没有找到你想要的宝贝；推荐流为无关手办、cos、米津玄师等，未记录为样本画集。",
+        "title": "CAUCASUS / 七凭之祭 杉菜水姫 broad search: no matching physical artbook",
+        "version_evidence": "人工Chrome打开闲鱼检索「CAUCASUS Miki Sugina Artworks」「杉菜水姫 画集」「七凭之祭 杉菜水姫」；英文精确检索无结果，作者检索出现《濡烏》实体书但不是样本 CAUCASUS，七凭之祭结果为四种画集百度网盘电子版及《白雪》游戏本体，未见样本照片对应的实体画集，排除电子版和游戏。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=CAUCASUS%20Miki%20Sugina%20Artworks",
-        "observed_at": "2026-09-19T14:24:04Z",
+        "observed_at": "2026-09-19T15:52:20Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
