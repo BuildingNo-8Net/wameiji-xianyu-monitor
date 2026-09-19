@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T12:25:00+08:00",
+  "generated_at": "2026-09-19T13:05:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 55 条双侧实物观察、29 条单边待补观察中，挖煤姬页面已复核 79 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧实物观察、28 条单边待补观察中，挖煤姬页面已复核 79 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 53,
-    "both_observed_count": 55,
-    "single_observed_count": 29,
+    "both_found_count": 54,
+    "both_observed_count": 56,
+    "single_observed_count": 28,
     "wameiji_platform_found_count": 79,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 53
+      "count": 54
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 17
+      "count": 16
     },
     {
       "wameiji": "price_unfavorable",
@@ -1586,9 +1586,67 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/101-f563e120e9993f33.webp"
+    },
+    {
+      "reference_product_id": 124,
+      "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
+      "wameiji": {
+        "title": "棘ナシ (完全生産限定アナログレコード盤) / トゲナシトゲアリ",
+        "version_evidence": "挖煤姬详情锁定 2nd album 棘ナシ、UMJK-9162、JAN 4988031862438、2026-08-19、完全生产限定模拟唱片；1LP、12曲目，含棘ナシ封面图案贴纸。",
+        "catalog_no": "UMJK-9162",
+        "barcode": "4988031862438",
+        "price": 5500.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fakaikumasan%2F4988031862438%2F",
+        "observed_at": "2026-09-19T05:05:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费",
+        "version_evidence": "闲鱼详情明确为《无刺》第二张专辑完全生产限定模拟唱片盘，LP黑胶、附《无刺》唱片封面图案贴纸，全新，标价 289 CNY；页面未展示目录号，按标题与版本描述与 UMJK-9162 对照记录。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 289.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1038997634344&categoryId=0",
+        "observed_at": "2026-09-19T05:05:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/124-104ad8079b2b1674.webp"
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 124,
+      "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
+      "wameiji": {
+        "title": "棘ナシ (完全生産限定アナログレコード盤) / トゲナシトゲアリ",
+        "version_evidence": "挖煤姬详情锁定 2nd album 棘ナシ、UMJK-9162、JAN 4988031862438、2026-08-19、完全生产限定模拟唱片；1LP、12曲目，含棘ナシ封面图案贴纸。",
+        "catalog_no": "UMJK-9162",
+        "barcode": "4988031862438",
+        "price": 5500.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fakaikumasan%2F4988031862438%2F",
+        "observed_at": "2026-09-19T05:05:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费",
+        "version_evidence": "闲鱼详情明确为《无刺》第二张专辑完全生产限定模拟唱片盘，LP黑胶、附《无刺》唱片封面图案贴纸，全新，标价 289 CNY；页面未展示目录号，按标题与版本描述与 UMJK-9162 对照记录。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 289.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1038997634344&categoryId=0",
+        "observed_at": "2026-09-19T05:05:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/124-104ad8079b2b1674.webp"
+    },
     {
       "reference_product_id": 4,
       "stable_key": "sample:2ab9b3aa29d6a05cfaaf3b6497f8ba709e3fbd135fb92451f5ae383cc3312334",
@@ -3745,26 +3803,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/120-633c50493ed8741f.webp"
-    },
-    {
-      "reference_product_id": 124,
-      "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "棘ナシ (完全生産限定アナログレコード盤) / トゲナシトゲアリ",
-        "version_evidence": "Manual detail locks sample as 2nd album 棘ナシ (not sibling 棘アリ): UMJK-9162, JAN 4988031862438, 2026-08-19, complete-production limited analog. One LP with 12 named tracks and 棘ナシ record-jacket artwork sticker.",
-        "catalog_no": "UMJK-9162",
-        "barcode": "4988031862438",
-        "price": 5500.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fakaikumasan%2F4988031862438%2F",
-        "observed_at": "2026-09-14T18:23:13Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/124-104ad8079b2b1674.webp"
     }
   ]
 }
