@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T02:52:22+08:00",
+  "generated_at": "2026-09-20T02:57:10+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 96 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 100 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 97 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 96,
+    "both_observed_count": 97,
     "single_observed_count": 13,
-    "wameiji_platform_found_count": 100,
+    "wameiji_platform_found_count": 101,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
   },
@@ -5193,6 +5193,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
+    },
+    {
+      "reference_product_id": 100,
+      "stable_key": "sample:b48c761166295009614f7ec087051ca05bc893ea7783f6f13aef65b7ff87478b",
+      "wameiji": {
+        "title": "あいみょん / 青春のエキサイトメント（数量限定盤／180g重量盤／カラーヴァイナル） [レコード 12inch]",
+        "version_evidence": "人工 Chrome 挖煤姬当前详情页核到爱缪《青春のエキサイトメント》数量限定 180g 彩胶 2LP；页面为新品、5,940 日元，可加入购物车/立即购买。商品说明明确为出道10周年纪念、2枚组180克重量盘、彩色胶，并写明首批附 Aimyon 10th Anniversary CARD；规格表列出 WPJL-10295/6、JAN 4943674436231、2026 年。",
+        "catalog_no": "WPJL-10295/6",
+        "barcode": "4943674436231",
+        "price": 5940.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fguruguru2%2Fwpjl-10295%2F",
+        "observed_at": "2026-09-20T02:57:10+08:00",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【黑胶】爱缪 黑胶 LP 彩胶 Aimyon 首专 青春のエキサイトメント 日版原版 10周年纪念限定黑胶 2LP 180g重量盘",
+        "version_evidence": "人工 Chrome 闲鱼当前详情页明确为《青春のエキサイトメント》日版原版 10周年纪念限定 2LP 180g 重量盘；描述写明含 Aimyon 10th Anniversary CARD、国内现货、实物拍摄，存储介质为 LP 黑胶唱片，活动价 359 CNY（页面另示直接买 378 CNY），可立即购买。与挖煤姬详情的 2LP/180g/彩胶/10周年卡片规格一致；页面未展示目录号，因此作为双侧实物观察，不当作条码证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 359.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1055604036792&categoryId=126864811",
+        "observed_at": "2026-09-20T02:57:10+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/100-b48c761166295009.webp"
     }
   ],
   "single_observed_records": [
