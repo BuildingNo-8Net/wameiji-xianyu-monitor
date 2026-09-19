@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T23:14:19+08:00",
+  "generated_at": "2026-09-19T23:21:57+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -5285,27 +5285,27 @@
       "wameiji_state": "not_currently_listed",
       "xianyu_state": "not_currently_listed",
       "wameiji": {
-        "title": "Whiterium Laur 2025 M3",
-        "version_evidence": "Manual exact-title Wameiji query with in-stock-only filter returned no results for the target Laur 2025 Spring M3 Whiterium CD.",
+        "title": "Whiterium Laur 2025 M3 新专＋插画集",
+        "version_evidence": "人工Chrome复核「Whiterium Laur 2025 M3 CD」及单独「Whiterium」「Laur2025」；挖煤姬当前结果均为无关商品，未见对应 Whiterium Laur 2025 春 M3 CD／插画集具体页。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://meruki.cn/search?keywords=Whiterium%20Laur%202025%20M3&website=mercari",
-        "observed_at": "2026-09-14T18:59:05Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/search?keywords=Whiterium+Laur+2025+M3+CD",
+        "observed_at": "2026-09-19T15:21:57Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "state": "not_currently_listed"
       },
       "xianyu": {
         "title": "[等待官方补货] Whiterium Laur2025春M3 新专 专辑CD",
-        "version_evidence": "Exact Whiterium/Laur/2025 Spring M3 title appears, but the only Xianyu listing explicitly says waiting for official restock, not in stock, with estimated delivery 12-25 days after purchase. It cannot count as currently available domestic stock.",
+        "version_evidence": "人工Chrome当前闲鱼精确结果为 Whiterium Laur2025春 M3 新专专辑CD，挂牌价 126.80 CNY；卖家明确写「等待官方补货」「非现货」「拍下后预计12~25天内到货」。样本照片是 CD＋插画集套组，因此仅保留为相关观察，不视为当前现货或同套组。",
         "catalog_no": null,
         "barcode": null,
         "price": 126.8,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=915704660051&categoryId=126864811",
-        "observed_at": "2026-09-14T18:59:05Z",
+        "observed_at": "2026-09-19T15:21:57Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
