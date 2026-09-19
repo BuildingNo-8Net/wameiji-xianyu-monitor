@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T23:21:57+08:00",
+  "generated_at": "2026-09-19T23:40:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -5317,27 +5317,27 @@
       "wameiji_state": "not_currently_listed",
       "xianyu_state": "not_currently_listed",
       "wameiji": {
-        "title": "ヨスガノソラ VISUAL ART COLLECTION 春日野穹 exact search: no current item card",
-        "version_evidence": "人工Chrome精确检索未找到目标《缘之空 / Yosuga no Sora VISUAL ART COLLECTION》画集；页面结果为蓝光/DVD等不同媒介替代品，排除。",
+        "title": "ヨスガノソラ VISUAL ART COLLECTION exact search: only Blu-ray/DVD results",
+        "version_evidence": "人工Chrome在挖煤姬当前精确检索「ヨスガノソラ VISUAL ART COLLECTION」；结果仅出现 Yosuga No Sora 蓝光进口盘（Rakuma，14,672–20,787日元）等不同媒介，没有目标 VISUAL ART COLLECTION 画集实物商品页，排除不同媒介。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=%E3%83%A8%E3%82%B9%E3%82%AC%E3%83%8E%E3%82%BD%E3%83%A9+VISUAL+ART+COLLECTION+%E6%98%A5%E6%97%A5%E9%87%8E%E7%A9%B9",
-        "observed_at": "2026-09-19T14:10:00Z",
+        "source_url": "https://www.meruki.cn/search?keywords=%E3%83%A8%E3%82%B9%E3%82%AC%E3%83%8E%E3%82%BD%E3%83%A9+VISUAL+ART+COLLECTION",
+        "observed_at": "2026-09-19T15:40:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "state": "not_currently_listed"
       },
       "xianyu": {
-        "title": "缘之空 VISUAL ART COLLECTION 画集 春日野穹 exact search: no matching listing",
-        "version_evidence": "人工Chrome精确检索页面明确显示“小闲鱼没有找到你想要的宝贝”；推荐流为无关手办、黑胶等，未记录为样本商品。",
+        "title": "缘之空 画集 broad search: physical books are different editions",
+        "version_evidence": "人工Chrome精确检索「缘之空 VISUAL ART COLLECTION」无结果；宽检索「缘之空 画集」出现《缘之空》精装珍藏画集（约40–101元）、设定资料集、原画集等不同版本，另有电子资源，均未能核到样本照片同款非卖品 VISUAL ART COLLECTION 画集，因此不冒充匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E7%BC%98%E4%B9%8B%E7%A9%BA%20VISUAL%20ART%20COLLECTION%20%E7%94%BB%E9%9B%86%20%E6%98%A5%E6%97%A5%E9%87%8E%E7%A9%B9",
-        "observed_at": "2026-09-19T14:10:05Z",
+        "source_url": "https://www.goofish.com/search?q=%E7%BC%98%E4%B9%8B%E7%A9%BA%20%E7%94%BB%E9%9B%86",
+        "observed_at": "2026-09-19T15:40:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
