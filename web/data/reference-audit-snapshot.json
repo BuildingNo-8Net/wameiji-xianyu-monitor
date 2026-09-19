@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T18:34:00+08:00",
+  "generated_at": "2026-09-19T18:38:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、4 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、5 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 76,
     "both_observed_count": 79,
-    "single_observed_count": 4,
+    "single_observed_count": 5,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
@@ -4626,6 +4626,26 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/22-f1e63661cafe1b.webp"
+    },
+    {
+      "reference_product_id": 23,
+      "stable_key": "sample:bfc90e9b128fa3d4c8efe17418140cc28d0daf47266d6cc99ed95f36bace7467",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "fripSide南条爱乃 black bullet 漆黑的子弹 cd+dvd 初回限定版 未拆",
+        "version_evidence": "闲鱼详情页标题明确为 black bullet/漆黑的子弹、CD+DVD、初回限定版、未拆；储存介质显示 CD；页面当前价格62 CNY。人工核验到具体闲鱼商品页，未把未展示的附件或品相细节额外推断。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 62.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1057067067942&categoryId=126864811",
+        "observed_at": "2026-09-19T10:38:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/23-bfc90e9b128fa3d.webp"
     }
   ],
   "unavailable_records": [
@@ -4659,38 +4679,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 23,
-      "stable_key": "sample:bfc90e9b128fa3d4c8efe17418140cc28d0daf47266d6cc99ed95f36bace7467",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "fripSide black bullet CD DVD initial limited",
-        "version_evidence": "exact title search returned no listings",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=fripSide%20black%20bullet%20CD%20DVD%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%A4",
-        "observed_at": "2026-09-14T01:51:37Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "fripSide black bullet CD DVD initial limited edition sealed",
-        "version_evidence": "CD plus DVD; initial limited edition; unopened",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 62.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=fripSide%20black%20bullet%20CD%2BDVD%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-14T01:51:39Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
