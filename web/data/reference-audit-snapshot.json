@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:34:34+08:00",
+  "generated_at": "2026-09-19T14:39:26+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 77 条双侧实物观察、7 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 78 条双侧实物观察、6 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 70,
-    "both_observed_count": 77,
-    "single_observed_count": 7,
+    "both_found_count": 71,
+    "both_observed_count": 78,
+    "single_observed_count": 6,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 70
+      "count": 71
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 9
+      "count": 8
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 103,
+      "stable_key": "sample:cb00b6c6cd5b63e0d39026abdb442ca06d4341a559ba392b22369db364daf350",
+      "wameiji": {
+        "title": "星野源 Gen【生産限定アナログ盤】＜生産限定盤＞ LPレコード アルバム VIJL-60366/7",
+        "version_evidence": "挖煤姬 Rakuten 详情锁定星野源《Gen》生产限定双 LP，目录号 VIJL-60366/7、JAN 4988002948420；页面记录为 180g 重量盘 2LP。",
+        "catalog_no": "VIJL-60366/7",
+        "barcode": "4988002948420",
+        "price": 15800.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fneobest%2F4988002948420%2F",
+        "observed_at": "2026-09-19T06:39:26Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "现货 星野源 Gen 限定版 黑胶 LP 黑胶唱片 日版首版初回",
+        "version_evidence": "闲鱼详情明确为星野源《Gen》日版首版初回、180g 重量盘 2LP，曲目逐面列出并与样本专辑对应；标价区间 659–899 CNY。详情写明海报/特典可选且默认不含，需联系改价，不能默认计入附件。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 659.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=956287290182&categoryId=126864811",
+        "observed_at": "2026-09-19T06:39:26Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
+    },
     {
       "reference_product_id": 111,
       "stable_key": "sample:4b9d9eceb4d076317f12b55d9211e66f0e9d3b656ba4571db9f349b8741a3657",
@@ -2082,6 +2111,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 103,
+      "stable_key": "sample:cb00b6c6cd5b63e0d39026abdb442ca06d4341a559ba392b22369db364daf350",
+      "wameiji": {
+        "title": "星野源 Gen【生産限定アナログ盤】＜生産限定盤＞ LPレコード アルバム VIJL-60366/7",
+        "version_evidence": "挖煤姬 Rakuten 详情锁定星野源《Gen》生产限定双 LP，目录号 VIJL-60366/7、JAN 4988002948420；页面记录为 180g 重量盘 2LP。",
+        "catalog_no": "VIJL-60366/7",
+        "barcode": "4988002948420",
+        "price": 15800.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fneobest%2F4988002948420%2F",
+        "observed_at": "2026-09-19T06:39:26Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "现货 星野源 Gen 限定版 黑胶 LP 黑胶唱片 日版首版初回",
+        "version_evidence": "闲鱼详情明确为星野源《Gen》日版首版初回、180g 重量盘 2LP，曲目逐面列出并与样本专辑对应；标价区间 659–899 CNY。详情写明海报/特典可选且默认不含，需联系改价，不能默认计入附件。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 659.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=956287290182&categoryId=126864811",
+        "observed_at": "2026-09-19T06:39:26Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
+    },
     {
       "reference_product_id": 111,
       "stable_key": "sample:4b9d9eceb4d076317f12b55d9211e66f0e9d3b656ba4571db9f349b8741a3657",
@@ -4436,26 +4494,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/100-b48c761166295009.webp"
-    },
-    {
-      "reference_product_id": 103,
-      "stable_key": "sample:cb00b6c6cd5b63e0d39026abdb442ca06d4341a559ba392b22369db364daf350",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "星野源 Gen【生産限定アナログ盤】＜生産限定盤＞ LPレコード アルバム VIJL-60366/7",
-        "version_evidence": "Manual detail confirms domestic new 6th album Gen: VIJL-60366/7, JAN 4988002948420, production-limited two-heavyweight-LP configuration, 16 named tracks. No store or Rakuten special benefit is included.",
-        "catalog_no": "VIJL-60366/7",
-        "barcode": "4988002948420",
-        "price": 15800.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fneobest%2F4988002948420%2F",
-        "observed_at": "2026-09-14T18:25:14Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
     }
   ]
 }
