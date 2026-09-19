@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T03:55:23+08:00",
+  "generated_at": "2026-09-20T04:02:01+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、14 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
     "both_observed_count": 100,
-    "single_observed_count": 13,
+    "single_observed_count": 14,
     "wameiji_platform_found_count": 101,
-    "found_any_count": 114,
-    "not_currently_listed_both_count": 11
+    "found_any_count": 115,
+    "not_currently_listed_both_count": 10
   },
   "state_pairs": [
     {
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 9
+      "count": 10
     },
     {
       "wameiji": "price_unfavorable",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 11
+      "count": 10
     },
     {
       "wameiji": "price_unfavorable",
@@ -5568,6 +5568,26 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp"
+    },
+    {
+      "reference_product_id": 40,
+      "stable_key": "sample:bf016599131551025a47e66d48c9c8bc56f7b14be36b31f7691866f1e434e06b",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "中古青鸟初回版，保存完好内容物齐全，内含本体一枚和OST两枚",
+        "version_evidence": "人工Chrome当前闲鱼详情页明确为《アオイトリ/青鸟》初回版，内容物为游戏本体1枚+OST 2枚，成色几乎全新，可直拍，价格500 CNY；详情实物图为白色青鸟游戏盒与紫发角色封面，与样本#40的白色游戏盒/角色封面一致。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 500,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1060157628189&categoryId=126860296",
+        "observed_at": "2026-09-19T20:02:01Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/40-bf01659913155102.webp"
     }
   ],
   "unavailable_records": [
@@ -5790,38 +5810,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/item?id=1069187873921&categoryId=126864811",
         "observed_at": "2026-09-19T16:12:50Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 40,
-      "stable_key": "sample:bf016599131551025a47e66d48c9c8bc56f7b14be36b31f7691866f1e434e06b",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "アオイトリ Purple software 初回限定版 exact search: no current item card",
-        "version_evidence": "人工Chrome精确检索《アオイトリ Purple software 初回限定版》；结果为アオイトリ通用手机壳、fumika同名音乐CD、其他无关商品，没有Purple software《アオイトリ》PC游戏盒具体页，排除同名CD。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=%E3%82%A2%E3%82%AA%E3%82%A4%E3%83%88%E3%83%AA+Purple+software+%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-19T16:28:23Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "アオイトリ Purple software 初回限定版",
-        "version_evidence": "人工Chrome先检索《アオイトリ Purple software 初回限定版》，结果为紫社未来乡愁、天津罪、RIDDLE JOKER等其他游戏与fumika同名CD；再检索“紫社 青鸟 アオイトリ 初回限定版”，页面明确显示“没有找到你想要的宝贝”，仅有推荐项，未见《アオイトリ》PC游戏本体具体页，排除相近词。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E7%B4%AB%E7%A4%BE%20%E9%9D%92%E9%B8%9F%20%E3%82%A2%E3%82%AA%E3%82%A4%E3%83%88%E3%83%AA%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-19T16:28:23Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
