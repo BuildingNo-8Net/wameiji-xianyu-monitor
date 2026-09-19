@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T20:04:01+08:00",
+  "generated_at": "2026-09-19T20:10:22+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 82 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 88 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 88 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 79,
-    "both_observed_count": 82,
+    "both_found_count": 80,
+    "both_observed_count": 83,
     "single_observed_count": 13,
     "wameiji_platform_found_count": 88,
     "found_any_count": 103,
-    "not_currently_listed_both_count": 21
+    "not_currently_listed_both_count": 20
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 78
+      "count": 79
     },
     {
       "wameiji": "found",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 22
+      "count": 20
     },
     {
       "wameiji": "price_unfavorable",
@@ -50,6 +50,34 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 102,
+      "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
+      "wameiji": {
+        "title": "YOASOBI THE BOOK 完全生産限定盤 LPレコード 新品 ピンク",
+        "version_evidence": "挖煤姬当前详情页明确为 YOASOBI《THE BOOK》完全生产限定盘、粉色彩胶 LP，2024-10-23 发售；商品未使用，说明写明新品未开封并附厂家特典贴纸，当前可加入购物车和立即购买。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 14444.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3935373539323231313436",
+        "observed_at": "2026-09-19T12:10:22Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "终极现货★YOASOBI The BOOK1粉胶LP【此为订金】jp限定封面彩胶黑胶品相完好",
+        "version_evidence": "闲鱼当前详情页明确为 THE BOOK1 粉胶 LP、JP 限定封面；页面标价为活动价 499 CNY，但标题和详情均明确“此为订金”、已迟订且还需补款，原价显示 4400 CNY，曲目与样本版本一致。该记录只作为双侧实物观察，不作为完整到手成本或利润依据。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 499.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=968279286931&categoryId=126860296",
+        "observed_at": "2026-09-19T12:10:22Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
     {
       "reference_product_id": 78,
       "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
@@ -2339,6 +2367,34 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 102,
+      "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
+      "wameiji": {
+        "title": "YOASOBI THE BOOK 完全生産限定盤 LPレコード 新品 ピンク",
+        "version_evidence": "挖煤姬当前详情页明确为 YOASOBI《THE BOOK》完全生产限定盘、粉色彩胶 LP，2024-10-23 发售；商品未使用，说明写明新品未开封并附厂家特典贴纸，当前可加入购物车和立即购买。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 14444.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3935373539323231313436",
+        "observed_at": "2026-09-19T12:10:22Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "终极现货★YOASOBI The BOOK1粉胶LP【此为订金】jp限定封面彩胶黑胶品相完好",
+        "version_evidence": "闲鱼当前详情页明确为 THE BOOK1 粉胶 LP、JP 限定封面；页面标价为活动价 499 CNY，但标题和详情均明确“此为订金”、已迟订且还需补款，原价显示 4400 CNY，曲目与样本版本一致。该记录只作为双侧实物观察，不作为完整到手成本或利润依据。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 499.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=968279286931&categoryId=126860296",
+        "observed_at": "2026-09-19T12:10:22Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
     {
       "reference_product_id": 78,
       "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
@@ -5607,38 +5663,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E9%82%93%E4%B8%BD%E5%90%9B%20Original%20Best%20Hits%20%2B2%20100%25%20Pure%20LP%2045rpm%202LP",
         "observed_at": "2026-09-14T04:19:38Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 102,
-      "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "Exact query returned no YOASOBI THE BOOK XSJL-3 / 4580128897530 listing",
-        "version_evidence": "Manual exact query returned other editions (THE BOOK 2 green vinyl, THE BOOK 3, THE BOOK for) but no original 2024 fifth-anniversary pink vinyl XSJL-3.",
-        "catalog_no": "XSJL-3",
-        "barcode": "4580128897530",
-        "price": null,
-        "currency": null,
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=YOASOBI%20THE%20BOOK%20XSJL-3%204580128897530",
-        "observed_at": "2026-09-14T18:24:06Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "Exact query returned no YOASOBI THE BOOK XSJL-3 / 4580128897530 listing",
-        "version_evidence": "Manual exact query returned Xianyu no-match state. The former title-only pink-vinyl listing did not demonstrate catalog XSJL-3/JAN and cannot be treated as current domestic resale evidence.",
-        "catalog_no": "XSJL-3",
-        "barcode": "4580128897530",
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20XSJL-3%204580128897530",
-        "observed_at": "2026-09-14T18:24:06Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
