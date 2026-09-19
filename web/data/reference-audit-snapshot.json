@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:51:00+08:00",
+  "generated_at": "2026-09-19T14:00:21+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 68 条双侧实物观察、16 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 69 条双侧实物观察、15 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 61,
-    "both_observed_count": 68,
-    "single_observed_count": 16,
+    "both_found_count": 62,
+    "both_observed_count": 69,
+    "single_observed_count": 15,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 61
+      "count": 62
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 18
+      "count": 17
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 56,
+      "stable_key": "sample:1fd51e4ead2b2779f66fd5126f386cbd42d1a0eb4d4fb13b48d56d074e61257d",
+      "wameiji": {
+        "title": "かいりきベア — セイデンキ少女",
+        "version_evidence": "挖煤姬详情标注 KRRC-6、2015-08-16、standard used CD；样本参考版为无侧标（无 obi）。",
+        "catalog_no": "KRRC-6",
+        "barcode": null,
+        "price": 16815.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4463434872674551474e684d69464733766b6f4a39642f",
+        "observed_at": "2026-09-14T18:45:46Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "かいりきベア怪力熊 专辑 セイデンキ少女 带侧无瑕疵",
+        "version_evidence": "闲鱼详情页标题明确为かいりきベア《セイデンキ少女》实体专辑，带侧标且无瑕疵；标价 1,800 CNY，可直接购买。与挖煤姬同一专辑/版本族，闲鱼侧为带侧标版本。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1800.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=741309981528&categoryId=126864811",
+        "observed_at": "2026-09-19T06:00:21Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/56-1fd51e4ead2b2779.webp"
+    },
     {
       "reference_product_id": 39,
       "stable_key": "sample:d90d360f99492a3862214e4e9c3f74cea0a0809b76f91e2a5833f4c42edff53c",
@@ -1821,6 +1850,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 56,
+      "stable_key": "sample:1fd51e4ead2b2779f66fd5126f386cbd42d1a0eb4d4fb13b48d56d074e61257d",
+      "wameiji": {
+        "title": "かいりきベア — セイデンキ少女",
+        "version_evidence": "挖煤姬详情标注 KRRC-6、2015-08-16、standard used CD；样本参考版为无侧标（无 obi）。",
+        "catalog_no": "KRRC-6",
+        "barcode": null,
+        "price": 16815.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4463434872674551474e684d69464733766b6f4a39642f",
+        "observed_at": "2026-09-14T18:45:46Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "かいりきベア怪力熊 专辑 セイデンキ少女 带侧无瑕疵",
+        "version_evidence": "闲鱼详情页标题明确为かいりきベア《セイデンキ少女》实体专辑，带侧标且无瑕疵；标价 1,800 CNY，可直接购买。与挖煤姬同一专辑/版本族，闲鱼侧为带侧标版本。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1800.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=741309981528&categoryId=126864811",
+        "observed_at": "2026-09-19T06:00:21Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/56-1fd51e4ead2b2779.webp"
+    },
     {
       "reference_product_id": 39,
       "stable_key": "sample:d90d360f99492a3862214e4e9c3f74cea0a0809b76f91e2a5833f4c42edff53c",
@@ -3934,26 +3992,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
-    },
-    {
-      "reference_product_id": 56,
-      "stable_key": "sample:1fd51e4ead2b2779f66fd5126f386cbd42d1a0eb4d4fb13b48d56d074e61257d",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "かいりきベア — セイデンキ少女",
-        "version_evidence": "KRRC-6; 2015-08-16; standard used CD; reference edition has no obi",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 16815.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4463434872674551474e684d69464733766b6f4a39642f",
-        "observed_at": "2026-09-14T18:45:46Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/56-1fd51e4ead2b2779.webp"
     },
     {
       "reference_product_id": 66,
