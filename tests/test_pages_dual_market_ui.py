@@ -110,7 +110,10 @@ def test_homepage_keeps_concrete_one_sided_listings_in_the_primary_observation_q
 
     assert 'id="referenceAuditSingleSummary"' in homepage
     assert 'id="referenceAuditSingleList"' in homepage
+    assert 'id="referenceAuditUnavailableSummary"' in homepage
+    assert 'id="referenceAuditUnavailableList"' in homepage
     assert "single_observed_records" in javascript
+    assert "unavailable_records" in javascript
     assert "单边待补观察" in javascript
 
 
@@ -227,8 +230,8 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260916-reference-images-v4" in homepage
-    assert "styles/kuro.css?v=20260916-reference-images-v3" in homepage
+    assert "discovery-ui.js?v=20260919-reference-coverage-v1" in homepage
+    assert "styles/kuro.css?v=20260918-audit-images-v5" in homepage
 
 
 def test_board_refresh_decouples_legacy_api_failures_from_dual_market_data() -> None:

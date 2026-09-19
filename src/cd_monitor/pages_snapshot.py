@@ -527,6 +527,7 @@ def export_reference_audit_snapshot(
     dual_found_pairs: list[dict[str, object]] = []
     dual_observed_pairs: list[dict[str, object]] = []
     single_observed_records: list[dict[str, object]] = []
+    unavailable_records: list[dict[str, object]] = []
     found_any_count = 0
     wameiji_platform_found_count = 0
     not_currently_listed_both_count = 0
@@ -591,6 +592,23 @@ def export_reference_audit_snapshot(
             if image_url:
                 single["reference_image_url"] = image_url
             single_observed_records.append(single)
+        else:
+            # Keep every remaining reference sample visible without promoting
+            # search cards, blocked checks, or stale/expensive records to a
+            # concrete listing.  This is a coverage/status queue, not an
+            # opportunity queue.
+            unavailable: dict[str, object] = {
+                "reference_product_id": int(row["reference_product_id"]),
+                "stable_key": str(row["stable_key"] or ""),
+                "wameiji_state": wameiji_state,
+                "xianyu_state": xianyu_state,
+                "wameiji": {**wameiji_observation, "state": wameiji_state},
+                "xianyu": {**xianyu_observation, "state": xianyu_state},
+            }
+            image_url = reference_image_url(row)
+            if image_url:
+                unavailable["reference_image_url"] = image_url
+            unavailable_records.append(unavailable)
 
     def pair_sort_key(item: tuple[tuple[str, str], int]) -> tuple[int, int, str, str]:
         (wameiji_state, xianyu_state), _ = item
@@ -630,6 +648,7 @@ def export_reference_audit_snapshot(
         "dual_found_pairs": dual_found_pairs,
         "dual_observed_pairs": dual_observed_pairs,
         "single_observed_records": single_observed_records,
+        "unavailable_records": unavailable_records,
     }
     snapshot_path = Path(web_dir) / "data" / "reference-audit-snapshot.json"
     _atomic_json(snapshot_path, payload)

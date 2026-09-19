@@ -411,6 +411,44 @@
     ].join("");
   }
 
+  function referenceAuditUnavailableSideMarkup(label, observation, market, state) {
+    const source = observation && typeof observation === "object" ? observation : {};
+    const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
+    const href = safeHttpUrl(source.source_url);
+    const title = esc(source.title || "当前没有可公开核对的具体商品页");
+    const heading = href
+      ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
+      : '<span>' + title + '</span>';
+    const evidence = source.version_evidence
+      ? '<p>' + esc(source.version_evidence) + '</p>'
+      : '<p>没有可公开核对的版本、成色或附件证据。</p>';
+    const stateText = referenceStateLabel(state);
+    return [
+      '<div class="reference-audit-side ' + marketClass + '">',
+        '<small>' + esc(label) + '</small>',
+        '<b>状态：' + esc(stateText) + '</b>',
+        '<strong>' + heading + '</strong>',
+        evidence,
+      '</div>',
+    ].join("");
+  }
+
+  function referenceAuditUnavailableMarkup(record) {
+    const item = record && typeof record === "object" ? record : {};
+    const wameiji = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
+    const xianyu = item.xianyu && typeof item.xianyu === "object" ? item.xianyu : {};
+    return [
+      '<article class="reference-audit-pair">',
+        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 当前未形成具体商品页卡片</div>',
+        referenceAuditImageMarkup(item.reference_image_url, item.reference_product_id),
+        '<div class="reference-audit-sides">',
+          referenceAuditUnavailableSideMarkup("闲鱼销售侧", xianyu, "xianyu", item.xianyu_state),
+          referenceAuditUnavailableSideMarkup("挖煤姬进货侧", wameiji, "wameiji", item.wameiji_state),
+        '</div>',
+      '</article>',
+    ].join("");
+  }
+
   function renderReferenceAudit() {
     const audit = view.referenceAudit;
     const state = document.getElementById("referenceAuditState");
@@ -418,6 +456,8 @@
     const pairSummary = document.getElementById("referenceAuditPairSummary");
     const singleList = document.getElementById("referenceAuditSingleList");
     const singleSummary = document.getElementById("referenceAuditSingleSummary");
+    const unavailableList = document.getElementById("referenceAuditUnavailableList");
+    const unavailableSummary = document.getElementById("referenceAuditUnavailableSummary");
     if (!audit) {
       setText("referenceAuditTotal", "--");
       setText("referenceAuditBothFound", "--");
@@ -429,6 +469,8 @@
       if (pairList) pairList.innerHTML = '<div class="empty-state">审计快照缺失，不把利润卡当成样本总数。</div>';
       if (singleSummary) singleSummary.textContent = "单边待补观察暂未发布";
       if (singleList) singleList.innerHTML = '<div class="empty-state">审计快照缺失，无法展示单边实物记录。</div>';
+      if (unavailableSummary) unavailableSummary.textContent = "当前未见/受阻样本暂未发布";
+      if (unavailableList) unavailableList.innerHTML = '<div class="empty-state">审计快照缺失，无法展示未见/受阻样本。</div>';
       if (state) {
         state.textContent = "审计快照待发布";
         state.className = "status warn";
@@ -441,6 +483,9 @@
       : (Array.isArray(audit.dual_found_pairs) ? audit.dual_found_pairs : []);
     const singles = Array.isArray(audit.single_observed_records)
       ? audit.single_observed_records
+      : [];
+    const unavailable = Array.isArray(audit.unavailable_records)
+      ? audit.unavailable_records
       : [];
     setText("referenceAuditTotal", referenceAuditCount(summary.reference_product_count));
     setText(
@@ -469,6 +514,14 @@
       singleList.innerHTML = singles.length
         ? singles.map(referenceAuditSingleMarkup).join("")
         : '<div class="empty-state">当前没有单边待补观察记录。</div>';
+    }
+    if (unavailableSummary) {
+      unavailableSummary.textContent = "当前未见/受阻样本 " + unavailable.length + " 条（不伪装成已找到）";
+    }
+    if (unavailableList) {
+      unavailableList.innerHTML = unavailable.length
+        ? unavailable.map(referenceAuditUnavailableMarkup).join("")
+        : '<div class="empty-state">当前没有未见/受阻样本记录。</div>';
     }
     if (state) {
       state.textContent = "审计快照 · " + timeLabel(audit.generated_at);
