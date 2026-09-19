@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T02:34:38+08:00",
+  "generated_at": "2026-09-20T02:52:22+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 95 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 100 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 96 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 100 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 95,
+    "both_observed_count": 96,
     "single_observed_count": 13,
     "wameiji_platform_found_count": 100,
     "found_any_count": 114,
@@ -5164,6 +5164,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/83-bdf61d7786697043.webp"
+    },
+    {
+      "reference_product_id": 46,
+      "stable_key": "sample:3dc0c3015607abe3d5355c7d1dbe7e7ea3836975e72156d8784d5cb15fa857ea",
+      "wameiji": {
+        "title": "∀rkadia Яesurrection Arkadia 幻想郷顕現 Arcadia 削除 sakuzyo 同人 音楽 CD",
+        "version_evidence": "人工 Chrome 挖煤姬当前详情页核到同名同人音乐 CD；页面列出《幻想郷顕現》《森羅万象》《戦戦兢兢》等 9 首曲目，状态为没有明显的损伤或污渍，店铺卖家 thermo arena 评分 5.00，当前价 3,781 日元，可加入购物车/立即购买。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3781.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4b75344d334344677968515271354e554b4b4a732f",
+        "observed_at": "2026-09-20T02:52:22+08:00",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "∀rkadia 削除 sakuzyo 成色很新，默认中古，看具体成色请私信",
+        "version_evidence": "人工 Chrome 闲鱼当前详情页明确为「∀rkadia 削除 sakuzyo」同人音乐 CD，页面标价 251.90 CNY；描述标签含 Diverse System、削除、天火明命、同人音乐 CD，实拍为同系列封面，卖家说明成色很新并可直拍。页面未展示目录号，因此作为双侧实物观察，不当作条码证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 251.9,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1075254857683&categoryId=126864811",
+        "observed_at": "2026-09-20T02:52:22+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
     }
   ],
   "single_observed_records": [
