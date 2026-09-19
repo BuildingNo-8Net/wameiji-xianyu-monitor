@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:38:47+08:00",
+  "generated_at": "2026-09-19T11:45:50+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 46 条双侧实物观察、38 条单边待补观察中，挖煤姬页面已复核 73 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 47 条双侧实物观察、37 条单边待补观察中，挖煤姬页面已复核 73 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 44,
-    "both_observed_count": 46,
-    "single_observed_count": 38,
+    "both_found_count": 45,
+    "both_observed_count": 47,
+    "single_observed_count": 37,
     "wameiji_platform_found_count": 73,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 44
+      "count": 45
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 27
+      "count": 26
     },
     {
       "wameiji": "not_currently_listed",
@@ -1325,6 +1325,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/84-b4fa44f140d3615b.webp"
+    },
+    {
+      "reference_product_id": 119,
+      "stable_key": "jan:4589686422857",
+      "wameiji": {
+        "title": "ヨルシカ / 夏草が邪魔をする",
+        "version_evidence": "挖煤姬实页：中古CD；品番 DUED-1223，JAN 4589686422857，2017-06-28。页面明确腰封、下载码和抽选券不可保证。",
+        "catalog_no": "DUED-1223",
+        "barcode": "4589686422857",
+        "price": 1623.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a475136746e4d784457754d435641514a6a6250342f",
+        "observed_at": "2026-09-14T17:55:28Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "夜鹿《夏草が邪魔をする》CD专辑",
+        "version_evidence": "闲鱼详情页明确为夜鹿《夏草が邪魔をする》CD专辑，现货、全新未拆封；2017年6月28日发行，DUED-1223，7首曲目齐全，存储介质为CD。",
+        "catalog_no": "DUED-1223",
+        "barcode": null,
+        "price": 31.5,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=732604777599&categoryId=126864811",
+        "observed_at": "2026-09-19T03:45:50Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/119-39873d90047e7417.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2661,6 +2690,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/84-b4fa44f140d3615b.webp"
+    },
+    {
+      "reference_product_id": 119,
+      "stable_key": "jan:4589686422857",
+      "wameiji": {
+        "title": "ヨルシカ / 夏草が邪魔をする",
+        "version_evidence": "挖煤姬实页：中古CD；品番 DUED-1223，JAN 4589686422857，2017-06-28。页面明确腰封、下载码和抽选券不可保证。",
+        "catalog_no": "DUED-1223",
+        "barcode": "4589686422857",
+        "price": 1623.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a475136746e4d784457754d435641514a6a6250342f",
+        "observed_at": "2026-09-14T17:55:28Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "夜鹿《夏草が邪魔をする》CD专辑",
+        "version_evidence": "闲鱼详情页明确为夜鹿《夏草が邪魔をする》CD专辑，现货、全新未拆封；2017年6月28日发行，DUED-1223，7首曲目齐全，存储介质为CD。",
+        "catalog_no": "DUED-1223",
+        "barcode": null,
+        "price": 31.5,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=732604777599&categoryId=126864811",
+        "observed_at": "2026-09-19T03:45:50Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/119-39873d90047e7417.webp"
     }
   ],
   "single_observed_records": [
@@ -3363,26 +3421,6 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e2fe.webp"
-    },
-    {
-      "reference_product_id": 119,
-      "stable_key": "sample:39873d90047e7417a1b16ebed6bec6ac7f713516c0572ce06c97dbac3224b8f7",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "ヨルシカ / 夏草が邪魔をする",
-        "version_evidence": "人工打开挖煤姬实页：中古CD；品番 DUED-1223，JAN 4589686422857，2017-06-28。页面明确除标题所写附件外均不保证，腰封、下载码和抽选券不可保证。",
-        "catalog_no": "DUED-1223",
-        "barcode": "4589686422857",
-        "price": 1623.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a475136746e4d784457754d435641514a6a6250342f",
-        "observed_at": "2026-09-14T17:55:28Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/119-39873d90047e7417.webp"
     },
     {
       "reference_product_id": 120,
