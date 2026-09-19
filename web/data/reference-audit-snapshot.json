@@ -2,15 +2,15 @@
   "schema_version": 1,
   "generated_at": "2026-09-19T20:10:22+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 88 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、14 条单边待补观察中，挖煤姬页面已复核 89 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 13,
-    "wameiji_platform_found_count": 88,
-    "found_any_count": 103,
-    "not_currently_listed_both_count": 20
+    "single_observed_count": 14,
+    "wameiji_platform_found_count": 89,
+    "found_any_count": 104,
+    "not_currently_listed_both_count": 19
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 6
+      "count": 7
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 20
+      "count": 19
     },
     {
       "wameiji": "price_unfavorable",
@@ -4772,6 +4772,25 @@
   ],
   "single_observed_records": [
     {
+      "reference_product_id": 27,
+      "stable_key": "sample:3b589fa991d8a5e6e91b4b7c986f0bb0d925c74e461b76b76e32b708b8edb030",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【新品未開封】オトメ*ドメイン RADIO*MAIDEN Vol.10",
+        "version_evidence": "挖煤姬当前详情页直接核到《オトメ*ドメイン RADIO*MAIDEN Vol.10》；标题明确新品未开封，商品状态未使用，价格4,980日元，详情页可加入购物车和立即购买。只锁定Vol.10广播剧CD，不以其他卷号、特典CD或周边替代。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 4980.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303739373637303537352f",
+        "observed_at": "2026-09-19T12:20:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
       "reference_product_id": 116,
       "stable_key": "sample:00a377b0aac9c07415fdb2b9b5d77a1a5800613f87a237d20fc427b6f3c6ab86",
       "available_market": "wameiji",
@@ -5087,38 +5106,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E7%BC%98%E4%B9%8B%E7%A9%BA%20VISUAL%20ART%20COLLECTION%20%E7%94%BB%E9%9B%86%20%E9%9D%9E%E5%8D%96%E5%93%81",
         "observed_at": "2026-09-14T01:54:47Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 27,
-      "stable_key": "sample:3b589fa991d8a5e6e91b4b7c986f0bb0d925c74e461b76b76e32b708b8edb030",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "乙女ドメイン ドラマCD Vol.10 exact search: no current item card",
-        "version_evidence": "Exact Japanese series, medium and volume searched manually; no current result surfaced.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=%E4%B9%99%E5%A5%B3%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%20%E3%83%89%E3%83%A9%E3%83%9ECD%20Vol.10",
-        "observed_at": "2026-09-14T01:55:56Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "少女领域 广播剧 CD vol.10 exact search: no matching listing",
-        "version_evidence": "Exact Chinese series, medium and volume searched manually; site returned no matching item.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E5%B0%91%E5%A5%B3%E9%A2%86%E5%9F%9F%20%E5%B9%BF%E6%92%AD%E5%89%A7%20CD%20vol.10",
-        "observed_at": "2026-09-14T01:55:58Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
