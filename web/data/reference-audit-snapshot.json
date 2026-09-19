@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T21:16:05+08:00",
+  "generated_at": "2026-09-19T21:25:05+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、19 条单边待补观察中，挖煤姬页面已复核 93 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、20 条单边待补观察中，挖煤姬页面已复核 94 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 19,
-    "wameiji_platform_found_count": 93,
-    "found_any_count": 108,
-    "not_currently_listed_both_count": 15
+    "single_observed_count": 20,
+    "wameiji_platform_found_count": 94,
+    "found_any_count": 109,
+    "not_currently_listed_both_count": 14
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 10
+      "count": 11
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 15
+      "count": 14
     },
     {
       "wameiji": "price_unfavorable",
@@ -5141,6 +5141,25 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 77,
+      "stable_key": "sample:ee3822630e37864934f329b71b6997a3d80f10f5932c5d8b9e34e0b839bbef00",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ヨルシカ 創作 完全生産限定盤 アナログ LP レコード＋おまけ（創作CD発売当時のフリーペーパー）★新品未開封★絶版希少品",
+        "version_evidence": "人工 Chrome 挖煤姬详情页明确为夜鹿/ヨルシカ EP《創作》限定模拟盘：12inch 45rpm、1枚组、纸袋规格、附歌词卡；A 面强盗と花束／春泥棒，B 面創作／風を食む／嘘月；未拆封，9,400 日元。与样本原图同为创作单张 LP，卖家另附旧宣传单。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9400.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/paypay/detail/z628702118",
+        "observed_at": "2026-09-19T13:25:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      }
     }
   ],
   "unavailable_records": [
@@ -5587,38 +5606,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E6%99%93%E4%B9%8B%E6%8A%A4%E5%8D%AB%20%E7%AD%BE%E5%90%8D%E6%B5%B7%E6%8A%A5%20%E5%8D%A1",
         "observed_at": "2026-09-14T03:49:36Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 77,
-      "stable_key": "sample:ee3822630e37864934f329b71b6997a3d80f10f5932c5d8b9e34e0b839bbef00",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "Kenshi Yonezu — 創作 EP 12-inch 45rpm vinyl",
-        "version_evidence": "The reference is the 2025-08-27 official 12-inch 45rpm single with tracks 強盗と花束, 春雷, and 創作; do not substitute IRIS OUT/JANE DOE or other Yonezu vinyl",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB%20%E5%89%B5%E4%BD%9C%20%E3%82%A2%E3%83%8A%E3%83%AD%E3%82%B0%E7%9B%A4",
-        "observed_at": "2026-09-14T18:42:42Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "Kenshi Yonezu — 創作 EP 12-inch 45rpm vinyl",
-        "version_evidence": "The reference is the 2025-08-27 official 12-inch 45rpm single with tracks 強盗と花束, 春雷, and 創作; do not substitute IRIS OUT/JANE DOE or other Yonezu vinyl",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB%20%E5%89%B5%E4%BD%9C%20%E9%BB%91%E8%83%B6%20%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T18:42:43Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
