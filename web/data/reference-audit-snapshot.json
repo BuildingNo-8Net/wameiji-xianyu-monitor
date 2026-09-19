@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T00:03:15+08:00",
+  "generated_at": "2026-09-20T00:08:17+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、24 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -5465,28 +5465,28 @@
       "wameiji_state": "blocked",
       "xianyu_state": "blocked",
       "wameiji": {
-        "title": "Innocent Grey 游戏盒子: exact release title obscured in source image",
-        "version_evidence": "Source caption gives only publisher and generic game-box wording; cover title is covered by an overlay and cannot be verified.",
+        "title": "Innocent Grey 游戏盒子: exact release title remains unidentified; no matching current card",
+        "version_evidence": "人工Chrome打开挖煤姬「Innocent Grey ゲーム ボックス 杉菜水姫」；结果有 FLOWERS 冬篇/秋篇初回版、杉菜水姫《花葬》、电话卡等近似品，但没有能确认与样本白色双盒实物相同的IG社游戏盒。样本闲鱼标题仅写 Innocent Grey 游戏 盒子、杉菜水姫 galgame，封面标题被遮挡，不能把近似作品当作同版。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "",
-        "observed_at": "2026-09-14T02:11:55Z",
-        "marketplace_host": "",
+        "source_url": "https://www.meruki.cn/search?keywords=Innocent+Grey+%E3%82%B2%E3%83%BC%E3%83%A0+%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9+%E6%9D%89%E8%8F%9C%E6%B0%B4%E5%A7%AB",
+        "observed_at": "2026-09-19T16:08:17Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": false,
         "state": "blocked"
       },
       "xianyu": {
-        "title": "Innocent Grey 游戏盒子: exact release title obscured in source image",
-        "version_evidence": "Source caption gives only publisher and generic game-box wording; cover title is covered by an overlay and cannot be verified.",
+        "title": "Innocent Grey 游戏盒子: exact release title remains unidentified; only near-match listings found",
+        "version_evidence": "人工Chrome打开闲鱼「Innocent Grey 游戏 盒子 杉菜水姫」与「杉菜水姫 游戏 盒子」；结果为《白雪／七凭之祭》游戏盒、FLOWERS十周年音乐会立牌、壳/虚/天合集盒子预售等，均无法从详情实物确认是样本照片中白色双盒与同一发行版本；已打开《白雪》¥700详情，主图为蓝白横向盒装且与样本不同。样本标题和封面被遮挡，不能确认同版，保留blocked。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "",
-        "observed_at": "2026-09-14T02:11:57Z",
-        "marketplace_host": "",
+        "source_url": "https://www.goofish.com/search?q=%E6%9D%89%E8%8F%9C%E6%B0%B4%E5%A7%AB%20%E6%B8%B8%E6%88%8F%20%E7%9B%92%E5%AD%90",
+        "observed_at": "2026-09-19T16:08:17Z",
+        "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "blocked"
       }
