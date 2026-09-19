@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T21:25:05+08:00",
+  "generated_at": "2026-09-19T22:34:12+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、22 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 22,
+    "single_observed_count": 23,
     "wameiji_platform_found_count": 95,
-    "found_any_count": 111,
-    "not_currently_listed_both_count": 12
+    "found_any_count": 112,
+    "not_currently_listed_both_count": 11
   },
   "state_pairs": [
     {
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 13
+      "count": 14
     },
     {
       "wameiji": "price_unfavorable",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 12
+      "count": 11
     },
     {
       "wameiji": "price_unfavorable",
@@ -5200,6 +5200,26 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/112-7cd35a051c64ad55.webp"
+    },
+    {
+      "reference_product_id": 36,
+      "stable_key": "sample:01627ff9b576bd1172380c0928aa14dbd4e1e01ad263a865994f6186037841c2",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "紫社 天津罪 OP 主题歌 こころに響く恋ほたる 预约特典CD 本体无暇 壳子微瑕 包邮",
+        "version_evidence": "人工Chrome打开闲鱼商品详情页；标题明确为Purple software／紫社《天津罪》OP主题歌《こころに響く恋ほたる》预约特典CD，价格95元包邮，描述本体无暇、壳子微瑕。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 95,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077908520844&categoryId=126860296",
+        "observed_at": "2026-09-19T14:34:12Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/36-01627ff9b576bd11.webp"
     }
   ],
   "unavailable_records": [
@@ -5425,38 +5445,6 @@
         "marketplace_host": "",
         "is_wameiji_platform": false,
         "state": "blocked"
-      }
-    },
-    {
-      "reference_product_id": 36,
-      "stable_key": "sample:01627ff9b576bd1172380c0928aa14dbd4e1e01ad263a865994f6186037841c2",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "天津 大アマツツミ 予約特典 CD",
-        "version_evidence": "挖煤姬按该精确题名检索，Mercari 站内无结果。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "",
-        "observed_at": "2026-09-15T15:29:11Z",
-        "marketplace_host": "",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "天津 大アマツツミ 予約特典 CD",
-        "version_evidence": "闲鱼按该精确题名检索无结果。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "",
-        "observed_at": "2026-09-15T15:29:14Z",
-        "marketplace_host": "",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
       }
     },
     {
