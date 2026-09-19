@@ -2,11 +2,11 @@
   "schema_version": 1,
   "generated_at": "2026-09-19T19:45:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 80 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 76,
-    "both_observed_count": 79,
+    "both_found_count": 77,
+    "both_observed_count": 80,
     "single_observed_count": 11,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 75
+      "count": 76
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 6
+      "count": 5
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,34 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 97,
+      "stable_key": "jan:4988031466285",
+      "wameiji": {
+        "title": "宇多田ヒカル / Fantome 【生産限定盤】(2枚組 / 180グラム重量盤レコード)",
+        "version_evidence": "挖煤姬精确记录为生产限定2枚组180g黑胶，目录号UPJY-9212、JAN 4988031466285。",
+        "catalog_no": "UPJY-9212",
+        "barcode": "4988031466285",
+        "price": 5093.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB%20Fantome%20UPJY-9212%204988031466285",
+        "observed_at": "2026-09-14T18:26:17Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "全新未拆现货 宇多田光 Fantome 幻影 初回生产限定盘双黑胶 2LP",
+        "version_evidence": "闲鱼详情页标题明确为Fantome初回生产限定双黑胶2LP；描述写明全新未拆、轻微撞角、无贴纸、日本产地，当前标价305 CNY。卖家未展示UPJY-9212/JAN，因此目录身份仍为卖家版本声明，未作条码级确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 305.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=675935787245&categoryId=126862152",
+        "observed_at": "2026-09-19T11:24:03Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
     {
       "reference_product_id": 100,
       "stable_key": "sample:b48c761166295009614f7ec087051ca05bc893ea7783f6f13aef65b7ff87478b",
@@ -2255,6 +2283,34 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 97,
+      "stable_key": "jan:4988031466285",
+      "wameiji": {
+        "title": "宇多田ヒカル / Fantome 【生産限定盤】(2枚組 / 180グラム重量盤レコード)",
+        "version_evidence": "挖煤姬精确记录为生产限定2枚组180g黑胶，目录号UPJY-9212、JAN 4988031466285。",
+        "catalog_no": "UPJY-9212",
+        "barcode": "4988031466285",
+        "price": 5093.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB%20Fantome%20UPJY-9212%204988031466285",
+        "observed_at": "2026-09-14T18:26:17Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "全新未拆现货 宇多田光 Fantome 幻影 初回生产限定盘双黑胶 2LP",
+        "version_evidence": "闲鱼详情页标题明确为Fantome初回生产限定双黑胶2LP；描述写明全新未拆、轻微撞角、无贴纸、日本产地，当前标价305 CNY。卖家未展示UPJY-9212/JAN，因此目录身份仍为卖家版本声明，未作条码级确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 305.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=675935787245&categoryId=126862152",
+        "observed_at": "2026-09-19T11:24:03Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
     {
       "reference_product_id": 103,
       "stable_key": "sample:cb00b6c6cd5b63e0d39026abdb442ca06d4341a559ba392b22369db364daf350",
@@ -5497,38 +5553,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E9%82%93%E4%B8%BD%E5%90%9B%20Original%20Best%20Hits%20%2B2%20100%25%20Pure%20LP%2045rpm%202LP",
         "observed_at": "2026-09-14T04:19:38Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 97,
-      "stable_key": "jan:4988031466285",
-      "wameiji_state": "found",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "宇多田ヒカル / Fantome 【生産限定盤】(2枚組 / 180グラム重量盤レコード)",
-        "version_evidence": "Manual exact search identifies the production-limited 2-disc 180g vinyl Fantome as UPJY-9212 / JAN 4988031466285. Other result cards were CDs and excluded.",
-        "catalog_no": "UPJY-9212",
-        "barcode": "4988031466285",
-        "price": 5093.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB%20Fantome%20UPJY-9212%204988031466285",
-        "observed_at": "2026-09-14T18:26:17Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "found"
-      },
-      "xianyu": {
-        "title": "Exact query returned no 宇多田光 Fantome UPJY-9212 / 4988031466285 listing",
-        "version_evidence": "Manual exact title + catalog + JAN query returned Xianyu no-match state. Former generic Japanese 180g 2LP title did not expose the catalog and cannot be considered current exact resale proof.",
-        "catalog_no": "UPJY-9212",
-        "barcode": "4988031466285",
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20Fantome%20UPJY-9212%204988031466285",
-        "observed_at": "2026-09-14T18:26:17Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
