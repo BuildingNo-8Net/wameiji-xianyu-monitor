@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:45:50+08:00",
+  "generated_at": "2026-09-19T11:54:59+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 47 条双侧实物观察、37 条单边待补观察中，挖煤姬页面已复核 73 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 49 条双侧实物观察、35 条单边待补观察中，挖煤姬页面已复核 73 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 45,
-    "both_observed_count": 47,
-    "single_observed_count": 37,
+    "both_found_count": 47,
+    "both_observed_count": 49,
+    "single_observed_count": 35,
     "wameiji_platform_found_count": 73,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 45
+      "count": 47
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 26
+      "count": 24
     },
     {
       "wameiji": "not_currently_listed",
@@ -1354,6 +1354,64 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/119-39873d90047e7417.webp"
+    },
+    {
+      "reference_product_id": 88,
+      "stable_key": "jan:0602478377792",
+      "wameiji": {
+        "title": "新品未開封 Prema＜限定盤/Colored Vinyl＞ 藤井風 レコード",
+        "version_evidence": "挖煤姬乐天详情：Prema 限定/Colored Vinyl；新品未开封；含序列号，折页封套、1张彩胶 LP、9首英文曲目。条码 0602478377792。",
+        "catalog_no": null,
+        "barcode": "0602478377792",
+        "price": 11000.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuma/detail/7c4e2728f8da292a20da07d790441006",
+        "observed_at": "2026-09-14T18:19:25Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "藤井风 三专Prema 藤井风黑胶lp",
+        "version_evidence": "闲鱼详情页明确为藤井风 Fujii Kaze《Prema》透明胶（彩胶 LP），日版发行正品，全新未使用；卖家说明抽选券已取出、其余保持原封。与挖煤姬的限定 Colored Vinyl / 单张 LP / 日版同形态；详情页未显示条码，且抽选券不随货。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 145.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=980546719301&categoryId=126864811",
+        "observed_at": "2026-09-19T03:52:49Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/88-aa8528ffb6b41761.webp"
+    },
+    {
+      "reference_product_id": 99,
+      "stable_key": "jan:4988031460030",
+      "wameiji": {
+        "title": "宇多田ヒカル Distance＜生産限定盤/180g重量盤＞",
+        "version_evidence": "挖煤姬乐天详情：UPJY-9204、JAN 4988031460030，生产限定 180g 重量盘 2LP；新品未拆封。",
+        "catalog_no": "UPJY-9204",
+        "barcode": "4988031460030",
+        "price": 6280.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuma/detail/6f8d50003b0179a95e3986c600e41107",
+        "observed_at": "2026-09-14T18:20:41Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "宇多田光《Distance》日版黑胶唱片2LP生产限定2枚组180g重量盘，全新未拆封收藏佳品！",
+        "version_evidence": "闲鱼详情页明确为《Distance》日版黑胶唱片 2LP 生产限定 2 枚组、180g 重量盘，全新未拆封；与挖煤姬 UPJY-9204 生产限定 180g 2LP 同形态，详情页未显示条码。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 255.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1055594098920&categoryId=202061902",
+        "observed_at": "2026-09-19T03:54:59Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/99-a633441bc61702a7.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2719,6 +2777,64 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/119-39873d90047e7417.webp"
+    },
+    {
+      "reference_product_id": 88,
+      "stable_key": "jan:0602478377792",
+      "wameiji": {
+        "title": "新品未開封 Prema＜限定盤/Colored Vinyl＞ 藤井風 レコード",
+        "version_evidence": "挖煤姬乐天详情：Prema 限定/Colored Vinyl；新品未开封；含序列号，折页封套、1张彩胶 LP、9首英文曲目。条码 0602478377792。",
+        "catalog_no": null,
+        "barcode": "0602478377792",
+        "price": 11000.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuma/detail/7c4e2728f8da292a20da07d790441006",
+        "observed_at": "2026-09-14T18:19:25Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "藤井风 三专Prema 藤井风黑胶lp",
+        "version_evidence": "闲鱼详情页明确为藤井风 Fujii Kaze《Prema》透明胶（彩胶 LP），日版发行正品，全新未使用；卖家说明抽选券已取出、其余保持原封。与挖煤姬的限定 Colored Vinyl / 单张 LP / 日版同形态；详情页未显示条码，且抽选券不随货。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 145.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=980546719301&categoryId=126864811",
+        "observed_at": "2026-09-19T03:52:49Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/88-aa8528ffb6b41761.webp"
+    },
+    {
+      "reference_product_id": 99,
+      "stable_key": "jan:4988031460030",
+      "wameiji": {
+        "title": "宇多田ヒカル Distance＜生産限定盤/180g重量盤＞",
+        "version_evidence": "挖煤姬乐天详情：UPJY-9204、JAN 4988031460030，生产限定 180g 重量盘 2LP；新品未拆封。",
+        "catalog_no": "UPJY-9204",
+        "barcode": "4988031460030",
+        "price": 6280.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuma/detail/6f8d50003b0179a95e3986c600e41107",
+        "observed_at": "2026-09-14T18:20:41Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "宇多田光《Distance》日版黑胶唱片2LP生产限定2枚组180g重量盘，全新未拆封收藏佳品！",
+        "version_evidence": "闲鱼详情页明确为《Distance》日版黑胶唱片 2LP 生产限定 2 枚组、180g 重量盘，全新未拆封；与挖煤姬 UPJY-9204 生产限定 180g 2LP 同形态，详情页未显示条码。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 255.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1055594098920&categoryId=202061902",
+        "observed_at": "2026-09-19T03:54:59Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/99-a633441bc61702a7.webp"
     }
   ],
   "single_observed_records": [
@@ -3203,26 +3319,6 @@
       "reference_image_url": "assets/reference-samples/86-4c2ec5d55b4dadca.webp"
     },
     {
-      "reference_product_id": 88,
-      "stable_key": "jan:0602478377792",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "新品未開封 Prema＜限定盤/Colored Vinyl＞ 藤井風 レコード",
-        "version_evidence": "Manual detail: Prema [RECORD] Limited/Colored Vinyl, unused; serial-number inclusion; gatefold jacket, one colored-vinyl LP, 9 English-language tracks. Reference sample barcode 0602478377792 was searched; page does not display the barcode.",
-        "catalog_no": null,
-        "barcode": "0602478377792",
-        "price": 11000.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuma/detail/7c4e2728f8da292a20da07d790441006",
-        "observed_at": "2026-09-14T18:19:25Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/88-aa8528ffb6b41761.webp"
-    },
-    {
       "reference_product_id": 92,
       "stable_key": "sample:a82c563e6a7d69b6d814f417a2f9e8de5bafc4766406bc5efd8a91d824585dba",
       "available_market": "wameiji",
@@ -3241,26 +3337,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/92-a82c563e6a7d69b6.webp"
-    },
-    {
-      "reference_product_id": 99,
-      "stable_key": "jan:4988031460030",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "宇多田ヒカル Distance＜生産限定盤/180g重量盤＞",
-        "version_evidence": "Exact edition search UPJY-9204 / 4988031460030 surfaced the current detail: production-limited 180g heavy-weight vinyl, new/unopened, LP; sample is the 2LP 2022 reissue. Detail title does not print the catalog, while matching search card explicitly identifies UPJY-9204.",
-        "catalog_no": "UPJY-9204",
-        "barcode": "4988031460030",
-        "price": 6280.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuma/detail/6f8d50003b0179a95e3986c600e41107",
-        "observed_at": "2026-09-14T18:20:41Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/99-a633441bc61702a7.webp"
     },
     {
       "reference_product_id": 100,
