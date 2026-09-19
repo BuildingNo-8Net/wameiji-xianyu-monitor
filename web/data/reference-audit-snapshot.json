@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:33:00+08:00",
+  "generated_at": "2026-09-19T13:37:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 65 条双侧实物观察、19 条单边待补观察中，挖煤姬页面已复核 82 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 66 条双侧实物观察、18 条单边待补观察中，挖煤姬页面已复核 82 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 59,
-    "both_observed_count": 65,
-    "single_observed_count": 19,
+    "both_found_count": 60,
+    "both_observed_count": 66,
+    "single_observed_count": 18,
     "wameiji_platform_found_count": 82,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 59
+      "count": 60
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 19
+      "count": 18
     },
     {
       "wameiji": "not_currently_listed",
@@ -1760,6 +1760,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/92-a82c563e6a7d69b6.webp"
+    },
+    {
+      "reference_product_id": 63,
+      "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
+      "wameiji": {
+        "title": "めありー / 彼はきっと魔法を使う。 [CD]",
+        "version_evidence": "挖煤姬 Rakuten 详情：めありー《彼はきっと魔法を使う。》CD，品番 MARY-1004、JAN 4526180430025，标价 1,393 日元；闲鱼详情同作标题，明确为日版、全新 CD。两侧未额外确认侧标、特典或盘面状态之外的附件差异。",
+        "catalog_no": "MARY-1004",
+        "barcode": "4526180430025",
+        "price": 1393.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fmifsoft%2Fmary-1004%2F",
+        "observed_at": "2026-09-14T18:04:56Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Orangestar mary 彼はきっと魔法を使う 专辑 cd 日版 全新",
+        "version_evidence": "闲鱼详情页：Orangestar mary《彼はきっと魔法を使う》日版专辑 CD，全新，标价 115 CNY，可直接购买；页面正文标明存储介质为 CD。与挖煤姬 MARY-1004 / JAN 4526180430025 同作，但闲鱼页面未显示品番或条码，未把特典/附件视为已确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 115.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1069534593594&categoryId=126864811",
+        "observed_at": "2026-09-19T05:37:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/63-8a5d9c6162657acc.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -3647,6 +3676,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/92-a82c563e6a7d69b6.webp"
+    },
+    {
+      "reference_product_id": 63,
+      "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
+      "wameiji": {
+        "title": "めありー / 彼はきっと魔法を使う。 [CD]",
+        "version_evidence": "挖煤姬 Rakuten 详情：めありー《彼はきっと魔法を使う。》CD，品番 MARY-1004、JAN 4526180430025，标价 1,393 日元；闲鱼详情同作标题，明确为日版、全新 CD。两侧未额外确认侧标、特典或盘面状态之外的附件差异。",
+        "catalog_no": "MARY-1004",
+        "barcode": "4526180430025",
+        "price": 1393.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fmifsoft%2Fmary-1004%2F",
+        "observed_at": "2026-09-14T18:04:56Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Orangestar mary 彼はきっと魔法を使う 专辑 cd 日版 全新",
+        "version_evidence": "闲鱼详情页：Orangestar mary《彼はきっと魔法を使う》日版专辑 CD，全新，标价 115 CNY，可直接购买；页面正文标明存储介质为 CD。与挖煤姬 MARY-1004 / JAN 4526180430025 同作，但闲鱼页面未显示品番或条码，未把特典/附件视为已确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 115.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1069534593594&categoryId=126864811",
+        "observed_at": "2026-09-19T05:37:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/63-8a5d9c6162657acc.webp"
     }
   ],
   "single_observed_records": [
@@ -3849,26 +3907,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/56-1fd51e4ead2b2779.webp"
-    },
-    {
-      "reference_product_id": 63,
-      "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "めありー / 彼はきっと魔法を使う。 [CD]",
-        "version_evidence": null,
-        "catalog_no": "MARY-1004",
-        "barcode": "4526180430025",
-        "price": 1393.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fmifsoft%2Fmary-1004%2F",
-        "observed_at": "2026-09-14T18:04:56Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/63-8a5d9c6162657acc.webp"
     },
     {
       "reference_product_id": 66,
