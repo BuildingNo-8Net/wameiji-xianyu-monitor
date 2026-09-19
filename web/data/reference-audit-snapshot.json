@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T00:58:45+08:00",
+  "generated_at": "2026-09-20T01:12:51+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 86 条双侧实物观察、22 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 87 条双侧实物观察、21 条单边待补观察中，挖煤姬页面已复核 96 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 82,
-    "both_observed_count": 86,
-    "single_observed_count": 22,
-    "wameiji_platform_found_count": 95,
+    "both_observed_count": 87,
+    "single_observed_count": 21,
+    "wameiji_platform_found_count": 96,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 81
+      "count": 82
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 14
+      "count": 13
     },
     {
       "wameiji": "price_unfavorable",
@@ -4908,6 +4908,34 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 98,
+      "stable_key": "sample:307ad680472c5865677b1495831ff8169c255313ac25bf7f534c555067c3778b",
+      "wameiji": {
+        "title": "YOASOBI THE BOOK for, CD 完全生産限定盤",
+        "version_evidence": "挖煤姬当前 Chrome 搜索页筛选到 Mercari；卡片标题明确为 YOASOBI THE BOOK for, CD 完全生産限定盤，卡片图为蓝色 THE BOOK for CD 盒，标价 5,699 日元，当前结果可见。只锁定 CD+特製バインダー完全生产限定版，不把 LP、特典索引或 THE BOOK 2 当作同版。",
+        "catalog_no": "XSCL-136~137",
+        "barcode": "4573623373326",
+        "price": 5699.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&keywords=YOASOBI%20THE%20BOOK%20for&sort=default&identity=all&isStock=true&seller=%5B%22%22%5D&website=%5B%22mercari%22%5D",
+        "observed_at": "2026-09-19T17:12:51Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "特惠YOASOBI THE BOOK for 全新未拆专辑 CD+特制活页夹",
+        "version_evidence": "闲鱼当前详情页明确为 YOASOBI THE BOOK for 完全生产限定盘；页面标题与描述写明官方正版、CD+特制活页夹、特制活页卡纸与初回生产特典抽选券，蓝盒膜袋未拆；当前活动价 255–309 CNY，按起价 255 CNY 记录。该页是实际商品详情页，不把活动区间视为已成交价。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 255.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1065572288193&categoryId=202061902",
+        "observed_at": "2026-09-19T17:12:51Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "single_observed_records": [
@@ -5162,25 +5190,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=922779792696&categoryId=126856346",
         "observed_at": "2026-09-19T11:05:00Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 98,
-      "stable_key": "sample:307ad680472c5865677b1495831ff8169c255313ac25bf7f534c555067c3778b",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "特惠YOASOBI THE BOOK for 全新未拆专辑 CD+特制活页夹",
-        "version_evidence": "闲鱼详情页明确为 YOASOBI THE BOOK for 完全生产限定盘；描述写明官方正版、CD+特制活页夹、特制活页卡纸与初回生产特典抽选券，蓝盒膜袋未拆；当前活动价255–309 CNY，按起价255 CNY记录。人工核验到具体闲鱼商品页。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 255.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1065572288193&categoryId=202061902",
-        "observed_at": "2026-09-19T11:20:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
