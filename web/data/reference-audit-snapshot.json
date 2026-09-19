@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T15:23:01+08:00",
+  "generated_at": "2026-09-19T15:28:49+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 78 条双侧实物观察、3 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 74,
+    "both_found_count": 75,
     "both_observed_count": 78,
     "single_observed_count": 3,
     "wameiji_platform_found_count": 83,
-    "found_any_count": 99,
+    "found_any_count": 100,
     "not_currently_listed_both_count": 24
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 74
+      "count": 75
     },
     {
       "wameiji": "found",
@@ -2137,6 +2137,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
+    },
+    {
+      "reference_product_id": 4,
+      "stable_key": "sample:2ab9b3aa29d6a05cfaaf3b6497f8ba709e3fbd135fb92451f5ae383cc3312334",
+      "wameiji": {
+        "title": "【特価商品】ハミダシクリエイティブ凸 初回版",
+        "version_evidence": "挖煤姬详情标题与商品介绍锁定「ハミダシクリエイティブ凸 初回版」PC 游戏续作；未使用，卖家承担日本国内运费，标价 10,762 JPY，代购手续费 300 日元，详情未枚举完整附件清单。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 10762.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4d6a62484c4e577a4e6d71554a5173796b6461662f",
+        "observed_at": "2026-09-19T07:28:49Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "灵感满溢的甜蜜创想凸 初回版",
+        "version_evidence": "闲鱼详情标题为「灵感满溢的甜蜜创想凸 初回版」，商品信息明确 madosoft/窗社、全新未拆、正版初回限定，标价 500 CNY 包邮；与样本同版标题和初回形态对应。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 500.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1029227800211&categoryId=126860296",
+        "observed_at": "2026-09-19T07:28:49Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/4-2ab9b3aa29d6a05c.webp"
     },
     {
       "reference_product_id": 5,
