@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:37:00+08:00",
+  "generated_at": "2026-09-19T13:47:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 66 条双侧实物观察、18 条单边待补观察中，挖煤姬页面已复核 82 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 67 条双侧实物观察、17 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 60,
-    "both_observed_count": 66,
-    "single_observed_count": 18,
-    "wameiji_platform_found_count": 82,
+    "both_found_count": 61,
+    "both_observed_count": 67,
+    "single_observed_count": 17,
+    "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 60
+      "count": 61
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 13
+      "count": 12
     },
     {
       "wameiji": "price_unfavorable",
@@ -1789,6 +1789,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/63-8a5d9c6162657acc.webp"
+    },
+    {
+      "reference_product_id": 14,
+      "stable_key": "sample:b9f4a41e4e0629031357bed6126c015c47a2be1c996b40dccb2ecccbff75944e",
+      "wameiji": {
+        "title": "未開 minori eden* TRIAL DISC Sofmap エディション",
+        "version_evidence": "挖煤姬 Mercari 详情：minori《eden* TRIAL DISC Sofmap エディション》，页面状态未使用，商品介绍写明未開封新品，标价 2,500 日元；与闲鱼《minori eden* TRIAL DISC》同一试用碟标题/版本形态，Sofmap 外套信息仅在挖煤姬侧确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2500.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31313438383035353137392f",
+        "observed_at": "2026-09-19T05:47:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "全新未拆 minori eden* TRIAL DISC CD",
+        "version_evidence": "闲鱼详情记录：minori/eden* TRIAL DISC CD，全新未拆，标价 170 CNY；图片与参考样本相符。与挖煤姬标题同为 eden* TRIAL DISC，外套/特典差异未在闲鱼侧确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 170.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
+        "observed_at": "2026-09-15T04:03:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -3705,6 +3734,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/63-8a5d9c6162657acc.webp"
+    },
+    {
+      "reference_product_id": 14,
+      "stable_key": "sample:b9f4a41e4e0629031357bed6126c015c47a2be1c996b40dccb2ecccbff75944e",
+      "wameiji": {
+        "title": "未開 minori eden* TRIAL DISC Sofmap エディション",
+        "version_evidence": "挖煤姬 Mercari 详情：minori《eden* TRIAL DISC Sofmap エディション》，页面状态未使用，商品介绍写明未開封新品，标价 2,500 日元；与闲鱼《minori eden* TRIAL DISC》同一试用碟标题/版本形态，Sofmap 外套信息仅在挖煤姬侧确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2500.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31313438383035353137392f",
+        "observed_at": "2026-09-19T05:47:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "全新未拆 minori eden* TRIAL DISC CD",
+        "version_evidence": "闲鱼详情记录：minori/eden* TRIAL DISC CD，全新未拆，标价 170 CNY；图片与参考样本相符。与挖煤姬标题同为 eden* TRIAL DISC，外套/特典差异未在闲鱼侧确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 170.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
+        "observed_at": "2026-09-15T04:03:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
     }
   ],
   "single_observed_records": [
@@ -3807,26 +3865,6 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/13-ce603c1a4a257a00.webp"
-    },
-    {
-      "reference_product_id": 14,
-      "stable_key": "sample:b9f4a41e4e0629031357bed6126c015c47a2be1c996b40dccb2ecccbff75944e",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "全新未拆 minori eden* TRIAL DISC CD",
-        "version_evidence": "明确全新未拆；minori/eden*试用碟；图片与参考样本相符",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 170.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
-        "observed_at": "2026-09-15T12:03:34+08:00",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
     },
     {
       "reference_product_id": 18,
