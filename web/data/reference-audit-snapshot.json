@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:32:16+08:00",
+  "generated_at": "2026-09-19T14:34:34+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 76 条双侧实物观察、8 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 77 条双侧实物观察、7 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 69,
-    "both_observed_count": 76,
-    "single_observed_count": 8,
+    "both_found_count": 70,
+    "both_observed_count": 77,
+    "single_observed_count": 7,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 69
+      "count": 70
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 10
+      "count": 9
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 111,
+      "stable_key": "sample:4b9d9eceb4d076317f12b55d9211e66f0e9d3b656ba4571db9f349b8741a3657",
+      "wameiji": {
+        "title": "BD / Ado / Hibana (さいたまスーパーアリーナ&オーランド) (Blu-ray) (初回限定盤) / TYXT-19045",
+        "version_evidence": "挖煤姬 Rakuten 详情锁定 Ado《Hibana》初回限定 2-Blu-ray 版，目录号 TYXT-19045、JAN 4988031852927；商品名明确为埼玉超级竞技场&奥兰多。",
+        "catalog_no": "TYXT-19045",
+        "barcode": "4988031852927",
+        "price": 10467.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Fazntyxt-19045%2F",
+        "observed_at": "2026-09-19T06:34:34Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "全新现货 Ado Hibana WORLD TOUR 2025 初回限定盘",
+        "version_evidence": "闲鱼详情明确为日版原版、初回限定盘、2BD 套装，收录埼玉超级竞技场&奥兰多两场演唱会实录，未拆封；标价区间 550–580 CNY，详情注明预订请勿直拍。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 550.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1047649063786&categoryId=0",
+        "observed_at": "2026-09-19T06:34:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/111-4b9d9eceb4d07631.webp"
+    },
     {
       "reference_product_id": 2,
       "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
@@ -2053,6 +2082,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 111,
+      "stable_key": "sample:4b9d9eceb4d076317f12b55d9211e66f0e9d3b656ba4571db9f349b8741a3657",
+      "wameiji": {
+        "title": "BD / Ado / Hibana (さいたまスーパーアリーナ&オーランド) (Blu-ray) (初回限定盤) / TYXT-19045",
+        "version_evidence": "挖煤姬 Rakuten 详情锁定 Ado《Hibana》初回限定 2-Blu-ray 版，目录号 TYXT-19045、JAN 4988031852927；商品名明确为埼玉超级竞技场&奥兰多。",
+        "catalog_no": "TYXT-19045",
+        "barcode": "4988031852927",
+        "price": 10467.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Fazntyxt-19045%2F",
+        "observed_at": "2026-09-19T06:34:34Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "全新现货 Ado Hibana WORLD TOUR 2025 初回限定盘",
+        "version_evidence": "闲鱼详情明确为日版原版、初回限定盘、2BD 套装，收录埼玉超级竞技场&奥兰多两场演唱会实录，未拆封；标价区间 550–580 CNY，详情注明预订请勿直拍。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 550.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1047649063786&categoryId=0",
+        "observed_at": "2026-09-19T06:34:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/111-4b9d9eceb4d07631.webp"
+    },
     {
       "reference_product_id": 2,
       "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
@@ -4398,26 +4456,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
-    },
-    {
-      "reference_product_id": 111,
-      "stable_key": "sample:4b9d9eceb4d076317f12b55d9211e66f0e9d3b656ba4571db9f349b8741a3657",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "BD / Ado / Hibana (さいたまスーパーアリーナ&オーランド) (Blu-ray) (初回限定盤) / TYXT-19045",
-        "version_evidence": "New Rakuten listing: initial limited 2-Blu-ray edition; product no. TYXT-19045; JAN 4988031852927; released 2026-03-25. The page does not itemize the bonus contents.",
-        "catalog_no": "TYXT-19045",
-        "barcode": "4988031852927",
-        "price": 10467.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Fazntyxt-19045%2F",
-        "observed_at": "2026-09-14T18:08:20Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/111-4b9d9eceb4d07631.webp"
     }
   ]
 }
