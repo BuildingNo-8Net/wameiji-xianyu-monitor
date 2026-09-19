@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T00:12:50+08:00",
+  "generated_at": "2026-09-20T00:28:23+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、24 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -5530,26 +5530,26 @@
       "xianyu_state": "not_currently_listed",
       "wameiji": {
         "title": "アオイトリ Purple software 初回限定版 exact search: no current item card",
-        "version_evidence": "人工Chrome精确检索《アオイトリ Purple software 初回限定版》；结果是手机壳、fumika同名音乐CD及其他无关商品，没有Purple software《アオイトリ》PC游戏盒具体页，排除同名CD。",
+        "version_evidence": "人工Chrome精确检索《アオイトリ Purple software 初回限定版》；结果为アオイトリ通用手机壳、fumika同名音乐CD、其他无关商品，没有Purple software《アオイトリ》PC游戏盒具体页，排除同名CD。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
         "source_url": "https://www.meruki.cn/search?keywords=%E3%82%A2%E3%82%AA%E3%82%A4%E3%83%88%E3%83%AA+Purple+software+%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-19T14:47:40Z",
+        "observed_at": "2026-09-19T16:28:23Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "state": "not_currently_listed"
       },
       "xianyu": {
         "title": "アオイトリ Purple software 初回限定版",
-        "version_evidence": "人工Chrome精确检索《アオイトリ Purple software 初回限定版》；结果为未来乡愁、天津罪、RIDDLE JOKER及同名音乐CD等其他商品，没有《アオイトリ》PC游戏本体具体页，排除相近词。",
+        "version_evidence": "人工Chrome先检索《アオイトリ Purple software 初回限定版》，结果为紫社未来乡愁、天津罪、RIDDLE JOKER等其他游戏与fumika同名CD；再检索“紫社 青鸟 アオイトリ 初回限定版”，页面明确显示“没有找到你想要的宝贝”，仅有推荐项，未见《アオイトリ》PC游戏本体具体页，排除相近词。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E3%82%A2%E3%82%AA%E3%82%A4%E3%83%88%E3%83%AA%20Purple%20software%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-19T14:47:40Z",
+        "source_url": "https://www.goofish.com/search?q=%E7%B4%AB%E7%A4%BE%20%E9%9D%92%E9%B8%9F%20%E3%82%A2%E3%82%AA%E3%82%A4%E3%83%88%E3%83%AA%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
+        "observed_at": "2026-09-19T16:28:23Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
