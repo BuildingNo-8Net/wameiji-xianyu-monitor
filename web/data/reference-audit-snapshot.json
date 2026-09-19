@@ -2,15 +2,15 @@
   "schema_version": 1,
   "generated_at": "2026-09-19T21:25:05+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、21 条单边待补观察中，挖煤姬页面已复核 94 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、22 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 21,
-    "wameiji_platform_found_count": 94,
-    "found_any_count": 110,
-    "not_currently_listed_both_count": 13
+    "single_observed_count": 22,
+    "wameiji_platform_found_count": 95,
+    "found_any_count": 111,
+    "not_currently_listed_both_count": 12
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 11
+      "count": 12
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 13
+      "count": 12
     },
     {
       "wameiji": "price_unfavorable",
@@ -5180,6 +5180,26 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/83-bdf61d7786697043.webp"
+    },
+    {
+      "reference_product_id": 112,
+      "stable_key": "sample:7cd35a051c64ad55a72942402e1f6df751ddb4d4a6272b95cbc28814ca011647",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "MAN WITH A MISSION milet 絆ノ奇跡 コイコガレ レコード",
+        "version_evidence": "人工 Chrome 挖煤姬详情页：动画《鬼灭之刃》刀锻冶之里篇主题曲；MAN WITH A MISSION x milet；《絆ノ奇跡 / コイコガレ》；完全生产限定模拟唱片；未使用；11,000 日元。页面未显示样本条码 SRJL-1124 / 4547366609639，也未包含样本图中提到的 CD×DVD/海报套装，因此只作为同版 LP 形态观察，不当作完整套装证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 11000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35363433373932363336372f",
+        "observed_at": "2026-09-19T14:10:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/112-7cd35a051c64ad55.webp"
     }
   ],
   "unavailable_records": [
@@ -5626,38 +5646,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E6%99%93%E4%B9%8B%E6%8A%A4%E5%8D%AB%20%E7%AD%BE%E5%90%8D%E6%B5%B7%E6%8A%A5%20%E5%8D%A1",
         "observed_at": "2026-09-14T03:49:36Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 112,
-      "stable_key": "sample:7cd35a051c64ad55a72942402e1f6df751ddb4d4a6272b95cbc28814ca011647",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "No current exact SRJL-1124 / 4547366609639 colored-vinyl LP listing",
-        "version_evidence": "Chrome 人工以 MAN WITH A MISSION×milet、SRJL-1124、JAN 4547366609639 精确检索。当前结果为同名 CD、期间/初回 CD+DVD、租赁碟等；未出现样本对应的完全生产限定彩胶 LP。",
-        "catalog_no": "SRJL-1124",
-        "barcode": "4547366609639",
-        "price": null,
-        "currency": null,
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=MAN%20WITH%20A%20MISSION%20milet%20SRJL-1124%204547366609639",
-        "observed_at": "2026-09-14T18:32:04Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "No active exact SRJL-1124 / 4547366609639 colored-vinyl LP listing",
-        "version_evidence": "Chrome 人工用限定号和 JAN 精确检索；页面显示没有找到目标宝贝。推荐项与样本无关，未以旧的“绿胶 LP”泛检索/卖家标题替代。",
-        "catalog_no": "SRJL-1124",
-        "barcode": "4547366609639",
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=MAN%20WITH%20A%20MISSION%20milet%20SRJL-1124%204547366609639",
-        "observed_at": "2026-09-14T18:32:04Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
