@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T23:40:00+08:00",
+  "generated_at": "2026-09-19T23:36:19+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、24 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 81,
     "both_observed_count": 84,
-    "single_observed_count": 23,
+    "single_observed_count": 24,
     "wameiji_platform_found_count": 95,
-    "found_any_count": 113,
-    "not_currently_listed_both_count": 10
+    "found_any_count": 114,
+    "not_currently_listed_both_count": 11
   },
   "state_pairs": [
     {
@@ -5276,6 +5276,26 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/36-01627ff9b576bd11.webp"
+    },
+    {
+      "reference_product_id": 28,
+      "stable_key": "sample:efd530b47e5f58a4bf0f238d37cf7df201458246af69133d88f21a13af0f74e6",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "narcissu 水仙 C83场贩小说 两本一起",
+        "version_evidence": "人工Chrome打开闲鱼当前具体详情页；标题为「narcissu 水仙 C83场贩小说 两本一起」，描述含猫猫社、佐仓濑津美，价格400 CNY、包邮，成色显示几乎全新。详情主图可见两本实体书，封面标示2与3卷，与样本照片的两本纸质小说一致。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 400,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1084018594749&categoryId=126860296",
+        "observed_at": "2026-09-19T15:36:19Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp"
     }
   ],
   "unavailable_records": [
@@ -5338,38 +5358,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E7%BC%98%E4%B9%8B%E7%A9%BA%20%E7%94%BB%E9%9B%86",
         "observed_at": "2026-09-19T15:40:00Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 28,
-      "stable_key": "sample:efd530b47e5f58a4bf0f238d37cf7df201458246af69133d88f21a13af0f74e6",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "narcissu PARAS 小説 exact search: no current item card",
-        "version_evidence": "人工Chrome精确检索样本原名 narcissu PARAS 小説；结果仅出现服饰、游戏王等无关条目，没有目标两本轻小说商品页，排除相近词。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=narcissu%20PARAS%20%E5%B0%8F%E8%AA%AC",
-        "observed_at": "2026-09-19T14:14:41Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "narcissu PARAS 小説 佐仓濑津美 exact search: no matching listing",
-        "version_evidence": "人工Chrome精确检索页面显示小闲鱼没有找到你想要的宝贝；推荐流仅为米津玄师、手办、cos等无关商品，未记录为样本商品。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=narcissu%20PARAS%20%E5%B0%8F%E8%AA%AC%20%E4%BD%90%E4%BB%93%E6%BF%91%E6%B4%A5%E7%BE%8E",
-        "observed_at": "2026-09-19T14:14:46Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
