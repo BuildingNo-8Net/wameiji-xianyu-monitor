@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:05:00+08:00",
+  "generated_at": "2026-09-19T19:20:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、9 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、10 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 76,
     "both_observed_count": 79,
-    "single_observed_count": 9,
+    "single_observed_count": 10,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
@@ -4725,6 +4725,25 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 98,
+      "stable_key": "sample:307ad680472c5865677b1495831ff8169c255313ac25bf7f534c555067c3778b",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "特惠YOASOBI THE BOOK for 全新未拆专辑 CD+特制活页夹",
+        "version_evidence": "闲鱼详情页明确为 YOASOBI THE BOOK for 完全生产限定盘；描述写明官方正版、CD+特制活页夹、特制活页卡纸与初回生产特典抽选券，蓝盒膜袋未拆；当前活动价255–309 CNY，按起价255 CNY记录。人工核验到具体闲鱼商品页。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 255.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1065572288193&categoryId=202061902",
+        "observed_at": "2026-09-19T11:20:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "unavailable_records": [
@@ -5526,38 +5545,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 98,
-      "stable_key": "sample:307ad680472c5865677b1495831ff8169c255313ac25bf7f534c555067c3778b",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": null,
-        "version_evidence": null,
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=YOASOBI%20THE%20BOOK%20for%20%E5%AE%8C%E5%85%A8%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%9B%A4%20CD%20%E3%83%90%E3%82%A4%E3%83%B3%E3%83%80%E3%83%BC",
-        "observed_at": "2026-09-14T05:03:34Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "YOASOBI THE BOOK for complete production limited CD plus special binder, new sealed",
-        "version_evidence": "THE BOOK for complete production limited CD plus special binder. Current domestic listing says Japanese original, new sealed and immediate dispatch. The 2026-2027 Dome and Stadium Tour ticket lottery serial is stated as initial-production enclosed paper.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 340.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20for%20%E7%89%B9%E8%A3%BD%E3%83%90%E3%82%A4%E3%83%B3%E3%83%80%E3%83%BC%20%E5%AE%8C%E5%85%A8%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T05:03:56Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
