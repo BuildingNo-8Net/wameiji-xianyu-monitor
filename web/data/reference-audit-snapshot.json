@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T21:45:00+08:00",
+  "generated_at": "2026-09-19T21:16:05+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、18 条单边待补观察中，挖煤姬页面已复核 93 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、19 条单边待补观察中，挖煤姬页面已复核 93 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 18,
+    "single_observed_count": 19,
     "wameiji_platform_found_count": 93,
-    "found_any_count": 107,
-    "not_currently_listed_both_count": 16
+    "found_any_count": 108,
+    "not_currently_listed_both_count": 15
   },
   "state_pairs": [
     {
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 11
+      "count": 12
     },
     {
       "wameiji": "price_unfavorable",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 16
+      "count": 15
     },
     {
       "wameiji": "price_unfavorable",
@@ -5122,6 +5122,25 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/67-70b6fec6c7a32949.webp"
+    },
+    {
+      "reference_product_id": 125,
+      "stable_key": "sample:74f93be01bbf73a31c2ecebdd16e2c4771f5aa4b7558b561377cc2e70ae9a292",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【黑胶彩胶】药屋少女的呢喃 LP 动画原声音乐专辑 OST Original Soundtrack 正版唱片 欧版限定版 全新未拆",
+        "version_evidence": "闲鱼详情页明确为《药屋少女的呢喃》动画原声 Original Soundtrack、欧版限定版、彩胶 2LP、全新未拆，标注神前暁、桶狭間ありさ、Kevin Penkin；页面显示 ¥599–1299。未看到条码或 Crunchyroll 压印，因此这是同形态实物观察，不把它当作样本条码 198029933819 的同版证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 599.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
+        "observed_at": "2026-09-19T13:16:05Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "unavailable_records": [
@@ -5664,38 +5683,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=MAN%20WITH%20A%20MISSION%20milet%20SRJL-1124%204547366609639",
         "observed_at": "2026-09-14T18:32:04Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 125,
-      "stable_key": "sample:74f93be01bbf73a31c2ecebdd16e2c4771f5aa4b7558b561377cc2e70ae9a292",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "The Apothecary Diaries Original Anime Soundtrack - Crunchyroll Exclusive 2LP",
-        "version_evidence": "Exact target is the Crunchyroll-exclusive Milan Records 2LP, barcode 198029933819: translucent green Maomao and translucent purple Jinshi records with the 12x12 artwork-and-credits insert. Manual current Wameiji search returned Japanese season-2 soundtrack CDs, anime music CDs, bonus goods, and Blu-rays, but no target 2LP; those substitutes are excluded.",
-        "catalog_no": null,
-        "barcode": "198029933819",
-        "price": null,
-        "currency": null,
-        "source_url": "https://meruki.cn/search?keywords=%E8%96%AC%E5%B1%8B%E3%81%AE%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8%20Original%20Soundtrack%20%E3%82%A2%E3%83%8A%E3%83%AD%E3%82%B0&website=mercari",
-        "observed_at": "2026-09-14T18:56:28Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "No current exact The Apothecary Diaries Crunchyroll Exclusive Original Soundtrack 2LP",
-        "version_evidence": "Manual Xianyu query combining 药屋少女的呢喃, Original Soundtrack, 2LP and Crunchyroll returned the platform no-results state. The target remains the exact colored Crunchyroll-exclusive 2LP (barcode 198029933819), not any anime CD, Japanese soundtrack CD, or unrelated LP.",
-        "catalog_no": null,
-        "barcode": "198029933819",
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E8%8D%AF%E5%B1%8B%E5%B0%91%E5%A5%B3%E7%9A%84%E5%91%A2%E5%96%83%20Original%20Soundtrack%202LP%20Crunchyroll",
-        "observed_at": "2026-09-14T18:56:29Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
