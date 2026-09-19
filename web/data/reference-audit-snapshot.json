@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:29:38+08:00",
+  "generated_at": "2026-09-19T14:32:16+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 75 条双侧实物观察、9 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 76 条双侧实物观察、8 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 68,
-    "both_observed_count": 75,
-    "single_observed_count": 9,
+    "both_found_count": 69,
+    "both_observed_count": 76,
+    "single_observed_count": 8,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 68
+      "count": 69
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 11
+      "count": 10
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 2,
+      "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
+      "wameiji": {
+        "title": "ツユ アンダーメンタリティ CD Blu-ray 初回限定盤 ピアノアレンジcd",
+        "version_evidence": "挖煤姬详情锁定 TUYU《Under Mentality》初回限定盘，附 Blu-ray 与钢琴编曲 CD；页面写明已使用数次、纸箱背面有揭胶污渍且不含杯垫。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 18999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32303034333531383737382f",
+        "observed_at": "2026-09-19T06:32:16Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "TUYU（ツユ）3rd专辑 Under Mentality 初回限定 BD蓝光版",
+        "version_evidence": "闲鱼详情明确为 TUYU《Under Mentality》初回限定 BD 蓝光版，包含 CD+BD 蓝光+画册+三方背硬盒；仅拆开检查、保留原装塑封，售价 800 CNY。与挖煤姬记录的使用痕迹、盒背揭胶污渍及不含杯垫存在成色/附件差异。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 800.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080956335537&categoryId=126860296",
+        "observed_at": "2026-09-19T06:32:16Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/2-2ae7664bc8f011ce.webp"
+    },
     {
       "reference_product_id": 107,
       "stable_key": "sample:a30bbb3f193ff984f77ff7a4d8ccf8cd481183a475e875b1d52d882fce1e2ca5",
@@ -2024,6 +2053,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 2,
+      "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
+      "wameiji": {
+        "title": "ツユ アンダーメンタリティ CD Blu-ray 初回限定盤 ピアノアレンジcd",
+        "version_evidence": "挖煤姬详情锁定 TUYU《Under Mentality》初回限定盘，附 Blu-ray 与钢琴编曲 CD；页面写明已使用数次、纸箱背面有揭胶污渍且不含杯垫。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 18999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32303034333531383737382f",
+        "observed_at": "2026-09-19T06:32:16Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "TUYU（ツユ）3rd专辑 Under Mentality 初回限定 BD蓝光版",
+        "version_evidence": "闲鱼详情明确为 TUYU《Under Mentality》初回限定 BD 蓝光版，包含 CD+BD 蓝光+画册+三方背硬盒；仅拆开检查、保留原装塑封，售价 800 CNY。与挖煤姬记录的使用痕迹、盒背揭胶污渍及不含杯垫存在成色/附件差异。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 800.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080956335537&categoryId=126860296",
+        "observed_at": "2026-09-19T06:32:16Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/2-2ae7664bc8f011ce.webp"
+    },
     {
       "reference_product_id": 107,
       "stable_key": "sample:a30bbb3f193ff984f77ff7a4d8ccf8cd481183a475e875b1d52d882fce1e2ca5",
@@ -4201,26 +4259,6 @@
     }
   ],
   "single_observed_records": [
-    {
-      "reference_product_id": 2,
-      "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "ツユ アンダーメンタリティ CD Blu-ray 初回限定盤 ピアノアレンジcd",
-        "version_evidence": "挖煤姬详情：初回限定盘（附Blu-ray）+钢琴编曲CD；已使用数次，纸箱背面有揭胶污渍；不含杯垫。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 18999.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32303034333531383737382f",
-        "observed_at": "2026-09-15T14:36:15Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/2-2ae7664bc8f011ce.webp"
-    },
     {
       "reference_product_id": 3,
       "stable_key": "sample:9b672eed92a617aaac757676f4d939f1602c08f8649bbdafaa72e2436f7764dc",
