@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T12:01:53+08:00",
+  "generated_at": "2026-09-19T12:08:08+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 50 条双侧实物观察、34 条单边待补观察中，挖煤姬页面已复核 74 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 51 条双侧实物观察、33 条单边待补观察中，挖煤姬页面已复核 75 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 48,
-    "both_observed_count": 50,
-    "single_observed_count": 34,
-    "wameiji_platform_found_count": 74,
+    "both_found_count": 49,
+    "both_observed_count": 51,
+    "single_observed_count": 33,
+    "wameiji_platform_found_count": 75,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 48
+      "count": 49
     },
     {
       "wameiji": "found",
@@ -1441,6 +1441,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e.webp"
+    },
+    {
+      "reference_product_id": 64,
+      "stable_key": "sample:13578faa50a3a80b50d618fd0cccea2a8925d838cc43dfc3032cdb82a6596bab",
+      "wameiji": {
+        "title": "Tell Your World EP(初回限定盤)(DVD付)",
+        "version_evidence": "挖煤姬详情：初回限定盤（DVD付），JAN 4988061863788；页面显示未使用に近い、无明显损伤或污渍，CD+DVD 规格与样本一致。",
+        "catalog_no": null,
+        "barcode": "4988061863788",
+        "price": 1711.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a57535a4c6f6a666f377272347044323268587a682f",
+        "observed_at": "2026-09-19T04:08:08Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【即将下架】初音未来 livetune《Tell Your World》EP 初回限定盘 CD＋DVD",
+        "version_evidence": "闲鱼现货挂牌标题与描述明确为 livetune feat. Hatsune Miku《Tell Your World EP》初回限定盘 CD＋DVD，日版代购商品；价格 190 CNY。详情页受跨境商品限制未展开，版本按搜索挂牌文本记录。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 190.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1085259289201&categoryId=126862148",
+        "observed_at": "2026-09-19T04:08:08Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/64-13578faa50a3a80b.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2893,6 +2922,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e.webp"
+    },
+    {
+      "reference_product_id": 64,
+      "stable_key": "sample:13578faa50a3a80b50d618fd0cccea2a8925d838cc43dfc3032cdb82a6596bab",
+      "wameiji": {
+        "title": "Tell Your World EP(初回限定盤)(DVD付)",
+        "version_evidence": "挖煤姬详情：初回限定盤（DVD付），JAN 4988061863788；页面显示未使用に近い、无明显损伤或污渍，CD+DVD 规格与样本一致。",
+        "catalog_no": null,
+        "barcode": "4988061863788",
+        "price": 1711.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a57535a4c6f6a666f377272347044323268587a682f",
+        "observed_at": "2026-09-19T04:08:08Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【即将下架】初音未来 livetune《Tell Your World》EP 初回限定盘 CD＋DVD",
+        "version_evidence": "闲鱼现货挂牌标题与描述明确为 livetune feat. Hatsune Miku《Tell Your World EP》初回限定盘 CD＋DVD，日版代购商品；价格 190 CNY。详情页受跨境商品限制未展开，版本按搜索挂牌文本记录。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 190.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1085259289201&categoryId=126862148",
+        "observed_at": "2026-09-19T04:08:08Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/64-13578faa50a3a80b.webp"
     }
   ],
   "single_observed_records": [
@@ -3235,26 +3293,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/63-8a5d9c6162657acc.webp"
-    },
-    {
-      "reference_product_id": 64,
-      "stable_key": "sample:13578faa50a3a80b50d618fd0cccea2a8925d838cc43dfc3032cdb82a6596bab",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "livetune feat. Hatsune Miku — Tell Your World EP 初回限定盤 CD+DVD",
-        "version_evidence": "Initial limited edition; CD+DVD; special digipak with Mebae illustrated jacket; lyric booklet present",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1800.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34323935363032313137382f",
-        "observed_at": "2026-09-14T18:41:35Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/64-13578faa50a3a80b.webp"
     },
     {
       "reference_product_id": 66,
