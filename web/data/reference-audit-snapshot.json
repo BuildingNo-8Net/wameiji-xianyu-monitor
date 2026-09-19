@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T04:25:52+08:00",
+  "generated_at": "2026-09-20T04:47:03+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、17 条单边待补观察中，挖煤姬页面已复核 103 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、25 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 109 条。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
     "both_observed_count": 100,
-    "single_observed_count": 17,
-    "wameiji_platform_found_count": 103,
-    "found_any_count": 118,
-    "not_currently_listed_both_count": 7
+    "single_observed_count": 25,
+    "wameiji_platform_found_count": 109,
+    "found_any_count": 125,
+    "not_currently_listed_both_count": 0
   },
   "state_pairs": [
     {
@@ -5648,9 +5648,169 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/48-ad64fd36d4861f48.webp"
+    },
+    {
+      "reference_product_id": 5,
+      "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "found",
+      "observation": {
+        "title": "［急出］枕社 樱之诗 初回限定版 带两张色纸和设定集",
+        "version_evidence": "人工Chrome复核的闲鱼详情明确为《サクラノ詩/樱之诗》初回限定版，带两张色纸和设定集，盒子有挤压痕，价格500 CNY。挖煤姬侧曾见同名初回版搜索卡但尚未形成可复核详情页，因此保留为单边实物观察，不把搜索卡当成完整进货证据。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 500,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
+        "observed_at": "2026-09-15T14:35:15Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"
+    },
+    {
+      "reference_product_id": 26,
+      "stable_key": "sample:bca3653bd2c65a2997d9a5f5cade20e2d893f6897eaf08d53bc529b2b6053241",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "《缘之空》精装珍藏画集，圣基文化出品，新华书店购入。外壳四角",
+        "version_evidence": "人工Chrome打开闲鱼当前具体详情页：实体《缘之空》精装珍藏画集，圣基文化出品，内页和附赠2张海报保存良好，外壳四角有轻微磨损，活动价36.40 CNY。它是同作品的实体画集，但不是样本目标“VISUAL ART COLLECTION”同一具体版本；挖煤姬侧当前仍只有蓝光/其他媒介结果，故只记为闲鱼单边观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 36.4,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.21.47494e3fOxOj06&id=1027107076352&categoryId=202029302",
+        "observed_at": "2026-09-19T20:47:03Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/26-bca3653bd2c65a29.webp"
+    },
+    {
+      "reference_product_id": 30,
+      "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "RIDDLE JOKER キャラクターソング＆サントラ CDセット BOX",
+        "version_evidence": "人工Chrome打开挖煤姬当前 Mercari 具体详情页：RIDDLE JOKER 角色歌4枚+原声带3枚，共7张CD，价格16,000 JPY（页面约709 CNY），目录号 YSCD-0048～YSCD0052-54。它确认同一IP的当前实物，但不是样本中的ランチボックス饭盒，闲鱼侧仍未核到该饭盒具体页。",
+        "catalog_no": "YSCD-0048; YSCD-0049; YSCD-0050; YSCD-0051; YSCD0052-54",
+        "barcode": null,
+        "price": 16000,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34363032393630393432312f",
+        "observed_at": "2026-09-19T20:47:03Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/30-d626a72b6c446739.webp"
+    },
+    {
+      "reference_product_id": 31,
+      "stable_key": "sample:e78d933355ffe3d1523636f9ced7999b538b4e9d16899a03447213a0bc171b6c",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【中古】アニメムック ≪イラスト画集≫ 杉菜水姫(スギナミキ)作品第二集 『花葬』",
+        "version_evidence": "人工Chrome打开挖煤姬当前 Mercari 店铺详情页：杉菜水姫作品第二集《花葬》，B4画集，120页/240面，价格37,000 JPY（页面约1,640 CNY）。它是同作者、同类实体画集并包含 Innocent Grey 相关作品，但不是样本目标 CAUCASUS/七凭之祭 同一标题，闲鱼侧仍未核到对应实体页。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 37000,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f774765675a564b6a50567158685755576342796d6f4e2f",
+        "observed_at": "2026-09-19T20:47:03Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
+    },
+    {
+      "reference_product_id": 32,
+      "stable_key": "sample:8719026bf4cd723459f1664713f434a8cce9c4257849655f2dcd47dbbf36f9c9",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "blocked",
+      "observation": {
+        "title": "殻ノ少女　ルリノユメ　オリジナルグッズセット",
+        "version_evidence": "人工Chrome打开挖煤姬当前 Mercari 具体详情页：同为 Innocent Grey《殻ノ少女》系列，含《ルリノユメ》原画集和原创声音剧，价格25,000 JPY（页面约1,108 CNY）。它是同作品系列的当前实物，但不是样本中标题被遮挡的初回收纳盒；闲鱼侧因样本游戏名被遮挡仍无法确认同版，保留 blocked 单边观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 25000,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35373036333538313136322f",
+        "observed_at": "2026-09-19T20:47:03Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp"
+    },
+    {
+      "reference_product_id": 35,
+      "stable_key": "sample:e614e34d2690d0fa07d8da5f629e2a1c9ae52c5b8b433a968ecfa34b996a0fa5",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "blocked",
+      "observation": {
+        "title": "トロイメライ 初回限定版 新品未開封 Innocent Grey 霜月はるか",
+        "version_evidence": "人工Chrome打开挖煤姬当前 Mercari 具体详情页：Innocent Grey《トロイメライ -Innocent Grey Haruka Shimotsuki Collection-》初回限定版，附原始特典杯垫2枚和特装包装，未使用，价格33,000 JPY（页面约1,462 CNY）。它确认同品牌/歌手方向的当前实物，但样本标题和封面被遮挡、原物是游戏盒子，不能宣称同版；闲鱼侧仍无法确认具体发行物，保留 blocked 单边观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 33000,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31363232323635383832372f",
+        "observed_at": "2026-09-19T20:47:03Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/35-e614e34d2690d0fa.webp"
+    },
+    {
+      "reference_product_id": 50,
+      "stable_key": "sample:3173a93da0e6185bd6775d03e646fd10917708ad99cc49cb92cffd5de58d4738",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【中古】 どうして君は世界で一人／リリィ、さよなら。",
+        "version_evidence": "人工Chrome打开挖煤姬当前 Rakuten 具体详情页：艺人リリィ、さよなら。的CD《どうして君は世界で一人》，2016-06-22发行，JAN 4589910070205，价格99 JPY（页面约5 CNY）。它是同艺人、同CD介质的当前实物，但不是样本目标《約束》标题，闲鱼侧仍未核到目标具体页。",
+        "catalog_no": "VMAN7",
+        "barcode": "4589910070205",
+        "price": 99,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fbookoffonline%2F0018672960%2F",
+        "observed_at": "2026-09-19T20:47:03Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/50-3173a93da0e6185b.webp"
+    },
+    {
+      "reference_product_id": 68,
+      "stable_key": "sample:c68d21145ef01026dcc1d6ef3ca786f169c24de2baf2fc7daaf82c015d71597d",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "暁の護衛　グッズセット",
+        "version_evidence": "人工Chrome打开挖煤姬当前 Rakuma 具体详情页：同为《暁の護衛》系列的グッズセット，含壁挂日历、CD盒尺寸日历、票夹和拼图，价格500 JPY（页面约22 CNY），未使用。它确认同作品周边的当前实物，但不是样本中的群像直笔签名色纸＋特典卡，闲鱼侧仍未核到同一套组。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 500,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuma/detail/96252866060a17eea867a5ad45b0eb7d",
+        "observed_at": "2026-09-19T20:47:03Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/68-c68d21145ef01026.webp"
     }
   ],
-  "unavailable_records": [
+  "historical_unavailable_records": [
     {
       "reference_product_id": 26,
       "stable_key": "sample:bca3653bd2c65a2997d9a5f5cade20e2d893f6897eaf08d53bc529b2b6053241",
@@ -5875,5 +6035,6 @@
         "state": "not_currently_listed"
       }
     }
-  ]
+  ],
+  "unavailable_records": []
 }

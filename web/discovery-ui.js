@@ -32,6 +32,34 @@
 
   const DISMISSED_DUAL_MARKET_COMPARISONS_KEY = "wameiji-xianyu.dismissed-dual-market-comparisons.v1";
 
+  // A few historical audit rows predate the image-url field. Keep their
+  // preserved sample images visible without rewriting the evidence records.
+  const REFERENCE_SAMPLE_IMAGE_FALLBACKS = {
+    "21": "assets/reference-samples/21-01f861ada5421136.webp",
+    "23": "assets/reference-samples/23-bfc90e9b128fa3d4.webp",
+    "26": "assets/reference-samples/26-bca3653bd2c65a29.webp",
+    "27": "assets/reference-samples/27-3b589fa991d8a5e6.webp",
+    "30": "assets/reference-samples/30-d626a72b6c446739.webp",
+    "31": "assets/reference-samples/31-e78d933355ffe3d1.webp",
+    "32": "assets/reference-samples/32-8719026bf4cd7234.webp",
+    "35": "assets/reference-samples/35-e614e34d2690d0fa.webp",
+    "42": "assets/reference-samples/42-764f8ee44d948dc0.webp",
+    "44": "assets/reference-samples/44-74425acc27798a9f.webp",
+    "47": "assets/reference-samples/47-992eddc9105c5a3e.webp",
+    "50": "assets/reference-samples/50-3173a93da0e6185b.webp",
+    "59": "assets/reference-samples/59-c3a5cdc3aadaf309.webp",
+    "65": "assets/reference-samples/65-d622a593b90cba48.webp",
+    "68": "assets/reference-samples/68-c68d21145ef01026.webp",
+    "78": "assets/reference-samples/78-ef4f1b90b3f7fd9f.webp",
+    "96": "assets/reference-samples/96-c64ea6dffb4b2f7d.webp",
+    "97": "assets/reference-samples/97-96f3beec1064dffb.webp",
+    "98": "assets/reference-samples/98-307ad680472c5865.webp",
+    "102": "assets/reference-samples/102-c04d0523172e4cb8.webp",
+    "112": "assets/reference-samples/112-7cd35a051c64ad55.webp",
+    "115": "assets/reference-samples/115-a501d93a3e178cb1.webp",
+    "125": "assets/reference-samples/125-74f93be01bbf73a3.webp",
+  };
+
   function comparisonIdKey(value) {
     const number = Number(value);
     return Number.isSafeInteger(number) && number > 0 ? String(number) : "";
@@ -378,7 +406,9 @@
   }
 
   function referenceAuditImageMarkup(imageUrl, referenceProductId) {
-    const image = usableProductImage(imageUrl);
+    const image = usableProductImage(
+      imageUrl || REFERENCE_SAMPLE_IMAGE_FALLBACKS[String(referenceProductId || "")],
+    );
     if (!image) return "";
     return [
       '<figure class="reference-audit-reference-image">',
