@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:05:00+08:00",
+  "generated_at": "2026-09-19T13:35:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 56 条双侧实物观察、28 条单边待补观察中，挖煤姬页面已复核 79 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 57 条双侧实物观察、27 条单边待补观察中，挖煤姬页面已复核 80 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 54,
-    "both_observed_count": 56,
-    "single_observed_count": 28,
-    "wameiji_platform_found_count": 79,
+    "both_found_count": 55,
+    "both_observed_count": 57,
+    "single_observed_count": 27,
+    "wameiji_platform_found_count": 80,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 54
+      "count": 55
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 22
+      "count": 21
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 39,
+      "stable_key": "sample:d90d360f99492a3862214e4e9c3f74cea0a0809b76f91e2a5833f4c42edff53c",
+      "wameiji": {
+        "title": "CD「Pop sensation KSL」 アクリルキーホルダー付き サマポケ",
+        "version_evidence": "挖煤姬详情：Pop sensation Key Sound Label CD，附亚克力挂件；接近未使用，CD播放过1次，挂件未开封，4,300日元。曲目页列出8首 Remix，标签含 Key、SummerPockets。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 4300.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35383338333835393939322f",
+        "observed_at": "2026-09-19T05:35:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Pop Sensation Key Sounds Label Summer Pockets夏日口袋 音乐CD 带特典亚克力挂件",
+        "version_evidence": "闲鱼详情明确为 Pop Sensation / Key Sounds Label / Summer Pockets 音乐CD，带特典亚克力挂件；全新未拆、日版正版，标价 240 CNY。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 240.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1074234249234&categoryId=126860296",
+        "observed_at": "2026-09-19T05:35:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/39-d90d360f99492a38.webp"
+    },
     {
       "reference_product_id": 6,
       "stable_key": "sample:5262161d4824d7e693f64f7ccb05f83ec9d891902a71ce9311ae36266fc98880",
@@ -1618,6 +1647,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 39,
+      "stable_key": "sample:d90d360f99492a3862214e4e9c3f74cea0a0809b76f91e2a5833f4c42edff53c",
+      "wameiji": {
+        "title": "CD「Pop sensation KSL」 アクリルキーホルダー付き サマポケ",
+        "version_evidence": "挖煤姬详情：Pop sensation Key Sound Label CD，附亚克力挂件；接近未使用，CD播放过1次，挂件未开封，4,300日元。曲目页列出8首 Remix，标签含 Key、SummerPockets。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 4300.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35383338333835393939322f",
+        "observed_at": "2026-09-19T05:35:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Pop Sensation Key Sounds Label Summer Pockets夏日口袋 音乐CD 带特典亚克力挂件",
+        "version_evidence": "闲鱼详情明确为 Pop Sensation / Key Sounds Label / Summer Pockets 音乐CD，带特典亚克力挂件；全新未拆、日版正版，标价 240 CNY。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 240.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1074234249234&categoryId=126860296",
+        "observed_at": "2026-09-19T05:35:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/39-d90d360f99492a38.webp"
+    },
     {
       "reference_product_id": 124,
       "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
@@ -3483,26 +3541,6 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/29-ddcbc943aeb23cba.webp"
-    },
-    {
-      "reference_product_id": 39,
-      "stable_key": "sample:d90d360f99492a3862214e4e9c3f74cea0a0809b76f91e2a5833f4c42edff53c",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "Pop Sensation Key Sounds Label Summer Pockets 夏日口袋 音乐CD…带特典亚克力挂件",
-        "version_evidence": "Exact Pop Sensation / Key Sounds Label / Summer Pockets album; listing says Japanese genuine, new and sealed, with bonus acrylic charm.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 240.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1074234249234&categoryId=126860296",
-        "observed_at": "2026-09-14T02:14:46Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/39-d90d360f99492a38.webp"
     },
     {
       "reference_product_id": 45,
