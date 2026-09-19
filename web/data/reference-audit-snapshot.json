@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:27:00+08:00",
+  "generated_at": "2026-09-19T13:33:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 64 条双侧实物观察、20 条单边待补观察中，挖煤姬页面已复核 81 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 65 条双侧实物观察、19 条单边待补观察中，挖煤姬页面已复核 82 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 58,
-    "both_observed_count": 64,
-    "single_observed_count": 20,
-    "wameiji_platform_found_count": 81,
+    "both_found_count": 59,
+    "both_observed_count": 65,
+    "single_observed_count": 19,
+    "wameiji_platform_found_count": 82,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 58
+      "count": 59
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 14
+      "count": 13
     },
     {
       "wameiji": "price_unfavorable",
@@ -1702,6 +1702,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/86-4c2ec5d55b4dadca.webp"
+    },
+    {
+      "reference_product_id": 105,
+      "stable_key": "sample:e4cd06c35ac46b70f47c68f324805ecbe4414f8928f8cffe5af3778e9381d9e5",
+      "wameiji": {
+        "title": "ヨルシカ 二人称 書簡型小説 楽天ブックス 特典 レターセット",
+        "version_evidence": "挖煤姬详情锁定ヨルシカ《二人称》书简型小说，标题明确写有楽天ブックス特典レターセット；未使用，标价 1,000 日元。与闲鱼 ISBN 978-4-06-541634-1 的《二人称》书简型小说同名同形态，但特典/附件未在两侧同时确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35373037333530343135362f",
+        "observed_at": "2026-09-19T05:33:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "国内现货 夜鹿n-buna《二人称》书简型小说 一公斤全新未拆",
+        "version_evidence": "闲鱼样本挂牌明确为夜鹿 n-buna《二人称》书简型小说，ISBN 978-4-06-541634-1，国内现货、全新未拆；与挖煤姬标题中的《二人称》书简型小说同名同形态，但楽天ブックス特典信纸套未在闲鱼侧确认。",
+        "catalog_no": "ISBN 978-4-06-541634-1",
+        "barcode": "9784065416341",
+        "price": 400.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.2cf71c49K2qcRw&id=1079615195026&categoryId=126860296",
+        "observed_at": "2026-09-19T05:33:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/105-e4cd06c35ac46b70.webp"
     },
     {
       "reference_product_id": 92,
@@ -3562,6 +3591,35 @@
       "reference_image_url": "assets/reference-samples/86-4c2ec5d55b4dadca.webp"
     },
     {
+      "reference_product_id": 105,
+      "stable_key": "sample:e4cd06c35ac46b70f47c68f324805ecbe4414f8928f8cffe5af3778e9381d9e5",
+      "wameiji": {
+        "title": "ヨルシカ 二人称 書簡型小説 楽天ブックス 特典 レターセット",
+        "version_evidence": "挖煤姬详情锁定ヨルシカ《二人称》书简型小说，标题明确写有楽天ブックス特典レターセット；未使用，标价 1,000 日元。与闲鱼 ISBN 978-4-06-541634-1 的《二人称》书简型小说同名同形态，但特典/附件未在两侧同时确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35373037333530343135362f",
+        "observed_at": "2026-09-19T05:33:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "国内现货 夜鹿n-buna《二人称》书简型小说 一公斤全新未拆",
+        "version_evidence": "闲鱼样本挂牌明确为夜鹿 n-buna《二人称》书简型小说，ISBN 978-4-06-541634-1，国内现货、全新未拆；与挖煤姬标题中的《二人称》书简型小说同名同形态，但楽天ブックス特典信纸套未在闲鱼侧确认。",
+        "catalog_no": "ISBN 978-4-06-541634-1",
+        "barcode": "9784065416341",
+        "price": 400.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.2cf71c49K2qcRw&id=1079615195026&categoryId=126860296",
+        "observed_at": "2026-09-19T05:33:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/105-e4cd06c35ac46b70.webp"
+    },
+    {
       "reference_product_id": 92,
       "stable_key": "sample:a82c563e6a7d69b6d814f417a2f9e8de5bafc4766406bc5efd8a91d824585dba",
       "wameiji": {
@@ -3891,26 +3949,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
-    },
-    {
-      "reference_product_id": 105,
-      "stable_key": "sample:e4cd06c35ac46b70f47c68f324805ecbe4414f8928f8cffe5af3778e9381d9e5",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "国内现货 夜鹿n-buna《二人称》书简型小说 一公斤全新未拆",
-        "version_evidence": null,
-        "catalog_no": "ISBN 978-4-06-541634-1",
-        "barcode": "9784065416341",
-        "price": 400.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.2cf71c49K2qcRw&id=1079615195026&categoryId=126860296",
-        "observed_at": "2026-09-14T17:59:48Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/105-e4cd06c35ac46b70.webp"
     },
     {
       "reference_product_id": 107,
