@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T02:57:10+08:00",
+  "generated_at": "2026-09-20T03:03:48+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 97 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 98 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 97,
+    "both_observed_count": 98,
     "single_observed_count": 13,
     "wameiji_platform_found_count": 101,
     "found_any_count": 114,
@@ -5222,6 +5222,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/100-b48c761166295009.webp"
+    },
+    {
+      "reference_product_id": 10,
+      "stable_key": "sample:ad66f99c63ff08ac4aa3b4ebdc929cc1ed8d6f132701959b7ce16855b3ae3481",
+      "wameiji": {
+        "title": "ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna",
+        "version_evidence": "人工 Chrome 挖煤姬当前详情页核到 Mandarake 的《WHITE ALBUM2 オリジナルサウンドトラック setsuna》游戏 CD；页面标为二手、有些许损伤或污渍，当前价 4,950 日元（约 220 人民币），数量 1，店铺为 Mandarake，可加入购物车/立即购买。标题明确为 setsuna，未混入 closing、SPECIAL BOX 或动画原声；页面未显示目录号或条码。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 4950.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/market/detail/551993953963372544?shopid=149720279596601344",
+        "observed_at": "2026-09-20T03:03:48+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "白色相簿2 WHITE ALBUM2 Original Soundtrack ～setsuna～ 日版AQUAPLUS发行全新未拆封 带侧标",
+        "version_evidence": "人工 Chrome 闲鱼当前详情页明确为《WHITE ALBUM2 Original Soundtrack ～setsuna～》日版 AQUAPLUS 发行，标题和详情写明全新未拆封、带侧标、盘面干净无划痕，当前标价 220 CNY 包邮，可立即购买。与样本中的 setsuna CD/封面版本一致；页面未展示目录号或条码。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 220.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.3.5909584eIN2O14&id=1078520986788&categoryId=126864811",
+        "observed_at": "2026-09-20T03:03:48+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/10-ad66f99c63ff08ac.webp"
     }
   ],
   "single_observed_records": [
