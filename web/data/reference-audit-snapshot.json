@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:51:06+08:00",
+  "generated_at": "2026-09-19T15:23:01+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 78 条双侧实物观察、4 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 78 条双侧实物观察、3 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 73,
+    "both_found_count": 74,
     "both_observed_count": 78,
-    "single_observed_count": 4,
+    "single_observed_count": 3,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 73
+      "count": 74
     },
     {
       "wameiji": "found",
@@ -2137,6 +2137,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
+    },
+    {
+      "reference_product_id": 5,
+      "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
+      "wameiji": {
+        "title": "サクラノ詩 初回限定版",
+        "version_evidence": "挖煤姬 Rakuma 搜索卡片明确出现「サクラノ詩 初回限定版」，标价 8,000 JPY；当前仅搜索卡证据，详情页、附件与成色未核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 8000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&keywords=%E3%82%B5%E3%82%AF%E3%83%A9%E3%83%8E%E8%A9%A9%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88&sort=default&identity=all&seller=%5B%22%22%5D",
+        "observed_at": "2026-09-19T07:14:59Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "［急出］枕社 樱之诗 初回限定版 带两张色纸和设定集",
+        "version_evidence": "闲鱼详情与实拍：樱之诗初回限定版、带两张色纸和设定集；盒子有挤压痕。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 500.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
+        "observed_at": "2026-09-15T14:35:15Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"
     },
     {
       "reference_product_id": 46,
@@ -4452,26 +4481,6 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/3-9b672eed92a617aa.webp"
-    },
-    {
-      "reference_product_id": 5,
-      "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "［急出］枕社 樱之诗 初回限定版 带两张色纸和设定集",
-        "version_evidence": "闲鱼详情与实拍：樱之诗初回限定版、带两张色纸和设定集；盒子有挤压痕。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 500.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
-        "observed_at": "2026-09-15T14:35:15Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"
     },
     {
       "reference_product_id": 9,
