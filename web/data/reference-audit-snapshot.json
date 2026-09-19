@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:05:54+08:00",
+  "generated_at": "2026-09-19T14:07:12+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 70 条双侧实物观察、14 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 71 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 63,
-    "both_observed_count": 70,
-    "single_observed_count": 14,
+    "both_found_count": 64,
+    "both_observed_count": 71,
+    "single_observed_count": 13,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 63
+      "count": 64
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 16
+      "count": 15
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 79,
+      "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
+      "wameiji": {
+        "title": "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来 完全生産限定版 Blu-ray",
+        "version_evidence": "挖煤姬详情锁定 ANZX-18501、JAN 4534530164223；本编 Blu-ray + 2CD + 特典 Blu-ray，完全生产限定版，新品，发行日 2026-07-29。",
+        "catalog_no": "ANZX-18501",
+        "barcode": "4534530164223",
+        "price": 9680.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-2%2Faznanzx-18501%2F",
+        "observed_at": "2026-09-14T17:32:31Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭 Blu-ray 完全生产限定版",
+        "version_evidence": "闲鱼详情列出《劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来》完全生产限定版 Blu-ray，现货、全新未拆、日本带回，标价 470 CNY；与挖煤姬的 ANZX-18501 / Blu-ray + 2CD + 特典 Blu-ray 版本信息对上。",
+        "catalog_no": "ANZX-18501",
+        "barcode": null,
+        "price": 470.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1075726469913&categoryId=126864807",
+        "observed_at": "2026-09-19T06:07:12Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/79-9858d2501be30c42.webp"
+    },
     {
       "reference_product_id": 66,
       "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
@@ -1879,6 +1908,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 79,
+      "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
+      "wameiji": {
+        "title": "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来 完全生産限定版 Blu-ray",
+        "version_evidence": "挖煤姬详情锁定 ANZX-18501、JAN 4534530164223；本编 Blu-ray + 2CD + 特典 Blu-ray，完全生产限定版，新品，发行日 2026-07-29。",
+        "catalog_no": "ANZX-18501",
+        "barcode": "4534530164223",
+        "price": 9680.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-2%2Faznanzx-18501%2F",
+        "observed_at": "2026-09-14T17:32:31Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭 Blu-ray 完全生产限定版",
+        "version_evidence": "闲鱼详情列出《劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来》完全生产限定版 Blu-ray，现货、全新未拆、日本带回，标价 470 CNY；与挖煤姬的 ANZX-18501 / Blu-ray + 2CD + 特典 Blu-ray 版本信息对上。",
+        "catalog_no": "ANZX-18501",
+        "barcode": null,
+        "price": 470.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1075726469913&categoryId=126864807",
+        "observed_at": "2026-09-19T06:07:12Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/79-9858d2501be30c42.webp"
+    },
     {
       "reference_product_id": 66,
       "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
@@ -4050,26 +4108,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
-    },
-    {
-      "reference_product_id": 79,
-      "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来 完全生産限定版 Blu-ray",
-        "version_evidence": "ANZX-18501; JAN 4534530164223; 本編Blu-ray+2CD+特典Blu-ray; 完全生産限定版; 新品; 2026-07-29",
-        "catalog_no": "ANZX-18501",
-        "barcode": "4534530164223",
-        "price": 9680.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-2%2Faznanzx-18501%2F",
-        "observed_at": "2026-09-14T17:32:31Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/79-9858d2501be30c42.webp"
     },
     {
       "reference_product_id": 100,
