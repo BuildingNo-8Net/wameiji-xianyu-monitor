@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T03:13:51+08:00",
+  "generated_at": "2026-09-20T03:55:23+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -5536,14 +5536,14 @@
       "missing_market": "wameiji",
       "counterpart_state": "not_currently_listed",
       "observation": {
-        "title": "紫社 天津罪 OP 主题歌 こころに響く恋ほたる 预约特典CD 本体无暇 壳子微瑕 包邮",
-        "version_evidence": "人工Chrome打开闲鱼商品详情页；标题明确为Purple software／紫社《天津罪》OP主题歌《こころに響く恋ほたる》预约特典CD，价格95元包邮，描述本体无暇、壳子微瑕。",
+        "title": "全新 紫社 天津罪 主题曲CD こころに響く恋ほたる 日版正版 现货 带原装盒",
+        "version_evidence": "人工Chrome当前闲鱼详情页明确为Purple software／紫社《天津罪》主题曲CD《こころに響く恋ほたる》，日版正版现货，带原装盒、盘面无划痕，价格86元包邮，可立即购买；实物图中的单人封面盘与样本图一致。",
         "catalog_no": null,
         "barcode": null,
-        "price": 95,
+        "price": 86,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077908520844&categoryId=126860296",
-        "observed_at": "2026-09-19T14:34:12Z",
+        "source_url": "https://www.goofish.com/item?id=1082266562533&categoryId=126864811",
+        "observed_at": "2026-09-19T19:55:23Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       },
