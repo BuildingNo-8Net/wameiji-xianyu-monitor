@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T20:37:34+08:00",
+  "generated_at": "2026-09-19T21:20:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、16 条单边待补观察中，挖煤姬页面已复核 91 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、17 条单边待补观察中，挖煤姬页面已复核 92 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 16,
-    "wameiji_platform_found_count": 91,
-    "found_any_count": 105,
-    "not_currently_listed_both_count": 18
+    "single_observed_count": 17,
+    "wameiji_platform_found_count": 92,
+    "found_any_count": 106,
+    "not_currently_listed_both_count": 17
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 8
+      "count": 9
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 18
+      "count": 17
     },
     {
       "wameiji": "price_unfavorable",
@@ -5082,6 +5082,26 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 57,
+      "stable_key": "sample:f5ba9a2f22115993f45a3c6bb5fdf9da73d3c1b7074bf69b586465c55fd72255",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【国内盤ブルーレイ】羅小黒戦記2 ぼくらが望む未来 特装版[初回出荷限定数量限定]",
+        "version_evidence": "人工 Chrome 挖煤姬详情页核到同名 Blu-ray 特装版；页面明确列出 ANZX-17013～8、JAN 4534530164766、2026-07-22 发售、CD1/2 原声、全新、17,600 日元，并显示可下单但为 お取り寄せ 1～4週間で発送予定。页面未独立列出样本所称限定手办，因此不额外推断附件。",
+        "catalog_no": "ANZX-17013～8",
+        "barcode": "4534530164766",
+        "price": 17600.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Famericanpie%2F4226050343%2F",
+        "observed_at": "2026-09-19T13:20:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     }
   ],
   "unavailable_records": [
@@ -5464,38 +5484,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E3%83%AA%E3%83%AA%E3%82%A3%20%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%20%E3%83%95%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%83%90%E3%83%83%E3%82%AF",
         "observed_at": "2026-09-14T03:28:11Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 57,
-      "stable_key": "sample:f5ba9a2f22115993f45a3c6bb5fdf9da73d3c1b7074bf69b586465c55fd72255",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "羅小黒戦記 ぼくが選ぶ未来 Blu-ray 完全生産限定版",
-        "version_evidence": "人工 Chrome 以封面可读日文标题及完全生産限定版精确检索，无商品卡",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/search?keyword=%E7%BE%85%E5%B0%8F%E9%BB%92%E6%88%A6%E8%A8%98%20%E3%81%BC%E3%81%8F%E3%81%8C%E9%81%B8%E3%81%B6%E6%9C%AA%E6%9D%A5%20Blu-ray%20%E5%AE%8C%E5%85%A8%E7%94%9F%E7%94%A3%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-14T03:34:58Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "羅小黒戦記 ぼくが選ぶ未来 Blu-ray 完全生産限定版",
-        "version_evidence": "人工 Chrome 以日文完整名和中文“罗小黑战记2 蓝光BD限定特装版”两次检索均未找到同品；推荐结果不计入",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E7%BD%97%E5%B0%8F%E9%BB%91%E6%88%98%E8%AE%B0%202%20%E8%93%9D%E5%85%89%20BD%20%E9%99%90%E5%AE%9A%E7%89%B9%E8%A3%85%E7%89%88",
-        "observed_at": "2026-09-14T03:35:01Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
