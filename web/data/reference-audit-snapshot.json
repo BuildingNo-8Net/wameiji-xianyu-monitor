@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T18:09:47+08:00",
+  "generated_at": "2026-09-19T18:34:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、3 条单边待补观察中，另有 37 条样本处于当前未见、受阻或只有搜索卡状态；挖煤姬页面已复核 84 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、4 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 76,
     "both_observed_count": 79,
-    "single_observed_count": 3,
+    "single_observed_count": 4,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
@@ -4606,6 +4606,26 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/13-ce603c1a4a257a00.webp"
+    },
+    {
+      "reference_product_id": 22,
+      "stable_key": "sample:f1e63661cafe1b24f9eab8cb16ec8fdd338b250bad98f12375fa023a71b68021",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "月姬 月箱 TYPE-MOON同人合集",
+        "version_evidence": "详情页标题明确为“月姬 月箱 TYPE-MOON同人合集”，成色还行；标签包含月姬、月姬PLUS-DISK、歌月十夜，类目为set/盘/个人池；当前页面显示2298 CNY包邮。人工核验到具体闲鱼商品页，但未把照片中未明确展示的配件额外推断为齐全。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2298.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1081169121696&categoryId=126864811",
+        "observed_at": "2026-09-19T10:34:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/22-f1e63661cafe1b.webp"
     }
   ],
   "unavailable_records": [
@@ -4639,38 +4659,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 22,
-      "stable_key": "sample:f1e63661cafe1b24f9eab8cb16ec8fdd338b250bad98f12375fa023a71b68021",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "TYPE-MOON Tsukihime Tsukibako set",
-        "version_evidence": "exact title search returned no listings",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=%E6%9C%88%E5%A7%AB%20%E6%9C%88%E7%AE%B1%20TYPE-MOON",
-        "observed_at": "2026-09-14T01:50:56Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "TYPE-MOON Tsukihime Tsukibako three-piece set",
-        "version_evidence": "same three-piece set; Tsukihime used and other contents near-new; complete with obi as applicable; not comparable to sealed reference",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1300.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E6%9C%88%E5%A7%AC%20%E6%9C%88%E7%AE%B1%20TYPE-MOON",
-        "observed_at": "2026-09-14T01:50:58Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
