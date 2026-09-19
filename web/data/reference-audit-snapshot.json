@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:20:00+08:00",
+  "generated_at": "2026-09-19T19:45:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、10 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 76,
     "both_observed_count": 79,
-    "single_observed_count": 10,
+    "single_observed_count": 11,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
@@ -4727,6 +4727,25 @@
       }
     },
     {
+      "reference_product_id": 96,
+      "stable_key": "sample:c64ea6dffb4b2f7d1d4ac6b5118809e842a1e6bcbfc2c78a764fedb2488339cc",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "price_unfavorable",
+      "observation": {
+        "title": "LiSA织部里沙7专LACE UP完全生产限定版（CD+BD+册+挂画+支架）",
+        "version_evidence": "闲鱼详情页明确为 LiSA 第七张专辑《LACE UP》多版本预售/订金页；其中完全生产限定版写明 CDBD+册+挂画+支架，页面显示该版本约590 CNY起（整页价格区间100–622 CNY，100为订金/其他版本起价），并写明4月15日起出货。人工核验到具体闲鱼商品页；记录为已找到但不是现货成交价。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 590.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1011291721486&categoryId=202061902",
+        "observed_at": "2026-09-19T11:45:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
       "reference_product_id": 98,
       "stable_key": "sample:307ad680472c5865677b1495831ff8169c255313ac25bf7f534c555067c3778b",
       "available_market": "xianyu",
@@ -5478,38 +5497,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E9%82%93%E4%B8%BD%E5%90%9B%20Original%20Best%20Hits%20%2B2%20100%25%20Pure%20LP%2045rpm%202LP",
         "observed_at": "2026-09-14T04:19:38Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 96,
-      "stable_key": "sample:c64ea6dffb4b2f7d1d4ac6b5118809e842a1e6bcbfc2c78a764fedb2488339cc",
-      "wameiji_state": "price_unfavorable",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "LiSA LACE UP complete quantity limited CD Blu-ray GOODS with three external benefits",
-        "version_evidence": "Complete quantity limited edition; CD plus Blu-ray Disc plus GOODS; three external benefits; VVCL-2881; JAN 4547366798067. Current stock remaining 1 and marked new unused.",
-        "catalog_no": "VVCL-2881",
-        "barcode": "4547366798067",
-        "price": 22300.0,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/shops/product/2JQxjTWaCMPTC4x6gvdWuN",
-        "observed_at": "2026-09-14T04:34:22Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "price_unfavorable"
-      },
-      "xianyu": {
-        "title": null,
-        "version_evidence": null,
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=LiSA%20LACE%20UP%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%E7%9B%98%20CD%20Blu-ray%20%E5%91%A8%E8%BE%B9",
-        "observed_at": "2026-09-14T04:34:13Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
