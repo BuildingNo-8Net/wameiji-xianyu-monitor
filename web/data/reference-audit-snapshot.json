@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T15:49:59+08:00",
+  "generated_at": "2026-09-19T18:09:47+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 78 条双侧实物观察、3 条单边待补观察中，另有 38 条样本处于当前未见、受阻或只有搜索卡状态；挖煤姬页面已复核 83 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、3 条单边待补观察中，另有 37 条样本处于当前未见、受阻或只有搜索卡状态；挖煤姬页面已复核 84 条。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 75,
-    "both_observed_count": 78,
+    "both_found_count": 76,
+    "both_observed_count": 79,
     "single_observed_count": 3,
-    "wameiji_platform_found_count": 83,
+    "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
   },
@@ -2224,6 +2224,34 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
+    },
+    {
+      "reference_product_id": 21,
+      "stable_key": "sample:01f861ada5421136ebef768261f328415503cae1828c636370095284d7cfb84b",
+      "wameiji": {
+        "title": "Kanon オリジナル サウンドトラック [CD] Key",
+        "version_evidence": "人工内置浏览器打开挖煤姬 Mercari 详情；标题为 Kanon オリジナル サウンドトラック [CD] Key，商品介绍明确为游戏《Kanon》全24曲原声CD；二手、无明显大伤污渍、简易动检、卖家承担日本国内运费。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2799.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34313430383134303533342f",
+        "observed_at": "2026-09-19T10:09:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【现货】正品 Key社 Kanon 雪之少女 原声OST 音乐CD 原装正版日版",
+        "version_evidence": "闲鱼详情明确为 Key社《Kanon 雪之少女》原声专辑 Kanon Original Soundtrack，收录24首经典配乐；原装正版日版，一枚装1CD，页面标价193 CNY、包邮。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 193.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.9.17b67b83vk4NJO&id=984562274041&categoryId=126864811",
+        "observed_at": "2026-09-19T10:09:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "dual_observed_pairs": [
@@ -4488,6 +4516,34 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
+    },
+    {
+      "reference_product_id": 21,
+      "stable_key": "sample:01f861ada5421136ebef768261f328415503cae1828c636370095284d7cfb84b",
+      "wameiji": {
+        "title": "Kanon オリジナル サウンドトラック [CD] Key",
+        "version_evidence": "人工内置浏览器打开挖煤姬 Mercari 详情；标题为 Kanon オリジナル サウンドトラック [CD] Key，商品介绍明确为游戏《Kanon》全24曲原声CD；二手、无明显大伤污渍、简易动检、卖家承担日本国内运费。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2799.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34313430383134303533342f",
+        "observed_at": "2026-09-19T10:09:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【现货】正品 Key社 Kanon 雪之少女 原声OST 音乐CD 原装正版日版",
+        "version_evidence": "闲鱼详情明确为 Key社《Kanon 雪之少女》原声专辑 Kanon Original Soundtrack，收录24首经典配乐；原装正版日版，一枚装1CD，页面标价193 CNY、包邮。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 193.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.9.17b67b83vk4NJO&id=984562274041&categoryId=126864811",
+        "observed_at": "2026-09-19T10:09:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "single_observed_records": [
@@ -4583,38 +4639,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 21,
-      "stable_key": "sample:01f861ada5421136ebef768261f328415503cae1828c636370095284d7cfb84b",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "Kanon Original Soundtrack Key CD",
-        "version_evidence": "exact title search returned no listings",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=Kanon%20Original%20Soundtrack%20Key%20CD",
-        "observed_at": "2026-09-14T01:50:19Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "Kanon Original Soundtrack Japanese CD with obi",
-        "version_evidence": "Japanese CD; obi included; near-new condition; shipping excluded",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 150.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Kanon%20%E9%9B%AA%E4%B9%8B%E5%B0%91%E5%A5%B3%20%E5%8E%9F%E5%A3%B0%E5%B8%A6%20CD%20%E5%B8%A6%E4%BE%A7",
-        "observed_at": "2026-09-14T01:50:21Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
