@@ -2,15 +2,15 @@
   "schema_version": 1,
   "generated_at": "2026-09-19T21:25:05+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、20 条单边待补观察中，挖煤姬页面已复核 94 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、21 条单边待补观察中，挖煤姬页面已复核 94 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 80,
     "both_observed_count": 83,
-    "single_observed_count": 20,
+    "single_observed_count": 21,
     "wameiji_platform_found_count": 94,
-    "found_any_count": 109,
-    "not_currently_listed_both_count": 14
+    "found_any_count": 110,
+    "not_currently_listed_both_count": 13
   },
   "state_pairs": [
     {
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 12
+      "count": 13
     },
     {
       "wameiji": "price_unfavorable",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 14
+      "count": 13
     },
     {
       "wameiji": "price_unfavorable",
@@ -5160,6 +5160,26 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true
       }
+    },
+    {
+      "reference_product_id": 83,
+      "stable_key": "sample:bdf61d7786697043d47d76bae494217bbcaff6268891aa010abbec233f6d061a",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【黑胶】邓丽君经典精选 黑胶LP 45转 2LP 180g 日本压盘 限量1000张 日版原版 全新6/24",
+        "version_evidence": "人工 Chrome 闲鱼详情页明确为邓丽君《Original Best Hit +2》；100% Pure LP 透明彩胶；限量1000张编号版；45转2LP；180g；日本压盘；附歌词与解说；全新，发售 6/24；当前标价 629 CNY。与样本原图的标题、规格、日期和成色一致。页面未显示 PROT-7398/9 品番，因此作为同版实物观察，不把它当作条码证明。",
+        "catalog_no": "PROT-7398/9",
+        "barcode": null,
+        "price": 629.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.21.52dc66e44iwzcs&id=1032359784438&categoryId=126864811",
+        "observed_at": "2026-09-19T13:48:05Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/83-bdf61d7786697043.webp"
     }
   ],
   "unavailable_records": [
@@ -5606,38 +5626,6 @@
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=%E6%99%93%E4%B9%8B%E6%8A%A4%E5%8D%AB%20%E7%AD%BE%E5%90%8D%E6%B5%B7%E6%8A%A5%20%E5%8D%A1",
         "observed_at": "2026-09-14T03:49:36Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 83,
-      "stable_key": "sample:bdf61d7786697043d47d76bae494217bbcaff6268891aa010abbec233f6d061a",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "テレサ・テン オリジナル・ベスト・ヒット +2 [100% Pure LP] 45rpm 2LP",
-        "version_evidence": "样本为透明彩胶180g、45rpm双LP、全球1000张编号；精确关键词仅得普通旧LP、单LP与其它版本，未见目标版",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=%E3%83%86%E3%83%AC%E3%82%B5%E3%83%BB%E3%83%86%E3%83%B3%20%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%83%BB%E3%83%99%E3%82%B9%E3%83%88%E3%83%BB%E3%83%92%E3%83%83%E3%83%88%20%2B2%20100%25%20Pure%20LP%2045rpm%202LP",
-        "observed_at": "2026-09-14T04:19:38Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "邓丽君 Original Best Hits +2（100% Pure LP）45rpm 2LP",
-        "version_evidence": "样本为2026-06-24发售、透明彩胶、180g、45rpm双LP、全球1000张带编号；本次精确关键词搜索无结果",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E9%82%93%E4%B8%BD%E5%90%9B%20Original%20Best%20Hits%20%2B2%20100%25%20Pure%20LP%2045rpm%202LP",
-        "observed_at": "2026-09-14T04:19:38Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
