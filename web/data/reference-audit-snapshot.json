@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T22:34:12+08:00",
+  "generated_at": "2026-09-19T22:42:48+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -5453,27 +5453,27 @@
       "wameiji_state": "not_currently_listed",
       "xianyu_state": "not_currently_listed",
       "wameiji": {
-        "title": "DRACU-RIOT! box / initial-edition qualified search: no current item card",
-        "version_evidence": "Source identifies Yuzusoft DR box with contents complete and bonus calendar; manually checked the title with initial-edition qualifier.",
+        "title": "DRACU-RIOT 初回限定版 exact search: no current item card",
+        "version_evidence": "人工Chrome精确检索《DRACU-RIOT 初回限定版》；结果仅为GRANRODEO、RAMPAGE、マガツバライ、ウィッチズガーデン等无关商品，没有柚子社DRACU-RIOT!初回限定盒具体页，排除相近词。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=DRACU-RIOT%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-14T02:13:20Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
+        "source_url": "https://www.meruki.cn/search?keywords=DRACU-RIOT%20%E5%88%9D%E5%9B%9E%E9%99%90%E7%89%88",
+        "observed_at": "2026-09-19T14:42:48Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
         "state": "not_currently_listed"
       },
       "xianyu": {
         "title": "DRACU-RIOT! box / initial-edition qualified search: no matching listing",
-        "version_evidence": "Source identifies Yuzusoft DR box with contents complete and bonus calendar; search returned only unrelated RIDDLE JOKER bonus CD.",
+        "version_evidence": "人工Chrome精确检索《DRACU-RIOT 初回限定版》；闲鱼唯一结果为无关的柚子社RIDDLE JOKER预约特典CD（61元），不是样本DR盒子，排除相近词。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
         "source_url": "https://www.goofish.com/search?q=DRACU-RIOT%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
-        "observed_at": "2026-09-14T02:13:22Z",
+        "observed_at": "2026-09-19T14:42:48Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
