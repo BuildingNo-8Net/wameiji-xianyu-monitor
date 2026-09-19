@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:14:00+08:00",
+  "generated_at": "2026-09-19T14:24:51+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 73 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 74 条双侧实物观察、10 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 66,
-    "both_observed_count": 73,
-    "single_observed_count": 11,
+    "both_found_count": 67,
+    "both_observed_count": 74,
+    "single_observed_count": 10,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 66
+      "count": 67
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 13
+      "count": 12
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 18,
+      "stable_key": "sample:d032aa66f4b46ec8705dea35453461728ee8963b54406e5110d5fa6ef3bd971f",
+      "wameiji": {
+        "title": "殻ノ少女　ドラマCD　第三巻　シェオルの殻　初回限定版",
+        "version_evidence": "挖煤姬详情锁定 VOL.3《シェオルの殻》初回限定版；商品图与样本封面相符，说明含透明盒、光盘、歌词卡。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 19399.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32373137343538313936322f",
+        "observed_at": "2026-09-19T05:35:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【绝版】Innocent Grey《殻ノ少女／壳之少女》官方广播剧 CD 合售",
+        "version_evidence": "闲鱼详情明确包含 VOL.3 第三巻《シェオルの殻》DISC1+DISC2，另含 VOL.2 两张，合计4张官方广播剧CD；售价 900 CNY。闲鱼侧明确不附原盒、封面、歌词本、说明书及其他附件，与挖煤姬初回限定版附件状态不一致，作为双侧实物观察而非同附件利润结论。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 900.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1063580553056&categoryId=126864811",
+        "observed_at": "2026-09-19T06:23:15Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/18-d032aa66f4b46ec8.webp"
+    },
     {
       "reference_product_id": 120,
       "stable_key": "sample:633c50493ed8741f5fd2b2d8b9ad0ea601ef9d795bec43593c0e4309ae702e67",
@@ -1966,6 +1995,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 18,
+      "stable_key": "sample:d032aa66f4b46ec8705dea35453461728ee8963b54406e5110d5fa6ef3bd971f",
+      "wameiji": {
+        "title": "殻ノ少女　ドラマCD　第三巻　シェオルの殻　初回限定版",
+        "version_evidence": "挖煤姬详情锁定 VOL.3《シェオルの殻》初回限定版；商品图与样本封面相符，说明含透明盒、光盘、歌词卡。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 19399.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32373137343538313936322f",
+        "observed_at": "2026-09-19T05:35:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【绝版】Innocent Grey《殻ノ少女／壳之少女》官方广播剧 CD 合售",
+        "version_evidence": "闲鱼详情明确包含 VOL.3 第三巻《シェオルの殻》DISC1+DISC2，另含 VOL.2 两张，合计4张官方广播剧CD；售价 900 CNY。闲鱼侧明确不附原盒、封面、歌词本、说明书及其他附件，与挖煤姬初回限定版附件状态不一致，作为双侧实物观察而非同附件利润结论。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 900.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1063580553056&categoryId=126864807",
+        "observed_at": "2026-09-19T06:23:15Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/18-d032aa66f4b46ec8.webp"
+    },
     {
       "reference_product_id": 120,
       "stable_key": "sample:633c50493ed8741f5fd2b2d8b9ad0ea601ef9d795bec43593c0e4309ae702e67",
@@ -4184,26 +4242,6 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/13-ce603c1a4a257a00.webp"
-    },
-    {
-      "reference_product_id": 18,
-      "stable_key": "sample:d032aa66f4b46ec8705dea35453461728ee8963b54406e5110d5fa6ef3bd971f",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "殻ノ少女　ドラマCD　第三巻　シェオルの殻　初回限定版",
-        "version_evidence": "Search result visibly identifies volume 3, シェオルの殻, initial limited edition. Product image visually matches the sample cover; exact included bonus/obi remains unverified.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 19499.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32373137343538313936322f",
-        "observed_at": "2026-09-15T13:33:43+08:00",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/18-d032aa66f4b46ec8.webp"
     },
     {
       "reference_product_id": 46,
