@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:24:00+08:00",
+  "generated_at": "2026-09-19T13:27:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 63 条双侧实物观察、21 条单边待补观察中，挖煤姬页面已复核 81 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 64 条双侧实物观察、20 条单边待补观察中，挖煤姬页面已复核 81 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 57,
-    "both_observed_count": 63,
-    "single_observed_count": 21,
+    "both_found_count": 58,
+    "both_observed_count": 64,
+    "single_observed_count": 20,
     "wameiji_platform_found_count": 81,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 57
+      "count": 58
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 20
+      "count": 19
     },
     {
       "wameiji": "not_currently_listed",
@@ -1702,6 +1702,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/86-4c2ec5d55b4dadca.webp"
+    },
+    {
+      "reference_product_id": 92,
+      "stable_key": "sample:a82c563e6a7d69b6d814f417a2f9e8de5bafc4766406bc5efd8a91d824585dba",
+      "wameiji": {
+        "title": "葬送のフリーレン Season2 ORIGINAL SOUNDTRACK",
+        "version_evidence": "挖煤姬 Rakuten 详情：Evan Call《葬送的芙莉莲 Season2 ORIGINAL SOUNDTRACK》，品番 THCA-60299、JAN 4988104115997，22首基础 CD，标价 3,080 日元；未承诺首批附加物。",
+        "catalog_no": "THCA-60299",
+        "barcode": "4988104115997",
+        "price": 3080.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznthca-60299%2F",
+        "observed_at": "2026-09-14T17:52:01Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "葬送的芙莉莲 第二季 原声音乐专辑 日本代购",
+        "version_evidence": "闲鱼搜索结果及商品页标题锁定《葬送的芙莉莲》第二季原声音乐集，商品信息写明型号 THCA60299、Evan Call；页面标价 211 CNY、可立即购买。商品页提示跨境商品需在闲鱼 APP 查看，详情正文受提示遮挡。",
+        "catalog_no": "THCA-60299",
+        "barcode": "4988104115997",
+        "price": 211.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080810254413&categoryId=126862148",
+        "observed_at": "2026-09-19T05:27:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/92-a82c563e6a7d69b6.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -3531,6 +3560,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/86-4c2ec5d55b4dadca.webp"
+    },
+    {
+      "reference_product_id": 92,
+      "stable_key": "sample:a82c563e6a7d69b6d814f417a2f9e8de5bafc4766406bc5efd8a91d824585dba",
+      "wameiji": {
+        "title": "葬送のフリーレン Season2 ORIGINAL SOUNDTRACK",
+        "version_evidence": "挖煤姬 Rakuten 详情：Evan Call《葬送的芙莉莲 Season2 ORIGINAL SOUNDTRACK》，品番 THCA-60299、JAN 4988104115997，22首基础 CD，标价 3,080 日元；未承诺首批附加物。",
+        "catalog_no": "THCA-60299",
+        "barcode": "4988104115997",
+        "price": 3080.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznthca-60299%2F",
+        "observed_at": "2026-09-14T17:52:01Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "葬送的芙莉莲 第二季 原声音乐专辑 日本代购",
+        "version_evidence": "闲鱼搜索结果及商品页标题锁定《葬送的芙莉莲》第二季原声音乐集，商品信息写明型号 THCA60299、Evan Call；页面标价 211 CNY、可立即购买。商品页提示跨境商品需在闲鱼 APP 查看，详情正文受提示遮挡。",
+        "catalog_no": "THCA-60299",
+        "barcode": "4988104115997",
+        "price": 211.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080810254413&categoryId=126862148",
+        "observed_at": "2026-09-19T05:27:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/92-a82c563e6a7d69b6.webp"
     }
   ],
   "single_observed_records": [
@@ -3793,26 +3851,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/79-9858d2501be30c42.webp"
-    },
-    {
-      "reference_product_id": 92,
-      "stable_key": "sample:a82c563e6a7d69b6d814f417a2f9e8de5bafc4766406bc5efd8a91d824585dba",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "葬送のフリーレン Season2 ORIGINAL SOUNDTRACK",
-        "version_evidence": "乐天新品，目录号 THCA-60299、JAN 4988104115997，Evan Call，22首曲目。页面为厂家订货，未承诺首批生产附带的抽选券或其他首批特典，因此只确认基础CD，不能宣称首批附加物同版。",
-        "catalog_no": "THCA-60299",
-        "barcode": "4988104115997",
-        "price": 3080.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznthca-60299%2F",
-        "observed_at": "2026-09-14T17:52:01Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/92-a82c563e6a7d69b6.webp"
     },
     {
       "reference_product_id": 100,
