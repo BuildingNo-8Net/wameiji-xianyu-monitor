@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:45:00+08:00",
+  "generated_at": "2026-09-19T19:36:52+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 80 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 81 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 85 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 77,
-    "both_observed_count": 80,
+    "both_found_count": 78,
+    "both_observed_count": 81,
     "single_observed_count": 11,
-    "wameiji_platform_found_count": 84,
-    "found_any_count": 100,
-    "not_currently_listed_both_count": 24
+    "wameiji_platform_found_count": 85,
+    "found_any_count": 101,
+    "not_currently_listed_both_count": 23
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 76
+      "count": 77
     },
     {
       "wameiji": "found",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 24
+      "count": 23
     },
     {
       "wameiji": "price_unfavorable",
@@ -50,6 +50,34 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 42,
+      "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
+      "wameiji": {
+        "title": "国内盤CD★放課後ティータイム/Houkago Tea Time■ 映画「けいおん！」劇中歌アルバム放課後ティータイム in MOVIE 【PCCG1128/4988013016569】U53895",
+        "version_evidence": "挖煤姬详情页明确为电影《けいおん！》剧中歌专辑 in MOVIE；页面正文列出目录号 PCCG1128、JAN 4988013016569。中古店铺说明无购买特典，实物以照片为准。",
+        "catalog_no": "PCCG1128",
+        "barcode": "4988013016569",
+        "price": 1000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4c4b543561464c4b53634b793542617168686f362f",
+        "observed_at": "2026-09-19T11:36:52Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "日版轻音少女 剧场版CD《放课后ティータイム in MOVIE》初回限定2CD，正版正品，盘面干净无划痕，保存很好。",
+        "version_evidence": "闲鱼详情页标题明确为电影版《放课后ティータイム in MOVIE》初回限定 2CD；页面标价 140 CNY，卖家页当前可访问。闲鱼页未展示目录号或 JAN，因此未作条码级确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 140.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1072061174666&categoryId=126864811",
+        "observed_at": "2026-09-19T11:36:52Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
     {
       "reference_product_id": 97,
       "stable_key": "jan:4988031466285",
@@ -2283,6 +2311,34 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 42,
+      "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
+      "wameiji": {
+        "title": "国内盤CD★放課後ティータイム/Houkago Tea Time■ 映画「けいおん！」劇中歌アルバム放課後ティータイム in MOVIE 【PCCG1128/4988013016569】U53895",
+        "version_evidence": "挖煤姬详情页明确为电影《けいおん！》剧中歌专辑 in MOVIE；页面正文列出目录号 PCCG1128、JAN 4988013016569。中古店铺说明无购买特典，实物以照片为准。",
+        "catalog_no": "PCCG1128",
+        "barcode": "4988013016569",
+        "price": 1000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4c4b543561464c4b53634b793542617168686f362f",
+        "observed_at": "2026-09-19T11:36:52Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "日版轻音少女 剧场版CD《放课后ティータイム in MOVIE》初回限定2CD，正版正品，盘面干净无划痕，保存很好。",
+        "version_evidence": "闲鱼详情页标题明确为电影版《放课后ティータイム in MOVIE》初回限定 2CD；页面标价 140 CNY，卖家页当前可访问。闲鱼页未展示目录号或 JAN，因此未作条码级确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 140.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1072061174666&categoryId=126864811",
+        "observed_at": "2026-09-19T11:36:52Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
     {
       "reference_product_id": 97,
       "stable_key": "jan:4988031466285",
@@ -5170,38 +5226,6 @@
         "source_url": "",
         "observed_at": "2026-09-15T15:31:56Z",
         "marketplace_host": "",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 42,
-      "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "放課後ティータイム in MOVIE 2CD 初回限定 exact search: no current item card",
-        "version_evidence": "Exact 2CD initial-limited album title searched manually; no current result surfaced.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=%E6%94%BE%E8%AA%B2%E5%BE%8C%E3%83%86%E3%82%A3%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%A0%20in%20MOVIE%202CD%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T02:16:00Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "轻音少女 放课后茶会 in MOVIE 2CD 初回限定 exact search: no matching listing",
-        "version_evidence": "Exact title, 2CD and initial-limited qualifier searched manually; page returned no matching item.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E8%BD%BB%E9%9F%B3%E5%B0%91%E5%A5%B3%20%E6%94%BE%E8%AF%BE%E5%90%8E%E8%8C%B6%E4%BC%9A%20in%20MOVIE%202CD%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T02:16:02Z",
-        "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
       }
