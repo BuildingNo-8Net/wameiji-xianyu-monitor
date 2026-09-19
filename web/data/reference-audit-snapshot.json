@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T02:02:21+08:00",
+  "generated_at": "2026-09-20T02:06:52+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 93 条双侧实物观察、15 条单边待补观察中，挖煤姬页面已复核 99 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 94 条双侧实物观察、14 条单边待补观察中，挖煤姬页面已复核 99 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 82,
-    "both_observed_count": 93,
-    "single_observed_count": 15,
+    "both_observed_count": 94,
+    "single_observed_count": 14,
     "wameiji_platform_found_count": 99,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 88
+      "count": 89
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 8
+      "count": 7
     },
     {
       "wameiji": "not_currently_listed",
@@ -5106,6 +5106,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/73-bed36c005c3f3cf6.webp"
+    },
+    {
+      "reference_product_id": 77,
+      "stable_key": "sample:ee3822630e37864934f329b71b6997a3d80f10f5932c5d8b9e34e0b839bbef00",
+      "wameiji": {
+        "title": "ヨルシカ 創作 完全生産限定盤 アナログ LP レコード＋おまけ（創作CD発売当時のフリーペーパー）★新品未開封★絶版希少品",
+        "version_evidence": "人工 Chrome 挖煤姬详情页明确为夜鹿/ヨルシカ EP《創作》限定模拟盘：12inch 45rpm、1枚组、纸袋规格、附歌词卡；A 面强盗与花束／春泥棒，B 面創作／風を食む／嘘月；未拆封，9,400 日元。与样本原图同为创作单张 LP，卖家另附旧宣传单。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9400.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/paypay/detail/z628702118",
+        "observed_at": "2026-09-19T13:25:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "有现货♥夜鹿ヨルシカ创作LP黑胶包邮全新未拆12寸45转限定",
+        "version_evidence": "人工 Chrome 闲鱼当前详情页明确为 EP《創作》12 inch 45rpm 1枚组黑胶，列出《强盗与花束》《春泥棒》《創作》等曲目；页面显示全新未拆、可立即购买，价格 199–333 CNY，写明已迟订、各选项仍需补款，按下限记录且不当作完整到手成本。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 199.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=945296124532&categoryId=202061902",
+        "observed_at": "2026-09-19T18:06:52Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/77-ee3822630e378649.webp"
     }
   ],
   "single_observed_records": [
@@ -5324,25 +5353,6 @@
         "observed_at": "2026-09-19T13:16:05Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 77,
-      "stable_key": "sample:ee3822630e37864934f329b71b6997a3d80f10f5932c5d8b9e34e0b839bbef00",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "ヨルシカ 創作 完全生産限定盤 アナログ LP レコード＋おまけ（創作CD発売当時のフリーペーパー）★新品未開封★絶版希少品",
-        "version_evidence": "人工 Chrome 挖煤姬详情页明确为夜鹿/ヨルシカ EP《創作》限定模拟盘：12inch 45rpm、1枚组、纸袋规格、附歌词卡；A 面强盗と花束／春泥棒，B 面創作／風を食む／嘘月；未拆封，9,400 日元。与样本原图同为创作单张 LP，卖家另附旧宣传单。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 9400.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/paypay/detail/z628702118",
-        "observed_at": "2026-09-19T13:25:00Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
       }
     },
     {
