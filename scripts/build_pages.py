@@ -43,10 +43,31 @@ def main() -> int:
     stable_reference = 'src="runtime-config.js"'
     if stable_reference not in markup:
         raise RuntimeError("missing runtime-config script reference in index.html")
-    index.write_text(
-        markup.replace(stable_reference, f'src="{runtime_name}"', 1),
-        encoding="utf-8",
-    )
+    markup = markup.replace(stable_reference, f'src="{runtime_name}"', 1)
+
+    # GitHub Pages is a static, public snapshot.  Inline the audit payload in
+    # the built artifact so the reference queue still renders when a browser
+    # or privacy layer blocks a direct JSON fetch.  The source JSON remains the
+    # single editable record; this file is regenerated on every deploy.
+    snapshot_path = source / "data" / "reference-audit-snapshot.json"
+    if snapshot_path.is_file():
+        snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+        snapshot_markup = json.dumps(snapshot, ensure_ascii=False).replace("<", "\\u003c")
+        (dest / "reference-audit-inline.js").write_text(
+            "window.REFERENCE_AUDIT_SNAPSHOT = " + snapshot_markup + ";\n",
+            encoding="utf-8",
+        )
+        discovery_reference = '<script src="discovery-ui.js?'
+        if discovery_reference not in markup:
+            discovery_reference = '<script src="discovery-ui.js"'
+        if discovery_reference not in markup:
+            raise RuntimeError("missing discovery-ui script reference in index")
+        markup = markup.replace(
+            discovery_reference,
+            '<script src="reference-audit-inline.js"></script>\n  ' + discovery_reference,
+            1,
+        )
+    index.write_text(markup, encoding="utf-8")
     # GitHub Pages must not run Jekyll over the copied assets.
     (dest / ".nojekyll").write_text("", encoding="utf-8")
     print(f"Built {dest} (apiBase={args.api_base.strip().rstrip('/') or 'same-origin'})")

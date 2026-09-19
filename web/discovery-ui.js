@@ -256,6 +256,10 @@
   }
 
   async function loadReferenceAudit() {
+    const inlineSnapshot = window.REFERENCE_AUDIT_SNAPSHOT;
+    if (inlineSnapshot && inlineSnapshot.mode === "reference_audit_snapshot" && inlineSnapshot.summary) {
+      return inlineSnapshot;
+    }
     const response = await fetch(
       new URL("data/reference-audit-snapshot.json", document.baseURI).toString(),
       { cache: "no-store" },
