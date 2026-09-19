@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T01:56:16+08:00",
+  "generated_at": "2026-09-20T02:02:21+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 92 条双侧实物观察、16 条单边待补观察中，挖煤姬页面已复核 99 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 93 条双侧实物观察、15 条单边待补观察中，挖煤姬页面已复核 99 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 82,
-    "both_observed_count": 92,
-    "single_observed_count": 16,
+    "both_observed_count": 93,
+    "single_observed_count": 15,
     "wameiji_platform_found_count": 99,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 87
+      "count": 88
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 9
+      "count": 8
     },
     {
       "wameiji": "not_currently_listed",
@@ -5077,6 +5077,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/116-00a377b0aac9c074.webp"
+    },
+    {
+      "reference_product_id": 73,
+      "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
+      "wameiji": {
+        "title": "ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray",
+        "version_evidence": "挖煤姬当前详情页标题为《ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray》；商品介绍明确为 Blu-ray 特装盤 Amazon 限定版，写明新品未開封，商品状态未使用，价格 15,000 日元，可加入购物车和立即购买。与闲鱼页同为 VOLTAGE Live! Blu-ray 特装形态，但附件清单和限定渠道仍需下单前复核。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 15000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35333438363636383437322f",
+        "observed_at": "2026-09-19T13:00:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "现货♥宝可梦初音未来特装版BDポケットモンスター★ポケモン feat.初音ミク VOLTAGE Live!【Blu-ray特装盤】",
+        "version_evidence": "人工 Chrome 闲鱼当前详情页明确为《ポケモン feat. 初音ミク VOLTAGE Live!》Blu-ray 特装盘；详情列出 BD 蓝光、亚克力立牌 2 个、明信片 18 张、官方纪念册和特别设计外盒，页面显示可立即购买，活动价 687–799 CNY，按下限记录。与样本的初回特装版 BD 媒介和限定形态一致，但挖煤姬页标为 Amazon 限定，附件差异需下单前复核，不额外推断完全同套。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 687.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1067143893656&categoryId=126860296",
+        "observed_at": "2026-09-19T18:02:21Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/73-bed36c005c3f3cf6.webp"
     }
   ],
   "single_observed_records": [
@@ -5115,25 +5144,6 @@
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33564a6835527a43345666535742576655716f5339552f",
         "observed_at": "2026-09-19T11:49:15Z",
         "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      }
-    },
-    {
-      "reference_product_id": 73,
-      "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray",
-        "version_evidence": "挖煤姬当前详情页标题为《ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray》；商品介绍明确为 Blu-ray特装盤 Amazon限定版，写明新品未開封，商品状态未使用，价格15,000日元，可加入购物车和立即购买。样本中的初回特装版BD与该特装盘媒介和限定形态一致，但附件清单仍需下单前复核。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 15000.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35333438363636383437322f",
-        "observed_at": "2026-09-19T13:00:00Z",
-        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true
       }
     },
