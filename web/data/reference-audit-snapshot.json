@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T02:06:52+08:00",
+  "generated_at": "2026-09-20T02:34:38+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 94 条双侧实物观察、14 条单边待补观察中，挖煤姬页面已复核 99 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 95 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 100 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 82,
-    "both_observed_count": 94,
-    "single_observed_count": 14,
-    "wameiji_platform_found_count": 99,
+    "both_found_count": 83,
+    "both_observed_count": 95,
+    "single_observed_count": 13,
+    "wameiji_platform_found_count": 100,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 89
+      "count": 90
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 10
+      "count": 9
     },
     {
       "wameiji": "price_unfavorable",
@@ -5135,6 +5135,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/77-ee3822630e378649.webp"
+    },
+    {
+      "reference_product_id": 83,
+      "stable_key": "sample:bdf61d7786697043d47d76bae494217bbcaff6268891aa010abbec233f6d061a",
+      "wameiji": {
+        "title": "テレサ・テン オリジナル・ベスト・ヒット+2 Teresa Teng 鄧麗君",
+        "version_evidence": "人工 Chrome 挖煤姬当前详情页核到《テレサ・テン オリジナル・ベスト・ヒット+2》2枚组 100% Pure LP；页面明确1,000枚限定、2026年6月24日发售、45转2枚组、180克重量盘、金属母盘压制、序列号和无着色Virgin Vinyl。商品状态未使用，当前价13,980日元，可加入购物车/立即购买。与样本照片及闲鱼页的2LP、45转、180g、限量1000和6/24规格一致；页面未显示PROT-7398/9品番，因此不把它当作条码证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 13980.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37393837313036303635392f",
+        "observed_at": "2026-09-19T18:33:39Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【黑胶】邓丽君经典精选 黑胶LP 45转 2LP 180g 日本压盘 限量1000张 日版原版 全新6/24",
+        "version_evidence": "人工 Chrome 闲鱼详情页明确为邓丽君《Original Best Hit +2》；100% Pure LP 透明彩胶；限量1000张编号版；45转2LP；180g；日本压盘；附歌词与解说；全新，发售 6/24；当前标价 629 CNY。与样本原图的标题、规格、日期和成色一致。页面未显示 PROT-7398/9 品番，因此作为同版实物观察，不把它当作条码证明。",
+        "catalog_no": "PROT-7398/9",
+        "barcode": null,
+        "price": 629.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.21.52dc66e44iwzcs&id=1032359784438&categoryId=126864811",
+        "observed_at": "2026-09-19T13:48:05Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/83-bdf61d7786697043.webp"
     }
   ],
   "single_observed_records": [
@@ -5354,26 +5383,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
-    },
-    {
-      "reference_product_id": 83,
-      "stable_key": "sample:bdf61d7786697043d47d76bae494217bbcaff6268891aa010abbec233f6d061a",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "【黑胶】邓丽君经典精选 黑胶LP 45转 2LP 180g 日本压盘 限量1000张 日版原版 全新6/24",
-        "version_evidence": "人工 Chrome 闲鱼详情页明确为邓丽君《Original Best Hit +2》；100% Pure LP 透明彩胶；限量1000张编号版；45转2LP；180g；日本压盘；附歌词与解说；全新，发售 6/24；当前标价 629 CNY。与样本原图的标题、规格、日期和成色一致。页面未显示 PROT-7398/9 品番，因此作为同版实物观察，不把它当作条码证明。",
-        "catalog_no": "PROT-7398/9",
-        "barcode": null,
-        "price": 629.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.21.52dc66e44iwzcs&id=1032359784438&categoryId=126864811",
-        "observed_at": "2026-09-19T13:48:05Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/83-bdf61d7786697043.webp"
     },
     {
       "reference_product_id": 36,
