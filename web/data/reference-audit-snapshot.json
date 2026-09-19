@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T00:37:19+08:00",
+  "generated_at": "2026-09-20T00:58:45+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 85 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 86 条双侧实物观察、22 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 82,
-    "both_observed_count": 85,
-    "single_observed_count": 23,
+    "both_observed_count": 86,
+    "single_observed_count": 22,
     "wameiji_platform_found_count": 95,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
@@ -4880,6 +4880,34 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 96,
+      "stable_key": "sample:c64ea6dffb4b2f7d1d4ac6b5118809e842a1e6bcbfc2c78a764fedb2488339cc",
+      "wameiji": {
+        "title": "【外付け特典3点セット付き】 LACE UP ［CD+Blu-ray Disc+GOODS］＜完全数量生産限定盤＞ LiSA VVCL-2881 4547366798067-13200",
+        "version_evidence": "人工 Chrome 打开日源详情页核到 LiSA《LACE UP》完全数量生产限定盘；标题明确 CD+Blu-ray Disc+GOODS、VVCL-2881、JAN 4547366798067，并显示外付特典3点套装。页面显示新品、库存1件、价格22,300日元和购买按钮；与闲鱼同版实物对应，但当前价位不利于直接判定利润机会。",
+        "catalog_no": "VVCL-2881",
+        "barcode": "4547366798067",
+        "price": 22300.0,
+        "currency": "JPY",
+        "source_url": "https://jp.mercari.com/shops/product/2JQxjTWaCMPTC4x6gvdWuN",
+        "observed_at": "2026-09-19T16:58:45Z",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "LiSA织部里沙7专LACE UP完全生产限定版（CD+BD+册+挂画+支架）",
+        "version_evidence": "人工 Chrome 打开闲鱼当前详情页；页面明确列出《LACE UP》完全生产限定版为 CD+BD+册+挂画+支架，约590元起，页面同时展示其他版本的订金/起价区间并有立即购买控件。该页是预售/价格区间，不把590元当作已成交现货价。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 590.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1011291721486&categoryId=202061902",
+        "observed_at": "2026-09-19T16:58:45Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "single_observed_records": [
@@ -5134,25 +5162,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=922779792696&categoryId=126856346",
         "observed_at": "2026-09-19T11:05:00Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
-    },
-    {
-      "reference_product_id": 96,
-      "stable_key": "sample:c64ea6dffb4b2f7d1d4ac6b5118809e842a1e6bcbfc2c78a764fedb2488339cc",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "price_unfavorable",
-      "observation": {
-        "title": "LiSA织部里沙7专LACE UP完全生产限定版（CD+BD+册+挂画+支架）",
-        "version_evidence": "闲鱼详情页明确为 LiSA 第七张专辑《LACE UP》多版本预售/订金页；其中完全生产限定版写明 CDBD+册+挂画+支架，页面显示该版本约590 CNY起（整页价格区间100–622 CNY，100为订金/其他版本起价），并写明4月15日起出货。人工核验到具体闲鱼商品页；记录为已找到但不是现货成交价。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 590.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1011291721486&categoryId=202061902",
-        "observed_at": "2026-09-19T11:45:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
