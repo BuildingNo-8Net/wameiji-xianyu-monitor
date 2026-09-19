@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:24:51+08:00",
+  "generated_at": "2026-09-19T14:29:38+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 74 条双侧实物观察、10 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 75 条双侧实物观察、9 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 67,
-    "both_observed_count": 74,
-    "single_observed_count": 10,
+    "both_found_count": 68,
+    "both_observed_count": 75,
+    "single_observed_count": 9,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 67
+      "count": 68
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 12
+      "count": 11
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 107,
+      "stable_key": "sample:a30bbb3f193ff984f77ff7a4d8ccf8cd481183a475e875b1d52d882fce1e2ca5",
+      "wameiji": {
+        "title": "LP(30cm) / アンディ・ラウ(劉徳華) / あなたの元に戻る(回到□身邊) (解説歌詞対訳付/180g重量盤) (初回生産限定盤)",
+        "version_evidence": "挖煤姬 Rakuten 详情标题明确为《回到你身边》180g 重量盘、初回生産限定盤；详情记录目录号 UIJY-75324、JAN 4988031785546，标题含解说/歌词/对译。",
+        "catalog_no": "UIJY-75324",
+        "barcode": "4988031785546",
+        "price": 4950.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznuijy-75324%2F",
+        "observed_at": "2026-09-19T06:29:38Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "刘德华 回到你身边 日本初回生产限定LP黑胶 全新未拆封",
+        "version_evidence": "闲鱼详情明确写明《回到你身边》日本初回生产限定 LP、全新未拆封、1988 年作品、180g 重量盘、带歌词本，售价 298 CNY；详情未明确海报是否随货，不能据此确认样本所示海报附件。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 298.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1015656902633&categoryId=126864811",
+        "observed_at": "2026-09-19T06:29:38Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/107-a30bbb3f193ff984.webp"
+    },
     {
       "reference_product_id": 18,
       "stable_key": "sample:d032aa66f4b46ec8705dea35453461728ee8963b54406e5110d5fa6ef3bd971f",
@@ -1995,6 +2024,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 107,
+      "stable_key": "sample:a30bbb3f193ff984f77ff7a4d8ccf8cd481183a475e875b1d52d882fce1e2ca5",
+      "wameiji": {
+        "title": "LP(30cm) / アンディ・ラウ(劉徳華) / あなたの元に戻る(回到□身邊) (解説歌詞対訳付/180g重量盤) (初回生産限定盤)",
+        "version_evidence": "挖煤姬 Rakuten 详情标题明确为《回到你身边》180g 重量盘、初回生産限定盤；详情记录目录号 UIJY-75324、JAN 4988031785546，标题含解说/歌词/对译。",
+        "catalog_no": "UIJY-75324",
+        "barcode": "4988031785546",
+        "price": 4950.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznuijy-75324%2F",
+        "observed_at": "2026-09-19T06:29:38Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "刘德华 回到你身边 日本初回生产限定LP黑胶 全新未拆封",
+        "version_evidence": "闲鱼详情明确写明《回到你身边》日本初回生产限定 LP、全新未拆封、1988 年作品、180g 重量盘、带歌词本，售价 298 CNY；详情未明确海报是否随货，不能据此确认样本所示海报附件。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 298.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1015656902633&categoryId=126864811",
+        "observed_at": "2026-09-19T06:29:38Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/107-a30bbb3f193ff984.webp"
+    },
     {
       "reference_product_id": 18,
       "stable_key": "sample:d032aa66f4b46ec8705dea35453461728ee8963b54406e5110d5fa6ef3bd971f",
@@ -4302,26 +4360,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
-    },
-    {
-      "reference_product_id": 107,
-      "stable_key": "sample:a30bbb3f193ff984f77ff7a4d8ccf8cd481183a475e875b1d52d882fce1e2ca5",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "LP(30cm) / アンディ・ラウ(劉徳華) / あなたの元に戻る(回到□身邊) (解説歌詞対訳付/180g重量盤) (初回生産限定盤)",
-        "version_evidence": null,
-        "catalog_no": "UIJY-75324",
-        "barcode": "4988031785546",
-        "price": 4950.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-web%2Faznuijy-75324%2F",
-        "observed_at": "2026-09-14T17:58:34Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/107-a30bbb3f193ff984.webp"
     },
     {
       "reference_product_id": 111,
