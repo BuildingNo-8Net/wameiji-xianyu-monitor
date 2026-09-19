@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T12:59:00+08:00",
+  "generated_at": "2026-09-19T13:04:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 59 条双侧实物观察、25 条单边待补观察中，挖煤姬页面已复核 80 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 60 条双侧实物观察、24 条单边待补观察中，挖煤姬页面已复核 80 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 55,
-    "both_observed_count": 59,
-    "single_observed_count": 25,
+    "both_observed_count": 60,
+    "single_observed_count": 24,
     "wameiji_platform_found_count": 80,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -316,25 +316,25 @@
       "stable_key": "sample:17b42e4e041d599cf25e145c4bd29fab7ded93f75a99217a324abb347eb9ca6a",
       "wameiji": {
         "title": "虚ノ少女 ドラマCD",
-        "version_evidence": "Exact title and physical drama CD. Search-result condition is used; supplied sample was described as new unopened and visually includes orange obi, so condition/obi parity is not established.",
+        "version_evidence": "挖煤姬详情：2016年发售的《虚ノ少女》原创广播剧CD；已开封但无明显污渍，标价 3,200 日元。",
         "catalog_no": null,
         "barcode": null,
         "price": 3200.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303535363231393335302f",
-        "observed_at": "2026-09-15T13:38:47+08:00",
+        "observed_at": "2026-09-19T05:04:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true
       },
       "xianyu": {
-        "title": "全新未拆 ig社 虚之少女 广播剧CD 不包邮",
-        "version_evidence": "Exact title, Innocent Grey, physical CD, and new unopened condition from visible current result. Excluded distinct 天に結ぶ夢 versions from primary comparison.",
+        "title": "【现货】虚之少女 广播剧CD 全新 日版原版正品",
+        "version_evidence": "闲鱼详情挂牌明确为《虚之少女》广播剧CD，全新、日版原版正品，Innocent Grey/杉菜水姬相关，标价 400 CNY；与样本橙色侧标及挖煤姬 2016 年原创广播剧CD标题对应。",
         "catalog_no": null,
         "barcode": null,
-        "price": 200.0,
+        "price": 400.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E8%99%9A%E4%B9%8B%E5%B0%91%E5%A5%B3%20%E5%B9%BF%E6%92%AD%E5%89%A7%20CD",
-        "observed_at": "2026-09-15T13:39:32+08:00",
+        "source_url": "https://www.goofish.com/item?id=982309522766&categoryId=126864811",
+        "observed_at": "2026-09-19T05:04:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       },
@@ -3357,6 +3357,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/16-d580264c560ec284.webp"
+    },
+    {
+      "reference_product_id": 20,
+      "stable_key": "sample:17b42e4e041d599cf25e145c4bd29fab7ded93f75a99217a324abb347eb9ca6a",
+      "wameiji": {
+        "title": "虚ノ少女 ドラマCD",
+        "version_evidence": "挖煤姬详情：2016年发售的《虚ノ少女》原创广播剧CD；已开封但无明显污渍，标价 3,200 日元。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3200.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303535363231393335302f",
+        "observed_at": "2026-09-19T05:04:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【现货】虚之少女 广播剧CD 全新 日版原版正品",
+        "version_evidence": "闲鱼详情挂牌明确为《虚之少女》广播剧CD，全新、日版原版正品，Innocent Grey/杉菜水姬相关，标价 400 CNY；与样本橙色侧标及挖煤姬 2016 年原创广播剧CD标题对应。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 400.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=982309522766&categoryId=126864811",
+        "observed_at": "2026-09-19T05:04:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/20-17b42e4e041d599c.webp"
     }
   ],
   "single_observed_records": [
@@ -3519,26 +3548,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
-    },
-    {
-      "reference_product_id": 20,
-      "stable_key": "sample:17b42e4e041d599cf25e145c4bd29fab7ded93f75a99217a324abb347eb9ca6a",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "found",
-      "observation": {
-        "title": "虚ノ少女 ドラマCD",
-        "version_evidence": "Exact title and physical drama CD. Search-result condition is used; supplied sample was described as new unopened and visually includes orange obi, so condition/obi parity is not established.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 3200.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303535363231393335302f",
-        "observed_at": "2026-09-15T13:38:47+08:00",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/20-17b42e4e041d599c.webp"
     },
     {
       "reference_product_id": 29,
