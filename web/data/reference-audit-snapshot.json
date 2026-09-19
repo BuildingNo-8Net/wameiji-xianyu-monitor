@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T04:10:55+08:00",
+  "generated_at": "2026-09-20T04:16:04+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、15 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、16 条单边待补观察中，挖煤姬页面已复核 102 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
     "both_observed_count": 100,
-    "single_observed_count": 15,
-    "wameiji_platform_found_count": 101,
-    "found_any_count": 116,
-    "not_currently_listed_both_count": 9
+    "single_observed_count": 16,
+    "wameiji_platform_found_count": 102,
+    "found_any_count": 117,
+    "not_currently_listed_both_count": 8
   },
   "state_pairs": [
     {
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 11
+      "count": 12
     },
     {
       "wameiji": "price_unfavorable",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 9
+      "count": 8
     },
     {
       "wameiji": "price_unfavorable",
@@ -5333,6 +5333,26 @@
       "reference_image_url": "assets/reference-samples/7-617fc2dbd5580cf7.webp"
     },
     {
+      "reference_product_id": 37,
+      "stable_key": "sample:58baee497a1a4eb6a23c2d1587b4e398c4f2cbcb78074125fb7efe9595cfd864",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ドラクリオット ストレイジボックス 2種セット",
+        "version_evidence": "人工Chrome打开挖煤姬当前具体详情页；标题明确为《ドラクリオット》收纳盒2种套装，商品状态未使用，描述明确“两件均为新品未开封”，价格2,600 JPY，可加入购物车并立即购买。页面标签包含 dracu-riot!。这与样本#37的柚子社 DRACU-RIOT 收纳盒方向一致；但详情图在当前浏览器中未成功加载，因此不把两种盒面的角色构图宣称为已完成图像同版核对。闲鱼此前仅核到不同构图的 OST+外盒近似物，仍保持待补。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2600,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6a702f6974656d732f6d38373831313039323732322f",
+        "observed_at": "2026-09-19T20:16:04Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "reference_image_url": "assets/reference-samples/37-58baee497a1a4eb6.webp"
+    },
+    {
       "reference_product_id": 27,
       "stable_key": "sample:3b589fa991d8a5e6e91b4b7c986f0bb0d925c74e461b76b76e32b708b8edb030",
       "available_market": "wameiji",
@@ -5769,38 +5789,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "blocked"
-      }
-    },
-    {
-      "reference_product_id": 37,
-      "stable_key": "sample:58baee497a1a4eb6a23c2d1587b4e398c4f2cbcb78074125fb7efe9595cfd864",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "ドラクリオット DRACU-RIOT! exact current box not found",
-        "version_evidence": "人工Chrome打开挖煤姬「ゆずソフト DRACU-RIOT ボックス」「ドラクリオット 初回」「DRACU-RIOT オリジナルサウンドトラック 収納BOX」；结果只有角色卡/周边、其他作品或普通CD，最后一个精确OST+収納BOX检索也没有DRACU-RIOT商品卡，未找到与样本四角色粉色封面盒一致的当前挖煤姬页。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=DRACU-RIOT+%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB%E3%82%B5%E3%82%A6%E3%83%B3%E3%83%89%E3%83%88%E3%83%A9%E3%83%83%E3%82%AF+%E5%8F%8E%E7%B4%8DBOX",
-        "observed_at": "2026-09-19T16:12:50Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "DRACU RIOT exact sample box not found; near-match OST box excluded",
-        "version_evidence": "人工Chrome打开闲鱼「柚子社 DRACU-RIOT 盒子」；找到当前「DRACU RIOT 全新」¥358详情页，标题/描述为OST+特别版外盒，仅BOX+OST，详情实物图分别显示红黑双人面与紫白双人面，和样本照片中粉色菱格、四角色整面图不一致；其他色纸、角色歌CD、徽章、手办等均为不同物。未找到样本同版当前页。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/item?id=1069187873921&categoryId=126864811",
-        "observed_at": "2026-09-19T16:12:50Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
       }
     },
     {
