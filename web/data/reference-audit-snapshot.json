@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T12:08:08+08:00",
+  "generated_at": "2026-09-19T12:12:13+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 51 条双侧实物观察、33 条单边待补观察中，挖煤姬页面已复核 75 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 52 条双侧实物观察、32 条单边待补观察中，挖煤姬页面已复核 76 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 49,
-    "both_observed_count": 51,
-    "single_observed_count": 33,
-    "wameiji_platform_found_count": 75,
+    "both_found_count": 50,
+    "both_observed_count": 52,
+    "single_observed_count": 32,
+    "wameiji_platform_found_count": 76,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 49
+      "count": 50
     },
     {
       "wameiji": "found",
@@ -1470,6 +1470,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/64-13578faa50a3a80b.webp"
+    },
+    {
+      "reference_product_id": 70,
+      "stable_key": "sample:2f55489119f038fdc84478ecfa6acb1d156b9c0b9788f449f73b54cb08912459",
+      "wameiji": {
+        "title": "【中古】アニメ系CD LiSA / LiSA BEST-Way-[DVD付初回生産限定盤]",
+        "version_evidence": "挖煤姬详情：型番 VVCL-1225，发行日 2018/05/09；商品名明确为 DVD 付初回生产限定盘，CD＋DVD 曲目与样本一致，商品页标注中古、无明显损伤或污渍。",
+        "catalog_no": "VVCL-1225",
+        "barcode": null,
+        "price": 1087.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d376478504a69534143763759766e6850697a2f",
+        "observed_at": "2026-09-19T04:12:13Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "LiSA BEST-Way 初回生产限定盘（CD+DVD）",
+        "version_evidence": "闲鱼挂牌标题与描述明确为 LiSA《BEST-Way-》初回生产限定盘，CD+DVD，日版代购；标价 86 CNY。详情页受跨境商品限制未展开，册子/外盒等附件未在挂牌文本中确认。",
+        "catalog_no": "VVCL-1225",
+        "barcode": null,
+        "price": 86.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1030546367795&categoryId=126862148",
+        "observed_at": "2026-09-19T04:12:13Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/70-2f55489119f038fd.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2951,6 +2980,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/64-13578faa50a3a80b.webp"
+    },
+    {
+      "reference_product_id": 70,
+      "stable_key": "sample:2f55489119f038fdc84478ecfa6acb1d156b9c0b9788f449f73b54cb08912459",
+      "wameiji": {
+        "title": "【中古】アニメ系CD LiSA / LiSA BEST-Way-[DVD付初回生産限定盤]",
+        "version_evidence": "挖煤姬详情：型番 VVCL-1225，发行日 2018/05/09；商品名明确为 DVD 付初回生产限定盘，CD＋DVD 曲目与样本一致，商品页标注中古、无明显损伤或污渍。",
+        "catalog_no": "VVCL-1225",
+        "barcode": null,
+        "price": 1087.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d376478504a69534143763759766e6850697a2f",
+        "observed_at": "2026-09-19T04:12:13Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "LiSA BEST-Way 初回生产限定盘（CD+DVD）",
+        "version_evidence": "闲鱼挂牌标题与描述明确为 LiSA《BEST-Way-》初回生产限定盘，CD+DVD，日版代购；标价 86 CNY。详情页受跨境商品限制未展开，册子/外盒等附件未在挂牌文本中确认。",
+        "catalog_no": "VVCL-1225",
+        "barcode": null,
+        "price": 86.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1030546367795&categoryId=126862148",
+        "observed_at": "2026-09-19T04:12:13Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/70-2f55489119f038fd.webp"
     }
   ],
   "single_observed_records": [
@@ -3313,26 +3371,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/66-0b3187f6838924e6.webp"
-    },
-    {
-      "reference_product_id": 70,
-      "stable_key": "sample:2f55489119f038fdc84478ecfa6acb1d156b9c0b9788f449f73b54cb08912459",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "LiSA BEST-Way- DVD付初回生産限定盤",
-        "version_evidence": "Chrome 人工打开挖煤姬详情：VVCL-1225，2018-05-09，CD + DVD 的初回生产限定盘；商店中古、商品状态通常/无明显伤污。页面说明图片仅示意，未确认样本所称的写真册、特装外盒或随机明信片。",
-        "catalog_no": "VVCL-1225",
-        "barcode": null,
-        "price": 631.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d376478504a69534143763759766e6850697a2f",
-        "observed_at": "2026-09-14T18:30:57Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/70-2f55489119f038fd.webp"
     },
     {
       "reference_product_id": 79,
