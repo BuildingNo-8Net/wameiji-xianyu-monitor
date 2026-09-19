@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T03:08:57+08:00",
+  "generated_at": "2026-09-20T03:13:51+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 99 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 101 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 99,
+    "both_observed_count": 100,
     "single_observed_count": 13,
     "wameiji_platform_found_count": 101,
     "found_any_count": 114,
@@ -5280,6 +5280,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/12-42c0201d64442898.webp"
+    },
+    {
+      "reference_product_id": 17,
+      "stable_key": "sample:ed58f0f7d2ca7b1d2e9f16f56be3dd4f5a9b4f9cd8e2e4f8a4f7c9a8e6b3d2c1",
+      "wameiji": {
+        "title": "【中古】同人ノベル CDソフト narcissu ナルキッソス -SIDE 2nd-[音楽サントラ付] / ステージなな",
+        "version_evidence": "人工 Chrome 挖煤姬当前详情页核到骏河屋 Mercari 店的 narcissu《ナルキッソス -SIDE 2nd-》；页面明确为 Press CD、Windows98/ME/2000/XP，包含游戏本编 DISC A（ナルキッソス/ナルキッソス2）和音乐原声 DISC B，合计 2 枚，状态没有明显损伤或污渍，当前价 12,980 日元，可加入购物车/立即购买。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 12980.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33695a3776595941765748787937675572704e6976482f",
+        "observed_at": "2026-09-20T03:13:51+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "水仙 ナルキッソス narcissu SIDE 2nd 猫猫社 游戏本体 ost 成色很好 东西齐全",
+        "version_evidence": "人工 Chrome 闲鱼当前详情页明确为猫猫社《narcissu SIDE 2nd》游戏本体 + OST，标题写明成色很好、东西齐全并收录水仙 OST；页面标注几乎全新、有原袋，当前标价 445 CNY，不包邮，可立即购买。与挖煤姬详情的 SIDE 2nd 游戏本体+原声 2 枚 Press CD 版本一致；页面未展示目录号或条码。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 445.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.6b3b1f36Cl67nq&id=1079371541687&categoryId=126860296",
+        "observed_at": "2026-09-20T03:13:51+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/17-ed58f0f7d2ca7b1d.webp"
     }
   ],
   "single_observed_records": [
