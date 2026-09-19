@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T11:54:59+08:00",
+  "generated_at": "2026-09-19T12:01:53+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 49 条双侧实物观察、35 条单边待补观察中，挖煤姬页面已复核 73 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 50 条双侧实物观察、34 条单边待补观察中，挖煤姬页面已复核 74 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 47,
-    "both_observed_count": 49,
-    "single_observed_count": 35,
-    "wameiji_platform_found_count": 73,
+    "both_found_count": 48,
+    "both_observed_count": 50,
+    "single_observed_count": 34,
+    "wameiji_platform_found_count": 74,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 47
+      "count": 48
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 18
+      "count": 17
     },
     {
       "wameiji": "price_unfavorable",
@@ -1412,6 +1412,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/99-a633441bc61702a7.webp"
+    },
+    {
+      "reference_product_id": 114,
+      "stable_key": "sample:9ceab5cf2bc2e2fe00a0b61ed76dbe8032d96537e13de04aba13627cca0ff86c",
+      "wameiji": {
+        "title": "【中古】邦楽CD 米津玄師 / BOOTLEG[初回生産限定盤]",
+        "version_evidence": "挖煤姬详情：型番 SRCL-9567，发行日 2017/11/01，初回生产限定盘；商品说明列出 12inch 模拟盘封套，店铺中古、无明显损伤或污渍。",
+        "catalog_no": "SRCL-9567",
+        "barcode": null,
+        "price": 5665.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d347475635046436e384752796657736363372f",
+        "observed_at": "2026-09-19T03:58:18Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "米津玄师《BOOTLEG》CD＋黑胶唱片豪华包装；SRCL-9567/8；JAN 4547366329674",
+        "version_evidence": "闲鱼详情记录明确为《BOOTLEG》日版初回、SRCL-9567/8、CD＋黑胶装饰盘套装，配件含外纸壳、CD、彩胶装饰盘、歌词页、6张画册；中古，外盒有磨损、碟面轻微划痕但可播放。",
+        "catalog_no": "SRCL-9567/8",
+        "barcode": "4547366329674",
+        "price": 291.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
+        "observed_at": "2026-09-14T18:11:19Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -2835,6 +2864,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/99-a633441bc61702a7.webp"
+    },
+    {
+      "reference_product_id": 114,
+      "stable_key": "sample:9ceab5cf2bc2e2fe00a0b61ed76dbe8032d96537e13de04aba13627cca0ff86c",
+      "wameiji": {
+        "title": "【中古】邦楽CD 米津玄師 / BOOTLEG[初回生産限定盤]",
+        "version_evidence": "挖煤姬详情：型番 SRCL-9567，发行日 2017/11/01，初回生产限定盘；商品说明列出 12inch 模拟盘封套，店铺中古、无明显损伤或污渍。",
+        "catalog_no": "SRCL-9567",
+        "barcode": null,
+        "price": 5665.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d347475635046436e384752796657736363372f",
+        "observed_at": "2026-09-19T03:58:18Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "米津玄师《BOOTLEG》CD＋黑胶唱片豪华包装；SRCL-9567/8；JAN 4547366329674",
+        "version_evidence": "闲鱼详情记录明确为《BOOTLEG》日版初回、SRCL-9567/8、CD＋黑胶装饰盘套装，配件含外纸壳、CD、彩胶装饰盘、歌词页、6张画册；中古，外盒有磨损、碟面轻微划痕但可播放。",
+        "catalog_no": "SRCL-9567/8",
+        "barcode": "4547366329674",
+        "price": 291.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
+        "observed_at": "2026-09-14T18:11:19Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e.webp"
     }
   ],
   "single_observed_records": [
@@ -3477,26 +3535,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/111-4b9d9eceb4d07631.webp"
-    },
-    {
-      "reference_product_id": 114,
-      "stable_key": "sample:9ceab5cf2bc2e2fe00a0b61ed76dbe8032d96537e13de04aba13627cca0ff86c",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "米津玄师《BOOTLEG》CD＋黑胶唱片豪华包装；SRCL-9567/8；JAN 4547366329674",
-        "version_evidence": "Current Xianyu card explicitly states the initial bootleg edition SRCL-9567/8, Jan 4547366329674, CD plus 12-inch record sleeve, art illustration, poster, and replica record. Condition: used, outer box wear and light scratches; record surface said to play normally.",
-        "catalog_no": "SRCL-9567/8",
-        "barcode": "4547366329674",
-        "price": 291.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
-        "observed_at": "2026-09-14T18:11:19Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e2fe.webp"
     },
     {
       "reference_product_id": 120,
