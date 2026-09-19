@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:39:26+08:00",
+  "generated_at": "2026-09-19T14:42:34+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 78 条双侧实物观察、6 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 78 条双侧实物观察、5 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 71,
+    "both_found_count": 72,
     "both_observed_count": 78,
-    "single_observed_count": 6,
+    "single_observed_count": 5,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 71
+      "count": 72
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 8
+      "count": 7
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 100,
+      "stable_key": "sample:b48c761166295009614f7ec087051ca05bc893ea7783f6f13aef65b7ff87478b",
+      "wameiji": {
+        "title": "あいみょん / 青春のエキサイトメント（数量限定盤／180g重量盤／カラーヴァイナル） [レコード 12inch]",
+        "version_evidence": "挖煤姬 Rakuten 详情确认 WPJL-10295/6、JAN 4943674436231，为 2026 年发行的数量限定 180g 彩色双 LP；附带 Aimyon 10th Anniversary CARD 的规则仍需按具体订单确认。",
+        "catalog_no": "WPJL-10295/6",
+        "barcode": "4943674436231",
+        "price": 5940.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fguruguru2%2Fwpjl-10295%2F",
+        "observed_at": "2026-09-19T06:42:34Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【黑胶】爱缪 黑胶 LP 彩胶 Aimyon 首专 青春のエキサイトメント 日版原版 10周年纪念限定黑胶 2LP 180g重量盘",
+        "version_evidence": "闲鱼搜索卡片明确写明 Aimyon 首专《青春のエキサイトメント》日版原版、10周年纪念限定 2LP、180g 重量盘，并含 Aimyon 10th Anniversary CARD，标价 369 CNY；详情页触发滑块验证，尚未补充详情级成色/附件核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 369.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1055604036792&categoryId=126864811",
+        "observed_at": "2026-09-19T06:42:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/100-b48c761166295009.webp"
+    },
     {
       "reference_product_id": 103,
       "stable_key": "sample:cb00b6c6cd5b63e0d39026abdb442ca06d4341a559ba392b22369db364daf350",
@@ -4474,26 +4503,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
-    },
-    {
-      "reference_product_id": 100,
-      "stable_key": "sample:b48c761166295009614f7ec087051ca05bc893ea7783f6f13aef65b7ff87478b",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "あいみょん / 青春のエキサイトメント（数量限定盤／180g重量盤／カラーヴァイナル） [レコード 12inch]",
-        "version_evidence": "Manual detail confirms maker WPJL-10295/6, JAN 4943674436231, 2026 issue: limited 2 x 12-inch, 180g colored vinyl; first production includes Aimyon 10th Anniversary CARD with campaign QR. Product page identifies the 1st album and 2-disc configuration.",
-        "catalog_no": "WPJL-10295/6",
-        "barcode": "4943674436231",
-        "price": 5940.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fguruguru2%2Fwpjl-10295%2F",
-        "observed_at": "2026-09-14T18:21:58Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/100-b48c761166295009.webp"
     }
   ]
 }
