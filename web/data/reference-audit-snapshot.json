@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T01:19:37+08:00",
+  "generated_at": "2026-09-20T01:25:27+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 88 条双侧实物观察、20 条单边待补观察中，挖煤姬页面已复核 96 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -4954,13 +4954,13 @@
       },
       "xianyu": {
         "title": "【出】鬼灭之刃 半透明绿胶 锻刀村篇 彩胶黑胶唱片LP",
-        "version_evidence": "闲鱼当前搜索页第一张商品卡明确为《鬼灭之刃》锻刀村篇半透明绿胶彩胶黑胶 LP，MAN WITH A MISSION×milet《絆ノ奇跡/コイガレ》，全新未使用、带编号，标价399 CNY。与样本目标的 LP 形态、曲目和绿胶形态相符；因搜索卡未打开到详情页，不额外推断条码、附件或库存。",
+        "version_evidence": "闲鱼当前详情页标题与说明明确为《鬼灭之刃》锻刀村篇半透明绿胶彩胶黑胶 LP，MAN WITH A MISSION×milet《絆ノ奇跡/コイガレ》，全新未使用、带编号，商品媒介 LP 黑胶唱片，¥399 包邮；页面有立即购买按钮。",
         "catalog_no": null,
         "barcode": null,
         "price": 399.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=MAN%20WITH%20A%20MISSION%20milet%20%E7%B5%86%E3%83%8E%E5%A5%87%E8%B7%A1%20%E3%82%B3%E3%82%A4%E3%82%AC%E3%83%AC%20%E9%BB%91%E8%83%B6%20LP",
-        "observed_at": "2026-09-19T17:19:37Z",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.dee6ab78XrwBgA&id=1044191513694&categoryId=126864811",
+        "observed_at": "2026-09-19T17:25:27Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
