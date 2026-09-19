@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T01:12:51+08:00",
+  "generated_at": "2026-09-20T01:19:37+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 87 条双侧实物观察、21 条单边待补观察中，挖煤姬页面已复核 96 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 88 条双侧实物观察、20 条单边待补观察中，挖煤姬页面已复核 96 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 82,
-    "both_observed_count": 87,
-    "single_observed_count": 21,
+    "both_observed_count": 88,
+    "single_observed_count": 20,
     "wameiji_platform_found_count": 96,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 82
+      "count": 83
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 11
+      "count": 10
     },
     {
       "wameiji": "not_currently_listed",
@@ -4936,6 +4936,34 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 112,
+      "stable_key": "sample:7cd35a051c64ad55a72942402e1f6df751ddb4d4a6272b95cbc28814ca011647",
+      "wameiji": {
+        "title": "MAN WITH A MISSION milet 絆ノ奇跡 コイコガレ レコード",
+        "version_evidence": "人工 Chrome 挖煤姬详情页：动画《鬼灭之刃》刀锻冶之里篇主题曲；MAN WITH A MISSION x milet；《絆ノ奇跡 / コイコガレ》；完全生产限定模拟唱片；未使用；11,000 日元。页面未显示样本条码 SRJL-1124 / 4547366609639，也未包含样本图中提到的 CD×DVD/海报套装，因此只作为同版 LP 形态观察，不当作完整套装证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 11000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35363433373932363336372f",
+        "observed_at": "2026-09-19T17:19:37Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【出】鬼灭之刃 半透明绿胶 锻刀村篇 彩胶黑胶唱片LP",
+        "version_evidence": "闲鱼当前搜索页第一张商品卡明确为《鬼灭之刃》锻刀村篇半透明绿胶彩胶黑胶 LP，MAN WITH A MISSION×milet《絆ノ奇跡/コイガレ》，全新未使用、带编号，标价399 CNY。与样本目标的 LP 形态、曲目和绿胶形态相符；因搜索卡未打开到详情页，不额外推断条码、附件或库存。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 399.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=MAN%20WITH%20A%20MISSION%20milet%20%E7%B5%86%E3%83%8E%E5%A5%87%E8%B7%A1%20%E3%82%B3%E3%82%A4%E3%82%AC%E3%83%AC%20%E9%BB%91%E8%83%B6%20LP",
+        "observed_at": "2026-09-19T17:19:37Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "single_observed_records": [
@@ -5291,26 +5319,6 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/83-bdf61d7786697043.webp"
-    },
-    {
-      "reference_product_id": 112,
-      "stable_key": "sample:7cd35a051c64ad55a72942402e1f6df751ddb4d4a6272b95cbc28814ca011647",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "MAN WITH A MISSION milet 絆ノ奇跡 コイコガレ レコード",
-        "version_evidence": "人工 Chrome 挖煤姬详情页：动画《鬼灭之刃》刀锻冶之里篇主题曲；MAN WITH A MISSION x milet；《絆ノ奇跡 / コイコガレ》；完全生产限定模拟唱片；未使用；11,000 日元。页面未显示样本条码 SRJL-1124 / 4547366609639，也未包含样本图中提到的 CD×DVD/海报套装，因此只作为同版 LP 形态观察，不当作完整套装证明。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 11000.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35363433373932363336372f",
-        "observed_at": "2026-09-19T14:10:00Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/112-7cd35a051c64ad55.webp"
     },
     {
       "reference_product_id": 36,
