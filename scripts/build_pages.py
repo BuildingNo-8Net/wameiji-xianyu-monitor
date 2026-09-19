@@ -51,12 +51,16 @@ def main() -> int:
     # single editable record; this file is regenerated on every deploy.
     snapshot_path = source / "data" / "reference-audit-snapshot.json"
     if snapshot_path.is_file():
-        snapshot = json.loads(snapshot_path.read_text(encoding="utf-8"))
+        snapshot_text = snapshot_path.read_text(encoding="utf-8")
+        snapshot = json.loads(snapshot_text)
         snapshot_markup = json.dumps(snapshot, ensure_ascii=False).replace("<", "\\u003c")
-        (dest / "reference-audit-inline.js").write_text(
-            "window.REFERENCE_AUDIT_SNAPSHOT = " + snapshot_markup + ";\n",
-            encoding="utf-8",
-        )
+        inline_markup = "window.REFERENCE_AUDIT_SNAPSHOT = " + snapshot_markup + ";\n"
+        # Fingerprint the public snapshot so browsers cannot reuse yesterday's
+        # inline payload after a new sample observation is deployed.
+        snapshot_digest = hashlib.sha256(snapshot_text.encode("utf-8")).hexdigest()[:12]
+        inline_name = f"reference-audit-inline.{snapshot_digest}.js"
+        (dest / "reference-audit-inline.js").write_text(inline_markup, encoding="utf-8")
+        (dest / inline_name).write_text(inline_markup, encoding="utf-8")
         discovery_reference = '<script src="discovery-ui.js?'
         if discovery_reference not in markup:
             discovery_reference = '<script src="discovery-ui.js"'
@@ -64,7 +68,7 @@ def main() -> int:
             raise RuntimeError("missing discovery-ui script reference in index")
         markup = markup.replace(
             discovery_reference,
-            '<script src="reference-audit-inline.js"></script>\n  ' + discovery_reference,
+            f'<script src="{inline_name}"></script>\n  ' + discovery_reference,
             1,
         )
     index.write_text(markup, encoding="utf-8")
