@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T01:25:27+08:00",
+  "generated_at": "2026-09-20T01:42:07+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 88 条双侧实物观察、20 条单边待补观察中，挖煤姬页面已复核 96 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 91 条双侧实物观察、17 条单边待补观察中，挖煤姬页面已复核 99 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 82,
-    "both_observed_count": 88,
-    "single_observed_count": 20,
-    "wameiji_platform_found_count": 96,
+    "both_observed_count": 91,
+    "single_observed_count": 17,
+    "wameiji_platform_found_count": 99,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 83
+      "count": 86
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 13
+      "count": 10
     },
     {
       "wameiji": "price_unfavorable",
@@ -4964,6 +4964,90 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 23,
+      "stable_key": "sample:bfc90e9b128fa3d4c8efe17418140cc28d0daf47266d6cc99ed95f36bace7467",
+      "wameiji": {
+        "title": "black bullet(初回限定盤 CD+DVD)TVアニメ(ブラック・ブレット)オープニングテーマ [CD] fripSide_02",
+        "version_evidence": "人工 Chrome 挖煤姬当前详情页明确为 fripSide《black bullet》初回限定盘 CD+DVD，TV动画《ブラック・ブレット》开场主题曲；标题与样本的日版 CD+DVD 初回限定版一致。详情页显示 546 日元、约 25 人民币，有加入购物车和立即购买按钮；JAN 4988102218560，页面标注中古且有些许损伤或污渍。",
+        "catalog_no": null,
+        "barcode": "4988102218560",
+        "price": 546.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4b71664e724c613365386f735947514472546f534e692f",
+        "observed_at": "2026-09-19T17:36:16Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "fripSide南条爱乃 black bullet 漆黑的子弹 cd+dvd 初回限定版 未拆",
+        "version_evidence": "闲鱼当前详情页明确为 black bullet/漆黑的子弹、CD+DVD、初回限定版、未拆；储存介质显示 CD；页面当前价格 62 CNY。人工核验到具体闲鱼商品页，未把未展示的附件或品相细节额外推断。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 62.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1057067067942&categoryId=126864811",
+        "observed_at": "2026-09-19T17:36:16Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 47,
+      "stable_key": "sample:992eddc9105c5a3ebf798879cd95fab61122c2eee2e54933b9237ce7de1fe1a6",
+      "wameiji": {
+        "title": "さユり 月と花束 CD+DVD 期間生産限定盤",
+        "version_evidence": "人工 Chrome 挖煤姬当前详情页明确为酸欠少女さユり《月と花束》CD+DVD 期间生产限定盘；与样本的 Fate/EXTRA Last Encore 主题曲、CD+DVD 日版限定实物一致。详情页显示 1,999 日元、约 89 人民币，品相没有明显损伤或污渍，有加入购物车和立即购买按钮。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33333936313536343634342f",
+        "observed_at": "2026-09-19T17:39:31Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Fate EXTRA Last Encore 月と花束 主题曲 CD+DVD 酸欠少女 さユり",
+        "version_evidence": "闲鱼详情页明确为 Fate/EXTRA Last Encore 主题曲《月と花束》，CD+DVD 日版限定盘，页面标注全新、有特典、正版；当前价格 150 CNY 包邮。人工核验到具体闲鱼商品页。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 150.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=849019159158&categoryId=126864811",
+        "observed_at": "2026-09-19T17:39:31Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 59,
+      "stable_key": "sample:c3a5cdc3aadaf30946559bb963866a16e4bef5c4365308e0e667f3f5ff1bec62",
+      "wameiji": {
+        "title": "【未開封】Fate/EXTELLA LINK PSVITA プレミアム限定版",
+        "version_evidence": "人工 Chrome 挖煤姬当前详情页明确为《Fate/EXTELLA LINK》PSVITA Premium限定版；页面说明为游戏软件与原声 CD 套装，二者均全新未开封，价格 1,000 日元，有加入购物车和立即购买按钮。与样本的 PSV 限定游戏形态一致；页面未单独展示样本闲鱼描述的尼禄皮肤 DLC 券码，不额外推断该附件。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d38393936333937313239382f",
+        "observed_at": "2026-09-19T17:42:07Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "命运之夜Fate/Extella Link附特典尼禄皮肤装备",
+        "version_evidence": "闲鱼详情页明确为 Fate/Extella Link 日版限定 PSV/PS4，附尼禄皮肤特典装备券码；页面显示全新未拆封、外包装膜袋完好、说明书完整；当前价 177–233 CNY 包邮，按起价 177 CNY 记录。人工核验到具体闲鱼商品页。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 177.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=922779792696&categoryId=126856346",
+        "observed_at": "2026-09-19T17:42:07Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "single_observed_records": [
@@ -5124,26 +5208,6 @@
       "reference_image_url": "assets/reference-samples/22-f1e63661cafe1b.webp"
     },
     {
-      "reference_product_id": 23,
-      "stable_key": "sample:bfc90e9b128fa3d4c8efe17418140cc28d0daf47266d6cc99ed95f36bace7467",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "fripSide南条爱乃 black bullet 漆黑的子弹 cd+dvd 初回限定版 未拆",
-        "version_evidence": "闲鱼详情页标题明确为 black bullet/漆黑的子弹、CD+DVD、初回限定版、未拆；储存介质显示 CD；页面当前价格62 CNY。人工核验到具体闲鱼商品页，未把未展示的附件或品相细节额外推断。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 62.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1057067067942&categoryId=126864811",
-        "observed_at": "2026-09-19T10:38:00Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/23-bfc90e9b128fa3d.webp"
-    },
-    {
       "reference_product_id": 33,
       "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
       "available_market": "xianyu",
@@ -5182,45 +5246,6 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/41-24d2cce2c61c113f.webp"
-    },
-    {
-      "reference_product_id": 47,
-      "stable_key": "sample:992eddc9105c5a3ebf798879cd95fab61122c2eee2e54933b9237ce7de1fe1a6",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "Fate EXTRA Last Encore 月と花束 主题曲 CD+DVD 酸欠少女 さユり",
-        "version_evidence": "闲鱼详情页明确为 Fate/EXTRA Last Encore 主题曲《月と花束》，初回限定 CD+DVD，页面标注全新、有特典、日版正版、有日本购入记录；当前价格150 CNY包邮。人工核验到具体闲鱼商品页。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 150.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=849019159158&categoryId=126864811",
-        "observed_at": "2026-09-19T10:56:00Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      },
-      "reference_image_url": "assets/reference-samples/47-992eddc9105c5a3e.webp"
-    },
-    {
-      "reference_product_id": 59,
-      "stable_key": "sample:c3a5cdc3aadaf30946559bb963866a16e4bef5c4365308e0e667f3f5ff1bec62",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "命运之夜Fate/Extella Link附特典尼禄皮肤装备",
-        "version_evidence": "闲鱼详情页明确为 Fate/Extella Link 日版限定 PSV/PS4，附尼禄皮肤特典装备券码；页面显示全新未拆封、外包装膜袋完好、说明书完整；当前价177–233 CNY包邮，按起价177 CNY记录。人工核验到具体闲鱼商品页。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 177.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=922779792696&categoryId=126856346",
-        "observed_at": "2026-09-19T11:05:00Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
-      }
     },
     {
       "reference_product_id": 57,
