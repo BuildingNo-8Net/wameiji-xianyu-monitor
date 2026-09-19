@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T13:47:00+08:00",
+  "generated_at": "2026-09-19T13:51:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 67 条双侧实物观察、17 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 68 条双侧实物观察、16 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 61,
-    "both_observed_count": 67,
-    "single_observed_count": 17,
+    "both_observed_count": 68,
+    "single_observed_count": 16,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -299,13 +299,13 @@
       },
       "xianyu": {
         "title": "TYPE-MOON ACE Vol.14 日版杂志 成色如图 附录以及海报齐全",
-        "version_evidence": "Exact volume and physical item. Listing explicitly says supplements and poster are complete; nearly-new condition. Excluded a separate PDF-only virtual item from comparison.",
+        "version_evidence": "闲鱼详情页：TYPE-MOON ACE Vol.14 日版杂志，成色几乎全新，明确写有附录以及海报齐全，标价 150 CNY，可直接购买；与挖煤姬同卷 Vol.14 且均确认有附录，但具体附录/海报是否完全同套未在两侧同时核对。",
         "catalog_no": null,
         "barcode": null,
         "price": 150.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=TYPE-MOON%20ACE%20Vol.14",
-        "observed_at": "2026-09-15T13:36:04+08:00",
+        "source_url": "https://www.goofish.com/item?id=1077367943265&categoryId=202155025",
+        "observed_at": "2026-09-19T05:51:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       },
@@ -3763,6 +3763,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
+    },
+    {
+      "reference_product_id": 19,
+      "stable_key": "sample:9023460e3fa6165ddb5c804ea951e0ff307b0c57a8de381bc1e7e6de16ad4817",
+      "wameiji": {
+        "title": "TYPEMOONエース　vol.14　付録付き",
+        "version_evidence": "挖煤姬已有 Vol.14 详情记录，标题明确写有付録付き，标价 1,599 日元；样本目标为 TYPE-MOON ACE Vol.14。挖煤姬侧未在该记录中拆解具体附录构成。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1599.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d39323835393735343533302f",
+        "observed_at": "2026-09-15T05:35:27Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "TYPE-MOON ACE Vol.14 日版杂志 成色如图 附录以及海报齐全",
+        "version_evidence": "闲鱼详情页：TYPE-MOON ACE Vol.14 日版杂志，成色几乎全新，明确写有附录以及海报齐全，标价 150 CNY，可直接购买；与挖煤姬同卷 Vol.14 且均确认有附录，但具体附录/海报是否完全同套未在两侧同时核对。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 150.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077367943265&categoryId=202155025",
+        "observed_at": "2026-09-19T05:51:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
     }
   ],
   "single_observed_records": [
@@ -3885,26 +3914,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/18-d032aa66f4b46ec8.webp"
-    },
-    {
-      "reference_product_id": 19,
-      "stable_key": "sample:9023460e3fa6165ddb5c804ea951e0ff307b0c57a8de381bc1e7e6de16ad4817",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "found",
-      "observation": {
-        "title": "TYPEMOONエース　vol.14　付録付き",
-        "version_evidence": "Exact volume 14, used, visibly marked 付録付き (with supplements). The supplied sample also claims magazine + CD + poster; those individual attachment details are not visible in this result.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1599.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d39323835393735343533302f",
-        "observed_at": "2026-09-15T13:35:27+08:00",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
     },
     {
       "reference_product_id": 46,
