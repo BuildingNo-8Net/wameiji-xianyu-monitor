@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:36:52+08:00",
+  "generated_at": "2026-09-19T19:49:15+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 81 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 85 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 81 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 86 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 78,
     "both_observed_count": 81,
-    "single_observed_count": 11,
-    "wameiji_platform_found_count": 85,
-    "found_any_count": 101,
-    "not_currently_listed_both_count": 23
+    "single_observed_count": 12,
+    "wameiji_platform_found_count": 86,
+    "found_any_count": 102,
+    "not_currently_listed_both_count": 22
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 5
+      "count": 6
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 23
+      "count": 22
     },
     {
       "wameiji": "price_unfavorable",
@@ -4660,6 +4660,25 @@
   ],
   "single_observed_records": [
     {
+      "reference_product_id": 44,
+      "stable_key": "sample:74425acc27798a9fba51a162a7633975731309942543f95e5571369df90df5f7",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【中古】同人音楽CDソフト Grimoire of Crimson / Team Grimoire",
+        "version_evidence": "挖煤姬当前详情页明确为 Team Grimoire《Grimoire of Crimson》压制 CD；页面列出目录号 TG-002、发行日 2015-04-26、9 首曲目（含 BONUS TRACK），品相为没有明显的损伤或污渍。闲鱼精确检索仅出现“暂不出可先蹲”和收购帖，未找到当前可购买商品。",
+        "catalog_no": "TG-002",
+        "barcode": null,
+        "price": 15342.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33564a6835527a43345666535742576655716f5339552f",
+        "observed_at": "2026-09-19T11:49:15Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
       "reference_product_id": 3,
       "stable_key": "sample:9b672eed92a617aaac757676f4d939f1602c08f8649bbdafaa72e2436f7764dc",
       "available_market": "xianyu",
@@ -5225,38 +5244,6 @@
         "currency": null,
         "source_url": "",
         "observed_at": "2026-09-15T15:31:56Z",
-        "marketplace_host": "",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 44,
-      "stable_key": "sample:74425acc27798a9fba51a162a7633975731309942543f95e5571369df90df5f7",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "Grimoire of Crimson / Team Grimoire",
-        "version_evidence": "挖煤姬按精确专辑名及团体检索，当前结果为无关 Crimson/Grimoire 项，无对应 Team Grimoire《Grimoire of Crimson》。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "",
-        "observed_at": "2026-09-15T15:43:50Z",
-        "marketplace_host": "",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "Grimoire of Crimson / Team Grimoire",
-        "version_evidence": "闲鱼仅出现“暂不出、别拍”的展示帖和收购帖，无当前可购买商品。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "",
-        "observed_at": "2026-09-15T15:43:52Z",
         "marketplace_host": "",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
