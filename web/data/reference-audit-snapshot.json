@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T19:55:17+08:00",
+  "generated_at": "2026-09-19T20:04:01+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 82 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 87 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 82 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 88 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 79,
     "both_observed_count": 82,
-    "single_observed_count": 12,
-    "wameiji_platform_found_count": 87,
-    "found_any_count": 102,
-    "not_currently_listed_both_count": 22
+    "single_observed_count": 13,
+    "wameiji_platform_found_count": 88,
+    "found_any_count": 103,
+    "not_currently_listed_both_count": 21
   },
   "state_pairs": [
     {
@@ -4716,6 +4716,25 @@
   ],
   "single_observed_records": [
     {
+      "reference_product_id": 116,
+      "stable_key": "sample:00a377b0aac9c07415fdb2b9b5d77a1a5800613f87a237d20fc427b6f3c6ab86",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "『ザナルカンドにて』　ファイナルファンタジー１０　サウンドトラック",
+        "version_evidence": "挖煤姬当前详情页标题与说明明确为 FFX 25th Anniversary To Zanarkand Album（『ザナルカンドにて Compilation Album』），收录 15 首《To Zanarkand》改编曲，格式为单张 CD；商品状态未使用、全新未开封并带保护膜。当前详情页可加入购物车和立即购买，未展示目录号或 JAN。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3300.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3832363532373437373830",
+        "observed_at": "2026-09-19T12:04:01Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      }
+    },
+    {
       "reference_product_id": 44,
       "stable_key": "sample:74425acc27798a9fba51a162a7633975731309942543f95e5571369df90df5f7",
       "available_market": "wameiji",
@@ -5684,38 +5703,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=4547366746167",
         "observed_at": "2026-09-14T05:40:19Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 116,
-      "stable_key": "sample:00a377b0aac9c07415fdb2b9b5d77a1a5800613f87a237d20fc427b6f3c6ab86",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "FINAL FANTASY X 25th Anniversary To Zanarkand Compilation Album",
-        "version_evidence": "以 SQEX-11245 与 JAN 4988601472777 精确检索未出现该一CD、15版ザナルカンドにて合辑；结果为音乐盒、普通FFX原声、旧作或无关商品，均排除。",
-        "catalog_no": "SQEX-11245",
-        "barcode": "4988601472777",
-        "price": null,
-        "currency": null,
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=FINAL%20FANTASY%20X%20To%20Zanarkand%20SQEX-11245%204988601472777",
-        "observed_at": "2026-09-14T17:54:19Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "FINAL FANTASY X 25th Anniversary To Zanarkand Compilation Album",
-        "version_evidence": "以 SQEX-11245 与 JAN 4988601472777 精确检索，当前零结果；之前185元条目是日本代购且无目录号/JAN，不能作为当前国内同版货。",
-        "catalog_no": "SQEX-11245",
-        "barcode": "4988601472777",
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=FINAL%20FANTASY%20X%20To%20Zanarkand%20SQEX-11245%204988601472777",
-        "observed_at": "2026-09-14T17:54:19Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
