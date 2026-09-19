@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T18:43:00+08:00",
+  "generated_at": "2026-09-19T18:50:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、6 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、7 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 76,
     "both_observed_count": 79,
-    "single_observed_count": 6,
+    "single_observed_count": 7,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
@@ -4666,6 +4666,26 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
+    },
+    {
+      "reference_product_id": 41,
+      "stable_key": "sample:24d2cce2c61c113f8625bee4d0754a4039dd2e4f30e170a697bd782695630977",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "nerdneko CURE 初音未来 一专-四专 正版全新 有侧",
+        "version_evidence": "闲鱼详情页标题指向 nerdneko CURE；描述为初音未来一专至四专，正版全新、有侧；当前页面显示135–160 CNY包邮，按起价135 CNY记录。人工核验到具体闲鱼商品页，不把多专辑选项误当成单一固定版本。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 135.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1069537697055&categoryId=126864811",
+        "observed_at": "2026-09-19T10:50:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/41-24d2cce2c61c113f.webp"
     }
   ],
   "unavailable_records": [
@@ -5019,38 +5039,6 @@
         "marketplace_host": "",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 41,
-      "stable_key": "sample:24d2cce2c61c113f8625bee4d0754a4039dd2e4f30e170a697bd782695630977",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "nerdneko CURE CD exact search: no current item card",
-        "version_evidence": "Exact artist, album and CD medium searched manually; no current result surfaced.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=nerdneko%20cure%20CD",
-        "observed_at": "2026-09-14T02:15:55Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "nerdneko CURE 初音未来 一专-四专 正版全新 有侧包邮",
-        "version_evidence": "Exact CURE release, stated genuine, new and with obi.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 135.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=nerdneko%20cure%20CD",
-        "observed_at": "2026-09-14T02:15:58Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
