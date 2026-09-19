@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T18:38:00+08:00",
+  "generated_at": "2026-09-19T18:43:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、5 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、6 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 76,
     "both_observed_count": 79,
-    "single_observed_count": 5,
+    "single_observed_count": 6,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
@@ -4646,6 +4646,26 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/23-bfc90e9b128fa3d.webp"
+    },
+    {
+      "reference_product_id": 33,
+      "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【minori】ef 悠久之翼 初回版 上卷",
+        "version_evidence": "闲鱼详情页标题与样本一致；卖家描述成色新、内容物齐全，包含游戏光盘+设定卡；当前价格299 CNY包邮。人工核验到具体闲鱼商品页，不额外推断未展示附件。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 299.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=936356588245&categoryId=126860296",
+        "observed_at": "2026-09-19T10:43:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
     }
   ],
   "unavailable_records": [
@@ -4871,38 +4891,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "blocked"
-      }
-    },
-    {
-      "reference_product_id": 33,
-      "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "ef - the first tale exact search: no current item card",
-        "version_evidence": "Exact game title searched manually; no current result surfaced.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://jp.mercari.com/search?keyword=ef%20the%20first%20tale",
-        "observed_at": "2026-09-14T02:11:04Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "【minori】ef 悠久之翼 初回版 上卷",
-        "version_evidence": "Initial-edition upper volume; listing states game disc plus setting cards, contents complete.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 299.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E6%82%A0%E4%B9%85%E4%B9%8B%E7%BF%BC%20ef%20the%20first%20tale",
-        "observed_at": "2026-09-14T02:11:06Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
