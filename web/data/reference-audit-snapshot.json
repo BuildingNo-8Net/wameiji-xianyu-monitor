@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T12:16:15+08:00",
+  "generated_at": "2026-09-19T12:22:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 53 条双侧实物观察、31 条单边待补观察中，挖煤姬页面已复核 77 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 54 条双侧实物观察、30 条单边待补观察中，挖煤姬页面已复核 78 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 51,
-    "both_observed_count": 53,
-    "single_observed_count": 31,
-    "wameiji_platform_found_count": 77,
+    "both_found_count": 52,
+    "both_observed_count": 54,
+    "single_observed_count": 30,
+    "wameiji_platform_found_count": 78,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
   },
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 51
+      "count": 52
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 24
+      "count": 23
     },
     {
       "wameiji": "not_currently_listed",
@@ -1528,6 +1528,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/80-d8a57e0ec747ed81.webp"
+    },
+    {
+      "reference_product_id": 81,
+      "stable_key": "sample:b71bd68b25f439bb1ba89f6a51ce730b2bcaec68d53275e6b070da402ee330ab",
+      "wameiji": {
+        "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set Reconstructed Edition clear vinyl",
+        "version_evidence": "挖煤姬详情：SQEX-11185、JAN 4988601471947，透明胶2LP《Original Soundtrack Vinyl Set Reconstructed Edition》；页面记录为该套装。",
+        "catalog_no": "SQEX-11185",
+        "barcode": "4988601471947",
+        "price": 19800.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f73686f70732f70726f647563742f324a544e633766734d5442526d707855647771644c322f",
+        "observed_at": "2026-09-19T04:22:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "尼尔机械纪元 人工生命NieR:Automata / NieR Gestalt & Replicant 游戏原声带ost 游戏音乐 日版正版透明胶2LP黑胶唱片 Original Soundtrack Vinyl Set ＜Reconstructed Edition＞＜クリア・ヴァイナル＞",
+        "version_evidence": "闲鱼搜索挂牌明确为 NieR:Automata / NieR Gestalt & Replicant《Original Soundtrack Vinyl Set〈Reconstructed Edition〉〈クリア・ヴァイナル〉》日版正版透明胶2LP黑胶唱片，标价 549 CNY。直接详情页未展开完整附件清单，先不确认DLC或展示支架。",
+        "catalog_no": "SQEX-11185",
+        "barcode": null,
+        "price": 549.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=980616649044&categoryId=126864811",
+        "observed_at": "2026-09-19T04:22:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/81-b71bd68b25f439bb.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -3067,6 +3096,35 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/80-d8a57e0ec747ed81.webp"
+    },
+    {
+      "reference_product_id": 81,
+      "stable_key": "sample:b71bd68b25f439bb1ba89f6a51ce730b2bcaec68d53275e6b070da402ee330ab",
+      "wameiji": {
+        "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set Reconstructed Edition clear vinyl",
+        "version_evidence": "挖煤姬详情：SQEX-11185、JAN 4988601471947，透明胶2LP《Original Soundtrack Vinyl Set Reconstructed Edition》；页面记录为该套装。",
+        "catalog_no": "SQEX-11185",
+        "barcode": "4988601471947",
+        "price": 19800.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f73686f70732f70726f647563742f324a544e633766734d5442526d707855647771644c322f",
+        "observed_at": "2026-09-19T04:22:00Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "尼尔机械纪元 人工生命NieR:Automata / NieR Gestalt & Replicant 游戏原声带ost 游戏音乐 日版正版透明胶2LP黑胶唱片 Original Soundtrack Vinyl Set ＜Reconstructed Edition＞＜クリア・ヴァイナル＞",
+        "version_evidence": "闲鱼搜索挂牌明确为 NieR:Automata / NieR Gestalt & Replicant《Original Soundtrack Vinyl Set〈Reconstructed Edition〉〈クリア・ヴァイナル〉》日版正版透明胶2LP黑胶唱片，标价 549 CNY。直接详情页未展开完整附件清单，先不确认DLC或展示支架。",
+        "catalog_no": "SQEX-11185",
+        "barcode": null,
+        "price": 549.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=980616649044&categoryId=126864811",
+        "observed_at": "2026-09-19T04:22:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/81-b71bd68b25f439bb.webp"
     }
   ],
   "single_observed_records": [
@@ -3449,26 +3507,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/79-9858d2501be30c42.webp"
-    },
-    {
-      "reference_product_id": 81,
-      "stable_key": "sample:b71bd68b25f439bb1ba89f6a51ce730b2bcaec68d53275e6b070da402ee330ab",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set Reconstructed Edition clear vinyl",
-        "version_evidence": null,
-        "catalog_no": "SQEX-11185",
-        "barcode": "4988601471947",
-        "price": 19800.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a544e633766734d5442526d707855647771644c322f",
-        "observed_at": "2026-09-14T18:03:27Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/81-b71bd68b25f439bb.webp"
     },
     {
       "reference_product_id": 86,
