@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T18:56:00+08:00",
+  "generated_at": "2026-09-19T19:05:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、8 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 79 条双侧实物观察、9 条单边待补观察中，挖煤姬页面已复核 84 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 76,
     "both_observed_count": 79,
-    "single_observed_count": 8,
+    "single_observed_count": 9,
     "wameiji_platform_found_count": 84,
     "found_any_count": 100,
     "not_currently_listed_both_count": 24
@@ -4706,6 +4706,25 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/47-992eddc9105c5a3e.webp"
+    },
+    {
+      "reference_product_id": 59,
+      "stable_key": "sample:c3a5cdc3aadaf30946559bb963866a16e4bef5c4365308e0e667f3f5ff1bec62",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "命运之夜Fate/Extella Link附特典尼禄皮肤装备",
+        "version_evidence": "闲鱼详情页明确为 Fate/Extella Link 日版限定 PSV/PS4，附尼禄皮肤特典装备券码；页面显示全新未拆封、外包装膜袋完好、说明书完整；当前价177–233 CNY包邮，按起价177 CNY记录。人工核验到具体闲鱼商品页。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 177.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=922779792696&categoryId=126856346",
+        "observed_at": "2026-09-19T11:05:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "unavailable_records": [
@@ -5219,38 +5238,6 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 59,
-      "stable_key": "sample:c3a5cdc3aadaf30946559bb963866a16e4bef5c4365308e0e667f3f5ff1bec62",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "Fate/EXTELLA LINK PSV/PS4 初回特典（ネロ衣装コード）付",
-        "version_evidence": "人工 Chrome 检索有通常版、プレミアム限定版及未使用未开封本体，但商品卡未证实存在样本所称“尼禄服装券码未使用”的同一组合；因此不把普通版或限定大盒当作同品",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": "JPY",
-        "source_url": "https://jp.mercari.com/search?keyword=Fate%2FEXTELLA%20LINK%20PS%20Vita%20%E5%88%9D%E5%9B%9E%E7%89%B9%E5%85%B8",
-        "observed_at": "2026-09-14T03:36:51Z",
-        "marketplace_host": "jp.mercari.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "命运之夜 Fate/EXTELLA LINK 附特典尼禄皮肤装备 日版游戏 PSV/PS4",
-        "version_evidence": "人工 Chrome 精确检索主游戏名命中同标题：¥188，称全新未拆、外附特典服装券码未使用、可选PSV/PS4；同页亦有不同版本及不含游戏的特典码，未混入",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 188.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Fate%2FEXTELLA%20LINK%20PSV",
-        "observed_at": "2026-09-14T03:36:54Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
       }
     },
     {
