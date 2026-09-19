@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T14:00:21+08:00",
+  "generated_at": "2026-09-19T14:05:54+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 69 条双侧实物观察、15 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 70 条双侧实物观察、14 条单边待补观察中，挖煤姬页面已复核 83 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 62,
-    "both_observed_count": 69,
-    "single_observed_count": 15,
+    "both_found_count": 63,
+    "both_observed_count": 70,
+    "single_observed_count": 14,
     "wameiji_platform_found_count": 83,
     "found_any_count": 99,
     "not_currently_listed_both_count": 24
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 62
+      "count": 63
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 17
+      "count": 16
     },
     {
       "wameiji": "not_currently_listed",
@@ -50,6 +50,35 @@
     }
   ],
   "dual_found_pairs": [
+    {
+      "reference_product_id": 66,
+      "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
+      "wameiji": {
+        "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
+        "version_evidence": "挖煤姬详情记录对应 KARENT《Winterland’s Anthology》，目录号 KRCD-0011，2017-01-25，通常为中古；页面未枚举侧标或附属物。",
+        "catalog_no": "KRCD-0011",
+        "barcode": null,
+        "price": 14131.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5758635a656f6a694a7a6f6568794378745268512f",
+        "observed_at": "2026-09-14T18:14:18Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【雪初音 术力口CD专辑】Winterland's Anthology KARENT 雪初音2017",
+        "version_evidence": "闲鱼详情列出选项 1《Winterland's Anthology》KARENT 雪初音2017，标注全新未拆/有侧；整条多选商品价格 239 CNY 起，需联系卖家改价，且页面默认中古。与挖煤姬同名同目录号，但成色与侧标状态不一致，不能直接作利润结论。",
+        "catalog_no": "KRCD-0011",
+        "barcode": null,
+        "price": 239.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1069559722323&categoryId=126860296",
+        "observed_at": "2026-09-19T06:05:54Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/66-0b3187f6838924e6.webp"
+    },
     {
       "reference_product_id": 56,
       "stable_key": "sample:1fd51e4ead2b2779f66fd5126f386cbd42d1a0eb4d4fb13b48d56d074e61257d",
@@ -1850,6 +1879,35 @@
     }
   ],
   "dual_observed_pairs": [
+    {
+      "reference_product_id": 66,
+      "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
+      "wameiji": {
+        "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
+        "version_evidence": "挖煤姬详情记录对应 KARENT《Winterland’s Anthology》，目录号 KRCD-0011，2017-01-25，通常为中古；页面未枚举侧标或附属物。",
+        "catalog_no": "KRCD-0011",
+        "barcode": null,
+        "price": 14131.0,
+        "currency": "JPY",
+        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5758635a656f6a694a7a6f6568794378745268512f",
+        "observed_at": "2026-09-14T18:14:18Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "【雪初音 术力口CD专辑】Winterland's Anthology KARENT 雪初音2017",
+        "version_evidence": "闲鱼详情列出选项 1《Winterland's Anthology》KARENT 雪初音2017，标注全新未拆/有侧；整条多选商品价格 239 CNY 起，需联系卖家改价，且页面默认中古。与挖煤姬同名同目录号，但成色与侧标状态不一致，不能直接作利润结论。",
+        "catalog_no": "KRCD-0011",
+        "barcode": null,
+        "price": 239.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1069559722323&categoryId=126860296",
+        "observed_at": "2026-09-19T06:05:54Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/66-0b3187f6838924e6.webp"
+    },
     {
       "reference_product_id": 56,
       "stable_key": "sample:1fd51e4ead2b2779f66fd5126f386cbd42d1a0eb4d4fb13b48d56d074e61257d",
@@ -3992,26 +4050,6 @@
         "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
-    },
-    {
-      "reference_product_id": 66,
-      "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
-        "version_evidence": "Current Surugaya shop card identifies KARENT title Winterland’s Anthology, catalog KRCD-0011, release 2017-01-25, condition normally used. Image is illustrative and page does not enumerate inserts or extras.",
-        "catalog_no": "KRCD-0011",
-        "barcode": null,
-        "price": 14131.0,
-        "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5758635a656f6a694a7a6f6568794378745268512f",
-        "observed_at": "2026-09-14T18:14:18Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/66-0b3187f6838924e6.webp"
     },
     {
       "reference_product_id": 79,
