@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-20T00:28:23+08:00",
+  "generated_at": "2026-09-20T00:37:19+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、24 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 85 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 81,
-    "both_observed_count": 84,
-    "single_observed_count": 24,
+    "both_found_count": 82,
+    "both_observed_count": 85,
+    "single_observed_count": 23,
     "wameiji_platform_found_count": 95,
     "found_any_count": 114,
     "not_currently_listed_both_count": 11
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 80
+      "count": 81
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 12
+      "count": 11
     },
     {
       "wameiji": "not_currently_listed",
@@ -2389,6 +2389,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077514463174&categoryId=126862148",
         "observed_at": "2026-09-19T15:04:39Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 115,
+      "stable_key": "sample:a501d93a3e178cb1d49e11b0e4c4d0d88d775a820c610db5c9a26c68648f80d1",
+      "wameiji": {
+        "title": "Aimer LiSA 太陽が昇らない世界 残酷な夜に輝け アナログレコード",
+        "version_evidence": "挖煤姬当前详情页直接核到 Aimer / LiSA《太陽が昇らない世界／残酷な夜に輝け》完全生产限定模拟唱片；标题与介绍均明确 LP/アナログレコード、商品状态未使用，价格13,000日元，可加入购物车和立即购买。样本中的紫胶颜色未由该页面文字独立验证，因此只锁定完全生产限定LP，不把CD/BD或周边当作同版。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 13000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303334333430383437312f",
+        "observed_at": "2026-09-19T16:37:19Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Aimer/LiSA 太陽が昇らない世界/残酷な夜に輝け 1LP紫胶",
+        "version_evidence": "人工Chrome打开闲鱼当前具体页；标题为 Aimer/LiSA《太陽が昇らない世界/残酷な夜に輝け》1LP紫胶，详情明确全新未拆封、鬼灭之刃无限城篇黑胶、蝴蝶忍/义勇封面，价格569元包邮，可立即购买。曲目 Side A/B 与样本的 Aimer/LiSA 双曲目紫胶LP一致；页面未核到样本整套徽章/海报附件，因此只作为双侧实物观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 569.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1078900175680&categoryId=126862152",
+        "observed_at": "2026-09-19T16:37:19Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
@@ -4824,6 +4852,34 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 115,
+      "stable_key": "sample:a501d93a3e178cb1d49e11b0e4c4d0d88d775a820c610db5c9a26c68648f80d1",
+      "wameiji": {
+        "title": "Aimer LiSA 太陽が昇らない世界 残酷な夜に輝け アナログレコード",
+        "version_evidence": "挖煤姬当前详情页直接核到 Aimer / LiSA《太陽が昇らない世界／残酷な夜に輝け》完全生产限定模拟唱片；标题与介绍均明确 LP/アナログレコード、商品状态未使用，价格13,000日元，可加入购物车和立即购买。样本中的紫胶颜色未由该页面文字独立验证，因此只锁定完全生产限定LP，不把CD/BD或周边当作同版。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 13000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303334333430383437312f",
+        "observed_at": "2026-09-19T16:37:19Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "Aimer/LiSA 太陽が昇らない世界/残酷な夜に輝け 1LP紫胶",
+        "version_evidence": "人工Chrome打开闲鱼当前具体页；标题为 Aimer/LiSA《太陽が昇らない世界/残酷な夜に輝け》1LP紫胶，详情明确全新未拆封、鬼灭之刃无限城篇黑胶、蝴蝶忍/义勇封面，价格569元包邮，可立即购买。曲目 Side A/B 与样本的 Aimer/LiSA 双曲目紫胶LP一致；页面未核到样本整套徽章/海报附件，因此只作为双侧实物观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 569.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1078900175680&categoryId=126862152",
+        "observed_at": "2026-09-19T16:37:19Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "single_observed_records": [
@@ -4862,25 +4918,6 @@
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3832363532373437373830",
         "observed_at": "2026-09-19T12:04:01Z",
         "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
-      }
-    },
-    {
-      "reference_product_id": 115,
-      "stable_key": "sample:a501d93a3e178cb1d49e11b0e4c4d0d88d775a820c610db5c9a26c68648f80d1",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "Aimer LiSA 太陽が昇らない世界 残酷な夜に輝け アナログレコード",
-        "version_evidence": "挖煤姬当前详情页直接核到 Aimer / LiSA《太陽が昇らない世界／残酷な夜に輝け》完全生产限定模拟唱片；标题与介绍均明确 LP/アナログレコード、商品状态未使用，价格13,000日元，可加入购物车和立即购买。样本中的紫胶颜色未由该页面文字独立验证，因此只锁定完全生产限定LP，不把CD/BD或周边当作同版。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 13000.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303334333430383437312f",
-        "observed_at": "2026-09-19T12:30:00Z",
-        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true
       }
     },
