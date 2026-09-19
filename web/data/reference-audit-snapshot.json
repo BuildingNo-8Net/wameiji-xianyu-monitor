@@ -1,22 +1,22 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-19T22:57:44+08:00",
+  "generated_at": "2026-09-19T23:04:39+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 83 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 84 条双侧实物观察、23 条单边待补观察中，挖煤姬页面已复核 95 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 80,
-    "both_observed_count": 83,
+    "both_found_count": 81,
+    "both_observed_count": 84,
     "single_observed_count": 23,
     "wameiji_platform_found_count": 95,
-    "found_any_count": 112,
-    "not_currently_listed_both_count": 11
+    "found_any_count": 113,
+    "not_currently_listed_both_count": 10
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 79
+      "count": 80
     },
     {
       "wameiji": "found",
@@ -2361,6 +2361,34 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.9.17b67b83vk4NJO&id=984562274041&categoryId=126864811",
         "observed_at": "2026-09-19T10:09:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
+    },
+    {
+      "reference_product_id": 65,
+      "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
+      "wameiji": {
+        "title": "ベノマ　かいりきベア　CD",
+        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页，标题为ベノマ　かいりきベア　CD；二手，700日元（约32元），商品状态为没有明显的损伤或污渍，页面显示可加入购物车并立即购买。",
+        "catalog_no": "SCGA00092",
+        "barcode": null,
+        "price": 700.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32393532333431353931362f",
+        "observed_at": "2026-09-19T15:04:39Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "怪力熊 蛮魔 CD 日本代购 怪力的专辑《贝诺玛》",
+        "version_evidence": "人工 Chrome 在闲鱼精确检索“怪力熊 ベノマ CD”，结果出现对应具体商品页；标题明确写出怪力熊、专辑《贝诺玛》，售价81元，上海，支持即时购买。详情页进入后提示跨境商品需前往闲鱼APP，但搜索结果已显示该当前商品卡片。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 81.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077514463174&categoryId=126862148",
+        "observed_at": "2026-09-19T15:04:39Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
@@ -4768,6 +4796,34 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       }
+    },
+    {
+      "reference_product_id": 65,
+      "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
+      "wameiji": {
+        "title": "ベノマ　かいりきベア　CD",
+        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页，标题为ベノマ　かいりきベア　CD；二手，700日元（约32元），商品状态为没有明显的损伤或污渍，页面显示可加入购物车并立即购买。",
+        "catalog_no": "SCGA00092",
+        "barcode": null,
+        "price": 700.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32393532333431353931362f",
+        "observed_at": "2026-09-19T15:04:39Z",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true
+      },
+      "xianyu": {
+        "title": "怪力熊 蛮魔 CD 日本代购 怪力的专辑《贝诺玛》",
+        "version_evidence": "人工 Chrome 在闲鱼精确检索“怪力熊 ベノマ CD”，结果出现对应具体商品页；标题明确写出怪力熊、专辑《贝诺玛》，售价81元，上海，支持即时购买。详情页进入后提示跨境商品需前往闲鱼APP，但搜索结果已显示该当前商品卡片。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 81.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077514463174&categoryId=126862148",
+        "observed_at": "2026-09-19T15:04:39Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      }
     }
   ],
   "single_observed_records": [
@@ -5570,38 +5626,6 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E3%83%AA%E3%83%AA%E3%81%95%E3%82%88%E3%81%AA%E3%82%89%20%E7%B4%84%E6%9D%9F%20CD",
         "observed_at": "2026-09-19T14:57:44Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      }
-    },
-    {
-      "reference_product_id": 65,
-      "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "Exact query returned no FOAM CHAM SCGA00092 / 4562424561162 listing",
-        "version_evidence": "Exact query: かいりきベア FOAM CHAM SCGA00092 4562424561162; returned unrelated goods and SCGA-92 ベノマ, not FOAM CHAM.",
-        "catalog_no": "SCGA00092",
-        "barcode": "4562424561162",
-        "price": null,
-        "currency": null,
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E3%81%8B%E3%81%84%E3%82%8A%E3%81%8D%E3%83%99%E3%82%A2%20FOAM%20CHAM%20SCGA00092%204562424561162",
-        "observed_at": "2026-09-14T18:17:47Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "Exact query returned no FOAM CHAM SCGA00092 / 4562424561162 listing",
-        "version_evidence": "Exact query: かいりきベア FOAM CHAM SCGA00092 4562424561162; Xianyu said no matching item. A different album 洛丽塔式权谋术 appeared in recommendations and was excluded.",
-        "catalog_no": "SCGA00092",
-        "barcode": "4562424561162",
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E3%81%8B%E3%81%84%E3%82%8A%E3%81%8D%E3%83%99%E3%82%A2%20FOAM%20CHAM%20SCGA00092%204562424561162",
-        "observed_at": "2026-09-14T18:17:47Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
