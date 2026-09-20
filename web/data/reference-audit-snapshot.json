@@ -2,12 +2,12 @@
   "schema_version": 1,
   "generated_at": "2026-09-20T04:47:03+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 103 条双侧实物观察、22 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 111 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 104 条双侧实物观察、21 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 112 条。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 103,
-    "single_observed_count": 22,
+    "both_observed_count": 104,
+    "single_observed_count": 21,
     "wameiji_platform_found_count": 109,
     "found_any_count": 125,
     "not_currently_listed_both_count": 0
@@ -5699,6 +5699,37 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/35-e614e34d2690d0fa.webp"
+    },
+    {
+      "reference_product_id": 50,
+      "stable_key": "sample:3173a93da0e6185bd6775d03e646fd10917708ad99cc49cb92cffd5de58d4738",
+      "wameiji": {
+        "title": "【中古】 どうして君は世界で一人／リリィ、さよなら。",
+        "version_evidence": "人工 Chrome 打开挖煤姬当前 Rakuten 具体详情页；商品规格明确标题《どうして君は世界で一人》、目录号 VMAN7、JAN 4589910070205、发行日 2016-06-22，二手品相为“非常好”，99 JPY。",
+        "catalog_no": "VMAN7",
+        "barcode": "4589910070205",
+        "price": 99,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fbookoffonline%2F0018672960%2F",
+        "observed_at": "2026-09-21T12:00:00+08:00",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress"
+      },
+      "xianyu": {
+        "title": "リリィ さよなら Lily Sayonara／どうして君は世界で一人 有册封全新",
+        "version_evidence": "人工 Chrome 打开闲鱼当前具体商品页；页面正文明确选项“どうして君は世界で一人 有册封全新 120”，同一链接为多选项商品，页面活动价区间 100–120 CNY，8 人想要。该选项与挖煤姬侧同名专辑对应，但闲鱼侧为全新带册封、挖煤姬侧为中古非常好，成色不同；未把页面区间最低价当作该 SKU 价格。",
+        "catalog_no": null,
+        "barcode": null,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2209761708320/O1CN01RZ1t1o2BKcPJm6vqW_!!4611686018427382048-53-xy_item.heic_Q90.jpg_.webp",
+        "price": 120,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=966395255268&categoryId=126864811",
+        "observed_at": "2026-09-21T12:00:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/50-3173a93da0e6185b.webp"
     }
   ],
   "single_observed_records": [
@@ -6119,26 +6150,6 @@
         "image_url": "https://static.312588698.com/thumb/item/webp/m57063581162_1.jpg"
       },
       "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp"
-    },
-    {
-      "reference_product_id": 50,
-      "stable_key": "sample:3173a93da0e6185bd6775d03e646fd10917708ad99cc49cb92cffd5de58d4738",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "【中古】 どうして君は世界で一人／リリィ、さよなら。",
-        "version_evidence": "人工Chrome打开挖煤姬当前 Rakuten 具体详情页：艺人リリィ、さよなら。的CD《どうして君は世界で一人》，2016-06-22发行，JAN 4589910070205，价格99 JPY（页面约5 CNY）。它是同艺人、同CD介质的当前实物，但不是样本目标《約束》标题，闲鱼侧仍未核到目标具体页。",
-        "catalog_no": "VMAN7",
-        "barcode": "4589910070205",
-        "price": 99,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fbookoffonline%2F0018672960%2F",
-        "observed_at": "2026-09-19T20:47:03Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
-      },
-      "reference_image_url": "assets/reference-samples/50-3173a93da0e6185b.webp"
     },
     {
       "reference_product_id": 68,
