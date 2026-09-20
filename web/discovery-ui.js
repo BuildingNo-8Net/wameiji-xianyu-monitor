@@ -444,7 +444,7 @@
           referenceAuditObservationMarkup(availableLabel, observation, currency, availableMarket),
           '<div class="reference-audit-center"><b>单边观察</b><span>只保留已打开的具体商品页，不把近似品凑成同款</span></div>',
           '<div class="reference-audit-side ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
-            '<div class="reference-audit-market-media reference-audit-market-media-missing">主图链接待补</div>',
+            '<div class="reference-audit-market-media reference-audit-market-media-missing">另一侧具体商品页待补</div>',
             '<small>' + esc(missingLabel) + '</small>',
             '<b>当前没有可公开核对的具体商品页</b>',
             '<p>最近状态：' + esc(referenceStateLabel(item.counterpart_state)) + '</p>',
