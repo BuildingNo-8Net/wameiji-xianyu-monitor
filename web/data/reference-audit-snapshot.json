@@ -6207,6 +6207,20 @@
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/2221172630790/O1CN011v4McXDNdwG2BxNI_!!4611686018427380998-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
+      "counterpart_candidate": {
+        "title": "Purplesoftware OrchestraSelection CD",
+        "version_evidence": "人工 Chrome 打开挖煤姬搜索结果并核到具体商品卡：标题明确 Purple software OrchestraSelection CD，当前标价 7,800 JPY；搜索卡首图为实体 CD。商品详情页当前显示“不支持该商品”，因此这里只保留搜索卡证据，不把它当作已完成详情核验。它与样本同属 Purple software／紫社品牌和实体音乐 CD 方向，但不是《天津罪》主题曲《こころに響く恋ほたる》，不作为同版或利润证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 7800,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/paypay/detail/z681432836",
+        "observed_at": "2026-09-21T16:35:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://auc-pctr.c.yimg.jp/i/auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/users/93af27580533995d694aedac4d56c0d96eb54184/i-img1200x1200-1789193459526tsg4l3.jpg",
+        "relation_note": "同一 Purple software／紫社品牌、同为实体音乐 CD；候选是《OrchestraSelection》，不是样本的《天津罪》主题曲 CD，且详情页不支持，仅作为同品牌关联观察对象。"
+      },
       "reference_image_url": "assets/reference-samples/36-01627ff9b576bd11.webp"
     },
     {
