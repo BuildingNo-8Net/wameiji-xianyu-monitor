@@ -5625,7 +5625,8 @@
         "source_url": "https://www.goofish.com/item?id=915704660051&categoryId=126864811",
         "observed_at": "2026-09-19T20:10:55Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01MFnUn029NFMvtI7aX_!!4611686018427382103-0-fleamarket.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/7-617fc2dbd5580cf7.webp"
     },
@@ -5686,7 +5687,8 @@
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33564a6835527a43345666535742576655716f5339552f",
         "observed_at": "2026-09-19T11:49:15Z",
         "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true
+        "is_wameiji_platform": true,
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/f75owh2SK4DKATjs2gEm53.webp@jpg"
       }
     },
     {
@@ -5705,7 +5707,8 @@
         "source_url": "https://www.goofish.com/item?id=1081818909170&categoryId=126864811",
         "observed_at": "2026-09-14T18:58:21Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2219173859986/O1CN014VDnMeSryNF3thGS_!!4611686018427384466-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/3-9b672eed92a617aa.webp"
     },
@@ -5725,7 +5728,8 @@
         "source_url": "https://www.goofish.com/item?id=1050892358760&categoryId=126864811",
         "observed_at": "2026-09-15T12:08:37+08:00",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2204042895424/O1CN01BPAIN31pwFOwEoPng_!!4611686018427379776-53-xy_item.heic_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/9-041a5116df1fb97a.webp"
     },
@@ -5745,7 +5749,8 @@
         "source_url": "https://www.goofish.com/item?id=1078737361014&categoryId=126864811",
         "observed_at": "2026-09-15T12:02:37+08:00",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3805743482/O1CN01n9zI2M7t59L3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/13-ce603c1a4a257a00.webp"
     },
@@ -5765,7 +5770,8 @@
         "source_url": "https://www.goofish.com/item?id=1081169121696&categoryId=126864811",
         "observed_at": "2026-09-19T10:34:00Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2208605640566/O1CN01ZoF8lpgdGTI3thGS_!!4611686018427385718-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/22-f1e63661cafe1b24.webp"
     },
@@ -5785,7 +5791,8 @@
         "source_url": "https://www.goofish.com/item?id=936356588245&categoryId=126860296",
         "observed_at": "2026-09-19T10:43:00Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN012tbsvy1d0HoMvNcdc_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
     },
@@ -5805,7 +5812,8 @@
         "source_url": "https://www.goofish.com/item?id=1069537697055&categoryId=126864811",
         "observed_at": "2026-09-19T10:50:00Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4033685196/O1CN01sIxSEN1oFp74njRGT_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/41-24d2cce2c61c113f.webp"
     },
@@ -5825,7 +5833,8 @@
         "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Famericanpie%2F4226050343%2F",
         "observed_at": "2026-09-19T13:20:00Z",
         "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/tshopr10sjp/americanpie/cabinet/422605/4226050343.jpg?fitin=600:600"
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     },
@@ -5845,7 +5854,8 @@
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576b6b5a4341736a384b764c6f414772333735622f",
         "observed_at": "2026-09-19T13:45:00Z",
         "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
+        "is_wameiji_platform": true,
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
       },
       "reference_image_url": "assets/reference-samples/67-70b6fec6c7a32949.webp"
     },
@@ -5865,7 +5875,8 @@
         "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
         "observed_at": "2026-09-19T13:16:05Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/810413873/O1CN01hmsyoI1eTt6Q4ZFbQ_!!4611686018427383601-53-xy_item.heic_790x10000Q90.jpg_.webp"
       }
     },
     {
@@ -5884,7 +5895,8 @@
         "source_url": "https://www.goofish.com/item?id=1082266562533&categoryId=126864811",
         "observed_at": "2026-09-19T19:55:23Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2221172630790/O1CN011v4McXDNdwG2BxNI_!!4611686018427380998-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/36-01627ff9b576bd11.webp"
     },
@@ -5904,7 +5916,8 @@
         "source_url": "https://www.goofish.com/item?id=1084018594749&categoryId=126860296",
         "observed_at": "2026-09-19T15:36:19Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2210449506356/O1CN01sRow4LKnleG3thGC_!!4611686018427379764-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp"
     },
@@ -5924,7 +5937,8 @@
         "source_url": "https://www.goofish.com/item?id=1060157628189&categoryId=126860296",
         "observed_at": "2026-09-19T20:02:01Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2220797024623/O1CN01ybNCKy1k1O9wNCon2_!!4611686018427386223-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/40-bf01659913155102.webp"
     },
@@ -5944,7 +5958,8 @@
         "source_url": "https://www.meruki.cn/mall/rakuma/detail/6e7582c30ba06128cc6d9a44931df009",
         "observed_at": "2026-09-19T20:25:52Z",
         "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
+        "is_wameiji_platform": true,
+        "image_url": "https://img.fril.jp/img/850531522/l/2938615343.jpg?1788178623=&updated_at=2026-08-31T12%3A17%3A03.000Z"
       },
       "reference_image_url": "assets/reference-samples/48-ad64fd36d4861f48.webp"
     },
@@ -5964,7 +5979,8 @@
         "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
         "observed_at": "2026-09-15T14:35:15Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"
     },
@@ -5984,7 +6000,8 @@
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.21.47494e3fOxOj06&id=1027107076352&categoryId=202029302",
         "observed_at": "2026-09-19T20:47:03Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2215728597420/O1CN01cjGFoo24gPvuasIuf_!!4611686018427382188-53-xy_item.heic_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/26-bca3653bd2c65a29.webp"
     },
@@ -6025,7 +6042,8 @@
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f774765675a564b6a50567158685755576342796d6f4e2f",
         "observed_at": "2026-09-19T20:47:03Z",
         "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
+        "is_wameiji_platform": true,
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/XAmE9hhts3ApgztQWASR6n.webp@jpg"
       },
       "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
     },
@@ -6107,7 +6125,8 @@
         "source_url": "https://www.meruki.cn/mall/rakuma/detail/96252866060a17eea867a5ad45b0eb7d",
         "observed_at": "2026-09-19T20:47:03Z",
         "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
+        "is_wameiji_platform": true,
+        "image_url": "https://img.fril.jp/img/835565348/l/2878784876.jpg?1780718775=&updated_at=2026-06-06T04%3A06%3A15.000Z"
       },
       "reference_image_url": "assets/reference-samples/68-c68d21145ef01026.webp"
     }
