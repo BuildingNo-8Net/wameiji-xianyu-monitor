@@ -445,7 +445,7 @@
     const missingMarkup = candidate
       ? [
           '<div class="reference-audit-candidate-wrap ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
-            '<div class="reference-audit-candidate-badge">相关观察对象 · 未证同款</div>',
+            '<div class="reference-audit-candidate-badge">主要观察对象 · 相关候选（未证同款）</div>',
             referenceAuditObservationMarkup(candidateLabel, candidate, candidateCurrency, missingMarket),
             '<p class="reference-audit-candidate-note">' + esc(candidate.relation_note || "仅作为同作品/同标题方向观察，不计入双侧核验或利润机会") + '</p>',
           '</div>',
@@ -567,7 +567,7 @@
         : '<div class="empty-state">当前没有双侧实物观察记录。</div>';
     }
     if (singleSummary) {
-      singleSummary.textContent = "单边待补观察 " + singles.length + " 条（已有一侧具体商品页，另一侧不能凑数）";
+      singleSummary.textContent = "主要观察对象 · 单边待补观察 " + singles.length + " 条（已有一侧具体商品页，另一侧不能凑数）";
     }
     if (singleList) {
       singleList.innerHTML = singles.length
