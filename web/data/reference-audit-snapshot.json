@@ -2,12 +2,12 @@
   "schema_version": 1,
   "generated_at": "2026-09-21T12:00:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 105 条双侧实物观察、20 条单边主要观察对象；每条均保留一侧具体商品页及另一侧相关候选证据，但不宣称同版。挖煤姬页面已复核 113 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 106 条双侧实物观察、19 条单边主要观察对象；每条均保留两侧具体商品页，但不宣称同版。挖煤姬页面已复核 113 条。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 105,
-    "single_observed_count": 20,
+    "both_observed_count": 106,
+    "single_observed_count": 19,
     "wameiji_platform_found_count": 113,
     "found_any_count": 125,
     "not_currently_listed_both_count": 0
@@ -5843,6 +5843,37 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/9-041a5116df1fb97a.webp"
+    },
+    {
+      "reference_product_id": 67,
+      "stable_key": "sample:70b6fec6c7a329499ccbe3eb52ac7203378bff89a3e09cefafbba3ea952f3df1",
+      "wameiji": {
+        "title": "【中古】同人音楽CDソフト 自棄酒金魚掬い / 犬丸芝居小屋",
+        "version_evidence": "人工 Chrome 挖煤姬详情页核到 YKS-001；页面明确犬丸芝居小屋、压制 CD、附压制 DVD 的 2 枚组，品相为没有明显的损伤或污渍，价格19,566日元，并显示可加入购物车和立即购买。",
+        "catalog_no": "YKS-001",
+        "barcode": null,
+        "price": 19566.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576b6b5a4341736a384b764c6f414772333735622f",
+        "observed_at": "2026-09-19T13:45:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
+      },
+      "xianyu": {
+        "title": "自棄酒金魚掬い 犬丸芝居小屋 滚苹果专辑 带侧无明显瑕疵 默认顺丰到付 术力口",
+        "version_evidence": "人工 Chrome 打开闲鱼当前具体商品页；标题明确《自棄酒金魚掬い》与犬丸芝居小屋，标注滚苹果专辑、带侧、无明显瑕疵，当前标价 1,500 CNY，页面有立即购买。两侧已确认同名同社团的实体商品，但闲鱼页未核到 YKS-001 或 CD＋DVD 2 枚组附件，因此仅作双侧实物观察，不作为同版或利润证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1500.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=951204865230&categoryId=126864811",
+        "observed_at": "2026-09-21T16:12:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01IPhhrO1dU3ZAVOpxg_!!4611686018427383946-53-fleamarket.heic_450x10000Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/67-70b6fec6c7a32949.webp"
     }
   ],
   "single_observed_records": [
@@ -6160,41 +6191,6 @@
         "image_url": "https://img17.mokaki.cn/img/846016403/m/2919409976.jpg?1785660541=",
         "relation_note": "同一《羅小黒戦記2 ぼくらが望む未来》电影，但候选是 DVD 完全生产限定版且明确无特典，样本是 Blu-ray 特装版/初回出荷限定数量限定；媒介、品番和附件边界不同，暂不计入双侧核验或利润机会。"
       }
-    },
-    {
-      "reference_product_id": 67,
-      "stable_key": "sample:70b6fec6c7a329499ccbe3eb52ac7203378bff89a3e09cefafbba3ea952f3df1",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "【中古】同人音楽CDソフト 自棄酒金魚掬い / 犬丸芝居小屋",
-        "version_evidence": "人工 Chrome 挖煤姬详情页核到 YKS-001；页面明确犬丸芝居小屋、压制 CD、附压制 DVD 的 2 枚组，品相为没有明显的损伤或污渍，价格19,566日元，并显示可加入购物车和立即购买。",
-        "catalog_no": "YKS-001",
-        "barcode": null,
-        "price": 19566.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576b6b5a4341736a384b764c6f414772333735622f",
-        "observed_at": "2026-09-19T13:45:00Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
-      },
-      "counterpart_candidate": {
-        "title": "自棄酒金魚掬い 犬丸芝居小屋 滚苹果专辑 带侧无明显瑕疵 默认顺丰到付 术力口",
-        "version_evidence": "人工 Chrome 打开闲鱼搜索结果并核到具体商品卡：标题明确《自棄酒金魚掬い》与犬丸芝居小屋，标注滚苹果专辑、带侧、无明显瑕疵，当前标价 1,500 CNY。它与挖煤姬样本同名同社团方向，但闲鱼卡片没有核到样本的 YKS-001 或 CD＋DVD 2枚组附件，因此不把它当作同版或完整成本证明。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1500,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=951204865230&categoryId=126864811",
-        "observed_at": "2026-09-21T16:12:00+08:00",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01IPhhrO1dU3ZAVOpxg_!!4611686018427383946-53-fleamarket.heic_450x10000Q90.jpg_.webp",
-        "relation_note": "同名同社团的《自棄酒金魚掬い》CD观察；闲鱼标注带侧，但未核实 YKS-001 与样本的 CD＋DVD 2枚组附件，不计入双侧同款或利润机会。"
-      },
-      "reference_image_url": "assets/reference-samples/67-70b6fec6c7a32949.webp"
     },
     {
       "reference_product_id": 125,
