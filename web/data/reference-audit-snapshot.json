@@ -6291,7 +6291,21 @@
         "is_wameiji_platform": true,
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/XAmE9hhts3ApgztQWASR6n.webp@jpg"
       },
-      "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
+      "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp",
+      "counterpart_candidate": {
+        "title": "杉菜水姫 画集 濡烏",
+        "version_evidence": "人工 Chrome 打开闲鱼具体详情页：标题为杉菜水姫实体画集《濡烏》，页面标价 422.54 CNY 包邮；卖家说明是中古、有损伤且没有书腰，描述提到《壳之少女／濡烏／壳虚天》，详情主图为实体画集。样本挖煤姬侧是杉菜水姫作品第二集《花葬》，因此这里只作为同作者同媒介的相关观察对象，不计入同款核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 422.54,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1079665171237&categoryId=0",
+        "observed_at": "2026-09-21T05:12:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN015gClGqMkNGK0UiPs_!!4611686018427382969-0-fleamarket.jpg_Q90.jpg_.webp",
+        "relation_note": "同一杉菜水姫作者、同为实体画集，但候选是《濡烏》而样本是《花葬》作品第二集；标题、内容和附件边界不同，暂不计入双侧核验或利润机会。"
+      }
     },
     {
       "reference_product_id": 32,
