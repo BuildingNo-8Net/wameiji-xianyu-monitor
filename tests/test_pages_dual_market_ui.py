@@ -126,6 +126,8 @@ def test_reference_audit_cards_use_marketplace_main_images_and_platform_colours(
     assert "source.image_url || source.main_image_url" in javascript
     assert "reference-audit-market-media" in javascript
     assert "主图链接待补" in javascript
+    assert "源站未提供主图" in javascript
+    assert "static.mercdn.net/item/detail/orig/photos/" in javascript
     assert "referenceAuditImageMarkup" not in javascript
     assert "reference_image_url" not in javascript
     assert '"xianyu-side"' in javascript
@@ -151,6 +153,8 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
     assert mercari_item_rows
     assert sum(str(row.get("image_url", "")).startswith("https://static.mercdn.net/item/detail/orig/photos/") for row in mercari_item_rows) >= 40
     assert not any("static.312588698.com/thumb/item/webp/" in str(row.get("image_url", "")) for row in mercari_item_rows)
+    source_no_image = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
+    assert source_no_image["wameiji"]["image_state"] == "source_no_image"
     assert sum(bool(row.get("image_url")) for row in rows) >= 70
 
 

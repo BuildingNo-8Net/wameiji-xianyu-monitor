@@ -5795,7 +5795,8 @@
         "observed_at": "2026-09-21T12:00:00+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress"
+        "image_url": "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress",
+        "image_state": "source_no_image"
       },
       "xianyu": {
         "title": "リリィ さよなら Lily Sayonara／どうして君は世界で一人 有册封全新",

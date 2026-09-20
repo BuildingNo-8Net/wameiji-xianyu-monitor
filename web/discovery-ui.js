@@ -381,7 +381,7 @@
     } catch (_error) { return ""; }
     const match = decoded.match(/\/items?\/(m\d+)/i);
     if (!match) return "";
-    return "https://static.312588698.com/thumb/item/webp/" + match[1] + "_1.jpg";
+    return "https://static.mercdn.net/item/detail/orig/photos/" + match[1] + "_1.jpg";
   }
 
   function referenceAuditObservationMarkup(label, observation, currency, market) {
@@ -396,11 +396,14 @@
     const heading = href
       ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
       : '<span>' + title + '</span>';
+    const missingImageLabel = source.image_state === "source_no_image"
+      ? "源站未提供主图"
+      : "主图链接待补";
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
         image
           ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + title + ' · 第一张主图" loading="eager" decoding="async" /></a>'
-          : '<div class="reference-audit-market-media reference-audit-market-media-missing">主图链接待补</div>',
+          : '<div class="reference-audit-market-media reference-audit-market-media-missing">' + missingImageLabel + '</div>',
         '<small>' + esc(label) + '</small>',
         '<b>' + heading + '</b>',
         '<strong>' + esc(price) + '</strong>',
