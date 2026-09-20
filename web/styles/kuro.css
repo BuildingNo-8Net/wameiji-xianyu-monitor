@@ -426,13 +426,16 @@ body.kuro .reference-audit-pairs > summary { padding: 12px 14px; cursor: pointer
 body.kuro .reference-audit-pair-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; padding: 0 12px 12px; }
 body.kuro .reference-audit-pair { min-width: 0; border: 1px solid rgba(219, 230, 246, .85); border-radius: 13px; background: rgba(250, 252, 255, .78); padding: 12px; }
 body.kuro .reference-audit-pair-id { margin-bottom: 8px; color: var(--kuro-muted); font-size: 11px; font-weight: 800; }
-body.kuro .reference-audit-reference-image { position: relative; margin: 0 0 10px; border: 1px solid rgba(210, 220, 240, .9); border-radius: 10px; overflow: hidden; background: rgba(255, 255, 255, .86); }
-body.kuro .reference-audit-reference-image img { display: block; width: 100%; height: 148px; object-fit: contain; object-position: center; background: #fff; }
-body.kuro .reference-audit-reference-image figcaption { position: absolute; right: 7px; bottom: 7px; max-width: calc(100% - 14px); padding: 3px 6px; border-radius: 6px; background: rgba(27, 40, 71, .74); color: white; font-size: 10px; line-height: 1.35; }
-body.kuro .reference-audit-sides { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-body.kuro .reference-audit-side { min-width: 0; padding: 9px; border: 1px solid transparent; border-radius: 10px; }
+body.kuro .reference-audit-sides { display: grid; grid-template-columns: minmax(0, 1fr) minmax(132px, .72fr) minmax(0, 1fr); gap: 10px; align-items: stretch; }
+body.kuro .reference-audit-side { min-width: 0; padding: 10px; border: 1px solid transparent; border-radius: 10px; }
 body.kuro .reference-audit-side.xianyu-side { background: #fff4c7; border-color: #f2d875; }
 body.kuro .reference-audit-side.wameiji-side { background: #ffe3ed; border-color: #f2abc5; }
+body.kuro .reference-audit-market-media { display: flex; width: 100%; height: 154px; align-items: center; justify-content: center; margin-bottom: 9px; border: 1px solid rgba(210, 220, 240, .9); border-radius: 9px; overflow: hidden; background: rgba(255, 255, 255, .88); text-decoration: none; }
+body.kuro .reference-audit-market-media img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center; background: #fff; }
+body.kuro .reference-audit-market-media-missing { color: var(--kuro-muted); font-size: 11px; font-weight: 700; text-align: center; }
+body.kuro .reference-audit-center { display: flex; min-width: 0; min-height: 154px; align-items: center; justify-content: center; flex-direction: column; gap: 8px; padding: 12px; border: 1px dashed rgba(111, 116, 210, .32); border-radius: 12px; background: rgba(255, 255, 255, .68); color: var(--kuro-muted); text-align: center; }
+body.kuro .reference-audit-center b { color: var(--kuro-ink); font-size: 12px; }
+body.kuro .reference-audit-center span { font-size: 11px; line-height: 1.5; }
 body.kuro .reference-audit-side small, body.kuro .reference-audit-side em { display: block; color: var(--kuro-muted); font-size: 11px; font-style: normal; }
 body.kuro .reference-audit-side b, body.kuro .reference-audit-side b a { display: block; color: var(--kuro-ink); font-size: 12px; line-height: 1.45; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 body.kuro .reference-audit-side b a:hover { color: var(--kuro-blue); text-decoration: underline; }

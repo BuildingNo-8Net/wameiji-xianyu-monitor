@@ -117,17 +117,22 @@ def test_homepage_keeps_concrete_one_sided_listings_in_the_primary_observation_q
     assert "单边待补观察" in javascript
 
 
-def test_reference_audit_cards_keep_reference_images_and_platform_colours() -> None:
-    """The audit queue is image-led and never leaves the two markets colourless."""
+def test_reference_audit_cards_use_marketplace_main_images_and_platform_colours() -> None:
+    """Audit cards must use marketplace main images, never sample screenshots."""
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     stylesheet = Path("web/styles/kuro.css").read_text(encoding="utf-8")
 
-    assert "reference_image_url" in javascript
-    assert "reference-audit-reference-image" in javascript
+    assert "source.image_url || source.main_image_url" in javascript
+    assert "reference-audit-market-media" in javascript
+    assert "主图链接待补" in javascript
+    assert "referenceAuditImageMarkup" not in javascript
+    assert "reference_image_url" not in javascript
     assert '"xianyu-side"' in javascript
     assert '"wameiji-side"' in javascript
     assert ".reference-audit-side.xianyu-side" in stylesheet
     assert ".reference-audit-side.wameiji-side" in stylesheet
+    assert ".reference-audit-market-media" in stylesheet
+    assert ".reference-audit-center" in stylesheet
 
 
 def test_historical_profit_kpi_is_not_labeled_as_current_full_audit_result() -> None:
@@ -230,8 +235,8 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260919-reference-coverage-v1" in homepage
-    assert "styles/kuro.css?v=20260918-audit-images-v5" in homepage
+    assert "discovery-ui.js?v=20260920-market-main-images-v1" in homepage
+    assert "styles/kuro.css?v=20260920-market-main-images-v1" in homepage
 
 
 def test_board_refresh_decouples_legacy_api_failures_from_dual_market_data() -> None:

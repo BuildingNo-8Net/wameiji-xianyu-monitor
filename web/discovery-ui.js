@@ -32,34 +32,6 @@
 
   const DISMISSED_DUAL_MARKET_COMPARISONS_KEY = "wameiji-xianyu.dismissed-dual-market-comparisons.v1";
 
-  // A few historical audit rows predate the image-url field. Keep their
-  // preserved sample images visible without rewriting the evidence records.
-  const REFERENCE_SAMPLE_IMAGE_FALLBACKS = {
-    "21": "assets/reference-samples/21-01f861ada5421136.webp",
-    "23": "assets/reference-samples/23-bfc90e9b128fa3d4.webp",
-    "26": "assets/reference-samples/26-bca3653bd2c65a29.webp",
-    "27": "assets/reference-samples/27-3b589fa991d8a5e6.webp",
-    "30": "assets/reference-samples/30-d626a72b6c446739.webp",
-    "31": "assets/reference-samples/31-e78d933355ffe3d1.webp",
-    "32": "assets/reference-samples/32-8719026bf4cd7234.webp",
-    "35": "assets/reference-samples/35-e614e34d2690d0fa.webp",
-    "42": "assets/reference-samples/42-764f8ee44d948dc0.webp",
-    "44": "assets/reference-samples/44-74425acc27798a9f.webp",
-    "47": "assets/reference-samples/47-992eddc9105c5a3e.webp",
-    "50": "assets/reference-samples/50-3173a93da0e6185b.webp",
-    "59": "assets/reference-samples/59-c3a5cdc3aadaf309.webp",
-    "65": "assets/reference-samples/65-d622a593b90cba48.webp",
-    "68": "assets/reference-samples/68-c68d21145ef01026.webp",
-    "78": "assets/reference-samples/78-ef4f1b90b3f7fd9f.webp",
-    "96": "assets/reference-samples/96-c64ea6dffb4b2f7d.webp",
-    "97": "assets/reference-samples/97-96f3beec1064dffb.webp",
-    "98": "assets/reference-samples/98-307ad680472c5865.webp",
-    "102": "assets/reference-samples/102-c04d0523172e4cb8.webp",
-    "112": "assets/reference-samples/112-7cd35a051c64ad55.webp",
-    "115": "assets/reference-samples/115-a501d93a3e178cb1.webp",
-    "125": "assets/reference-samples/125-74f93be01bbf73a3.webp",
-  };
-
   function comparisonIdKey(value) {
     const number = Number(value);
     return Number.isSafeInteger(number) && number > 0 ? String(number) : "";
@@ -364,10 +336,35 @@
     return Number.isFinite(count) && count >= 0 ? String(Math.floor(count)) : "--";
   }
 
+  function auditObservationImage(observation) {
+    const source = observation && typeof observation === "object" ? observation : {};
+    const directImage = usableProductImage(source.image_url || source.main_image_url);
+    if (directImage) return directImage;
+
+    // Older audit snapshots did not persist the first marketplace image on the
+    // observation row.  Reuse an already-published, verified main image only
+    // when its concrete detail URL is an exact match; never fall back to the
+    // user's reference screenshot.
+    const sourceUrl = safeHttpUrl(source.source_url);
+    const eligible = view.dualMarketBoard && Array.isArray(view.dualMarketBoard.eligible)
+      ? view.dualMarketBoard.eligible
+      : [];
+    for (const item of eligible) {
+      for (const market of ["xianyu", "wameiji"]) {
+        const candidate = item && item[market];
+        if (!candidate || safeHttpUrl(candidate.url) !== sourceUrl) continue;
+        const verifiedImage = usableProductImage(candidate.image_url);
+        if (verifiedImage) return verifiedImage;
+      }
+    }
+    return "";
+  }
+
   function referenceAuditObservationMarkup(label, observation, currency, market) {
     const source = observation && typeof observation === "object" ? observation : {};
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
     const href = safeHttpUrl(source.source_url);
+    const image = auditObservationImage(source);
     const title = esc(source.title || "未命名商品记录");
     const price = currency === "JPY" ? jpy(source.price, displayJpyCnyRate()) : cny(source.price);
     const evidence = source.version_evidence ? '<p>' + esc(source.version_evidence) + '</p>' : "";
@@ -377,6 +374,9 @@
       : '<span>' + title + '</span>';
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
+        image
+          ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + title + ' · 第一张主图" loading="lazy" decoding="async" /></a>'
+          : '<div class="reference-audit-market-media reference-audit-market-media-missing">主图链接待补</div>',
         '<small>' + esc(label) + '</small>',
         '<b>' + heading + '</b>',
         '<strong>' + esc(price) + '</strong>',
@@ -396,28 +396,12 @@
     return [
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 待逐件核验</div>',
-        referenceAuditImageMarkup(item.reference_image_url, item.reference_product_id),
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY", "xianyu"),
+          '<div class="reference-audit-center"><b>双侧实物观察</b><span>版本、成色、附件与到手成本仍需逐件核对</span></div>',
           referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY", "wameiji"),
         '</div>',
       '</article>',
-    ].join("");
-  }
-
-  function referenceAuditImageMarkup(imageUrl, referenceProductId) {
-    const image = usableProductImage(
-      imageUrl || REFERENCE_SAMPLE_IMAGE_FALLBACKS[String(referenceProductId || "")],
-    );
-    if (!image) return "";
-    return [
-      '<figure class="reference-audit-reference-image">',
-        // Audit cards are visible evidence, not below-the-fold decoration. Load
-        // the preserved sample image immediately so the card never presents an
-        // empty white frame while the evidence is in view.
-        '<img src="' + esc(image) + '" alt="参考样本 #' + esc(referenceProductId || "") + '" loading="eager" decoding="async" />',
-        '<figcaption>用户参考样本图 · 非当前在售图</figcaption>',
-      '</figure>',
     ].join("");
   }
 
@@ -432,10 +416,11 @@
     return [
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 单边待补</div>',
-        referenceAuditImageMarkup(item.reference_image_url, item.reference_product_id),
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup(availableLabel, observation, currency, availableMarket),
+          '<div class="reference-audit-center"><b>单边观察</b><span>只保留已打开的具体商品页，不把近似品凑成同款</span></div>',
           '<div class="reference-audit-side ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
+            '<div class="reference-audit-market-media reference-audit-market-media-missing">主图链接待补</div>',
             '<small>' + esc(missingLabel) + '</small>',
             '<b>当前没有可公开核对的具体商品页</b>',
             '<p>最近状态：' + esc(referenceStateLabel(item.counterpart_state)) + '</p>',
@@ -474,9 +459,9 @@
     return [
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 当前未形成具体商品页卡片</div>',
-        referenceAuditImageMarkup(item.reference_image_url, item.reference_product_id),
         '<div class="reference-audit-sides">',
           referenceAuditUnavailableSideMarkup("闲鱼销售侧", xianyu, "xianyu", item.xianyu_state),
+          '<div class="reference-audit-center"><b>当前未见 / 受阻</b><span>没有公开可核对的具体商品页</span></div>',
           referenceAuditUnavailableSideMarkup("挖煤姬进货侧", wameiji, "wameiji", item.wameiji_state),
         '</div>',
       '</article>',
