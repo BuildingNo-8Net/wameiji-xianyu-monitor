@@ -2,12 +2,12 @@
   "schema_version": 1,
   "generated_at": "2026-09-20T04:47:03+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 102 条双侧实物观察、23 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 110 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 103 条双侧实物观察、22 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 111 条。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 102,
-    "single_observed_count": 23,
+    "both_observed_count": 103,
+    "single_observed_count": 22,
     "wameiji_platform_found_count": 109,
     "found_any_count": 125,
     "not_currently_listed_both_count": 0
@@ -5668,6 +5668,37 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/48-ad64fd36d4861f48.webp"
+    },
+    {
+      "reference_product_id": 35,
+      "stable_key": "sample:e614e34d2690d0fa07d8da5f629e2a1c9ae52c5b8b433a968ecfa34b996a0fa5",
+      "wameiji": {
+        "title": "トロイメライ 初回限定版 新品未開封 Innocent Grey 霜月はるか",
+        "version_evidence": "挖煤姬当前 Mercari 具体详情页明确为 Innocent Grey《トロイメライ -Innocent Grey Haruka Shimotsuki Collection-》初回限定版，附原始特典杯垫2枚和特装包装，未使用，价格33,000 JPY（页面约1,462 CNY）。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 33000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31363232323635383832372f",
+        "observed_at": "2026-09-19T20:47:03Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://static.312588698.com/thumb/item/webp/m16222658827_1.jpg"
+      },
+      "xianyu": {
+        "title": "Innocent Grey HarukaShimotuki Collection トロイメライ",
+        "version_evidence": "人工 Chrome 打开闲鱼当前具体详情页；标题明确为 Innocent Grey HarukaShimotuki Collection《トロイメライ》，详情写明闲置中古、品相如图，价格345 CNY包邮，当前可立即购买。主图可见《トロイメライ》CD盒与封面。它确认同一作品/同一 Collection 的当前实体，但页面未写初回限定、特典杯垫或特装包装，因此与挖煤姬初回限定版不宣称同一 SKU，仅作为双侧实物观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01uBTBPL1I0BlHYBsou_!!4611686018427382286-0-fleamarket.jpg_Q90.jpg_.webp",
+        "price": 345.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=875387664712&categoryId=126864811",
+        "observed_at": "2026-09-20T18:32:36Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/35-e614e34d2690d0fa.webp"
     }
   ],
   "single_observed_records": [
@@ -6088,27 +6119,6 @@
         "image_url": "https://static.312588698.com/thumb/item/webp/m57063581162_1.jpg"
       },
       "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp"
-    },
-    {
-      "reference_product_id": 35,
-      "stable_key": "sample:e614e34d2690d0fa07d8da5f629e2a1c9ae52c5b8b433a968ecfa34b996a0fa5",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "blocked",
-      "observation": {
-        "title": "トロイメライ 初回限定版 新品未開封 Innocent Grey 霜月はるか",
-        "version_evidence": "人工Chrome打开挖煤姬当前 Mercari 具体详情页：Innocent Grey《トロイメライ -Innocent Grey Haruka Shimotsuki Collection-》初回限定版，附原始特典杯垫2枚和特装包装，未使用，价格33,000 JPY（页面约1,462 CNY）。它确认同品牌/歌手方向的当前实物，但样本标题和封面被遮挡、原物是游戏盒子，不能宣称同版；闲鱼侧仍无法确认具体发行物，保留 blocked 单边观察。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 33000,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31363232323635383832372f",
-        "observed_at": "2026-09-19T20:47:03Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://static.312588698.com/thumb/item/webp/m16222658827_1.jpg"
-      },
-      "reference_image_url": "assets/reference-samples/35-e614e34d2690d0fa.webp"
     },
     {
       "reference_product_id": 50,
