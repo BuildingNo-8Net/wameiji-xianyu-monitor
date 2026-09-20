@@ -2,12 +2,12 @@
   "schema_version": 1,
   "generated_at": "2026-09-20T04:47:03+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 100 条双侧实物观察、25 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 109 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 101 条双侧实物观察、24 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 109 条。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 100,
-    "single_observed_count": 25,
+    "both_observed_count": 101,
+    "single_observed_count": 24,
     "wameiji_platform_found_count": 109,
     "found_any_count": 125,
     "not_currently_listed_both_count": 0
@@ -5606,6 +5606,37 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/17-ed58f0f7d2ca7b1d.webp"
+    },
+    {
+      "reference_product_id": 44,
+      "stable_key": "sample:74425acc27798a9fba51a162a7633975731309942543f95e5571369df90df5f7",
+      "wameiji": {
+        "title": "【中古】同人音楽CDソフト Grimoire of Crimson / Team Grimoire",
+        "version_evidence": "挖煤姬当前详情页明确为 Team Grimoire《Grimoire of Crimson》压制 CD；页面列出目录号 TG-002、发行日 2015-04-26、9 首曲目（含 BONUS TRACK），品相为没有明显的损伤或污渍。",
+        "catalog_no": "TG-002",
+        "barcode": null,
+        "price": 15342.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33564a6835527a43345666535742576655716f5339552f",
+        "observed_at": "2026-09-20T03:49:15+08:00",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/f75owh2SK4DKATjs2gEm53.webp@jpg"
+      },
+      "xianyu": {
+        "title": "魔典系列-Team Grimoire",
+        "version_evidence": "人工 Chrome 打开闲鱼当前具体详情页；标题为“魔典系列-Team Grimoire”，详情明确列出 Grimoire of Darkness、Grimoire of Crimson、Grimoire of Emerald、Grimoire of Blue 和 XL TECHNO -More Dance Remix-，存储介质为 CD，页面标价 2000 CNY。卖家同时写明“暂不出可先蹲，别拍”，所以这是已打开的具体同系列/同作品实物观察，不当作当前可购买或利润证据。主图可见四张彩色 CD，其中包含 Crimson 红色盘面。",
+        "catalog_no": null,
+        "barcode": null,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2218292503859/O1CN01fCvn5k1eNTYy4LzJa_!!4611686018427381043-53-xy_item.heic_Q90.jpg_.webp",
+        "price": 2000.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1056314946455&categoryId=126864811",
+        "observed_at": "2026-09-20T02:19:39Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/44-74425acc27798a9f.webp"
     }
   ],
   "single_observed_records": [
@@ -5669,26 +5700,6 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.312588698.com/thumb/item/webp/m30797670575_1.jpg"
-      }
-    },
-    {
-      "reference_product_id": 44,
-      "stable_key": "sample:74425acc27798a9fba51a162a7633975731309942543f95e5571369df90df5f7",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "【中古】同人音楽CDソフト Grimoire of Crimson / Team Grimoire",
-        "version_evidence": "挖煤姬当前详情页明确为 Team Grimoire《Grimoire of Crimson》压制 CD；页面列出目录号 TG-002、发行日 2015-04-26、9 首曲目（含 BONUS TRACK），品相为没有明显的损伤或污渍。闲鱼精确检索仅出现“暂不出可先蹲”和收购帖，未找到当前可购买商品。",
-        "catalog_no": "TG-002",
-        "barcode": null,
-        "price": 15342.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33564a6835527a43345666535742576655716f5339552f",
-        "observed_at": "2026-09-19T11:49:15Z",
-        "marketplace_host": "meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/f75owh2SK4DKATjs2gEm53.webp@jpg"
       }
     },
     {
