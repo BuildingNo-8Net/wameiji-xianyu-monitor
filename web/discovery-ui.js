@@ -441,11 +441,12 @@
       ? item.counterpart_candidate
       : null;
     const candidateCurrency = missingMarket === "wameiji" ? "JPY" : "CNY";
+    const candidateLabel = missingMarket === "wameiji" ? "挖煤姬进货侧 · 相关观察" : "闲鱼销售侧 · 相关观察";
     const missingMarkup = candidate
       ? [
           '<div class="reference-audit-candidate-wrap ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
             '<div class="reference-audit-candidate-badge">相关观察对象 · 未证同款</div>',
-            referenceAuditObservationMarkup(missingLabel, candidate, candidateCurrency, missingMarket),
+            referenceAuditObservationMarkup(candidateLabel, candidate, candidateCurrency, missingMarket),
             '<p class="reference-audit-candidate-note">' + esc(candidate.relation_note || "仅作为同作品/同标题方向观察，不计入双侧核验或利润机会") + '</p>',
           '</div>',
         ].join("")
@@ -459,7 +460,7 @@
         ].join("");
     return [
       '<article class="reference-audit-pair">',
-        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 单边待补</div>',
+        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + (candidate ? " · 单边 + 相关观察" : " · 单边待补") + '</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup(availableLabel, observation, currency, availableMarket),
           '<div class="reference-audit-center"><b>' + (candidate ? "单边 + 相关对象" : "单边观察") + '</b><span>' + (candidate ? "相关对象已打开具体详情页，但版本、成色或附件仍未证实同款" : "只保留已打开的具体商品页，不把近似品凑成同款") + '</span></div>',
