@@ -5885,7 +5885,21 @@
         "is_wameiji_platform": true,
         "image_url": "https://static.312588698.com/thumb/item/webp/m87811092722_1.jpg"
       },
-      "reference_image_url": "assets/reference-samples/37-58baee497a1a4eb6.webp"
+      "reference_image_url": "assets/reference-samples/37-58baee497a1a4eb6.webp",
+      "counterpart_candidate": {
+        "title": "柚子社 dracu-riot OST 带收纳盒 音乐CD",
+        "version_evidence": "人工 Chrome 打开闲鱼具体详情页：标题明确为 DRACU-RIOT! 原声带并带收纳盒，页面显示 189 CNY 包邮；商品图和详情均确认是 CD＋収納BOX。样本是两种 DRACU-RIOT 收纳盒套装，因此这里只作为同作品、同收纳盒方向的相关观察对象，不计入同款核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 189,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1035802006591&categoryId=126864811",
+        "observed_at": "2026-09-21T06:20:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/620083063/O1CN01XJkRRU1YUuHO4jauX_!!4611686018427385719-0-xy_item.jpg_Q90.jpg_.webp",
+        "relation_note": "同一 DRACU-RIOT! 作品和收纳盒周边方向，但这是 OST＋单个收纳盒，不是样本的两种收纳盒套装；版本、角色构图和附件边界未证实一致。"
+      }
     },
     {
       "reference_product_id": 27,
@@ -5990,7 +6004,21 @@
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN012tbsvy1d0HoMvNcdc_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp"
       },
-      "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
+      "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp",
+      "counterpart_candidate": {
+        "title": "PS2 ef a fairy tale of the two. 通常版【未開封】",
+        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页：标题明确为 PS2《ef a fairy tale of the two.》通常版未开封，价格 9,799 JPY；商品说明确认是 PS2 软件。样本是 PC 初回版上卷，因此只作为同作品的相关观察对象，不计入同款核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 9799,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393739333236323438382f",
+        "observed_at": "2026-09-21T06:18:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://static.312588698.com/thumb/item/webp/m85574916654_1.jpg?1788275224",
+        "relation_note": "同一 ef 作品，但平台、版本和附件边界不同：候选是 PS2 通常版，样本是 PC 初回版上卷，暂不计入双侧核验或利润机会。"
+      }
     },
     {
       "reference_product_id": 41,
@@ -6158,7 +6186,21 @@
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
-      "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"
+      "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp",
+      "counterpart_candidate": {
+        "title": "サクラノ詩 ~櫻の森の上を舞う~ 10th Anniversary Edition",
+        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页：标题明确为《サクラノ詩》10th Anniversary Edition，未使用，价格 19,410 JPY；商品说明列出 4 张碟、追加剧本/音乐和 10 周年特典册。样本是初回限定版，因此只作为同作品的相邻版本观察对象，不计入同款核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 19410,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a546a516b4664326b5348466d4d6d6570643867422f",
+        "observed_at": "2026-09-21T06:15:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTjQkEZuWtwLhYfKfYasc.jpg@jpg",
+        "relation_note": "同一《サクラノ詩》实体作品方向，但为 10 周年重制版，不是样本的初回限定版；初回版附件和版本不能由此候选推定。"
+      }
     },
     {
       "reference_product_id": 26,
