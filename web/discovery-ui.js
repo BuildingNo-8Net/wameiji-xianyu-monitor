@@ -399,7 +399,7 @@
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
         image
-          ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + title + ' · 第一张主图" loading="lazy" decoding="async" /></a>'
+          ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + title + ' · 第一张主图" loading="eager" decoding="async" /></a>'
           : '<div class="reference-audit-market-media reference-audit-market-media-missing">主图链接待补</div>',
         '<small>' + esc(label) + '</small>',
         '<b>' + heading + '</b>',
