@@ -6060,7 +6060,21 @@
         "is_wameiji_platform": true,
     "image_url": "https://shop.r10s.jp/americanpie/cabinet/422605/4226050343.jpg"
       },
-      "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
+      "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp",
+      "counterpart_candidate": {
+        "title": "羅小黒戦記2 ぼくらが望む未来【完全生産限定版】 DVD",
+        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页：标题明确为《羅小黒戦記2 ぼくらが望む未来》完全生产限定版 DVD，7,200 JPY，接近未使用；商品说明确认 3 枚（DVD 1 枚、CD 2 枚）、JAN 4534530164803，且明确写明无特典。样本挖煤姬侧是 Blu-ray 特装版 ANZX-17013～8、初回出荷限定数量限定，因此这里只作为同电影的相邻媒介/版本观察对象，不计入同款核验。",
+        "catalog_no": "ANZB-17019/17023",
+        "barcode": "4534530164803",
+        "price": 7200,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuma/detail/dfdd57ff5ad9f8bb2b7239fd8aabae31",
+        "observed_at": "2026-09-21T05:20:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://img17.mokaki.cn/img/846016403/m/2919409976.jpg?1785660541=",
+        "relation_note": "同一《羅小黒戦記2 ぼくらが望む未来》电影，但候选是 DVD 完全生产限定版且明确无特典，样本是 Blu-ray 特装版/初回出荷限定数量限定；媒介、品番和附件边界不同，暂不计入双侧核验或利润机会。"
+      }
     },
     {
       "reference_product_id": 67,
