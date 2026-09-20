@@ -341,6 +341,14 @@
     const directImage = usableProductImage(source.image_url || source.main_image_url);
     if (directImage) return directImage;
 
+    // Mercari detail pages exposed by 挖煤姬 use a stable mirrored path for
+    // the first item photo.  Older snapshots only kept the exact detail URL,
+    // so recover that first-photo URL from the encoded Mercari item id.  This
+    // is deliberately limited to ordinary /jp/items/m... records; shops and
+    // other marketplaces still require an observed image_url.
+    const inferredImage = inferredMercariMainImage(source.source_url);
+    if (inferredImage) return inferredImage;
+
     // Older audit snapshots did not persist the first marketplace image on the
     // observation row.  Reuse an already-published, verified main image only
     // when its concrete detail URL is an exact match; never fall back to the
@@ -358,6 +366,22 @@
       }
     }
     return "";
+  }
+
+  function inferredMercariMainImage(sourceUrl) {
+    const value = safeHttpUrl(sourceUrl);
+    if (!value || !/\/mall\/mercari\/detail\//i.test(value)) return "";
+    const encoded = value.split("/mall/mercari/detail/")[1].split(/[?#]/)[0];
+    if (!encoded || /shops\/product/i.test(encoded)) return "";
+    let decoded = encoded;
+    try {
+      const bytes = encoded.match(/[0-9a-f]{2}/gi);
+      if (!bytes || bytes.length * 2 !== encoded.length) return "";
+      decoded = bytes.map((part) => String.fromCharCode(parseInt(part, 16))).join("");
+    } catch (_error) { return ""; }
+    const match = decoded.match(/\/items?\/(m\d+)/i);
+    if (!match) return "";
+    return "https://imghk.doorzo.net/item/detail/orig/photos/" + match[1] + "_1.jpg";
   }
 
   function referenceAuditObservationMarkup(label, observation, currency, market) {

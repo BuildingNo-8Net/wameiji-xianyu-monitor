@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import subprocess
+import json
 from pathlib import Path
 
 
@@ -133,6 +134,23 @@ def test_reference_audit_cards_use_marketplace_main_images_and_platform_colours(
     assert ".reference-audit-side.wameiji-side" in stylesheet
     assert ".reference-audit-market-media" in stylesheet
     assert ".reference-audit-center" in stylesheet
+
+
+def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    rows = []
+    for pair in snapshot["dual_observed_pairs"]:
+        rows.extend([pair["wameiji"], pair["xianyu"]])
+    rows.extend(record["observation"] for record in snapshot["single_observed_records"])
+
+    mercari_item_rows = [
+        row for row in rows
+        if "/mall/mercari/detail/" in str(row.get("source_url", ""))
+        and "/shops/product/" not in str(row.get("source_url", ""))
+    ]
+    assert mercari_item_rows
+    assert sum(str(row.get("image_url", "")).startswith("https://imghk.doorzo.net/item/detail/") for row in mercari_item_rows) >= 40
+    assert sum(bool(row.get("image_url")) for row in rows) >= 70
 
 
 def test_historical_profit_kpi_is_not_labeled_as_current_full_audit_result() -> None:
