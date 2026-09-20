@@ -6144,7 +6144,21 @@
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2210449506356/O1CN01sRow4LKnleG3thGC_!!4611686018427379764-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
-      "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp"
+      "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp",
+      "counterpart_candidate": {
+        "title": "【特典完備】PSP ナルキッソス DXパック（オフィシャルブック・マップ付）",
+        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页：页面标题明确为 PSP《ナルキッソス》DX パック，5,800 JPY；商品说明列出第1章、第2章及最终章、官方攻略本、巡礼地图和特典盒，品相为二手且有轻微损伤。样本是 C83 场贩的两本实体小说，因此这里只作为同作品实体周边方向的相关观察对象，不计入同款核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5800,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuma/detail/2d1f06d8a1f43bcd122d00cec1f67508",
+        "observed_at": "2026-09-21T05:06:36+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://img.fril.jp/img/827740295/l/2847202207.jpg?1776950283=&updated_at=2026-04-23T13%3A18%3A03.000Z",
+        "relation_note": "同一 narcissu／ナルキッソス作品方向，但候选是 PSP DX 游戏套装（含攻略本和地图），不是样本的 C83 两本场贩小说；媒介、版本和附件边界未证实一致，暂不计入双侧核验或利润机会。"
+      }
     },
     {
       "reference_product_id": 40,
