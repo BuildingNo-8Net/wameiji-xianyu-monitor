@@ -149,7 +149,8 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
         and "/shops/product/" not in str(row.get("source_url", ""))
     ]
     assert mercari_item_rows
-    assert sum(str(row.get("image_url", "")).startswith("https://static.312588698.com/thumb/item/webp/") for row in mercari_item_rows) >= 40
+    assert sum(str(row.get("image_url", "")).startswith("https://static.mercdn.net/item/detail/orig/photos/") for row in mercari_item_rows) >= 40
+    assert not any("static.312588698.com/thumb/item/webp/" in str(row.get("image_url", "")) for row in mercari_item_rows)
     assert sum(bool(row.get("image_url")) for row in rows) >= 70
 
 
