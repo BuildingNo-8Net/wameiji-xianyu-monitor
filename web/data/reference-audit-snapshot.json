@@ -53,6 +53,7 @@
     {
       "reference_product_id": 102,
       "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
+      "reference_image_url": "assets/reference-samples/102-c04d0523172e4cb8.webp",
       "wameiji": {
         "title": "YOASOBI THE BOOK 完全生産限定盤 LPレコード 新品 ピンク",
         "version_evidence": "挖煤姬当前详情页明确为 YOASOBI《THE BOOK》完全生产限定盘、粉色彩胶 LP，2024-10-23 发售；商品未使用，说明写明新品未开封并附厂家特典贴纸，当前可加入购物车和立即购买。",
@@ -82,6 +83,7 @@
     {
       "reference_product_id": 78,
       "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
+      "reference_image_url": "assets/reference-samples/78-ef4f1b90b3f7fd9f.webp",
       "wameiji": {
         "title": "[新品未開封]Hikaru Utada - This Is The One LP",
         "version_evidence": "挖煤姬当前详情页明确为 Utada《This Is The One》生产限定 180g 重量盘 LP；商品状态未使用，说明写明为 2026 年重制生产限定盘。",
@@ -111,6 +113,7 @@
     {
       "reference_product_id": 42,
       "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
+      "reference_image_url": "assets/reference-samples/42-764f8ee44d948dc0.webp",
       "wameiji": {
         "title": "国内盤CD★放課後ティータイム/Houkago Tea Time■ 映画「けいおん！」劇中歌アルバム放課後ティータイム in MOVIE 【PCCG1128/4988013016569】U53895",
         "version_evidence": "挖煤姬详情页明确为电影《けいおん！》剧中歌专辑 in MOVIE；页面正文列出目录号 PCCG1128、JAN 4988013016569。中古店铺说明无购买特典，实物以照片为准。",
@@ -141,6 +144,7 @@
     {
       "reference_product_id": 97,
       "stable_key": "jan:4988031466285",
+      "reference_image_url": "assets/reference-samples/97-96f3beec1064dffb.webp",
       "wameiji": {
         "title": "宇多田ヒカル / Fantome 【生産限定盤】(2枚組 / 180グラム重量盤レコード)",
         "version_evidence": "挖煤姬精确记录为生产限定2枚组180g黑胶，目录号UPJY-9212、JAN 4988031466285。",
@@ -2434,6 +2438,7 @@
     {
       "reference_product_id": 21,
       "stable_key": "sample:01f861ada5421136ebef768261f328415503cae1828c636370095284d7cfb84b",
+      "reference_image_url": "assets/reference-samples/21-01f861ada5421136.webp",
       "wameiji": {
         "title": "Kanon オリジナル サウンドトラック [CD] Key",
         "version_evidence": "人工内置浏览器打开挖煤姬 Mercari 详情；标题为 Kanon オリジナル サウンドトラック [CD] Key，商品介绍明确为游戏《Kanon》全24曲原声CD；二手、无明显大伤污渍、简易动检、卖家承担日本国内运费。",
@@ -2463,6 +2468,7 @@
     {
       "reference_product_id": 65,
       "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
+      "reference_image_url": "assets/reference-samples/65-d622a593b90cba48.webp",
       "wameiji": {
         "title": "ベノマ　かいりきベア　CD",
         "version_evidence": "人工 Chrome 打开挖煤姬具体详情页，标题为ベノマ　かいりきベア　CD；二手，700日元（约32元），商品状态为没有明显的损伤或污渍，页面显示可加入购物车并立即购买。",
@@ -2492,6 +2498,7 @@
     {
       "reference_product_id": 115,
       "stable_key": "sample:a501d93a3e178cb1d49e11b0e4c4d0d88d775a820c610db5c9a26c68648f80d1",
+      "reference_image_url": "assets/reference-samples/115-a501d93a3e178cb1.webp",
       "wameiji": {
         "title": "Aimer LiSA 太陽が昇らない世界 残酷な夜に輝け アナログレコード",
         "version_evidence": "挖煤姬当前详情页直接核到 Aimer / LiSA《太陽が昇らない世界／残酷な夜に輝け》完全生产限定模拟唱片；标题与介绍均明确 LP/アナログレコード、商品状态未使用，价格13,000日元，可加入购物车和立即购买。样本中的紫胶颜色未由该页面文字独立验证，因此只锁定完全生产限定LP，不把CD/BD或周边当作同版。",
@@ -2523,6 +2530,7 @@
     {
       "reference_product_id": 102,
       "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
+      "reference_image_url": "assets/reference-samples/102-c04d0523172e4cb8.webp",
       "wameiji": {
         "title": "YOASOBI THE BOOK 完全生産限定盤 LPレコード 新品 ピンク",
         "version_evidence": "挖煤姬当前详情页明确为 YOASOBI《THE BOOK》完全生产限定盘、粉色彩胶 LP，2024-10-23 发售；商品未使用，说明写明新品未开封并附厂家特典贴纸，当前可加入购物车和立即购买。",
@@ -2553,6 +2561,7 @@
     {
       "reference_product_id": 78,
       "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
+      "reference_image_url": "assets/reference-samples/78-ef4f1b90b3f7fd9f.webp",
       "wameiji": {
         "title": "[新品未開封]Hikaru Utada - This Is The One LP",
         "version_evidence": "挖煤姬当前详情页明确为 Utada《This Is The One》生产限定 180g 重量盘 LP；商品状态未使用，说明写明为 2026 年重制生产限定盘。",
@@ -2583,6 +2592,7 @@
     {
       "reference_product_id": 42,
       "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
+      "reference_image_url": "assets/reference-samples/42-764f8ee44d948dc0.webp",
       "wameiji": {
         "title": "国内盤CD★放課後ティータイム/Houkago Tea Time■ 映画「けいおん！」劇中歌アルバム放課後ティータイム in MOVIE 【PCCG1128/4988013016569】U53895",
         "version_evidence": "挖煤姬详情页明确为电影《けいおん！》剧中歌专辑 in MOVIE；页面正文列出目录号 PCCG1128、JAN 4988013016569。中古店铺说明无购买特典，实物以照片为准。",
@@ -2613,6 +2623,7 @@
     {
       "reference_product_id": 97,
       "stable_key": "jan:4988031466285",
+      "reference_image_url": "assets/reference-samples/97-96f3beec1064dffb.webp",
       "wameiji": {
         "title": "宇多田ヒカル / Fantome 【生産限定盤】(2枚組 / 180グラム重量盤レコード)",
         "version_evidence": "挖煤姬精确记录为生产限定2枚组180g黑胶，目录号UPJY-9212、JAN 4988031466285。",
@@ -5061,6 +5072,7 @@
     {
       "reference_product_id": 21,
       "stable_key": "sample:01f861ada5421136ebef768261f328415503cae1828c636370095284d7cfb84b",
+      "reference_image_url": "assets/reference-samples/21-01f861ada5421136.webp",
       "wameiji": {
         "title": "Kanon オリジナル サウンドトラック [CD] Key",
         "version_evidence": "人工内置浏览器打开挖煤姬 Mercari 详情；标题为 Kanon オリジナル サウンドトラック [CD] Key，商品介绍明确为游戏《Kanon》全24曲原声CD；二手、无明显大伤污渍、简易动检、卖家承担日本国内运费。",
@@ -5091,6 +5103,7 @@
     {
       "reference_product_id": 65,
       "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
+      "reference_image_url": "assets/reference-samples/65-d622a593b90cba48.webp",
       "wameiji": {
         "title": "ベノマ　かいりきベア　CD",
         "version_evidence": "人工 Chrome 打开挖煤姬具体详情页，标题为ベノマ　かいりきベア　CD；二手，700日元（约32元），商品状态为没有明显的损伤或污渍，页面显示可加入购物车并立即购买。",
@@ -5121,6 +5134,7 @@
     {
       "reference_product_id": 115,
       "stable_key": "sample:a501d93a3e178cb1d49e11b0e4c4d0d88d775a820c610db5c9a26c68648f80d1",
+      "reference_image_url": "assets/reference-samples/115-a501d93a3e178cb1.webp",
       "wameiji": {
         "title": "Aimer LiSA 太陽が昇らない世界 残酷な夜に輝け アナログレコード",
         "version_evidence": "挖煤姬当前详情页直接核到 Aimer / LiSA《太陽が昇らない世界／残酷な夜に輝け》完全生产限定模拟唱片；标题与介绍均明确 LP/アナログレコード、商品状态未使用，价格13,000日元，可加入购物车和立即购买。样本中的紫胶颜色未由该页面文字独立验证，因此只锁定完全生产限定LP，不把CD/BD或周边当作同版。",
@@ -5151,6 +5165,7 @@
     {
       "reference_product_id": 96,
       "stable_key": "sample:c64ea6dffb4b2f7d1d4ac6b5118809e842a1e6bcbfc2c78a764fedb2488339cc",
+      "reference_image_url": "assets/reference-samples/96-c64ea6dffb4b2f7d.webp",
       "wameiji": {
         "title": "【外付け特典3点セット付き】 LACE UP ［CD+Blu-ray Disc+GOODS］＜完全数量生産限定盤＞ LiSA VVCL-2881 4547366798067-13200",
         "version_evidence": "人工 Chrome 打开日源详情页核到 LiSA《LACE UP》完全数量生产限定盘；标题明确 CD+Blu-ray Disc+GOODS、VVCL-2881、JAN 4547366798067，并显示外付特典3点套装。页面显示新品、库存1件、价格22,300日元和购买按钮；与闲鱼同版实物对应，但当前价位不利于直接判定利润机会。",
@@ -5181,6 +5196,7 @@
     {
       "reference_product_id": 98,
       "stable_key": "sample:307ad680472c5865677b1495831ff8169c255313ac25bf7f534c555067c3778b",
+      "reference_image_url": "assets/reference-samples/98-307ad680472c5865.webp",
       "wameiji": {
         "title": "YOASOBI THE BOOK for, CD 完全生産限定盤",
         "version_evidence": "挖煤姬当前 Chrome 搜索页筛选到 Mercari；卡片标题明确为 YOASOBI THE BOOK for, CD 完全生産限定盤，卡片图为蓝色 THE BOOK for CD 盒，标价 5,699 日元，当前结果可见。只锁定 CD+特製バインダー完全生产限定版，不把 LP、特典索引或 THE BOOK 2 当作同版。",
@@ -5211,6 +5227,7 @@
     {
       "reference_product_id": 112,
       "stable_key": "sample:7cd35a051c64ad55a72942402e1f6df751ddb4d4a6272b95cbc28814ca011647",
+      "reference_image_url": "assets/reference-samples/112-7cd35a051c64ad55.webp",
       "wameiji": {
         "title": "MAN WITH A MISSION milet 絆ノ奇跡 コイコガレ レコード",
         "version_evidence": "人工 Chrome 挖煤姬详情页：动画《鬼灭之刃》刀锻冶之里篇主题曲；MAN WITH A MISSION x milet；《絆ノ奇跡 / コイコガレ》；完全生产限定模拟唱片；未使用；11,000 日元。页面未显示样本条码 SRJL-1124 / 4547366609639，也未包含样本图中提到的 CD×DVD/海报套装，因此只作为同版 LP 形态观察，不当作完整套装证明。",
@@ -5241,6 +5258,7 @@
     {
       "reference_product_id": 23,
       "stable_key": "sample:bfc90e9b128fa3d4c8efe17418140cc28d0daf47266d6cc99ed95f36bace7467",
+      "reference_image_url": "assets/reference-samples/23-bfc90e9b128fa3d4.webp",
       "wameiji": {
         "title": "black bullet(初回限定盤 CD+DVD)TVアニメ(ブラック・ブレット)オープニングテーマ [CD] fripSide_02",
         "version_evidence": "人工 Chrome 挖煤姬当前详情页明确为 fripSide《black bullet》初回限定盘 CD+DVD，TV动画《ブラック・ブレット》开场主题曲；标题与样本的日版 CD+DVD 初回限定版一致。详情页显示 546 日元、约 25 人民币，有加入购物车和立即购买按钮；JAN 4988102218560，页面标注中古且有些许损伤或污渍。",
@@ -5271,6 +5289,7 @@
     {
       "reference_product_id": 47,
       "stable_key": "sample:992eddc9105c5a3ebf798879cd95fab61122c2eee2e54933b9237ce7de1fe1a6",
+      "reference_image_url": "assets/reference-samples/47-992eddc9105c5a3e.webp",
       "wameiji": {
         "title": "さユり 月と花束 CD+DVD 期間生産限定盤",
         "version_evidence": "人工 Chrome 挖煤姬当前详情页明确为酸欠少女さユり《月と花束》CD+DVD 期间生产限定盘；与样本的 Fate/EXTRA Last Encore 主题曲、CD+DVD 日版限定实物一致。详情页显示 1,999 日元、约 89 人民币，品相没有明显损伤或污渍，有加入购物车和立即购买按钮。",
@@ -5301,6 +5320,7 @@
     {
       "reference_product_id": 59,
       "stable_key": "sample:c3a5cdc3aadaf30946559bb963866a16e4bef5c4365308e0e667f3f5ff1bec62",
+      "reference_image_url": "assets/reference-samples/59-c3a5cdc3aadaf309.webp",
       "wameiji": {
         "title": "【未開封】Fate/EXTELLA LINK PSVITA プレミアム限定版",
         "version_evidence": "人工 Chrome 挖煤姬当前详情页明确为《Fate/EXTELLA LINK》PSVITA Premium限定版；页面说明为游戏软件与原声 CD 套装，二者均全新未开封，价格 1,000 日元，有加入购物车和立即购买按钮。与样本的 PSV 限定游戏形态一致；页面未单独展示样本闲鱼描述的尼禄皮肤 DLC 券码，不额外推断该附件。",
@@ -5809,6 +5829,7 @@
     {
       "reference_product_id": 27,
       "stable_key": "sample:3b589fa991d8a5e6e91b4b7c986f0bb0d925c74e461b76b76e32b708b8edb030",
+      "reference_image_url": "assets/reference-samples/27-3b589fa991d8a5e6.webp",
       "available_market": "wameiji",
       "missing_market": "xianyu",
       "counterpart_state": "not_currently_listed",
@@ -5976,6 +5997,7 @@
     {
       "reference_product_id": 125,
       "stable_key": "sample:74f93be01bbf73a31c2ecebdd16e2c4771f5aa4b7558b561377cc2e70ae9a292",
+      "reference_image_url": "assets/reference-samples/125-74f93be01bbf73a3.webp",
       "available_market": "xianyu",
       "missing_market": "wameiji",
       "counterpart_state": "not_currently_listed",
