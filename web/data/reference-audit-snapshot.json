@@ -6326,7 +6326,21 @@
         "is_wameiji_platform": true,
         "image_url": "https://static.312588698.com/thumb/item/webp/m57063581162_1.jpg"
       },
-      "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp"
+      "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp",
+      "counterpart_candidate": {
+        "title": "壳之少女 签名原画",
+        "version_evidence": "人工 Chrome 打开闲鱼具体详情页：标题明确为《壳之少女 签名原画》，价格 70 CNY 包邮；页面标注几乎全新、原袋，卖家说明为闲置实体原画。样本挖煤姬侧是《ルリノユメ》原画集＋原创声音剧套装，因此这里只作为同作品实体周边方向的相关观察对象，不计入同款核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 70,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1080808823362&categoryId=126860296",
+        "observed_at": "2026-09-21T05:15:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2218240532361/O1CN01IVWE9Y6u29G2vHAO_!!4611686018427387785-0-xy_item.jpg_Q90.jpg_.webp",
+        "relation_note": "同一《壳之少女》作品，但候选是单张签名原画，样本是《ルリノユメ》原画集＋声音剧套装；作品形态、版本和附件边界不同，暂不计入双侧核验或利润机会。"
+      }
     },
     {
       "reference_product_id": 68,
