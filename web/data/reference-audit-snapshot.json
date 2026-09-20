@@ -2,12 +2,12 @@
   "schema_version": 1,
   "generated_at": "2026-09-21T12:00:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 106 条双侧实物观察、19 条单边主要观察对象；每条均保留两侧具体商品页，但不宣称同版。挖煤姬页面已复核 113 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 107 条双侧实物观察、18 条单边主要观察对象；每条均保留两侧具体商品页，但不宣称同版。挖煤姬页面已复核 113 条。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 106,
-    "single_observed_count": 19,
+    "both_observed_count": 107,
+    "single_observed_count": 18,
     "wameiji_platform_found_count": 113,
     "found_any_count": 125,
     "not_currently_listed_both_count": 0
@@ -5874,6 +5874,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01IPhhrO1dU3ZAVOpxg_!!4611686018427383946-53-fleamarket.heic_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/67-70b6fec6c7a32949.webp"
+    },
+    {
+      "reference_product_id": 5,
+      "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
+      "wameiji": {
+        "title": "サクラノ詩 ~櫻の森の上を舞う~ 10th Anniversary Edition",
+        "version_evidence": "人工 Chrome 打开挖煤姬当前具体详情页；标题明确为《サクラノ詩》10th Anniversary Edition，未使用，价格19,410 JPY；页面说明为10周年重制版，4张碟，追加剧本/音乐并含10周年特典册，页面可加入购物车和立即购买。它与闲鱼同为《サクラノ詩》实体作品，但不是样本的初回限定版，因此仅作双侧实物观察，不作同版/利润证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 19410.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a546a516b4664326b5348466d4d6d6570643867422f",
+        "observed_at": "2026-09-21T06:15:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTjQkEZuWtwLhYfKfYasc.jpg@jpg"
+      },
+      "xianyu": {
+        "title": "［急出］枕社 樱之诗 初回限定版 带两张色纸和设定集",
+        "version_evidence": "人工 Chrome 复核的闲鱼详情明确为《サクラノ詩/樱之诗》初回限定版，带两张色纸和设定集，盒子有挤压痕，价格500 CNY。它与挖煤姬当前10周年重制版同为《サクラノ詩》实体作品，但版本、附件和成色不同，因此仅作双侧实物观察，不作同版/利润证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 500.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
+        "observed_at": "2026-09-15T14:35:15Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"
     }
   ],
   "single_observed_records": [
@@ -6331,41 +6362,6 @@
         "relation_note": "同一アオイトリ／Purple software IP；候选是包装图案钥匙扣，样本是 PC 初回版本体＋2 张 OST，媒介、版本和附件完全不同，仅列为相关观察对象，不计入双侧同款。"
       },
       "reference_image_url": "assets/reference-samples/40-bf01659913155102.webp"
-    },
-    {
-      "reference_product_id": 5,
-      "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "found",
-      "observation": {
-        "title": "［急出］枕社 樱之诗 初回限定版 带两张色纸和设定集",
-        "version_evidence": "人工Chrome复核的闲鱼详情明确为《サクラノ詩/樱之诗》初回限定版，带两张色纸和设定集，盒子有挤压痕，价格500 CNY。挖煤姬侧曾见同名初回版搜索卡但尚未形成可复核详情页，因此保留为单边实物观察，不把搜索卡当成完整进货证据。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 500,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
-        "observed_at": "2026-09-15T14:35:15Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_790x10000Q90.jpg_.webp"
-      },
-      "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp",
-      "counterpart_candidate": {
-        "title": "サクラノ詩 ~櫻の森の上を舞う~ 10th Anniversary Edition",
-        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页：标题明确为《サクラノ詩》10th Anniversary Edition，未使用，价格 19,410 JPY；商品说明列出 4 张碟、追加剧本/音乐和 10 周年特典册。样本是初回限定版，因此只作为同作品的相邻版本观察对象，不计入同款核验。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 19410,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a546a516b4664326b5348466d4d6d6570643867422f",
-        "observed_at": "2026-09-21T06:15:00Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTjQkEZuWtwLhYfKfYasc.jpg@jpg",
-        "relation_note": "同一《サクラノ詩》实体作品方向，但为 10 周年重制版，不是样本的初回限定版；初回版附件和版本不能由此候选推定。"
-      }
     },
     {
       "reference_product_id": 26,
