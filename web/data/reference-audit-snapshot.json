@@ -2,13 +2,13 @@
   "schema_version": 1,
   "generated_at": "2026-09-21T12:00:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 104 条双侧实物观察、21 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 112 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 105 条双侧实物观察、20 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 113 条。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 104,
-    "single_observed_count": 21,
-    "wameiji_platform_found_count": 109,
+    "both_observed_count": 105,
+    "single_observed_count": 20,
+    "wameiji_platform_found_count": 110,
     "found_any_count": 125,
     "not_currently_listed_both_count": 0
   },
@@ -5730,6 +5730,37 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/50-3173a93da0e6185b.webp"
+    },
+    {
+      "reference_product_id": 9,
+      "stable_key": "sample:041a5116df1fb97ae1e1b9d3dca066b866cfc1150427596716d096355c90f6ef",
+      "wameiji": {
+        "title": "【中古】eden* ソフマップ LIMITED EDTION",
+        "version_evidence": "人工 Chrome 打开挖煤姬对应的原始乐天商品页；标题明确为 minori《eden* ソフマップ LIMITED EDTION》，价格 53,609 JPY。原始乐天页首图直链可加载。店铺说明同时明确图片为示意图、限定特典/同梱物不保证，不能据此确认床单、卡牌或内箱齐全。",
+        "catalog_no": "b007gttzzy",
+        "barcode": null,
+        "price": 53609,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhappystorefujioka%2Fb007gttzzy%2F",
+        "observed_at": "2026-09-21T12:00:00+08:00",
+        "marketplace_host": "meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://tshop.r10s.jp/happystorefujioka/cabinet/26070600-1/b007gttzzy.jpg"
+      },
+      "xianyu": {
+        "title": "eden初回限定",
+        "version_evidence": "人工 Chrome 打开闲鱼当前具体商品页；页面明确为 eden 初回限定，盒子品相不错，但缺内箱、缺卡牌，另多出一张来源未明 CD，450 CNY。该闲鱼条目与挖煤姬侧都指向 minori《eden*》限定实体，但闲鱼侧未明确写 Sofmap 版，且附件/成色明显不一致；仅作双侧实物观察，不作同 SKU 或利润结论。另在闲鱼页面核到同系列展示条目明确说明特装版=普通盒+特典床单，用于限定版附件边界交叉核对。",
+        "catalog_no": null,
+        "barcode": null,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2204042895424/O1CN01BPAIN31pwFOwEoPng_!!4611686018427379776-53-xy_item.heic_790x10000Q90.jpg_.webp",
+        "price": 450.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1050892358760&categoryId=126864811",
+        "observed_at": "2026-09-21T12:00:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/9-041a5116df1fb97a.webp"
     }
   ],
   "single_observed_records": [
@@ -5815,27 +5846,6 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/2219173859986/O1CN014VDnMeSryNF3thGS_!!4611686018427384466-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/3-9b672eed92a617aa.webp"
-    },
-    {
-      "reference_product_id": 9,
-      "stable_key": "sample:041a5116df1fb97ae1e1b9d3dca066b866cfc1150427596716d096355c90f6ef",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "eden初回限定",
-        "version_evidence": "初回限定版；盒子品相不错；明确缺内箱、缺卡牌；额外有一张来源未明CD",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 450.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1050892358760&categoryId=126864811",
-        "observed_at": "2026-09-15T12:08:37+08:00",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2204042895424/O1CN01BPAIN31pwFOwEoPng_!!4611686018427379776-53-xy_item.heic_790x10000Q90.jpg_.webp"
-      },
-      "reference_image_url": "assets/reference-samples/9-041a5116df1fb97a.webp"
     },
     {
       "reference_product_id": 13,
