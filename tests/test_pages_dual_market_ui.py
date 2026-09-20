@@ -128,6 +128,7 @@ def test_reference_audit_cards_use_marketplace_main_images_and_platform_colours(
     assert "主图链接待补" in javascript
     assert "源站未提供主图" in javascript
     assert "static.mercdn.net/item/detail/orig/photos/" in javascript
+    assert "mokaki\\.cn\\/(?:sigimage\\/icon|ossimg\\/)" in javascript
     assert "referenceAuditImageMarkup" not in javascript
     assert "reference_image_url" not in javascript
     assert '"xianyu-side"' in javascript
