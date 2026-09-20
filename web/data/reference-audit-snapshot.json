@@ -2,12 +2,12 @@
   "schema_version": 1,
   "generated_at": "2026-09-20T04:47:03+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 101 条双侧实物观察、24 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 109 条。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 102 条双侧实物观察、23 条单边待补观察中；新增单边条目均保留同作品、同作者、同品牌或同介质差异说明，不宣称同版。挖煤姬页面已复核 110 条。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 83,
-    "both_observed_count": 101,
-    "single_observed_count": 24,
+    "both_observed_count": 102,
+    "single_observed_count": 23,
     "wameiji_platform_found_count": 109,
     "found_any_count": 125,
     "not_currently_listed_both_count": 0
@@ -5637,6 +5637,37 @@
         "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/44-74425acc27798a9f.webp"
+    },
+    {
+      "reference_product_id": 48,
+      "stable_key": "sample:ad64fd36d4861f48d9602f51d7249760750ae3a1b524750596784cf58cb5d348",
+      "wameiji": {
+        "title": "【新品未開封】あたらよ　私雨に夏の灯を知る　通常盤　直筆サインステッカー付き",
+        "version_evidence": "挖煤姬当前 Rakuma 具体详情页标题明确为乐队“あたらよ”《私雨に夏の灯を知る》通常盘，附直笔签名贴纸，商品状态未使用，价格 7,800 JPY（页面约346 CNY），可加入购物车并立即购买。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 7800.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuma/detail/6e7582c30ba06128cc6d9a44931df009",
+        "observed_at": "2026-09-19T20:25:52Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://img.fril.jp/img/850531522/l/2938615343.jpg?1788178623=&updated_at=2026-08-31T12%3A17%3A03.000Z"
+      },
+      "xianyu": {
+        "title": "亲笔签名付｜あたらよ｜私雨に夏の灯を知る｜可惜夜 专辑CD",
+        "version_evidence": "人工 Chrome 打开闲鱼当前具体详情页；标题明确为 あたらよ《私雨に夏の灯を知る》专辑 CD，卖家写明“全新未拆现货”，商品页价格区间 180–550 CNY，主图列出通常盘 CD 与初回盘 CD+BD 等多个选项，且标题与挖煤姬侧同为签名特典方向。由于卖家把多个版本合并在同一链接，未把 180 CNY 视为与挖煤姬 7,800 JPY 同一 SKU，仅作为双侧实物观察，不作利润结论。",
+        "catalog_no": null,
+        "barcode": null,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01iNRtuS1pA9pBxflLi_!!4611686018427383735-53-fleamarket.heic_Q90.jpg_.webp",
+        "price": 180.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1062972116818&categoryId=126864811",
+        "observed_at": "2026-09-20T18:29:29Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/48-ad64fd36d4861f48.webp"
     }
   ],
   "single_observed_records": [
@@ -5952,27 +5983,6 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2220797024623/O1CN01ybNCKy1k1O9wNCon2_!!4611686018427386223-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/40-bf01659913155102.webp"
-    },
-    {
-      "reference_product_id": 48,
-      "stable_key": "sample:ad64fd36d4861f48d9602f51d7249760750ae3a1b524750596784cf58cb5d348",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "【新品未開封】あたらよ　私雨に夏の灯を知る　通常盤　直筆サインステッカー付き",
-        "version_evidence": "人工Chrome打开挖煤姬当前具体 Rakuma 详情页；标题明确为乐队“あたらよ”《私雨に夏の灯を知る》通常盘，附直笔签名贴纸，商品状态未使用，价格7,800 JPY（页面约346 CNY），可加入购物车并立即购买。它能确认同一乐队、同一“签名特典”方向的当前实物，但不是样本#48中的“全员亲笔签名限定特典卡/写真”同一载体，因此只记作单边观察，不宣称同版；闲鱼此前精确检索未找到该签名卡当前具体页。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 7800,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/rakuma/detail/6e7582c30ba06128cc6d9a44931df009",
-        "observed_at": "2026-09-19T20:25:52Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://img.fril.jp/img/850531522/l/2938615343.jpg?1788178623=&updated_at=2026-08-31T12%3A17%3A03.000Z"
-      },
-      "reference_image_url": "assets/reference-samples/48-ad64fd36d4861f48.webp"
     },
     {
       "reference_product_id": 5,
