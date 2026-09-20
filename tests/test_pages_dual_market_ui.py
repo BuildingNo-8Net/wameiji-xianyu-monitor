@@ -149,7 +149,7 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
         and "/shops/product/" not in str(row.get("source_url", ""))
     ]
     assert mercari_item_rows
-    assert sum(str(row.get("image_url", "")).startswith("https://imghk.doorzo.net/item/detail/") for row in mercari_item_rows) >= 40
+    assert sum(str(row.get("image_url", "")).startswith("https://static.312588698.com/thumb/item/webp/") for row in mercari_item_rows) >= 40
     assert sum(bool(row.get("image_url")) for row in rows) >= 70
 
 
@@ -253,8 +253,8 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260920-market-main-images-v1" in homepage
-    assert "styles/kuro.css?v=20260920-market-main-images-v1" in homepage
+    assert "discovery-ui.js?v=20260920-market-main-images-v2" in homepage
+    assert "styles/kuro.css?v=20260920-market-main-images-v2" in homepage
 
 
 def test_board_refresh_decouples_legacy_api_failures_from_dual_market_data() -> None:

@@ -68,7 +68,10 @@ def inferred_mercari_image(source_url: str) -> str | None:
     item = re.search(r"/items?/(m\d+)", decoded, flags=re.I)
     if not item:
         return None
-    return f"https://imghk.doorzo.net/item/detail/orig/photos/{item.group(1)}_1.jpg"
+    # The live Wameiji detail page exposes this public thumbnail CDN.  Keep
+    # the URL deterministic but use the host/path that actually returns the
+    # first product photo without a session-bound query string.
+    return f"https://static.312588698.com/thumb/item/webp/{item.group(1)}_1.jpg"
 
 
 def observations(data: dict):

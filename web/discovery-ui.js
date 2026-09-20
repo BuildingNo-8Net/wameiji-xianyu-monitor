@@ -381,7 +381,7 @@
     } catch (_error) { return ""; }
     const match = decoded.match(/\/items?\/(m\d+)/i);
     if (!match) return "";
-    return "https://imghk.doorzo.net/item/detail/orig/photos/" + match[1] + "_1.jpg";
+    return "https://static.312588698.com/thumb/item/webp/" + match[1] + "_1.jpg";
   }
 
   function referenceAuditObservationMarkup(label, observation, currency, market) {
