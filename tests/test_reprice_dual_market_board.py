@@ -126,14 +126,13 @@ def test_reprices_saved_pairs_without_network_or_collection(tmp_path: Path, monk
 
     result = module.reprice_saved_pairs(db_path)
 
-    assert result["policy_version"] == "wameiji-xianyu-net-v1"
+    assert result["policy_version"] == "wameiji-xianyu-net-v2"
     assert result["evaluated_count"] == 3
-    assert result["eligible_count"] == 1
-    assert result["below_margin_count"] == 1
+    assert result["eligible_count"] == 2
+    assert result["below_margin_count"] == 0
     assert result["cost_pending_count"] == 1
     assert {row.status for row in list_price_comparisons(db_path, limit=10)} == {
         "eligible",
-        "below_margin",
         "cost_pending",
     }
     pending = next(item for item in result["items"] if item["status"] == "cost_pending")
