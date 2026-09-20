@@ -5962,6 +5962,20 @@
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/3805743482/O1CN01n9zI2M7t59L3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
+      "counterpart_candidate": {
+        "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
+        "version_evidence": "人工 Chrome 打开挖煤姬乐天详情页；标题同时列出 TYPE-MOON《月姫》、月姫PLUS+DISC 与《歌月十夜》，价格 104,459 JPY，商品说明明确为中古品。页面同时警告图片仅为示意、每次入货的成色和附件可能不同，不能据此证明样本的月箱外盒、猫姬或侧标齐全；因此这里只作为同三部作品方向的相关观察对象，不作为同款或利润证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 104459,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhappystorefujioka%2Fb07d9816wh%2F",
+        "observed_at": "2026-09-21T16:05:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress",
+        "relation_note": "同一 TYPE-MOON 月姫／PLUS+DISC／歌月十夜作品方向；样本 #13 另含猫姬和月箱套装边界，本条详情未确认外盒、猫姬、侧标或附件，价格也明显异常，仅列为相关观察对象，不计入双侧同款。"
+      },
       "reference_image_url": "assets/reference-samples/13-ce603c1a4a257a00.webp"
     },
     {
@@ -5982,6 +5996,20 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/2208605640566/O1CN01ZoF8lpgdGTI3thGS_!!4611686018427385718-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+      },
+      "counterpart_candidate": {
+        "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
+        "version_evidence": "人工 Chrome 打开挖煤姬乐天详情页；标题同时列出 TYPE-MOON《月姫》、月姫PLUS+DISC 与《歌月十夜》，价格 104,459 JPY，商品说明明确为中古品。页面同时警告图片仅为示意、每次入货的成色和附件可能不同，不能据此证明样本的月箱外盒、猫姬或侧标齐全；因此这里只作为同三部作品方向的相关观察对象，不作为同款或利润证明。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 104459,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhappystorefujioka%2Fb07d9816wh%2F",
+        "observed_at": "2026-09-21T16:05:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress",
+        "relation_note": "同一 TYPE-MOON 月姫／PLUS+DISC／歌月十夜作品方向；样本 #22 为月箱套装但照片和附件未完全列明，本条详情未确认月箱外盒、猫姬、侧标或附件，价格也明显异常，仅列为相关观察对象，不计入双侧同款。"
       },
       "reference_image_url": "assets/reference-samples/22-f1e63661cafe1b24.webp"
     },
