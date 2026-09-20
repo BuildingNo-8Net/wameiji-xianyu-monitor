@@ -6277,7 +6277,21 @@
         "is_wameiji_platform": true,
         "image_url": "https://img.fril.jp/img/835565348/l/2878784876.jpg?1780718775=&updated_at=2026-06-06T04%3A06%3A15.000Z"
       },
-      "reference_image_url": "assets/reference-samples/68-c68d21145ef01026.webp"
+      "reference_image_url": "assets/reference-samples/68-c68d21145ef01026.webp",
+      "counterpart_candidate": {
+        "title": "「日版无侧」晓之护卫游戏人声专辑 暁の護衛 VOCAL CD",
+        "version_evidence": "人工 Chrome 打开闲鱼具体详情页：标题明确为《暁の護衛》VOCAL CD，价格 28 CNY；页面没有样本所需的群像直笔签名色纸、特典卡或同一套组清单，因此只作为同作品的相关观察对象，不计入双侧同款核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 28,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1065284936637&categoryId=126864811",
+        "observed_at": "2026-09-21T05:00:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2214154643265/O1CN014X4OK91ZzQJ23LlPB_!!4611686018427381569-0-xy_item.jpg_Q90.jpg_.webp",
+        "relation_note": "同一《暁の護衛》作品方向，但商品形态是 VOCAL CD；与样本的签名色纸＋特典卡套组、挖煤姬侧グッズセット均未证实为同一版本或附件边界，暂不计入双侧核验或利润机会。"
+      }
     }
   ],
   "historical_unavailable_records": [
