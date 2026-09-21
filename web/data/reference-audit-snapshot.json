@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T12:12:59.236883+00:00",
+  "generated_at": "2026-09-21T12:16:57.095274+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 101,
+    "both_found_count": 102,
     "both_observed_count": 110,
     "single_observed_count": 13,
     "wameiji_platform_found_count": 110,
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 101
+      "count": 102
     },
     {
       "wameiji": "found",
@@ -31,7 +31,7 @@
     {
       "wameiji": "price_unfavorable",
       "xianyu": "found",
-      "count": 3
+      "count": 2
     },
     {
       "wameiji": "not_currently_listed",
@@ -1376,17 +1376,17 @@
       "reference_product_id": 65,
       "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
       "wameiji": {
-        "title": "ベノマ　かいりきベア　CD",
-        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页，标题为ベノマ　かいりきベア　CD；二手，700日元（约32元），商品状态为没有明显的损伤或污渍，页面显示可加入购物车并立即购买。",
-        "catalog_no": "SCGA00092",
+        "title": "かいりきベア ベノマ CD",
+        "version_evidence": null,
+        "catalog_no": null,
         "barcode": null,
-        "price": 700.0,
+        "price": 1300.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32393532333431353931362f",
-        "observed_at": "2026-09-19T15:04:39Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303531353736363035342f",
+        "observed_at": "2026-09-21T12:15:43Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m29523415916_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m70515766054_1.jpg"
       },
       "xianyu": {
         "title": "怪力熊 蛮魔 CD 日本代购 怪力的专辑《贝诺玛》",
@@ -1526,6 +1526,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/1027971467/O1CN010ZhTdEtMdEI2vHAO_!!4611686018427386251-0-xy_item.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/71-127ddd6fc3102fb0.webp"
+    },
+    {
+      "reference_product_id": 72,
+      "stable_key": "sample:dbe0251491b62a24a6dc1f6b19e4836db50a991ceeefa10f9a2f940fe3de6305",
+      "wameiji": {
+        "title": "milet Made of Glass 通常盤 ４th アルバム ⑤",
+        "version_evidence": null,
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3500.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d36373535333132313830362f",
+        "observed_at": "2026-09-21T12:16:36Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m67553121806_1.jpg"
+      },
+      "xianyu": {
+        "title": "milet Made of Glass 通常盤 / standard CD",
+        "version_evidence": "SECL-3339; JAN 4547366822137; CD only; 16 tracks including The Story of Us, Anytime Anywhere, I still, hanataba",
+        "catalog_no": "SECL-3339",
+        "barcode": "4547366822137",
+        "price": 185.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1076404714020&categoryId=126864811",
+        "observed_at": "2026-09-14T18:40:22Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/1741477895/O1CN01HxX2RwiNNSJ3thGS_!!4611686018427385863-0-xy_item.jpg_220x10000Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/72-dbe0251491b62a24.webp"
     },
     {
       "reference_product_id": 73,
@@ -4727,17 +4758,17 @@
       "reference_product_id": 65,
       "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
       "wameiji": {
-        "title": "ベノマ　かいりきベア　CD",
-        "version_evidence": "人工 Chrome 打开挖煤姬具体详情页，标题为ベノマ　かいりきベア　CD；二手，700日元（约32元），商品状态为没有明显的损伤或污渍，页面显示可加入购物车并立即购买。",
-        "catalog_no": "SCGA00092",
+        "title": "かいりきベア ベノマ CD",
+        "version_evidence": null,
+        "catalog_no": null,
         "barcode": null,
-        "price": 700.0,
+        "price": 1300.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32393532333431353931362f",
-        "observed_at": "2026-09-19T15:04:39Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303531353736363035342f",
+        "observed_at": "2026-09-21T12:15:43Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m29523415916_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m70515766054_1.jpg"
       },
       "xianyu": {
         "title": "怪力熊 蛮魔 CD 日本代购 怪力的专辑《贝诺玛》",
@@ -4913,17 +4944,17 @@
       "reference_product_id": 72,
       "stable_key": "sample:dbe0251491b62a24a6dc1f6b19e4836db50a991ceeefa10f9a2f940fe3de6305",
       "wameiji": {
-        "title": "milet Made of Glass 通常盤 / standard CD",
-        "version_evidence": "SECL-3339; JAN 4547366822137; CD only; 16 tracks including The Story of Us, Anytime Anywhere, I still, hanataba",
-        "catalog_no": "SECL-3339",
-        "barcode": "4547366822137",
-        "price": 3850.0,
+        "title": "milet Made of Glass 通常盤 ４th アルバム ⑤",
+        "version_evidence": null,
+        "catalog_no": null,
+        "barcode": null,
+        "price": 3500.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-2%2Faznsecl-3339%2F",
-        "observed_at": "2026-09-14T18:40:22Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d36373535333132313830362f",
+        "observed_at": "2026-09-21T12:16:36Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://tshop.r10s.jp/book/cabinet/2137/4547366822137_1_2.jpg?fitin=275:275"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m67553121806_1.jpg"
       },
       "xianyu": {
         "title": "milet Made of Glass 通常盤 / standard CD",
