@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:47:25.148405+00:00",
+  "generated_at": "2026-09-21T11:49:22.271512+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 108 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 99,
-    "both_observed_count": 109,
-    "single_observed_count": 12,
-    "wameiji_platform_found_count": 107,
+    "both_found_count": 100,
+    "both_observed_count": 110,
+    "single_observed_count": 11,
+    "wameiji_platform_found_count": 108,
     "found_any_count": 119,
     "not_currently_listed_both_count": 6
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 99
+      "count": 100
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 11
+      "count": 10
     },
     {
       "wameiji": "price_unfavorable",
@@ -3108,6 +3108,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01ZP7WBCxnKDI3th7A_!!4611686018427384413-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/124-104ad8079b2b1674.webp"
+    },
+    {
+      "reference_product_id": 125,
+      "stable_key": "sample:74f93be01bbf73a31c2ecebdd16e2c4771f5aa4b7558b561377cc2e70ae9a292",
+      "wameiji": {
+        "title": "【完全生産限定】ガールズバンドクライ/トゲナシトゲアリ「棘ナシ」アナログ盤（12インチ）",
+        "version_evidence": "人工内置浏览器挖煤姬当前详情页核验：トゲナシトゲアリ 2nd Album「棘ナシ」完全生産限定アナログレコード盤，12英寸；UMJK-9162；2026/08/19；未使用；7500 JPY；卖家承担日本国内运费；手续费225 JPY；物流保障有；页面有加入购物车和立即购买。商品介绍列出12曲、A/B两面曲目，并说明《ガールズバンドクライ》角色设计手岛nari绘制封面。",
+        "catalog_no": "UMJK-9162",
+        "barcode": null,
+        "price": 7500.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5659507936466a456b6f575377484c6a325957322f",
+        "observed_at": "2026-09-21T11:49:21Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/-/large/plain/2JVYEGT6Rw7cb6vhm2NCU8.jpg@jpg"
+      },
+      "xianyu": {
+        "title": "【黑胶彩胶】药屋少女的呢喃 LP 动画原声音乐专辑 OST Original Soundtrack 正版唱片 欧版限定版 全新未拆",
+        "version_evidence": "页面标注国内现货、现货实物拍摄、限定版彩胶2LP；价格为单件含所有费用并包邮非偏远，当前价格显示599-1299元区间，需按具体版本确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 599.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
+        "observed_at": "2026-09-21T05:01:29Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/810413873/O1CN01VtDEkC1eTt6RITFoz_!!4611686018427383601-53-xy_item.heic_790x10000Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/125-74f93be01bbf73a3.webp"
     }
   ],
   "dual_observed_pairs": [
@@ -6490,6 +6521,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01ZP7WBCxnKDI3th7A_!!4611686018427384413-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/124-104ad8079b2b1674.webp"
+    },
+    {
+      "reference_product_id": 125,
+      "stable_key": "sample:74f93be01bbf73a31c2ecebdd16e2c4771f5aa4b7558b561377cc2e70ae9a292",
+      "wameiji": {
+        "title": "【完全生産限定】ガールズバンドクライ/トゲナシトゲアリ「棘ナシ」アナログ盤（12インチ）",
+        "version_evidence": "人工内置浏览器挖煤姬当前详情页核验：トゲナシトゲアリ 2nd Album「棘ナシ」完全生産限定アナログレコード盤，12英寸；UMJK-9162；2026/08/19；未使用；7500 JPY；卖家承担日本国内运费；手续费225 JPY；物流保障有；页面有加入购物车和立即购买。商品介绍列出12曲、A/B两面曲目，并说明《ガールズバンドクライ》角色设计手岛nari绘制封面。",
+        "catalog_no": "UMJK-9162",
+        "barcode": null,
+        "price": 7500.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5659507936466a456b6f575377484c6a325957322f",
+        "observed_at": "2026-09-21T11:49:21Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/-/large/plain/2JVYEGT6Rw7cb6vhm2NCU8.jpg@jpg"
+      },
+      "xianyu": {
+        "title": "【黑胶彩胶】药屋少女的呢喃 LP 动画原声音乐专辑 OST Original Soundtrack 正版唱片 欧版限定版 全新未拆",
+        "version_evidence": "页面标注国内现货、现货实物拍摄、限定版彩胶2LP；价格为单件含所有费用并包邮非偏远，当前价格显示599-1299元区间，需按具体版本确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 599.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
+        "observed_at": "2026-09-21T05:01:29Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/810413873/O1CN01VtDEkC1eTt6RITFoz_!!4611686018427383601-53-xy_item.heic_790x10000Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/125-74f93be01bbf73a3.webp"
     }
   ],
   "single_observed_records": [
@@ -6723,27 +6785,6 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m24323747874_1.jpg"
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
-    },
-    {
-      "reference_product_id": 125,
-      "stable_key": "sample:74f93be01bbf73a31c2ecebdd16e2c4771f5aa4b7558b561377cc2e70ae9a292",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "【黑胶彩胶】药屋少女的呢喃 LP 动画原声音乐专辑 OST Original Soundtrack 正版唱片 欧版限定版 全新未拆",
-        "version_evidence": "页面标注国内现货、现货实物拍摄、限定版彩胶2LP；价格为单件含所有费用并包邮非偏远，当前价格显示599-1299元区间，需按具体版本确认。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 599.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
-        "observed_at": "2026-09-21T05:01:29Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/810413873/O1CN01VtDEkC1eTt6RITFoz_!!4611686018427383601-53-xy_item.heic_790x10000Q90.jpg_.webp"
-      },
-      "reference_image_url": "assets/reference-samples/125-74f93be01bbf73a3.webp"
     }
   ],
   "unavailable_records": [
