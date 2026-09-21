@@ -6820,7 +6820,8 @@
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6a702f6974656d732f6d33303739373637303537352f",
         "observed_at": "2026-09-22T04:55:00Z",
         "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m30797670575_1.jpg?1780720213"
       },
       "reference_image_url": "assets/reference-samples/27-3b589fa991d8a5e6.webp"
     },
@@ -6882,7 +6883,8 @@
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f774765675a564b6a50567158685755576342796d6f4e2f",
         "observed_at": "2026-09-22T05:10:00Z",
         "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true
+        "is_wameiji_platform": true,
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/XAmE9hhts3ApgztQWASR6n.webp@jpg"
       },
       "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
     },
