@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:24:08.081268+00:00",
+  "generated_at": "2026-09-21T11:25:25.560810+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -634,16 +634,16 @@
       "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
       "wameiji": {
         "title": "魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON",
-        "version_evidence": "挖煤姬详情页标题明确为「魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON」；详情显示二手/接近未使用、8 张商品图、3,999 日元；说明为导入电脑曾开封一次。",
+        "version_evidence": "详情页标题与商品介绍确认《魔法使いの夜》初回限定仕様原声CD；商品状态“接近未使用”，说明为为导入电脑曾开封一次。与闲鱼样本同作品/初回形态，但该页是原声CD条目，不把它直接当成闲鱼3CD盒完整同版。",
         "catalog_no": null,
         "barcode": null,
         "price": 3999.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37383532363633393930372f",
-        "observed_at": "2026-09-21T10:25:04Z",
+        "observed_at": "2026-09-21T11:25:15Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWoZW26vsyhoRmCkGzCiY.webp@jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg"
       },
       "xianyu": {
         "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
@@ -3767,16 +3767,16 @@
       "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
       "wameiji": {
         "title": "魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON",
-        "version_evidence": "挖煤姬详情页标题明确为「魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON」；详情显示二手/接近未使用、8 张商品图、3,999 日元；说明为导入电脑曾开封一次。",
+        "version_evidence": "详情页标题与商品介绍确认《魔法使いの夜》初回限定仕様原声CD；商品状态“接近未使用”，说明为为导入电脑曾开封一次。与闲鱼样本同作品/初回形态，但该页是原声CD条目，不把它直接当成闲鱼3CD盒完整同版。",
         "catalog_no": null,
         "barcode": null,
         "price": 3999.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37383532363633393930372f",
-        "observed_at": "2026-09-21T10:25:04Z",
+        "observed_at": "2026-09-21T11:25:15Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWoZW26vsyhoRmCkGzCiY.webp@jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg"
       },
       "xianyu": {
         "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
