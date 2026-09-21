@@ -16,7 +16,6 @@ from cd_monitor.core.product_images import (
         "https://sig-image.oss-cn-beijing.aliyuncs.com/store/headDefaultMercari.png",
         "https://img.alicdn.com/imgextra/i4/example-2-tps-2-2.png",
         "https://image02.doorzo.net/imgrakutencojp/hmvjapan/cabinet/meyasu.gif",
-        "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress",
         "https://imghk02.doorzo.net/tshopr10sjp/renet3/cabinet/item_photo/img_noimage.jpg?fitin=600:600",
     ],
 )
@@ -26,6 +25,9 @@ def test_wameiji_site_chrome_is_not_a_usable_product_image(image_url: str) -> No
 
 def test_real_marketplace_image_remains_usable() -> None:
     assert is_usable_product_image("https://static.mercdn.net/item/detail/orig/photos/m123.jpg")
+    assert is_usable_product_image(
+        "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress"
+    )
 
 
 @pytest.mark.parametrize(

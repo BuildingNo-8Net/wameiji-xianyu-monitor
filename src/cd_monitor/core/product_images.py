@@ -6,7 +6,7 @@ from urllib.parse import urljoin, urlsplit
 
 _NON_PRODUCT_IMAGE = re.compile(
     r"(?:searchlist|placeholder|img_bg_wmj|headdefault|2-tps-2-2|paypaay|meyasu\.gif|"
-    r"(?:img_)?no[-_]?image|65cca9650d72043406a3b17c5e36a619|"
+    r"(?:img_)?no[-_]?image|"
     r"(?:^|/)logo(?:[._/?#]|$)|"
     r"(?:^|/)sigmerchantimg/logo(?:[._/?#]|$)|"
     r"(?:^|/)(?:avatar|icon|qrcode|qr-code|sold)(?:[._/?#]|$))",

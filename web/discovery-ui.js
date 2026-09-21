@@ -789,7 +789,7 @@
       url = new URL(relative, document.baseURI).toString();
     }
     if (!url) return "";
-    return /searchlist|placeholder|\/logo(?:[._/]|$)|sigmerchantimg\/logo|paypaay|mokaki\.cn\/(?:sigimage\/icon|ossimg\/)/i.test(url) ? "" : url;
+    return /searchlist|placeholder|\/logo(?:[._/]|$)|sigmerchantimg\/logo|paypaay|mokaki\.cn\/sigimage\/icon/i.test(url) ? "" : url;
   }
 
   function liquidityChip(value) {
