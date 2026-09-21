@@ -45,13 +45,13 @@
       "stable_key": "sample:a9d90f12e9ca56db33bf8d0cbec691301de16049652c9f7abbe3aa1145e97cc2",
       "wameiji": {
         "title": "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典 音楽 CD",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：TUYU「やっぱり雨は降るんだね」礼衣/Animate特典音乐CD；页面显示价格6,980日元、店铺卖家、成色“没有明显的损伤或污渍”。与闲鱼样本“礼衣 tuyu特典”标题一致，配件细节仍以图片/说明为准。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬详情页：TUYU「やっぱり雨は降るんだね」礼衣/Animate特典音乐CD；当前页面价格6,631日元（约295 CNY），店铺卖家，成色“没有明显的损伤或污渍”，日本国内运费卖家承担并可加入购物车。与闲鱼样本“礼衣 tuyu特典”标题一致，配件细节仍以图片/说明为准。",
         "catalog_no": null,
         "barcode": null,
-        "price": 6980.0,
+    "price": 6631.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f43435454774233584e45685738466a4e546e7755694b2f",
-        "observed_at": "2026-09-21T03:04:31Z",
+    "observed_at": "2026-09-22T09:20:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/hAKEAoC896BipW3MFHc767.jpg@jpg"
