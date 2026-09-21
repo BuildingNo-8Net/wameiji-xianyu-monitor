@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:25:25.560810+00:00",
+  "generated_at": "2026-09-21T11:31:44.978887+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2400,17 +2400,17 @@
       "reference_product_id": 102,
       "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
       "wameiji": {
-        "title": "YOASOBI THE BOOK 完全生産限定盤 LPレコード 新品 ピンク",
-        "version_evidence": "Current Wameiji detail identifies YOASOBI THE BOOK complete production limited pink-colour vinyl LP, released 2024-10-23; new unopened with manufacturer sticker; active buy page.",
+        "title": "YOASOBI THE BOOK 完全生産限定盤 アナログレコード LP",
+        "version_evidence": "Manual Chrome/IAB detail: YOASOBI THE BOOK complete-production-limited analog LP; description lists the THE BOOK track sequence (Epilogue, アンコール, ハルジオン, あの夢をなぞって, たぶん, 群青, ハルカ, 夜に駆ける, Prologue). Page shows 未使用, seller-paid domestic shipping, active buy page.",
         "catalog_no": null,
         "barcode": null,
-        "price": 14444.0,
+        "price": 16500.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3935373539323231313436",
-        "observed_at": "2026-09-19T12:10:22Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37343733303035313634362f",
+        "observed_at": "2026-09-21T11:31:33Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m95759221146_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg"
       },
       "xianyu": {
         "title": "终极现货★YOASOBI The BOOK1粉胶LP【此为订金】jp限定封面彩胶黑胶品相完好",
@@ -5782,17 +5782,17 @@
       "reference_product_id": 102,
       "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
       "wameiji": {
-        "title": "YOASOBI THE BOOK 完全生産限定盤 LPレコード 新品 ピンク",
-        "version_evidence": "Current Wameiji detail identifies YOASOBI THE BOOK complete production limited pink-colour vinyl LP, released 2024-10-23; new unopened with manufacturer sticker; active buy page.",
+        "title": "YOASOBI THE BOOK 完全生産限定盤 アナログレコード LP",
+        "version_evidence": "Manual Chrome/IAB detail: YOASOBI THE BOOK complete-production-limited analog LP; description lists the THE BOOK track sequence (Epilogue, アンコール, ハルジオン, あの夢をなぞって, たぶん, 群青, ハルカ, 夜に駆ける, Prologue). Page shows 未使用, seller-paid domestic shipping, active buy page.",
         "catalog_no": null,
         "barcode": null,
-        "price": 14444.0,
+        "price": 16500.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3935373539323231313436",
-        "observed_at": "2026-09-19T12:10:22Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37343733303035313634362f",
+        "observed_at": "2026-09-21T11:31:33Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m95759221146_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg"
       },
       "xianyu": {
         "title": "终极现货★YOASOBI The BOOK1粉胶LP【此为订金】jp限定封面彩胶黑胶品相完好",
