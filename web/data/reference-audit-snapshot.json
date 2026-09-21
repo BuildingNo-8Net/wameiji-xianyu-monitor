@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T10:25:14.473058+00:00",
+  "generated_at": "2026-09-21T10:31:27.878768+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 103 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 95,
+    "both_found_count": 96,
     "both_observed_count": 109,
     "single_observed_count": 12,
     "wameiji_platform_found_count": 103,
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 95
+      "count": 96
     },
     {
       "wameiji": "found",
@@ -31,7 +31,7 @@
     {
       "wameiji": "price_unfavorable",
       "xianyu": "found",
-      "count": 7
+      "count": 6
     },
     {
       "wameiji": "not_currently_listed",
@@ -814,6 +814,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/2220888712653/O1CN01uhuRUEHgKyK3thOC_!!4611686018427381197-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/42-764f8ee44d948dc0.webp"
+    },
+    {
+      "reference_product_id": 43,
+      "stable_key": "sample:7a375cf45a84b6a8262df9d8a5fffa144c0aa17594601bda4b6e1c014053d4b5",
+      "wameiji": {
+        "title": "【中古】同人音楽CDソフト Eureka / トーマ",
+        "version_evidence": "挖煤姬当前详情页标题为「【中古】同人音楽CDソフト Eureka / トーマ」；商品介绍明确 SDID-0001、2012/04/28、压制 CD、通常品相，曲目为 Eureka / tohma。",
+        "catalog_no": "SDID-0001",
+        "barcode": null,
+        "price": 48300.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4a766b4254616b3466585a474557745a5a79786e776b2f",
+        "observed_at": "2026-09-21T10:31:03Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/-/large/plain/aAfACWShaAZmp3bYTUc6ze.webp@jpg"
+      },
+      "xianyu": {
+        "title": "【预定】正品 Eureka tohma ユーリカ トーマ ボカロCD",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：1CD，日版正版预定；近全新带侧898、无侧868，页面标价868元。预定库存及侧标需在下单前确认，不能当作现货。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 868.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1077008889189&categoryId=126864811",
+        "observed_at": "2026-09-15T15:11:52Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/1621982376/O1CN01d3XDFmBFeLL1HJ3v_!!4611686018427387048-0-xy_item.jpg_Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/43-7a375cf45a84b6a8.webp"
     },
     {
       "reference_product_id": 46,
@@ -3890,17 +3921,17 @@
       "reference_product_id": 43,
       "stable_key": "sample:7a375cf45a84b6a8262df9d8a5fffa144c0aa17594601bda4b6e1c014053d4b5",
       "wameiji": {
-        "title": "Eureka tohma ユーリカ トーマ ボカロCD",
-        "version_evidence": "人工内置浏览器挖煤姬精确检索结果的具体商品链接：トーマ Eureka ボカロCD，二手，10,800日元；侧标、品相与闲鱼预定商品未逐项确认。",
-        "catalog_no": null,
+        "title": "【中古】同人音楽CDソフト Eureka / トーマ",
+        "version_evidence": "挖煤姬当前详情页标题为「【中古】同人音楽CDソフト Eureka / トーマ」；商品介绍明确 SDID-0001、2012/04/28、压制 CD、通常品相，曲目为 Eureka / tohma。",
+        "catalog_no": "SDID-0001",
         "barcode": null,
-        "price": 10800.0,
+        "price": 48300.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31363135393839313937332f",
-        "observed_at": "2026-09-15T15:11:52Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4a766b4254616b3466585a474557745a5a79786e776b2f",
+        "observed_at": "2026-09-21T10:31:03Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m16159891973_1.jpg"
+        "image_url": "https://imghk.doorzo.net/-/large/plain/aAfACWShaAZmp3bYTUc6ze.webp@jpg"
       },
       "xianyu": {
         "title": "【预定】正品 Eureka tohma ユーリカ トーマ ボカロCD",
