@@ -1,32 +1,32 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T12:03:43.069725+00:00",
+  "generated_at": "2026-09-21T12:05:57.410111+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 108 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 100,
+    "both_found_count": 101,
     "both_observed_count": 110,
-    "single_observed_count": 11,
-    "wameiji_platform_found_count": 108,
-    "found_any_count": 119,
-    "not_currently_listed_both_count": 6
+    "single_observed_count": 13,
+    "wameiji_platform_found_count": 110,
+    "found_any_count": 120,
+    "not_currently_listed_both_count": 5
   },
   "state_pairs": [
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 100
+      "count": 101
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 6
+      "count": 7
     },
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 10
+      "count": 9
     },
     {
       "wameiji": "price_unfavorable",
@@ -36,7 +36,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 6
+      "count": 5
     }
   ],
   "dual_found_pairs": [
@@ -721,6 +721,36 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01uYwkTv1xEkfuoU8Ux_!!4611686018427386604-0-fleamarket.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/29-ddcbc943aeb23cba.webp"
+    },
+    {
+      "reference_product_id": 30,
+      "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
+      "wameiji": {
+        "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
+        "version_evidence": null,
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393534313030323139362f",
+        "observed_at": "2026-09-21T12:04:37Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556"
+      },
+      "xianyu": {
+        "title": "Broccoli ゆずソフト D賞-④ 千恋*万花 assembly card storage box",
+        "version_evidence": "Source image character set identifies the D-prize 千恋*万花 storage box (朝武芳乃, 丛雨, 常陆茉子, 蕾娜). Active Japanese Broccoli listing specifies the exact D赏-④ cover, new sealed.",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 50.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E6%9F%9A%E5%AD%90%E7%A4%BE%20%E5%9C%A8%E5%8E%9F%E4%B8%83%E6%B5%B7%20%E4%B8%9B%E9%9B%A8%20%E8%8C%89%E5%AD%90%20%E8%95%BE%E5%A8%9C%20%E7%9B%92%E5%AD%90",
+        "observed_at": "2026-09-11T04:37:26Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
+      },
+      "reference_image_url": "assets/reference-samples/30-d626a72b6c446739.webp"
     },
     {
       "reference_product_id": 34,
@@ -6661,6 +6691,48 @@
       "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp"
     },
     {
+      "reference_product_id": 30,
+      "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "found",
+      "observation": {
+        "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
+        "version_evidence": null,
+        "catalog_no": null,
+        "barcode": null,
+        "price": 1999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393534313030323139362f",
+        "observed_at": "2026-09-21T12:04:37Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556"
+      },
+      "reference_image_url": "assets/reference-samples/30-d626a72b6c446739.webp"
+    },
+    {
+      "reference_product_id": 31,
+      "stable_key": "sample:e78d933355ffe3d1523636f9ced7999b538b4e9d16899a03447213a0bc171b6c",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "【中古】アニメムック ≪イラスト画集≫ 杉菜水姫(スギナミキ)作品第二集 『花葬』",
+        "version_evidence": null,
+        "catalog_no": null,
+        "barcode": null,
+        "price": 37000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f774765675a564b6a50567158685755576342796d6f4e2f",
+        "observed_at": "2026-09-21T12:05:15Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://image02.doorzo.net/-/large/plain/XAmE9hhts3ApgztQWASR6n.webp@jpg"
+      },
+      "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
+    },
+    {
       "reference_product_id": 33,
       "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
       "available_market": "xianyu",
@@ -6789,87 +6861,19 @@
   ],
   "unavailable_records": [
     {
-      "reference_product_id": 30,
-      "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "found",
-      "wameiji": {
-        "title": "RIDDLE JOKER lunchbox - no exact match",
-        "version_evidence": "Manual Meruki search returned RIDDLE JOKER character goods, clear files, drama CDs, and a soundtrack box, but no lunchbox; the soundtrack box is a different item type.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=%E3%82%86%E3%81%9A%E3%82%BD%E3%83%95%E3%83%88%20RIDDLE%20JOKER%20%E3%83%A9%E3%83%B3%E3%83%81%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9",
-        "observed_at": "2026-09-21T10:23:00Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m46029609421_1.jpg?1789780588",
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "Broccoli ゆずソフト D賞-④ 千恋*万花 assembly card storage box",
-        "version_evidence": "Source image character set identifies the D-prize 千恋*万花 storage box (朝武芳乃, 丛雨, 常陆茉子, 蕾娜). Active Japanese Broccoli listing specifies the exact D赏-④ cover, new sealed.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 50.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E6%9F%9A%E5%AD%90%E7%A4%BE%20%E5%9C%A8%E5%8E%9F%E4%B8%83%E6%B5%B7%20%E4%B8%9B%E9%9B%A8%20%E8%8C%89%E5%AD%90%20%E8%95%BE%E5%A8%9C%20%E7%9B%92%E5%AD%90",
-        "observed_at": "2026-09-11T04:37:26Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "found"
-      },
-      "reference_image_url": "assets/reference-samples/30-d626a72b6c446739.webp"
-    },
-    {
-      "reference_product_id": 31,
-      "stable_key": "sample:e78d933355ffe3d1523636f9ced7999b538b4e9d16899a03447213a0bc171b6c",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "CAUCASUS Sugina Miki Artworks - no exact match",
-        "version_evidence": "Manual Meruki search returned unrelated art plates and Innocent Grey/Sugina Miki telephone/tableau cards, but no CAUCASUS physical artbook; these are not substitutes.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=CAUCASUS+%E6%9D%89%E8%8F%9C%E6%B0%B4%E5%A7%AB+Artworks",
-        "observed_at": "2026-09-21T10:24:00Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/XAmE9hhts3ApgztQWASR6n.webp@jpg",
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "CAUCASUS / 七凭之祭 杉菜水姫 broad search: no matching physical artbook",
-        "version_evidence": "人工Chrome打开闲鱼检索「CAUCASUS Miki Sugina Artworks」「杉菜水姫 画集」「七凭之祭 杉菜水姫」；英文精确检索无结果，作者检索出现《濡烏》实体书但不是样本 CAUCASUS，七凭之祭结果为四种画集百度网盘电子版及《白雪》游戏本体，未见样本照片对应的实体画集，排除电子版和游戏。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E4%B8%83%E5%87%AD%E4%B9%8B%E7%A5%AD%20%E6%9D%89%E8%8F%9C%E6%B0%B4%E5%A7%AB",
-        "observed_at": "2026-09-19T15:52:20Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
-    },
-    {
       "reference_product_id": 32,
       "stable_key": "sample:8719026bf4cd723459f1664713f434a8cce9c4257849655f2dcd47dbbf36f9c9",
       "wameiji_state": "not_currently_listed",
       "xianyu_state": "not_currently_listed",
       "wameiji": {
-        "title": "虚ノ少女 初回限定版 PC游戏收纳盒",
-        "version_evidence": "样本图为 Innocent Grey/杉菜水姫《虚ノ少女》初回收纳盒：黑发女学生、铁栏、白蝴蝶画面。人工打开挖煤姬搜索「Innocent Grey 杉菜水姫 初回 収納BOX」和「Innocent Grey 初回 収納ボックス」，只见无关収納盒、Innocent Grey×Liar-soft文件夹及白夜展览等近似品，没有同版收纳盒；未替换近似品。",
+        "title": "虚ノ少女 Innocent Grey 初回游戏盒（挖煤姬当前未见同版）",
+        "version_evidence": null,
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=Innocent+Grey+%E6%9D%89%E8%8F%9C%E6%B0%B4%E5%A7%AB+%E5%88%9D%E5%9B%9E+%E5%8F%8E%E7%B4%8DBOX",
-        "observed_at": "2026-09-21T10:09:25Z",
+        "source_url": "https://www.meruki.cn/search?keywords=%E8%99%9A%E3%83%8E%E5%B0%91%E5%A5%B3%20%E5%88%9D%E5%9B%9E%E7%89%88%20Innocent%20Grey&website=mercari",
+        "observed_at": "2026-09-21T12:05:40Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m57063581162_1.jpg?1787835918",
