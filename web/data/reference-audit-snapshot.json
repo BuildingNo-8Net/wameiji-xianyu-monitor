@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:02:31.160424+00:00",
+  "generated_at": "2026-09-21T11:05:51.855910+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 105 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 106 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 96,
     "both_observed_count": 109,
     "single_observed_count": 12,
-    "wameiji_platform_found_count": 105,
+    "wameiji_platform_found_count": 106,
     "found_any_count": 119,
     "not_currently_listed_both_count": 6
   },
@@ -695,17 +695,17 @@
       "reference_product_id": 29,
       "stable_key": "sample:ddcbc943aeb23cbafacd934dbcadbb388b9c4b4670f0171419545cdd74e8ce5f",
       "wameiji": {
-        "title": "トロイメライ 初回限定版 Innocent Grey Haruka Shimotsuki Collection 新品未開封",
-        "version_evidence": "Exact initial-limited edition is listed. The result set also contains standard editions and related FLOWERS soundtracks; retain the photographed Traumerei initial-edition identity rather than substituting them.",
+        "title": "トロイメライ 初回限定版 新品未開封 Innocent Grey 霜月はるか",
+        "version_evidence": "挖煤姬具体详情页标题明确为《トロイメライ -Innocent Grey Haruka Shimotsuki Collection-》霜月はるか初回限定版；描述明确列出初回特典：オリジナルコースター2枚、特装パッケージ；商品状态未使用/新品未开封，生产结束。",
         "catalog_no": null,
         "barcode": null,
         "price": 33000.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=Innocent+Grey+%E9%9C%9C%E6%9C%88%E3%81%AF%E3%82%8B%E3%81%8B+%E3%83%88%E3%83%AD%E3%82%A4%E3%83%A1%E3%83%A9%E3%82%A4",
-        "observed_at": "2026-09-11T02:25:01Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31363232323635383832372f",
+        "observed_at": "2026-09-21T11:05:42Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWm7aYJgSwGqhwdtBPEjb.webp@jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m16222658827_1.jpg"
       },
       "xianyu": {
         "title": "【现货】Innocent grey 原生音乐CD…Haruka Shimotsuki Collection ｢トロイメライ｣ [右]亲签日版原版",
@@ -3735,30 +3735,30 @@
       "reference_product_id": 29,
       "stable_key": "sample:ddcbc943aeb23cbafacd934dbcadbb388b9c4b4670f0171419545cdd74e8ce5f",
       "wameiji": {
-        "title": "【中古】アニメ系CD 霜月はるか / トロイメライ -Innocent Grey Haruka Shimotsuki Collection-[初回版]",
-        "version_evidence": "挖煤姬详情：Innocent Grey《トロイメライ -Haruka Shimotsuki Collection-》初回版，品番 GUN-0018，2011-01-14 发售；豪华特制包装和原创杯垫2张，标价 5,761 日元。",
-        "catalog_no": "GUN-0018",
+        "title": "トロイメライ 初回限定版 新品未開封 Innocent Grey 霜月はるか",
+        "version_evidence": "挖煤姬具体详情页标题明确为《トロイメライ -Innocent Grey Haruka Shimotsuki Collection-》霜月はるか初回限定版；描述明确列出初回特典：オリジナルコースター2枚、特装パッケージ；商品状态未使用/新品未开封，生产结束。",
+        "catalog_no": null,
         "barcode": null,
-        "price": 5761.0,
+        "price": 33000.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576d37615a396d713673747944756274683444742f",
-        "observed_at": "2026-09-19T05:09:00Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31363232323635383832372f",
+        "observed_at": "2026-09-21T11:05:42Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWm7aYJgSwGqhwdtBPEjb.webp@jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m16222658827_1.jpg"
       },
       "xianyu": {
         "title": "【现货】Innocent grey 原生音乐CD…Haruka Shimotsuki Collection ｢トロイメライ｣ [右]亲签日版原版",
-        "version_evidence": "闲鱼样本详情与实拍锁定 Innocent Grey Haruka Shimotsuki Collection《トロイメライ》；挂牌为4张CD组合，目标盘标注亲签日版原版，标价 5,000 CNY。与挖煤姬初回版身份一致，但亲签/组合附件与杯垫未在两侧同时证实。",
+        "version_evidence": "Title includes exact Haruka Shimotsuki Collection トロイメライ; observed offer is 4 CDs bundled and says the target disc is personally signed.",
         "catalog_no": null,
         "barcode": null,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01uYwkTv1xEkfuoU8Ux_!!4611686018427386604-0-fleamarket.jpg_Q90.jpg_.webp",
         "price": 5000.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=990215330547&categoryId=126864811",
-        "observed_at": "2026-09-19T05:09:00Z",
+        "observed_at": "2026-09-14T02:06:58Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01uYwkTv1xEkfuoU8Ux_!!4611686018427386604-0-fleamarket.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/29-ddcbc943aeb23cba.webp"
     },
