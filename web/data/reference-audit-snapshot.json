@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:12:13.072866+00:00",
+  "generated_at": "2026-09-21T11:13:39.988973+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 97,
+    "both_found_count": 98,
     "both_observed_count": 109,
     "single_observed_count": 12,
     "wameiji_platform_found_count": 107,
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 97
+      "count": 98
     },
     {
       "wameiji": "found",
@@ -31,7 +31,7 @@
     {
       "wameiji": "price_unfavorable",
       "xianyu": "found",
-      "count": 5
+      "count": 4
     },
     {
       "wameiji": "not_currently_listed",
@@ -1961,6 +1961,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01ntVwMy1H0oktdKR30_!!4611686018427384392-0-fleamarket.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/88-aa8528ffb6b41761.webp"
+    },
+    {
+      "reference_product_id": 89,
+      "stable_key": "sample:7413129e61379bdaca18140c60d45159e0f9ba04ae999335ca5ff6b5a1f9a37b",
+      "wameiji": {
+        "title": "Ado Adoのベストアルバム Vol.1 完全生産限定盤 アナログレコード",
+        "version_evidence": "人工 Chrome/IAB 打开挖煤姬真实详情页；标题明确为 Ado《Adoのベストアルバム Vol.1》完全生産限定盤アナログレコード；商品介绍明确为 2枚组重量盘、外袋付き未開封，购买后保管。未混录 Vol.2、Vol.1+Vol.2 套装或 CD。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 26800.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31333832353137333832382f",
+        "observed_at": "2026-09-21T11:13:29Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m13825173828_1.jpg"
+      },
+      "xianyu": {
+        "title": "Ado（黑胶预定）Adoのベストアドバム Vol.1＜完全生産限定盤(数量限定)＞日版12寸双LP",
+        "version_evidence": "Manual exact result identifies TYJT-59012, SKU 4988031764633, 2025-07-30, 2 heavyweight LP. The card is explicitly a pre-order and asks buyer to contact seller to change/confirm price, not a ready-stock domestic resale proof.",
+        "catalog_no": "TYJT-59012",
+        "barcode": "4988031764633",
+        "price": 248.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=948439049498&categoryId=126864811",
+        "observed_at": "2026-09-14T18:27:37Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/52194232/O1CN01k0mwPnBbwKL1dy1y_!!4611686018427382712-0-xy_item.jpg_Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/89-7413129e61379bda.webp"
     },
     {
       "reference_product_id": 90,
@@ -5317,17 +5348,17 @@
       "reference_product_id": 89,
       "stable_key": "sample:7413129e61379bdaca18140c60d45159e0f9ba04ae999335ca5ff6b5a1f9a37b",
       "wameiji": {
-        "title": "【未開封】Adoのベストアドバム Vol.1 アナログ盤【完全生産限定盤】",
-        "version_evidence": "Manual detail confirms the exact Vol.1 complete-production-limited 2LP (33 1/3 rpm), 20 track titles and ORIHARA new illustration; entry was opened via exact query TYJT-59012 / 4988031764633, although detail body omits catalog/JAN.",
-        "catalog_no": "TYJT-59012",
-        "barcode": "4988031764633",
-        "price": 40000.0,
+        "title": "Ado Adoのベストアルバム Vol.1 完全生産限定盤 アナログレコード",
+        "version_evidence": "人工 Chrome/IAB 打开挖煤姬真实详情页；标题明确为 Ado《Adoのベストアルバム Vol.1》完全生産限定盤アナログレコード；商品介绍明确为 2枚组重量盘、外袋付き未開封，购买后保管。未混录 Vol.2、Vol.1+Vol.2 套装或 CD。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 26800.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuma/detail/44ec81dec45afb371fb320cc290db31c",
-        "observed_at": "2026-09-14T18:27:37Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31333832353137333832382f",
+        "observed_at": "2026-09-21T11:13:29Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://img.fril.jp/img/816497987/l/2800832029.jpg?updated_at=2026-02-17T00:18:45.000Z&1771287525="
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m13825173828_1.jpg"
       },
       "xianyu": {
         "title": "Ado（黑胶预定）Adoのベストアドバム Vol.1＜完全生産限定盤(数量限定)＞日版12寸双LP",
