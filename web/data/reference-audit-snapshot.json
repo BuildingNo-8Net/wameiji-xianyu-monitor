@@ -10,7 +10,7 @@
     "single_observed_count": 12,
     "wameiji_platform_found_count": 103,
     "found_any_count": 119,
-    "not_currently_listed_both_count": 4
+    "not_currently_listed_both_count": 5
   },
   "state_pairs": [
     {
@@ -36,12 +36,12 @@
     {
       "wameiji": "blocked",
       "xianyu": "blocked",
-      "count": 2
+      "count": 1
     },
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 4
+      "count": 5
     }
   ],
   "dual_found_pairs": [
@@ -6699,34 +6699,34 @@
     {
       "reference_product_id": 32,
       "stable_key": "sample:8719026bf4cd723459f1664713f434a8cce9c4257849655f2dcd47dbbf36f9c9",
-      "wameiji_state": "blocked",
-      "xianyu_state": "blocked",
+      "wameiji_state": "not_currently_listed",
+      "xianyu_state": "not_currently_listed",
       "wameiji": {
-        "title": "IG社 初回收纳盒: exact release title remains unidentified; no matching current card",
-        "version_evidence": "人工Chrome打开挖煤姬「IG社 初回 収纳盒」与「Innocent Grey 初回 収納ボックス」；前者只返回普通収納ボックス、IG Model展示盒等无关结果，后者虽出现 Innocent Grey×Liar-soft 文件夹与 Innocent Grey Art Exhibition「白夜」等近似物，但没有样本照片对应的IG社视觉小说初回收纳盒。样本原图标题仍只写IG社 游戏 初回收纳盒且游戏名被遮挡，不能把近似品当作同版。",
+        "title": "虚ノ少女 初回限定版 PC游戏收纳盒",
+        "version_evidence": "样本图为 Innocent Grey/杉菜水姫《虚ノ少女》初回收纳盒：黑发女学生、铁栏、白蝴蝶画面。人工打开挖煤姬搜索「Innocent Grey 杉菜水姫 初回 収納BOX」和「Innocent Grey 初回 収納ボックス」，只见无关収納盒、Innocent Grey×Liar-soft文件夹及白夜展览等近似品，没有同版收纳盒；未替换近似品。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=Innocent+Grey+%E5%88%9D%E5%9B%9E+%E5%8F%8E%E7%B4%8D%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9",
-        "observed_at": "2026-09-19T16:03:15Z",
+        "source_url": "https://www.meruki.cn/search?keywords=Innocent+Grey+%E6%9D%89%E8%8F%9C%E6%B0%B4%E5%A7%AB+%E5%88%9D%E5%9B%9E+%E5%8F%8E%E7%B4%8DBOX",
+        "observed_at": "2026-09-21T10:09:25Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m57063581162_1.jpg?1787835918",
-        "state": "blocked"
+        "state": "not_currently_listed"
       },
       "xianyu": {
-        "title": "IG社 初回收纳盒: exact release title remains unidentified; only near-match bundles found",
-        "version_evidence": "人工Chrome打开闲鱼「IG社 初回 收纳盒」「Innocent Grey 初回 收纳盒」「壳之少女 收纳盒」「虚之少女 收纳盒」；精确IG社检索无结果；Innocent Grey检索仅有「壳之少女初版 虚之少女 初回特典 Leilian」收纳盒+画集+本体打包页，详情图为Leilian套装且不是样本照片的蝴蝶/铁栏女孩收纳盒；壳之少女检索无结果，虚之少女检索为魔法少女小圆等无关收纳盒。样本标题和游戏名被遮挡，不能确认同版，保留blocked。",
+        "title": "虚ノ少女 初回限定版 PC游戏收纳盒",
+        "version_evidence": "样本图为 Innocent Grey/杉菜水姫《虚ノ少女》初回收纳盒：黑发女学生、铁栏、白蝴蝶画面。人工打开闲鱼搜索「IG社 游戏 初回收纳盒」和「杉菜水姫 视觉小说」，均显示“小闲鱼没有找到你想要的宝贝”，推荐区只有无关商品；未替换近似品。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=IG%E7%A4%BE%20%E5%88%9D%E5%9B%9E%20%E6%94%B6%E7%BA%B3%E7%9B%92",
-        "observed_at": "2026-09-19T16:03:15Z",
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/search?q=%E6%9D%89%E8%8F%9C%E6%B0%B4%E5%A7%AB%20%E8%A7%86%E8%A7%89%E5%B0%8F%E8%AF%B4",
+        "observed_at": "2026-09-21T10:09:25Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "state": "blocked"
+        "state": "not_currently_listed"
       },
       "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp"
     },
