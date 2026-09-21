@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T08:03:27.438898+00:00",
+  "generated_at": "2026-09-21T08:11:47.430329+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 102 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 103 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 95,
     "both_observed_count": 109,
-    "single_observed_count": 11,
-    "wameiji_platform_found_count": 102,
-    "found_any_count": 118,
-    "not_currently_listed_both_count": 5
+    "single_observed_count": 12,
+    "wameiji_platform_found_count": 103,
+    "found_any_count": 119,
+    "not_currently_listed_both_count": 4
   },
   "state_pairs": [
     {
@@ -21,7 +21,7 @@
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 5
+      "count": 6
     },
     {
       "wameiji": "not_currently_listed",
@@ -41,7 +41,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 5
+      "count": 4
     }
   ],
   "dual_found_pairs": [
@@ -6522,6 +6522,27 @@
       "reference_image_url": "assets/reference-samples/36-01627ff9b576bd11.webp"
     },
     {
+      "reference_product_id": 37,
+      "stable_key": "sample:58baee497a1a4eb6a23c2d1587b4e398c4f2cbcb78074125fb7efe9595cfd864",
+      "available_market": "wameiji",
+      "missing_market": "xianyu",
+      "counterpart_state": "not_currently_listed",
+      "observation": {
+        "title": "ブロッコリートレカアイテムくじSP ゆずソフト カードボックス 3個セット【サノバウィッチ・ドラクリオット・天色アイルノーツ】",
+        "version_evidence": "详情页标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含ドラクリオット卡盒；样本闲鱼是单个DR盒并称含日历，未把套装拆分或配件假定为同款。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2400.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/paypay/detail/z592026118",
+        "observed_at": "2026-09-21T08:11:26Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0204/users/c28e5dc80e38b7d34c4130cd97a314d97d0167e0/i-img900x1200-1776057969444siplc4.jpg"
+      },
+      "reference_image_url": "assets/reference-samples/37-58baee497a1a4eb6.webp"
+    },
+    {
       "reference_product_id": 40,
       "stable_key": "sample:bf016599131551025a47e66d48c9c8bc56f7b14be36b31f7691866f1e434e06b",
       "available_market": "xianyu",
@@ -6708,40 +6729,6 @@
         "state": "blocked"
       },
       "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp"
-    },
-    {
-      "reference_product_id": 37,
-      "stable_key": "sample:58baee497a1a4eb6a23c2d1587b4e398c4f2cbcb78074125fb7efe9595cfd864",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
-      "wameiji": {
-        "title": "ドラクリオット DRACU-RIOT 初回限定盒",
-        "version_evidence": "Manual Chrome/IAB search showed a single-character Chaos DRACU-RIOT item and unrelated first-press goods; no four-character pink-diamond DRACU-RIOT box/OST set matching the sample.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E3%83%89%E3%83%A9%E3%82%AF%E3%83%AA%E3%82%AA%E3%83%83%E3%83%88+%E5%88%9D%E5%9B%9E",
-        "observed_at": "2026-09-21T06:35:18Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m87811092722_1.jpg?1785696321",
-        "state": "not_currently_listed"
-      },
-      "xianyu": {
-        "title": "DRACU RIOT exact sample box not found; near-match OST box excluded",
-        "version_evidence": "人工Chrome打开闲鱼「柚子社 DRACU-RIOT 盒子」；找到当前「DRACU RIOT 全新」¥358详情页，标题/描述为OST+特别版外盒，仅BOX+OST，详情实物图分别显示红黑双人面与紫白双人面，和样本照片中粉色菱格、四角色整面图不一致；其他色纸、角色歌CD、徽章、手办等均为不同物。未找到样本同版当前页。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/item?id=1069187873921&categoryId=126864811",
-        "observed_at": "2026-09-19T16:12:50Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "state": "not_currently_listed"
-      },
-      "reference_image_url": "assets/reference-samples/37-58baee497a1a4eb6.webp"
     },
     {
       "reference_product_id": 68,
