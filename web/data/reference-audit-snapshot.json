@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:13:39.988973+00:00",
+  "generated_at": "2026-09-21T11:16:23.753052+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 98,
+    "both_found_count": 99,
     "both_observed_count": 109,
     "single_observed_count": 12,
     "wameiji_platform_found_count": 107,
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 98
+      "count": 99
     },
     {
       "wameiji": "found",
@@ -31,7 +31,7 @@
     {
       "wameiji": "price_unfavorable",
       "xianyu": "found",
-      "count": 4
+      "count": 3
     },
     {
       "wameiji": "not_currently_listed",
@@ -1248,6 +1248,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2200652624652/O1CN018VgtMa1kEfdkDXyGU_!!4611686018427384588-53-xy_item.heic_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/61-33c06eb55da66686.webp"
+    },
+    {
+      "reference_product_id": 62,
+      "stable_key": "sample:bff8940f0463daa789c026a5da0ed2842d7aea3fc8c1f9904c2956ae54a10a42",
+      "wameiji": {
+        "title": "米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK",
+        "version_evidence": "人工 Chrome/IAB 打开挖煤姬真实详情页；商品描述明确列出 IRIS OUT、JANE DOE、KICK BACK 以及 Frost Children、Hudson Mohawke、Tomggg 的 3 首 KICK BACK Remix；页面标注未使用、4 张实物图、5,150 日元。详情正文未明确写欧洲限定、12 英寸或转速，故与样本的欧洲限定 12 英寸 LP 仅作为同轨目观察，版次/介质待复核。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 5150.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34323232353438383933392f",
+        "observed_at": "2026-09-21T11:16:13Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m42225488939_1.jpg"
+      },
+      "xianyu": {
+        "title": "电锯人蕾塞篇 IRIS OUT / JANE DOE / KICK BACK 欧洲限定12寸黑胶 LP",
+        "version_evidence": "Chrome 人工详情：标题及轨目逐项列出相同六曲和三首 KICK BACK Remix；全新、有原袋，卖家声称 Sony 原装进口/欧洲限定。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 205.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1068665483054&categoryId=126860296",
+        "observed_at": "2026-09-14T18:34:30Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/20297417/O1CN011pYQkE24f2mAXv37v_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/62-bff8940f0463daa7.webp"
     },
     {
       "reference_product_id": 63,
@@ -4542,17 +4573,17 @@
       "reference_product_id": 62,
       "stable_key": "sample:bff8940f0463daa789c026a5da0ed2842d7aea3fc8c1f9904c2956ae54a10a42",
       "wameiji": {
-        "title": "米津玄師 IRIS OUT / JANE DOE / KICK BACK 輸入アナログ盤",
-        "version_evidence": "Chrome 人工详情：新品未开封进口12英寸45转黑胶；A面 IRIS OUT、JANE DOE、KICK BACK，B面三首 KICK BACK Remix。与样本的六曲12寸黑胶轨目和形态对应；页面提醒进口盘/封套/内页可能有不影响播放的擦痕、折痕或损伤。",
+        "title": "米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK",
+        "version_evidence": "人工 Chrome/IAB 打开挖煤姬真实详情页；商品描述明确列出 IRIS OUT、JANE DOE、KICK BACK 以及 Frost Children、Hudson Mohawke、Tomggg 的 3 首 KICK BACK Remix；页面标注未使用、4 张实物图、5,150 日元。详情正文未明确写欧洲限定、12 英寸或转速，故与样本的欧洲限定 12 英寸 LP 仅作为同轨目观察，版次/介质待复核。",
         "catalog_no": null,
         "barcode": null,
-        "price": 4600.0,
+        "price": 5150.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d39393830363831363536392f",
-        "observed_at": "2026-09-14T18:34:30Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34323232353438383933392f",
+        "observed_at": "2026-09-21T11:16:13Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m99806816569_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m42225488939_1.jpg"
       },
       "xianyu": {
         "title": "电锯人蕾塞篇 IRIS OUT / JANE DOE / KICK BACK 欧洲限定12寸黑胶 LP",
