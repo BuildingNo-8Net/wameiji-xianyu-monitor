@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:49:22.271512+00:00",
+  "generated_at": "2026-09-21T11:54:53.592534+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 108 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -107,16 +107,16 @@
       "stable_key": "sample:2ab9b3aa29d6a05cfaaf3b6497f8ba709e3fbd135fb92451f5ae383cc3312334",
       "wameiji": {
         "title": "【特価商品】ハミダシクリエイティブ凸 初回版",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：店铺卖家田舎ショップ，未使用，初回版；页面说明为《ハミダシクリエイティブ》续作，新增天梨路线及主女主新剧情；价格10,762日元、日本国内运费卖家承担、代购手续费300日元、无物流保障。页面提示也可能在其他站点售出而缺货；与闲鱼样本版本和附件仍需逐项核对。",
+        "version_evidence": "挖煤姬详情人工复核：未使用、店铺卖家、卖家承担日本国内运费、无物流保障；描述含《ハミダシクリエイティブ凸》初回版。",
         "catalog_no": null,
         "barcode": null,
         "price": 10762.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4d6a62484c4e577a4e6d71554a5173796b6461662f",
-        "observed_at": "2026-09-21T04:12:42Z",
+        "observed_at": "2026-09-21T11:54:43Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JMjb7zca6Cq8Vwg8JZjxP.jpg@jpg"
+        "image_url": "https://image02.doorzo.net/-/large/plain/2JMjb7zca6Cq8Vwg8JZjxP.jpg@jpg"
       },
       "xianyu": {
         "title": "灵感满溢的甜蜜创想凸 初回版",
@@ -3209,16 +3209,16 @@
       "stable_key": "sample:2ab9b3aa29d6a05cfaaf3b6497f8ba709e3fbd135fb92451f5ae383cc3312334",
       "wameiji": {
         "title": "【特価商品】ハミダシクリエイティブ凸 初回版",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：店铺卖家田舎ショップ，未使用，初回版；页面说明为《ハミダシクリエイティブ》续作，新增天梨路线及主女主新剧情；价格10,762日元、日本国内运费卖家承担、代购手续费300日元、无物流保障。页面提示也可能在其他站点售出而缺货；与闲鱼样本版本和附件仍需逐项核对。",
+        "version_evidence": "挖煤姬详情人工复核：未使用、店铺卖家、卖家承担日本国内运费、无物流保障；描述含《ハミダシクリエイティブ凸》初回版。",
         "catalog_no": null,
         "barcode": null,
         "price": 10762.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4d6a62484c4e577a4e6d71554a5173796b6461662f",
-        "observed_at": "2026-09-21T04:12:42Z",
+        "observed_at": "2026-09-21T11:54:43Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JMjb7zca6Cq8Vwg8JZjxP.jpg@jpg"
+        "image_url": "https://image02.doorzo.net/-/large/plain/2JMjb7zca6Cq8Vwg8JZjxP.jpg@jpg"
       },
       "xianyu": {
         "title": "灵感满溢的甜蜜创想凸 初回版",
