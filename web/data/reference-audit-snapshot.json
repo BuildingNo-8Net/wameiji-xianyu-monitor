@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T02:40:00+08:00",
+  "generated_at": "2026-09-22T03:50:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6811,17 +6811,16 @@
       "missing_market": "xianyu",
       "counterpart_state": "not_currently_listed",
       "observation": {
-        "title": "【新品未開封】オトメ*ドメイン RADIO*MAIDEN Vol.10",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：页面标题标“新品未開封”，商品状态为“未使用”，价格4,980日元，日本国内运费卖家承担，代购手续费200日元，4~7日发货，无物流保障，活动中；描述为 Radio CD，卖家模板说明只出售照片中物品，附属物/外盒/特典/带等需以照片为准，未提供更细的版本清单。页面有还价、加入购物车、立即购买。",
+        "title": "オトメ*ドメイン RADIO*MAIDEN Vol.10",
+        "version_evidence": "人工 Chrome/IAB 精确检索：闲鱼结果页显示“小闲鱼没有找到你想要的宝贝~”，仅展示与该标题无关的推荐商品；未出现 Vol.10 同版商品卡。",
         "catalog_no": null,
         "barcode": null,
         "price": 4980.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303739373637303537352f",
-        "observed_at": "2026-09-21T04:33:09Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m30797670575_1.jpg"
+        "source_url": "https://www.goofish.com/search?q=%E3%82%AA%E3%83%88%E3%83%A1%20%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%20RADIO%20MAIDEN%20Vol.10",
+        "observed_at": "2026-09-22T03:50:00Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false
       },
       "reference_image_url": "assets/reference-samples/27-3b589fa991d8a5e6.webp"
     },
