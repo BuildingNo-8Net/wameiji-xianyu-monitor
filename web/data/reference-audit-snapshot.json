@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T01:15:00+08:00",
+  "generated_at": "2026-09-22T01:30:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6833,7 +6833,7 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "narcissu 水仙 C83场贩小说 两本一起",
-        "version_evidence": "人工内置浏览器当前详情页：标题明确为narcissu（水仙）C83场贩小说两本一起；成色几乎全新；页面显示400 CNY包邮、1人想要、132浏览，并有立即购买。",
+        "version_evidence": "闲鱼侧人工内置浏览器详情页：标题明确为 narcissu（水仙）C83 场贩小说两本一起；成色几乎全新；页面显示400 CNY包邮、1人想要、132浏览，并有立即购买。挖煤姬侧人工检索 narcissu C83 小说显示“暂无数据”，Mercari 无同版商品；保留为闲鱼单边主要观察对象。",
         "catalog_no": null,
         "barcode": null,
         "price": 400.0,
