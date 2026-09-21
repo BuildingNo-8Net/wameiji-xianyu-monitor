@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T10:54:02.741278+00:00",
+  "generated_at": "2026-09-21T11:02:31.160424+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 105 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6617,17 +6617,17 @@
       "missing_market": "xianyu",
       "counterpart_state": "not_currently_listed",
       "observation": {
-        "title": "【国内盤ブルーレイ】羅小黒戦記2 ぼくらが望む未来 特装版[初回出荷限定数量限定]",
-        "version_evidence": "Manual Chrome Wameiji detail verification: exact Blu-ray special edition. Detail states title, ANZX-17013～8, JAN 4534530164766, release 2026-07-22, original soundtrack CD1/2, new condition, 17,600 JPY, and orderable with 1-4 week dispatch; figure/extra bundle contents were not inferred beyond the detail.",
-        "catalog_no": "ANZX-17013～8",
-        "barcode": "4534530164766",
-        "price": 17600.0,
+        "title": "ポケモン×初音ミク VOLTAGE Live Blu-ray Amazon特典付",
+        "version_evidence": "商品描述明确：VOLTAGE Live蓝光；ReLive!音源CD；MEMORIAL REPORT特别书；亚克力立牌2种套装；明信片18张；特典映像“アナザーアングル定点映像 FULL STAGE”；未使用。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 17999.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Famericanpie%2F4226050343%2F",
-        "observed_at": "2026-09-19T13:20:00Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32343332333734373837342f",
+        "observed_at": "2026-09-21T11:02:20Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://shop.r10s.jp/americanpie/cabinet/422605/4226050343.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m24323747874_1.jpg"
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     },
