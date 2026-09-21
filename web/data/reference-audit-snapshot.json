@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T13:29:13.667733+00:00",
+  "generated_at": "2026-09-21T13:31:52.566649+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -3002,17 +3002,17 @@
         "image_url": "https://imghk02.doorzo.net/-/large/plain/2JVvjSkCc39bAcTKm8yPYw.jpg@jpg"
       },
       "xianyu": {
-        "title": "ヨルシカ 夏草が邪魔をする DUED-1223 日版通常盘CD",
-        "version_evidence": "闲鱼当前条目明确标注日版、全新未拆、Tower Records塔店背回、DUED-1223及2017-06-28发行。",
-        "catalog_no": "DUED-1223",
+        "title": "夜鹿《夏草が邪魔をする》日版CD（盘面干净，播放正常）",
+        "version_evidence": "闲鱼详情明确：日版 CD，盘面干净、播放正常、曲目齐全；与挖煤姬 DUED-1223 / JAN 4589686422857 同名同形态，但闲鱼页未显示品番/JAN，成色为二手且附件/腰封状态未标明。",
+        "catalog_no": null,
         "barcode": null,
-        "price": 105.0,
+        "price": 46.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%A4%9C%E9%B9%BF%20%E5%A4%8F%E8%8D%89%E9%82%AA%E9%AD%94%20DUED-1223",
-        "observed_at": "2026-09-14T05:45:06Z",
+        "source_url": "https://www.goofish.com/item?id=1071126023786&categoryId=126864811",
+        "observed_at": "2026-09-21T13:31:41Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2208494089680/O1CN013aVgLiu9APH3thOC_!!4611686018427385296-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2219893453813/O1CN01e7NKHK1e2PM6tEc4L_!!4611686018427384821-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/119-39873d90047e7417.webp"
     },
@@ -6400,32 +6400,32 @@
     },
     {
       "reference_product_id": 119,
-      "stable_key": "jan:4589686422857",
+      "stable_key": "sample:39873d90047e7417a1b16ebed6bec6ac7f713516c0572ce06c97dbac3224b8f7",
       "wameiji": {
-        "title": "ヨルシカ / 夏草が邪魔をする",
-        "version_evidence": "挖煤姬实页：中古CD；品番 DUED-1223，JAN 4589686422857，2017-06-28。页面明确腰封、下载码和抽选券不可保证。",
-        "catalog_no": "DUED-1223",
-        "barcode": "4589686422857",
+        "title": "CD／ヨルシカ／夏草が邪魔をする",
+        "version_evidence": "挖煤姬详情页：店铺卖家ネットオフメルカリ店；没有明显的损伤或污渍；U&R records；型号DUED1223；发售2017/06/28；JAN4589686422857；中古；商品图仅示例，腰封/下载码等不保证；当前有折扣且可加入购物车/立即购买。",
+        "catalog_no": null,
+        "barcode": null,
         "price": 1623.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a475136746e4d784457754d435641514a6a6250342f",
-        "observed_at": "2026-09-14T17:55:28Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a475136746e4d784457754d435641514a6a6250342f",
+        "observed_at": "2026-09-21T04:51:46Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JVvjSkCc39bAcTKm8yPYw.jpg@jpg"
+        "image_url": "https://imghk02.doorzo.net/-/large/plain/2JVvjSkCc39bAcTKm8yPYw.jpg@jpg"
       },
       "xianyu": {
-        "title": "夜鹿《夏草が邪魔をする》CD专辑",
-        "version_evidence": "闲鱼详情页明确为夜鹿《夏草が邪魔をする》CD专辑，现货、全新未拆封；2017年6月28日发行，DUED-1223，7首曲目齐全，存储介质为CD。",
-        "catalog_no": "DUED-1223",
+        "title": "夜鹿《夏草が邪魔をする》日版CD（盘面干净，播放正常）",
+        "version_evidence": "闲鱼详情明确：日版 CD，盘面干净、播放正常、曲目齐全；与挖煤姬 DUED-1223 / JAN 4589686422857 同名同形态，但闲鱼页未显示品番/JAN，成色为二手且附件/腰封状态未标明。",
+        "catalog_no": null,
         "barcode": null,
-        "price": 31.5,
+        "price": 46.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=732604777599&categoryId=126864811",
-        "observed_at": "2026-09-19T03:45:50Z",
+        "source_url": "https://www.goofish.com/item?id=1071126023786&categoryId=126864811",
+        "observed_at": "2026-09-21T13:31:41Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2208494089680/O1CN013aVgLiu9APH3thOC_!!4611686018427385296-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2219893453813/O1CN01e7NKHK1e2PM6tEc4L_!!4611686018427384821-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/119-39873d90047e7417.webp"
     },
