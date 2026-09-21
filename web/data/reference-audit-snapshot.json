@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:16:23.753052+00:00",
+  "generated_at": "2026-09-21T11:24:08.081268+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -788,14 +788,14 @@
       "reference_product_id": 39,
       "stable_key": "sample:d90d360f99492a3862214e4e9c3f74cea0a0809b76f91e2a5833f4c42edff53c",
       "wameiji": {
-        "title": "CD「Pop sensation KSL」 acrylic keyholder Summer Pockets",
-        "version_evidence": "Manual Chrome/IAB search card visibly shows the exact Pop sensation KSL / Summer Pockets CD with acrylic keyholder; card price 4,300 JPY and thumbnail matches the previously detail-verified same listing.",
+        "title": "CD「Pop sensation KSL」 アクリルキーホルダー付き サマポケ",
+        "version_evidence": "详情页标题与商品介绍确认 Pop sensation Key Sound Label CD；附 Summer Pockets 亚克力钥匙扣，8曲混音曲目；商品状态“接近未使用”，亚克力挂件未开封，曾播放一次。",
         "catalog_no": null,
         "barcode": null,
         "price": 4300.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35383338333835393939322f",
-        "observed_at": "2026-09-21T06:05:00Z",
+        "observed_at": "2026-09-21T11:23:56Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m58383859992_1.jpg"
@@ -3952,14 +3952,14 @@
       "reference_product_id": 39,
       "stable_key": "sample:d90d360f99492a3862214e4e9c3f74cea0a0809b76f91e2a5833f4c42edff53c",
       "wameiji": {
-        "title": "CD「Pop sensation KSL」 acrylic keyholder Summer Pockets",
-        "version_evidence": "Manual Chrome/IAB search card visibly shows the exact Pop sensation KSL / Summer Pockets CD with acrylic keyholder; card price 4,300 JPY and thumbnail matches the previously detail-verified same listing.",
+        "title": "CD「Pop sensation KSL」 アクリルキーホルダー付き サマポケ",
+        "version_evidence": "详情页标题与商品介绍确认 Pop sensation Key Sound Label CD；附 Summer Pockets 亚克力钥匙扣，8曲混音曲目；商品状态“接近未使用”，亚克力挂件未开封，曾播放一次。",
         "catalog_no": null,
         "barcode": null,
         "price": 4300.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35383338333835393939322f",
-        "observed_at": "2026-09-21T06:05:00Z",
+        "observed_at": "2026-09-21T11:23:56Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m58383859992_1.jpg"
