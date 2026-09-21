@@ -153,7 +153,15 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
         and "/shops/product/" not in str(row.get("source_url", ""))
     ]
     assert mercari_item_rows
-    assert sum(str(row.get("image_url", "")).startswith("https://static.mercdn.net/item/detail/orig/photos/") for row in mercari_item_rows) >= 40
+    # Mercari detail images may be served through Wameiji's direct proxy host
+    # (imghk.doorzo.net) rather than the original static.mercdn.net hostname.
+    # Both are direct listing-image URLs; screenshot/thumbnail hosts remain
+    # excluded by this allowlist.
+    direct_marketplace_images = (
+        "https://static.mercdn.net/item/detail/orig/photos/",
+        "https://imghk.doorzo.net/",
+    )
+    assert sum(str(row.get("image_url", "")).startswith(direct_marketplace_images) for row in mercari_item_rows) >= 40
     assert not any("static.312588698.com/thumb/item/webp/" in str(row.get("image_url", "")) for row in mercari_item_rows)
     sample_50 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
     assert sample_50["wameiji"]["image_url"].startswith("https://imgoss.mokaki.cn/ossimg/")
