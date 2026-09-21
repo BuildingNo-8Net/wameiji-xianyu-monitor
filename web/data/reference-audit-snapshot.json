@@ -6873,16 +6873,16 @@
       "missing_market": "xianyu",
       "counterpart_state": "not_currently_listed",
       "observation": {
-        "title": "杉菜水姫(スギナミキ)-作品第二集『花葬』 复制原画/自制代印刷挂画（非原书）",
-        "version_evidence": "人工 Chrome/IAB 精确检索：闲鱼仅出现一条复制原画/自制代印刷挂画，标题明确为装饰画且描述写明自制、代印刷、复制原画；不是《花葬》第二集原版画集/书籍，因此不作为同版商品。",
+        "title": "【中古】アニメムック ≪イラスト画集≫ 杉菜水姫(スギナミキ)作品第二集 『花葬』",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 复核：挖煤姬详情页为骏河屋店铺卖家同版《花葬》第二集画集，37,000 日元（约 1,643 元），2015-11-27 发售，B4 大型画集、120 页（240 页袋綴），页面标注无明显损伤污渍、无物流保障；闲鱼精确检索仅见一条标题明确为复制原画/自制代印刷挂画的装饰画，不是原版画集/书籍，因此不作为同版商品。",
         "catalog_no": null,
         "barcode": null,
-        "price": 21.86,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1073096806262&categoryId=126858231",
-        "observed_at": "2026-09-22T04:20:00Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "price": 37000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f774765675a564b6a50567158685755576342796d6f4e2f",
+        "observed_at": "2026-09-22T05:10:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
     },
