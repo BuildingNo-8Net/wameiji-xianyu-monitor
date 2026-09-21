@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T22:50:33.252440+08:00",
+  "generated_at": "2026-09-21T23:17:25.914006+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 111 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 111 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 103,
-    "both_observed_count": 111,
-    "single_observed_count": 12,
-    "wameiji_platform_found_count": 110,
+    "both_found_count": 104,
+    "both_observed_count": 112,
+    "single_observed_count": 11,
+    "wameiji_platform_found_count": 111,
     "found_any_count": 120,
     "not_currently_listed_both_count": 5
   },
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 103
+      "count": 104
     },
     {
       "wameiji": "found",
@@ -26,7 +26,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 9
+      "count": 8
     },
     {
       "wameiji": "price_unfavorable",
@@ -752,6 +752,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/4011246583/O1CN01KTQPmxa39WB2R3n2_!!4611686018427380727-0-xy_item.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/30-d626a72b6c446739.webp"
+    },
+    {
+      "reference_product_id": 33,
+      "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
+      "wameiji": {
+        "title": "ef−the first tale SP01",
+        "version_evidence": "人工内置浏览器挖煤姬具体详情页：标题为 ef−the first tale SP01，价格2,500日元，状态接近未使用，日本国内运费卖家承担；页面无商品说明，未确认 SP01 的具体内容、是否为样本所称前篇初回版、附件或腰封。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2500.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33323330313332343738322f",
+        "observed_at": "2026-09-21T15:17:17Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/thumb/item/webp/m32301324782_1.jpg"
+      },
+      "xianyu": {
+        "title": "【minori】ef 悠久之翼 初回版 上卷",
+        "version_evidence": "人工 Chrome/IAB 闲鱼当前详情页：minori ef 悠久之翼初回版上卷；成色新、内容物齐全；游戏光盘+设定卡；价格299 CNY包邮；当前可立即购买。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 299.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=936356588245&categoryId=126860296",
+        "observed_at": "2026-09-21T04:56:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01DVnQPm1d0HoMvN1Eh_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
     },
     {
       "reference_product_id": 34,
@@ -3980,6 +4011,37 @@
       "reference_image_url": "assets/reference-samples/29-ddcbc943aeb23cba.webp"
     },
     {
+      "reference_product_id": 33,
+      "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
+      "wameiji": {
+        "title": "ef−the first tale SP01",
+        "version_evidence": "人工内置浏览器挖煤姬具体详情页：标题为 ef−the first tale SP01，价格2,500日元，状态接近未使用，日本国内运费卖家承担；页面无商品说明，未确认 SP01 的具体内容、是否为样本所称前篇初回版、附件或腰封。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2500.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33323330313332343738322f",
+        "observed_at": "2026-09-21T15:17:17Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/thumb/item/webp/m32301324782_1.jpg"
+      },
+      "xianyu": {
+        "title": "【minori】ef 悠久之翼 初回版 上卷",
+        "version_evidence": "人工 Chrome/IAB 闲鱼当前详情页：minori ef 悠久之翼初回版上卷；成色新、内容物齐全；游戏光盘+设定卡；价格299 CNY包邮；当前可立即购买。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 299.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=936356588245&categoryId=126860296",
+        "observed_at": "2026-09-21T04:56:34Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01DVnQPm1d0HoMvN1Eh_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
+    },
+    {
       "reference_product_id": 34,
       "stable_key": "sample:d1b63c9760f2554630ee04929b70dabf45e6c19859fd4d437afa3bdb9205a2c3",
       "wameiji": {
@@ -6825,27 +6887,6 @@
         "image_url": "https://image02.doorzo.net/-/large/plain/XAmE9hhts3ApgztQWASR6n.webp@jpg"
       },
       "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
-    },
-    {
-      "reference_product_id": 33,
-      "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
-      "available_market": "xianyu",
-      "missing_market": "wameiji",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "【minori】ef 悠久之翼 初回版 上卷",
-        "version_evidence": "人工 Chrome/IAB 闲鱼当前详情页：minori ef 悠久之翼初回版上卷；成色新、内容物齐全；游戏光盘+设定卡；价格299 CNY包邮；当前可立即购买。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 299.0,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=936356588245&categoryId=126860296",
-        "observed_at": "2026-09-21T04:56:34Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01DVnQPm1d0HoMvN1Eh_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp"
-      },
-      "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
     },
     {
       "reference_product_id": 36,
