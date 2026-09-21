@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T02:00:00+08:00",
+  "generated_at": "2026-09-22T02:20:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -727,7 +727,7 @@
       "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
       "wameiji": {
         "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
-        "version_evidence": null,
+        "version_evidence": "挖煤姬侧为《花葬》画集/作品第二集，37,000 JPY；闲鱼侧人工检索仅返回“杉菜水姫-作品第二集《花葬》”复制原画装饰画，标价21.86 CNY，与该画集不是同一物；不作为同版匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 1999.0,
