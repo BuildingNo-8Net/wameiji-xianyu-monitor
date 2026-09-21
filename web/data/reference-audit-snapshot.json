@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T14:19:08.835247+00:00",
+  "generated_at": "2026-09-21T22:50:33.252440+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 111 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 102,
-    "both_observed_count": 110,
-    "single_observed_count": 13,
+    "both_found_count": 103,
+    "both_observed_count": 111,
+    "single_observed_count": 12,
     "wameiji_platform_found_count": 110,
     "found_any_count": 120,
     "not_currently_listed_both_count": 5
@@ -16,12 +16,12 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 102
+      "count": 103
     },
     {
       "wameiji": "found",
       "xianyu": "not_currently_listed",
-      "count": 7
+      "count": 6
     },
     {
       "wameiji": "not_currently_listed",
@@ -1155,6 +1155,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01qczRy22DqnPtKZmbO_!!4611686018427387797-0-fleamarket.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/55-0dc9988288567b17.webp"
+    },
+    {
+      "reference_product_id": 57,
+      "stable_key": "sample:f5ba9a2f22115993f45a3c6bb5fdf9da73d3c1b7074bf69b586465c55fd72255",
+      "wameiji": {
+        "title": "ポケモン×初音ミク VOLTAGE Live Blu-ray Amazon特典付",
+        "version_evidence": "商品描述明确：VOLTAGE Live蓝光；ReLive!音源CD；MEMORIAL REPORT特别书；亚克力立牌2种套装；明信片18张；特典映像“アナザーアングル定点映像 FULL STAGE”；未使用。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 17999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32343332333734373837342f",
+        "observed_at": "2026-09-21T11:02:20Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m24323747874_1.jpg"
+      },
+      "xianyu": {
+        "title": "全新【亚马逊日本限定】宝可梦 × 初音未来 VOLTAGE Live！蓝光特装版（蓝光光盘＋书籍＋其他赠品）",
+        "version_evidence": "人工 Chrome/IAB 闲鱼搜索卡核验：当前卡片标题明确写有“亚马逊日本限定”与“VOLTAGE Live！蓝光特装版”，并列出蓝光光盘、书籍/其他赠品及亚马逊限定5首曲目特典 CD。点开详情后被闲鱼跨境商品 APP 门禁拦截，因此单件配件、成色、库存与卖家详情尚未完成详情级核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 811.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1059700813523&categoryId=201459411",
+        "observed_at": "2026-09-21T14:50:24Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01dkIPvh1V2YudRgavn_!!4611686018427383123-0-mtopupload.jpg"
+      },
+      "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     },
     {
       "reference_product_id": 58,
@@ -4539,6 +4570,37 @@
       "reference_image_url": "assets/reference-samples/56-1fd51e4ead2b2779.webp"
     },
     {
+      "reference_product_id": 57,
+      "stable_key": "sample:f5ba9a2f22115993f45a3c6bb5fdf9da73d3c1b7074bf69b586465c55fd72255",
+      "wameiji": {
+        "title": "ポケモン×初音ミク VOLTAGE Live Blu-ray Amazon特典付",
+        "version_evidence": "商品描述明确：VOLTAGE Live蓝光；ReLive!音源CD；MEMORIAL REPORT特别书；亚克力立牌2种套装；明信片18张；特典映像“アナザーアングル定点映像 FULL STAGE”；未使用。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 17999.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32343332333734373837342f",
+        "observed_at": "2026-09-21T11:02:20Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m24323747874_1.jpg"
+      },
+      "xianyu": {
+        "title": "全新【亚马逊日本限定】宝可梦 × 初音未来 VOLTAGE Live！蓝光特装版（蓝光光盘＋书籍＋其他赠品）",
+        "version_evidence": "人工 Chrome/IAB 闲鱼搜索卡核验：当前卡片标题明确写有“亚马逊日本限定”与“VOLTAGE Live！蓝光特装版”，并列出蓝光光盘、书籍/其他赠品及亚马逊限定5首曲目特典 CD。点开详情后被闲鱼跨境商品 APP 门禁拦截，因此单件配件、成色、库存与卖家详情尚未完成详情级核验。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 811.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1059700813523&categoryId=201459411",
+        "observed_at": "2026-09-21T14:50:24Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01dkIPvh1V2YudRgavn_!!4611686018427383123-0-mtopupload.jpg"
+      },
+      "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
+    },
+    {
       "reference_product_id": 58,
       "stable_key": "sample:1efbfc4868bcf9990abfe2cee8978219783836d2db9d082cb0ca569103b3608e",
       "wameiji": {
@@ -6868,27 +6930,6 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/4033685196/O1CN01yywCk71oFp76CDdV0_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/41-24d2cce2c61c113f.webp"
-    },
-    {
-      "reference_product_id": 57,
-      "stable_key": "sample:f5ba9a2f22115993f45a3c6bb5fdf9da73d3c1b7074bf69b586465c55fd72255",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
-      "counterpart_state": "not_currently_listed",
-      "observation": {
-        "title": "ポケモン×初音ミク VOLTAGE Live Blu-ray Amazon特典付",
-        "version_evidence": "商品描述明确：VOLTAGE Live蓝光；ReLive!音源CD；MEMORIAL REPORT特别书；亚克力立牌2种套装；明信片18张；特典映像“アナザーアングル定点映像 FULL STAGE”；未使用。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 17999.0,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32343332333734373837342f",
-        "observed_at": "2026-09-21T11:02:20Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m24323747874_1.jpg"
-      },
-      "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     }
   ],
   "unavailable_records": [
