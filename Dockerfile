@@ -1,8 +1,8 @@
 # WAMEIJI-XIANYU 监控平台 Docker 镜像
 # 基于 Python 3.11 slim，只运行 API、计算、导出和备份。
-# 默认走 docker.m.daocloud.io（中国大陆可直连），需要换源时改 ARG BASE_IMAGE 即可
+# 默认使用官方 Python 镜像；如所在网络需要镜像，可在构建时覆盖 BASE_IMAGE。
 
-ARG BASE_IMAGE=docker.m.daocloud.io/library/python:3.11-slim-bookworm
+ARG BASE_IMAGE=python:3.11-slim-bookworm
 FROM ${BASE_IMAGE}
 
 # 容器内时区与编码
