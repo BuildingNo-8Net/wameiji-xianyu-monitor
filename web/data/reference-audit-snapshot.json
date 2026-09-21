@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T10:33:58.739163+00:00",
+  "generated_at": "2026-09-21T10:38:33.909024+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 104 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -199,17 +199,17 @@
       "reference_product_id": 10,
       "stable_key": "sample:ad66f99c63ff08ac4aa3b4ebdc929cc1ed8d6f132701959b7ce16855b3ae3481",
       "wameiji": {
-        "title": "WHITE ALBUM2 オリジナルサウンドトラック〜setsuna〜",
-        "version_evidence": "人工Chrome/IAB挖煤姬详情页：WHITE ALBUM2 オリジナルサウンドトラック〜setsuna〜；8,000日元；无明显损伤或污渍；介绍明确为WHITE ALBUM2游戏原声带，碟片/盒/册无明显伤污。",
+        "title": "ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna",
+        "version_evidence": "挖煤姬当前详情页标题为「ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna」；页面标价5,170日元，商品状态说明为中古品（7）帯欠/並，页面提供加入购物车和立即购买。与闲鱼样本 WHITE ALBUM2 Original Soundtrack ~setsuna~ CD 对应，但腰带/附件状态按挖煤姬页面单侧核验，不据此判定同款利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": 8000.0,
+        "price": 5170.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34343534383031393133302f",
-        "observed_at": "2026-09-21T06:56:20Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a577a4b396957417272467a32666b4669723638652f",
+        "observed_at": "2026-09-21T10:38:19Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m44548019130_1.jpg"
+        "image_url": "https://imghk.doorzo.net/-/large/plain/2JWzK9hTgSmowxmxDN8cJy.jpg@jpg"
       },
       "xianyu": {
         "title": "『全新未拆』 WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS",
@@ -3239,17 +3239,17 @@
       "reference_product_id": 10,
       "stable_key": "sample:ad66f99c63ff08ac4aa3b4ebdc929cc1ed8d6f132701959b7ce16855b3ae3481",
       "wameiji": {
-        "title": "WHITE ALBUM2 オリジナルサウンドトラック〜setsuna〜",
-        "version_evidence": "人工Chrome/IAB挖煤姬详情页：WHITE ALBUM2 オリジナルサウンドトラック〜setsuna〜；8,000日元；无明显损伤或污渍；介绍明确为WHITE ALBUM2游戏原声带，碟片/盒/册无明显伤污。",
+        "title": "ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna",
+        "version_evidence": "挖煤姬当前详情页标题为「ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna」；页面标价5,170日元，商品状态说明为中古品（7）帯欠/並，页面提供加入购物车和立即购买。与闲鱼样本 WHITE ALBUM2 Original Soundtrack ~setsuna~ CD 对应，但腰带/附件状态按挖煤姬页面单侧核验，不据此判定同款利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": 8000.0,
+        "price": 5170.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34343534383031393133302f",
-        "observed_at": "2026-09-21T06:56:20Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a577a4b396957417272467a32666b4669723638652f",
+        "observed_at": "2026-09-21T10:38:19Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m44548019130_1.jpg"
+        "image_url": "https://imghk.doorzo.net/-/large/plain/2JWzK9hTgSmowxmxDN8cJy.jpg@jpg"
       },
       "xianyu": {
         "title": "『全新未拆』 WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS",
