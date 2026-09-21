@@ -6812,15 +6812,15 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "オトメ*ドメイン RADIO*MAIDEN Vol.10",
-        "version_evidence": "人工 Chrome/IAB 精确检索：闲鱼结果页显示“小闲鱼没有找到你想要的宝贝~”，仅展示与该标题无关的推荐商品；未出现 Vol.10 同版商品卡。",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 复核：挖煤姬详情页仍可打开同版商品“【新品未開封】オトメ*ドメイン RADIO*MAIDEN Vol.10”，标价 4,980 日元，未使用，页面标注 4~7 日发货、无物流保障；闲鱼精确检索仍显示“小闲鱼没有找到你想要的宝贝~”，推荐区与该标题无关，未出现 Vol.10 同版商品卡。",
         "catalog_no": null,
         "barcode": null,
         "price": 4980.0,
         "currency": "JPY",
-        "source_url": "https://www.goofish.com/search?q=%E3%82%AA%E3%83%88%E3%83%A1%20%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%20RADIO%20MAIDEN%20Vol.10",
-        "observed_at": "2026-09-22T03:50:00Z",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6a702f6974656d732f6d33303739373637303537352f",
+        "observed_at": "2026-09-22T04:55:00Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true
       },
       "reference_image_url": "assets/reference-samples/27-3b589fa991d8a5e6.webp"
     },
