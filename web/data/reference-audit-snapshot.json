@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T10:46:40.991763+00:00",
+  "generated_at": "2026-09-21T10:54:02.741278+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 105 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2369,17 +2369,17 @@
       "reference_product_id": 104,
       "stable_key": "sample:19b89a331f3bf4df0de896311e1f4345e8bef46129ab3eb7880b59f5844fbd64",
       "wameiji": {
-        "title": "Aimer / daydream 初回 A",
-        "version_evidence": "挖煤姬详情：初回A附演唱会Blu-ray、合体收纳套；二手，塑料盒有少量划痕，光盘状态良好。页面和说明未确认侧标。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1499.0,
+        "title": "Aimer daydream 初回生産限定盤 CD+Blu-ray",
+        "version_evidence": "挖煤姬当前详情：Aimer「daydream」初回生産限定盤A，CD＋Blu-ray 2枚组；详情列出 CD、Blu-ray Disc、ケース／ブックレット類；品番 SECL-1983〜1984，JAN 4547557046267。页面状态为二手、没有明显的损伤或污渍，卖家承担日本国内运费。",
+        "catalog_no": "SECL-1983〜1984",
+        "barcode": "4547557046267",
+        "price": 1880.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31343238333432323537362f",
-        "observed_at": "2026-09-15T14:41:01Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d38333635393633333632302f",
+        "observed_at": "2026-09-21T10:53:52Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m14283422576_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m83659633620_1.jpg"
       },
       "xianyu": {
         "title": "现货♥Aimer日版daydream初回限定盘A全新未拆CD+BD+合体收纳盒带侧标边纸",
@@ -5751,17 +5751,17 @@
       "reference_product_id": 104,
       "stable_key": "sample:19b89a331f3bf4df0de896311e1f4345e8bef46129ab3eb7880b59f5844fbd64",
       "wameiji": {
-        "title": "Aimer / daydream 初回 A",
-        "version_evidence": "挖煤姬详情：初回A附演唱会Blu-ray、合体收纳套；二手，塑料盒有少量划痕，光盘状态良好。页面和说明未确认侧标。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1499.0,
+        "title": "Aimer daydream 初回生産限定盤 CD+Blu-ray",
+        "version_evidence": "挖煤姬当前详情：Aimer「daydream」初回生産限定盤A，CD＋Blu-ray 2枚组；详情列出 CD、Blu-ray Disc、ケース／ブックレット類；品番 SECL-1983〜1984，JAN 4547557046267。页面状态为二手、没有明显的损伤或污渍，卖家承担日本国内运费。",
+        "catalog_no": "SECL-1983〜1984",
+        "barcode": "4547557046267",
+        "price": 1880.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31343238333432323537362f",
-        "observed_at": "2026-09-15T14:41:01Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d38333635393633333632302f",
+        "observed_at": "2026-09-21T10:53:52Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m14283422576_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m83659633620_1.jpg"
       },
       "xianyu": {
         "title": "现货♥Aimer日版daydream初回限定盘A全新未拆CD+BD+合体收纳盒带侧标边纸",
