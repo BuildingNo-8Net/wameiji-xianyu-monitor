@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:33:53.805068+00:00",
+  "generated_at": "2026-09-21T11:37:19.699114+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2741,17 +2741,17 @@
       "reference_product_id": 113,
       "stable_key": "sample:940ec4a7b6149823c65d365a4e998430bfb3f0ee550f4637d06d2bd90d25b57c",
       "wameiji": {
-        "title": "Ado 狂言 LP アナログ レコード 完全生産限定盤 2枚組 新品 未開封",
-        "version_evidence": "完全生産限定盤；LPアナログ2枚組；新品未使用・未開封",
+        "title": "未開封 Ado 1st LP 狂言 完全生産限定盤 アナログレコード",
+        "version_evidence": "Manual Chrome/IAB detail: Ado 1st album 狂言 complete-production-limited analog record; page shows 未使用, 2枚組, seller-paid domestic shipping, 4–7 day dispatch, active add-to-cart and buy buttons. Description says purchased online and dark-stored unopened; four sides list the 14-track sequence from レディメイド/踊 through マザーランド/過学習/夜のピエロ.",
         "catalog_no": null,
         "barcode": null,
-        "price": 33000.0,
+        "price": 48500.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35363330303139303235392f",
-        "observed_at": "2026-09-14T17:22:33Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31393532363635303036312f",
+        "observed_at": "2026-09-21T11:37:08Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m56300190259_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m19526650061_1.jpg"
       },
       "xianyu": {
         "title": "全新现货 Ado《狂言》黑胶 日版完全生产限定盘",
@@ -6123,17 +6123,17 @@
       "reference_product_id": 113,
       "stable_key": "sample:940ec4a7b6149823c65d365a4e998430bfb3f0ee550f4637d06d2bd90d25b57c",
       "wameiji": {
-        "title": "Ado 狂言 LP アナログ レコード 完全生産限定盤 2枚組 新品 未開封",
-        "version_evidence": "完全生産限定盤；LPアナログ2枚組；新品未使用・未開封",
+        "title": "未開封 Ado 1st LP 狂言 完全生産限定盤 アナログレコード",
+        "version_evidence": "Manual Chrome/IAB detail: Ado 1st album 狂言 complete-production-limited analog record; page shows 未使用, 2枚組, seller-paid domestic shipping, 4–7 day dispatch, active add-to-cart and buy buttons. Description says purchased online and dark-stored unopened; four sides list the 14-track sequence from レディメイド/踊 through マザーランド/過学習/夜のピエロ.",
         "catalog_no": null,
         "barcode": null,
-        "price": 33000.0,
+        "price": 48500.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35363330303139303235392f",
-        "observed_at": "2026-09-14T17:22:33Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31393532363635303036312f",
+        "observed_at": "2026-09-21T11:37:08Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m56300190259_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m19526650061_1.jpg"
       },
       "xianyu": {
         "title": "全新现货 Ado《狂言》黑胶 日版完全生产限定盘",
