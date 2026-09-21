@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T13:31:52.566649+00:00",
+  "generated_at": "2026-09-21T13:39:01.822369+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2382,17 +2382,17 @@
         "image_url": "https://img.fril.jp/img/823311623/l/2829147663.jpg?1789616310=&updated_at=2026-09-17T03:38:30.000Z"
       },
       "xianyu": {
-        "title": "宇多田光 Distance 日版 2022年再版 生产限定盘 黑胶唱片2LP 全新未拆",
-        "version_evidence": "Manual search card: states 宇多田光 二专 Distance, 2022年再版, 生产限定盘, 黑胶唱片2LP, 全新未拆; exact 2022 edition.",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 275.0,
+        "title": "宇多田光 Distance 限定版黑胶唱片 全新",
+        "version_evidence": "闲鱼详情明确：全新正版日版；品番 UPJY-9204；生産限定盤/180g重量盤；Distance 2枚组；2018 Remastered。与挖煤姬样本同品番/同限定形态相符。页面显示默认顺丰到付，卖家未报国际/税费。",
+        "catalog_no": "UPJY-9204",
+        "barcode": "4988031460030",
+        "price": 415.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%AE%87%E5%A4%9A%E7%94%B0%E5%85%89%20Distance%20%E9%BB%91%E8%83%B6%202LP",
-        "observed_at": "2026-09-14T05:10:56Z",
+        "source_url": "https://www.goofish.com/item?id=1086951948401&categoryId=126864811",
+        "observed_at": "2026-09-21T13:38:52Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN01ubpFNuC0dGK87XIm_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01uIWundbYzqC0blSy_!!2220935797607-0-fleamarket.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/99-a633441bc61702a7.webp"
     },
@@ -5783,7 +5783,7 @@
       "stable_key": "jan:4988031460030",
       "wameiji": {
         "title": "宇多田ヒカル Distance＜生産限定盤/180g重量盤＞",
-        "version_evidence": "挖煤姬乐天详情：UPJY-9204、JAN 4988031460030，生产限定 180g 重量盘 2LP；新品未拆封。",
+        "version_evidence": "Exact edition search UPJY-9204 / 4988031460030 surfaced the current detail: production-limited 180g heavy-weight vinyl, new/unopened, LP; sample is the 2LP 2022 reissue. Detail title does not print the catalog, while matching search card explicitly identifies UPJY-9204.",
         "catalog_no": "UPJY-9204",
         "barcode": "4988031460030",
         "price": 6280.0,
@@ -5795,17 +5795,17 @@
         "image_url": "https://img.fril.jp/img/823311623/l/2829147663.jpg?1789616310=&updated_at=2026-09-17T03:38:30.000Z"
       },
       "xianyu": {
-        "title": "宇多田光《Distance》日版黑胶唱片2LP生产限定2枚组180g重量盘，全新未拆封收藏佳品！",
-        "version_evidence": "闲鱼详情页明确为《Distance》日版黑胶唱片 2LP 生产限定 2 枚组、180g 重量盘，全新未拆封；与挖煤姬 UPJY-9204 生产限定 180g 2LP 同形态，详情页未显示条码。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 255.0,
+        "title": "宇多田光 Distance 限定版黑胶唱片 全新",
+        "version_evidence": "闲鱼详情明确：全新正版日版；品番 UPJY-9204；生産限定盤/180g重量盤；Distance 2枚组；2018 Remastered。与挖煤姬样本同品番/同限定形态相符。页面显示默认顺丰到付，卖家未报国际/税费。",
+        "catalog_no": "UPJY-9204",
+        "barcode": "4988031460030",
+        "price": 415.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1055594098920&categoryId=202061902",
-        "observed_at": "2026-09-19T03:54:59Z",
+        "source_url": "https://www.goofish.com/item?id=1086951948401&categoryId=126864811",
+        "observed_at": "2026-09-21T13:38:52Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN01ubpFNuC0dGK87XIm_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01uIWundbYzqC0blSy_!!2220935797607-0-fleamarket.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/99-a633441bc61702a7.webp"
     },
