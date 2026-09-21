@@ -7,6 +7,7 @@ import io
 import json
 import math
 import os
+import re
 import shutil
 import sqlite3
 import tempfile
@@ -14,7 +15,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 from typing import Callable
-from urllib.parse import parse_qs, urlparse
+from urllib.parse import parse_qs, urlparse, urlunsplit
 
 import requests
 from PIL import Image
@@ -26,6 +27,7 @@ ALLOWED_IMAGE_HOSTS = frozenset(
         "auctions.c.yimg.jp",
         "thumbnail.image.rakuten.co.jp",
         "assets.mercari-shops-static.com",
+        "static.312588698.com",
         "static.mercdn.net",
         "img.fril.jp",
     }
@@ -151,6 +153,55 @@ def _is_xianyu_item_listing(value: object) -> bool:
         and parsed.path == "/item"
         and bool(parse_qs(parsed.query).get("id"))
     )
+
+
+_OBSERVED_IMAGE_URL_RE = re.compile(r"https://[^\s<>\"'；，。！？、]+")
+
+
+def _observed_image_url_from_note(note: object) -> str:
+    """Recover a verified marketplace image URL kept in an audit note.
+
+    Manual browser evidence is intentionally stored in the observation note so
+    that the market table stays backward compatible.  Public Pages cards still
+    need the exact first-image URL, but must never expose the whole note (which
+    can contain private operator context).  Only known marketplace image CDNs,
+    or URLs whose path visibly carries an image extension, are accepted.
+    """
+
+    for raw in _OBSERVED_IMAGE_URL_RE.findall(str(note or "")):
+        candidate = raw.rstrip(".,;:，。；、）)]}>")
+        try:
+            parsed = _parsed_https_url(candidate)
+        except SnapshotExportError:
+            continue
+        host = str(parsed.hostname or "").casefold()
+        path = str(parsed.path or "").casefold()
+        if host in ALLOWED_IMAGE_HOSTS or re.search(r"\.(?:jpe?g|png|webp|gif|heic)(?:$|[_@.])", path):
+            return candidate
+    return ""
+
+
+def _canonicalize_mercari_original_image_url(image_url: str) -> str:
+    """Use Mercari's stable original-image CDN when a proxy mirrors it.
+
+    The logged-in Wameiji page may expose the same Mercari first image through
+    an ``imghk.doorzo.net``/``image03.doorzo.net`` mirror.  Those URLs are
+    valid evidence, but the public card should keep the stable direct
+    ``static.mercdn.net`` original URL so later exports do not downgrade a
+    previously published image to a proxy/thumbnail endpoint.
+    """
+
+    try:
+        parsed = _parsed_https_url(image_url)
+    except SnapshotExportError:
+        return image_url
+    host = str(parsed.hostname or "").casefold()
+    if host not in {"imghk.doorzo.net", "image03.doorzo.net"}:
+        return image_url
+    path = str(parsed.path or "")
+    if not path.startswith("/item/detail/orig/photos/"):
+        return image_url
+    return urlunsplit(("https", "static.mercdn.net", path, "", ""))
 
 
 def download_public_image(url: str) -> DownloadedImage:
@@ -420,55 +471,142 @@ def export_reference_audit_snapshot(
     if generated_at.utcoffset() is None:
         raise SnapshotExportError("generated_at must include a timezone")
 
-    latest_pairs_query = """
-        WITH ranked AS (
-            SELECT
-              reference_product_id, market, observation_state, observed_at,
-              observed_title, version_evidence, catalog_no, barcode, price,
-              currency, source_url,
-              ROW_NUMBER() OVER (
-                PARTITION BY reference_product_id, market
-                ORDER BY observed_at DESC, id DESC
-              ) AS latest_rank
-            FROM reference_market_observations
-        ),
-        paired AS (
-            SELECT
-              product.id AS reference_product_id,
-              product.stable_key AS stable_key,
-              wameiji.observation_state AS wameiji_state,
-              wameiji.observed_at AS wameiji_observed_at,
-              wameiji.observed_title AS wameiji_title,
-              wameiji.version_evidence AS wameiji_version_evidence,
-              wameiji.catalog_no AS wameiji_catalog_no,
-              wameiji.barcode AS wameiji_barcode,
-              wameiji.price AS wameiji_price,
-              wameiji.currency AS wameiji_currency,
-              wameiji.source_url AS wameiji_source_url,
-              xianyu.observation_state AS xianyu_state,
-              xianyu.observed_at AS xianyu_observed_at,
-              xianyu.observed_title AS xianyu_title,
-              xianyu.version_evidence AS xianyu_version_evidence,
-              xianyu.catalog_no AS xianyu_catalog_no,
-              xianyu.barcode AS xianyu_barcode,
-              xianyu.price AS xianyu_price,
-              xianyu.currency AS xianyu_currency,
-              xianyu.source_url AS xianyu_source_url
-            FROM reference_products AS product
-            LEFT JOIN ranked AS wameiji
-              ON wameiji.reference_product_id = product.id
-             AND wameiji.market = 'wameiji'
-             AND wameiji.latest_rank = 1
-            LEFT JOIN ranked AS xianyu
-              ON xianyu.reference_product_id = product.id
-             AND xianyu.market = 'xianyu'
-             AND xianyu.latest_rank = 1
-        )
-        SELECT * FROM paired
-        ORDER BY reference_product_id ASC
-    """
+    # Keep previously published, manually verified marketplace image URLs as
+    # a read-only fallback.  The audit DB intentionally keeps the full
+    # observation history, while the export query selects only the latest row
+    # per market.  Without this fallback, a later status-only observation can
+    # erase a previously verified main image from the public card.
+    snapshot_path = Path(web_dir) / "data" / "reference-audit-snapshot.json"
+    previous_market_images: dict[tuple[int, str], str] = {}
+    previous_dual_observed_pairs: dict[int, dict[str, object]] = {}
+    if snapshot_path.exists():
+        try:
+            previous_payload = json.loads(snapshot_path.read_text(encoding="utf-8"))
+        except (OSError, UnicodeError, json.JSONDecodeError):
+            previous_payload = {}
+
+        def remember_previous(record: object, market: str, observation: object) -> None:
+            if not isinstance(record, dict) or not isinstance(observation, dict):
+                return
+            try:
+                product_id = int(record.get("reference_product_id"))
+            except (TypeError, ValueError):
+                return
+            image_url = _observed_image_url_from_note(observation.get("image_url"))
+            if image_url:
+                previous_market_images.setdefault((product_id, market), image_url)
+
+        if isinstance(previous_payload, dict):
+            for key in ("dual_found_pairs", "dual_observed_pairs"):
+                for record in previous_payload.get(key, []):
+                    if isinstance(record, dict):
+                        remember_previous(record, "wameiji", record.get("wameiji"))
+                        remember_previous(record, "xianyu", record.get("xianyu"))
+            for record in previous_payload.get("dual_observed_pairs", []):
+                if isinstance(record, dict):
+                    try:
+                        previous_dual_observed_pairs.setdefault(
+                            int(record.get("reference_product_id")), record
+                        )
+                    except (TypeError, ValueError):
+                        continue
+            for record in previous_payload.get("single_observed_records", []):
+                if isinstance(record, dict):
+                    remember_previous(
+                        record,
+                        str(record.get("available_market") or ""),
+                        record.get("observation"),
+                    )
+            for record in previous_payload.get("unavailable_records", []):
+                if isinstance(record, dict):
+                    remember_previous(record, "wameiji", record.get("wameiji"))
+                    remember_previous(record, "xianyu", record.get("xianyu"))
+
     with sqlite3.connect(db_path) as connection:
         connection.row_factory = sqlite3.Row
+        observation_columns = {
+            str(row[1])
+            for row in connection.execute("PRAGMA table_info(reference_market_observations)")
+        }
+        note_select = "note," if "note" in observation_columns else ""
+        wameiji_note_select = (
+            "wameiji.note AS wameiji_note,"
+            if "note" in observation_columns
+            else "NULL AS wameiji_note,"
+        )
+        xianyu_note_select = (
+            "xianyu.note AS xianyu_note"
+            if "note" in observation_columns
+            else "NULL AS xianyu_note"
+        )
+        latest_pairs_query = f"""
+            WITH ranked AS (
+                SELECT
+                  reference_product_id, market, observation_state, observed_at,
+                  observed_title, version_evidence, catalog_no, barcode, price,
+                  currency, source_url, {note_select}
+                    ROW_NUMBER() OVER (
+                        PARTITION BY reference_product_id, market
+                        ORDER BY
+                          CASE
+                            WHEN observation_state IN ('found', 'price_unfavorable')
+                              AND (
+                                (
+                                  market = 'wameiji'
+                                  AND source_url LIKE '%/mall/mercari/detail/%'
+                                )
+                                OR (
+                                  market = 'xianyu'
+                                  AND source_url LIKE '%/item?id=%'
+                                )
+                              )
+                            THEN 0
+                            WHEN observation_state IN ('found', 'price_unfavorable')
+                            THEN 1
+                            ELSE 2
+                          END,
+                          observed_at DESC,
+                          id DESC
+                    ) AS latest_rank
+                FROM reference_market_observations
+            ),
+            paired AS (
+                SELECT
+                  product.id AS reference_product_id,
+                  product.stable_key AS stable_key,
+                  wameiji.observation_state AS wameiji_state,
+                  wameiji.observed_at AS wameiji_observed_at,
+                  wameiji.observed_title AS wameiji_title,
+                  wameiji.version_evidence AS wameiji_version_evidence,
+                  wameiji.catalog_no AS wameiji_catalog_no,
+                  wameiji.barcode AS wameiji_barcode,
+                  wameiji.price AS wameiji_price,
+                  wameiji.currency AS wameiji_currency,
+                  wameiji.source_url AS wameiji_source_url,
+                  {wameiji_note_select}
+                  xianyu.observation_state AS xianyu_state,
+                  xianyu.observed_at AS xianyu_observed_at,
+                  xianyu.observed_title AS xianyu_title,
+                  xianyu.version_evidence AS xianyu_version_evidence,
+                  xianyu.catalog_no AS xianyu_catalog_no,
+                  xianyu.barcode AS xianyu_barcode,
+                  xianyu.price AS xianyu_price,
+                  xianyu.currency AS xianyu_currency,
+                  xianyu.source_url AS xianyu_source_url,
+                  {xianyu_note_select}
+                FROM reference_products AS product
+                LEFT JOIN ranked AS wameiji
+                  ON wameiji.reference_product_id = product.id
+                 AND wameiji.market = 'wameiji'
+                 AND wameiji.latest_rank = 1
+                LEFT JOIN ranked AS xianyu
+                  ON xianyu.reference_product_id = product.id
+                 AND xianyu.market = 'xianyu'
+                 AND xianyu.latest_rank = 1
+            )
+            SELECT * FROM paired
+            ORDER BY reference_product_id ASC
+        """
         rows = list(connection.execute(latest_pairs_query))
         has_reference_samples = connection.execute(
             "SELECT 1 FROM sqlite_master WHERE type = 'table' AND name = 'reference_product_samples'"
@@ -510,7 +648,7 @@ def export_reference_audit_snapshot(
         except SnapshotExportError:
             source_url = ""
             source_host = ""
-        return {
+        observation = {
             "title": row[f"{market}_title"],
             "version_evidence": row[f"{market}_version_evidence"],
             "catalog_no": row[f"{market}_catalog_no"],
@@ -522,6 +660,26 @@ def export_reference_audit_snapshot(
             "marketplace_host": source_host,
             "is_wameiji_platform": source_host in WAMEIJI_PLATFORM_HOSTS,
         }
+        image_url = _observed_image_url_from_note(row[f"{market}_note"])
+        previous_image_url = previous_market_images.get(
+            (int(row["reference_product_id"]), market), ""
+        )
+        # ``static.312588698.com/thumb/item/webp`` is a legacy thumbnail
+        # endpoint.  If the prior public card already has the corresponding
+        # full Mercari original URL, keep that higher-quality direct image.
+        if (
+            image_url.startswith("https://static.312588698.com/thumb/item/webp/")
+            and previous_image_url.startswith(
+                "https://static.mercdn.net/item/detail/orig/photos/"
+            )
+        ):
+            image_url = previous_image_url
+        elif not image_url:
+            image_url = previous_image_url
+        image_url = _canonicalize_mercari_original_image_url(image_url)
+        if image_url:
+            observation["image_url"] = image_url
+        return observation
 
     pair_counts: dict[tuple[str, str], int] = {}
     dual_found_pairs: list[dict[str, object]] = []
@@ -650,7 +808,55 @@ def export_reference_audit_snapshot(
         "single_observed_records": single_observed_records,
         "unavailable_records": unavailable_records,
     }
-    snapshot_path = Path(web_dir) / "data" / "reference-audit-snapshot.json"
+
+    # A prior public snapshot can contain a verified two-sided detail pair
+    # that a later status-only row temporarily hides from the latest-state
+    # query.  Keep that pair visible as historical reference evidence instead
+    # of dropping the card.  This is deliberately limited to records that
+    # already passed both concrete detail-URL checks in the prior snapshot.
+    current_dual_ids = {
+        int(record["reference_product_id"])
+        for record in dual_observed_pairs
+        if isinstance(record, dict)
+    }
+    restored_ids: set[int] = set()
+    for product_id, record in previous_dual_observed_pairs.items():
+        if product_id in current_dual_ids:
+            continue
+        wameiji = record.get("wameiji") if isinstance(record, dict) else None
+        xianyu = record.get("xianyu") if isinstance(record, dict) else None
+        if not isinstance(wameiji, dict) or not isinstance(xianyu, dict):
+            continue
+        if not _is_wameiji_detail_listing(wameiji.get("source_url")):
+            continue
+        if not _is_xianyu_item_listing(xianyu.get("source_url")):
+            continue
+        dual_observed_pairs.append(record)
+        restored_ids.add(product_id)
+    if restored_ids:
+        dual_observed_pairs.sort(key=lambda item: int(item["reference_product_id"]))
+        single_observed_records[:] = [
+            record
+            for record in single_observed_records
+            if int(record["reference_product_id"]) not in restored_ids
+        ]
+        unavailable_records[:] = [
+            record
+            for record in unavailable_records
+            if int(record["reference_product_id"]) not in restored_ids
+        ]
+        payload["dual_observed_pairs"] = dual_observed_pairs
+        payload["single_observed_records"] = single_observed_records
+        payload["unavailable_records"] = unavailable_records
+        payload["summary"]["both_observed_count"] = len(dual_observed_pairs)
+        payload["summary"]["single_observed_count"] = len(single_observed_records)
+        payload["disclaimer"] = (
+            "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、"
+            "同附件、成本完整或正利润，不能当作达标机会。"
+            f"当前 {len(dual_observed_pairs)} 条双侧实物观察、"
+            f"{len(single_observed_records)} 条单边待补观察中，挖煤姬页面已复核 "
+            f"{wameiji_platform_found_count} 条；其余日本来源需改由挖煤姬页面逐件复核。"
+        )
     _atomic_json(snapshot_path, payload)
     return ReferenceAuditSnapshotExportResult(snapshot_path=snapshot_path)
 

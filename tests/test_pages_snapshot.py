@@ -466,11 +466,62 @@ def test_reference_audit_export_publishes_the_user_reference_image(
         image.verify()
 
 
+def test_reference_audit_export_extracts_verified_market_image_from_note(
+    tmp_path: Path,
+) -> None:
+    """Manual first-image URLs in notes become card image URLs without notes leaking."""
+    db_path = tmp_path / "dual-market.db"
+    with __import__("sqlite3").connect(db_path) as conn:
+        conn.executescript(
+            """
+            CREATE TABLE reference_products (id INTEGER PRIMARY KEY, stable_key TEXT NOT NULL);
+            CREATE TABLE reference_market_observations (
+              id INTEGER PRIMARY KEY,
+              reference_product_id INTEGER NOT NULL,
+              market TEXT NOT NULL,
+              observation_state TEXT NOT NULL,
+              observed_at TEXT,
+              observed_title TEXT,
+              version_evidence TEXT,
+              catalog_no TEXT,
+              barcode TEXT,
+              price REAL,
+              currency TEXT,
+              source_url TEXT,
+              note TEXT
+            );
+            INSERT INTO reference_products (id, stable_key)
+              VALUES (1, 'reference:manual-image');
+            INSERT INTO reference_market_observations
+              (id, reference_product_id, market, observation_state, observed_at,
+               observed_title, version_evidence, price, currency, source_url, note)
+            VALUES
+              (1, 1, 'xianyu', 'found', '2026-09-17T01:00:00Z',
+               'Domestic listing', 'first press', 220, 'CNY',
+               'https://www.goofish.com/item?id=one',
+               '人工 Chrome 核验；内部上下文不公开。第一张商品主图：https://img.alicdn.com/bao/uploaded/i1/123/item.jpg_Q90.jpg_.webp。');
+            """
+        )
+
+    result = pages_snapshot.export_reference_audit_snapshot(
+        db_path,
+        tmp_path / "web",
+        generated_at=datetime.fromisoformat("2026-09-17T10:00:00+08:00"),
+    )
+    payload = json.loads(result.snapshot_path.read_text(encoding="utf-8"))
+    observation = payload["single_observed_records"][0]["observation"]
+    assert observation["image_url"] == (
+        "https://img.alicdn.com/bao/uploaded/i1/123/item.jpg_Q90.jpg_.webp"
+    )
+    assert "内部上下文不公开" not in result.snapshot_path.read_text(encoding="utf-8")
+
+
 def test_publish_image_allowlist_covers_verified_wameiji_marketplace_cdns() -> None:
     assert {
         "auctions.c.yimg.jp",
         "thumbnail.image.rakuten.co.jp",
         "assets.mercari-shops-static.com",
+        "static.312588698.com",
         "static.mercdn.net",
         "img.fril.jp",
     }.issubset(ALLOWED_IMAGE_HOSTS)
