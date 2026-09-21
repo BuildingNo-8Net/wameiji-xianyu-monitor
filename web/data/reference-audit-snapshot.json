@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T12:08:56.250010+00:00",
+  "generated_at": "2026-09-21T12:12:59.236883+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1531,17 +1531,17 @@
       "reference_product_id": 73,
       "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
       "wameiji": {
-        "title": "ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray",
-        "version_evidence": "挖煤姬当前详情页标题为《ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray》；商品介绍明确为 Blu-ray特装盤 Amazon限定版，写明新品未開封，商品状态未使用，价格15,000日元，可加入购物车和立即购买。样本中的初回特装版BD与该特装盘媒介和限定形态一致，但附件清单仍需下单前复核。",
+        "title": "ポケモン feat. 初音ミク VOLTAGE Live! Blu-ray特装盤",
+        "version_evidence": null,
         "catalog_no": null,
         "barcode": null,
-        "price": null,
+        "price": 13999.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35333438363636383437322f",
-        "observed_at": "2026-09-19T13:00:00Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6a702f6974656d732f6d36393333363132383535322f",
+        "observed_at": "2026-09-21T12:12:49Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m53486668472_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m69336128552_1.jpg"
       },
       "xianyu": {
         "title": "现货♥宝可梦初音未来特装版BD ポケットモンスター feat.初音ミク VOLTAGE Live!",
@@ -4944,17 +4944,17 @@
       "reference_product_id": 73,
       "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
       "wameiji": {
-        "title": "ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray",
-        "version_evidence": "挖煤姬当前详情页标题为《ポケモン feat. 初音ミク VOLTAGE Live！Blu-ray》；商品介绍明确为 Blu-ray特装盤 Amazon限定版，写明新品未開封，商品状态未使用，价格15,000日元，可加入购物车和立即购买。样本中的初回特装版BD与该特装盘媒介和限定形态一致，但附件清单仍需下单前复核。",
+        "title": "ポケモン feat. 初音ミク VOLTAGE Live! Blu-ray特装盤",
+        "version_evidence": null,
         "catalog_no": null,
         "barcode": null,
-        "price": null,
+        "price": 13999.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35333438363636383437322f",
-        "observed_at": "2026-09-19T13:00:00Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6a702f6974656d732f6d36393333363132383535322f",
+        "observed_at": "2026-09-21T12:12:49Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m53486668472_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m69336128552_1.jpg"
       },
       "xianyu": {
         "title": "现货♥宝可梦初音未来特装版BD ポケットモンスター feat.初音ミク VOLTAGE Live!",
@@ -6900,14 +6900,14 @@
       "wameiji_state": "not_currently_listed",
       "xianyu_state": "not_currently_listed",
       "wameiji": {
-        "title": "暁の護衛 署名海报＋特典卡套组",
-        "version_evidence": "Manual Chrome/IAB search showed 暁の護衛 replica illustration boards and single-character replica shikishi, plus unrelated goods; no group signed poster with attached card matching the supplied sample.",
+        "title": "暁の護衛 签名海报+卡片套装（挖煤姬当前未见同版）",
+        "version_evidence": null,
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B+%E8%89%B2%E7%B4%99+%E7%89%B9%E5%85%B8",
-        "observed_at": "2026-09-21T06:35:18Z",
+        "source_url": "https://www.meruki.cn/search?keywords=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E7%9B%B4%E7%AD%86%E3%82%B5%E3%82%A4%E3%83%B3&website=mercari",
+        "observed_at": "2026-09-21T12:12:11Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.fril.jp/img/835565348/l/2878784876.jpg?1780718775=&updated_at=2026-06-06T04%3A06%3A15.000Z",
