@@ -6959,13 +6959,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "nerdneko CURE 初音未来 一专-四专 正版全新 有侧 包邮",
-    "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页确认：标题为 nerdneko CURE 初音未来；一专-四专；正版全新、有侧、包邮；价格区间135-160 CNY，当前按一专记录135 CNY；页面显示7人想要、213浏览，可立即购买。再次用内置浏览器在挖煤姬精确检索「nerdneko CURE 初音未来」：结果为 Project DIVA、Nachoneko/初音未来手办与其他无关商品，没有 nerdneko CURE 一专至四专 CD；保留为闲鱼单边主要观察对象，不计为匹配。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页确认：标题为 nerdneko CURE 初音未来；一专-四专；正版全新、有侧、包邮；价格区间135-160 CNY，当前按一专记录135 CNY；页面显示7人想要、213浏览，可立即购买。随后在挖煤姬按「nerdneko CURE 初音未来 CD」精确检索，结果仅有 n.k 同人 CD、VocaL@ntis、其他无关初音未来商品，没有 nerdneko CURE 一专至四专 CD；保留为闲鱼单边主要观察对象，不计为匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 135.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1069537697055&categoryId=126864811",
-    "observed_at": "2026-09-21T17:20:00Z",
+    "observed_at": "2026-09-22T08:25:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/4033685196/O1CN01yywCk71oFp76CDdV0_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
