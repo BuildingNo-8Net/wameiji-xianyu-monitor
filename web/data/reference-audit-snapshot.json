@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T01:30:00+08:00",
+  "generated_at": "2026-09-22T01:45:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6896,7 +6896,7 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "Purple software",
-        "version_evidence": "人工 Chrome/IAB 闲鱼当前详情页：Purple software《天津罪》OP主题歌《こころに響く恋ほたる》预约特典CD；本体无暇、壳子微瑕；价格95 CNY包邮；页面说明主页另有青鸟特典CD，可打包减10；当前可立即购买。",
+        "version_evidence": "闲鱼侧人工 Chrome/IAB 详情页：Purple software《天津罪》OP主题歌《こころに響く恋ほたる》预约特典CD；本体无暇、壳子微瑕；价格95 CNY包邮；页面说明主页另有青鸟特典CD，可打包减10；当前可立即购买。挖煤姬侧人工检索同标题显示“暂无数据”，Mercari 无同版预约特典 CD；保留为闲鱼单边主要观察对象。",
         "catalog_no": null,
         "barcode": null,
         "price": 95.0,
