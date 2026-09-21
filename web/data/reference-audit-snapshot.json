@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:05:51.855910+00:00",
+  "generated_at": "2026-09-21T11:10:23.833736+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 106 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
-    "both_found_count": 96,
+    "both_found_count": 97,
     "both_observed_count": 109,
     "single_observed_count": 12,
     "wameiji_platform_found_count": 106,
@@ -16,7 +16,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 96
+      "count": 97
     },
     {
       "wameiji": "found",
@@ -31,7 +31,7 @@
     {
       "wameiji": "price_unfavorable",
       "xianyu": "found",
-      "count": 6
+      "count": 5
     },
     {
       "wameiji": "not_currently_listed",
@@ -752,6 +752,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/2217951073452/O1CN01qLsvzC1bN4NLj6XdI_!!4611686018427385004-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/34-d1b63c9760f25546.webp"
+    },
+    {
+      "reference_product_id": 38,
+      "stable_key": "sample:bfd76188b05e66049b8d739457ca8f891b9fbe4fa381a8c1e0b9c17cdf78814e",
+      "wameiji": {
+        "title": "【中古】PS4ソフト 魔法使いの夜 [初回限定版]",
+        "version_evidence": "人工 Chrome/IAB 打开挖煤姬真实详情页；商品为 PS4 初回限定版，管理番号 107005924001，发售日 2022/12/08，制造商 アニプレックス，型号 ANPX-45005；页面标注店铺卖家、无明显损伤或污渍，商品介绍明确写出限定版特典为设定资料集「魔法使いの基礎音律」。",
+        "catalog_no": "ANPX-45005",
+        "barcode": null,
+        "price": 5680.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f325156786657324742416b4d5337724268586e5365442f",
+        "observed_at": "2026-09-21T11:10:14Z",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/-/large/plain/98y9Zs64pFBzDZaRy5stUY.webp@jpg"
+      },
+      "xianyu": {
+        "title": "PS4《魔法使之夜》初回限定版 日版全套",
+        "version_evidence": "人工内置浏览器闲鱼检索结果的具体商品链接：日版全套、支持中文、包普邮，标价340元；与挖煤姬二手件的设定集和特典完整度待逐项确认。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 340.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1082230607281&categoryId=126856346",
+        "observed_at": "2026-09-15T15:07:39Z",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/3715802575/O1CN01A0xcjYsoBZK2vHAO_!!4611686018427381199-0-xy_item.jpg_Q90.jpg_.webp"
+      },
+      "reference_image_url": "assets/reference-samples/38-bfd76188b05e6604.webp"
     },
     {
       "reference_product_id": 39,
@@ -3828,17 +3859,17 @@
       "reference_product_id": 38,
       "stable_key": "sample:bfd76188b05e66049b8d739457ca8f891b9fbe4fa381a8c1e0b9c17cdf78814e",
       "wameiji": {
-        "title": "魔法使いの夜 初回限定版 PS4版",
-        "version_evidence": "人工内置浏览器挖煤姬精确检索结果的具体商品链接：PS4 初回限定版，二手，5,780日元；套装内各附件、语言与闲鱼日版全套未逐项复核。",
-        "catalog_no": null,
+        "title": "【中古】PS4ソフト 魔法使いの夜 [初回限定版]",
+        "version_evidence": "人工 Chrome/IAB 打开挖煤姬真实详情页；商品为 PS4 初回限定版，管理番号 107005924001，发售日 2022/12/08，制造商 アニプレックス，型号 ANPX-45005；页面标注店铺卖家、无明显损伤或污渍，商品介绍明确写出限定版特典为设定资料集「魔法使いの基礎音律」。",
+        "catalog_no": "ANPX-45005",
         "barcode": null,
-        "price": 5780.0,
+        "price": 5680.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32383238333330303339322f",
-        "observed_at": "2026-09-15T15:07:39Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f325156786657324742416b4d5337724268586e5365442f",
+        "observed_at": "2026-09-21T11:10:14Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m28283300392_1.jpg"
+        "image_url": "https://imghk.doorzo.net/-/large/plain/98y9Zs64pFBzDZaRy5stUY.webp@jpg"
       },
       "xianyu": {
         "title": "PS4《魔法使之夜》初回限定版 日版全套",
