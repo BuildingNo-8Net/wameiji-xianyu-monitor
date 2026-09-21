@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T10:26:00+00:00",
+  "generated_at": "2026-09-21T10:21:33.828334+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 103 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -510,13 +510,13 @@
       "stable_key": "sample:17b42e4e041d599cf25e145c4bd29fab7ded93f75a99217a324abb347eb9ca6a",
       "wameiji": {
         "title": "虚ノ少女 ドラマCD",
-        "version_evidence": "Exact title and physical drama CD. Search-result condition is used; supplied sample was described as new unopened and visually includes orange obi, so condition/obi parity is not established.",
+        "version_evidence": "挖煤姬详情页标题为「虚ノ少女 ドラマCD」；商品介绍写明「2016年発売の虚ノ少女 オリジナルサウンドドラマCD」；一度开封、无明显污渍；详情页显示单张商品图。",
         "catalog_no": null,
         "barcode": null,
         "price": 3200.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303535363231393335302f",
-        "observed_at": "2026-09-15T13:38:47+08:00",
+        "observed_at": "2026-09-21T10:21:18Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m30556219350_1.jpg"
@@ -3519,13 +3519,13 @@
       "stable_key": "sample:17b42e4e041d599cf25e145c4bd29fab7ded93f75a99217a324abb347eb9ca6a",
       "wameiji": {
         "title": "虚ノ少女 ドラマCD",
-        "version_evidence": "Exact title and physical drama CD. Search-result condition is used; supplied sample was described as new unopened and visually includes orange obi, so condition/obi parity is not established.",
+        "version_evidence": "挖煤姬详情页标题为「虚ノ少女 ドラマCD」；商品介绍写明「2016年発売の虚ノ少女 オリジナルサウンドドラマCD」；一度开封、无明显污渍；详情页显示单张商品图。",
         "catalog_no": null,
         "barcode": null,
         "price": 3200.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33303535363231393335302f",
-        "observed_at": "2026-09-15T13:38:47+08:00",
+        "observed_at": "2026-09-21T10:21:18Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m30556219350_1.jpg"
