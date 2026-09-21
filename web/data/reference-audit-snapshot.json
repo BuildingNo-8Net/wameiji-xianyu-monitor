@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T07:05:00+08:00",
+  "generated_at": "2026-09-22T07:15:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -733,7 +733,7 @@
         "price": 1999.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393534313030323139362f",
-        "observed_at": "2026-09-21T12:04:37Z",
+        "observed_at": "2026-09-21T23:15:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556"
@@ -6853,7 +6853,7 @@
       "counterpart_state": "blocked",
       "observation": {
         "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
-        "version_evidence": "人工内置浏览器复核：该挖煤姬详情页当前显示“不支持该商品”，未提供可核验的商品标题、价格或主图；无法确认原先缓存标题/版本，也不能作为当前进货证据。",
+        "version_evidence": "人工内置浏览器复核：该挖煤姬详情页当前显示“不支持该商品”，未提供可核验的商品标题、价格或主图；无法确认原先缓存标题/版本，也不能作为当前进货证据。随后在闲鱼用“RIDDLE JOKER ランチョンマット”精确检索，结果为收藏卡、吧唧、亚克力和其他周边，没有 RIDDLE JOKER 午餐垫同版商品；因此不把近似周边凑成匹配，保留为挖煤姬单边受阻观察。",
         "catalog_no": null,
         "barcode": null,
         "price": 1999.0,
