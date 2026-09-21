@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:44:57.218165+00:00",
+  "generated_at": "2026-09-21T11:47:25.148405+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2865,17 +2865,17 @@
       "reference_product_id": 117,
       "stable_key": "sample:22d91e29af15b5a5c7296974a67394f6031149808e799e733fa9fdc1be5a72de",
       "wameiji": {
-        "title": "X.U. | scaPEGoat(期間生産限定アニメ盤)(DVD付) [CD] SawanoHiroyuki[nZk]_02",
-        "version_evidence": "期間生産限定アニメ盤 CD+DVD; JAN 4560429729204; 有些许损伤或污渍; 商品图为样品，侧标不保证包含",
-        "catalog_no": null,
-        "barcode": "4560429729204",
-        "price": 300.0,
+        "title": "【中古】アニメ系CD SawanoHiroyuki[nZk] / X.U.| scaPEGoat[DVD付期間生産限定盤] ～TVアニメ「終わりのセラフ」OP＆ED",
+        "version_evidence": "人工内置浏览器挖煤姬当前详情页核验：DFCL-2133；《X.U.》《scaPEGoat》期间生产限定动画盘，CD+DVD；商品页列出X.U./scaPEGoat/INSANITY LOVE及TV size与instrumental，DVD含两支《终わりのセラフ》无字幕影像；店铺卖家，状态没有明显的损伤或污渍；1000 JPY；日本国内运费买家承担；手续费200 JPY；无物流保障；页面有加入购物车和立即购买。",
+        "catalog_no": "DFCL-2133",
+        "barcode": null,
+        "price": 1000.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f69337953413739675862516a4764527433664e68674e2f",
-        "observed_at": "2026-09-14T16:47:34Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f46753947675368673551744548466f50636e426568422f",
+        "observed_at": "2026-09-21T11:47:24Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/vGLnxdcfub3ctG4eE3xiuU.jpg@jpg"
+        "image_url": "https://image02.doorzo.net/-/large/plain/x5NTwnAnfEbrJZYNctvHh3.webp@jpg"
       },
       "xianyu": {
         "title": "泽野弘之 X.U. scaPEGoat 终结的炽天使OP/ED专辑CD+DVD日版初回限定盘",
@@ -6247,17 +6247,17 @@
       "reference_product_id": 117,
       "stable_key": "sample:22d91e29af15b5a5c7296974a67394f6031149808e799e733fa9fdc1be5a72de",
       "wameiji": {
-        "title": "X.U. | scaPEGoat(期間生産限定アニメ盤)(DVD付) [CD] SawanoHiroyuki[nZk]_02",
-        "version_evidence": "期間生産限定アニメ盤 CD+DVD; JAN 4560429729204; 有些许损伤或污渍; 商品图为样品，侧标不保证包含",
-        "catalog_no": null,
-        "barcode": "4560429729204",
-        "price": 300.0,
+        "title": "【中古】アニメ系CD SawanoHiroyuki[nZk] / X.U.| scaPEGoat[DVD付期間生産限定盤] ～TVアニメ「終わりのセラフ」OP＆ED",
+        "version_evidence": "人工内置浏览器挖煤姬当前详情页核验：DFCL-2133；《X.U.》《scaPEGoat》期间生产限定动画盘，CD+DVD；商品页列出X.U./scaPEGoat/INSANITY LOVE及TV size与instrumental，DVD含两支《终わりのセラフ》无字幕影像；店铺卖家，状态没有明显的损伤或污渍；1000 JPY；日本国内运费买家承担；手续费200 JPY；无物流保障；页面有加入购物车和立即购买。",
+        "catalog_no": "DFCL-2133",
+        "barcode": null,
+        "price": 1000.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f69337953413739675862516a4764527433664e68674e2f",
-        "observed_at": "2026-09-14T16:47:34Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f46753947675368673551744548466f50636e426568422f",
+        "observed_at": "2026-09-21T11:47:24Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/vGLnxdcfub3ctG4eE3xiuU.jpg@jpg"
+        "image_url": "https://image02.doorzo.net/-/large/plain/x5NTwnAnfEbrJZYNctvHh3.webp@jpg"
       },
       "xianyu": {
         "title": "泽野弘之 X.U. scaPEGoat 终结的炽天使OP/ED专辑CD+DVD日版初回限定盘",
