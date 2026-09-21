@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T13:12:09.013057+00:00",
+  "generated_at": "2026-09-21T13:16:07.460479+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1514,17 +1514,17 @@
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/secl-3335.jpg?fitin=275:275"
       },
       "xianyu": {
-        "title": "milet Made of Glass 初回限定盘 CD+2DVD（卖家规格为准）",
-        "version_evidence": "人工Chrome精确检索：¥699全款包邮含税，当前现货；卖家明确初回有CD+BD和CD+2DVD两种。与样本标题的2BD说法冲突，故不将其视作已验证规格。",
+        "title": "现货 milet Made of Glass 初回限定盘 CD+2Blu-ray 蓝光BOX（日版，全新未拆）",
+        "version_evidence": "闲鱼详情标题与正文明确写“初回限定盘CD+2Blu-ray蓝光BOX”，并注明日本原装正版、全新未拆、原封标签膜袋完好；该详情页未显示SECL品番或JAN，不能据此与挖煤姬的SECL-3335 CD+2DVD互换。",
         "catalog_no": null,
         "barcode": null,
         "price": 699.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=milet%20Made%20of%20Glass%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%9B%98%20CD%202Blu-ray",
-        "observed_at": "2026-09-14T03:56:46Z",
+        "source_url": "https://www.goofish.com/item?id=1079321303317&categoryId=202061902",
+        "observed_at": "2026-09-21T13:15:56Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/1027971467/O1CN010ZhTdEtMdEI2vHAO_!!4611686018427386251-0-xy_item.jpg_450x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN01sEDdXVtbZCI70gAX_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/71-127ddd6fc3102fb0.webp"
     },
@@ -4915,7 +4915,7 @@
       "stable_key": "sample:127ddd6fc3102fb03d7d5db1ecc09010287607a8eafffd16340ad1a7536eb975",
       "wameiji": {
         "title": "milet / Made of Glass (初回生産限定盤／輸出不可／CD+2DVD) [SECL-3335]",
-        "version_evidence": "挖煤姬乐天详情：SECL-3335、JAN 4547366822120，初回生产限定 CD+2DVD，带外套盒；新品订货。",
+        "version_evidence": "New Rakuten listing; SECL-3335, JAN 4547366822120, initial production limited CD+2DVD with sleeve case. The same release also has a separate Blu-ray edition SECL-3332; they are not interchangeable.",
         "catalog_no": "SECL-3335",
         "barcode": "4547366822120",
         "price": 14300.0,
@@ -4927,17 +4927,17 @@
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/secl-3335.jpg?fitin=275:275"
       },
       "xianyu": {
-        "title": "米雷特《Made of Glass》初回生产限定DVD盘",
-        "version_evidence": "闲鱼搜索卡标题与描述：milet《Made of Glass》初回生产限定盘（CD+DVD），全新未拆封，定价14300日元；当前挂牌645 CNY。详情页打开时触发拖动验证，未能复核是否为样本所需 SECL-3335 的 CD+2DVD、外套盒与附件，因此版本/附件待确认。",
+        "title": "现货 milet Made of Glass 初回限定盘 CD+2Blu-ray 蓝光BOX（日版，全新未拆）",
+        "version_evidence": "闲鱼详情标题与正文明确写“初回限定盘CD+2Blu-ray蓝光BOX”，并注明日本原装正版、全新未拆、原封标签膜袋完好；该详情页未显示SECL品番或JAN，不能据此与挖煤姬的SECL-3335 CD+2DVD互换。",
         "catalog_no": null,
         "barcode": null,
-        "price": 645.0,
+        "price": 699.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1082237862749&categoryId=126862148",
-        "observed_at": "2026-09-18T16:58:00Z",
+        "source_url": "https://www.goofish.com/item?id=1079321303317&categoryId=202061902",
+        "observed_at": "2026-09-21T13:15:56Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/1027971467/O1CN010ZhTdEtMdEI2vHAO_!!4611686018427386251-0-xy_item.jpg_450x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN01sEDdXVtbZCI70gAX_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/71-127ddd6fc3102fb0.webp"
     },
