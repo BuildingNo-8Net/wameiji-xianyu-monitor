@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T13:39:01.822369+00:00",
+  "generated_at": "2026-09-21T13:44:32.761988+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2444,14 +2444,14 @@
         "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802"
       },
       "xianyu": {
-        "title": "milet eyes 日版完全生产限定盘 2LP重量盘 全新未拆 含12页小册子 18首",
-        "version_evidence": "Manual search card: milet eyes, 完全生产限定盘 2LP, 规格品番 SEJL-86, 2 discs heavyweight, 18 tracks, and 12-page booklet; listed as current domestic stock and new unopened.",
+        "title": "milet《eyes》现货！完全生产限定盘 2LP黑胶 日版现货 全新未拆",
+        "version_evidence": "闲鱼详情明确：日版、LP黑胶、完全生产限定盘、2LP/重量盘、规格品番 SEJL-86、18首、豪华12页booklet、全新未拆；与挖煤姬样本 milet eyes 完全生产限定 2LP 同版型相符。",
         "catalog_no": "SEJL-86",
-        "barcode": null,
+        "barcode": "4547366771497",
         "price": 415.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=milet%20eyes%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A%20%E9%BB%91%E8%83%B6%202LP",
-        "observed_at": "2026-09-14T05:13:20Z",
+        "source_url": "https://www.goofish.com/item?id=998954279983&categoryId=126864811",
+        "observed_at": "2026-09-21T13:44:22Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/52194232/O1CN01Ztkbyo1h8JHAkAj12_!!4611686018427382712-53-xy_item.heic_Q90.jpg_.webp"
@@ -5845,29 +5845,29 @@
       "stable_key": "sample:f563e120e9993f3353054debbd6cb77b10137b023425ad8c3925c649d1a4a21c",
       "wameiji": {
         "title": "milet eyes＜完全生産限定盤＞",
-        "version_evidence": "挖煤姬详情：未使用；完全生产限定盘、模拟唱片2枚组（重量盘），目录号 SEJL-86、JAN 4547366771497。",
-        "catalog_no": "SEJL-86",
-        "barcode": "4547366771497",
-        "price": 8000.0,
+        "version_evidence": "挖煤姬详情页：二手；未使用；Onbando；完全生产限定盘模拟两枚重量黑胶；页面称milet首张专辑eyes模拟化；当前可还价/加入购物车/立即购买。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 8500.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35313634373532323233312f",
-        "observed_at": "2026-09-19T04:25:00Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35313634373532323233312f",
+        "observed_at": "2026-09-21T04:51:22Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m51647522231_1.jpg"
+        "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802"
       },
       "xianyu": {
-        "title": "milet《eyes》现货！完全生产限定盘 2LP黑胶 日版",
-        "version_evidence": "闲鱼详情挂牌明确为 milet《eyes》完全生产限定盘、2LP黑胶、日版现货，规格品番 SEJL-86，专辑18首；全新未拆、默认运输微瑕，标价 415 CNY。",
+        "title": "milet《eyes》现货！完全生产限定盘 2LP黑胶 日版现货 全新未拆",
+        "version_evidence": "闲鱼详情明确：日版、LP黑胶、完全生产限定盘、2LP/重量盘、规格品番 SEJL-86、18首、豪华12页booklet、全新未拆；与挖煤姬样本 milet eyes 完全生产限定 2LP 同版型相符。",
         "catalog_no": "SEJL-86",
-        "barcode": null,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/52194232/O1CN01Ztkbyo1h8JHAkAj12_!!4611686018427382712-53-xy_item.heic_Q90.jpg_.webp",
+        "barcode": "4547366771497",
         "price": 415.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=998954279983&categoryId=126864811",
-        "observed_at": "2026-09-19T04:25:00Z",
+        "observed_at": "2026-09-21T13:44:22Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/52194232/O1CN01Ztkbyo1h8JHAkAj12_!!4611686018427382712-53-xy_item.heic_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/101-f563e120e9993f33.webp"
     },
