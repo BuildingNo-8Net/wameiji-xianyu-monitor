@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T13:26:40.251809+00:00",
+  "generated_at": "2026-09-21T13:29:13.667733+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2723,14 +2723,14 @@
         "image_url": "https://content.bookoff.co.jp/goodsimages/LL/001868/0018687954LL.jpg"
       },
       "xianyu": {
-        "title": "n-buna 月を歩いている 日版初回限定盘 CD",
-        "version_evidence": "Current exact search has an active Japanese initial pressing. The source sample paper storage box distinguishes it from the explicitly marked standard CD nearby.",
+        "title": "【现货】n-buna 月上漫步月を歩いている CD 初回盘",
+        "version_evidence": "闲鱼详情明确：现货、月を歩いている、CD、初回盘；页面价格显示区间 175–375 CNY，具体选项未展开，故只记录区间下限作参考，不视为确定成交价。与挖煤姬 DUED1174 / JAN 4571192993532 初回生産限定盤在版本形态上相符，但闲鱼页未显示编号、花の咲いたカエル附册或三方背信息，仍需复核附件。",
         "catalog_no": null,
         "barcode": null,
         "price": 175.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1075876239026&categoryId=126864811",
-        "observed_at": "2026-09-11T05:49:08Z",
+        "observed_at": "2026-09-21T13:29:03Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01vm93Z6P7CKH2vHAO~livephoto~_!!4611686018427381452-0-fleamarket.jpg_Q90.jpg_.webp"
@@ -6136,14 +6136,14 @@
         "image_url": "https://content.bookoff.co.jp/goodsimages/LL/001868/0018687954LL.jpg"
       },
       "xianyu": {
-        "title": "n-buna 月を歩いている 日版初回限定盘 CD",
-        "version_evidence": "Current exact search has an active Japanese initial pressing. The source sample paper storage box distinguishes it from the explicitly marked standard CD nearby.",
+        "title": "【现货】n-buna 月上漫步月を歩いている CD 初回盘",
+        "version_evidence": "闲鱼详情明确：现货、月を歩いている、CD、初回盘；页面价格显示区间 175–375 CNY，具体选项未展开，故只记录区间下限作参考，不视为确定成交价。与挖煤姬 DUED1174 / JAN 4571192993532 初回生産限定盤在版本形态上相符，但闲鱼页未显示编号、花の咲いたカエル附册或三方背信息，仍需复核附件。",
         "catalog_no": null,
         "barcode": null,
         "price": 175.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1075876239026&categoryId=126864811",
-        "observed_at": "2026-09-11T05:49:08Z",
+        "observed_at": "2026-09-21T13:29:03Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01vm93Z6P7CKH2vHAO~livephoto~_!!4611686018427381452-0-fleamarket.jpg_Q90.jpg_.webp"
