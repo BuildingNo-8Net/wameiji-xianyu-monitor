@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T13:51:48.430259+00:00",
+  "generated_at": "2026-09-21T14:00:14.309794+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2630,14 +2630,14 @@
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0812/uijy-75324.jpg?downsize=400:*"
       },
       "xianyu": {
-        "title": "刘德华 回到你身边 日本初回限定 180g黑胶LP 全新未拆",
-        "version_evidence": "Manual Chrome search for 刘德华 回到你身边 日版黑胶 showed multiple current domestic listings. One listing specifies 2025 Japanese first LP release, 2025-09-24, original Universal Music, new sealed. Other matching cards state Japanese first limited edition and 180g LP; source collection is not treated as a four-title set.",
-        "catalog_no": "UIJY-75324",
+        "title": "刘德华 回到你身边 日本初回生产限定LP黑胶 全新未拆封",
+        "version_evidence": "Manual Chrome detail confirms the individual title 回到你身边, Japan first-production limited LP, unopened, 180g, lyrics booklet, and LP black-vinyl medium. The detail does not state the catalogue number or poster inclusion, so those remain unclaimed.",
+        "catalog_no": null,
         "barcode": null,
-        "price": 338.0,
+        "price": 298.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E5%88%98%E5%BE%B7%E5%8D%8E%20%E5%9B%9E%E5%88%B0%E4%BD%A0%E8%BA%AB%E8%BE%B9%20%E6%97%A5%E7%89%88%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T05:25:23Z",
+        "source_url": "https://www.goofish.com/item?id=1015656902633&categoryId=126864811",
+        "observed_at": "2026-09-21T13:59:33Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2923953316/O1CN01qxXLJ81aMmTRBDWp1_!!4611686018427387044-53-xy_item.heic_Q90.jpg_.webp"
@@ -6044,13 +6044,13 @@
       },
       "xianyu": {
         "title": "刘德华 回到你身边 日本初回生产限定LP黑胶 全新未拆封",
-        "version_evidence": "闲鱼详情明确写明《回到你身边》日本初回生产限定 LP、全新未拆封、1988 年作品、180g 重量盘、带歌词本，售价 298 CNY；详情未明确海报是否随货，不能据此确认样本所示海报附件。",
+        "version_evidence": "Manual Chrome detail confirms the individual title 回到你身边, Japan first-production limited LP, unopened, 180g, lyrics booklet, and LP black-vinyl medium. The detail does not state the catalogue number or poster inclusion, so those remain unclaimed.",
         "catalog_no": null,
         "barcode": null,
         "price": 298.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1015656902633&categoryId=126864811",
-        "observed_at": "2026-09-19T06:29:38Z",
+        "observed_at": "2026-09-21T13:59:33Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2923953316/O1CN01qxXLJ81aMmTRBDWp1_!!4611686018427387044-53-xy_item.heic_Q90.jpg_.webp"
