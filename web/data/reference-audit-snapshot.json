@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T04:20:00+08:00",
+  "generated_at": "2026-09-22T05:20:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6936,13 +6936,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "中古青鸟初回版",
-        "version_evidence": "闲鱼侧人工 Chrome/IAB 详情页核验：中古青鸟／アオイトリ Purple software 初回版；标题明确内含本体一枚和 OST 两枚，成色几乎全新，价格500 CNY，页面有立即购买。挖煤姬侧人工检索「青鸟 初回版 CD」仅返回“标题未定 群青 花 栞 CD 3枚セット”1999 JPY，与样本不是同版；保留为闲鱼单边主要观察对象，不计为匹配。",
+        "version_evidence": "闲鱼侧人工 Chrome/IAB 详情页核验：中古青鸟／アオイトリ Purple software 初回版；标题明确内含本体一枚和 OST 两枚，成色几乎全新，价格500 CNY，页面有立即购买。再次用内置浏览器在挖煤姬精确检索「青鸟 初回版」：结果仅见一青窈、Blue Birds、青の祓魔師等无关商品，没有アオイトリ／Purple software 初回版；此前出现的“标题未定 群青 花 栞 CD 3枚セット”同样不是同版。保留为闲鱼单边主要观察对象，不计为匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 500.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1060157628189&categoryId=126860296",
-        "observed_at": "2026-09-21T06:46:22Z",
+        "observed_at": "2026-09-22T05:20:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2220797024623/O1CN01ybNCKy1k1O9wNCon2_!!4611686018427386223-0-xy_item.jpg_790x10000Q90.jpg_.webp"
