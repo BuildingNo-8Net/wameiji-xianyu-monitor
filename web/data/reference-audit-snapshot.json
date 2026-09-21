@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T10:43:10.738511+00:00",
+  "generated_at": "2026-09-21T10:46:40.991763+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 105 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1873,17 +1873,17 @@
       "reference_product_id": 87,
       "stable_key": "sample:37135d9f8a4bdb83e0327e2eb17d7c263cbdcf29595a06997b3238b1c05abb30",
       "wameiji": {
-        "title": "Kalafina All Time Best 2008-2018 Complete Limited Production Edition",
-        "version_evidence": "Current Mercari page: VVCL 1332-7, complete limited-production 6-CD box (best album plus Nippon Budokan live audio) with 60-page history photo book.",
-        "catalog_no": "VVCL 1332-7",
+        "title": "Kalafina All Time Best 2008-2018(完全生産限定盤)／Kalafina／6枚組",
+        "version_evidence": "挖煤姬当前 Mercari 详情标题为「Kalafina All Time Best 2008-2018(完全生産限定盤)／Kalafina／6枚組」；价格2,610日元，页面可加入购物车/立即购买。商品介绍明确写明“仅光盘”，无ジャケット/歌词カード，原为レンタル利用商品，使用不织布保护袋寄送；曲目覆盖2008-2018十年精选。与闲鱼样本的6CD/完全生产限定版同作品同盘数，但样本照片中的完整外盒/写真集等附件不在此条目承诺范围，不据此判定同款利润。",
+        "catalog_no": null,
         "barcode": null,
-        "price": 11000.0,
+        "price": 2610.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333333333936363732392f",
-        "observed_at": "2026-09-14T17:41:33Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f78394b4b737a753652584e4b535a4277573543654e5a2f",
+        "observed_at": "2026-09-21T10:46:29Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m23333966729_1.jpg"
+        "image_url": "https://image02.doorzo.net/-/large/plain/eHDgbnWid6tx8aKkR8dGtk.jpg@jpg"
       },
       "xianyu": {
         "title": "Kalafina All Time Best 2008-2018 Complete Limited Production Edition 6CD Photo Book",
@@ -5224,17 +5224,17 @@
       "reference_product_id": 87,
       "stable_key": "sample:37135d9f8a4bdb83e0327e2eb17d7c263cbdcf29595a06997b3238b1c05abb30",
       "wameiji": {
-        "title": "Kalafina All Time Best 2008-2018 Complete Limited Production Edition",
-        "version_evidence": "Current Mercari page: VVCL 1332-7, complete limited-production 6-CD box (best album plus Nippon Budokan live audio) with 60-page history photo book.",
-        "catalog_no": "VVCL 1332-7",
+        "title": "Kalafina All Time Best 2008-2018(完全生産限定盤)／Kalafina／6枚組",
+        "version_evidence": "挖煤姬当前 Mercari 详情标题为「Kalafina All Time Best 2008-2018(完全生産限定盤)／Kalafina／6枚組」；价格2,610日元，页面可加入购物车/立即购买。商品介绍明确写明“仅光盘”，无ジャケット/歌词カード，原为レンタル利用商品，使用不织布保护袋寄送；曲目覆盖2008-2018十年精选。与闲鱼样本的6CD/完全生产限定版同作品同盘数，但样本照片中的完整外盒/写真集等附件不在此条目承诺范围，不据此判定同款利润。",
+        "catalog_no": null,
         "barcode": null,
-        "price": 11000.0,
+        "price": 2610.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333333333936363732392f",
-        "observed_at": "2026-09-14T17:41:33Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f78394b4b737a753652584e4b535a4277573543654e5a2f",
+        "observed_at": "2026-09-21T10:46:29Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m23333966729_1.jpg"
+        "image_url": "https://image02.doorzo.net/-/large/plain/eHDgbnWid6tx8aKkR8dGtk.jpg@jpg"
       },
       "xianyu": {
         "title": "Kalafina All Time Best 2008-2018 Complete Limited Production Edition 6CD Photo Book",
