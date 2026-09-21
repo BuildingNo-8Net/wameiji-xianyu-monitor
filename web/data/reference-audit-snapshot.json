@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T14:00:14.309794+00:00",
+  "generated_at": "2026-09-21T14:19:08.835247+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -3033,17 +3033,17 @@
         "image_url": "https://imghk.doorzo.net/-/large/plain/2JW4JjWkgcz6YHctVVBUJt.jpg@jpg"
       },
       "xianyu": {
-        "title": "GARNiDELiA MIRAI 期间生产限定动画盘 CD+DVD",
-        "version_evidence": "当前在售项明确为MIRAI期间生产限定盘CD+DVD，非同列表已出的Error版本。",
+        "title": "美依礼芽GARNIDELIA MIRAI 期间生产限定盘 CD+DVD 几乎全新",
+        "version_evidence": "Manual Chrome detail title explicitly states 期间生产限定盘 CD+DVD. The same detail page labels storage medium as CD and does not expose JAN/catalog number or a separate accessory list, so the DVD assertion is title-level only.",
         "catalog_no": null,
         "barcode": null,
-        "price": 102.0,
+        "price": 91.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1080556566176&categoryId=126864811",
-        "observed_at": "2026-09-11T06:01:05Z",
+        "observed_at": "2026-09-21T14:18:53Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01NloL021E2Ev39YJSP_!!0-fleamarket.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01nKzlWsQVmoI3thGS~livephoto~_!!4611686018427382691-0-fleamarket.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/120-633c50493ed8741f.webp"
     },
@@ -6446,17 +6446,17 @@
         "image_url": "https://imghk.doorzo.net/-/large/plain/2JW4JjWkgcz6YHctVVBUJt.jpg@jpg"
       },
       "xianyu": {
-        "title": "GARNiDELiA MIRAI 期间生产限定动画盘 CD+DVD",
-        "version_evidence": "当前在售项明确为MIRAI期间生产限定盘CD+DVD，非同列表已出的Error版本。",
+        "title": "美依礼芽GARNIDELIA MIRAI 期间生产限定盘 CD+DVD 几乎全新",
+        "version_evidence": "Manual Chrome detail title explicitly states 期间生产限定盘 CD+DVD. The same detail page labels storage medium as CD and does not expose JAN/catalog number or a separate accessory list, so the DVD assertion is title-level only.",
         "catalog_no": null,
         "barcode": null,
-        "price": 102.0,
+        "price": 91.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1080556566176&categoryId=126864811",
-        "observed_at": "2026-09-11T06:01:05Z",
+        "observed_at": "2026-09-21T14:18:53Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01NloL021E2Ev39YJSP_!!0-fleamarket.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01nKzlWsQVmoI3thGS~livephoto~_!!4611686018427382691-0-fleamarket.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/120-633c50493ed8741f.webp"
     },
