@@ -10,7 +10,7 @@
     "single_observed_count": 12,
     "wameiji_platform_found_count": 103,
     "found_any_count": 119,
-    "not_currently_listed_both_count": 5
+    "not_currently_listed_both_count": 6
   },
   "state_pairs": [
     {
@@ -34,14 +34,9 @@
       "count": 7
     },
     {
-      "wameiji": "blocked",
-      "xianyu": "blocked",
-      "count": 1
-    },
-    {
       "wameiji": "not_currently_listed",
       "xianyu": "not_currently_listed",
-      "count": 5
+      "count": 6
     }
   ],
   "dual_found_pairs": [
