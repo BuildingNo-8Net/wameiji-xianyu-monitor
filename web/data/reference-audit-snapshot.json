@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T13:16:07.460479+00:00",
+  "generated_at": "2026-09-21T13:21:03.194084+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1762,14 +1762,14 @@
         "image_url": "https://tshop.r10s.jp/surprise-2/cabinet/imgr0845/anzx-18501.jpg?downsize=500:*"
       },
       "xianyu": {
-        "title": "鬼灭之刃 无限城篇 第一章 猗窝座再来 完全生产限定版 Blu-ray",
-        "version_evidence": "完全生产限定；2BD+2CD+解说册+特制盒为样本组件；当前卖家称仅拆封、内容物完整",
+        "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭 Blu-ray 完全生产限定版（日版，全新未拆）",
+        "version_evidence": "闲鱼详情标题同时写明“完全生产限定版”与Blu-ray，正文显示剧場版「鬼滅の刃」無限城編 第一章 猗窩座再来完全生産限定版【Blu-ray】，全新未拆、日本带回；与挖煤姬 ANZX-18501 的 Blu-ray+2CD+特典Blu-ray 形态一致，但该闲鱼详情未显示品番/JAN。",
         "catalog_no": null,
         "barcode": null,
-        "price": 618.0,
+        "price": 380.0,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E9%AC%BC%E7%81%AD%E4%B9%8B%E5%88%83%20%E6%97%A0%E9%99%90%E5%9F%8E%20%E7%8C%97%E7%AA%9D%E5%BA%A7%E5%86%8D%E6%9D%A5%202BD%202CD%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-14T04:11:49Z",
+        "source_url": "https://www.goofish.com/item?id=1075726469913&categoryId=126864807",
+        "observed_at": "2026-09-21T13:20:52Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/2214404775667/O1CN01eE13hSSPalB3thGS_!!4611686018427387635-0-xy_item.jpg_Q90.jpg_.webp"
@@ -5163,7 +5163,7 @@
       "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
       "wameiji": {
         "title": "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来 完全生産限定版 Blu-ray",
-        "version_evidence": "挖煤姬详情锁定 ANZX-18501、JAN 4534530164223；本编 Blu-ray + 2CD + 特典 Blu-ray，完全生产限定版，新品，发行日 2026-07-29。",
+        "version_evidence": "ANZX-18501; JAN 4534530164223; 本編Blu-ray+2CD+特典Blu-ray; 完全生産限定版; 新品; 2026-07-29",
         "catalog_no": "ANZX-18501",
         "barcode": "4534530164223",
         "price": 9680.0,
@@ -5175,14 +5175,14 @@
         "image_url": "https://tshop.r10s.jp/surprise-2/cabinet/imgr0845/anzx-18501.jpg?downsize=500:*"
       },
       "xianyu": {
-        "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭 Blu-ray 完全生产限定版",
-        "version_evidence": "闲鱼详情列出《劇場版「鬼滅の刃」無限城編 第一章 猗窩座再来》完全生产限定版 Blu-ray，现货、全新未拆、日本带回，标价 470 CNY；与挖煤姬的 ANZX-18501 / Blu-ray + 2CD + 特典 Blu-ray 版本信息对上。",
-        "catalog_no": "ANZX-18501",
+        "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭 Blu-ray 完全生产限定版（日版，全新未拆）",
+        "version_evidence": "闲鱼详情标题同时写明“完全生产限定版”与Blu-ray，正文显示剧場版「鬼滅の刃」無限城編 第一章 猗窩座再来完全生産限定版【Blu-ray】，全新未拆、日本带回；与挖煤姬 ANZX-18501 的 Blu-ray+2CD+特典Blu-ray 形态一致，但该闲鱼详情未显示品番/JAN。",
+        "catalog_no": null,
         "barcode": null,
-        "price": 470.0,
+        "price": 380.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1075726469913&categoryId=126864807",
-        "observed_at": "2026-09-19T06:07:12Z",
+        "observed_at": "2026-09-21T13:20:52Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/2214404775667/O1CN01eE13hSSPalB3thGS_!!4611686018427387635-0-xy_item.jpg_Q90.jpg_.webp"
