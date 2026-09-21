@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T10:09:00+00:00",
+  "generated_at": "2026-09-21T10:16:00+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 103 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6750,14 +6750,14 @@
         "state": "not_currently_listed"
       },
       "xianyu": {
-        "title": "晓之护卫 签名海报＋附卡套组",
-        "version_evidence": "人工Chrome复核精确检索「晓之护卫 签名海报 特典卡」未找到当前结果；扩大检索「晓之护卫 色纸」只见南条薰、柊珠美等普通色纸/特典色纸，检索「晓之护卫 签名」仅见续作《Reminiscence》整盒及签名复制色纸（¥500），不是样本图中的群像签名海报＋附卡。",
+        "title": "暁の護衛 サイン ポスター（闲鱼当前未见同版）",
+        "version_evidence": "人工内置浏览器打开闲鱼检索「暁の護衛 サイン ポスター」；结果为人声CD、PSP游戏、预约特典CD、钥匙扣和卡牌等，未见样本所示群像签名海报＋特典卡套组，未以同作品CD/游戏周边替代。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E6%99%93%E4%B9%8B%E6%8A%A4%E5%8D%AB%20%E7%AD%BE%E5%90%8D%E6%B5%B7%E6%8A%A5%20%E7%89%B9%E5%85%B8%E5%8D%A1",
-        "observed_at": "2026-09-19T15:14:19Z",
+        "source_url": "https://www.goofish.com/search?q=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E3%82%B5%E3%82%A4%E3%83%B3%20%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC",
+        "observed_at": "2026-09-21T10:16:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
