@@ -79,6 +79,32 @@ def test_market_observation_is_timestamped_and_does_not_change_positive_identity
     assert status["market_observation_states"] == {"price_unfavorable": 1}
 
 
+def test_reference_status_ignores_a_legacy_non_numeric_stored_price(
+    tmp_path: Path,
+) -> None:
+    db_path, product_id = _seed_reference_product(tmp_path)
+    observation = record_reference_market_observation(
+        db_path,
+        product_id=product_id,
+        market="wameiji",
+        observation_state="found",
+        source_url="https://meruki.example/item/legacy",
+    )
+
+    # Preserve the malformed legacy row shape seen in the live database while
+    # keeping the test focused on the read/status boundary.
+    with sqlite3.connect(db_path) as conn:
+        conn.execute(
+            "UPDATE reference_market_observations SET price = ? WHERE id = ?",
+            ("https://meruki.example/item/legacy", observation["id"]),
+        )
+
+    observations = list_reference_market_observations(db_path, product_id=product_id)
+    assert observations[0]["price"] is None
+    assert observations[0]["source_url"] == "https://meruki.example/item/legacy"
+    assert reference_memory_status(db_path)["market_observation_count"] == 1
+
+
 def test_reference_product_profile_uses_latest_market_evidence_and_coverage(
     tmp_path: Path,
 ) -> None:

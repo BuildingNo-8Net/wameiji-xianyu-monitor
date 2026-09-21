@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import math
 import re
 import shutil
 import sqlite3
@@ -981,6 +982,18 @@ def _latest_market_coverage(
 
 
 def _market_observation_dict(row: sqlite3.Row | tuple[object, ...]) -> dict[str, object]:
+    stored_price = row[9]
+    if stored_price is not None:
+        try:
+            stored_price = float(stored_price)
+        except (TypeError, ValueError):
+            # A legacy/manual import once placed a detail URL in the numeric
+            # price column. Keep the observation and its source URL readable,
+            # but never let one malformed volatile value take the status API
+            # down with a 502.
+            stored_price = None
+        if stored_price is not None and not math.isfinite(stored_price):
+            stored_price = None
     return {
         "id": int(row[0]),
         "product_id": int(row[1]),
@@ -991,7 +1004,7 @@ def _market_observation_dict(row: sqlite3.Row | tuple[object, ...]) -> dict[str,
         "version_evidence": str(row[6]) if row[6] is not None else None,
         "catalog_no": str(row[7]) if row[7] is not None else None,
         "barcode": str(row[8]) if row[8] is not None else None,
-        "price": float(row[9]) if row[9] is not None else None,
+        "price": stored_price,
         "currency": str(row[10]) if row[10] is not None else None,
         "source_url": str(row[11]) if row[11] is not None else None,
         "note": str(row[12]) if row[12] is not None else None,
