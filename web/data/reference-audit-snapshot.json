@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T11:31:44.978887+00:00",
+  "generated_at": "2026-09-21T11:33:53.805068+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 107 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2587,16 +2587,16 @@
       "stable_key": "sample:54e0dcfb28f13c4bb7d786be4a8d04a4814407a241fa1718f1861f89df922b25",
       "wameiji": {
         "title": "【美品・帯あり】ヨルシカ 幻燈 音楽画集アルバム 加藤隆 アルバム",
-        "version_evidence": "ヨルシカ音楽・加藤隆作画的可聆听音乐画集；带腰封；本体近未使用",
+        "version_evidence": "Manual Chrome/IAB detail: Yorushika 幻燈 music art book by Takashi Kato; page shows 接近未使用, obi included, seller-paid domestic shipping, 4–7 day dispatch, active add-to-cart and buy buttons. Description says outer bag opened with a large cut; book and obi have no conspicuous damage/folds; QR was read once and then stored in a dark place.",
         "catalog_no": null,
         "barcode": null,
-        "price": 9999.0,
+        "price": 11999.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37383033363535353939382f",
-        "observed_at": "2026-09-14T17:27:06Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37363032323236343739332f",
+        "observed_at": "2026-09-21T11:33:43Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78036555998_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m76022264793_1.jpg"
       },
       "xianyu": {
         "title": "夜鹿 幻灯 音乐画集",
@@ -5969,16 +5969,16 @@
       "stable_key": "sample:54e0dcfb28f13c4bb7d786be4a8d04a4814407a241fa1718f1861f89df922b25",
       "wameiji": {
         "title": "【美品・帯あり】ヨルシカ 幻燈 音楽画集アルバム 加藤隆 アルバム",
-        "version_evidence": "ヨルシカ音楽・加藤隆作画的可聆听音乐画集；带腰封；本体近未使用",
+        "version_evidence": "Manual Chrome/IAB detail: Yorushika 幻燈 music art book by Takashi Kato; page shows 接近未使用, obi included, seller-paid domestic shipping, 4–7 day dispatch, active add-to-cart and buy buttons. Description says outer bag opened with a large cut; book and obi have no conspicuous damage/folds; QR was read once and then stored in a dark place.",
         "catalog_no": null,
         "barcode": null,
-        "price": 9999.0,
+        "price": 11999.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37383033363535353939382f",
-        "observed_at": "2026-09-14T17:27:06Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37363032323236343739332f",
+        "observed_at": "2026-09-21T11:33:43Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78036555998_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m76022264793_1.jpg"
       },
       "xianyu": {
         "title": "夜鹿 幻灯 音乐画集",
