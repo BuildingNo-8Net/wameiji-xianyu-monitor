@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T12:38:21.823184+00:00",
+  "generated_at": "2026-09-21T12:46:03.544510+00:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 110 条双侧实物观察、13 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -748,7 +748,8 @@
         "source_url": "https://www.goofish.com/search?q=%E6%9F%9A%E5%AD%90%E7%A4%BE%20%E5%9C%A8%E5%8E%9F%E4%B8%83%E6%B5%B7%20%E4%B8%9B%E9%9B%A8%20%E8%8C%89%E5%AD%90%20%E8%95%BE%E5%A8%9C%20%E7%9B%92%E5%AD%90",
         "observed_at": "2026-09-11T04:37:26Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4011246583/O1CN01KTQPmxa39WB2R3n2_!!4611686018427380727-0-xy_item.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/30-d626a72b6c446739.webp"
     },
