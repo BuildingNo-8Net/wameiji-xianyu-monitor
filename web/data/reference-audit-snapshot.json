@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-21T10:31:27.878768+00:00",
+  "generated_at": "2026-09-21T10:33:58.739163+00:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 103 条；其余日本来源需改由挖煤姬页面逐件复核。",
+  "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 109 条双侧实物观察、12 条单边待补观察中，挖煤姬页面已复核 104 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 96,
     "both_observed_count": 109,
     "single_observed_count": 12,
-    "wameiji_platform_found_count": 103,
+    "wameiji_platform_found_count": 104,
     "found_any_count": 119,
     "not_currently_listed_both_count": 6
   },
@@ -323,17 +323,17 @@
       "reference_product_id": 14,
       "stable_key": "sample:b9f4a41e4e0629031357bed6126c015c47a2be1c996b40dccb2ecccbff75944e",
       "wameiji": {
-        "title": "Windows CDソフト eden* TRIALDISC with Sofmap-edition jacket",
-        "version_evidence": "Exact minori eden* TRIAL DISC with Sofmap edition jacket was visible. The sample cover matches this trial disc; do not substitute the full game, standard eden*, retailer bonus, or unrelated EDEN releases.",
+        "title": "未開 minori eden* TRIAL DISC Sofmap エディション",
+        "version_evidence": "挖煤姬当前详情页标题为「未開 minori eden* TRIAL DISC Sofmap エディション」；页面显示未使用、未開封新品，2,500日元；Sofmap エディション外套信息在挖煤姬侧确认。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1370.0,
+        "price": 2500.0,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=eden%2A+TRIAL+DISC+minori",
-        "observed_at": "2026-09-11T02:17:36Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31313438383035353137392f",
+        "observed_at": "2026-09-21T10:33:58Z",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m11488055179_1.jpg"
+        "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m11488055179_1.jpg?1777576043"
       },
       "xianyu": {
         "title": "全新未拆 minori eden* TRIAL DISC CD",
@@ -3364,29 +3364,29 @@
       "stable_key": "sample:b9f4a41e4e0629031357bed6126c015c47a2be1c996b40dccb2ecccbff75944e",
       "wameiji": {
         "title": "未開 minori eden* TRIAL DISC Sofmap エディション",
-        "version_evidence": "挖煤姬 Mercari 详情：minori《eden* TRIAL DISC Sofmap エディション》，页面状态未使用，商品介绍写明未開封新品，标价 2,500 日元；与闲鱼《minori eden* TRIAL DISC》同一试用碟标题/版本形态，Sofmap 外套信息仅在挖煤姬侧确认。",
+        "version_evidence": "挖煤姬当前详情页标题为「未開 minori eden* TRIAL DISC Sofmap エディション」；页面显示未使用、未開封新品，2,500日元；Sofmap エディション外套信息在挖煤姬侧确认。",
         "catalog_no": null,
         "barcode": null,
         "price": 2500.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31313438383035353137392f",
-        "observed_at": "2026-09-19T05:47:00Z",
+        "observed_at": "2026-09-21T10:33:58Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m11488055179_1.jpg"
+        "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m11488055179_1.jpg?1777576043"
       },
       "xianyu": {
         "title": "全新未拆 minori eden* TRIAL DISC CD",
-        "version_evidence": "闲鱼详情记录：minori/eden* TRIAL DISC CD，全新未拆，标价 170 CNY；图片与参考样本相符。与挖煤姬标题同为 eden* TRIAL DISC，外套/特典差异未在闲鱼侧确认。",
+        "version_evidence": "明确全新未拆；minori/eden*试用碟；图片与参考样本相符",
         "catalog_no": null,
         "barcode": null,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3805743482/O1CN01Tse4kH69WRL3thGS_!!4611686018427382138-0-xy_item.jpg_Q90.jpg_.webp",
         "price": 170.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
-        "observed_at": "2026-09-15T04:03:34Z",
+        "observed_at": "2026-09-15T12:03:34+08:00",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3805743482/O1CN01Tse4kH69WRL3thGS_!!4611686018427382138-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
     },
