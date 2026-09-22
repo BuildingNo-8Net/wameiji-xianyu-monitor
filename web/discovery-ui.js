@@ -260,6 +260,16 @@
     if (inlineSnapshot && inlineSnapshot.mode === "reference_audit_snapshot" && inlineSnapshot.summary) {
       return inlineSnapshot;
     }
+    // Prefer the read-only API copy when a collector backend is configured;
+    // GitHub Pages still falls back to its immutable published snapshot.
+    try {
+      const remote = await apiGet("/api/reference-audit");
+      if (remote && remote.mode === "reference_audit_snapshot" && remote.summary) {
+        return remote;
+      }
+    } catch (_error) {
+      // Static Pages mode intentionally has no live API; use the published copy.
+    }
     const response = await fetch(
       new URL("data/reference-audit-snapshot.json", document.baseURI).toString(),
       { cache: "no-store" },
