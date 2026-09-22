@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:16:16+08:00",
+  "generated_at": "2026-09-22T17:25:40+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -58,13 +58,13 @@
       },
       "xianyu": {
         "title": "礼衣 tuyu特典",
-        "version_evidence": "Exact reference support: Rei/礼衣 + TUYU bonus CD + new sealed + CD/Japanese edition; paired to the supplied IMG_1679 title and the exact Wameiji listing.",
+      "version_evidence": "2026-09-22 17:25（+08:00）人工 Chrome/IAB 打开闲鱼详情页：标题“礼衣 tuyu特典”，价格 150 CNY 包邮，明确“全新未拆封”，标签含礼衣/专辑/CD/日版；与挖煤姬礼衣 Animate 特典 CD 同目标。配件细节仍以图片和说明为准。",
         "catalog_no": null,
         "barcode": null,
         "price": 150.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1071313464471",
-        "observed_at": "2026-09-13T17:20:10Z",
+      "observed_at": "2026-09-22T17:25:40+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/2215778032591/O1CN01stgB50rCxXE3thOC_!!4611686018427386831-0-xy_item.jpg_Q90.jpg_.webp"
@@ -3284,13 +3284,13 @@
       },
       "xianyu": {
         "title": "礼衣 tuyu特典",
-        "version_evidence": "Exact reference support: Rei/礼衣 + TUYU bonus CD + new sealed + CD/Japanese edition; paired to the supplied IMG_1679 title and the exact Wameiji listing.",
+        "version_evidence": "2026-09-22 17:25（+08:00）人工 Chrome/IAB 打开闲鱼详情页：标题“礼衣 tuyu特典”，价格 150 CNY 包邮，明确“全新未拆封”，标签含礼衣/专辑/CD/日版；与挖煤姬礼衣 Animate 特典 CD 同目标。配件细节仍以图片和说明为准。",
         "catalog_no": null,
         "barcode": null,
         "price": 150.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1071313464471",
-        "observed_at": "2026-09-13T17:20:10Z",
+        "observed_at": "2026-09-22T17:25:40+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/2215778032591/O1CN01stgB50rCxXE3thOC_!!4611686018427386831-0-xy_item.jpg_Q90.jpg_.webp"
