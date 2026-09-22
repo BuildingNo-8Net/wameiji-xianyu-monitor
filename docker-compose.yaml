@@ -8,7 +8,6 @@ services:
       dockerfile: Dockerfile
     image: wameiji-xianyu:latest
     container_name: wameiji-xianyu-app
-    init: true
     restart: unless-stopped
     ports:
       - "9890:9890"
