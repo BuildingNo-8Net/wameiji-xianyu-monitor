@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T15:43:41+08:00",
+  "generated_at": "2026-09-22T15:46:36+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6854,13 +6854,13 @@
       "counterpart_state": "blocked",
       "observation": {
         "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
-    "version_evidence": "2026-09-22 通过人工内置浏览器重新打开原挖煤姬详情链接：页面明确显示“不支持该商品”，并提供“联系客服/申请解除限制”，没有可核验的当前商品标题、价格或主图；不能把旧缓存字段当作当前进货证据。闲鱼于15:03（+08:00）精确检索“RIDDLE JOKER ランチョンマット”，当前结果主要是收藏卡、吧唧、亚克力和数字收藏集，没有 RIDDLE JOKER 午餐垫同版商品；因此不把近似周边凑成匹配，保留为挖煤姬单边受阻观察。",
+    "version_evidence": "2026-09-22 通过人工内置浏览器重新打开原挖煤姬详情链接：页面明确显示“不支持该商品”，并提供“联系客服/申请解除限制”，没有可核验的当前商品标题、价格或主图；不能把旧缓存字段当作当前进货证据。15:47（+08:00）在闲鱼精确检索“RIDDLE JOKER ランチョンマット”，结果有多页收藏卡、吧唧、亚克力和数字收藏集，但没有 RIDDLE JOKER 午餐垫同版商品；因此不把近似周边凑成匹配，保留为挖煤姬单边受阻观察。",
         "catalog_no": null,
         "barcode": null,
         "price": 1999.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393534313030323139362f",
-        "observed_at": "2026-09-22T15:03:31+08:00",
+    "observed_at": "2026-09-22T15:46:36+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556"
