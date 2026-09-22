@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T18:05:53+08:00",
+  "generated_at": "2026-09-22T18:06:56+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -3220,7 +3220,7 @@
       },
       "xianyu": {
         "title": "国现 无刺/有刺 トゲナシトゲアリ Girls Band Cry 黑胶 1专2专 完全生产限定盘",
-        "version_evidence": "结果卡明确 棘ナシ 与 棘アリ 两款黑胶、完全生产限定盘、全新未拆、有库存可直拍；目标为棘ナシ/无刺选项",
+    "version_evidence": "2026-09-22 18:06（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前仅显示标题“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”和卖家信息，详情正文、价格、成色及库存区未加载，无法重新确认 UMJK-9162、贴纸或 289 CNY。保留旧记录 289 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 295.0,
@@ -6688,20 +6688,20 @@
         "price": 5500.0,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fakaikumasan%2F4988031862438%2F",
-        "observed_at": "2026-09-19T05:05:00Z",
+    "observed_at": "2026-09-22T10:06:56Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://shop.r10s.jp/akaikumasan/cabinet/picture20260309/4988031862438.jpg"
       },
       "xianyu": {
         "title": "无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费",
-        "version_evidence": "闲鱼详情明确为《无刺》第二张专辑完全生产限定模拟唱片盘，LP黑胶、附《无刺》唱片封面图案贴纸，全新，标价 289 CNY；页面未展示目录号，按标题与版本描述与 UMJK-9162 对照记录。",
+    "version_evidence": "2026-09-22 18:06（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前仅显示标题“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”和卖家信息，详情正文、价格、成色及库存区未加载，无法重新确认 UMJK-9162、贴纸或 289 CNY。保留旧记录 289 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 289.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1038997634344&categoryId=0",
-        "observed_at": "2026-09-19T05:05:00Z",
+    "observed_at": "2026-09-22T10:06:56Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01ZP7WBCxnKDI3th7A_!!4611686018427384413-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
