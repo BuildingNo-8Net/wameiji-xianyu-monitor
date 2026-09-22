@@ -6917,13 +6917,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "ブロッコリートレカアイテムくじSP ゆずソフト カードボックス 3個セット【サノバウィッチ・ドラクリオット・天色アイルノーツ】",
-      "version_evidence": "挖煤姬详情页标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含ドラクリオット卡盒；2026-09-22 人工 Chrome/IAB 打开闲鱼精确检索“柚子社 DRACU-RIOT 卡牌盒”，页面显示11条结果，但内容为Steam激活码、画集/设定集、色纸、卡片、挂件等近似周边，没有该D賞卡盒三件套；不把推荐内容或近似周边当作同版匹配。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬 JDirectItems Fleamarket 详情页：标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含サノバウィッチ、ドラクリオット、天色アイルノーツ；未使用，2400日元（约107人民币），代购手续费200日元，3~7日发货，有物流保障，页面可加入购物车/立即购买。闲鱼精确检索“柚子社 DRACU-RIOT 卡牌盒”仅见Steam激活码、画集/设定集、色纸、卡片、挂件等近似周边，没有该D賞卡盒三件套；不把推荐内容或近似周边当作同版匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 2400.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/paypay/detail/z592026118",
-      "observed_at": "2026-09-21T17:09:00Z",
+    "observed_at": "2026-09-22T09:25:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0204/users/c28e5dc80e38b7d34c4130cd97a314d97d0167e0/i-img900x1200-1776057969444siplc4.jpg"
