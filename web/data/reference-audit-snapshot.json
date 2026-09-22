@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:55:25+08:00",
+  "generated_at": "2026-09-22T17:58:10+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2972,13 +2972,13 @@
       },
       "xianyu": {
         "title": "最终幻想10限定25周年专集CD《ザナルカンドにてCompilation Album》",
-        "version_evidence": "内置浏览器 Chrome/IAB 闲鱼详情页核验：最终幻想10限定25周年专辑 CD，官方会场限定；收录《ザナルカンドにて》15首改编，当前价 227 CNY，包邮，页面注明可加急。",
+    "version_evidence": "2026-09-22 17:58（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前页面只显示标题“最终幻想10限定25周年专集CD《ザナルカンドにてCompilation Album》”，详情正文、价格、成色和库存区均未加载，无法重新确认会场限定、15首改编或 227 CNY。保留旧记录 227 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 227.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1065619385188&categoryId=126860296",
-        "observed_at": "2026-09-21T02:18:00Z",
+    "observed_at": "2026-09-22T09:58:10Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN01GANey624f2lv9xeKS_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
@@ -6447,13 +6447,13 @@
       },
       "xianyu": {
         "title": "最终幻想10限定25周年专集CD《ザナルカンドにてCompilation Album》",
-        "version_evidence": "内置浏览器 Chrome/IAB 闲鱼详情页核验：最终幻想10限定25周年专辑 CD，官方会场限定；收录《ザナルカンドにて》15首改编，当前价 227 CNY，包邮，页面注明可加急。",
+    "version_evidence": "2026-09-22 17:58（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前页面只显示标题“最终幻想10限定25周年专集CD《ザナルカンドにてCompilation Album》”，详情正文、价格、成色和库存区均未加载，无法重新确认会场限定、15首改编或 227 CNY。保留旧记录 227 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 227.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1065619385188&categoryId=126860296",
-        "observed_at": "2026-09-21T02:18:00Z",
+    "observed_at": "2026-09-22T09:58:10Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN01GANey624f2lv9xeKS_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
