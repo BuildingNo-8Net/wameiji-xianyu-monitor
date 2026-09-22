@@ -455,6 +455,7 @@
       : null;
     const candidateCurrency = missingMarket === "wameiji" ? "JPY" : "CNY";
     const candidateLabel = missingMarket === "wameiji" ? "挖煤姬进货侧 · 相关观察" : "闲鱼销售侧 · 相关观察";
+    const referenceImage = usableProductImage(item.reference_image_url);
     const missingMarkup = candidate
       ? [
           '<div class="reference-audit-candidate-wrap ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
@@ -465,9 +466,11 @@
         ].join("")
       : [
           '<div class="reference-audit-side ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
-            '<div class="reference-audit-market-media reference-audit-market-media-missing">另一侧具体商品页待补</div>',
+            referenceImage
+              ? '<div class="reference-audit-market-media reference-audit-reference-media"><img src="' + esc(referenceImage) + '" alt="参考样本图 · 非当前商品页" loading="eager" decoding="async" /></div>'
+              : '<div class="reference-audit-market-media reference-audit-market-media-missing">另一侧具体商品页待补</div>',
             '<small>' + esc(missingLabel) + '</small>',
-            '<b>当前没有可公开核对的具体商品页</b>',
+            '<b>' + (referenceImage ? '参考样本图 · 非当前商品页' : '当前没有可公开核对的具体商品页') + '</b>',
             '<p>最近状态：' + esc(referenceStateLabel(item.counterpart_state)) + '</p>',
           '</div>',
         ].join("");

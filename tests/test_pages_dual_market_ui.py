@@ -116,10 +116,11 @@ def test_homepage_keeps_concrete_one_sided_listings_in_the_primary_observation_q
     assert "single_observed_records" in javascript
     assert "unavailable_records" in javascript
     assert "单边待补观察" in javascript
+    assert "参考样本图 · 非当前商品页" in javascript
 
 
 def test_reference_audit_cards_use_marketplace_main_images_and_platform_colours() -> None:
-    """Audit cards must use marketplace main images, never sample screenshots."""
+    """Observed sides use marketplace images; missing sides may show labelled references."""
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     stylesheet = Path("web/styles/kuro.css").read_text(encoding="utf-8")
 
@@ -131,7 +132,8 @@ def test_reference_audit_cards_use_marketplace_main_images_and_platform_colours(
     assert "mokaki\\.cn\\/sigimage\\/icon" in javascript
     assert "ossimg\\/)" not in javascript
     assert "referenceAuditImageMarkup" not in javascript
-    assert "reference_image_url" not in javascript
+    assert "const referenceImage = usableProductImage(item.reference_image_url);" in javascript
+    assert "参考样本图 · 非当前商品页" in javascript
     assert '"xianyu-side"' in javascript
     assert '"wameiji-side"' in javascript
     assert ".reference-audit-side.xianyu-side" in stylesheet
