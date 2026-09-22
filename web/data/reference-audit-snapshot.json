@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T02:17:00+08:00",
+  "generated_at": "2026-09-23T02:19:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6602,13 +6602,13 @@
       },
       "xianyu": {
         "title": "罪恶王冠 EGOIST Departures 初回限定附属 INORI YUZURIHA 迷你设定画册",
-    "version_evidence": "2026-09-22 18:03（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面当时没有呈现标题、详情正文、价格或图片，仅显示站点页脚；当时无法核对 EGOIST《Departures》初回限定画册、附件或库存。保留旧记录 62.9 CNY 作为历史观察，不把它当作当前可购买证据。2026-09-23 01:49（+08:00）再次人工 Chrome/IAB 打开同一详情链接，页面标题已显示“罪恶王冠EGOIST绘册出道设定簿INORI YUZURIHA”，但商品正文、价格、图片和库存仍没有呈现，无法形成当前可购买证据；继续保留为当前证据未加载，不把旧价视为现货。",
+      "version_evidence": "2026-09-23 02:19（+08:00）人工 Chrome/IAB 打开闲鱼原详情，页面已加载：活动价 62.90 CNY 包邮，4 人想要、548 浏览；标题为“罪恶王冠EGOIST绘册出道设定簿INORI YUZURIHA迷你绘本画册”，描述写明 Departures 初回限定相关画册、内页原画/设定稿/手稿草图，现货包邮，几乎全新。与挖煤姬侧 EGOIST《Departures》初回限定附属画册方向一致；页面未显示明确目录号或附件清单，仍保留版本/附件核对项。",
         "catalog_no": null,
         "barcode": null,
         "price": 62.9,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=977136403407&categoryId=126860296",
-    "observed_at": "2026-09-23T01:49:03+08:00",
+      "observed_at": "2026-09-23T02:19:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01IZBs7O24f2i9BXlcA_!!4611686018427385545-0-fleamarket.jpg_Q90.jpg_.webp"
