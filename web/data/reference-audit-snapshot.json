@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T02:47:00+08:00",
+  "generated_at": "2026-09-23T02:51:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6959,13 +6959,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "nerdneko CURE 初音未来 一专-四专 正版全新 有侧 包邮",
-    "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页确认：标题为 nerdneko CURE 初音未来；一专-四专；正版全新、有侧、包邮；价格区间135-160 CNY，当前按一专记录135 CNY；页面显示7人想要、213浏览，可立即购买。16:56（+08:00）再次在挖煤姬以「nerdneko CURE 初音未来 一专 二专 三专 四专 CD」精确检索；结果页显示“已经按照原文进行搜索”，仅见无关 Cure 杂志、其他 CD/专辑与 NiOver 条目，没有 nerdneko CURE 初音未来一专至四专实体套装，不把泛初音/同人CD当匹配，保留为闲鱼单边主要观察对象。19:01（+08:00）再次精确检索，结果为无关杂货、服饰、宝可梦卡、其他音乐商品和初音挂件，未出现 nerdneko CURE 一至四专实体套装；维持单边观察。23:16（+08:00）再次人工打开同一挖煤姬精确检索页，当前视图仍未出现可核验的一至四专实体套装详情；没有新增同版证据，继续维持闲鱼单边观察。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页确认：标题为 nerdneko CURE 初音未来；一专-四专；正版全新、有侧、包邮；价格区间135-160 CNY，当前按一专记录135 CNY；页面显示7人想要、213浏览，可立即购买。2026-09-23 02:51（+08:00）人工 Chrome/IAB 在挖煤姬以「nerdneko CURE 初音未来 一专 二专 三专 四专 CD」精确检索，结果仅见 NiOver 同人音乐 CD 等无关条目，没有 nerdneko CURE 一至四专实体套装；不把泛初音/同人CD当匹配，继续保留为闲鱼单边主要观察对象。",
         "catalog_no": null,
         "barcode": null,
         "price": 135.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1069537697055&categoryId=126864811",
-    "observed_at": "2026-09-22T23:16:03+08:00",
+    "observed_at": "2026-09-23T02:51:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/4033685196/O1CN01yywCk71oFp76CDdV0_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
