@@ -29,6 +29,8 @@ services:
       # Dedicated Docker runtime directory only. Never bind-mount ./data because
       # it contains browser profiles and storage state used by host collection.
       - ./docker-runtime-data:/app/data
+      # Serve the same audited snapshot that is published to GitHub Pages.
+      - ./web:/app/web:ro
     # Browser collection stays on the host, where the user's authorized
     # Wameiji/Xianyu profiles are available. The container only runs the web
     # application and consumes imported snapshots.
