@@ -426,6 +426,9 @@
   function referenceAuditPairMarkup(pair) {
     const item = pair && typeof pair === "object" ? pair : {};
     const japaneseSource = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
+    const xianyuEvidence = String(item.xianyu && item.xianyu.version_evidence || "");
+    const historicalMismatch = /历史错配|不是同一商品|历史观察/.test(xianyuEvidence);
+    const currentEvidenceUnavailable = /详情正文未加载|详情正文和价格区未加载|无法重新确认|未能确认/.test(xianyuEvidence);
     const sourceHost = String(japaneseSource.marketplace_host || "日本来源");
     const japaneseLabel = japaneseSource.is_wameiji_platform
       ? "挖煤姬进货侧"
@@ -435,7 +438,7 @@
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 待逐件核验</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY", "xianyu"),
-          '<div class="reference-audit-center"><b>双侧实物观察</b><span>版本、成色、附件与到手成本仍需逐件核对</span></div>',
+          '<div class="reference-audit-center"><b>' + (historicalMismatch ? "历史错配 · 不计入同款" : currentEvidenceUnavailable ? "当前证据未加载" : "双侧实物观察") + '</b><span>' + (historicalMismatch ? "当前闲鱼页与参考样本不是同一商品，保留为历史记录，不进入同款或利润判断" : currentEvidenceUnavailable ? "链接仍保留，但详情正文/价格未加载，旧价格不代表当前可购买" : "版本、成色、附件与到手成本仍需逐件核对") + '</span></div>',
           referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY", "wameiji"),
         '</div>',
       '</article>',
