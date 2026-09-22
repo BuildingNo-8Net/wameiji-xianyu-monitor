@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:04:32+08:00",
+  "generated_at": "2026-09-22T17:07:23+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1874,13 +1874,13 @@
       "stable_key": "sample:b71bd68b25f439bb1ba89f6a51ce730b2bcaec68d53275e6b070da402ee330ab",
       "wameiji": {
         "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set ＜Reconstructed Edition＞＜クリア・ヴァイナル＞ニーア オートマタ LPレコード【新品未開封】",
-        "version_evidence": "挖煤姬详情页：店铺卖家SHOP KAWAI；未使用；新品未开封；JAN 4988601471947；型号SQEX-11185；2组透明黑胶；附MP3下载码（有效期/次数以厂商为准）；当前可购买。",
+      "version_evidence": "挖煤姬详情页人工 Chrome/IAB 核验：店铺卖家 SHOP KAWAI；未使用、新品未开封；JAN 4988601471947；型号 SQEX-11185；2 组透明黑胶；附 MP3 下载码（有效期/次数以厂商为准）；详情页当前仍可打开。17:07（+08:00）闲鱼详情页标题为“直拍最后现货♥尼尔特典黑胶唱片2LP全新未拆四角尖尖NieR”，页面价格 850 CNY，明确为全新未拆 2LP；与挖煤姬同为 Reconstructed Edition 透明胶，但附属展示架/DLC 等仍需按页面逐项核对，不把它直接当同附件同利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 19800.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a544e633766734d5442526d707855647771644c322f",
-        "observed_at": "2026-09-21T04:50:40Z",
+      "observed_at": "2026-09-22T17:07:23+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://imghk.doorzo.net/-/large/plain/2JTNb9KKbd3b8G7PCezkFB.jpg@jpg"
@@ -1890,10 +1890,10 @@
         "version_evidence": "Current active exact Reconstructed Edition explicitly states sealed 2LP plus the included display stand and DLC code; extra external card is excluded from the listed base price.",
         "catalog_no": null,
         "barcode": null,
-        "price": 699.0,
+      "price": 850.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1010464234349&categoryId=126860296",
-        "observed_at": "2026-09-11T05:16:40Z",
+      "observed_at": "2026-09-22T17:07:23+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01NNwtuE1JfEwUFlwVj_!!4611686018427383391-0-fleamarket.jpg_Q90.jpg_.webp"
@@ -5349,26 +5349,26 @@
       "stable_key": "sample:b71bd68b25f439bb1ba89f6a51ce730b2bcaec68d53275e6b070da402ee330ab",
       "wameiji": {
         "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set ＜Reconstructed Edition＞＜クリア・ヴァイナル＞ニーア オートマタ LPレコード【新品未開封】",
-        "version_evidence": "挖煤姬详情页：店铺卖家SHOP KAWAI；未使用；新品未开封；JAN 4988601471947；型号SQEX-11185；2组透明黑胶；附MP3下载码（有效期/次数以厂商为准）；当前可购买。",
+        "version_evidence": "挖煤姬详情页人工 Chrome/IAB 核验：店铺卖家 SHOP KAWAI；未使用、新品未开封；JAN 4988601471947；型号 SQEX-11185；2 组透明黑胶；附 MP3 下载码（有效期/次数以厂商为准）；详情页当前仍可打开。17:07（+08:00）闲鱼详情页标题为“直拍最后现货♥尼尔特典黑胶唱片2LP全新未拆四角尖尖NieR”，页面价格 850 CNY，明确为全新未拆 2LP；与挖煤姬同为 Reconstructed Edition 透明胶，但附属展示架/DLC 等仍需按页面逐项核对，不把它直接当同附件同利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 19800.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a544e633766734d5442526d707855647771644c322f",
-        "observed_at": "2026-09-21T04:50:40Z",
+        "observed_at": "2026-09-22T17:07:23+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://imghk.doorzo.net/-/large/plain/2JTNb9KKbd3b8G7PCezkFB.jpg@jpg"
       },
       "xianyu": {
         "title": "NieR:Automata / NieR Gestalt & Replicant Original Soundtrack Vinyl Set Reconstructed Edition 透明胶 2LP",
-        "version_evidence": "Current active exact Reconstructed Edition explicitly states sealed 2LP plus the included display stand and DLC code; extra external card is excluded from the listed base price.",
+      "version_evidence": "2026-09-22 17:07（+08:00）人工 Chrome/IAB 打开闲鱼详情页：标题为“直拍最后现货♥尼尔特典黑胶唱片2LP全新未拆四角尖尖NieR”，当前价 850 CNY；页面明确全新未拆 2LP。记录为与挖煤姬同版 Reconstructed Edition 透明胶的当前闲鱼观察，但展示架、DLC 与其他特典仍需按详情逐项核对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 699.0,
+        "price": 850.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1010464234349&categoryId=126860296",
-        "observed_at": "2026-09-11T05:16:40Z",
+      "observed_at": "2026-09-22T17:07:23+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01NNwtuE1JfEwUFlwVj_!!4611686018427383391-0-fleamarket.jpg_Q90.jpg_.webp"
