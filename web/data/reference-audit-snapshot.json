@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T16:02:44+08:00",
+  "generated_at": "2026-09-22T16:10:23+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6791,13 +6791,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "《缘之空》精装珍藏画集，圣基文化出品",
-    "version_evidence": "闲鱼侧人工 Chrome/IAB 详情页核验：活动价 36.40 CNY，包邮；实物为精装画集，含 2 张海报，外壳四角有轻微磨损，内页无缺页无涂写。2026-09-22 15:19（+08:00）在挖煤姬人工内置浏览器以「缘之空 精装珍藏画集」精确检索，结果仅出现「久司生 画集 中国版」800日元这一不同作品，页面注明已按原文搜索且没有更多结果；没有《缘之空》圣基文化同版画集，不把近似画集当匹配，仅保留为闲鱼单边主要观察对象。",
+    "version_evidence": "闲鱼侧人工 Chrome/IAB 详情页核验：活动价 36.40 CNY，包邮；实物为精装画集，含 2 张海报，外壳四角有轻微磨损，内页无缺页无涂写。2026-09-22 16:10（+08:00）再次在挖煤姬内置浏览器以「缘之空 精装珍藏画集」精确检索，页面显示已按原文搜索但暂无数据；没有《缘之空》圣基文化同版画集，不把近似画集当匹配，仅保留为闲鱼单边主要观察对象。",
         "catalog_no": null,
         "barcode": null,
         "price": 36.4,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1027107076352&categoryId=202029302",
-    "observed_at": "2026-09-22T15:19:18+08:00",
+    "observed_at": "2026-09-22T16:10:23+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/2215728597420/O1CN01cjGFoo24gPvuasIuf_!!4611686018427382188-53-xy_item.heic_Q90.jpg_.webp"
