@@ -427,8 +427,8 @@
     const item = pair && typeof pair === "object" ? pair : {};
     const japaneseSource = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
     const xianyuEvidence = String(item.xianyu && item.xianyu.version_evidence || "");
-    const historicalMismatch = /历史错配|不是同一商品|历史观察/.test(xianyuEvidence);
-    const currentEvidenceUnavailable = /详情正文未加载|详情正文和价格区未加载|无法重新确认|未能确认/.test(xianyuEvidence);
+    const historicalMismatch = /历史错配|不是同一商品/.test(xianyuEvidence);
+    const currentEvidenceUnavailable = /未加载|无法重新确认|未能确认/.test(xianyuEvidence);
     const sourceHost = String(japaneseSource.marketplace_host || "日本来源");
     const japaneseLabel = japaneseSource.is_wameiji_platform
       ? "挖煤姬进货侧"
@@ -584,8 +584,8 @@
     );
     if (pairSummary) {
       const evidenceText = (pair) => String(pair && pair.xianyu && pair.xianyu.version_evidence || "");
-      const unavailableCount = pairs.filter((pair) => /详情正文未加载|详情正文和价格区未加载|无法重新确认|未能确认/.test(evidenceText(pair))).length;
-      const mismatchCount = pairs.filter((pair) => /历史错配|不是同一商品|历史观察/.test(evidenceText(pair))).length;
+      const unavailableCount = pairs.filter((pair) => /未加载|无法重新确认|未能确认/.test(evidenceText(pair))).length;
+      const mismatchCount = pairs.filter((pair) => /历史错配|不是同一商品/.test(evidenceText(pair))).length;
       const caveats = [];
       if (unavailableCount) caveats.push("当前证据未加载 " + unavailableCount + " 条");
       if (mismatchCount) caveats.push("历史错配 " + mismatchCount + " 条");
