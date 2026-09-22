@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T01:25:00+08:00",
+  "generated_at": "2026-09-23T01:31:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6509,13 +6509,13 @@
       },
       "xianyu": {
         "title": "EGOIST 当事者 期间生产限定版 CD+BD",
-    "version_evidence": "2026-09-22 18:00（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面标题显示为“【现货】心理测量者 PSYCHO PASS 剧场版 PROV…”且详情正文、价格区未加载，只显示相关推荐；未能确认 EGOIST《当事者》CD+BD、成色、品番或库存。保留旧记录 200 CNY 作为历史观察，不把它当作当前可购买证据。",
+        "version_evidence": "2026-09-22 18:00（+08:00）人工 Chrome/IAB 打开闲鱼原链接时仅加载站点壳，暂无法确认详情。2026-09-23 01:31（+08:00）再次人工打开同一详情页，页面已加载具体商品信息：活动价 200 CNY 包邮，251 浏览；标题明确为心理测量者剧场版 PROVIDENCE 主题曲 OP/ED CD 实体唱片，正文选项写明 EGOIST《当事者》期间生产限定版 CD+BD，商品为日版正版、全新未拆，可发顺丰。页面显示可直接购买，但同一链接含多个商品选项，品番、附件和实际库存仍需逐项确认，不直接视为达标利润机会。",
         "catalog_no": null,
         "barcode": null,
         "price": 200.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.2.4bf5152dnHU2pY&id=1020304049843&categoryId=126864811",
-    "observed_at": "2026-09-22T10:00:42Z",
+        "observed_at": "2026-09-23T01:31:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01xKHEsU26P8DCfk6by_!!4611686018427383493-53-fleamarket.heic_Q90.jpg_.webp"
