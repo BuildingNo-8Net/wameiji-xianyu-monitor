@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T16:56:07+08:00",
+  "generated_at": "2026-09-22T17:02:04+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -727,13 +727,13 @@
       "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
       "wameiji": {
         "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
-        "version_evidence": "挖煤姬侧历史人工 Chrome/IAB 详情页曾显示同版 RIDDLE JOKER ランチョンマット（ゆずソフト），价格1,999 JPY，并保留该详情页第一张主图；2026-09-22 再次打开同一详情页时页面显示“不支持该商品”，因此当前无法重新确认成色、库存或发货条件。闲鱼侧精确检索未找到可确认的同版商品；本条保留为历史观察，不计入当前双侧达标机会。",
+        "version_evidence": "挖煤姬侧历史人工 Chrome/IAB 详情页曾显示 RIDDLE JOKER ランチョンマット（ゆずソフト），价格1,999 JPY；2026-09-22 再次打开同一详情页时页面显示“不支持该商品”。17:02（+08:00）在挖煤姬人工搜索「ゆずソフト 柚子社 RJ 盒子 在原七海」：结果页明确“已经按照原文进行搜索”，仅见亚克力挂件、透明文件夹、桌垫等周边，没有样本图片对应的柚子社 RJ 盒子；故该历史挖煤姬记录与样本形态不一致，不能作为当前同版匹配或利润机会。",
         "catalog_no": null,
         "barcode": null,
         "price": 1999.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393534313030323139362f",
-        "observed_at": "2026-09-21T23:15:00Z",
+        "observed_at": "2026-09-22T17:02:04+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556"
