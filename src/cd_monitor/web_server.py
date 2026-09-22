@@ -458,6 +458,21 @@ def _build_handler(
             if route == "/api/health":
                 self._json({"ok": True, "database": str(db_path), "static_dir": str(static_root)})
                 return
+            if route == "/api/reference-audit":
+                audit_path = (static_root / "data" / "reference-audit-snapshot.json").resolve()
+                if static_root not in audit_path.parents or not audit_path.is_file():
+                    self._json({"error": "reference_audit_unavailable"}, status=HTTPStatus.NOT_FOUND)
+                    return
+                try:
+                    payload = json.loads(audit_path.read_text(encoding="utf-8"))
+                except (OSError, json.JSONDecodeError):
+                    self._json({"error": "reference_audit_invalid"}, status=HTTPStatus.SERVICE_UNAVAILABLE)
+                    return
+                if not isinstance(payload, dict) or payload.get("mode") != "reference_audit_snapshot":
+                    self._json({"error": "reference_audit_invalid"}, status=HTTPStatus.SERVICE_UNAVAILABLE)
+                    return
+                self._json(payload)
+                return
             if route == "/api/discovery/collector/commands":
                 if not self._collector_authorized():
                     self._json({"error": "sync_unauthorized"}, status=HTTPStatus.UNAUTHORIZED)
