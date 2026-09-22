@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T02:01:00+08:00",
+  "generated_at": "2026-09-23T02:03:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1484,7 +1484,7 @@
       },
       "xianyu": {
         "title": "初音ミク 雪初音2017 Winterland's Anthology KARENT 实体CD",
-    "version_evidence": "2026-09-22 18:14（+08:00）人工 Chrome/IAB 打开原闲鱼链接，当前页面标题仍为“【雪初音 术力口CD专辑】ボカロ vocaloid 初音未来”，详情正文未加载；相关推荐出现同名 Winterland’s Anthology 条目（约 300 CNY 与 900 CNY），但未能打开为当前目标的独立详情页，不能替代当前商品证据。保留旧记录 239 CNY 作为历史观察，不把它当作当前可购买证据；挖煤姬侧同版信息另有 Rakuten 结果，不与当前闲鱼页面混用。19:05（+08:00）再次直接打开原链接，页面仍只有站点壳、商品码和页脚，正文、价格、库存和图片未加载；维持当前证据未加载，不把旧价当现货。2026-09-23 00:52（+08:00）人工 Chrome/IAB 再次打开同一详情链接，仍仅显示站点壳和页脚，标题、正文、价格、库存及图片均未加载；维持当前证据未加载，不将相关推荐或旧价视作现货。",
+    "version_evidence": "2026-09-22 18:14（+08:00）人工 Chrome/IAB 打开原闲鱼链接，曾出现加载壳。2026-09-23 02:03（+08:00）再次打开原闲鱼详情，页面已加载：活动价 239 CNY（原价 999，包邮），6 人想要、579 浏览。标题为“【雪初音 术力口CD专辑】ボカロ vocaloid 初音未来”，正文是 5 张雪初音/KARENT CD 的可选合集，其中第 1 项为 Winterland's Anthology 2017；页面写明“价格239起”“拍下别付款等主播改价”，默认中古。该页不是单独锁定 KRCD-0011 的固定商品，保留为多选合集观察，不作为当前同版利润证据；挖煤姬侧同版信息仍与此页分开。",
         "catalog_no": null,
         "barcode": null,
         "price": 239.0,
@@ -4928,13 +4928,13 @@
       },
       "xianyu": {
         "title": "初音ミク 雪初音2017 Winterland's Anthology KARENT 实体CD",
-    "version_evidence": "2026-09-22 18:14（+08:00）人工 Chrome/IAB 打开原闲鱼链接，当前页面标题仍为“【雪初音 术力口CD专辑】ボカロ vocaloid 初音未来”，详情正文未加载；相关推荐出现同名 Winterland’s Anthology 条目（约 300 CNY 与 900 CNY），但未能打开为当前目标的独立详情页，不能替代当前商品证据。保留旧记录 239 CNY 作为历史观察，不把它当作当前可购买证据；挖煤姬侧同版信息另有 Rakuten 结果，不与当前闲鱼页面混用。",
+      "version_evidence": "2026-09-23 02:03（+08:00）人工 Chrome/IAB 打开原闲鱼详情，页面已加载：活动价 239 CNY（原价 999，包邮），6 人想要、579 浏览。标题为“【雪初音 术力口CD专辑】ボカロ vocaloid 初音未来”，正文是 5 张雪初音/KARENT CD 的可选合集，其中第 1 项为 Winterland's Anthology 2017；页面写明“价格239起”“拍下别付款等主播改价”，默认中古。该页不是单独锁定 KRCD-0011 的固定商品，保留为多选合集观察，不作为当前同版利润证据；挖煤姬侧同版信息仍与此页分开。",
         "catalog_no": null,
         "barcode": null,
         "price": 239.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1069559722323&categoryId=126860296",
-    "observed_at": "2026-09-22T10:14:53Z",
+      "observed_at": "2026-09-23T02:03:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/2939125197/O1CN01W4vsVQnJNBI3thGS_!!4611686018427387341-0-xy_item.jpg_Q90.jpg_.webp"
