@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T18:17:18+08:00",
+  "generated_at": "2026-09-22T18:18:57+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2476,13 +2476,13 @@
       },
       "xianyu": {
         "title": "爱缪 Aimyon 青春のエキサイトメント 10周年纪念限定 日版红色彩胶黑胶2LP 180g 含10周年纪念卡 全新未拆",
-      "version_evidence": "2026-09-22 17:39（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面标题为“【黑胶】爱缪 黑胶 LP 彩胶 Aimyon 首专 青春のエキサイトメント”；详情正文未加载，当前无法重新确认价格、2LP、10周年卡片或库存。保留旧记录 315 CNY 作为历史观察，不把它当作当前可购买证据。",
+      "version_evidence": "2026-09-22 18:18（+08:00）人工 Chrome/IAB 再次打开闲鱼原链接，页面标题为“【黑胶】爱缪 黑胶 LP 彩胶 Aimyon 首专 青春のエキサイトメント”；详情正文、价格和库存仍未加载。相关推荐出现同名/近同名条目约 300–369 CNY，但没有当前目标的独立详情证据。保留旧记录 315 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 315.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=AIMYON%20%E9%9D%92%E6%98%A5%E3%81%AE%E3%82%A8%E3%82%AD%E3%82%B5%E3%82%A4%E3%83%88%E3%83%A1%E3%83%B3%E3%83%88%2010%E5%91%A8%E5%B9%B4%202LP%20180g%20%E9%BB%91%E8%83%B6",
-      "observed_at": "2026-09-22T17:39:13+08:00",
+      "observed_at": "2026-09-22T10:18:57Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/810413873/O1CN01L4M8dY1eTt6dz6tjc_!!4611686018427383601-53-xy_item.heic_Q90.jpg_.webp"
@@ -5951,14 +5951,14 @@
       },
       "xianyu": {
         "title": "【黑胶】爱缪 黑胶 LP 彩胶 Aimyon 首专 青春のエキサイトメント 日版原版 10周年纪念限定黑胶 2LP 180g重量盘",
-        "version_evidence": "2026-09-22 17:39（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面标题为“【黑胶】爱缪 黑胶 LP 彩胶 Aimyon 首专 青春のエキサイトメント”；详情正文未加载，当前无法重新确认价格、2LP、10周年卡片或库存。保留旧记录 359 CNY 作为历史观察，不把它当作当前可购买证据。",
+      "version_evidence": "2026-09-22 18:18（+08:00）人工 Chrome/IAB 再次打开闲鱼原链接，页面标题为“【黑胶】爱缪 黑胶 LP 彩胶 Aimyon 首专 青春のエキサイトメント”；详情正文、价格和库存仍未加载。相关推荐出现同名/近同名条目约 300–369 CNY，但没有当前目标的独立详情证据。保留旧记录 359 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/810413873/O1CN01L4M8dY1eTt6dz6tjc_!!4611686018427383601-53-xy_item.heic_Q90.jpg_.webp",
         "price": 359.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1055604036792&categoryId=126864811",
-        "observed_at": "2026-09-22T17:39:13+08:00",
+        "observed_at": "2026-09-22T10:18:57Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       },
