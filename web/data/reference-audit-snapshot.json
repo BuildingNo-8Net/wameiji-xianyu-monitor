@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T18:06:56+08:00",
+  "generated_at": "2026-09-22T18:08:05+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -3251,13 +3251,13 @@
       },
       "xianyu": {
         "title": "【黑胶彩胶】药屋少女的呢喃 LP 动画原声音乐专辑 OST Original Soundtrack 正版唱片 欧版限定版 全新未拆",
-        "version_evidence": "页面标注国内现货、现货实物拍摄、限定版彩胶2LP；价格为单件含所有费用并包邮非偏远，当前价格显示599-1299元区间，需按具体版本确认。",
+    "version_evidence": "2026-09-22 18:08（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前详情为“药屋少女的呢喃”欧版限定彩胶 2LP，页面显示 599 CNY 包邮、15 人想要、542 浏览；与样本目标《棘ナシ》完全生产限定 12 英寸黑胶不是同一商品。将旧记录标记为历史错配，不作为样本 #125 的当前双侧证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 599.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
-        "observed_at": "2026-09-21T05:01:29Z",
+    "observed_at": "2026-09-22T10:08:05Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/810413873/O1CN01VtDEkC1eTt6RITFoz_!!4611686018427383601-53-xy_item.heic_790x10000Q90.jpg_.webp"
@@ -6726,13 +6726,13 @@
       },
       "xianyu": {
         "title": "【黑胶彩胶】药屋少女的呢喃 LP 动画原声音乐专辑 OST Original Soundtrack 正版唱片 欧版限定版 全新未拆",
-        "version_evidence": "页面标注国内现货、现货实物拍摄、限定版彩胶2LP；价格为单件含所有费用并包邮非偏远，当前价格显示599-1299元区间，需按具体版本确认。",
+    "version_evidence": "2026-09-22 18:08（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前详情为“药屋少女的呢喃”欧版限定彩胶 2LP，页面显示 599 CNY 包邮、15 人想要、542 浏览；与样本目标《棘ナシ》完全生产限定 12 英寸黑胶不是同一商品。将旧记录标记为历史错配，不作为样本 #125 的当前双侧证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 599.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
-        "observed_at": "2026-09-21T05:01:29Z",
+    "observed_at": "2026-09-22T10:08:05Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/810413873/O1CN01VtDEkC1eTt6RITFoz_!!4611686018427383601-53-xy_item.heic_790x10000Q90.jpg_.webp"
