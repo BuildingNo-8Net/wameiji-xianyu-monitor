@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:33:58+08:00",
+  "generated_at": "2026-09-22T17:36:53+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2104,13 +2104,13 @@
       },
       "xianyu": {
         "title": "藤井风 Prema 三专黑胶 LP 国际版透明胶 全新未开封",
-        "version_evidence": "卖家明确国际版透明胶、全新未开封；与样本排除欧版/日版的进口透明胶方向相符。页面未展示样本条码0602478377792",
+      "version_evidence": "2026-09-22 17:36（+08:00）人工 Chrome/IAB 打开闲鱼详情页：价格区间 145–280 CNY 包邮，明确藤井风 Fujii Kaze《Prema》透明胶、日版发行正品、全新未使用；卖家说明已开封取出抽选券，其余保持原封，发货不含抽选券。与挖煤姬 Colored Vinyl 单张 LP 同形态，但条码和抽选券不随货。",
         "catalog_no": null,
         "barcode": null,
         "price": 245.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E8%97%A4%E4%BA%95%E9%A3%8E%20Prema%20%E9%BB%91%E8%83%B6",
-        "observed_at": "2026-09-14T04:23:51Z",
+      "observed_at": "2026-09-22T17:36:53+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01ntVwMy1H0oktdKR30_!!4611686018427384392-0-fleamarket.jpg_Q90.jpg_.webp"
@@ -5579,13 +5579,13 @@
       },
       "xianyu": {
         "title": "藤井风 三专Prema 藤井风黑胶lp",
-        "version_evidence": "闲鱼详情页明确为藤井风 Fujii Kaze《Prema》透明胶（彩胶 LP），日版发行正品，全新未使用；卖家说明抽选券已取出、其余保持原封。与挖煤姬的限定 Colored Vinyl / 单张 LP / 日版同形态；详情页未显示条码，且抽选券不随货。",
+        "version_evidence": "2026-09-22 17:36（+08:00）人工 Chrome/IAB 打开闲鱼详情页：价格区间 145–280 CNY 包邮，明确藤井风 Fujii Kaze《Prema》透明胶、日版发行正品、全新未使用；卖家说明已开封取出抽选券，其余保持原封，发货不含抽选券。与挖煤姬 Colored Vinyl 单张 LP 同形态，但条码和抽选券不随货。",
         "catalog_no": null,
         "barcode": null,
         "price": 145.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=980546719301&categoryId=126864811",
-        "observed_at": "2026-09-19T03:52:49Z",
+        "observed_at": "2026-09-22T17:36:53+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01ntVwMy1H0oktdKR30_!!4611686018427384392-0-fleamarket.jpg_Q90.jpg_.webp"
