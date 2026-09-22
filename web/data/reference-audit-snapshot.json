@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T02:13:00+08:00",
+  "generated_at": "2026-09-23T02:15:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6354,13 +6354,13 @@
       },
       "xianyu": {
         "title": "全新现货 Ado《狂言》黑胶 日版完全生产限定盘",
-    "version_evidence": "2026-09-22 17:50（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前页面标题为“全新现货 Ado《狂言》 黑胶 日版完全生产限定盘”；详情正文和价格区未加载，仅能看到相关商品推荐，无法重新确认 2LP、全新未拆、封存状态、价格或库存。保留旧记录 2300 CNY 作为历史观察，不把它当作当前可购买证据。",
+      "version_evidence": "2026-09-23 02:15（+08:00）人工 Chrome/IAB 打开闲鱼原详情，页面已加载：2300 CNY 包邮、3 人想要、212 浏览。标题为“全新现货 Ado《狂言》黑胶 日版完全生产限定盘”，描述写明官方正版、2LP 黑胶、全新未拆、塑封完整、品相良好、曲目齐全，顺丰包邮。与挖煤姬侧 Ado《狂言》完全生产限定 2LP 相符；仍需核对跨境成本和价格差。",
         "catalog_no": null,
         "barcode": null,
         "price": 2300.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1067631204594&categoryId=126864811",
-    "observed_at": "2026-09-22T09:50:22Z",
+      "observed_at": "2026-09-23T02:15:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2846067622/O1CN01ZADe74wybSG3thNA_!!4611686018427382694-0-xy_item.jpg_Q90.jpg_.webp"
