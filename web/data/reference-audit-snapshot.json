@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T02:21:00+08:00",
+  "generated_at": "2026-09-23T02:23:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6385,13 +6385,13 @@
       },
       "xianyu": {
         "title": "米津玄师《BOOTLEG》CD＋黑胶唱片豪华包装；SRCL-9567/8；JAN 4547366329674",
-      "version_evidence": "2026-09-23 02:17（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面明确提示“闲鱼APP扫码查看／跨境商品请前往闲鱼APP端查看”，网页端没有展示该商品详情、价格、图片、附件或库存。当前只能确认网页端受 APP 端限制，无法把旧记录 291 CNY 当作现货证据；挖煤姬侧 BOOTLEG 初回限定盘信息保留，等待可访问的闲鱼详情。",
+      "version_evidence": "2026-09-23 02:17（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面明确提示“闲鱼APP扫码查看／跨境商品请前往闲鱼APP端查看”，网页端没有展示该商品详情、价格、图片、附件或库存。02:23（+08:00）在闲鱼网页端搜索“米津玄师 BOOTLEG SRCL-9567 9567/8”：结果仅出现 SRCL-9571 通常盘、SRCL-9569～9570 初回 CD+DVD，以及一个 BOOTLEG 与 diorama 的 SRCL-9567 组合卡，未出现目标 SRCL-9567/8 豪华附件版的独立详情。无法把旧记录 291 CNY 或邻近版本当作现货证据；挖煤姬侧 BOOTLEG 初回限定盘信息保留。",
         "catalog_no": "SRCL-9567/8",
         "barcode": "4547366329674",
         "price": 291.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
-      "observed_at": "2026-09-23T02:17:00+08:00",
+      "observed_at": "2026-09-23T02:23:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01JXQio41oMgxzAltO5_!!4611686018427379819-53-fleamarket.heic_450x10000Q90.jpg_.webp"
