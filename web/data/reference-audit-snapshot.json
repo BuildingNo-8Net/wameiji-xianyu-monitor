@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:59:20+08:00",
+  "generated_at": "2026-09-22T18:00:42+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -3034,13 +3034,13 @@
       },
       "xianyu": {
         "title": "EGOIST 当事者 期间生产限定版 CD+BD",
-        "version_evidence": "闲鱼现货页明确为CD+BD、日版正版、全新未拆；未提供品番，无法以编号锁定。",
+    "version_evidence": "2026-09-22 18:00（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面标题显示为“【现货】心理测量者 PSYCHO PASS 剧场版 PROV…”且详情正文、价格区未加载，只显示相关推荐；未能确认 EGOIST《当事者》CD+BD、成色、品番或库存。保留旧记录 200 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 200.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.2.4bf5152dnHU2pY&id=1020304049843&categoryId=126864811",
-        "observed_at": "2026-09-14T17:37:51Z",
+    "observed_at": "2026-09-22T10:00:42Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01xKHEsU26P8DCfk6by_!!4611686018427383493-53-fleamarket.heic_Q90.jpg_.webp"
@@ -6509,13 +6509,13 @@
       },
       "xianyu": {
         "title": "EGOIST 当事者 期间生产限定版 CD+BD",
-        "version_evidence": "闲鱼现货页明确为CD+BD、日版正版、全新未拆；未提供品番，无法以编号锁定。",
+    "version_evidence": "2026-09-22 18:00（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面标题显示为“【现货】心理测量者 PSYCHO PASS 剧场版 PROV…”且详情正文、价格区未加载，只显示相关推荐；未能确认 EGOIST《当事者》CD+BD、成色、品番或库存。保留旧记录 200 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 200.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.2.4bf5152dnHU2pY&id=1020304049843&categoryId=126864811",
-        "observed_at": "2026-09-14T17:37:51Z",
+    "observed_at": "2026-09-22T10:00:42Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01xKHEsU26P8DCfk6by_!!4611686018427383493-53-fleamarket.heic_Q90.jpg_.webp"
