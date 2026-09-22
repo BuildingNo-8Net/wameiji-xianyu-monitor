@@ -261,17 +261,17 @@
       "reference_product_id": 12,
       "stable_key": "sample:42c0201d64442898da4f832fb139de819e97d4b9b1b3ba8b73247a54012c375d",
       "wameiji": {
-        "title": "ツユ CD「やっぱり雨は降るんだね」レンタル落ち 帯あり",
-        "version_evidence": "人工Chrome/IAB挖煤姬详情页：ツユ CD「やっぱり雨は降るんだね」レンタル落ち 帯あり；6,200日元；商品说明明确为レンタル落ち（租赁落库）、带有腰带，TUYU-0002，同名专辑11曲，碟片无明显伤痕但有租赁章。",
+        "title": "ツユ やっぱり雨は降るんだね CD",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页复核：TUYU《やっぱり雨は降るんだね》CD，TUYU-0002、全11曲；商品状态接近未使用，当前9,499日元（约421 CNY），卖家承担日本国内运费，4~7日发货，有物流保障，可加入购物车/立即购买；页面未标注レンタル落ち。",
         "catalog_no": "TUYU-0002",
         "barcode": null,
-        "price": 6200.0,
+        "price": 9499.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333135373831343235392f",
-        "observed_at": "2026-09-21T07:04:04Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303438323234393438352f",
+        "observed_at": "2026-09-22T10:50:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m23157814259_1.jpg?1787721734"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m70482249485_1.jpg"
       },
       "xianyu": {
         "title": "TUYU 专辑 CD やっぱり雨は降るんだね 日版 正版 收录11首",
@@ -3549,17 +3549,17 @@
       "reference_product_id": 12,
       "stable_key": "sample:42c0201d64442898da4f832fb139de819e97d4b9b1b3ba8b73247a54012c375d",
       "wameiji": {
-        "title": "ツユ CD「やっぱり雨は降るんだね」レンタル落ち 帯あり",
-        "version_evidence": "人工Chrome/IAB挖煤姬详情页：ツユ CD「やっぱり雨は降るんだね」レンタル落ち 帯あり；6,200日元；商品说明明确为レンタル落ち（租赁落库）、带有腰带，TUYU-0002，同名专辑11曲，碟片无明显伤痕但有租赁章。",
+        "title": "ツユ やっぱり雨は降るんだね CD",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页复核：TUYU《やっぱり雨は降るんだね》CD，TUYU-0002、全11曲；商品状态接近未使用，当前9,499日元（约421 CNY），卖家承担日本国内运费，4~7日发货，有物流保障，可加入购物车/立即购买；页面未标注レンタル落ち。",
         "catalog_no": "TUYU-0002",
         "barcode": null,
-        "price": 6200.0,
+        "price": 9499.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333135373831343235392f",
-        "observed_at": "2026-09-21T07:04:04Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303438323234393438352f",
+        "observed_at": "2026-09-22T10:50:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m23157814259_1.jpg?1787721734"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m70482249485_1.jpg"
       },
       "xianyu": {
         "title": "TUYU 专辑 CD やっぱり雨は降るんだね 日版 正版 收录11首",
