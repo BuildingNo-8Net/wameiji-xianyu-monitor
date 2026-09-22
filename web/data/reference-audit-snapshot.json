@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T16:10:23+08:00",
+  "generated_at": "2026-09-22T16:12:22+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6875,13 +6875,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "【中古】アニメムック ≪イラスト画集≫ 杉菜水姫(スギナミキ)作品第二集 『花葬』",
-    "version_evidence": "2026-09-22 人工 Chrome/IAB 复核：挖煤姬详情页为骏河屋店铺卖家同版《花葬》第二集画集，37,000 日元（约 1,643 元），2015-11-27 发售，B4 大型画集、120 页（240 页袋綴），页面标注无明显损伤污渍、无物流保障。15:32（+08:00）在闲鱼精确检索「杉菜水姫 花葬 画集」，结果虽有多条，但内容明确是电子版/网盘资料、复制原画、自制装饰画及《壳之少女 花葬》限定盒；没有该第二集原版画集实物，不以近似周边替代。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 复核：挖煤姬详情页为骏河屋店铺卖家同版《花葬》第二集画集，37,000 日元（约 1,643 元），2015-11-27 发售，B4 大型画集、120 页（240 页袋綴），页面标注无明显损伤污渍、无物流保障。16:12（+08:00）再次在闲鱼精确检索「杉菜水姫 花葬 画集」，结果仍为网盘/电子版资料、复制原画、自制装饰画及《壳之少女 花葬》限定盒；没有该第二集原版画集实物，不以近似周边替代。",
         "catalog_no": null,
         "barcode": null,
         "price": 37000.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f774765675a564b6a50567158685755576342796d6f4e2f",
-    "observed_at": "2026-09-22T15:31:50+08:00",
+    "observed_at": "2026-09-22T16:12:22+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/XAmE9hhts3ApgztQWASR6n.webp@jpg"
