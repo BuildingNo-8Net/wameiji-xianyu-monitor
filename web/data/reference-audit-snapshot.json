@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T18:20:52+08:00",
+  "generated_at": "2026-09-22T20:31:44+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6981,13 +6981,13 @@
       "xianyu_state": "not_currently_listed",
       "wameiji": {
         "title": "虚ノ少女 初回限定版 Innocent Grey（挖煤姬仅见周边，非样本PC游戏）",
-      "version_evidence": "2026-09-22 人工 Chrome/IAB 在挖煤姬按「虚ノ少女 初回限定版 Innocent Grey」精确检索：15:50（+08:00）页面显示 4 条结果，分别为殻ノ少女/怪ノ少女 Drama CD 4,500日元、虚ノ少女非卖品海报5,500日元、虚ノ少女徽章3,600日元、虚ノ少女 B2挂毯19,900日元；没有样本所示虚ノ少女初回限定版 PC游戏同版，不以同作品周边替代。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 在挖煤姬按「虚ノ少女 初回限定版 Innocent Grey」精确检索：15:50（+08:00）页面显示 4 条结果，分别为殻ノ少女/怪ノ少女 Drama CD 4,500日元、虚ノ少女非卖品海报5,500日元、虚ノ少女徽章3,600日元、虚ノ少女 B2挂毯19,900日元；没有样本所示虚ノ少女初回限定版 PC游戏同版，不以同作品周边替代。20:31（+08:00）再次用内置浏览器精确检索，结果首条为他人专用商品及无关服饰、卡牌、周边，未出现虚ノ少女初回限定版 PC游戏；维持当前未见，不把同作品周边当匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
         "source_url": "https://www.meruki.cn/search?keywords=%E8%99%9A%E3%83%8E%E5%B0%91%E5%A5%B3+%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88+Innocent+Grey&website=mercari",
-      "observed_at": "2026-09-22T15:49:58+08:00",
+    "observed_at": "2026-09-22T20:31:44+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m57063581162_1.jpg?1787835918",
