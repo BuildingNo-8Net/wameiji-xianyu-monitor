@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T15:09:24+08:00",
+  "generated_at": "2026-09-22T15:12:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6917,13 +6917,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "ブロッコリートレカアイテムくじSP ゆずソフト カードボックス 3個セット【サノバウィッチ・ドラクリオット・天色アイルノーツ】",
-    "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬 JDirectItems Fleamarket 详情页：标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含サノバウィッチ、ドラクリオット、天色アイルノーツ；未使用，2400日元（约107人民币），代购手续费200日元，3~7日发货，有物流保障，页面可加入购物车/立即购买。14:32（+08:00）在闲鱼精确检索“柚子社 D赏 卡盒 三个”，页面显示“小闲鱼没有找到你想要的宝贝”，推荐区仅有手办、其他CD和泛周边，没有该D賞卡盒三件套；不把近似周边当作同版匹配。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬 JDirectItems Fleamarket 详情页：标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含サノバウィッチ、ドラクリオット、天色アイルノーツ；未使用，2400日元（约107人民币），代购手续费200日元，3~7日发货，有物流保障，页面可加入购物车/立即购买。闲鱼于15:12（+08:00）精确检索“柚子社 D赏 卡盒 三个”，页面显示“小闲鱼没有找到你想要的宝贝”，推荐区仅有手办、其他CD和泛周边，没有该D賞卡盒三件套；不把近似周边当作同版匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 2400.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/paypay/detail/z592026118",
-    "observed_at": "2026-09-22T14:32:57+08:00",
+    "observed_at": "2026-09-22T15:12:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0204/users/c28e5dc80e38b7d34c4130cd97a314d97d0167e0/i-img900x1200-1776057969444siplc4.jpg"
