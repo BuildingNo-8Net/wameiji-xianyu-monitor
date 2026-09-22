@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T18:04:47+08:00",
+  "generated_at": "2026-09-22T18:05:53+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -3189,13 +3189,13 @@
       },
       "xianyu": {
         "title": "罪恶王冠主题曲 My Dearest CD+DVD 初回限定盘",
-        "version_evidence": "初回限定 CD+DVD；无侧封；带卡牌和应募券；盘面完美。该附件组合与挖煤姬的特典卡版接近但不完全相同。",
+    "version_evidence": "2026-09-22 18:05（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面标题为“罪恶王冠主题曲 My Dearest cd+dvd初回限定盘”，但详情正文、价格、图片和库存区均未加载，无法重新确认 CD+DVD、卡牌、应募券或成色。保留旧记录 144 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 144.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1037357615567&categoryId=126864811",
-        "observed_at": "2026-09-14T16:37:36Z",
+    "observed_at": "2026-09-22T10:05:53Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01SGB4Gx1baoDw284jA_!!4611686018427382138-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
@@ -6664,13 +6664,13 @@
       },
       "xianyu": {
         "title": "罪恶王冠主题曲 My Dearest CD+DVD 初回限定盘",
-        "version_evidence": "初回限定 CD+DVD；无侧封；带卡牌和应募券；盘面完美。该附件组合与挖煤姬的特典卡版接近但不完全相同。",
+    "version_evidence": "2026-09-22 18:05（+08:00）人工 Chrome/IAB 打开闲鱼原链接，页面标题为“罪恶王冠主题曲 My Dearest cd+dvd初回限定盘”，但详情正文、价格、图片和库存区均未加载，无法重新确认 CD+DVD、卡牌、应募券或成色。保留旧记录 144 CNY 作为历史观察，不把它当作当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 144.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1037357615567&categoryId=126864811",
-        "observed_at": "2026-09-14T16:37:36Z",
+    "observed_at": "2026-09-22T10:05:53Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01SGB4Gx1baoDw284jA_!!4611686018427382138-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
