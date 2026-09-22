@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:28:01+08:00",
+  "generated_at": "2026-09-22T17:30:04+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1019,13 +1019,13 @@
       },
       "xianyu": {
         "title": "医龙 original soundtrack，泽野弘之，日剧《医龙》原声带，日版首版CD",
-        "version_evidence": "人工 Chrome 精确检索命中：日版首版、原装盒、已拆；碟面有划痕，卖家要求购买前看视频",
+      "version_evidence": "2026-09-22 17:30（+08:00）人工 Chrome/IAB 打开闲鱼详情页：价格 25 CNY 包邮，标题及描述明确《医龙》日版首版 CD、目录号 UPCI-1047、带原装盒、已拆，碟面有划痕，购买前需看视频；与挖煤姬端同作品原声带对应，但成色明显不同。",
         "catalog_no": "UPCI-1047",
         "barcode": null,
         "price": 25.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1052144094157&categoryId=126864811",
-        "observed_at": "2026-09-14T03:27:17Z",
+      "observed_at": "2026-09-22T17:30:04+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/793896573/O1CN01Hl7yZ51yQUTwfuYrN_!!4611686018427381373-53-xy_item.heic_Q90.jpg_.webp"
@@ -4400,13 +4400,13 @@
       },
       "xianyu": {
         "title": "医龙 original soundtrack，泽野弘之，日剧《医龙》原声带，日版首版CD",
-        "version_evidence": "人工 Chrome 精确检索命中：日版首版、原装盒、已拆；碟面有划痕，卖家要求购买前看视频",
+        "version_evidence": "2026-09-22 17:30（+08:00）人工 Chrome/IAB 打开闲鱼详情页：价格 25 CNY 包邮，标题及描述明确《医龙》日版首版 CD、目录号 UPCI-1047、带原装盒、已拆，碟面有划痕，购买前需看视频；与挖煤姬端同作品原声带对应，但成色明显不同。",
         "catalog_no": "UPCI-1047",
         "barcode": null,
         "price": 25.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1052144094157&categoryId=126864811",
-        "observed_at": "2026-09-14T03:27:17Z",
+        "observed_at": "2026-09-22T17:30:04+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/793896573/O1CN01Hl7yZ51yQUTwfuYrN_!!4611686018427381373-53-xy_item.heic_Q90.jpg_.webp"
