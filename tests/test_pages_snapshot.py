@@ -723,3 +723,28 @@ def test_export_cli_accepts_a_local_board_file(
     output = json.loads(capsys.readouterr().out)
     assert output["published_comparisons"] == 1
     assert output["dropped_comparison_ids"] == []
+
+
+def test_published_reference_audit_keeps_direct_images_and_links_for_observed_sides() -> None:
+    """The public audit must not regress to screenshot placeholders or empty cards."""
+    snapshot_path = Path("web/data/reference-audit-snapshot.json")
+    payload = json.loads(snapshot_path.read_text(encoding="utf-8"))
+
+    observed = list(payload["dual_observed_pairs"])
+    observed.extend(
+        {
+            "reference_product_id": record["reference_product_id"],
+            record["available_market"]: record["observation"],
+        }
+        for record in payload["single_observed_records"]
+    )
+
+    assert payload["summary"]["reference_product_count"] == 125
+    assert len(payload["dual_observed_pairs"]) == 112
+    assert len(payload["single_observed_records"]) == 11
+    for record in observed:
+        for market in ("xianyu", "wameiji"):
+            side = record.get(market)
+            if side is not None:
+                assert side["source_url"].startswith("https://")
+                assert side["image_url"].startswith("https://")
