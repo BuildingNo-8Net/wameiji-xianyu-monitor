@@ -1570,6 +1570,13 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
+    // Put the complete reference audit before the legacy four-card history so
+    // the first screen represents the 125 supplied samples, not the old 9/9
+    // profit snapshot.
+    const home = document.getElementById("home");
+    const auditPanel = document.getElementById("referenceAuditPanel");
+    const historyHead = home && home.querySelector(".section-head");
+    if (home && auditPanel && historyHead) home.insertBefore(auditPanel, historyHead);
     // app.js exposes its authenticated API helpers in its own DOM-ready
     // listener. Queue one tick so this module always uses the same Page token.
     setTimeout(async () => {
