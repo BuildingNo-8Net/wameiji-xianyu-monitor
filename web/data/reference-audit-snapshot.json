@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T02:09:00+08:00",
+  "generated_at": "2026-09-23T02:11:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6292,13 +6292,13 @@
       },
       "xianyu": {
         "title": "全新现货 Ado Hibana WORLD TOUR 2025 初回限定盘",
-    "version_evidence": "2026-09-22 18:20（+08:00）人工 Chrome/IAB 再次打开闲鱼原链接，页面标题仍为“全新现货 Ado Hibana WORLD TOUR 2025 初回限定盘”；详情正文、价格和库存仍未加载。相关推荐出现 Ado Hibana 相关条目约 299–489 CNY，但没有当前目标的独立详情证据。保留旧记录 550 CNY 作为历史观察，不把它当作当前可购买证据。19:03（+08:00）再次直接打开同一链接，页面仍只有闲鱼站点壳和页脚，商品标题、价格、库存、图片正文均未加载；维持当前证据未加载，不把旧价当现货。",
+      "version_evidence": "2026-09-23 02:11（+08:00）人工 Chrome/IAB 打开闲鱼原详情，页面已加载：活动价 550–580 CNY 包邮、2 人想要、221 浏览。标题为“全新现货 Ado Hibana WORLD TOUR 2025 初回限定盘”，描述明确日版原版、初回限定 2BD，收录埼玉超级竞技场和奥兰多两场演唱会，未拆封、塑封完整；但页面要求预订私信转定金，价格为区间。与挖煤姬 TYXT-19045 版本信息相符，仍需核对最终成交价和跨境成本。",
         "catalog_no": null,
         "barcode": null,
         "price": 550.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1047649063786&categoryId=0",
-    "observed_at": "2026-09-22T19:03:18+08:00",
+      "observed_at": "2026-09-23T02:11:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2846067622/O1CN01AIY9fZ26Avx4KAcbG_!!4611686018427382694-53-xy_item.heic_Q90.jpg_.webp"
