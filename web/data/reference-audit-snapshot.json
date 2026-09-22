@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:25:40+08:00",
+  "generated_at": "2026-09-22T17:28:01+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -709,13 +709,13 @@
       },
       "xianyu": {
         "title": "【现货】Innocent grey 原生音乐CD…Haruka Shimotsuki Collection ｢トロイメライ｣ [右]亲签日版原版",
-        "version_evidence": "Title includes exact Haruka Shimotsuki Collection トロイメライ; observed offer is 4 CDs bundled and says the target disc is personally signed.",
+      "version_evidence": "2026-09-22 17:28（+08:00）人工 Chrome/IAB 打开闲鱼详情页：价格 5,000 CNY 包邮，描述明确 4 部打包，包含《トロイメライ》右侧亲签日版原版；另含殻/虚/天之少女 OST。该条是多 CD 套装，不能把 5,000 CNY 当作单张特典 CD 成本，但目标碟与挖煤姬《トロイメライ》同作品。",
         "catalog_no": null,
         "barcode": null,
         "price": 5000.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=990215330547&categoryId=126864811",
-        "observed_at": "2026-09-14T02:06:58Z",
+      "observed_at": "2026-09-22T17:28:01+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01uYwkTv1xEkfuoU8Ux_!!4611686018427386604-0-fleamarket.jpg_Q90.jpg_.webp"
@@ -3997,13 +3997,13 @@
       },
       "xianyu": {
         "title": "【现货】Innocent grey 原生音乐CD…Haruka Shimotsuki Collection ｢トロイメライ｣ [右]亲签日版原版",
-        "version_evidence": "Title includes exact Haruka Shimotsuki Collection トロイメライ; observed offer is 4 CDs bundled and says the target disc is personally signed.",
+        "version_evidence": "2026-09-22 17:28（+08:00）人工 Chrome/IAB 打开闲鱼详情页：价格 5,000 CNY 包邮，描述明确 4 部打包，包含《トロイメライ》右侧亲签日版原版；另含殻/虚/天之少女 OST。该条是多 CD 套装，不能把 5,000 CNY 当作单张特典 CD 成本，但目标碟与挖煤姬《トロイメライ》同作品。",
         "catalog_no": null,
         "barcode": null,
         "price": 5000.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=990215330547&categoryId=126864811",
-        "observed_at": "2026-09-14T02:06:58Z",
+        "observed_at": "2026-09-22T17:28:01+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01uYwkTv1xEkfuoU8Ux_!!4611686018427386604-0-fleamarket.jpg_Q90.jpg_.webp"
