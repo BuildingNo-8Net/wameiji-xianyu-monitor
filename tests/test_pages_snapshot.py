@@ -786,3 +786,19 @@ def test_all_reference_audit_cards_have_a_local_reference_image() -> None:
         relative_path = record["reference_image_url"]
         assert relative_path.startswith("assets/reference-samples/")
         assert (Path("web/data") / relative_path).is_file()
+
+
+def test_reference_audit_covers_each_sample_once_and_uses_wameiji_for_observed_japan_sides() -> None:
+    """The published audit must be a complete 1..125 partition, not a padded subset."""
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    records = list(payload["dual_observed_pairs"])
+    records.extend(payload["single_observed_records"])
+    records.extend(payload["unavailable_records"])
+    ids = [record["reference_product_id"] for record in records]
+
+    assert len(ids) == 125
+    assert sorted(ids) == list(range(1, 126))
+    for record in payload["dual_observed_pairs"]:
+        assert record["wameiji"]["is_wameiji_platform"] is True
