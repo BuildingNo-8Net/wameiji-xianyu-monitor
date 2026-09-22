@@ -6854,13 +6854,13 @@
       "counterpart_state": "blocked",
       "observation": {
         "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
-        "version_evidence": "人工内置浏览器复核：该挖煤姬详情页当前显示“不支持该商品”，未提供可核验的商品标题、价格或主图；无法确认原先缓存标题/版本，也不能作为当前进货证据。随后在闲鱼用“RIDDLE JOKER ランチョンマット”精确检索，结果为收藏卡、吧唧、亚克力和其他周边，没有 RIDDLE JOKER 午餐垫同版商品；因此不把近似周边凑成匹配，保留为挖煤姬单边受阻观察。",
+        "version_evidence": "2026-09-22 通过人工内置浏览器重新打开原挖煤姬详情链接：页面明确显示“不支持该商品”，并提供“联系客服/申请解除限制”，没有可核验的当前商品标题、价格或主图；不能把旧缓存字段当作当前进货证据。此前在闲鱼用“RIDDLE JOKER ランチョンマット”精确检索，结果为收藏卡、吧唧、亚克力和其他周边，没有 RIDDLE JOKER 午餐垫同版商品；因此不把近似周边凑成匹配，保留为挖煤姬单边受阻观察。",
         "catalog_no": null,
         "barcode": null,
         "price": 1999.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393534313030323139362f",
-        "observed_at": "2026-09-21T12:04:37Z",
+        "observed_at": "2026-09-22T12:30:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556"
