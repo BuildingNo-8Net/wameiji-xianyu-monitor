@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T16:19:45+08:00",
+  "generated_at": "2026-09-22T16:29:23+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1347,13 +1347,13 @@
       "stable_key": "sample:bff8940f0463daa789c026a5da0ed2842d7aea3fc8c1f9904c2956ae54a10a42",
       "wameiji": {
         "title": "米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK",
-        "version_evidence": "人工 Chrome/IAB 打开挖煤姬真实详情页；商品描述明确列出 IRIS OUT、JANE DOE、KICK BACK 以及 Frost Children、Hudson Mohawke、Tomggg 的 3 首 KICK BACK Remix；页面标注未使用、4 张实物图、5,150 日元。详情正文未明确写欧洲限定、12 英寸或转速，故与样本的欧洲限定 12 英寸 LP 仅作为同轨目观察，版次/介质待复核。",
+        "version_evidence": "2026-09-22 16:29（+08:00）人工 Chrome/IAB 重新打开挖煤姬详情页：标题为米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK；页面显示活动中、未使用、4张实物图、5,100日元，卖家承担日本国内运费、1~2日发货、有物流保障。商品介绍明确收录 IRIS OUT、JANE DOE、KICK BACK 及 Frost Children/Hudson Mohawke/Tomggg 三首 Remix；正文仍未写欧洲限定、12英寸或转速，因此与样本欧洲限定12寸LP仅作同轨观察，不判为同版。",
         "catalog_no": null,
         "barcode": null,
-        "price": 5150.0,
+        "price": 5100.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34323232353438383933392f",
-        "observed_at": "2026-09-21T11:16:13Z",
+        "observed_at": "2026-09-22T16:29:23+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m42225488939_1.jpg"
@@ -4791,13 +4791,13 @@
       "stable_key": "sample:bff8940f0463daa789c026a5da0ed2842d7aea3fc8c1f9904c2956ae54a10a42",
       "wameiji": {
         "title": "米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK",
-        "version_evidence": "人工 Chrome/IAB 打开挖煤姬真实详情页；商品描述明确列出 IRIS OUT、JANE DOE、KICK BACK 以及 Frost Children、Hudson Mohawke、Tomggg 的 3 首 KICK BACK Remix；页面标注未使用、4 张实物图、5,150 日元。详情正文未明确写欧洲限定、12 英寸或转速，故与样本的欧洲限定 12 英寸 LP 仅作为同轨目观察，版次/介质待复核。",
+        "version_evidence": "2026-09-22 16:29（+08:00）人工 Chrome/IAB 重新打开挖煤姬详情页：标题为米津玄師/宇多田ヒカル IRIS OUT/JANE DOE/KICK BACK；页面显示活动中、未使用、4张实物图、5,100日元，卖家承担日本国内运费、1~2日发货、有物流保障。商品介绍明确收录 IRIS OUT、JANE DOE、KICK BACK 及 Frost Children/Hudson Mohawke/Tomggg 三首 Remix；正文仍未写欧洲限定、12英寸或转速，因此与样本欧洲限定12寸LP仅作同轨观察，不判为同版。",
         "catalog_no": null,
         "barcode": null,
-        "price": 5150.0,
+        "price": 5100.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34323232353438383933392f",
-        "observed_at": "2026-09-21T11:16:13Z",
+        "observed_at": "2026-09-22T16:29:23+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m42225488939_1.jpg"
