@@ -748,3 +748,25 @@ def test_published_reference_audit_keeps_direct_images_and_links_for_observed_si
             if side is not None:
                 assert side["source_url"].startswith("https://")
                 assert side["image_url"].startswith("https://")
+
+
+def test_single_and_unavailable_records_keep_manual_browser_evidence_labels() -> None:
+    """Every non-dual record must identify its manual browser evidence source."""
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    records = list(payload["single_observed_records"])
+    records.extend(payload["unavailable_records"])
+
+    assert len(records) == 13
+    for record in records:
+        observations = []
+        if record.get("observation"):
+            observations.append(record["observation"])
+        observations.extend(
+            side for side in (record.get("wameiji"), record.get("xianyu")) if side
+        )
+        assert observations
+        for observation in observations:
+            evidence = observation.get("version_evidence", "")
+            assert any(marker in evidence for marker in ("Chrome", "浏览器", "IAB", "内置"))
