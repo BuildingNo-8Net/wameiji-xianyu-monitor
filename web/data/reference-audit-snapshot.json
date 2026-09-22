@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T12:42:33+08:00",
+  "generated_at": "2026-09-22T12:46:11+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -7015,13 +7015,13 @@
       "xianyu_state": "not_currently_listed",
       "wameiji": {
         "title": "暁の護衛 签名海报+卡片套装（挖煤姬当前未见同版）",
-        "version_evidence": "2026-09-22 人工 Chrome/IAB 在挖煤姬按「暁の護衛 直筆サイン」检索：结果有复製色纸710日元、复製原画1000日元/526日元/2600日元、其他作品签名原画及暁の護衛周边，但没有样本所示群像签名海报+特典卡套组；不把相近色纸/原画或其他周边当作同版匹配。",
+  "version_evidence": "2026-09-22 人工 Chrome/IAB 在挖煤姬按「暁の護衛 直筆サイン」检索：12:46（+08:00）结果仍有复製色纸710日元、复製原画1000日元/526日元/2600日元、其他作品签名原画及暁の護衛周边，但没有样本所示群像签名海报+特典卡套组；不把相近色纸/原画或其他周边当作同版匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
         "source_url": "https://www.meruki.cn/search?keywords=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E7%9B%B4%E7%AD%86%E3%82%B5%E3%82%A4%E3%83%B3&website=mercari",
-      "observed_at": "2026-09-22T09:35:00Z",
+  "observed_at": "2026-09-22T12:46:11+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.fril.jp/img/835565348/l/2878784876.jpg?1780718775=&updated_at=2026-06-06T04%3A06%3A15.000Z",
