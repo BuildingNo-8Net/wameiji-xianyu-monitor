@@ -788,6 +788,21 @@ def test_all_reference_audit_cards_have_a_local_reference_image() -> None:
         assert (Path("web/data") / relative_path).is_file()
 
 
+def test_unavailable_cards_keep_both_market_links_and_reference_evidence() -> None:
+    """Unavailable samples still need two navigable search/detail links, not blank sides."""
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    assert len(payload["unavailable_records"]) == 2
+    for record in payload["unavailable_records"]:
+        assert record["reference_image_url"].startswith("assets/reference-samples/")
+        for market in ("xianyu", "wameiji"):
+            side = record[market]
+            assert side["source_url"].startswith("https://")
+            assert side["version_evidence"]
+            assert side["state"] in {"not_currently_listed", "blocked"}
+
+
 def test_reference_audit_covers_each_sample_once_and_uses_wameiji_for_observed_japan_sides() -> None:
     """The published audit must be a complete 1..125 partition, not a padded subset."""
     payload = json.loads(
