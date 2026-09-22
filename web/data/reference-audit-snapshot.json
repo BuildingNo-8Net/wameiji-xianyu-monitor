@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T02:25:00+08:00",
+  "generated_at": "2026-09-23T02:29:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6770,13 +6770,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "[等待官方补货]Whiterium Laur2025春m3新专 专辑CD",
-    "version_evidence": "2026-09-22 21:04（+08:00）人工 Chrome/IAB 打开闲鱼具体详情页：标题为[等待官方补货]Whiterium Laur2025春m3新专 专辑CD；价格126.80 CNY；页面显示43人想要、2448浏览、可直拍；明确为非现货，拍下后预计12-25天内到货，存储介质为CD，标签含同人音乐/hardcore。挖煤姬侧此前以精确关键词检索仍未见同版专辑CD，因此继续作为闲鱼单边主要观察对象，不伪装成双侧找到。",
+    "version_evidence": "2026-09-22 21:04（+08:00）人工 Chrome/IAB 打开闲鱼具体详情页：标题为[等待官方补货]Whiterium Laur2025春m3新专 专辑CD；价格126.80 CNY；页面显示43人想要、2448浏览、可直拍；明确为非现货，拍下后预计12-25天内到货，存储介质为CD，标签含同人音乐/hardcore。2026-09-23 02:29（+08:00）人工 Chrome/IAB 在挖煤姬以“Whiterium Laur 2025 春 M3 CD”精确检索，结果页明确“已经按照原文进行搜索”并显示“暂无数据”，没有 Mercari 同版专辑；继续作为闲鱼单边主要观察对象，不伪装成双侧找到。",
         "catalog_no": null,
         "barcode": null,
         "price": 126.8,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=915704660051&categoryId=126864811",
-    "observed_at": "2026-09-22T21:04:19+08:00",
+    "observed_at": "2026-09-23T02:29:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01s7g1j629NFOsAQO5z_!!4611686018427382103-0-fleamarket.jpg_790x10000Q90.jpg_.webp"
