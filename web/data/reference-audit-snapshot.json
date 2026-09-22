@@ -3096,13 +3096,13 @@
       },
       "xianyu": {
         "title": "美依礼芽GARNIDELIA MIRAI 期间生产限定盘 CD+DVD 几乎全新",
-        "version_evidence": "Manual Chrome detail title explicitly states 期间生产限定盘 CD+DVD. The same detail page labels storage medium as CD and does not expose JAN/catalog number or a separate accessory list, so the DVD assertion is title-level only.",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 复核闲鱼详情：标题明确为美依礼芽 GARNiDELiA MIRAI 期间生产限定盘 CD+DVD 几乎全新，价格 91 CNY 包邮；页面介质字段为 CD，未展示 JAN/目录号或独立附件清单，因此 DVD 仅按标题层级记录。",
         "catalog_no": null,
         "barcode": null,
         "price": 91.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1080556566176&categoryId=126864811",
-        "observed_at": "2026-09-21T14:18:53Z",
+        "observed_at": "2026-09-22T02:10:52Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01nKzlWsQVmoI3thGS~livephoto~_!!4611686018427382691-0-fleamarket.jpg_Q90.jpg_.webp"
@@ -6571,13 +6571,13 @@
       },
       "xianyu": {
         "title": "美依礼芽GARNIDELIA MIRAI 期间生产限定盘 CD+DVD 几乎全新",
-        "version_evidence": "Manual Chrome detail title explicitly states 期间生产限定盘 CD+DVD. The same detail page labels storage medium as CD and does not expose JAN/catalog number or a separate accessory list, so the DVD assertion is title-level only.",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 复核闲鱼详情：标题明确为美依礼芽 GARNiDELiA MIRAI 期间生产限定盘 CD+DVD 几乎全新，价格 91 CNY 包邮；页面介质字段为 CD，未展示 JAN/目录号或独立附件清单，因此 DVD 仅按标题层级记录。",
         "catalog_no": null,
         "barcode": null,
         "price": 91.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1080556566176&categoryId=126864811",
-        "observed_at": "2026-09-21T14:18:53Z",
+        "observed_at": "2026-09-22T02:10:52Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01nKzlWsQVmoI3thGS~livephoto~_!!4611686018427382691-0-fleamarket.jpg_Q90.jpg_.webp"
