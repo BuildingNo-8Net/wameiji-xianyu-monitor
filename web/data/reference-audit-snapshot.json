@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:02:04+08:00",
+  "generated_at": "2026-09-22T17:04:32+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -1471,13 +1471,13 @@
       "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
       "wameiji": {
         "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
-        "version_evidence": "Current Surugaya shop card identifies KARENT title Winterland’s Anthology, catalog KRCD-0011, release 2017-01-25, condition normally used. Image is illustrative and page does not enumerate inserts or extras.",
+      "version_evidence": "历史挖煤姬店铺卡识别为 KARENT《Winterland’s Anthology feat.初音ミク》，目录号 KRCD-0011，发行日 2017-01-25，通常中古；详情图未列明内封或特典。17:04（+08:00）人工 Chrome/IAB 在挖煤姬搜索「Winterland's Anthology KRCD-0011」：结果页明确“已经按照原文进行搜索”；当前 Mercari 首条为无关 Winter Wonderland，未出现同版 Mercari 商品，但 Rakuten 结果明确列出同标题《Winterland’s Anthology feat.初音ミク》10,890 JPY。故保留历史挖煤姬来源并标注当前 Mercari 未复现，不把 Rakuten 结果冒充当前挖煤姬库存。",
         "catalog_no": "KRCD-0011",
         "barcode": null,
         "price": 14131.0,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5758635a656f6a694a7a6f6568794378745268512f",
-        "observed_at": "2026-09-14T18:14:18Z",
+      "observed_at": "2026-09-22T17:04:32+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWXcZdmayREpgKwbdGbzd.webp@jpg"
@@ -4915,13 +4915,13 @@
       "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
       "wameiji": {
         "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
-        "version_evidence": "Current Surugaya shop card identifies KARENT title Winterland’s Anthology, catalog KRCD-0011, release 2017-01-25, condition normally used. Image is illustrative and page does not enumerate inserts or extras.",
+        "version_evidence": "历史挖煤姬店铺卡识别为 KARENT《Winterland’s Anthology feat.初音ミク》，目录号 KRCD-0011，发行日 2017-01-25，通常中古；详情图未列明内封或特典。17:04（+08:00）人工 Chrome/IAB 在挖煤姬搜索「Winterland's Anthology KRCD-0011」：结果页明确“已经按照原文进行搜索”；当前 Mercari 首条为无关 Winter Wonderland，未出现同版 Mercari 商品，但 Rakuten 结果明确列出同标题《Winterland’s Anthology feat.初音ミク》10,890 JPY。故保留历史挖煤姬来源并标注当前 Mercari 未复现，不把 Rakuten 结果冒充当前挖煤姬库存。",
         "catalog_no": "KRCD-0011",
         "barcode": null,
         "price": 14131.0,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5758635a656f6a694a7a6f6568794378745268512f",
-        "observed_at": "2026-09-14T18:14:18Z",
+        "observed_at": "2026-09-22T17:04:32+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWXcZdmayREpgKwbdGbzd.webp@jpg"
