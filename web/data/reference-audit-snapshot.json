@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T20:31:44+08:00",
+  "generated_at": "2026-09-22T20:37:14+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -7015,13 +7015,13 @@
       "xianyu_state": "not_currently_listed",
       "wameiji": {
         "title": "暁の護衛 签名海报+卡片套装（挖煤姬当前未见同版）",
-    "version_evidence": "2026-09-22 人工 Chrome/IAB 在挖煤姬按「暁の護衛 直筆サイン」精确检索：15:53（+08:00）页面显示柊朱美/南城薫复製色纸710/1,318日元、复製原画1,000/526/2,600日元、软件限定周边9,100日元、原声带2,300日元及其他作品签名原画；没有样本所示群像签名海报+特典卡套组，不把相近色纸/原画或其他周边当作同版匹配。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 在挖煤姬按「暁の護衛 直筆サイン」精确检索：15:53（+08:00）页面显示柊朱美/南城薫复製色纸710/1,318日元、复製原画1,000/526/2,600日元、软件限定周边9,100日元、原声带2,300日元及其他作品签名原画；没有样本所示群像签名海报+特典卡套组，不把相近色纸/原画或其他周边当作同版匹配。20:37（+08:00）再次检索，结果为ワンピース卡牌、服饰、宝可梦卡、杂货等无关商品，未出现暁の護衛签名海报或卡片套装；维持当前未见。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E7%9B%B4%E7%AD%86%E3%82%B5%E3%82%A4%E3%83%B3&website=mercari",
-    "observed_at": "2026-09-22T15:54:44+08:00",
+      "source_url": "https://www.meruki.cn/search?keywords=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E7%9B%B4%E7%AD%86%E3%82%B5%E3%82%A4%E3%83%B3&website=mercari",
+      "observed_at": "2026-09-22T20:37:14+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.fril.jp/img/835565348/l/2878784876.jpg?1780718775=&updated_at=2026-06-06T04%3A06%3A15.000Z",
@@ -7029,13 +7029,13 @@
       },
       "xianyu": {
         "title": "暁の護衛 サイン ポスター（闲鱼当前未见同版）",
-    "version_evidence": "2026-09-22 人工内置浏览器打开闲鱼检索「暁の護衛 サイン ポスター」；当前结果为人声CD（28元）、PSP游戏（200元）、钥匙扣（35元）、预约特典CD（70元）、专辑CD（70元）、PS3限定版（360元）、卡牌及亚克力等，未见样本所示群像签名海报＋特典卡套组，未以同作品CD/游戏周边替代。",
+    "version_evidence": "2026-09-22 人工内置浏览器打开闲鱼检索「暁の護衛 サイン ポスター」；当前结果为人声CD（28元）、PSP游戏（200元）、钥匙扣（35元）、预约特典CD（70元）、专辑CD（70元）、PS3限定版（360元）、卡牌及亚克力等，未见样本所示群像签名海报＋特典卡套组，未以同作品CD/游戏周边替代。20:37（+08:00）再次精确检索，页面明确“小闲鱼没有找到你想要的宝贝”，推荐仅有月姬CD、Fate手办、动漫周边等无关商品，仍未出现群像签名海报＋特典卡套组；维持当前未见。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E3%82%B5%E3%82%A4%E3%83%B3%20%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC",
-    "observed_at": "2026-09-22T15:54:44+08:00",
+      "source_url": "https://www.goofish.com/search?q=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E3%82%B5%E3%82%A4%E3%83%B3%20%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC",
+      "observed_at": "2026-09-22T20:37:14+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "not_currently_listed"
