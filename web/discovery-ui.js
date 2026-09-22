@@ -583,7 +583,13 @@
       String(audit.disclaimer || "双侧已发现不等于达标机会；逐件补齐可比性和成本证据后才会进入利润筛选。"),
     );
     if (pairSummary) {
-      pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条待逐件核验记录（不是达标机会）";
+      const evidenceText = (pair) => String(pair && pair.xianyu && pair.xianyu.version_evidence || "");
+      const unavailableCount = pairs.filter((pair) => /详情正文未加载|详情正文和价格区未加载|无法重新确认|未能确认/.test(evidenceText(pair))).length;
+      const mismatchCount = pairs.filter((pair) => /历史错配|不是同一商品|历史观察/.test(evidenceText(pair))).length;
+      const caveats = [];
+      if (unavailableCount) caveats.push("当前证据未加载 " + unavailableCount + " 条");
+      if (mismatchCount) caveats.push("历史错配 " + mismatchCount + " 条");
+      pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条待逐件核验记录" + (caveats.length ? "（" + caveats.join("；") + "）" : "") + "（不是达标机会）";
     }
     if (pairList) {
       pairList.innerHTML = pairs.length
