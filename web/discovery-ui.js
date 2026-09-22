@@ -486,7 +486,7 @@
     ].join("");
   }
 
-  function referenceAuditUnavailableSideMarkup(label, observation, market, state) {
+  function referenceAuditUnavailableSideMarkup(label, observation, market, state, referenceImage) {
     const source = observation && typeof observation === "object" ? observation : {};
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
     const href = safeHttpUrl(source.source_url);
@@ -500,7 +500,11 @@
     const stateText = referenceStateLabel(state);
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
+        referenceImage
+          ? '<div class="reference-audit-market-media reference-audit-reference-media"><img src="' + esc(referenceImage) + '" alt="参考样本图 · 两侧当前未见" loading="eager" decoding="async" /></div>'
+          : '<div class="reference-audit-market-media reference-audit-market-media-missing">两侧当前未见</div>',
         '<small>' + esc(label) + '</small>',
+        '<span class="reference-audit-reference-label">参考样本图 · 两侧当前未见</span>',
         '<b>状态：' + esc(stateText) + '</b>',
         '<strong>' + heading + '</strong>',
         evidence,
@@ -512,13 +516,14 @@
     const item = record && typeof record === "object" ? record : {};
     const wameiji = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
     const xianyu = item.xianyu && typeof item.xianyu === "object" ? item.xianyu : {};
+    const referenceImage = usableProductImage(item.reference_image_url);
     return [
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 当前未形成具体商品页卡片</div>',
         '<div class="reference-audit-sides">',
-          referenceAuditUnavailableSideMarkup("闲鱼销售侧", xianyu, "xianyu", item.xianyu_state),
+          referenceAuditUnavailableSideMarkup("闲鱼销售侧", xianyu, "xianyu", item.xianyu_state, referenceImage),
           '<div class="reference-audit-center"><b>当前未见 / 受阻</b><span>没有公开可核对的具体商品页</span></div>',
-          referenceAuditUnavailableSideMarkup("挖煤姬进货侧", wameiji, "wameiji", item.wameiji_state),
+          referenceAuditUnavailableSideMarkup("挖煤姬进货侧", wameiji, "wameiji", item.wameiji_state, referenceImage),
         '</div>',
       '</article>',
     ].join("");
