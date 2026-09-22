@@ -1936,13 +1936,13 @@
       "stable_key": "sample:bdf61d7786697043d47d76bae494217bbcaff6268891aa010abbec233f6d061a",
       "wameiji": {
         "title": "テレサ・テン オリジナル・ベスト・ヒット+2 Teresa Teng 鄧麗君",
-        "version_evidence": "Manual Chrome/IAB detail verification: current Wameiji detail visibly states 2枚組, 1,000枚限定盤, 100% Pure LP, 45回転2枚組, 180グラム重量盤, serial-numbered, release 2026-06-24; detail price 12,980 JPY and status 未使用.",
+      "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页复核：2枚组、1,000张限定盘、100% Pure LP、45转2LP、180g重量盘、序列号、发行日2026-06-24；当前12,980日元（约576 CNY），未使用，可加入购物车/立即购买；卖家承担日本国内运费，1~2日发货，页面明确无物流保障（预计4~12天到仓）。",
         "catalog_no": null,
         "barcode": null,
         "price": 12980.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37393837313036303635392f",
-        "observed_at": "2026-09-21T06:13:21Z",
+      "observed_at": "2026-09-22T11:20:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m79871060659_1.jpg"
@@ -5411,13 +5411,13 @@
       "stable_key": "sample:bdf61d7786697043d47d76bae494217bbcaff6268891aa010abbec233f6d061a",
       "wameiji": {
         "title": "テレサ・テン オリジナル・ベスト・ヒット+2 Teresa Teng 鄧麗君",
-        "version_evidence": "Manual Chrome/IAB detail verification: current Wameiji detail visibly states 2枚組, 1,000枚限定盤, 100% Pure LP, 45回転2枚組, 180グラム重量盤, serial-numbered, release 2026-06-24; detail price 12,980 JPY and status 未使用.",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页复核：2枚组、1,000张限定盘、100% Pure LP、45转2LP、180g重量盘、序列号、发行日2026-06-24；当前12,980日元（约576 CNY），未使用，可加入购物车/立即购买；卖家承担日本国内运费，1~2日发货，页面明确无物流保障（预计4~12天到仓）。",
         "catalog_no": null,
         "barcode": null,
         "price": 12980.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37393837313036303635392f",
-        "observed_at": "2026-09-21T06:13:21Z",
+        "observed_at": "2026-09-22T11:20:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m79871060659_1.jpg"
