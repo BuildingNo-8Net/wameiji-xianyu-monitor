@@ -770,3 +770,19 @@ def test_single_and_unavailable_records_keep_manual_browser_evidence_labels() ->
         for observation in observations:
             evidence = observation.get("version_evidence", "")
             assert any(marker in evidence for marker in ("Chrome", "浏览器", "IAB", "内置"))
+
+
+def test_all_reference_audit_cards_have_a_local_reference_image() -> None:
+    """Every public audit card must retain its supplied sample image asset."""
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    records = list(payload["dual_observed_pairs"])
+    records.extend(payload["single_observed_records"])
+    records.extend(payload["unavailable_records"])
+
+    assert len(records) == payload["summary"]["reference_product_count"]
+    for record in records:
+        relative_path = record["reference_image_url"]
+        assert relative_path.startswith("assets/reference-samples/")
+        assert (Path("web/data") / relative_path).is_file()
