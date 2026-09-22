@@ -1378,7 +1378,7 @@
       "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
       "wameiji": {
         "title": "めありー / 彼はきっと魔法を使う。 [CD]",
-      "version_evidence": "2026-09-22 人工 Chrome/IAB 在挖煤姬按「暁の護衛 直筆サイン」检索：结果有复製色纸710日元、复製原画1000日元/526日元/2600日元、其他作品签名原画及暁の護衛周边，但没有样本所示群像签名海报+特典卡套组；不把相近色纸/原画或其他周边当作同版匹配。",
+      "version_evidence": "2026-09-22 人工 Chrome/IAB 重开该 Rakuten 详情链接时跳转到挖煤姬登录页，未显示商品详情；当前无法重新核验价格、库存或主图，保留原有 MARY-1004/JAN 作为历史记录，不把登录页当作当前可购证据。",
         "catalog_no": "MARY-1004",
         "barcode": "4526180430025",
         "price": 1393.0,
@@ -1440,13 +1440,13 @@
       "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
       "wameiji": {
         "title": "かいりきベア ベノマ CD",
-        "version_evidence": null,
+      "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：かいりきベア《ベノマ》CD，二手但无明显损伤或污渍，1300日元（约58人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；商品描述明确为怪力熊专辑《ベノマ》，页面可加入购物车/立即购买。",
         "catalog_no": null,
         "barcode": null,
         "price": 1300.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303531353736363035342f",
-        "observed_at": "2026-09-21T12:15:43Z",
+      "observed_at": "2026-09-22T10:55:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m70515766054_1.jpg"
@@ -1595,13 +1595,13 @@
       "stable_key": "sample:dbe0251491b62a24a6dc1f6b19e4836db50a991ceeefa10f9a2f940fe3de6305",
       "wameiji": {
         "title": "milet Made of Glass 通常盤 ４th アルバム ⑤",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：milet《Made of Glass》通常盤第4张专辑，未使用，3500日元（约156人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；页面可加入购物车/立即购买，描述明确通常盘 CD。",
         "catalog_no": null,
         "barcode": null,
         "price": 3500.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d36373535333132313830362f",
-        "observed_at": "2026-09-21T12:16:36Z",
+        "observed_at": "2026-09-22T11:05:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m67553121806_1.jpg"
@@ -1626,13 +1626,13 @@
       "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
       "wameiji": {
         "title": "ポケモン feat. 初音ミク VOLTAGE Live! Blu-ray特装盤",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：milet《Made of Glass》通常盤第4张专辑，未使用，3500日元（约156人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；页面可加入购物车/立即购买，描述明确通常盘 CD。",
         "catalog_no": null,
         "barcode": null,
         "price": 13999.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6a702f6974656d732f6d36393333363132383535322f",
-        "observed_at": "2026-09-21T12:12:49Z",
+        "observed_at": "2026-09-22T11:10:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m69336128552_1.jpg"
@@ -1670,7 +1670,7 @@
       },
       "xianyu": {
         "title": "ZARD Forever Best 25周年纪念 日版4CD（全新未拆封，带原塑封）",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：Pokemon feat. 初音ミク《VOLTAGE Live!》Blu-ray特装盘，未使用，13,999日元（约621人民币），卖家承担日本国内运费，手续费300日元，2~3日发货，有物流保障（预计2~7天到仓）。说明明确含演唱会本篇、定点影像、特典册、2种亚克力立牌及18张明信片，Blu-ray格式；页面可加入购物车/立即购买。",
         "catalog_no": null,
         "barcode": null,
         "price": 60.0,
@@ -1980,7 +1980,7 @@
       },
       "xianyu": {
         "title": "坂井泉水 ZARD Best Request 35周年纪念 3CD套装（日版原版，全新未拆，Blu-spec CD2）",
-        "version_evidence": null,
+      "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：かいりきベア《ベノマ》CD，二手但无明显损伤或污渍，1300日元（约58人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；商品描述明确为怪力熊专辑《ベノマ》，页面可加入购物车/立即购买。",
         "catalog_no": null,
         "barcode": null,
         "price": 218.0,
@@ -2042,7 +2042,7 @@
       },
       "xianyu": {
         "title": "坂本龙一 1996 30周年纪念版黑胶2LP 30th anniversary edition（全新未拆）",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：milet《Made of Glass》通常盤第4张专辑，未使用，3500日元（约156人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；页面可加入购物车/立即购买，描述明确通常盘 CD。",
         "catalog_no": null,
         "barcode": null,
         "price": 425.0,
@@ -2197,7 +2197,7 @@
       },
       "xianyu": {
         "title": "现货 原装正版 milet Walkin' In My Lane 初回限定B CD+DVD（日版，全新未拆）",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：Pokemon feat. 初音ミク《VOLTAGE Live!》Blu-ray特装盘，未使用，13,999日元（约621人民币），卖家承担日本国内运费，手续费300日元，2~3日发货，有物流保障（预计2~7天到仓）。说明明确含演唱会本篇、定点影像、特典册、2种亚克力立牌及18张明信片，Blu-ray格式；页面可加入购物车/立即购买。",
         "catalog_no": null,
         "barcode": null,
         "price": 188.0,
@@ -2742,20 +2742,20 @@
       "stable_key": "sample:f0af407b900be9c399e6a0dfea7bc1b53f09fbc578249c141593a6d71437624c",
       "wameiji": {
         "title": "THE BOOK for, (YOASOBI ART EDITION) color vinyl / 2LP",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬 HMV 详情页核验：THE BOOK for, YOASOBI ART EDITION 彩胶2LP，预售新品，5,599日元（约249人民币），日本国内运费660日元，代购手续费168日元；目录号 BOOK4VINYL2、2枚、LP、进口盘、发行国UK，页面可加入购物车/立即购买。",
         "catalog_no": "BOOK4VINYL2",
         "barcode": "820200663191",
         "price": 5599.0,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/market/detail/533363023135772672?shopid=454533197263278081",
-        "observed_at": "2026-09-14T18:01:14Z",
+        "observed_at": "2026-09-22T11:15:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.hmv.co.jp/image/jacket/400/0000169/6/3/151.jpg"
       },
       "xianyu": {
         "title": "YOASOBI The Book For (Yoasobi Art Edition) 彩胶唱片预定 BK4艺术版",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬 HMV 详情页核验：THE BOOK for, YOASOBI ART EDITION 彩胶2LP，预售新品，5,599日元（约249人民币），日本国内运费660日元，代购手续费168日元；目录号 BOOK4VINYL2、2枚、LP、进口盘、发行国UK，页面可加入购物车/立即购买。",
         "catalog_no": "BOOK4VINYL2",
         "barcode": "820200663191",
         "price": 351.0,
@@ -4822,7 +4822,7 @@
       "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
       "wameiji": {
         "title": "めありー / 彼はきっと魔法を使う。 [CD]",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 重开该 Rakuten 详情链接时跳转到挖煤姬登录页，未显示商品详情；当前无法重新核验价格、库存或主图，保留原有 MARY-1004/JAN 作为历史记录，不把登录页当作当前可购证据。",
         "catalog_no": "MARY-1004",
         "barcode": "4526180430025",
         "price": 1393.0,
@@ -4884,13 +4884,13 @@
       "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
       "wameiji": {
         "title": "かいりきベア ベノマ CD",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：かいりきベア《ベノマ》CD，二手但无明显损伤或污渍，1300日元（约58人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；商品描述明确为怪力熊专辑《ベノマ》，页面可加入购物车/立即购买。",
         "catalog_no": null,
         "barcode": null,
         "price": 1300.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37303531353736363035342f",
-        "observed_at": "2026-09-21T12:15:43Z",
+        "observed_at": "2026-09-22T10:55:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m70515766054_1.jpg"
@@ -5070,13 +5070,13 @@
       "stable_key": "sample:dbe0251491b62a24a6dc1f6b19e4836db50a991ceeefa10f9a2f940fe3de6305",
       "wameiji": {
         "title": "milet Made of Glass 通常盤 ４th アルバム ⑤",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：milet《Made of Glass》通常盤第4张专辑，未使用，3500日元（约156人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；页面可加入购物车/立即购买，描述明确通常盘 CD。",
         "catalog_no": null,
         "barcode": null,
         "price": 3500.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d36373535333132313830362f",
-        "observed_at": "2026-09-21T12:16:36Z",
+        "observed_at": "2026-09-22T11:05:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m67553121806_1.jpg"
@@ -5101,13 +5101,13 @@
       "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
       "wameiji": {
         "title": "ポケモン feat. 初音ミク VOLTAGE Live! Blu-ray特装盤",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：Pokemon feat. 初音ミク《VOLTAGE Live!》Blu-ray特装盘，未使用，13,999日元（约621人民币），卖家承担日本国内运费，手续费300日元，2~3日发货，有物流保障（预计2~7天到仓）。说明明确含演唱会本篇、定点影像、特典册、2种亚克力立牌及18张明信片，Blu-ray格式；页面可加入购物车/立即购买。",
         "catalog_no": null,
         "barcode": null,
         "price": 13999.0,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6a702f6974656d732f6d36393333363132383535322f",
-        "observed_at": "2026-09-21T12:12:49Z",
+        "observed_at": "2026-09-22T11:10:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m69336128552_1.jpg"
@@ -6217,13 +6217,13 @@
       "stable_key": "sample:f0af407b900be9c399e6a0dfea7bc1b53f09fbc578249c141593a6d71437624c",
       "wameiji": {
         "title": "THE BOOK for, (YOASOBI ART EDITION) color vinyl / 2LP",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬 HMV 详情页核验：THE BOOK for, YOASOBI ART EDITION 彩胶2LP，预售新品，5,599日元（约249人民币），日本国内运费660日元，代购手续费168日元；目录号 BOOK4VINYL2、2枚、LP、进口盘、发行国UK，页面可加入购物车/立即购买。",
         "catalog_no": "BOOK4VINYL2",
         "barcode": "820200663191",
         "price": 5599.0,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/market/detail/533363023135772672?shopid=454533197263278081",
-        "observed_at": "2026-09-14T18:01:14Z",
+        "observed_at": "2026-09-22T11:15:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.hmv.co.jp/image/jacket/400/0000169/6/3/151.jpg"
@@ -7015,7 +7015,7 @@
       "xianyu_state": "not_currently_listed",
       "wameiji": {
         "title": "暁の護衛 签名海报+卡片套装（挖煤姬当前未见同版）",
-        "version_evidence": null,
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 在挖煤姬按「暁の護衛 直筆サイン」检索：结果有复製色纸710日元、复製原画1000日元/526日元/2600日元、其他作品签名原画及暁の護衛周边，但没有样本所示群像签名海报+特典卡套组；不把相近色纸/原画或其他周边当作同版匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
