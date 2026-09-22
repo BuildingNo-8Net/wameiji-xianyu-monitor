@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T23:16:03+08:00",
+  "generated_at": "2026-09-22T23:43:10+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6938,13 +6938,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "中古青鸟初回版",
-    "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页核验：中古青鸟／アオイトリ Purple software 初回版；标题明确内含本体一枚和 OST 两枚，成色几乎全新，价格500 CNY，页面显示2人想要、371浏览并可立即购买。16:49（+08:00）在挖煤姬以「アオイトリ 青鳥 初回版 Purple software」原文精确检索，结果只有アオイトリ手机壳、其他歌手的 Blue Bird 初回限定盘等近似条目，没有《アオイトリ》Purple software 初回版；不把同字近似品当同版匹配。19:02（+08:00）再次精确检索，结果为服饰、宝可梦卡、动画周边和其他 CD，未出现 Purple software《アオイトリ》初回版本体+OST同版；维持闲鱼单边观察。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页核验：中古青鸟／アオイトリ Purple software 初回版；标题明确内含本体一枚和 OST 两枚，成色几乎全新，价格500 CNY，页面显示2人想要、371浏览并可立即购买。16:49（+08:00）在挖煤姬以「アオイトリ 青鳥 初回版 Purple software」原文精确检索，结果只有アオイトリ手机壳、其他歌手的 Blue Bird 初回限定盘等近似条目，没有《アオイトリ》Purple software 初回版；不把同字近似品当同版匹配。19:02（+08:00）再次精确检索，结果为服饰、宝可梦卡、动画周边和其他 CD，未出现 Purple software《アオイトリ》初回版本体+OST同版；维持闲鱼单边观察。23:43（+08:00）再次人工打开同一挖煤姬检索页，结果明确显示“已经按照原文进行搜索”，列表为坂本日系亚克力、耳机、龙珠周边、宝可梦卡、服饰等无关商品，未出现《アオイトリ》Purple software 初回版本体+OST同版；维持闲鱼单边观察。",
         "catalog_no": null,
         "barcode": null,
         "price": 500.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1060157628189&categoryId=126860296",
-    "observed_at": "2026-09-22T19:02:00+08:00",
+    "observed_at": "2026-09-22T23:43:10+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2220797024623/O1CN01ybNCKy1k1O9wNCon2_!!4611686018427386223-0-xy_item.jpg_790x10000Q90.jpg_.webp"
