@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T17:53:36+08:00",
+  "generated_at": "2026-09-22T17:55:25+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -2941,13 +2941,13 @@
       },
       "xianyu": {
         "title": "Aimer/LiSA 太陽が昇らない世界/残酷な夜に輝け 1LP紫胶",
-        "version_evidence": "内置浏览器 Chrome/IAB 闲鱼详情页核验：全新未拆封、日版 1LP 紫胶；曲目为《太陽が昇らない世界》《残酷な夜に輝け》及伴奏版，当前价 569 CNY，包邮。",
+    "version_evidence": "2026-09-22 17:55（+08:00）人工 Chrome/IAB 闲鱼详情页复核：页面显示 569 CNY 包邮、77 浏览；标题为“Aimer/LiSA 太陽が昇らない世界/残酷な夜に輝け 1LP紫胶”，正文明确全新未拆封、顺丰包邮、日本产地，Side A/B 曲目含两首主曲及伴奏版，成色为品相完好无瑕疵。",
         "catalog_no": null,
         "barcode": null,
         "price": 569.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1078900175680&categoryId=126862152",
-        "observed_at": "2026-09-21T02:19:32Z",
+    "observed_at": "2026-09-22T09:55:25Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2221281828667/O1CN01POnxENxqbnJ3thNU_!!4611686018427387707-0-xy_item.jpg_Q90.jpg_.webp"
@@ -6416,13 +6416,13 @@
       },
       "xianyu": {
         "title": "Aimer/LiSA 太陽が昇らない世界/残酷な夜に輝け 1LP紫胶",
-        "version_evidence": "内置浏览器 Chrome/IAB 闲鱼详情页核验：全新未拆封、日版 1LP 紫胶；曲目为《太陽が昇らない世界》《残酷な夜に輝け》及伴奏版，当前价 569 CNY，包邮。",
+    "version_evidence": "2026-09-22 17:55（+08:00）人工 Chrome/IAB 闲鱼详情页复核：页面显示 569 CNY 包邮、77 浏览；标题为“Aimer/LiSA 太陽が昇らない世界/残酷な夜に輝け 1LP紫胶”，正文明确全新未拆封、顺丰包邮、日本产地，Side A/B 曲目含两首主曲及伴奏版，成色为品相完好无瑕疵。",
         "catalog_no": null,
         "barcode": null,
         "price": 569.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1078900175680&categoryId=126862152",
-        "observed_at": "2026-09-21T02:19:32Z",
+    "observed_at": "2026-09-22T09:55:25Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2221281828667/O1CN01POnxENxqbnJ3thNU_!!4611686018427387707-0-xy_item.jpg_Q90.jpg_.webp"
