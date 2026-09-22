@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-22T12:35:01+08:00",
+  "generated_at": "2026-09-22T12:36:24+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧检索记录仅表示已找到两端商品记录；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧实物观察、11 条单边待补观察中，挖煤姬页面已复核 110 条；其余日本来源需改由挖煤姬页面逐件复核。",
   "summary": {
@@ -6896,13 +6896,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "Purple software",
-    "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页确认：Purple software《天津罪》OP主题歌《こころに響く恋ほたる》预约特典CD；本体无暇、壳子微瑕；价格95 CNY包邮，页面显示190浏览，可立即购买；页面说明主页另有青鸟特典CD，可打包减10。随后在挖煤姬按「こころに響く恋ほたる 予約特典 CD」精确检索，结果页明确显示「暂无数据」；不把其他游戏、CD和书籍当同版匹配。12:10Z 以「Purple software」复核，虽有卡套、卡牌、特典CD等泛结果，但没有《天津罪》该预约特典CD的同版商品，故不误配。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页确认：Purple software《天津罪》OP主题歌《こころに響く恋ほたる》预约特典CD；本体无暇、壳子微瑕；价格95 CNY包邮，页面显示190浏览，可立即购买；页面说明主页另有青鸟特典CD，可打包减10。12:36（+08:00）在挖煤姬以「こころに響く恋ほたる 予約特典 CD」精确检索，结果页显示「暂无数据」并注明按原文搜索；不把其他游戏、CD和书籍当同版匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 95.0,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077908520844&categoryId=126860296",
-    "observed_at": "2026-09-22T12:10:00Z",
+    "observed_at": "2026-09-22T12:36:24+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2201191540387/O1CN012TnW9SPpXzJ2BxV2_!!4611686018427381411-0-xy_item.jpg_790x10000Q90.jpg_.webp"
