@@ -442,6 +442,14 @@ body.kuro .reference-audit-candidate-note { margin: 6px 0 0; color: var(--kuro-m
 body.kuro .reference-audit-center { display: flex; min-width: 0; min-height: 154px; align-items: center; justify-content: center; flex-direction: column; gap: 8px; padding: 12px; border: 1px dashed rgba(111, 116, 210, .32); border-radius: 12px; background: rgba(255, 255, 255, .68); color: var(--kuro-muted); text-align: center; }
 body.kuro .reference-audit-center b { color: var(--kuro-ink); font-size: 12px; }
 body.kuro .reference-audit-center span { font-size: 11px; line-height: 1.5; }
+body.kuro .reference-audit-analysis { align-items: stretch; justify-content: flex-start; text-align: left; }
+body.kuro .reference-audit-analysis > b { text-align: center; }
+body.kuro .reference-audit-analysis-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; width: 100%; }
+body.kuro .reference-audit-analysis-grid > div { padding: 7px; border: 1px solid rgba(111, 116, 210, .18); border-radius: 8px; background: rgba(255, 255, 255, .72); }
+body.kuro .reference-audit-analysis-grid small { display: block; color: var(--kuro-muted); font-size: 10px; line-height: 1.25; }
+body.kuro .reference-audit-analysis-grid strong { display: block; margin-top: 3px; color: var(--kuro-rose); font-size: 12px; line-height: 1.25; }
+body.kuro .reference-audit-analysis em { color: var(--kuro-muted); font-size: 10px; font-style: normal; line-height: 1.45; }
+body.kuro .reference-audit-source-status { display: inline-flex; width: fit-content; margin: 4px 0; padding: 2px 6px; border-radius: 999px; background: rgba(111, 116, 210, .1); color: var(--kuro-muted); font-size: 10px; line-height: 1.2; }
 body.kuro .reference-audit-side small, body.kuro .reference-audit-side em { display: block; color: var(--kuro-muted); font-size: 11px; font-style: normal; }
 body.kuro .reference-audit-side b, body.kuro .reference-audit-side b a { display: block; color: var(--kuro-ink); font-size: 12px; line-height: 1.45; text-decoration: none; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 body.kuro .reference-audit-side b a:hover { color: var(--kuro-blue); text-decoration: underline; }

@@ -409,16 +409,49 @@
     const missingImageLabel = source.image_state === "source_no_image"
       ? "源站未提供主图"
       : "主图链接待补";
+    const evidenceStatus = source.state && source.state !== "found"
+      ? "当前未见 / 历史证据"
+      : "历史快照 · 下单前复核";
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
         image
           ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + title + ' · 第一张主图" loading="eager" decoding="async" /></a>'
           : '<div class="reference-audit-market-media reference-audit-market-media-missing">' + missingImageLabel + '</div>',
         '<small>' + esc(label) + '</small>',
+        '<span class="reference-audit-source-status">' + esc(evidenceStatus) + '</span>',
         '<b>' + heading + '</b>',
         '<strong>' + esc(price) + '</strong>',
         catalog ? '<em>' + esc(catalog) + '</em>' : "",
         evidence,
+      '</div>',
+    ].join("");
+  }
+
+  function referenceAuditCenterMarkup(xianyu, wameiji, label, note) {
+    const sale = Number(xianyu && xianyu.price);
+    const purchase = Number(wameiji && wameiji.price);
+    const rate = displayJpyCnyRate();
+    const saleKnown = Number.isFinite(sale) && sale >= 0;
+    const purchaseKnown = Number.isFinite(purchase) && purchase >= 0 && Number.isFinite(rate) && rate > 0;
+    const purchaseCny = purchaseKnown ? purchase * rate : NaN;
+    const spread = saleKnown && purchaseKnown ? sale - purchaseCny : NaN;
+    const saleFee = saleKnown ? sale * 0.016 : NaN;
+    const referenceValue = Number.isFinite(spread) ? spread - 15 - 5 - 2 - saleFee : NaN;
+    const status = saleKnown && purchaseKnown ? "参考核算 · 不设利润门槛" : "参考核算 · 价格待补";
+    const detail = saleKnown && purchaseKnown
+      ? "默认扣除头程15、国内包邮5、包材2 CNY及闲鱼1.6%手续费；日本内运/代购费、版本与成色差异未补齐。"
+      : "只展示已找到的一侧价格；另一侧没有可核对价格，不用0替代，不把它伪装成利润结果。";
+    return [
+      '<div class="reference-audit-center reference-audit-analysis">',
+        '<b>' + esc(status) + '</b>',
+        '<div class="reference-audit-analysis-grid">',
+          '<div><small>闲鱼挂牌价</small><strong>' + esc(saleKnown ? cny(sale) : "待补") + '</strong></div>',
+          '<div><small>挖煤姬折合</small><strong>' + esc(purchaseKnown ? cny(purchaseCny) : "待补") + '</strong></div>',
+          '<div><small>参考价差</small><strong>' + esc(Number.isFinite(spread) ? cny(spread) : "待补") + '</strong></div>',
+          '<div><small>默认成本后参考值</small><strong>' + esc(Number.isFinite(referenceValue) ? cny(referenceValue) : "待补") + '</strong></div>',
+        '</div>',
+        '<span>' + esc(label || "样本参考核算") + ' · ' + esc(detail) + '</span>',
+        '<em>' + esc(note || "这是样本参考，不等于当前可购买或达标机会") + '</em>',
       '</div>',
     ].join("");
   }
@@ -438,7 +471,12 @@
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 待逐件核验</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY", "xianyu"),
-          '<div class="reference-audit-center"><b>' + (historicalMismatch ? "历史错配 · 不计入同款" : currentEvidenceUnavailable ? "当前证据未加载" : "双侧实物观察") + '</b><span>' + (historicalMismatch ? "当前闲鱼页与参考样本不是同一商品，保留为历史记录，不进入同款或利润判断" : currentEvidenceUnavailable ? "链接仍保留，但详情正文/价格未加载，旧价格不代表当前可购买" : "版本、成色、附件与到手成本仍需逐件核对") + '</span></div>',
+          referenceAuditCenterMarkup(
+            item.xianyu,
+            item.wameiji,
+            historicalMismatch ? "历史错配 · 仍保留参考核算" : currentEvidenceUnavailable ? "当前证据未加载" : "双侧样本参考",
+            historicalMismatch ? "当前闲鱼页与参考样本不是同一商品，不进入同款或利润判断" : currentEvidenceUnavailable ? "链接仍保留，但详情正文/价格未加载，旧价格不代表当前可购买" : "版本、成色、附件与到手成本仍需逐件核对",
+          ),
           referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY", "wameiji"),
         '</div>',
       '</article>',
@@ -482,7 +520,12 @@
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + (candidate ? " · 单边 + 相关观察" : " · 单边待补") + '</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup(availableLabel, observation, currency, availableMarket),
-          '<div class="reference-audit-center"><b>' + (candidate ? "单边 + 相关对象" : "单边观察") + '</b><span>' + (candidate ? "相关对象已打开具体详情页，但版本、成色或附件仍未证实同款" : "只保留已打开的具体商品页，不把近似品凑成同款") + '</span></div>',
+          referenceAuditCenterMarkup(
+            availableMarket === "xianyu" ? observation : candidate,
+            availableMarket === "wameiji" ? observation : candidate,
+            candidate ? "单边 + 相关对象参考核算" : "单边样本参考核算",
+            candidate ? "相关对象已打开具体详情页，但版本、成色或附件仍未证实同款" : "只保留已打开的具体商品页，不把近似品凑成同款",
+          ),
           missingMarkup,
         '</div>',
       '</article>',
@@ -525,7 +568,7 @@
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 当前未形成具体商品页卡片</div>',
         '<div class="reference-audit-sides">',
           referenceAuditUnavailableSideMarkup("闲鱼销售侧", xianyu, "xianyu", item.xianyu_state, referenceImage),
-          '<div class="reference-audit-center"><b>当前未见 / 受阻</b><span>没有公开可核对的具体商品页</span></div>',
+          referenceAuditCenterMarkup(xianyu, wameiji, "当前未见 · 仅保留样本核算位", "没有公开可核对的具体商品页；两侧只展示检索证据与参考样本图"),
           referenceAuditUnavailableSideMarkup("挖煤姬进货侧", wameiji, "wameiji", item.wameiji_state, referenceImage),
         '</div>',
       '</article>',
@@ -1587,13 +1630,11 @@
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    // Put the complete reference audit before the legacy four-card history so
-    // the first screen represents the 125 supplied samples, not the old 9/9
-    // profit snapshot.
-    const home = document.getElementById("home");
-    const auditPanel = document.getElementById("referenceAuditPanel");
-    const historyHead = home && home.querySelector(".section-head");
-    if (home && auditPanel && historyHead) home.insertBefore(auditPanel, historyHead);
+    // Keep the historical profit snapshot above the supplied-sample audit.
+    // The audit remains the complete reference board, while the 9/9 history
+    // stays in the same position and visual language as before.
+    // The DOM already places the audit after the history feed. Do not move it
+    // above the history section during bootstrap.
     // app.js exposes its authenticated API helpers in its own DOM-ready
     // listener. Queue one tick so this module always uses the same Page token.
     setTimeout(async () => {
