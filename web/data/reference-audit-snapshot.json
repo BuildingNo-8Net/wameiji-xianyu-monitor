@@ -7022,6 +7022,22 @@
         "is_wameiji_platform": true,
         "state": "search_only",
         "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+      },
+      "wameiji": {
+        "title": "「劇団アルタイル」Rigel vol.1-encounter- CD",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开挖煤姬现售详情：剧团アルタイル Rigel vol.1-encounter- CD，999 JPY，未使用，页面显示首张主图并可购买。它只与闲鱼样本 Erdelåten / Rigël Theatre 共享 Rigel 相关音乐线索，不是同一张 CD，明确作为相关观察，不计入双侧同款或利润。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 999,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d38393137373639353635372f",
+        "observed_at": "2026-09-24T12:00:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://image03.doorzo.net/item/detail/orig/photos/m89177695657_1.jpg?1548690789",
+        "image_state": "observed_main_image",
+        "state": "observed_related",
+        "relation_note": "同名/近似社团 Rigel 相关 CD；不是闲鱼样本 Erdelåten / Rigël Theatre 同一张，不计入同款或利润。"
       }
     },
     {
