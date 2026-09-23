@@ -382,7 +382,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01xUyvA9PVS4G2BxFD_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "reference_image_url": "assets/reference-samples/15-5630f456531b04a9.webp"
     },
@@ -403,18 +403,19 @@
         "image_url": "https://imghk.doorzo.net/-/large/plain/2JVkSjDtHo9itxYCU46dok.jpg@jpg"
       },
       "xianyu": {
-        "title": "Kanon AIR Piano Arrange Album Re-feel Key Sounds Label 日版CD 带侧",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示标题但标注「已下架」，无法复核当前首图与库存；保留原链接与历史字段，但标记源站无图，不能把下架页旧图当作当前实拍。",
+        "title": "Kanon AIR Piano Arrange Album Re-feel（日版中古·现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原闲鱼链接已下架；改用现存闲鱼详情 https://www.goofish.com/item?id=1074105638308&categoryId=126864811，标题为 Kanon AIR Piano Arrange Album Re-feel Key社 key sounds label OST 日版CD 中古品，120 CNY，首张主图已在浏览器页面核验。该条是同标题替代观察，成色/附件与原下架样本不等同，不用于原样本利润核算。",
         "catalog_no": null,
         "barcode": null,
-        "price": 155,
+        "price": 120,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1084359968546&categoryId=126864811",
-        "observed_at": "2026-09-15T12:07:04+08:00",
+        "source_url": "https://www.goofish.com/item?id=1074105638308&categoryId=126864811",
+        "observed_at": "2026-09-24T10:00:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/imgextra/i1/O1CN016Us3b321aVpzyxCA4_!!6000000007001-2-tps-1050-1050.png_790x10000.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2208072923154/O1CN01gLpLA8Leg8J3thGS_!!4611686018427385874-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/16-d580264c560ec284.webp"
     },
@@ -658,7 +659,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
@@ -753,7 +754,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
       "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556",
-      "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "历史错配（非样本）：Broccoli ゆずソフト D賞-④ 卡盒",
@@ -911,7 +912,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
       "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JH944u6tuSxgAmxmUMbgt.jpg@jpg",
-      "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "日版轻音少女 剧场版CD《放课后ティータイム in MOVIE》初回限定2CD",
@@ -1237,7 +1238,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
       "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01dkIPvh1V2YudRgavn_!!4611686018427383123-0-mtopupload.jpg",
-      "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     },
@@ -1256,7 +1257,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
       "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/users/f817d76d38605c53587adca90612bafb187426fe/i-img1200x1200-1789357261393237etu.jpg",
-      "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "LiSA 织部里沙 LEO-NiNE 完全生产限定盘 CD+BD+写真集",
@@ -1352,7 +1353,7 @@
         "observed_at": "2026-09-14T17:44:42Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://shop.r10s.jp/mifsoft/cabinet/023/upjy-9202.jpg"
       },
       "xianyu": {
@@ -1416,7 +1417,7 @@
         "observed_at": "2026-09-14T18:04:56Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://shop.r10s.jp/mifsoft/cabinet/025/mary-1004.jpg"
       },
       "xianyu": {
@@ -1493,7 +1494,7 @@
         "observed_at": "2026-09-19T15:04:39Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01nXB3avEtSOK2BxJZ_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/65-d622a593b90cba48.webp"
@@ -1547,7 +1548,7 @@
         "observed_at": "2026-09-21T01:51:19Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
       },
       "xianyu": {
@@ -1611,7 +1612,7 @@
         "observed_at": "2026-09-14T18:10:07Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/secl-3335.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -1676,7 +1677,7 @@
         "observed_at": "2026-09-22T11:10:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m69336128552_1.jpg"
       },
       "xianyu": {
@@ -1709,7 +1710,7 @@
         "observed_at": "2026-09-23T09:05:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/soundace/cabinet/suke01/1/so-mov-dv-c-00426.jpg?downsize=200:*"
       },
       "xianyu": {
@@ -1773,7 +1774,7 @@
         "observed_at": "2026-09-23T09:10:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m23677095659_1.jpg"
       },
       "xianyu": {
@@ -1806,7 +1807,7 @@
         "observed_at": "2026-09-23T09:15:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/sasatatu86/cabinet/05577637/06532690/13592819/750.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -1839,7 +1840,7 @@
         "observed_at": "2026-09-23T09:20:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m59481550077_1.jpg"
       },
       "xianyu": {
@@ -1872,7 +1873,7 @@
         "observed_at": "2026-09-23T09:25:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-2/cabinet/imgr0845/anzx-18501.jpg?downsize=500:*"
       },
       "xianyu": {
@@ -1967,7 +1968,7 @@
         "observed_at": "2026-09-23T09:50:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://shop.r10s.jp/hmvjapan/cabinet/a25/66000/12565453.jpg"
       },
       "xianyu": {
@@ -1981,7 +1982,7 @@
         "observed_at": "2026-09-23T09:50:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01eidg4i1RHRKYbOoBe_!!4611686018427383302-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/82-3e9574128a6c5f23.webp"
@@ -2032,7 +2033,7 @@
         "observed_at": "2026-09-23T10:10:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0799/jbcj-9086.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -2065,7 +2066,7 @@
         "observed_at": "2026-09-23T10:20:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/book/cabinet/4513/4560429724513.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -2098,7 +2099,7 @@
         "observed_at": "2026-09-23T10:30:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0829/fljg-9012.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -2131,7 +2132,7 @@
         "observed_at": "2026-09-23T10:35:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://image02.doorzo.net/-/large/plain/eHDgbnWid6tx8aKkR8dGtk.jpg@jpg"
       },
       "xianyu": {
@@ -2145,7 +2146,7 @@
         "observed_at": "2026-09-23T10:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01aAwHAH24f2hKJt39t_!!4611686018427385545-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/87-37135d9f8a4bdb83.webp"
@@ -2165,7 +2166,7 @@
         "observed_at": "2026-09-23T10:40:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.fril.jp/img/800693998/l/2731215840.jpg?1763512503=&updated_at=2025-11-19T00:35:04.000Z"
       },
       "xianyu": {
@@ -2229,7 +2230,7 @@
         "observed_at": "2026-09-23T10:50:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/eskl-6.jpg?downsize=400:*"
       },
       "xianyu": {
@@ -2261,7 +2262,7 @@
         "observed_at": "2026-09-23T11:00:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://shop.r10s.jp/cyberbay/cabinet/02413830/img60166590.jpg"
       },
       "xianyu": {
@@ -2294,7 +2295,7 @@
         "observed_at": "2026-09-23T11:10:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0820/thca-60299.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -2358,7 +2359,7 @@
         "observed_at": "2026-09-23T11:30:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/03442474715459f08b27875781e9d35ef9c406fa83a8b3347ac1313203dc7bda/i-img1080x1080-1789290218729821jgx1bh24.jpg"
       },
       "xianyu": {
@@ -2372,7 +2373,7 @@
         "observed_at": "2026-09-23T11:30:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/89820215/O1CN01EqUMqn1DSWHSK6Jl8_!!4611686018427382839-53-xy_item.heic_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/94-09cdcbeb0b4c2822.webp"
@@ -2455,7 +2456,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m82639812057_1.jpg",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "全新未拆现货 宇多田光 Fantome 幻影 初回生产限定盘 双黑胶 2LP",
@@ -2488,7 +2489,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m14920004756_1.jpg",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "特惠YOASOBI THE BOOK for 全新未拆专辑 CD+特制活页夹",
@@ -2521,7 +2522,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.fril.jp/img/823311623/l/2829147663.jpg?1789616310=&updated_at=2026-09-17T03:38:30.000Z",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2555,7 +2556,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://image03.doorzo.net/rakutenimg/@0_mall/guruguru2/cabinet/231/wpjl-10295.jpg?_ex=140x140&s=0&r=2",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2570,7 +2571,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/810413873/O1CN01L4M8dY1eTt6dz6tjc_!!4611686018427383601-53-xy_item.heic_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/100-b48c761166295009.webp"
@@ -2590,7 +2591,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2624,7 +2625,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2658,7 +2659,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://shop.r10s.jp/neobest/cabinet/shohin/10952852/4988002948420.jpg",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2673,7 +2674,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01zw7ol31eTt3opgAe1_!!4611686018427383601-0-fleamarket.jpg_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
@@ -2707,7 +2708,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN012MTOa624f2lxe1N98_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/104-19b89a331f3bf4df.webp"
@@ -2728,7 +2729,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0203/user/46ebc1f698d1d0a37cd9658e74c1acfa9f2d8cf74f50f5db493cd52afcac1c40/i-img1042x1079-177277280222105v9zdg17062.jpg",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2743,7 +2744,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/3367661300/O1CN01j9pg2LFk5YK2R3n2_!!4611686018427383540-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/105-e4cd06c35ac46b70.webp"
@@ -2763,7 +2764,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.mandarake.co.jp/webshopimg/03/00/948/0300341948/030034194815.jpg",
-        "image_state": "source_sold_out",
+        "image_state": "current_sold_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2796,7 +2797,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0812/uijy-75324.jpg?downsize=400:*",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2922,7 +2923,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://shop.r10s.jp/surprise-web/cabinet/imgr0821/tyxt-19045.jpg",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -2937,7 +2938,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2846067622/O1CN01AIY9fZ26Avx4KAcbG_!!4611686018427382694-53-xy_item.heic_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/111-4b9d9eceb4d07631.webp"
@@ -3031,7 +3032,7 @@
       "observed_at": "2026-09-23T18:27:00+08:00",
       "marketplace_host": "www.goofish.com",
       "is_wameiji_platform": false,
-      "image_state": "source_no_image",
+        "image_state": "observed_main_image",
       "image_url": null
       },
       "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e2fe.webp"
@@ -3657,7 +3658,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01XvUrci1XK59jkqafe_!!6000000002904-2-tps-1050-1050.png_790x10000.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "reference_image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp"
     },
@@ -3785,7 +3786,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01xUyvA9PVS4G2BxFD_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "reference_image_url": "assets/reference-samples/15-5630f456531b04a9.webp"
     },
@@ -3806,18 +3807,19 @@
         "image_url": "https://imghk.doorzo.net/-/large/plain/2JVkSjDtHo9itxYCU46dok.jpg@jpg"
       },
       "xianyu": {
-        "title": "Kanon AIR Piano Arrange Album Re-feel Key Sounds Label 日版CD 带侧",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示标题但标注「已下架」，无法复核当前首图与库存；保留原链接与历史字段，但标记源站无图，不能把下架页旧图当作当前实拍。",
+        "title": "Kanon AIR Piano Arrange Album Re-feel（日版中古·现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原闲鱼链接已下架；改用现存闲鱼详情 https://www.goofish.com/item?id=1074105638308&categoryId=126864811，标题为 Kanon AIR Piano Arrange Album Re-feel Key社 key sounds label OST 日版CD 中古品，120 CNY，首张主图已在浏览器页面核验。该条是同标题替代观察，成色/附件与原下架样本不等同，不用于原样本利润核算。",
         "catalog_no": null,
         "barcode": null,
-        "price": 155,
+        "price": 120,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1084359968546&categoryId=126864811",
-        "observed_at": "2026-09-15T12:07:04+08:00",
+        "source_url": "https://www.goofish.com/item?id=1074105638308&categoryId=126864811",
+        "observed_at": "2026-09-24T10:00:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/imgextra/i1/O1CN016Us3b321aVpzyxCA4_!!6000000007001-2-tps-1050-1050.png_790x10000.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2208072923154/O1CN01gLpLA8Leg8J3thGS_!!4611686018427385874-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/16-d580264c560ec284.webp"
     },
@@ -4061,7 +4063,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
@@ -4903,7 +4905,7 @@
         "observed_at": "2026-09-14T17:44:42Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://shop.r10s.jp/mifsoft/cabinet/023/upjy-9202.jpg"
       },
       "xianyu": {
@@ -4967,7 +4969,7 @@
         "observed_at": "2026-09-14T18:04:56Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://shop.r10s.jp/mifsoft/cabinet/025/mary-1004.jpg"
       },
       "xianyu": {
@@ -5044,7 +5046,7 @@
         "observed_at": "2026-09-19T15:04:39Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01nXB3avEtSOK2BxJZ_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/65-d622a593b90cba48.webp"
@@ -5096,7 +5098,7 @@
         "observed_at": "2026-09-21T01:51:19Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
       },
       "xianyu": {
@@ -5191,7 +5193,7 @@
         "observed_at": "2026-09-14T18:10:07Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/secl-3335.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -5286,7 +5288,7 @@
         "observed_at": "2026-09-23T09:05:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/soundace/cabinet/suke01/1/so-mov-dv-c-00426.jpg?downsize=200:*"
       },
       "xianyu": {
@@ -5350,7 +5352,7 @@
         "observed_at": "2026-09-23T09:10:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m23677095659_1.jpg"
       },
       "xianyu": {
@@ -5383,7 +5385,7 @@
         "observed_at": "2026-09-23T09:15:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/sasatatu86/cabinet/05577637/06532690/13592819/750.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -5416,7 +5418,7 @@
         "observed_at": "2026-09-23T09:20:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m59481550077_1.jpg"
       },
       "xianyu": {
@@ -5449,7 +5451,7 @@
         "observed_at": "2026-09-23T09:25:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-2/cabinet/imgr0845/anzx-18501.jpg?downsize=500:*"
       },
       "xianyu": {
@@ -5543,7 +5545,7 @@
         "observed_at": "2026-09-23T09:50:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://shop.r10s.jp/hmvjapan/cabinet/a25/66000/12565453.jpg"
       },
       "xianyu": {
@@ -5557,7 +5559,7 @@
         "observed_at": "2026-09-23T09:50:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01eidg4i1RHRKYbOoBe_!!4611686018427383302-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/82-3e9574128a6c5f23.webp"
@@ -5608,7 +5610,7 @@
         "observed_at": "2026-09-23T10:10:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0799/jbcj-9086.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -5641,7 +5643,7 @@
         "observed_at": "2026-09-23T10:20:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/book/cabinet/4513/4560429724513.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -5674,7 +5676,7 @@
         "observed_at": "2026-09-23T10:30:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0829/fljg-9012.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -5720,7 +5722,7 @@
         "observed_at": "2026-09-23T10:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01aAwHAH24f2hKJt39t_!!4611686018427385545-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/87-37135d9f8a4bdb83.webp"
@@ -5740,7 +5742,7 @@
         "observed_at": "2026-09-23T10:40:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.fril.jp/img/800693998/l/2731215840.jpg?1763512503=&updated_at=2025-11-19T00:35:04.000Z"
       },
       "xianyu": {
@@ -5804,7 +5806,7 @@
         "observed_at": "2026-09-23T10:50:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/eskl-6.jpg?downsize=400:*"
       },
       "xianyu": {
@@ -5836,7 +5838,7 @@
         "observed_at": "2026-09-23T11:00:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://shop.r10s.jp/cyberbay/cabinet/02413830/img60166590.jpg"
       },
       "xianyu": {
@@ -5869,7 +5871,7 @@
         "observed_at": "2026-09-23T11:10:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0820/thca-60299.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -5933,7 +5935,7 @@
         "observed_at": "2026-09-23T11:30:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/03442474715459f08b27875781e9d35ef9c406fa83a8b3347ac1313203dc7bda/i-img1080x1080-1789290218729821jgx1bh24.jpg"
       },
       "xianyu": {
@@ -5947,7 +5949,7 @@
         "observed_at": "2026-09-23T11:30:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/89820215/O1CN01EqUMqn1DSWHSK6Jl8_!!4611686018427382839-53-xy_item.heic_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/94-09cdcbeb0b4c2822.webp"
@@ -6030,7 +6032,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m82639812057_1.jpg",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "全新未拆现货 宇多田光 Fantome 幻影 初回生产限定盘 双黑胶 2LP",
@@ -6063,7 +6065,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m14920004756_1.jpg",
-        "image_state": "source_no_image"
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "特惠YOASOBI THE BOOK for 全新未拆专辑 CD+特制活页夹",
@@ -6096,7 +6098,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.fril.jp/img/823311623/l/2829147663.jpg?1789616310=&updated_at=2026-09-17T03:38:30.000Z",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6130,7 +6132,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://tshop.r10s.jp/guruguru2/cabinet/231/wpjl-10295.jpg?fitin=275:275",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6145,7 +6147,7 @@
         "observed_at": "2026-09-23T12:20:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/100-b48c761166295009.webp"
@@ -6165,7 +6167,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6199,7 +6201,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6233,7 +6235,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://shop.r10s.jp/neobest/cabinet/shohin/10952852/4988002948420.jpg",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6248,7 +6250,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01zw7ol31eTt3opgAe1_!!4611686018427383601-0-fleamarket.jpg_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
@@ -6282,7 +6284,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN012MTOa624f2lxe1N98_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/104-19b89a331f3bf4df.webp"
@@ -6302,7 +6304,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0203/user/46ebc1f698d1d0a37cd9658e74c1acfa9f2d8cf74f50f5db493cd52afcac1c40/i-img1042x1079-177277280222105v9zdg17062.jpg",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6317,7 +6319,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/3367661300/O1CN01j9pg2LFk5YK2R3n2_!!4611686018427383540-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/105-e4cd06c35ac46b70.webp"
@@ -6337,7 +6339,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.mandarake.co.jp/webshopimg/03/00/948/0300341948/030034194815.jpg",
-        "image_state": "source_sold_out",
+        "image_state": "current_sold_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6370,7 +6372,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0812/uijy-75324.jpg?downsize=400:*",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6496,7 +6498,7 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://shop.r10s.jp/surprise-web/cabinet/imgr0821/tyxt-19045.jpg",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "xianyu": {
@@ -6511,7 +6513,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2846067622/O1CN01AIY9fZ26Avx4KAcbG_!!4611686018427382694-53-xy_item.heic_Q90.jpg_.webp",
-        "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/111-4b9d9eceb4d07631.webp"
@@ -7118,7 +7120,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
       "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01RLMY4l1KwTL4pdZ4Z_!!6000000001228-2-tps-360-360.png_360x10000.jpg_.webp",
-      "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "state": "observed_related"
       }
     },
@@ -7169,7 +7171,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
       "image_url": "https://imgoss.mokaki.cn/ossimg/product/2026/9/15/c0df91f9-3dd6-4bc5-af1d-493826c0597a.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1200/quality,q_90/format,webp",
-      "image_state": "source_no_image",
+        "image_state": "observed_main_image",
         "state": "observed_related"
       }
     },
