@@ -609,7 +609,7 @@
     const basePairs = Array.isArray(audit.dual_observed_pairs)
       ? audit.dual_observed_pairs
       : (Array.isArray(audit.dual_found_pairs) ? audit.dual_found_pairs : []);
-    const singles = Array.isArray(audit.single_observed_records)
+    const rawSingles = Array.isArray(audit.single_observed_records)
       ? audit.single_observed_records
       : [];
     const rawUnavailable = Array.isArray(audit.unavailable_records)
@@ -621,7 +621,19 @@
       return x && w && Number.isFinite(Number(x.price)) && Number.isFinite(Number(w.price))
         && (x.state === "observed_related" || w.state === "observed_related");
     });
-    const pairs = basePairs.concat(relatedRecovered);
+    const relatedSinglePairs = rawSingles.map((record) => {
+      const obs = record && record.observation;
+      const x = record && record.xianyu || (record && record.available_market === "xianyu" ? obs : null);
+      const w = record && record.wameiji || (record && record.available_market === "wameiji" ? obs : null);
+      return x && w ? { ...record, xianyu: x, wameiji: w } : null;
+    }).filter((record) => {
+      const x = record && record.xianyu;
+      const w = record && record.wameiji;
+      return x && w && Number.isFinite(Number(x.price)) && Number.isFinite(Number(w.price));
+    });
+    const recoveredSingleIds = new Set(relatedSinglePairs.map((record) => record.reference_product_id));
+    const pairs = basePairs.concat(relatedRecovered, relatedSinglePairs);
+    const singles = rawSingles.filter((record) => !recoveredSingleIds.has(record.reference_product_id));
     const unavailable = rawUnavailable.filter((record) => !relatedRecovered.includes(record));
     setText("referenceAuditTotal", referenceAuditCount(summary.reference_product_count));
     setText(

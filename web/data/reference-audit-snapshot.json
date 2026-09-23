@@ -6852,18 +6852,32 @@
       "available_market": "wameiji",
       "missing_market": "xianyu",
       "counterpart_state": "blocked",
-      "observation": {
-        "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
-    "version_evidence": "2026-09-23 02:37（+08:00）人工内置浏览器复核：挖煤姬原详情仍明确“不支持该商品”，并提供联系客服/申请解除限制，没有可核验的当前商品标题、价格或主图。闲鱼精确检索“RIDDLE JOKER ランチョンマット”显示多页收藏卡、吧唧、亚克力和数字收藏集，但未出现午餐垫同版实物；不把近似周边凑成匹配，保留为挖煤姬受阻单边观察。",
+      "xianyu": {
+        "title": "柚子社 RIDDLE JOKER 设定集",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售页：RIDDLE JOKER 设定集，3.50 CNY，明确为同系列观察对象；不是样本中的午餐垫，已标注为同系列替代观察。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1999.0,
+        "price": 3.5,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=997446339847&categoryId=202036301",
+        "observed_at": "2026-09-23T03:15:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/3383198852/O1CN01ASECAD2FGH58t9Cx2_!!4611686018427380868-53-xy_item.heic_450x10000Q90.jpg_.webp",
+        "state": "observed_related"
+      },
+      "observation": {
+        "title": "リドルジョーカー RIDDLE JOKER キャラクターソング Vol.4",
+    "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬现售页：RIDDLE JOKER 角色歌 Vol.4，2,980 JPY，二手；与样本同系列，明确作为同系列替代观察，不冒充午餐垫同款。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2980.0,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393534313030323139362f",
-    "observed_at": "2026-09-23T02:37:00+08:00",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d38343935313434383633332f",
+        "observed_at": "2026-09-23T03:15:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556"
+        "image_url": "https://img06.mokaki.cn/thumb/item/webp/m84951448633_1.jpg"
       },
       "reference_image_url": "assets/reference-samples/30-d626a72b6c446739.webp"
     },
