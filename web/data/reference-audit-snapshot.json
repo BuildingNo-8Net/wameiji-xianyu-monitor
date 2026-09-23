@@ -371,18 +371,19 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m52565014130_1.jpg"
       },
       "xianyu": {
-        "title": "【未开封】《Rewrite》初回限定版（Key出品PC游戏）",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「跨境商品请前往闲鱼APP端查看」并弹出扫码窗口，桌面页无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把历史图片当作当前实拍。",
+        "title": "Rewrite 罚抄 初回限定版 日版 key社",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：标题“Rewrite 罚抄 初回限定版 日版 key社”，价格268 CNY包邮，描述带原包装盒、内容全、保存很新；首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此这里明确标为同系列当前替代观察，不冒充原链接的精确库存。",
         "catalog_no": null,
         "barcode": null,
-        "price": 313,
+        "price": 268,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1081181550520&categoryId=126856327",
-        "observed_at": "2026-09-15T12:04:53+08:00",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.705e72afvrnbG8&id=1078370489115&categoryId=126860296",
+        "observed_at": "2026-09-24T10:00:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01xUyvA9PVS4G2BxFD_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp",
-        "image_state": "observed_main_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2213941510788/O1CN01IpWImVFsqhI1pITk_!!4611686018427380356-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/15-5630f456531b04a9.webp"
     },
@@ -649,17 +650,18 @@
       "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
       "wameiji": {
         "title": "魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页面，未出现商品标题、价格或主图；保留历史链接与字段，但标记源站无图，不能继续把历史图片当作当前实拍。",
+      "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON，价格4,800 JPY，页面显示首张主图且可购买；与闲鱼侧同为魔法使之夜初回原声集，附件/盒况仍以两侧图片核对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 3999,
+        "price": 4800,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37383532363633393930372f",
-        "observed_at": "2026-09-21T11:25:15Z",
+        "observed_at": "2026-09-24T09:40:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg",
-        "image_state": "observed_main_image"
+        "image_state": "observed_main_image",
+        "state": "observed_current"
       },
       "xianyu": {
         "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
@@ -903,17 +905,18 @@
       "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
       "wameiji": {
         "title": "国内盤CD★放課後ティータイム/Houkago Tea Time■ 映画「けいおん！」劇中歌アルバム放課後ティータイム in MOVIE 【PCCG1128/4988013016569】U53895",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页，未出现商品标题、价格或主图；保留历史目录号与链接作审计线索，标记源站无图，不能继续把历史图片当作当前实拍。",
+      "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：放課後ティータイム/Houkago Tea Time《放課後ティータイム in MOVIE》，目录号PCCG1128/JAN 4988013016569，价格1,000 JPY，页面显示首张主图并可购买；中古盒况和附件仍按页面照片核对。",
         "catalog_no": null,
         "barcode": null,
         "price": 1000,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4c4b543561464c4b53634b793542617168686f362f",
-        "observed_at": "2026-09-21T04:16:41Z",
+        "observed_at": "2026-09-24T09:45:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
       "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JH944u6tuSxgAmxmUMbgt.jpg@jpg",
-        "image_state": "observed_main_image"
+        "image_state": "observed_main_image",
+        "state": "observed_current"
       },
       "xianyu": {
         "title": "日版轻音少女 剧场版CD《放课后ティータイム in MOVIE》初回限定2CD",
@@ -1228,18 +1231,19 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m24323747874_1.jpg"
       },
       "xianyu": {
-        "title": "全新【亚马逊日本限定】宝可梦 × 初音未来 VOLTAGE Live！蓝光特装版（蓝光光盘＋书籍＋其他赠品）",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接当前仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示该商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
+        "title": "初音未来宝可梦联动CD 初回限定收藏 双碟豪华版",
+      "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：初音未来宝可梦联动CD，价格288 CNY包邮，7人想要/356浏览，标题及说明明确Project VOLTAGE 18 Types/Songs Collection 2CD，含封盒、贴纸和公式设定集；首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此标为同目标当前替代观察。",
         "catalog_no": null,
         "barcode": null,
-        "price": 811,
+        "price": 288,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1059700813523&categoryId=201459411",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.3bdc1d7ab2LLk9&id=1046610055905&categoryId=126860296",
         "observed_at": "2026-09-21T14:50:24Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-      "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01dkIPvh1V2YudRgavn_!!4611686018427383123-0-mtopupload.jpg",
-        "image_state": "observed_main_image"
+      "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01hW3JJK2KHG2ZcxJ1e_!!4611686018427384795-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     },
@@ -1247,18 +1251,19 @@
       "reference_product_id": 58,
       "stable_key": "sample:1efbfc4868bcf9990abfe2cee8978219783836d2db9d082cb0ca569103b3608e",
       "wameiji": {
-        "title": "LiSA LEO-NiNE 完全生産限定盤（CD+Blu-ray+上製本フォトブック）",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 PayPay 原链接时被重定向到登录页，未显示商品标题、价格或主图；保留历史三件套字段与链接作审计线索，标记源站无图，不能继续把历史图片当作当前实拍。",
+        "title": "LiSA LEO-NiNE 初回生産限定盤A CD+BD",
+      "version_evidence": "2026-09-24 人工 Chrome/IAB 挖煤姬煤炉详情页当前可购：LiSA LEO-NiNE 初回生産限定盤A CD+BD，1,200 JPY（约54 CNY），接近未使用；说明明确初回生産限定盤A、CD+BD、三方背盒、品番VVCL-1703，首张主图已从当前详情页核验。原PayPay页三件套与当前页品番存在差异，保留为相关替代观察。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1279,
+        "price": 1200,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/paypay/detail/z607937962",
-        "observed_at": "2026-09-14T17:15:11Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32303630393430303931312f",
+        "observed_at": "2026-09-24T10:30:00+08:00",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-      "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/users/f817d76d38605c53587adca90612bafb187426fe/i-img1200x1200-1789357261393237etu.jpg",
-        "image_state": "observed_main_image"
+      "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m20609400911_1.jpg?1789205952",
+        "image_state": "observed_main_image",
+        "state": "replacement_current"
       },
       "xianyu": {
         "title": "LiSA 织部里沙 LEO-NiNE 完全生产限定盘 CD+BD+写真集",
@@ -1344,18 +1349,19 @@
       "stable_key": "jan:4988031460023",
       "same_product_verified": false,
       "wameiji": {
-        "title": "Hikaru Utada First Love Limited Edition 180g 2LP",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开该挖煤姬乐天链接时直接跳转登录页，未显示商品标题、价格、库存或主图；保留 UPJY-9202/3/JAN 作为历史线索，不把登录页当作当前可购证据。",
+        "title": "宇多田ヒカル First Love 生産限定盤 180g重量盤 2LP レコード 美品",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 挖煤姬煤炉详情页当前可购：宇多田ヒカル First Love 生産限定盤 180g重量盤 2LP，7,900 JPY（约350 CNY），接近未使用；商品说明明确品番UPJY-9202/3、JAN 4988031460023、2022年日本盘，首张主图已从当前详情页核验。",
         "catalog_no": "UPJY-9202/3",
         "barcode": "4988031460023",
-        "price": 5014,
+        "price": 7900,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fmifsoft%2Fupjy-9202%2F",
-        "observed_at": "2026-09-14T17:44:42Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5669644b59446d53666532754a684d3551424a372f",
+        "observed_at": "2026-09-24T10:20:00+08:00",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_state": "observed_main_image",
-        "image_url": "https://shop.r10s.jp/mifsoft/cabinet/023/upjy-9202.jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JVid7479WwEDxMxn8kdsc.jpg@jpg",
+        "state": "replacement_current"
       },
       "xianyu": {
         "title": "Hikaru Utada First Love Japanese 2022 reissue 2LP, new domestic stock",
@@ -1485,17 +1491,18 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m70515766054_1.jpg"
       },
       "xianyu": {
-        "title": "怪力熊 蛮魔 CD 日本代购 怪力的专辑《贝诺玛》",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼原链接时仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
+        "title": "【现货】怪力熊 かいりきベア ベノマ专辑 初回限定盘CD",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：标题“【现货】怪力熊 かいりきベア ベノマ专辑 初回限定盘CD”，价格96 CNY包邮，描述为日版仅拆、无侧、原包装盒在、附特典册子、状态很新；首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此标为同目标当前替代观察。",
         "catalog_no": null,
         "barcode": null,
-        "price": 81,
+        "price": 96,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077514463174&categoryId=126862148",
-        "observed_at": "2026-09-19T15:04:39Z",
+        "source_url": "https://www.goofish.com/item?id=1057777005361&categoryId=0",
+        "observed_at": "2026-09-24T10:05:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
+        "image_state": "current_related_image",
+        "state": "replacement_related",
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01nXB3avEtSOK2BxJZ_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/65-d622a593b90cba48.webp"
@@ -1604,18 +1611,19 @@
       "stable_key": "sample:127ddd6fc3102fb03d7d5db1ecc09010287607a8eafffd16340ad1a7536eb975",
       "same_product_verified": false,
       "wameiji": {
-        "title": "milet / Made of Glass (初回生産限定盤／輸出不可／CD+2DVD) [SECL-3335]",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开该挖煤姬乐天链接时直接跳转登录页，未显示商品标题、价格、库存或主图；保留 SECL-3335/JAN 作为历史线索，不把登录页当作当前可购证据。",
+        "title": "milet Made of Glass CD+2DVD 初回生産限定盤",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 挖煤姬煤炉详情页当前可购：milet Made of Glass CD+2DVD 初回生産限定盤，11,500 JPY（约509 CNY），接近未使用，卖家承担日本国内运费；首张主图已从当前详情页核验。当前页未显示SECL-3335品番，故保留品番待进一步核对，不把它写成原乐天链接的精确库存。",
         "catalog_no": "SECL-3335",
         "barcode": "4547366822120",
-        "price": 14300,
+        "price": 11500,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fcyberbay%2Fsecl-3335%2F",
-        "observed_at": "2026-09-14T18:10:07Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37393535393131343236372f",
+        "observed_at": "2026-09-24T10:25:00+08:00",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/secl-3335.jpg?fitin=275:275"
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m79559114267_1.jpg?1790083987",
+        "state": "replacement_current"
       },
       "xianyu": {
         "title": "现货 milet Made of Glass 初回限定盘 CD+2Blu-ray 蓝光BOX（日版，全新未拆）",
@@ -1975,18 +1983,20 @@
         "image_url": "https://shop.r10s.jp/hmvjapan/cabinet/a25/66000/12565453.jpg"
       },
       "xianyu": {
-        "title": "宇多田光 BAD模式 LP唱片 日本代购",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼链接，页面仅显示“跨境商品请前往闲鱼APP端查看”，未加载标题、价格、库存或商品图；保留 ESJL-3123 等历史信息仅作审计线索，不视为当前在售证据。",
+        "title": "现货♥宇多田光BADモード日版黑胶2LP完全生产限定盘",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：现货宇多田光BADモード日版黑胶2LP完全生产限定盘，价格268 CNY起，8人想要/136浏览，可立即购买；描述为全新未拆180g重量碟，首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此标为同目标当前替代观察。",
         "catalog_no": "ESJL-3123",
         "barcode": null,
-        "price": 1184,
+        "price": 268,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1046558259171&categoryId=126862148",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.18.4878541c4R5UhF&id=1078816210861&categoryId=202061902",
         "observed_at": "2026-09-23T09:50:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_state": "observed_main_image",
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01eidg4i1RHRKYbOoBe_!!4611686018427383302-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN017y4XfKLVxuJ2V5ev_!!4611686018427385545-2-xy_item.png_220x10000.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/82-3e9574128a6c5f23.webp"
     },
@@ -2139,18 +2149,20 @@
         "image_url": "https://image02.doorzo.net/-/large/plain/eHDgbnWid6tx8aKkR8dGtk.jpg@jpg"
       },
       "xianyu": {
-        "title": "Kalafina All Time Best 2008-2018 Complete Limited Production Edition 6CD Photo Book",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼详情页仅显示“跨境商品请前往闲鱼APP端查看”及扫码弹窗，当前未加载标题、价格、库存或主图；保留 VVCL 1332-7/6CD/写真集等历史信息仅作审计线索，不视为当前在售证据。",
+        "title": "梶浦由记 Kalafina All Time Best 2008-2018 十周年精选集 限定版（6CD+写真）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：梶浦由记/Kalafina All Time Best 2008-2018 十周年精选集限定版（6CD+写真），价格278 CNY起，40人想要/1274浏览，可立即购买；页面首张主图已核验。该页说明为缺货时预订、在途3~25天，保留为当前相关观察，不冒充即时现货。",
         "catalog_no": "VVCL 1332-7",
         "barcode": null,
-        "price": 580,
+        "price": 278,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1076551457469&categoryId=126862148",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.5f4b53e9sDmS9q&id=943123725387&categoryId=126864811",
         "observed_at": "2026-09-23T10:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_state": "observed_main_image",
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01aAwHAH24f2hKJt39t_!!4611686018427385545-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2209080889175/O1CN01MG4YUW2HeD1Hvj7fH_!!4611686018427383639-53-xy_item.heic_220x10000Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/87-37135d9f8a4bdb83.webp"
     },
@@ -3025,18 +3037,19 @@
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWt8mNHGVA5VkDzLa7md8.jpg@jpg"
       },
       "xianyu": {
-        "title": "米津玄师《BOOTLEG》CD＋黑胶唱片豪华包装；SRCL-9567/8；JAN 4547366329674",
-        "version_evidence": "2026-09-23 18:27（+08:00）人工 Chrome/IAB 打开闲鱼详情链接：页面只显示“跨境商品请前往闲鱼APP端查看”及扫码弹窗，未加载该商品标题、价格、库存或主图；保留 BOOTLEG/SRCL-9567/JAN 等历史信息作审计线索，不视为当前可购买证据。",
+        "title": "[已补货，日版带侧，送全新备用cd盒]米津玄师 八爷《BOOTLEG》日版CD",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：标题“[已补货，日版带侧，送全新备用cd盒]米津玄师 八爷《BOOTLEG》日版CD”，价格95 CNY，页面显示6人想要/178浏览且可购买；首张主图已从当前详情页核验。原样本链接的SRCL-9567/8豪华附件未在当前替代页逐项确认，因此标为同作品当前替代观察，不冒充精确同款。",
         "catalog_no": "SRCL-9567/8",
         "barcode": "4547366329674",
-        "price": null,
+        "price": 95,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
-      "observed_at": "2026-09-23T18:27:00+08:00",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.17.387d56b5uJYPaP&id=1077617896246&categoryId=126864811",
+      "observed_at": "2026-09-24T10:10:00+08:00",
       "marketplace_host": "www.goofish.com",
       "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
-      "image_url": null
+        "image_state": "current_related_image",
+        "state": "replacement_related",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2216095432175/O1CN01ALbswcq78YC2BxNI_!!4611686018427387375-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e2fe.webp"
     },
@@ -3780,18 +3793,19 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m52565014130_1.jpg"
       },
       "xianyu": {
-        "title": "【未开封】《Rewrite》初回限定版（Key出品PC游戏）",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「跨境商品请前往闲鱼APP端查看」并弹出扫码窗口，桌面页无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把历史图片当作当前实拍。",
+        "title": "Rewrite 罚抄 初回限定版 日版 key社",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：标题“Rewrite 罚抄 初回限定版 日版 key社”，价格268 CNY包邮，描述带原包装盒、内容全、保存很新；首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此这里明确标为同系列当前替代观察，不冒充原链接的精确库存。",
         "catalog_no": null,
         "barcode": null,
-        "price": 313,
+        "price": 268,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1081181550520&categoryId=126856327",
-        "observed_at": "2026-09-15T12:04:53+08:00",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.705e72afvrnbG8&id=1078370489115&categoryId=126860296",
+        "observed_at": "2026-09-24T10:00:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01xUyvA9PVS4G2BxFD_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp",
-        "image_state": "observed_main_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2213941510788/O1CN01IpWImVFsqhI1pITk_!!4611686018427380356-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/15-5630f456531b04a9.webp"
     },
@@ -4058,17 +4072,18 @@
       "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
       "wameiji": {
         "title": "魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页面，未出现商品标题、价格或主图；保留历史链接与字段，但标记源站无图，不能继续把历史图片当作当前实拍。",
+      "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON，价格4,800 JPY，页面显示首张主图且可购买；与闲鱼侧同为魔法使之夜初回原声集，附件/盒况仍以两侧图片核对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 3999,
+        "price": 4800,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37383532363633393930372f",
-        "observed_at": "2026-09-21T11:25:15Z",
+        "observed_at": "2026-09-24T09:40:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg",
-        "image_state": "observed_main_image"
+        "image_state": "observed_main_image",
+        "state": "observed_current"
       },
       "xianyu": {
         "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
@@ -4806,17 +4821,19 @@
       "reference_product_id": 58,
       "stable_key": "sample:1efbfc4868bcf9990abfe2cee8978219783836d2db9d082cb0ca569103b3608e",
       "wameiji": {
-        "title": "LiSA LEO-NiNE 完全生産限定盤（CD+Blu-ray+上製本フォトブック）",
-        "version_evidence": "Exact three-piece edition: CD + Blu-ray + hardbound photobook. Seller states two postcards are included as an extra, so the cards must not be silently treated as part of the base edition.",
+        "title": "LiSA LEO-NiNE 初回生産限定盤A CD+BD",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 挖煤姬煤炉详情页当前可购：LiSA LEO-NiNE 初回生産限定盤A CD+BD，1,200 JPY（约54 CNY），接近未使用；说明明确初回生産限定盤A、CD+BD、三方背盒、品番VVCL-1703，首张主图已从当前详情页核验。原PayPay页三件套与当前页品番存在差异，保留为相关替代观察。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1279,
+        "price": 1200,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/paypay/detail/z607937962",
-        "observed_at": "2026-09-14T17:15:11Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32303630393430303931312f",
+        "observed_at": "2026-09-24T10:30:00+08:00",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/users/f817d76d38605c53587adca90612bafb187426fe/i-img1200x1200-1789357261393237etu.jpg"
+        "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m20609400911_1.jpg?1789205952",
+        "image_state": "observed_main_image",
+        "state": "replacement_current"
       },
       "xianyu": {
         "title": "LiSA 织部里沙 LEO-NiNE 完全生产限定盘 CD+BD+写真集",
@@ -4900,18 +4917,19 @@
       "stable_key": "jan:4988031460023",
       "same_product_verified": false,
       "wameiji": {
-        "title": "Hikaru Utada First Love Limited Edition 180g 2LP",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开该挖煤姬乐天链接时直接跳转登录页，未显示商品标题、价格、库存或主图；保留 UPJY-9202/3/JAN 作为历史线索，不把登录页当作当前可购证据。",
+        "title": "宇多田ヒカル First Love 生産限定盤 180g重量盤 2LP レコード 美品",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 挖煤姬煤炉详情页当前可购：宇多田ヒカル First Love 生産限定盤 180g重量盤 2LP，7,900 JPY（约350 CNY），接近未使用；商品说明明确品番UPJY-9202/3、JAN 4988031460023、2022年日本盘，首张主图已从当前详情页核验。",
         "catalog_no": "UPJY-9202/3",
         "barcode": "4988031460023",
-        "price": 5014,
+        "price": 7900,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fmifsoft%2Fupjy-9202%2F",
-        "observed_at": "2026-09-14T17:44:42Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5669644b59446d53666532754a684d3551424a372f",
+        "observed_at": "2026-09-24T10:20:00+08:00",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_state": "observed_main_image",
-        "image_url": "https://shop.r10s.jp/mifsoft/cabinet/023/upjy-9202.jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JVid7479WwEDxMxn8kdsc.jpg@jpg",
+        "state": "replacement_current"
       },
       "xianyu": {
         "title": "Hikaru Utada First Love Japanese 2022 reissue 2LP, new domestic stock",
@@ -5041,17 +5059,18 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m70515766054_1.jpg"
       },
       "xianyu": {
-        "title": "怪力熊 蛮魔 CD 日本代购 怪力的专辑《贝诺玛》",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼原链接时仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
+        "title": "【现货】怪力熊 かいりきベア ベノマ专辑 初回限定盘CD",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：标题“【现货】怪力熊 かいりきベア ベノマ专辑 初回限定盘CD”，价格96 CNY包邮，描述为日版仅拆、无侧、原包装盒在、附特典册子、状态很新；首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此标为同目标当前替代观察。",
         "catalog_no": null,
         "barcode": null,
-        "price": 81,
+        "price": 96,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077514463174&categoryId=126862148",
-        "observed_at": "2026-09-19T15:04:39Z",
+        "source_url": "https://www.goofish.com/item?id=1057777005361&categoryId=0",
+        "observed_at": "2026-09-24T10:05:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
+        "image_state": "current_related_image",
+        "state": "replacement_related",
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01nXB3avEtSOK2BxJZ_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/65-d622a593b90cba48.webp"
@@ -5189,18 +5208,19 @@
       "stable_key": "sample:127ddd6fc3102fb03d7d5db1ecc09010287607a8eafffd16340ad1a7536eb975",
       "same_product_verified": false,
       "wameiji": {
-        "title": "milet / Made of Glass (初回生産限定盤／輸出不可／CD+2DVD) [SECL-3335]",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开该挖煤姬乐天链接时直接跳转登录页，未显示商品标题、价格、库存或主图；保留 SECL-3335/JAN 作为历史线索，不把登录页当作当前可购证据。",
+        "title": "milet Made of Glass CD+2DVD 初回生産限定盤",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 挖煤姬煤炉详情页当前可购：milet Made of Glass CD+2DVD 初回生産限定盤，11,500 JPY（约509 CNY），接近未使用，卖家承担日本国内运费；首张主图已从当前详情页核验。当前页未显示SECL-3335品番，故保留品番待进一步核对，不把它写成原乐天链接的精确库存。",
         "catalog_no": "SECL-3335",
         "barcode": "4547366822120",
-        "price": 14300,
+        "price": 11500,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fcyberbay%2Fsecl-3335%2F",
-        "observed_at": "2026-09-14T18:10:07Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37393535393131343236372f",
+        "observed_at": "2026-09-24T10:25:00+08:00",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/secl-3335.jpg?fitin=275:275"
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m79559114267_1.jpg?1790083987",
+        "state": "replacement_current"
       },
       "xianyu": {
         "title": "现货 milet Made of Glass 初回限定盘 CD+2Blu-ray 蓝光BOX（日版，全新未拆）",
@@ -5556,18 +5576,20 @@
         "image_url": "https://shop.r10s.jp/hmvjapan/cabinet/a25/66000/12565453.jpg"
       },
       "xianyu": {
-        "title": "宇多田光 BAD模式 LP唱片 日本代购",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼链接，页面仅显示“跨境商品请前往闲鱼APP端查看”，未加载标题、价格、库存或商品图；保留 ESJL-3123 等历史信息仅作审计线索，不视为当前在售证据。",
+        "title": "现货♥宇多田光BADモード日版黑胶2LP完全生产限定盘",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：现货宇多田光BADモード日版黑胶2LP完全生产限定盘，价格268 CNY起，8人想要/136浏览，可立即购买；描述为全新未拆180g重量碟，首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此标为同目标当前替代观察。",
         "catalog_no": "ESJL-3123",
         "barcode": null,
-        "price": 1184,
+        "price": 268,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1046558259171&categoryId=126862148",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.18.4878541c4R5UhF&id=1078816210861&categoryId=202061902",
         "observed_at": "2026-09-23T09:50:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_state": "observed_main_image",
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01eidg4i1RHRKYbOoBe_!!4611686018427383302-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN017y4XfKLVxuJ2V5ev_!!4611686018427385545-2-xy_item.png_220x10000.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/82-3e9574128a6c5f23.webp"
     },
@@ -7167,13 +7189,13 @@
       },
       "wameiji": {
         "title": "narcissu SIDE 2nd 同人小说 CD-ROM（附原声）",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页，未出现商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不能继续把历史图片当作当前实拍。",
+      "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬详情页并确认当前商品：narcissu SIDE 2nd 同人小说 CD-ROM（附原声），价格13,800 JPY，页面显示首张主图且可购买；与闲鱼侧已售的narcissu C83场贩小说属于同作品/同人线索，版本与附件差异保留核验。",
         "catalog_no": null,
         "barcode": null,
         "price": 13800,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33695a3776595941765748787937675572704e6976482f",
-        "observed_at": "2026-09-23T11:16:00+08:00",
+        "observed_at": "2026-09-24T09:50:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
       "image_url": "https://imgoss.mokaki.cn/ossimg/product/2026/9/15/c0df91f9-3dd6-4bc5-af1d-493826c0597a.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1200/quality,q_90/format,webp",
