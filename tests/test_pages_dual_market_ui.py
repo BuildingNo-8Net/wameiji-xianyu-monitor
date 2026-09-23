@@ -175,6 +175,32 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
     assert sum(bool(row.get("image_url")) for row in rows) >= 70
 
 
+def test_reference_audit_covers_samples_one_to_120_without_blank_source_records() -> None:
+    """Every requested sample has a source link and an explicit observation note."""
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    records = (
+        snapshot["dual_observed_pairs"]
+        + snapshot["single_observed_records"]
+        + snapshot["unavailable_records"]
+    )
+    target = [record for record in records if 1 <= record["reference_product_id"] <= 120]
+    assert len(target) == 120
+    assert {record["reference_product_id"] for record in target} == set(range(1, 121))
+    sides = [
+        side
+        for record in target
+        for side in (record.get("xianyu"), record.get("wameiji"))
+        if side is not None
+    ]
+    assert sides
+    assert all(side.get("source_url") for side in sides)
+    assert all(side.get("version_evidence") for side in sides)
+    assert all(
+        (side.get("image_url") or side.get("main_image_url") or side.get("image_state") == "source_no_image")
+        for side in sides
+    )
+
+
 def test_historical_profit_kpi_is_not_labeled_as_current_full_audit_result() -> None:
     homepage = Path("web/index.html").read_text(encoding="utf-8")
 
@@ -275,7 +301,7 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260923-reference-analysis-v2" in homepage
+    assert "discovery-ui.js?v=20260923-reference-analysis-v3" in homepage
     assert "styles/kuro.css?v=20260923-reference-analysis-v1" in homepage
 
 
