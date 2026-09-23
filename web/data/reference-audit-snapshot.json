@@ -2576,29 +2576,32 @@
       "stable_key": "sample:f563e120e9993f3353054debbd6cb77b10137b023425ad8c3925c649d1a4a21c",
       "wameiji": {
         "title": "milet eyes＜完全生産限定盤＞",
-        "version_evidence": "挖煤姬详情页：二手；未使用；Onbando；完全生产限定盘模拟两枚重量黑胶；页面称milet首张专辑eyes模拟化；当前可还价/加入购物车/立即购买。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 Mercari 链接后仅显示挖煤姬导航与页脚，未加载商品标题、价格、库存或主图；历史 milet《eyes》2LP 信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 8500,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35313634373532323233312f",
-        "observed_at": "2026-09-21T04:51:22Z",
+        "observed_at": "2026-09-23T12:25:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802"
+        "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "xianyu": {
         "title": "milet《eyes》现货！完全生产限定盘 2LP黑胶 日版现货 全新未拆",
-        "version_evidence": "闲鱼详情明确：日版、LP黑胶、完全生产限定盘、2LP/重量盘、规格品番 SEJL-86、18首、豪华12页booklet、全新未拆；与挖煤姬样本 milet eyes 完全生产限定 2LP 同版型相符。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼详情页：milet《eyes》日版完全生产限定盘，2LP重量盘，规格品番SEJL-86，18首、豪华12页booklet，全新未拆；415 CNY，31人想要、1407浏览，国内现货顺丰包邮，可立即购买。挖煤姬当前页未加载，当前同侧现货未复核。",
         "catalog_no": "SEJL-86",
         "barcode": "4547366771497",
         "price": 415,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=998954279983&categoryId=126864811",
-        "observed_at": "2026-09-21T13:44:22Z",
+        "observed_at": "2026-09-23T12:25:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/52194232/O1CN01Ztkbyo1h8JHAkAj12_!!4611686018427382712-53-xy_item.heic_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/52194232/O1CN01Ztkbyo1h8JHAkAj12_!!4611686018427382712-53-xy_item.heic_Q90.jpg_.webp",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/101-f563e120e9993f33.webp"
     },
@@ -2607,29 +2610,32 @@
       "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
       "wameiji": {
         "title": "YOASOBI THE BOOK 完全生産限定盤 アナログレコード LP",
-        "version_evidence": "Manual Chrome/IAB detail: YOASOBI THE BOOK complete-production-limited analog LP; description lists the THE BOOK track sequence (Epilogue, アンコール, ハルジオン, あの夢をなぞって, たぶん, 群青, ハルカ, 夜に駆ける, Prologue). Page shows 未使用, seller-paid domestic shipping, active buy page.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 Mercari 链接后仅显示挖煤姬导航与页脚，未加载商品标题、价格、库存或主图；历史 YOASOBI THE BOOK 黑胶信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 16500,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37343733303035313634362f",
-        "observed_at": "2026-09-21T11:31:33Z",
+        "observed_at": "2026-09-23T12:30:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "xianyu": {
         "title": "终极现货★YOASOBI The BOOK1粉胶LP【此为订金】jp限定封面彩胶黑胶品相完好",
-        "version_evidence": "Current Xianyu detail identifies THE BOOK1 pink-colour LP with JP limited cover and matching track sequence. Listed activity price is 499 CNY deposit; page states delayed-order top-up required and original price 4400 CNY. Record is availability evidence only, not complete landed cost.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼详情页：YOASOBI THE BOOK1 粉胶LP、JP限定封面；活动价499 CNY为订金，页面明确已迟订且还需补款，原价4,400 CNY；57人想要、1507浏览，可立即购买。仅作可见在售/订金线索，不当作完整到手成本；挖煤姬当前页未加载，当前同侧现货未复核。",
         "catalog_no": null,
         "barcode": null,
         "price": 499,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=968279286931&categoryId=126860296",
-        "observed_at": "2026-09-19T12:10:22Z",
+        "observed_at": "2026-09-23T12:30:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN015dvYvs24f2iJSBBIy_!!4611686018427385545-0-fleamarket.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN015dvYvs24f2iJSBBIy_!!4611686018427385545-0-fleamarket.jpg_Q90.jpg_.webp",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/102-c04d0523172e4cb8.webp"
     },
@@ -2638,29 +2644,33 @@
       "stable_key": "sample:cb00b6c6cd5b63e0d39026abdb442ca06d4341a559ba392b22369db364daf350",
       "wameiji": {
         "title": "星野源 Gen【生産限定アナログ盤】＜生産限定盤＞ LPレコード アルバム VIJL-60366/7",
-        "version_evidence": "挖煤姬内置浏览器详情来源确认星野源《Gen》生产限定双 LP：VIJL-60366/7、JAN 4988002948420、180g 重量盘、16 首曲目，无店铺或 Rakuten 特典。17:13（+08:00）重新打开该挖煤姬链接，仍保留为同版日盘观察；不把闲鱼可选海报/特典默认计入。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 Rakuten 链接后直接重定向登录页，当前无法看到商品标题、价格、库存或主图；历史 VIJL-60366/7、4988002948420、180g双LP信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": "VIJL-60366/7",
         "barcode": "4988002948420",
         "price": 15800,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fneobest%2F4988002948420%2F",
-        "observed_at": "2026-09-22T17:13:43+08:00",
+        "observed_at": "2026-09-23T12:35:00+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://shop.r10s.jp/neobest/cabinet/shohin/10952852/4988002948420.jpg"
+        "image_url": "https://shop.r10s.jp/neobest/cabinet/shohin/10952852/4988002948420.jpg",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "xianyu": {
         "title": "星野源 Gen 生产限定 透明彩胶 180g 2LP",
-        "version_evidence": "2026-09-22 17:13（+08:00）人工 Chrome/IAB 打开闲鱼详情页，页面标题为“现货 星野源 Gen 限定版 黑胶 LP 黑胶唱片 日版首版”，与样本《Gen》生产限定 180g 2LP 对应；历史标价区间 659–899 CNY。海报/特典需联系改价且默认不含，不能当作同附件最终成本。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼搜索页，页面停留在“加载中...”且未显示任何商品卡或价格；当前没有可确认的星野源《Gen》在售条目，旧价格与图片仅作历史线索，不视为当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 399,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/search?q=%E6%98%9F%E9%87%8E%E6%BA%90%20Gen%20%E9%BB%91%E8%83%B6%20%E9%80%8F%E6%98%8E%E8%83%B6%202LP%20180g",
-        "observed_at": "2026-09-22T17:13:43+08:00",
+        "observed_at": "2026-09-23T12:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01zw7ol31eTt3opgAe1_!!4611686018427383601-0-fleamarket.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01zw7ol31eTt3opgAe1_!!4611686018427383601-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
     },
@@ -2669,29 +2679,32 @@
       "stable_key": "sample:19b89a331f3bf4df0de896311e1f4345e8bef46129ab3eb7880b59f5844fbd64",
       "wameiji": {
         "title": "Aimer daydream 初回生産限定盤 CD+Blu-ray",
-        "version_evidence": "挖煤姬当前详情：Aimer「daydream」初回生産限定盤A，CD＋Blu-ray 2枚组；详情列出 CD、Blu-ray Disc、ケース／ブックレット類；品番 SECL-1983〜1984，JAN 4547557046267。页面状态为二手、没有明显的损伤或污渍，卖家承担日本国内运费。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬 Mercari详情页：Aimer《daydream》初回生产限定盘A，CD+Blu-ray 2枚组，含CD、Blu-ray Disc、外壳/Booklet；品番SECL-1983〜1984、JAN 4547557046267；二手、无明显损伤或污渍，1,880日元（约84 CNY），卖家承担日本国内运费，1–2日发货，有物流保障，可还价/加入购物车/立即购买。",
         "catalog_no": "SECL-1983〜1984",
         "barcode": "4547557046267",
         "price": 1880,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d38333635393633333632302f",
-        "observed_at": "2026-09-21T10:53:52Z",
+        "observed_at": "2026-09-23T12:40:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m83659633620_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m83659633620_1.jpg",
+        "same_product_verified": false
       },
       "xianyu": {
         "title": "现货♥Aimer日版daydream初回限定盘A全新未拆CD+BD+合体收纳盒带侧标边纸",
-        "version_evidence": "内置浏览器 Chrome/IAB 闲鱼详情页核验：Aimer daydream 初回限定盘A，CD+BD+合体收纳盒，带侧标边纸，页面显示全新、现货，活动价 261 CNY，包邮；描述列出曲目及 MV/live BD。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼详情链接后页面只加载站点壳、卖家推荐与页脚，未加载目标商品标题、正文、价格、库存或图片；旧有 Aimer daydream 初回限定盘A 信息仅作历史线索，不视为当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 261,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1065210882490&categoryId=202061902",
-        "observed_at": "2026-09-21T02:17:09Z",
+        "observed_at": "2026-09-23T12:40:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN012MTOa624f2lxe1N98_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN012MTOa624f2lxe1N98_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/104-19b89a331f3bf4df.webp"
     },
@@ -2699,30 +2712,35 @@
       "reference_product_id": 105,
       "stable_key": "sample:e4cd06c35ac46b70f47c68f324805ecbe4414f8928f8cffe5af3778e9381d9e5",
       "wameiji": {
-        "title": "初版未開封希少品 書簡型小説「二人称」 ヨルシカ",
-        "version_evidence": "挖煤姬当前 PayPay 详情标题为「初版未開封希少品 書簡型小説『二人称』 ヨルシカ」；页面标价11,980日元，说明写明希少品、シュリンク未開封完全新品，页面提供加入购物车和立即购买。与闲鱼样本“夜鹿n-buna《二人称》书简型小说”同名基础书形态对应，但闲鱼侧 ISBN 978-4-06-541634-1、挖煤姬侧首版/特典信纸套均未在两侧同时确认，不据此判定同款利润。",
+        "title": "【当前不可复核】初版未開封希少品 書簡型小説「二人称」 ヨルシカ",
+        "live_check_2026_09_23": "人工 Chrome/IAB 打开该 PayPay 链接后仅显示挖煤姬导航与页脚，未加载商品标题、价格、库存或主图；当前不可视为在售实物证据。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 PayPay 链接后仅显示挖煤姬导航与页脚，未加载商品标题、价格、库存或主图；历史《二人称》首版/未开封信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
-        "price": 11980,
+        "price": null,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/paypay/detail/q1221977270",
-        "observed_at": "2026-09-21T10:42:59Z",
+        "observed_at": "2026-09-23T12:45:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0203/user/46ebc1f698d1d0a37cd9658e74c1acfa9f2d8cf74f50f5db493cd52afcac1c40/i-img1042x1079-177277280222105v9zdg17062.jpg"
+        "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0203/user/46ebc1f698d1d0a37cd9658e74c1acfa9f2d8cf74f50f5db493cd52afcac1c40/i-img1042x1079-177277280222105v9zdg17062.jpg",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "xianyu": {
-        "title": "国内现货 夜鹿n-buna《二人称》书简型小说 一公斤全新未拆",
-        "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页核验：夜鹿 n-buna《二人称》书简型小说，一公斤全新未拆，含32封信件、约170张原稿信纸、大信封和原装外盒；400 CNY包邮，2人想要、172浏览，可立即购买；卖家明确说明官方本身不带音源CD、不包特典，顺丰到付，ISBN 978-4-06-541634-1。",
+        "title": "【当前不可复核】国内现货 夜鹿n-buna《二人称》书简型小说 一公斤全新未拆",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼详情链接后页面只加载站点壳、卖家推荐与页脚，未加载目标商品标题、正文、价格、库存或图片；旧有《二人称》书简型小说信息仅作历史线索，不视为当前可购买证据。",
         "catalog_no": "ISBN 978-4-06-541634-1",
         "barcode": "9784065416341",
-        "price": 400,
+        "price": null,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.2cf71c49K2qcRw&id=1079615195026&categoryId=126860296",
-        "observed_at": "2026-09-22T13:00:00Z",
+        "observed_at": "2026-09-23T12:45:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3367661300/O1CN01j9pg2LFk5YK2R3n2_!!4611686018427383540-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3367661300/O1CN01j9pg2LFk5YK2R3n2_!!4611686018427383540-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/105-e4cd06c35ac46b70.webp"
     },
@@ -6121,29 +6139,32 @@
       "stable_key": "sample:f563e120e9993f3353054debbd6cb77b10137b023425ad8c3925c649d1a4a21c",
       "wameiji": {
         "title": "milet eyes＜完全生産限定盤＞",
-        "version_evidence": "挖煤姬详情页：二手；未使用；Onbando；完全生产限定盘模拟两枚重量黑胶；页面称milet首张专辑eyes模拟化；当前可还价/加入购物车/立即购买。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 Mercari 链接后仅显示挖煤姬导航与页脚，未加载商品标题、价格、库存或主图；历史 milet《eyes》2LP 信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 8500,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35313634373532323233312f",
-        "observed_at": "2026-09-21T04:51:22Z",
+        "observed_at": "2026-09-23T12:25:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802"
+        "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "xianyu": {
         "title": "milet《eyes》现货！完全生产限定盘 2LP黑胶 日版现货 全新未拆",
-        "version_evidence": "闲鱼详情明确：日版、LP黑胶、完全生产限定盘、2LP/重量盘、规格品番 SEJL-86、18首、豪华12页booklet、全新未拆；与挖煤姬样本 milet eyes 完全生产限定 2LP 同版型相符。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼详情页：milet《eyes》日版完全生产限定盘，2LP重量盘，规格品番SEJL-86，18首、豪华12页booklet，全新未拆；415 CNY，31人想要、1407浏览，国内现货顺丰包邮，可立即购买。挖煤姬当前页未加载，当前同侧现货未复核。",
         "catalog_no": "SEJL-86",
         "barcode": "4547366771497",
         "price": 415,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=998954279983&categoryId=126864811",
-        "observed_at": "2026-09-21T13:44:22Z",
+        "observed_at": "2026-09-23T12:25:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/52194232/O1CN01Ztkbyo1h8JHAkAj12_!!4611686018427382712-53-xy_item.heic_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/52194232/O1CN01Ztkbyo1h8JHAkAj12_!!4611686018427382712-53-xy_item.heic_Q90.jpg_.webp",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/101-f563e120e9993f33.webp"
     },
@@ -6152,29 +6173,32 @@
       "stable_key": "sample:c04d0523172e4cb8522544f7d87fbc327aa94146c215c9f3b9853813d2d07e7d",
       "wameiji": {
         "title": "YOASOBI THE BOOK 完全生産限定盤 アナログレコード LP",
-        "version_evidence": "Manual Chrome/IAB detail: YOASOBI THE BOOK complete-production-limited analog LP; description lists the THE BOOK track sequence (Epilogue, アンコール, ハルジオン, あの夢をなぞって, たぶん, 群青, ハルカ, 夜に駆ける, Prologue). Page shows 未使用, seller-paid domestic shipping, active buy page.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 Mercari 链接后仅显示挖煤姬导航与页脚，未加载商品标题、价格、库存或主图；历史 YOASOBI THE BOOK 黑胶信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 16500,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37343733303035313634362f",
-        "observed_at": "2026-09-21T11:31:33Z",
+        "observed_at": "2026-09-23T12:30:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "xianyu": {
         "title": "终极现货★YOASOBI The BOOK1粉胶LP【此为订金】jp限定封面彩胶黑胶品相完好",
-        "version_evidence": "Current Xianyu detail identifies THE BOOK1 pink-colour LP with JP limited cover and matching track sequence. Listed activity price is 499 CNY deposit; page states delayed-order top-up required and original price 4400 CNY. Record is availability evidence only, not complete landed cost.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼详情页：YOASOBI THE BOOK1 粉胶LP、JP限定封面；活动价499 CNY为订金，页面明确已迟订且还需补款，原价4,400 CNY；57人想要、1507浏览，可立即购买。仅作可见在售/订金线索，不当作完整到手成本；挖煤姬当前页未加载，当前同侧现货未复核。",
         "catalog_no": null,
         "barcode": null,
         "price": 499,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=968279286931&categoryId=126860296",
-        "observed_at": "2026-09-19T12:10:22Z",
+        "observed_at": "2026-09-23T12:30:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN015dvYvs24f2iJSBBIy_!!4611686018427385545-0-fleamarket.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN015dvYvs24f2iJSBBIy_!!4611686018427385545-0-fleamarket.jpg_Q90.jpg_.webp",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/102-c04d0523172e4cb8.webp"
     },
@@ -6183,29 +6207,33 @@
       "stable_key": "sample:cb00b6c6cd5b63e0d39026abdb442ca06d4341a559ba392b22369db364daf350",
       "wameiji": {
         "title": "星野源 Gen【生産限定アナログ盤】＜生産限定盤＞ LPレコード アルバム VIJL-60366/7",
-        "version_evidence": "挖煤姬 Rakuten 详情锁定星野源《Gen》生产限定双 LP，目录号 VIJL-60366/7、JAN 4988002948420；页面记录为 180g 重量盘 2LP。17:13（+08:00）人工重新打开该挖煤姬链接，仍保留为同版日盘观察；不把闲鱼可选海报/特典默认计入。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 Rakuten 链接后直接重定向登录页，当前无法看到商品标题、价格、库存或主图；历史 VIJL-60366/7、4988002948420、180g双LP信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": "VIJL-60366/7",
         "barcode": "4988002948420",
         "price": 15800,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fneobest%2F4988002948420%2F",
-        "observed_at": "2026-09-22T17:13:43+08:00",
+        "observed_at": "2026-09-23T12:35:00+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://shop.r10s.jp/neobest/cabinet/shohin/10952852/4988002948420.jpg"
+        "image_url": "https://shop.r10s.jp/neobest/cabinet/shohin/10952852/4988002948420.jpg",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "xianyu": {
         "title": "现货 星野源 Gen 限定版 黑胶 LP 黑胶唱片 日版首版初回",
-        "version_evidence": "2026-09-22 17:13（+08:00）人工 Chrome/IAB 打开闲鱼详情页，页面标题为“现货 星野源 Gen 限定版 黑胶 LP 黑胶唱片 日版首版”，与样本《Gen》生产限定 180g 2LP 对应；历史标价区间 659–899 CNY。海报/特典需联系改价且默认不含，不能当作同附件最终成本。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼搜索页，页面停留在“加载中...”且未显示任何商品卡或价格；当前没有可确认的星野源《Gen》在售条目，旧价格与图片仅作历史线索，不视为当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 659,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=956287290182&categoryId=126864811",
-        "observed_at": "2026-09-22T17:13:43+08:00",
+        "source_url": "https://www.goofish.com/search?q=%E6%98%9F%E9%87%8E%E6%BA%90%20Gen%20%E9%BB%91%E8%83%B6%20%E9%80%8F%E6%98%8E%E8%83%B6%202LP%20180g",
+        "observed_at": "2026-09-23T12:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01zw7ol31eTt3opgAe1_!!4611686018427383601-0-fleamarket.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01zw7ol31eTt3opgAe1_!!4611686018427383601-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
     },
@@ -6214,29 +6242,32 @@
       "stable_key": "sample:19b89a331f3bf4df0de896311e1f4345e8bef46129ab3eb7880b59f5844fbd64",
       "wameiji": {
         "title": "Aimer daydream 初回生産限定盤 CD+Blu-ray",
-        "version_evidence": "挖煤姬当前详情：Aimer「daydream」初回生産限定盤A，CD＋Blu-ray 2枚组；详情列出 CD、Blu-ray Disc、ケース／ブックレット類；品番 SECL-1983〜1984，JAN 4547557046267。页面状态为二手、没有明显的损伤或污渍，卖家承担日本国内运费。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬 Mercari详情页：Aimer《daydream》初回生产限定盘A，CD+Blu-ray 2枚组，含CD、Blu-ray Disc、外壳/Booklet；品番SECL-1983〜1984、JAN 4547557046267；二手、无明显损伤或污渍，1,880日元（约84 CNY），卖家承担日本国内运费，1–2日发货，有物流保障，可还价/加入购物车/立即购买。",
         "catalog_no": "SECL-1983〜1984",
         "barcode": "4547557046267",
         "price": 1880,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d38333635393633333632302f",
-        "observed_at": "2026-09-21T10:53:52Z",
+        "observed_at": "2026-09-23T12:40:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m83659633620_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m83659633620_1.jpg",
+        "same_product_verified": false
       },
       "xianyu": {
         "title": "现货♥Aimer日版daydream初回限定盘A全新未拆CD+BD+合体收纳盒带侧标边纸",
-        "version_evidence": "内置浏览器 Chrome/IAB 闲鱼详情页核验：Aimer daydream 初回限定盘A，CD+BD+合体收纳盒，带侧标边纸，页面显示全新、现货，活动价 261 CNY，包邮；描述列出曲目及 MV/live BD。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼详情链接后页面只加载站点壳、卖家推荐与页脚，未加载目标商品标题、正文、价格、库存或图片；旧有 Aimer daydream 初回限定盘A 信息仅作历史线索，不视为当前可购买证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 261,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1065210882490&categoryId=202061902",
-        "observed_at": "2026-09-21T02:17:09Z",
+        "observed_at": "2026-09-23T12:40:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN012MTOa624f2lxe1N98_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN012MTOa624f2lxe1N98_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/104-19b89a331f3bf4df.webp"
     },
@@ -6244,30 +6275,34 @@
       "reference_product_id": 105,
       "stable_key": "sample:e4cd06c35ac46b70f47c68f324805ecbe4414f8928f8cffe5af3778e9381d9e5",
       "wameiji": {
-        "title": "初版未開封希少品 書簡型小説「二人称」 ヨルシカ",
+        "title": "【当前不可复核】初版未開封希少品 書簡型小説「二人称」 ヨルシカ",
         "version_evidence": "挖煤姬当前 PayPay 详情标题为「初版未開封希少品 書簡型小説『二人称』 ヨルシカ」；页面标价11,980日元，说明写明希少品、シュリンク未開封完全新品，页面提供加入购物车和立即购买。与闲鱼样本“夜鹿n-buna《二人称》书简型小说”同名基础书形态对应，但闲鱼侧 ISBN 978-4-06-541634-1、挖煤姬侧首版/特典信纸套均未在两侧同时确认，不据此判定同款利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": 11980,
+        "price": null,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/paypay/detail/q1221977270",
-        "observed_at": "2026-09-21T10:42:59Z",
+        "observed_at": "2026-09-23T12:45:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0203/user/46ebc1f698d1d0a37cd9658e74c1acfa9f2d8cf74f50f5db493cd52afcac1c40/i-img1042x1079-177277280222105v9zdg17062.jpg"
+        "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0203/user/46ebc1f698d1d0a37cd9658e74c1acfa9f2d8cf74f50f5db493cd52afcac1c40/i-img1042x1079-177277280222105v9zdg17062.jpg",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "xianyu": {
-        "title": "国内现货 夜鹿n-buna《二人称》书简型小说 一公斤全新未拆",
+        "title": "【当前不可复核】国内现货 夜鹿n-buna《二人称》书简型小说 一公斤全新未拆",
         "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页核验：夜鹿 n-buna《二人称》书简型小说，一公斤全新未拆，含32封信件、约170张原稿信纸、大信封和原装外盒；400 CNY包邮，2人想要、172浏览，可立即购买；卖家明确说明官方本身不带音源CD、不包特典，顺丰到付，ISBN 978-4-06-541634-1。",
         "catalog_no": "ISBN 978-4-06-541634-1",
         "barcode": "9784065416341",
-        "price": 400,
+        "price": null,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.2cf71c49K2qcRw&id=1079615195026&categoryId=126860296",
-        "observed_at": "2026-09-14T17:59:48Z",
+        "observed_at": "2026-09-23T12:45:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3367661300/O1CN01j9pg2LFk5YK2R3n2_!!4611686018427383540-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3367661300/O1CN01j9pg2LFk5YK2R3n2_!!4611686018427383540-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "source_no_image",
+        "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/105-e4cd06c35ac46b70.webp"
     },
