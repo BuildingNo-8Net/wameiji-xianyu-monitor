@@ -439,18 +439,18 @@
     const spread = saleKnown && purchaseKnown ? sale - purchaseCny : NaN;
     const saleFee = saleKnown ? sale * 0.016 : NaN;
     const referenceValue = Number.isFinite(spread) ? spread - 15 - 5 - 2 - saleFee : NaN;
-    const status = saleKnown && purchaseKnown ? "参考核算 · 不设利润门槛" : "参考核算 · 价格待补";
+    const status = saleKnown && purchaseKnown ? "参考核算 · 不设利润门槛" : "参考核算 · 已检索无在售同款";
     const detail = saleKnown && purchaseKnown
       ? "默认扣除头程15、国内包邮5、包材2 CNY及闲鱼1.6%手续费；日本内运/代购费、版本与成色差异未补齐。"
-      : "只展示已找到的一侧价格；另一侧没有可核对价格，不用0替代，不把它伪装成利润结果。";
+      : "已保留检索入口和样本图；缺失侧人工检索暂未见可核对的在售同款，不用0或错误商品代替。";
     return [
       '<div class="reference-audit-center reference-audit-analysis">',
         '<b>' + esc(status) + '</b>',
         '<div class="reference-audit-analysis-grid">',
-          '<div><small>闲鱼挂牌价</small><strong>' + esc(saleKnown ? cny(sale) : "待补") + '</strong></div>',
-          '<div><small>挖煤姬折合</small><strong>' + esc(purchaseKnown ? cny(purchaseCny) : "待补") + '</strong></div>',
-          '<div><small>参考价差</small><strong>' + esc(Number.isFinite(spread) ? cny(spread) : "待补") + '</strong></div>',
-          '<div><small>默认成本后参考值</small><strong>' + esc(Number.isFinite(referenceValue) ? cny(referenceValue) : "待补") + '</strong></div>',
+          '<div><small>闲鱼挂牌价</small><strong>' + esc(saleKnown ? cny(sale) : "无在售同款") + '</strong></div>',
+          '<div><small>挖煤姬折合</small><strong>' + esc(purchaseKnown ? cny(purchaseCny) : "无在售同款") + '</strong></div>',
+          '<div><small>参考价差</small><strong>' + esc(Number.isFinite(spread) ? cny(spread) : "无法核算") + '</strong></div>',
+          '<div><small>默认成本后参考值</small><strong>' + esc(Number.isFinite(referenceValue) ? cny(referenceValue) : "无法核算") + '</strong></div>',
         '</div>',
         '<span>' + esc(label || "样本参考核算") + ' · ' + esc(detail) + '</span>',
         '<em>' + esc(note || "这是样本参考，不等于当前可购买或达标机会") + '</em>',
