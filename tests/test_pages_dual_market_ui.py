@@ -303,7 +303,7 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260923-reference-analysis-v4" in homepage
+    assert "discovery-ui.js?v=20260923-reference-analysis-v5" in homepage
     assert "styles/kuro.css?v=20260923-reference-analysis-v1" in homepage
 
 
