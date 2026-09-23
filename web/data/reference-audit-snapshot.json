@@ -1223,7 +1223,7 @@
       },
       "xianyu": {
         "title": "全新【亚马逊日本限定】宝可梦 × 初音未来 VOLTAGE Live！蓝光特装版（蓝光光盘＋书籍＋其他赠品）",
-        "version_evidence": "人工 Chrome/IAB 闲鱼搜索卡核验：当前卡片标题明确写有“亚马逊日本限定”与“VOLTAGE Live！蓝光特装版”，并列出蓝光光盘、书籍/其他赠品及亚马逊限定5首曲目特典 CD。点开详情后被闲鱼跨境商品 APP 门禁拦截，因此单件配件、成色、库存与卖家详情尚未完成详情级核验。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接当前仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示该商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 811,
@@ -1232,7 +1232,8 @@
         "observed_at": "2026-09-21T14:50:24Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01dkIPvh1V2YudRgavn_!!4611686018427383123-0-mtopupload.jpg"
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01dkIPvh1V2YudRgavn_!!4611686018427383123-0-mtopupload.jpg",
+      "image_state": "source_no_image"
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     },
@@ -1241,7 +1242,7 @@
       "stable_key": "sample:1efbfc4868bcf9990abfe2cee8978219783836d2db9d082cb0ca569103b3608e",
       "wameiji": {
         "title": "LiSA LEO-NiNE 完全生産限定盤（CD+Blu-ray+上製本フォトブック）",
-        "version_evidence": "Exact three-piece edition: CD + Blu-ray + hardbound photobook. Seller states two postcards are included as an extra, so the cards must not be silently treated as part of the base edition.",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬 PayPay 原链接时被重定向到登录页，未显示商品标题、价格或主图；保留历史三件套字段与链接作审计线索，标记源站无图，不能继续把历史图片当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 1279,
@@ -1250,7 +1251,8 @@
         "observed_at": "2026-09-14T17:15:11Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/users/f817d76d38605c53587adca90612bafb187426fe/i-img1200x1200-1789357261393237etu.jpg"
+      "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/users/f817d76d38605c53587adca90612bafb187426fe/i-img1200x1200-1789357261393237etu.jpg",
+      "image_state": "source_no_image"
       },
       "xianyu": {
         "title": "LiSA 织部里沙 LEO-NiNE 完全生产限定盘 CD+BD+写真集",
