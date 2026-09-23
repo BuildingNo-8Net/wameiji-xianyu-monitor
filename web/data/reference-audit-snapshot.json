@@ -1336,9 +1336,10 @@
     {
       "reference_product_id": 61,
       "stable_key": "jan:4988031460023",
+      "same_product_verified": false,
       "wameiji": {
         "title": "Hikaru Utada First Love Limited Edition 180g 2LP",
-        "version_evidence": "Current Rakuten page: UPJY-9202/3, JAN 4988031460023, 2 records, manufactured 2022, released 2022-03-10; limited-production 180g edition with First Love - John Luongo Remix bonus track.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开该挖煤姬乐天链接时直接跳转登录页，未显示商品标题、价格、库存或主图；保留 UPJY-9202/3/JAN 作为历史线索，不把登录页当作当前可购证据。",
         "catalog_no": "UPJY-9202/3",
         "barcode": "4988031460023",
         "price": 5014,
@@ -1347,6 +1348,7 @@
         "observed_at": "2026-09-14T17:44:42Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://shop.r10s.jp/mifsoft/cabinet/023/upjy-9202.jpg"
       },
       "xianyu": {
@@ -1398,6 +1400,7 @@
     {
       "reference_product_id": 63,
       "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
+      "same_product_verified": false,
       "wameiji": {
         "title": "めありー / 彼はきっと魔法を使う。 [CD]",
         "version_evidence": "2026-09-22 人工 Chrome/IAB 重开该 Rakuten 详情链接时跳转到挖煤姬登录页，未显示商品详情；当前无法重新核验价格、库存或主图，保留原有 MARY-1004/JAN 作为历史记录，不把登录页当作当前可购证据。",
@@ -1409,6 +1412,7 @@
         "observed_at": "2026-09-14T18:04:56Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://shop.r10s.jp/mifsoft/cabinet/025/mary-1004.jpg"
       },
       "xianyu": {
@@ -1460,6 +1464,7 @@
     {
       "reference_product_id": 65,
       "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
+      "same_product_verified": false,
       "wameiji": {
         "title": "かいりきベア ベノマ CD",
         "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：かいりきベア《ベノマ》CD，二手但无明显损伤或污渍，1300日元（约58人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；商品描述明确为怪力熊专辑《ベノマ》，页面可加入购物车/立即购买。",
@@ -1475,7 +1480,7 @@
       },
       "xianyu": {
         "title": "怪力熊 蛮魔 CD 日本代购 怪力的专辑《贝诺玛》",
-        "version_evidence": "人工 Chrome 在闲鱼精确检索“怪力熊 ベノマ CD”，结果出现对应具体商品页；标题明确写出怪力熊、专辑《贝诺玛》，售价81元，上海，支持即时购买。详情页进入后提示跨境商品需前往闲鱼APP，但搜索结果已显示该当前商品卡片。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼原链接时仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 81,
@@ -1484,6 +1489,7 @@
         "observed_at": "2026-09-19T15:04:39Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
+        "image_state": "source_no_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01nXB3avEtSOK2BxJZ_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/65-d622a593b90cba48.webp"
@@ -1491,9 +1497,11 @@
     {
       "reference_product_id": 66,
       "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
+      "same_product_verified": false,
+      "same_product_verified": false,
       "wameiji": {
         "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
-        "version_evidence": "历史挖煤姬店铺卡识别为 KARENT《Winterland’s Anthology feat.初音ミク》，目录号 KRCD-0011，发行日 2017-01-25，通常中古；详情图未列明内封或特典。17:04（+08:00）人工 Chrome/IAB 在挖煤姬搜索「Winterland's Anthology KRCD-0011」：结果页明确“已经按照原文进行搜索”；当前 Mercari 首条为无关 Winter Wonderland，未出现同版 Mercari 商品，但 Rakuten 结果明确列出同标题《Winterland’s Anthology feat.初音ミク》10,890 JPY。故保留历史挖煤姬来源并标注当前 Mercari 未复现，不把 Rakuten 结果冒充当前挖煤姬库存。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬详情页确认标题、KRCD-0011 与 2017-01-25 信息，但页面明确“已售出”，无当前价格、库存或可购买主图；闲鱼侧是五选一合集且价格从239 CNY起，不把该历史同版页当作当前利润证据。",
         "catalog_no": "KRCD-0011",
         "barcode": null,
         "price": 14131,
@@ -1502,6 +1510,7 @@
         "observed_at": "2026-09-22T17:04:32+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWXcZdmayREpgKwbdGbzd.webp@jpg"
       },
       "xianyu": {
@@ -1522,9 +1531,10 @@
     {
       "reference_product_id": 67,
       "stable_key": "sample:70b6fec6c7a329499ccbe3eb52ac7203378bff89a3e09cefafbba3ea952f3df1",
+      "same_product_verified": false,
       "wameiji": {
         "title": "【中古】同人音楽CDソフト 自棄酒金魚掬い / 犬丸芝居小屋",
-        "version_evidence": "YKS-001；压制CD+压制DVD两碟；店铺页明确有型番和发行日",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，页面显示“不支持该商品”，未出现标题、价格、库存或主图；保留 YKS-001 与历史标题作审计线索，不把旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 19566,
@@ -1533,6 +1543,7 @@
         "observed_at": "2026-09-21T01:51:19Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
       },
       "xianyu": {
@@ -4797,9 +4808,10 @@
     {
       "reference_product_id": 61,
       "stable_key": "jan:4988031460023",
+      "same_product_verified": false,
       "wameiji": {
         "title": "Hikaru Utada First Love Limited Edition 180g 2LP",
-        "version_evidence": "Current Rakuten page: UPJY-9202/3, JAN 4988031460023, 2 records, manufactured 2022, released 2022-03-10; limited-production 180g edition with First Love - John Luongo Remix bonus track.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开该挖煤姬乐天链接时直接跳转登录页，未显示商品标题、价格、库存或主图；保留 UPJY-9202/3/JAN 作为历史线索，不把登录页当作当前可购证据。",
         "catalog_no": "UPJY-9202/3",
         "barcode": "4988031460023",
         "price": 5014,
@@ -4808,6 +4820,7 @@
         "observed_at": "2026-09-14T17:44:42Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://shop.r10s.jp/mifsoft/cabinet/023/upjy-9202.jpg"
       },
       "xianyu": {
@@ -4859,6 +4872,7 @@
     {
       "reference_product_id": 63,
       "stable_key": "sample:8a5d9c6162657acc993a9ecb0ce047760440453503b41f15517e5b476e1ba9d2",
+      "same_product_verified": false,
       "wameiji": {
         "title": "めありー / 彼はきっと魔法を使う。 [CD]",
         "version_evidence": "2026-09-22 人工 Chrome/IAB 重开该 Rakuten 详情链接时跳转到挖煤姬登录页，未显示商品详情；当前无法重新核验价格、库存或主图，保留原有 MARY-1004/JAN 作为历史记录，不把登录页当作当前可购证据。",
@@ -4870,6 +4884,7 @@
         "observed_at": "2026-09-14T18:04:56Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://shop.r10s.jp/mifsoft/cabinet/025/mary-1004.jpg"
       },
       "xianyu": {
@@ -4921,6 +4936,7 @@
     {
       "reference_product_id": 65,
       "stable_key": "sample:d622a593b90cba485e3f4281d4e3d68221e025dba10867294d36d5b8bf2a2ee8",
+      "same_product_verified": false,
       "wameiji": {
         "title": "かいりきベア ベノマ CD",
         "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：かいりきベア《ベノマ》CD，二手但无明显损伤或污渍，1300日元（约58人民币），卖家承担日本国内运费，手续费200日元，2~3日发货，有物流保障（预计2~7天到仓）；商品描述明确为怪力熊专辑《ベノマ》，页面可加入购物车/立即购买。",
@@ -4936,7 +4952,7 @@
       },
       "xianyu": {
         "title": "怪力熊 蛮魔 CD 日本代购 怪力的专辑《贝诺玛》",
-        "version_evidence": "人工 Chrome 在闲鱼精确检索“怪力熊 ベノマ CD”，结果出现对应具体商品页；标题明确写出怪力熊、专辑《贝诺玛》，售价81元，上海，支持即时购买。详情页进入后提示跨境商品需前往闲鱼APP，但搜索结果已显示该当前商品卡片。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼原链接时仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 81,
@@ -4945,6 +4961,7 @@
         "observed_at": "2026-09-19T15:04:39Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
+        "image_state": "source_no_image",
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01nXB3avEtSOK2BxJZ_!!4611686018427385528-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/65-d622a593b90cba48.webp"
@@ -4954,7 +4971,7 @@
       "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
       "wameiji": {
         "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
-        "version_evidence": "历史挖煤姬店铺卡识别为 KARENT《Winterland’s Anthology feat.初音ミク》，目录号 KRCD-0011，发行日 2017-01-25，通常中古；详情图未列明内封或特典。17:04（+08:00）人工 Chrome/IAB 在挖煤姬搜索「Winterland's Anthology KRCD-0011」：结果页明确“已经按照原文进行搜索”；当前 Mercari 首条为无关 Winter Wonderland，未出现同版 Mercari 商品，但 Rakuten 结果明确列出同标题《Winterland’s Anthology feat.初音ミク》10,890 JPY。故保留历史挖煤姬来源并标注当前 Mercari 未复现，不把 Rakuten 结果冒充当前挖煤姬库存。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬详情页确认标题、KRCD-0011 与 2017-01-25 信息，但页面明确“已售出”，无当前价格、库存或可购买主图；闲鱼侧是五选一合集且价格从239 CNY起，不把该历史同版页当作当前利润证据。",
         "catalog_no": "KRCD-0011",
         "barcode": null,
         "price": 14131,
@@ -4963,6 +4980,7 @@
         "observed_at": "2026-09-22T17:04:32+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWXcZdmayREpgKwbdGbzd.webp@jpg"
       },
       "xianyu": {
@@ -4983,9 +5001,10 @@
     {
       "reference_product_id": 67,
       "stable_key": "sample:70b6fec6c7a329499ccbe3eb52ac7203378bff89a3e09cefafbba3ea952f3df1",
+      "same_product_verified": false,
       "wameiji": {
         "title": "【中古】同人音楽CDソフト 自棄酒金魚掬い / 犬丸芝居小屋",
-        "version_evidence": "YKS-001；压制CD+压制DVD两碟；店铺页明确有型番和发行日",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，页面显示“不支持该商品”，未出现标题、价格、库存或主图；保留 YKS-001 与历史标题作审计线索，不把旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 19566,
@@ -4994,6 +5013,7 @@
         "observed_at": "2026-09-21T01:51:19Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
       },
       "xianyu": {
