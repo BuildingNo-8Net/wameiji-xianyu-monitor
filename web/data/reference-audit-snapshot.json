@@ -897,7 +897,7 @@
       "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
       "wameiji": {
         "title": "国内盤CD★放課後ティータイム/Houkago Tea Time■ 映画「けいおん！」劇中歌アルバム放課後ティータイム in MOVIE 【PCCG1128/4988013016569】U53895",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：店铺卖家CD専門★quattro，目录号 PCCG1128，JAN 4988013016569，ASIN B006GX1WRU；中古，页面显示“有些许损伤或污渍”，价格1,000日元、日本国内运费买家承担、代购手续费200日元、无物流保障。店铺说明中古可能有划痕、裂盒等未逐项记载，购买时特典不保证，以照片为准；与闲鱼同版本附件需继续核对。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页，未出现商品标题、价格或主图；保留历史目录号与链接作审计线索，标记源站无图，不能继续把历史图片当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 1000,
@@ -906,7 +906,8 @@
         "observed_at": "2026-09-21T04:16:41Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JH944u6tuSxgAmxmUMbgt.jpg@jpg"
+      "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JH944u6tuSxgAmxmUMbgt.jpg@jpg",
+      "image_state": "source_no_image"
       },
       "xianyu": {
         "title": "日版轻音少女 剧场版CD《放课后ティータイム in MOVIE》初回限定2CD",
