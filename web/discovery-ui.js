@@ -510,22 +510,37 @@
     const candidate = item.counterpart_candidate && typeof item.counterpart_candidate === "object"
       ? item.counterpart_candidate
       : null;
+    // Some single-observation records already carry a concrete, manually
+    // opened related item on the missing side (for example a same-series
+    // listing). Prefer that real image/link over the reference sample image,
+    // while keeping the card explicitly labelled as an unproven counterpart.
+    const relatedSource = item[missingMarket] && typeof item[missingMarket] === "object"
+      ? item[missingMarket]
+      : null;
+    const relatedCandidate = relatedSource && (relatedSource.image_url || relatedSource.source_url)
+      ? {
+          ...relatedSource,
+          relation_note: relatedSource.relation_note
+            || "已打开的相关观察；版本、成色或附件未证同款，不计入双侧核验或利润机会",
+        }
+      : null;
+    const displayCandidate = relatedCandidate || candidate;
     const candidateCurrency = missingMarket === "wameiji" ? "JPY" : "CNY";
     const candidateLabel = missingMarket === "wameiji" ? "挖煤姬进货侧 · 相关观察" : "闲鱼销售侧 · 相关观察";
     const referenceImage = usableProductImage(item.reference_image_url);
-    const missingMarkup = candidate
+    const missingMarkup = displayCandidate
       ? [
           '<div class="reference-audit-candidate-wrap ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
             '<div class="reference-audit-candidate-badge">主要观察对象 · 相关候选（未证同款）</div>',
             referenceAuditObservationMarkup(
               candidateLabel,
-              candidate.image_url || referenceImage
-                ? { ...candidate, image_url: candidate.image_url || referenceImage, image_state: candidate.image_url ? candidate.image_state : "reference_only" }
-                : { ...candidate, image_state: "source_no_image" },
+              displayCandidate.image_url || referenceImage
+                ? { ...displayCandidate, image_url: displayCandidate.image_url || referenceImage, image_state: displayCandidate.image_url ? displayCandidate.image_state : "reference_only" }
+                : { ...displayCandidate, image_state: "source_no_image" },
               candidateCurrency,
               missingMarket,
             ),
-            '<p class="reference-audit-candidate-note">' + esc(candidate.relation_note || "仅作为同作品/同标题方向观察，不计入双侧核验或利润机会") + '</p>',
+            '<p class="reference-audit-candidate-note">' + esc(displayCandidate.relation_note || "仅作为同作品/同标题方向观察，不计入双侧核验或利润机会") + '</p>',
           '</div>',
         ].join("")
       : [
@@ -540,14 +555,14 @@
         ].join("");
     return [
       '<article class="reference-audit-pair">',
-        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + (candidate ? " · 单边 + 相关观察" : " · 单边检索证据") + '</div>',
+        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + (displayCandidate ? " · 单边 + 相关观察" : " · 单边检索证据") + '</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup(availableLabel, observation, currency, availableMarket),
           referenceAuditCenterMarkup(
-            availableMarket === "xianyu" ? observation : candidate,
-            availableMarket === "wameiji" ? observation : candidate,
-            candidate ? "单边 + 相关对象参考核算" : "单边样本参考核算",
-            candidate ? "相关对象已打开具体详情页，但版本、成色或附件仍未证实同款" : "只保留已打开的具体商品页，不把近似品凑成同款",
+            availableMarket === "xianyu" ? observation : displayCandidate,
+            availableMarket === "wameiji" ? observation : displayCandidate,
+            displayCandidate ? "单边 + 相关对象参考核算" : "单边样本参考核算",
+            displayCandidate ? "相关对象已打开具体详情页，但版本、成色或附件仍未证实同款" : "只保留已打开的具体商品页，不把近似品凑成同款",
           ),
           missingMarkup,
         '</div>',
