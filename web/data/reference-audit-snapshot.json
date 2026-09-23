@@ -531,7 +531,7 @@
       },
       "xianyu": {
         "title": "全新未拆 ig社 虚之少女 广播剧CD Innocent Grey 杉菜水姬",
-        "version_evidence": "人工Chrome/IAB闲鱼详情页：全新未拆 ig社《虚之少女》广播剧CD；Innocent Grey/杉菜水姬，成色全新未拆，存储介质CD，价格200 CNY，不包邮。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把已删除页旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 200,
@@ -540,7 +540,8 @@
         "observed_at": "2026-09-21T07:10:20Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/3805743482/O1CN01PRQ3JeT2ydK3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/3805743482/O1CN01PRQ3JeT2ydK3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "source_no_image"
       },
       "reference_image_url": "assets/reference-samples/20-17b42e4e041d599c.webp"
     },
@@ -3834,7 +3835,7 @@
       },
       "xianyu": {
         "title": "全新未拆 ig社 虚之少女 广播剧CD Innocent Grey 杉菜水姬",
-        "version_evidence": "人工Chrome/IAB闲鱼详情页：全新未拆 ig社《虚之少女》广播剧CD；Innocent Grey/杉菜水姬，成色全新未拆，存储介质CD，价格200 CNY，不包邮。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把已删除页旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 200,
@@ -3843,7 +3844,8 @@
         "observed_at": "2026-09-21T07:10:20Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/3805743482/O1CN01PRQ3JeT2ydK3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/3805743482/O1CN01PRQ3JeT2ydK3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "source_no_image"
       },
       "reference_image_url": "assets/reference-samples/20-17b42e4e041d599c.webp"
     },
