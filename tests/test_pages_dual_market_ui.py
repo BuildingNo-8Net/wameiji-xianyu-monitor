@@ -115,7 +115,7 @@ def test_homepage_keeps_concrete_one_sided_listings_in_the_primary_observation_q
     assert 'id="referenceAuditUnavailableList"' in homepage
     assert "single_observed_records" in javascript
     assert "unavailable_records" in javascript
-    assert "单边待补观察" in javascript
+    assert "单侧检索观察" in javascript
     assert "参考样本图 · 非当前商品页" in javascript
     assert "参考样本图 · 两侧当前未见" in javascript
 

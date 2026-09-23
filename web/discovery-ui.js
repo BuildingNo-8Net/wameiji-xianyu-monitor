@@ -408,7 +408,9 @@
       : '<span>' + title + '</span>';
     const missingImageLabel = source.image_state === "source_no_image"
       ? "源站未提供主图"
-      : "主图链接待补";
+      : source.image_state === "reference_only"
+        ? "参考样本图 · 非当前商品"
+        : "主图链接待补";
     const evidenceStatus = source.state && source.state !== "found"
       ? "当前未见 / 历史证据"
       : "历史快照 · 下单前复核";
@@ -491,7 +493,7 @@
     const missingMarket = item.missing_market === "wameiji" ? "wameiji" : "xianyu";
     const observation = item.observation && typeof item.observation === "object" ? item.observation : {};
     const availableLabel = availableMarket === "wameiji" ? "挖煤姬进货侧" : "闲鱼销售侧";
-    const missingLabel = missingMarket === "wameiji" ? "挖煤姬进货侧待补" : "闲鱼销售侧待补";
+    const missingLabel = missingMarket === "wameiji" ? "挖煤姬进货侧检索证据" : "闲鱼销售侧检索证据";
     const currency = availableMarket === "wameiji" ? "JPY" : "CNY";
     const candidate = item.counterpart_candidate && typeof item.counterpart_candidate === "object"
       ? item.counterpart_candidate
@@ -503,7 +505,14 @@
       ? [
           '<div class="reference-audit-candidate-wrap ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
             '<div class="reference-audit-candidate-badge">主要观察对象 · 相关候选（未证同款）</div>',
-            referenceAuditObservationMarkup(candidateLabel, candidate, candidateCurrency, missingMarket),
+            referenceAuditObservationMarkup(
+              candidateLabel,
+              candidate.image_url || referenceImage
+                ? { ...candidate, image_url: candidate.image_url || referenceImage, image_state: candidate.image_url ? candidate.image_state : "reference_only" }
+                : { ...candidate, image_state: "source_no_image" },
+              candidateCurrency,
+              missingMarket,
+            ),
             '<p class="reference-audit-candidate-note">' + esc(candidate.relation_note || "仅作为同作品/同标题方向观察，不计入双侧核验或利润机会") + '</p>',
           '</div>',
         ].join("")
@@ -519,7 +528,7 @@
         ].join("");
     return [
       '<article class="reference-audit-pair">',
-        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + (candidate ? " · 单边 + 相关观察" : " · 单边待补") + '</div>',
+        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + (candidate ? " · 单边 + 相关观察" : " · 单边检索证据") + '</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup(availableLabel, observation, currency, availableMarket),
           referenceAuditCenterMarkup(
@@ -595,7 +604,7 @@
       setText("referenceAuditDisclaimer", "审计快照尚未发布；不能从达标卡数量推断全量进度。");
       if (pairSummary) pairSummary.textContent = "双侧已发现记录暂未发布";
       if (pairList) pairList.innerHTML = '<div class="empty-state">审计快照缺失，不把利润卡当成样本总数。</div>';
-      if (singleSummary) singleSummary.textContent = "单边待补观察暂未发布";
+      if (singleSummary) singleSummary.textContent = "单侧检索观察暂未发布";
       if (singleList) singleList.innerHTML = '<div class="empty-state">审计快照缺失，无法展示单边实物记录。</div>';
       if (unavailableSummary) unavailableSummary.textContent = "当前未见/受阻样本暂未发布";
       if (unavailableList) unavailableList.innerHTML = '<div class="empty-state">审计快照缺失，无法展示未见/受阻样本。</div>';
@@ -662,12 +671,12 @@
         : '<div class="empty-state">当前没有双侧实物观察记录。</div>';
     }
     if (singleSummary) {
-      singleSummary.textContent = "主要观察对象 · 单边待补观察 " + singles.length + " 条（已有一侧具体商品页，另一侧不能凑数）";
+      singleSummary.textContent = "主要观察对象 · 单侧检索观察 " + singles.length + " 条（已有一侧具体商品页，另一侧保留真实检索证据）";
     }
     if (singleList) {
       singleList.innerHTML = singles.length
         ? singles.map(referenceAuditSingleMarkup).join("")
-        : '<div class="empty-state">当前没有单边待补观察记录。</div>';
+        : '<div class="empty-state">当前没有单侧检索观察记录。</div>';
     }
     if (unavailableSummary) {
       unavailableSummary.textContent = "当前未见/受阻样本 " + unavailable.length + " 条（不伪装成已找到）";
