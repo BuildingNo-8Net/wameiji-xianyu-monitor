@@ -739,7 +739,7 @@
       "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
       "wameiji": {
         "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
-        "version_evidence": "挖煤姬侧历史人工 Chrome/IAB 详情页曾显示 RIDDLE JOKER ランチョンマット（ゆずソフト），价格1,999 JPY；2026-09-22 再次打开同一详情页时页面显示“不支持该商品”。17:02（+08:00）在挖煤姬人工搜索「ゆずソフト 柚子社 RJ 盒子 在原七海」：结果页明确“已经按照原文进行搜索”，仅见亚克力挂件、透明文件夹、桌垫等周边，没有样本图片对应的柚子社 RJ 盒子；故该历史挖煤姬记录与样本形态不一致，不能作为当前同版匹配或利润机会。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页，未出现商品标题、价格或主图；此前历史记录本身已标注不支持该商品，且与样本形态不一致，保留链接作审计线索并标记源站无图。",
         "catalog_no": null,
         "barcode": null,
         "price": 1999,
@@ -748,7 +748,8 @@
         "observed_at": "2026-09-22T17:02:04+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556"
+      "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556",
+      "image_state": "source_no_image"
       },
       "xianyu": {
         "title": "历史错配（非样本）：Broccoli ゆずソフト D賞-④ 卡盒",
@@ -6928,7 +6929,7 @@
       },
       "xianyu": {
         "title": "乙女领域 录制版语音剧CD／RADIO*MAIDEN 预约特典",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售页：乙女*Domain RADIO*MAIDEN 预约特典录制语音剧CD，54 CNY；与样本 Vol.10 不是同一卷，作为同系列相关观察。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接当前仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示该商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 54,
@@ -6937,7 +6938,8 @@
         "observed_at": "2026-09-23T11:18:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01RLMY4l1KwTL4pdZ4Z_!!6000000001228-2-tps-360-360.png_360x10000.jpg_.webp",
+      "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01RLMY4l1KwTL4pdZ4Z_!!6000000001228-2-tps-360-360.png_360x10000.jpg_.webp",
+      "image_state": "source_no_image",
         "state": "observed_related"
       }
     },
@@ -6949,7 +6951,7 @@
       "counterpart_state": "observed_related",
       "observation": {
         "title": "narcissu 水仙 C83场贩小说 两本一起",
-        "version_evidence": "2026-09-23 02:35（+08:00）人工内置浏览器复核闲鱼侧：标题明确为 narcissu（水仙）C83 场贩小说两本一起；成色几乎全新；页面显示400 CNY包邮、1人想要、132浏览，并有立即购买。挖煤姬按「narcissu 水仙 C83 小说」精确检索，结果页明确“已经按照原文进行搜索”“暂无数据”，没有同版详情或可购买链接；不把其他作品/泛小说结果当匹配，继续保留为闲鱼单边主要观察对象。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接当前显示商品标题与400 CNY，但页面明确“卖掉了”，不再是可购买现售；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 400,
@@ -6958,7 +6960,8 @@
         "observed_at": "2026-09-23T02:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2210449506356/O1CN01sRow4LKnleG3thGC_!!4611686018427379764-0-xy_item.jpg_Q90.jpg_.webp"
+      "image_url": "https://img.alicdn.com/bao/uploaded/i3/2210449506356/O1CN01sRow4LKnleG3thGC_!!4611686018427379764-0-xy_item.jpg_Q90.jpg_.webp",
+      "image_state": "source_no_image"
       },
       "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp",
       "counterpart_candidate": {
@@ -6977,7 +6980,7 @@
       },
       "wameiji": {
         "title": "narcissu SIDE 2nd 同人小说 CD-ROM（附原声）",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬现售页：STAGE NANA《narcissu -SIDE 2nd-》实体 CD-ROM，13,800 JPY；与样本 C83 场贩小说不是同一载体，作为同系列相关观察。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页，未出现商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不能继续把历史图片当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 13800,
@@ -6986,7 +6989,8 @@
         "observed_at": "2026-09-23T11:16:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imgoss.mokaki.cn/ossimg/product/2026/9/15/c0df91f9-3dd6-4bc5-af1d-493826c0597a.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1200/quality,q_90/format,webp",
+      "image_url": "https://imgoss.mokaki.cn/ossimg/product/2026/9/15/c0df91f9-3dd6-4bc5-af1d-493826c0597a.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1200/quality,q_90/format,webp",
+      "image_state": "source_no_image",
         "state": "observed_related"
       }
     },
