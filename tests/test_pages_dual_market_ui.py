@@ -93,6 +93,8 @@ def test_homepage_exposes_the_full_reference_audit_queue_separately_from_profit_
     assert "日本来源侧" in javascript
     assert "待挖煤姬复核" in javascript
     assert "已人工核验 · 观察记录" in javascript
+    assert "源站未提供主图" in javascript
+    assert "重定向至.*login" in javascript
     assert "待逐件核验</div>" not in javascript
 
 
