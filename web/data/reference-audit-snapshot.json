@@ -2923,10 +2923,11 @@
         "price": 291,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077684146216&categoryId=201459411",
-        "observed_at": "2026-09-22T19:11:30+08:00",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "image_url": null
+      "observed_at": "2026-09-22T19:11:30+08:00",
+      "marketplace_host": "www.goofish.com",
+      "is_wameiji_platform": false,
+      "image_state": "source_no_image",
+      "image_url": null
       },
       "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e2fe.webp"
     },
@@ -7236,7 +7237,7 @@
       },
       "xianyu": {
         "title": "白雪 七凭之祭 Innocent Grey 杉菜水姫 游戏本体",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售页：Innocent Grey/杉菜水姫《白雪 七凭之祭》游戏本体，600 CNY，已开封；与样本同厂牌、同作者、同类视觉小说，但不是样本原具体作品，明确标为同厂牌主要观察对象。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售页：Innocent Grey/杉菜水姫《白雪 七凭之祭》游戏本体，600 CNY，已开封；与样本同厂牌、同作者、同类视觉小说，但不是样本原具体作品，明确标为同厂牌主要观察对象。首张主图已从当前详情页读取并写入。",
         "catalog_no": null,
         "barcode": null,
         "price": 600,
@@ -7245,6 +7246,7 @@
         "observed_at": "2026-09-23T03:02:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01pTG03S1mFhlGbp9BP_!!4611686018427380749-0-fleamarket.jpg_790x10000Q90.jpg_.webp",
         "state": "observed_related"
       },
       "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp"
