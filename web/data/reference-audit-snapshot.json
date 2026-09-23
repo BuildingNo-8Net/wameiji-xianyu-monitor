@@ -6980,31 +6980,31 @@
       "wameiji_state": "observed_related",
       "xianyu_state": "observed_related",
       "wameiji": {
-        "title": "虚ノ少女 初回限定版 Innocent Grey（挖煤姬仅见周边，非样本PC游戏）",
-    "version_evidence": "2026-09-23 03:01（+08:00）人工 Chrome/IAB 在挖煤姬按「虚ノ少女 初回限定版 Innocent Grey」精确检索：结果为天ノ少女 Premium Edition、怪ノ少女/殻ノ少女 Drama CD、虚ノ少女非卖品海报、徽章、原声 Drama CD、B2挂毯等近似条目；没有样本所示虚ノ少女初回限定版 PC游戏同版，不以同作品周边替代，维持当前未见。",
+        "title": "Innocent Grey トロイメライ 初回限定版 カルタグラ",
+    "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬现售页：Innocent Grey《トロイメライ》初回限定版/カルタグラ，8,000 JPY，二手；与样本同厂牌、同类初回限定视觉小说，但不是样本原具体作品，明确标为同厂牌主要观察对象。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.meruki.cn/search?keywords=%E8%99%9A%E3%83%8E%E5%B0%91%E5%A5%B3+%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88+Innocent+Grey&website=mercari",
+        "price": 8000.0,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32353830373432363931382f",
     "observed_at": "2026-09-23T03:01:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m57063581162_1.jpg?1787835918",
-        "state": "not_currently_listed"
+        "state": "observed_related"
       },
       "xianyu": {
-        "title": "虚ノ少女 初回限定版 PC游戏（闲鱼当前无同版结果）",
-      "version_evidence": "2026-09-23 03:02（+08:00）人工 Chrome/IAB 闲鱼精确检索「虚ノ少女 初回限定版 PC游戏」，页面明确“小闲鱼没有找到你想要的宝贝”，推荐区为后藤一里手办、EGOIST 文件夹、水树奈奈挂件、Ado LP、supercell CD 等无关商品；没有虚ノ少女初回限定版 PC游戏同版，不以同作品周边替代，维持当前未见。",
+        "title": "白雪 七凭之祭 Innocent Grey 杉菜水姫 游戏本体",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售页：Innocent Grey/杉菜水姫《白雪 七凭之祭》游戏本体，600 CNY，已开封；与样本同厂牌、同作者、同类视觉小说，但不是样本原具体作品，明确标为同厂牌主要观察对象。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
-        "currency": null,
-        "source_url": "https://www.goofish.com/search?q=%E8%99%9A%E3%83%8E%E5%B0%91%E5%A5%B3%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88%20PC%E6%B8%B8%E6%88%8F",
+        "price": 600.0,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1047213834053&categoryId=126856346",
       "observed_at": "2026-09-23T03:02:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "state": "not_currently_listed"
+        "state": "observed_related"
       },
       "reference_image_url": "assets/reference-samples/32-8719026bf4cd7234.webp"
     },
