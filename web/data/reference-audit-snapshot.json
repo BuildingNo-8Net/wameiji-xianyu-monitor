@@ -1595,9 +1595,10 @@
     {
       "reference_product_id": 71,
       "stable_key": "sample:127ddd6fc3102fb03d7d5db1ecc09010287607a8eafffd16340ad1a7536eb975",
+      "same_product_verified": false,
       "wameiji": {
         "title": "milet / Made of Glass (初回生産限定盤／輸出不可／CD+2DVD) [SECL-3335]",
-        "version_evidence": "New Rakuten listing; SECL-3335, JAN 4547366822120, initial production limited CD+2DVD with sleeve case. The same release also has a separate Blu-ray edition SECL-3332; they are not interchangeable.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开该挖煤姬乐天链接时直接跳转登录页，未显示商品标题、价格、库存或主图；保留 SECL-3335/JAN 作为历史线索，不把登录页当作当前可购证据。",
         "catalog_no": "SECL-3335",
         "barcode": "4547366822120",
         "price": 14300,
@@ -1606,6 +1607,7 @@
         "observed_at": "2026-09-14T18:10:07Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/secl-3335.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -5096,9 +5098,10 @@
     {
       "reference_product_id": 71,
       "stable_key": "sample:127ddd6fc3102fb03d7d5db1ecc09010287607a8eafffd16340ad1a7536eb975",
+      "same_product_verified": false,
       "wameiji": {
         "title": "milet / Made of Glass (初回生産限定盤／輸出不可／CD+2DVD) [SECL-3335]",
-        "version_evidence": "New Rakuten listing; SECL-3335, JAN 4547366822120, initial production limited CD+2DVD with sleeve case. The same release also has a separate Blu-ray edition SECL-3332; they are not interchangeable.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开该挖煤姬乐天链接时直接跳转登录页，未显示商品标题、价格、库存或主图；保留 SECL-3335/JAN 作为历史线索，不把登录页当作当前可购证据。",
         "catalog_no": "SECL-3335",
         "barcode": "4547366822120",
         "price": 14300,
@@ -5107,6 +5110,7 @@
         "observed_at": "2026-09-14T18:10:07Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/secl-3335.jpg?fitin=275:275"
       },
       "xianyu": {
