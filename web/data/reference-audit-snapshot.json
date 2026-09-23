@@ -3459,6 +3459,7 @@
     {
       "reference_product_id": 9,
       "stable_key": "sample:041a5116df1fb97ae1e1b9d3dca066b866cfc1150427596716d096355c90f6ef",
+      "same_product_verified": false,
       "wameiji": {
         "title": "【中古】eden* ソフマップ LIMITED EDTION",
         "version_evidence": "人工 Chrome 打开挖煤姬对应的原始乐天商品页；标题明确为 minori《eden* ソフマップ LIMITED EDTION》，价格 53,609 JPY。原始乐天页首图直链可加载。店铺说明同时明确图片为示意图、限定特典/同梱物不保证，不能据此确认床单、卡牌或内箱齐全。",
