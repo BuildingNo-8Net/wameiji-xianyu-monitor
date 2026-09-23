@@ -472,7 +472,7 @@
     const combinedEvidence = xianyuEvidence + " " + wameijiEvidence;
     const historicalMismatch = item.same_product_verified === false
       || /历史错配|不是同一商品|不能当作单卷同款|附件不一致|不作同 SKU/.test(xianyuEvidence);
-    const currentEvidenceUnavailable = /未加载|无法重新确认|未能确认|重定向至.*login|跨境商品请前往/.test(combinedEvidence);
+    const currentEvidenceUnavailable = /未加载|无法重新确认|未能确认|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核/.test(combinedEvidence);
     const auditLabel = currentEvidenceUnavailable
       ? "当前证据受阻 · 已打开核验"
       : historicalMismatch
