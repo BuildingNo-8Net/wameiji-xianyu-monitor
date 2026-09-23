@@ -406,6 +406,9 @@
     const heading = href
       ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
       : '<span>' + title + '</span>';
+    const imageAlt = source.image_state === "reference_only"
+      ? title + " · 参考样本图 · 非当前商品"
+      : title + " · 第一张主图";
     const missingImageLabel = source.image_state === "source_no_image"
       ? "源站未提供主图"
       : source.image_state === "reference_only"
@@ -417,7 +420,7 @@
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
         image
-          ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + title + ' · 第一张主图" loading="eager" decoding="async" /></a>'
+          ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + imageAlt + '" loading="eager" decoding="async" /></a>'
           : '<div class="reference-audit-market-media reference-audit-market-media-missing">' + missingImageLabel + '</div>',
         '<small>' + esc(label) + '</small>',
         '<span class="reference-audit-source-status">' + esc(evidenceStatus) + '</span>',
@@ -627,8 +630,8 @@
     const relatedRecovered = rawUnavailable.filter((record) => {
       const x = record && record.xianyu;
       const w = record && record.wameiji;
-      return x && w && Number.isFinite(Number(x.price)) && Number.isFinite(Number(w.price))
-        && (x.state === "observed_related" || w.state === "observed_related");
+      return record && record.same_product_verified === true
+        && x && w && Number.isFinite(Number(x.price)) && Number.isFinite(Number(w.price));
     });
     const relatedSinglePairs = rawSingles.map((record) => {
       const obs = record && record.observation;
@@ -638,7 +641,8 @@
     }).filter((record) => {
       const x = record && record.xianyu;
       const w = record && record.wameiji;
-      return x && w && Number.isFinite(Number(x.price)) && Number.isFinite(Number(w.price));
+      return record && record.same_product_verified === true
+        && x && w && Number.isFinite(Number(x.price)) && Number.isFinite(Number(w.price));
     });
     const recoveredSingleIds = new Set(relatedSinglePairs.map((record) => record.reference_product_id));
     const pairs = basePairs.concat(relatedRecovered, relatedSinglePairs);
