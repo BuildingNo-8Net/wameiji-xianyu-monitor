@@ -1113,9 +1113,10 @@
     {
       "reference_product_id": 53,
       "stable_key": "sample:f51c7e9a3f32ba6d360a8b20e083ffb708d6723faeafe89fefa679e79e48d346",
+      "same_product_verified": false,
       "wameiji": {
         "title": "Aimer daydream【初回生産限定盤A】Blu-ray",
-        "version_evidence": "挖煤姬详情页：二手；没有明显的损伤或污渍；くりやん；商品为Aimer daydream初回生产限定盘A Blu-ray；页面描述含2015 Aimer Live Tour DAWN最终公演影像；当前可还价/加入购物车/立即购买。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬详情页仍显示 Aimer daydream 初回生产限定盘A Blu-ray，1,200 JPY，描述只明确 Blu-ray 影像内容，未证明 CD 本体随附；闲鱼侧明确是 CD+BD 两枚装，因此不把挖煤姬页当作同版完整套装或利润匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 1200,
@@ -1124,7 +1125,8 @@
         "observed_at": "2026-09-21T04:48:47Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m43010638747_1.jpg?1787658572"
+      "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m43010638747_1.jpg?1787658572",
+      "relation_note": "仅核到 Blu-ray 单项信息，CD 是否随附未知；不计同款利润。"
       },
       "xianyu": {
         "title": "【现货】正品 Aimer《daydream》初回限定盘A（CD+BD）原装正版日版",
