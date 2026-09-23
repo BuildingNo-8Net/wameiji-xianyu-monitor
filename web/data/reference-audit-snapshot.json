@@ -1693,28 +1693,30 @@
     {
       "reference_product_id": 74,
       "stable_key": "sample:1d0637fcaf7b16b3b1277d25395e69cd6f58f3bee3206d67e0b1f994b30b2be4",
+      "same_product_verified": false,
       "wameiji": {
         "title": "ZARD Forever Best 25th Anniversary 4-CD Blu-spec CD2",
-        "version_evidence": "Current Rakuten page: JBCJ-9055, released 2016-02-10; 4-CD Blu-spec CD2 edition with 52 listed tracks, not the separately priced seasonal limited-jacket variants.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬 Rakuten 链接，直接重定向登录页，当前无法看到商品标题、价格、库存或主图；保留历史目录信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": "JBCJ-9055",
         "barcode": "4560109082155",
         "price": 4070,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsoundace%2Fjbcj-9055%2F",
-        "observed_at": "2026-09-14T17:42:51Z",
+        "observed_at": "2026-09-23T09:05:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://tshop.r10s.jp/soundace/cabinet/suke01/1/so-mov-dv-c-00426.jpg?downsize=200:*"
       },
       "xianyu": {
         "title": "ZARD Forever Best 25周年纪念 日版4CD（全新未拆封，带原塑封）",
-        "version_evidence": "2026-09-22 人工 Chrome/IAB 挖煤姬详情页核验：Pokemon feat. 初音ミク《VOLTAGE Live!》Blu-ray特装盘，未使用，13,999日元（约621人民币），卖家承担日本国内运费，手续费300日元，2~3日发货，有物流保障（预计2~7天到仓）。说明明确含演唱会本篇、定点影像、特典册、2种亚克力立牌及18张明信片，Blu-ray格式；页面可加入购物车/立即购买。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼详情页：ZARD Forever Best 25周年纪念日版4CD，全新未拆封带原塑封；卖家说明4张CD、收录52首经典，价格60 CNY，79浏览，可立即购买；页面仅确认4CD/52首，不宣称目录号或额外特典。",
         "catalog_no": null,
         "barcode": null,
         "price": 60,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076988039230&categoryId=126864811",
-        "observed_at": "2026-09-22T13:10:00Z",
+        "observed_at": "2026-09-23T09:00:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/55884187/O1CN01AGl7FK0n0TJ1YgDo_!!4611686018427386267-0-xy_item.jpg_Q90.jpg_.webp"
@@ -1755,17 +1757,19 @@
     {
       "reference_product_id": 76,
       "stable_key": "sample:1bbd79ed18293461be255478156b87853880febe847889ef1b746d908473b862",
+      "same_product_verified": false,
       "wameiji": {
         "title": "milet made of glass CD+Blu-ray 新品未開封",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：页面标题和状态均显示未使用，价格12,222日元，日本国内运费卖家承担，代购手续费300日元，1~2日发货，有物流保障，活动中；商品说明为空，不能仅凭标题推断配件/封套具体内容。页面有还价、加入购物车、立即购买。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，页面显示“没有找到相关商品”，无标题、价格、库存或主图；保留历史标题仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 12222,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333637373039353635392f",
-        "observed_at": "2026-09-21T04:43:23Z",
+        "observed_at": "2026-09-23T09:10:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m23677095659_1.jpg"
       },
       "xianyu": {
@@ -1786,17 +1790,19 @@
     {
       "reference_product_id": 77,
       "stable_key": "sample:ee3822630e37864934f329b71b6997a3d80f10f5932c5d8b9e34e0b839bbef00",
+      "same_product_verified": false,
       "wameiji": {
         "title": "ヨルシカ 創作 完全生産限定盤 アナログ LP レコード＋おまけ（創作CD発売当時のフリーペーパー）★新品未開封★絶版希少品",
-        "version_evidence": "Manual Chrome detail identifies the exact Yorushika 創作 EP analog edition: 12-inch 45rpm, 1 record, paper-jacket format, lyric card, tracks 強盗と花束／春泥棒／創作／風を食む／嘘月; shrink unopened, 9,400 JPY. This matches the supplied sample image; seller adds an old flyer as an extra.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，直接重定向登录页，当前无法看到商品标题、价格、库存或主图；保留历史目录信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 9400,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/paypay/detail/z628702118",
-        "observed_at": "2026-09-19T13:25:00Z",
+        "observed_at": "2026-09-23T09:15:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://tshop.r10s.jp/sasatatu86/cabinet/05577637/06532690/13592819/750.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -1817,17 +1823,19 @@
     {
       "reference_product_id": 78,
       "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
+      "same_product_verified": false,
       "wameiji": {
         "title": "[新品未開封]Hikaru Utada - This Is The One LP",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：未开封、180g重量盘，页面说明作品原为2009年但本产品为2026年生产限定重制版；价格129,999日元（页面约5,772元）、日本国内运费卖家承担、代购手续费300日元、1~2日发货。与闲鱼样本同为 This Is The One LP，但价格/版本批次需继续核对；国际运费税费未核验。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，直接重定向登录页，当前无法看到商品标题、价格、库存或主图；保留历史目录信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 129999,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393438313535303037372f",
-        "observed_at": "2026-09-21T04:05:53Z",
+        "observed_at": "2026-09-23T09:20:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m59481550077_1.jpg"
       },
       "xianyu": {
@@ -1848,17 +1856,19 @@
     {
       "reference_product_id": 79,
       "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
+      "same_product_verified": false,
       "wameiji": {
         "title": "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来 完全生産限定版 Blu-ray",
-        "version_evidence": "ANZX-18501; JAN 4534530164223; 本編Blu-ray+2CD+特典Blu-ray; 完全生産限定版; 新品; 2026-07-29",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬 Rakuten 链接，直接重定向登录页，当前无法看到商品标题、价格、库存或主图；保留 ANZX-18501/JAN 等历史目录信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": "ANZX-18501",
         "barcode": "4534530164223",
         "price": 9680,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-2%2Faznanzx-18501%2F",
-        "observed_at": "2026-09-14T17:32:31Z",
+        "observed_at": "2026-09-23T09:25:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://tshop.r10s.jp/surprise-2/cabinet/imgr0845/anzx-18501.jpg?downsize=500:*"
       },
       "xianyu": {
@@ -5197,17 +5207,19 @@
     {
       "reference_product_id": 74,
       "stable_key": "sample:1d0637fcaf7b16b3b1277d25395e69cd6f58f3bee3206d67e0b1f994b30b2be4",
+      "same_product_verified": false,
       "wameiji": {
         "title": "ZARD Forever Best 25th Anniversary 4-CD Blu-spec CD2",
-        "version_evidence": "Current Rakuten page: JBCJ-9055, released 2016-02-10; 4-CD Blu-spec CD2 edition with 52 listed tracks, not the separately priced seasonal limited-jacket variants.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬 Rakuten 链接，直接重定向登录页，当前无法看到商品标题、价格、库存或主图；保留历史目录信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": "JBCJ-9055",
         "barcode": "4560109082155",
         "price": 4070,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsoundace%2Fjbcj-9055%2F",
-        "observed_at": "2026-09-14T17:42:51Z",
+        "observed_at": "2026-09-23T09:05:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://tshop.r10s.jp/soundace/cabinet/suke01/1/so-mov-dv-c-00426.jpg?downsize=200:*"
       },
       "xianyu": {
@@ -5259,17 +5271,19 @@
     {
       "reference_product_id": 76,
       "stable_key": "sample:1bbd79ed18293461be255478156b87853880febe847889ef1b746d908473b862",
+      "same_product_verified": false,
       "wameiji": {
         "title": "milet made of glass CD+Blu-ray 新品未開封",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：页面标题和状态均显示未使用，价格12,222日元，日本国内运费卖家承担，代购手续费300日元，1~2日发货，有物流保障，活动中；商品说明为空，不能仅凭标题推断配件/封套具体内容。页面有还价、加入购物车、立即购买。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，页面显示“没有找到相关商品”，无标题、价格、库存或主图；保留历史标题仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 12222,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333637373039353635392f",
-        "observed_at": "2026-09-21T04:43:23Z",
+        "observed_at": "2026-09-23T09:10:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m23677095659_1.jpg"
       },
       "xianyu": {
@@ -5290,17 +5304,19 @@
     {
       "reference_product_id": 77,
       "stable_key": "sample:ee3822630e37864934f329b71b6997a3d80f10f5932c5d8b9e34e0b839bbef00",
+      "same_product_verified": false,
       "wameiji": {
         "title": "ヨルシカ 創作 完全生産限定盤 アナログ LP レコード＋おまけ（創作CD発売当時のフリーペーパー）★新品未開封★絶版希少品",
-        "version_evidence": "Manual Chrome detail identifies the exact Yorushika 創作 EP analog edition: 12-inch 45rpm, 1 record, paper-jacket format, lyric card, tracks 強盗と花束／春泥棒／創作／風を食む／嘘月; shrink unopened, 9,400 JPY. This matches the supplied sample image; seller adds an old flyer as an extra.",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，直接重定向登录页，当前无法看到商品标题、价格、库存或主图；保留历史目录信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 9400,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/paypay/detail/z628702118",
-        "observed_at": "2026-09-19T13:25:00Z",
+        "observed_at": "2026-09-23T09:15:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://tshop.r10s.jp/sasatatu86/cabinet/05577637/06532690/13592819/750.jpg?fitin=275:275"
       },
       "xianyu": {
@@ -5321,17 +5337,19 @@
     {
       "reference_product_id": 78,
       "stable_key": "sample:ef4f1b90b3f7fd9f375031019aaa1620750df11c4c3134bd8b3000477acffbc5",
+      "same_product_verified": false,
       "wameiji": {
         "title": "[新品未開封]Hikaru Utada - This Is The One LP",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：未开封、180g重量盘，页面说明作品原为2009年但本产品为2026年生产限定重制版；价格129,999日元（页面约5,772元）、日本国内运费卖家承担、代购手续费300日元、1~2日发货。与闲鱼样本同为 This Is The One LP，但价格/版本批次需继续核对；国际运费税费未核验。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，直接重定向登录页，当前无法看到商品标题、价格、库存或主图；保留历史目录信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 129999,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393438313535303037372f",
-        "observed_at": "2026-09-21T04:05:53Z",
+        "observed_at": "2026-09-23T09:20:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m59481550077_1.jpg"
       },
       "xianyu": {
@@ -5352,17 +5370,19 @@
     {
       "reference_product_id": 79,
       "stable_key": "sample:9858d2501be30c42ec47c66a69ca8a9c3f389f0470799b270a2965cc374f7cfc",
+      "same_product_verified": false,
       "wameiji": {
         "title": "劇場版 鬼滅の刃 無限城編 第一章 猗窩座再来 完全生産限定版 Blu-ray",
-        "version_evidence": "ANZX-18501; JAN 4534530164223; 本編Blu-ray+2CD+特典Blu-ray; 完全生産限定版; 新品; 2026-07-29",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬 Rakuten 链接，直接重定向登录页，当前无法看到商品标题、价格、库存或主图；保留 ANZX-18501/JAN 等历史目录信息仅作审计线索，不视为当前在售实物证据。",
         "catalog_no": "ANZX-18501",
         "barcode": "4534530164223",
         "price": 9680,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsurprise-2%2Faznanzx-18501%2F",
-        "observed_at": "2026-09-14T17:32:31Z",
+        "observed_at": "2026-09-23T09:25:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
+        "image_state": "source_no_image",
         "image_url": "https://tshop.r10s.jp/surprise-2/cabinet/imgr0845/anzx-18501.jpg?downsize=500:*"
       },
       "xianyu": {
