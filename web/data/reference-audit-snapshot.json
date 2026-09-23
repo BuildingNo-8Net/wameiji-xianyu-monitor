@@ -6977,8 +6977,8 @@
     {
       "reference_product_id": 32,
       "stable_key": "sample:8719026bf4cd723459f1664713f434a8cce9c4257849655f2dcd47dbbf36f9c9",
-      "wameiji_state": "not_currently_listed",
-      "xianyu_state": "not_currently_listed",
+      "wameiji_state": "observed_related",
+      "xianyu_state": "observed_related",
       "wameiji": {
         "title": "虚ノ少女 初回限定版 Innocent Grey（挖煤姬仅见周边，非样本PC游戏）",
     "version_evidence": "2026-09-23 03:01（+08:00）人工 Chrome/IAB 在挖煤姬按「虚ノ少女 初回限定版 Innocent Grey」精确检索：结果为天ノ少女 Premium Edition、怪ノ少女/殻ノ少女 Drama CD、虚ノ少女非卖品海报、徽章、原声 Drama CD、B2挂毯等近似条目；没有样本所示虚ノ少女初回限定版 PC游戏同版，不以同作品周边替代，维持当前未见。",
@@ -7014,31 +7014,31 @@
       "wameiji_state": "not_currently_listed",
       "xianyu_state": "not_currently_listed",
       "wameiji": {
-        "title": "暁の護衛 签名海报+卡片套装（挖煤姬当前未见同版）",
-    "version_evidence": "2026-09-23 03:03（+08:00）人工 Chrome/IAB 在挖煤姬按「暁の護衛 直筆サイン」精确检索：结果为柊朱美/南城薫复製色纸、复製原画、软件限定周边、预约特典复製原画及其他作品签名原画；没有样本所示群像签名海报+特典卡套组，不把相近色纸/原画或其他周边当作同版匹配，维持当前未见。",
+        "title": "宮川清美 複製イラスト色紙「暁の護衛～罪深き終末論～」",
+    "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬现售详情页：同系列《暁の護衛～罪深き終末論～》复製插画色纸，800 JPY，二手，无明显损伤，1~2日发货；不是样本中的签名海报+卡套组，明确标为同系列主要观察对象。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
-        "currency": null,
-      "source_url": "https://www.meruki.cn/search?keywords=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E7%9B%B4%E7%AD%86%E3%82%B5%E3%82%A4%E3%83%B3&website=mercari",
+        "price": 800.0,
+        "currency": "JPY",
+      "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d39343037353433393533302f",
       "observed_at": "2026-09-23T03:03:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.fril.jp/img/835565348/l/2878784876.jpg?1780718775=&updated_at=2026-06-06T04%3A06%3A15.000Z",
-        "state": "not_currently_listed"
+        "state": "observed_related"
       },
       "xianyu": {
-        "title": "暁の護衛 サイン ポスター（闲鱼当前未见同版）",
-      "version_evidence": "2026-09-23 03:04（+08:00）人工 Chrome/IAB 闲鱼精确检索「暁の護衛 サイン ポスター」，结果为人声CD、钥匙扣、预约特典CD、PSP/PS3游戏、卡牌及亚克力等；没有样本所示群像签名海报＋特典卡套组，未以同作品CD/游戏周边替代，维持当前未见。",
+        "title": "无限轨道 晓之护卫 南条薰 色纸",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售详情页：同系列南条薰色纸，60 CNY，标注全新、可直拍；不是样本中的签名海报+卡套组，明确标为同系列主要观察对象。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
-        "currency": null,
-      "source_url": "https://www.goofish.com/search?q=%E6%9A%81%E3%81%AE%E8%AD%B7%E8%A1%9B%20%E3%82%B5%E3%82%A4%E3%83%B3%20%E3%83%9D%E3%82%B9%E3%82%BF%E3%83%BC",
+        "price": 60.0,
+        "currency": "CNY",
+      "source_url": "https://www.goofish.com/item?id=962107392574&categoryId=202126106",
       "observed_at": "2026-09-23T03:04:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "state": "not_currently_listed"
+        "state": "observed_related"
       },
       "reference_image_url": "assets/reference-samples/68-c68d21145ef01026.webp"
     }

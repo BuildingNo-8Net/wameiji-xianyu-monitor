@@ -606,15 +606,23 @@
       return;
     }
     const summary = audit.summary || {};
-    const pairs = Array.isArray(audit.dual_observed_pairs)
+    const basePairs = Array.isArray(audit.dual_observed_pairs)
       ? audit.dual_observed_pairs
       : (Array.isArray(audit.dual_found_pairs) ? audit.dual_found_pairs : []);
     const singles = Array.isArray(audit.single_observed_records)
       ? audit.single_observed_records
       : [];
-    const unavailable = Array.isArray(audit.unavailable_records)
+    const rawUnavailable = Array.isArray(audit.unavailable_records)
       ? audit.unavailable_records
       : [];
+    const relatedRecovered = rawUnavailable.filter((record) => {
+      const x = record && record.xianyu;
+      const w = record && record.wameiji;
+      return x && w && Number.isFinite(Number(x.price)) && Number.isFinite(Number(w.price))
+        && (x.state === "observed_related" || w.state === "observed_related");
+    });
+    const pairs = basePairs.concat(relatedRecovered);
+    const unavailable = rawUnavailable.filter((record) => !relatedRecovered.includes(record));
     setText("referenceAuditTotal", referenceAuditCount(summary.reference_product_count));
     setText(
       "referenceAuditBothFound",

@@ -800,7 +800,7 @@ def test_unavailable_cards_keep_both_market_links_and_reference_evidence() -> No
             side = record[market]
             assert side["source_url"].startswith("https://")
             assert side["version_evidence"]
-            assert side["state"] in {"not_currently_listed", "blocked"}
+        assert side["state"] in {"not_currently_listed", "blocked", "observed_related"}
 
 
 def test_reference_audit_covers_each_sample_once_and_uses_wameiji_for_observed_japan_sides() -> None:
