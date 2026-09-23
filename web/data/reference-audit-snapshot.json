@@ -6994,7 +6994,7 @@
       "stable_key": "sample:9b672eed92a617aaac757676f4d939f1602c08f8649bbdafaa72e2436f7764dc",
       "available_market": "xianyu",
       "missing_market": "wameiji",
-      "counterpart_state": "search_only",
+    "counterpart_state": "observed_related",
       "observation": {
         "title": "全新未拆 Erdelåten -Where the Marsh Still Sings- 同人音乐CD",
         "version_evidence": "闲鱼侧人工 Chrome/IAB 详情页：标题与描述明确为 Erdelåten -Where the Marsh Still Sings-、Rigël Theatre、M3 凯尔特专辑 CD；全新未拆；价格90 CNY；邮费自理；页面有立即购买。2026-09-23 02:55（+08:00）再次用内置浏览器在挖煤姬以「Erdelåten Where the Marsh Still Sings CD」原文精确检索，页面确认按原文搜索，结果仅为 The eskargot miles、Free Soul、Traveling Miles 等无关 CD，没有 Rigël Theatre 同版商品；不把近似音乐 CD 当匹配，继续保留为闲鱼单边主要观察对象。",
@@ -7062,18 +7062,18 @@
       "reference_image_url": "assets/reference-samples/7-617fc2dbd5580cf7.webp",
       "counterpart_candidate": {
         "title": "未见同款：[等待官方补货]Whiterium Laur2025春m3新专 专辑CD",
-        "version_evidence": "人工 Chrome/IAB 检索入口已保留；当前页面未见可核对的在售同款，不把近似品冒充同款。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬「Whiterium」检索，结果仅为无关商品（void tRrLM、日用品、服装等），未见 Laur/Whiterium 同人 CD；不把近似结果冒充同款，保留为闲鱼单边主要观察对象。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/search?keywords=%5B%E7%AD%89%E5%BE%85%E5%AE%98%E6%96%B9%E8%A1%A5%E8%B4%A7%5DWhiterium%20Laur2025%E6%98%A5m3%E6%96%B0%E4%B8%93%20%E4%B8%93%E8%BE%91CD",
-        "observed_at": "2026-09-23T11:12:00+08:00",
+        "observed_at": "2026-09-24T12:20:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "state": "search_only",
         "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
-      }
+    }
     },
     {
       "reference_product_id": 26,
@@ -7344,15 +7344,15 @@
         "state": "observed_related"
       }
     },
-    {
-      "reference_product_id": 37,
+  {
+    "reference_product_id": 37,
       "stable_key": "sample:58baee497a1a4eb6a23c2d1587b4e398c4f2cbcb78074125fb7efe9595cfd864",
       "available_market": "wameiji",
       "missing_market": "xianyu",
-      "counterpart_state": "search_only",
+    "counterpart_state": "observed_related",
       "observation": {
         "title": "ブロッコリートレカアイテムくじSP ゆずソフト カードボックス 3個セット【サノバウィッチ・ドラクリオット・天色アイルノーツ】",
-        "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬 JDirectItems Fleamarket 详情页：标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含サノバウィッチ、ドラクリオット、天色アイルノーツ；未使用，2400日元（约107人民币），代购手续费200日元，3~7日发货，有物流保障，页面可加入购物车/立即购买。2026-09-23 02:44（+08:00）人工 Chrome/IAB 在闲鱼精确检索“柚子社 D赏 卡盒 三个”，页面明确“小闲鱼没有找到你想要的宝贝”，推荐区仅有 EGOIST CD、手办、Ado 蓝光、LiSA CD 等泛商品，没有三盒套装同版实物；不把近似周边当作同版匹配，继续保留为挖煤姬单边观察。",
+    "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬 JDirectItems Fleamarket 详情页：标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含サノバウィッチ、ドラクリオット、天色アイルノーツ；未使用，2400日元（约107人民币），代购手续费200日元，3~7日发货，有物流保障，页面可加入购物车/立即购买。2026-09-24 人工 Chrome/IAB 在闲鱼重新检索“柚子社 卡盒”，打开现售 D赏卡盒详情，40 CNY、只剩乃爱/辉夜单个；与样本同奖项同系列但不是三盒套装，作为相关观察写入，不冒充同款或利润证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 2400,
@@ -7377,6 +7377,23 @@
         "is_wameiji_platform": false,
         "state": "search_only",
         "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+      },
+      "xianyu": {
+        "title": "柚子社一番赏 D赏卡盒（乃爱/辉夜，单个）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开闲鱼现售详情：柚子社一番赏 D赏卡盒，40 CNY 包邮，页面显示“就剩乃爱辉夜了哦”、38 人想要、可立即购买。它与样本的柚子社 D赏卡盒同系列同奖项，但仅为单个角色盒，不是样本所需的サノバウィッチ／ドラクリオット／天色アイルノーツ三盒套装，明确作为相关观察，不计入同款或利润。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 40,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=824476350242&categoryId=126860376",
+        "observed_at": "2026-09-24T12:30:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_xianyu_platform": true,
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01eeIqyT1uC3Qkha8Of_!!4611686018427382672-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "observed_main_image",
+        "state": "observed_related",
+        "relation_note": "同为柚子社一番赏 D赏卡盒，但只有单个角色盒，不是样本三盒套装，不计入同款或利润。"
       }
     },
     {
@@ -7450,13 +7467,13 @@
       "reference_image_url": "assets/reference-samples/41-24d2cce2c61c113f.webp",
       "counterpart_candidate": {
         "title": "未见同款：nerdneko CURE 初音未来 一专-四专 正版全新 有侧 包邮",
-        "version_evidence": "人工 Chrome/IAB 检索入口已保留；当前页面未见可核对的在售同款，不把近似品冒充同款。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬「nerdneko CURE」检索，结果仅为无关猫/服装/杂项商品，未见 nerdneko CURE 初音未来实体专辑；不把泛初音或同人 CD 冒充同款，保留为闲鱼单边主要观察对象。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/search?keywords=nerdneko%20CURE%20%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5%20%E4%B8%80%E4%B8%93-%E5%9B%9B%E4%B8%93%20%E6%AD%A3%E7%89%88%E5%85%A8%E6%96%B0%20%E6%9C%89%E4%BE%A7%20%E5%8C%85%E9%82%AE",
-        "observed_at": "2026-09-23T11:12:00+08:00",
+        "observed_at": "2026-09-24T12:22:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "state": "search_only",
