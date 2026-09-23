@@ -338,18 +338,19 @@
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWSy9x2oFxdSrgFLWtAWZ.webp@jpg"
       },
       "xianyu": {
-        "title": "全新未拆 minori eden* TRIAL DISC CD",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接打开即显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接但明确标记为源站无图，不能把历史图片当作当前实拍。",
+        "title": "中二社 伊甸园 eden（现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原链接已删除；改用现存闲鱼详情 https://www.goofish.com/item?id=1077589995824&categoryId=0，页面显示“中二社 伊甸园 eden”、700 CNY，且首张主图可见。该条是同系列替代观察，不冒充原 TRIAL DISC 同 SKU，不用于原样本利润核算。",
         "catalog_no": null,
         "barcode": null,
-        "price": 170,
+        "price": 700,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
+        "source_url": "https://www.goofish.com/item?id=1077589995824&categoryId=0",
         "observed_at": "2026-09-15T12:03:34+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3805743482/O1CN01Tse4kH69WRL3thGS_!!4611686018427382138-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2219612316412/O1CN01kQmW6KUPN7C2b8N1_!!4611686018427380476-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
     },
@@ -435,17 +436,18 @@
       },
       "xianyu": {
         "title": "水仙 ナルキッソス narcissu SIDE 2nd 猫猫社 游戏本体 ost",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把已删除页旧图当作当前实拍。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原链接已删除；改用现存闲鱼详情 https://www.goofish.com/item?id=995592593200&categoryId=126860296，页面明确为《水仙2》OST、猫猫社/STAGE NANA，996 CNY，首张主图可见。该页写明展示/非卖品，仅作为同版本实物观察，不作为可购买或利润证据。",
         "catalog_no": null,
         "barcode": null,
-        "price": 430,
+        "price": 996,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1079371541687&categoryId=126860296",
+        "source_url": "https://www.goofish.com/item?id=995592593200&categoryId=126860296",
         "observed_at": "2026-09-21T07:09:04Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/3805743482/O1CN01sDY8EO9YdHD2vHAO_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/17-ed58f0f7d2ca7b1d.webp"
     },
@@ -498,18 +500,19 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m92859754530_1.jpg"
       },
       "xianyu": {
-        "title": "TYPE-MOON ACE Vol.14 日版杂志",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把已删除页旧图当作当前实拍。",
+        "title": "TYPE-MOONエースVol.11 日版杂志（现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，Vol.14 原链接已删除；改用现存闲鱼详情 https://www.goofish.com/item?id=1062970929669&categoryId=202155025，页面显示 TYPE-MOONエースVol.11、70 CNY、首张主图可见。该条是同系列替代观察，不冒充 Vol.14 同刊，不用于原样本利润核算。",
         "catalog_no": null,
         "barcode": null,
-        "price": 150,
+        "price": 70,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077367943265&categoryId=202155025",
+        "source_url": "https://www.goofish.com/item?id=1062970929669&categoryId=202155025",
         "observed_at": "2026-09-21T07:09:43Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3805743482/O1CN01FBjmFv1UKmK2vHAO_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2212141163743/O1CN01vioUg31dWLclvDKw8_!!4611686018427380959-53-xy_item.heic_790x10000Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
     },
@@ -530,18 +533,19 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m30556219350_1.jpg"
       },
       "xianyu": {
-        "title": "全新未拆 ig社 虚之少女 广播剧CD Innocent Grey 杉菜水姬",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把已删除页旧图当作当前实拍。",
+        "title": "【现货】虚之少女 广播剧CD（现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原链接已删除；改用现存闲鱼详情 https://www.goofish.com/item?id=982309522766&categoryId=126864811，搜索结果与详情页显示虚之少女广播剧CD、全新日版、400 CNY。该条是同系列替代观察，不冒充原删除链接同一件，不用于原样本利润核算。",
         "catalog_no": null,
         "barcode": null,
-        "price": 200,
+        "price": 400,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1078229274009&categoryId=126864811",
+        "source_url": "https://www.goofish.com/item?id=982309522766&categoryId=126864811",
         "observed_at": "2026-09-21T07:10:20Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/3805743482/O1CN01PRQ3JeT2ydK3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/20-17b42e4e041d599c.webp"
     },
@@ -1501,7 +1505,7 @@
       "same_product_verified": false,
       "wameiji": {
         "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬详情页确认标题、KRCD-0011 与 2017-01-25 信息，但页面明确“已售出”，无当前价格、库存或可购买主图；闲鱼侧是五选一合集且价格从239 CNY起，不把该历史同版页当作当前利润证据。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬详情页确认标题、KRCD-0011 与 2017-01-25 信息，页面明确“已售出”；内置浏览器仍可见并加载首张主图，已保留为已售实物观察图，不把它当作当前库存或利润证据。闲鱼侧是五选一合集且价格从239 CNY起。",
         "catalog_no": "KRCD-0011",
         "barcode": null,
         "price": 14131,
@@ -1510,7 +1514,7 @@
         "observed_at": "2026-09-22T17:04:32+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "current_sold_image",
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWXcZdmayREpgKwbdGbzd.webp@jpg"
       },
       "xianyu": {
@@ -3737,18 +3741,19 @@
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWSy9x2oFxdSrgFLWtAWZ.webp@jpg"
       },
       "xianyu": {
-        "title": "全新未拆 minori eden* TRIAL DISC CD",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接打开即显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接但明确标记为源站无图，不能把历史图片当作当前实拍。",
+        "title": "中二社 伊甸园 eden（现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原链接已删除；改用现存闲鱼详情 https://www.goofish.com/item?id=1077589995824&categoryId=0，页面显示“中二社 伊甸园 eden”、700 CNY，且首张主图可见。该条是同系列替代观察，不冒充原 TRIAL DISC 同 SKU，不用于原样本利润核算。",
         "catalog_no": null,
         "barcode": null,
-        "price": 170,
+        "price": 700,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
+        "source_url": "https://www.goofish.com/item?id=1077589995824&categoryId=0",
         "observed_at": "2026-09-15T12:03:34+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3805743482/O1CN01Tse4kH69WRL3thGS_!!4611686018427382138-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2219612316412/O1CN01kQmW6KUPN7C2b8N1_!!4611686018427380476-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
     },
@@ -3833,18 +3838,19 @@
         "image_url": "https://imghk.doorzo.net/-/large/plain/8BFxxaFrjQ4J59b88WvhUk.webp@jpg"
       },
       "xianyu": {
-        "title": "水仙 ナルキッソス narcissu SIDE 2nd 猫猫社 游戏本体 ost",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把已删除页旧图当作当前实拍。",
+        "title": "【展示】【非卖品】《水仙2》OST narcissu -SIDE 2nd（替代链接）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原链接已删除；改用现存闲鱼详情 https://www.goofish.com/item?id=995592593200&categoryId=126860296，页面明确为《水仙2》OST、猫猫社/STAGE NANA，996 CNY，首张主图可见。该页写明展示/非卖品，仅作为同版本实物观察，不作为可购买或利润证据。",
         "catalog_no": null,
         "barcode": null,
-        "price": 430,
+        "price": 996,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1079371541687&categoryId=126860296",
+        "source_url": "https://www.goofish.com/item?id=995592593200&categoryId=126860296",
         "observed_at": "2026-09-21T07:09:04Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/3805743482/O1CN01sDY8EO9YdHD2vHAO_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/17-ed58f0f7d2ca7b1d.webp"
     },
@@ -3897,18 +3903,19 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m92859754530_1.jpg"
       },
       "xianyu": {
-        "title": "TYPE-MOON ACE Vol.14 日版杂志",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把已删除页旧图当作当前实拍。",
+        "title": "TYPE-MOONエースVol.11 日版杂志（现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，Vol.14 原链接已删除；改用现存闲鱼详情 https://www.goofish.com/item?id=1062970929669&categoryId=202155025，页面显示 TYPE-MOONエースVol.11、70 CNY、首张主图可见。该条是同系列替代观察，不冒充 Vol.14 同刊，不用于原样本利润核算。",
         "catalog_no": null,
         "barcode": null,
-        "price": 150,
+        "price": 70,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1077367943265&categoryId=202155025",
+        "source_url": "https://www.goofish.com/item?id=1062970929669&categoryId=202155025",
         "observed_at": "2026-09-21T07:09:43Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3805743482/O1CN01FBjmFv1UKmK2vHAO_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2212141163743/O1CN01vioUg31dWLclvDKw8_!!4611686018427380959-53-xy_item.heic_790x10000Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
     },
@@ -3929,18 +3936,19 @@
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m30556219350_1.jpg"
       },
       "xianyu": {
-        "title": "全新未拆 ig社 虚之少女 广播剧CD Innocent Grey 杉菜水姬",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接显示「糟糕！宝贝被删掉了」，无法复核当前标题、状态或首图；保留原链接与历史字段，但标记源站无图，不能把已删除页旧图当作当前实拍。",
+        "title": "【现货】虚之少女 广播剧CD（现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原链接已删除；改用现存闲鱼详情 https://www.goofish.com/item?id=982309522766&categoryId=126864811，搜索结果与详情页显示虚之少女广播剧CD、全新日版、400 CNY。该条是同系列替代观察，不冒充原删除链接同一件，不用于原样本利润核算。",
         "catalog_no": null,
         "barcode": null,
-        "price": 200,
+        "price": 400,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1078229274009&categoryId=126864811",
+        "source_url": "https://www.goofish.com/item?id=982309522766&categoryId=126864811",
         "observed_at": "2026-09-21T07:10:20Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/3805743482/O1CN01PRQ3JeT2ydK3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
-        "image_state": "source_no_image"
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/20-17b42e4e041d599c.webp"
     },
@@ -5046,7 +5054,7 @@
       "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
       "wameiji": {
         "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬详情页确认标题、KRCD-0011 与 2017-01-25 信息，但页面明确“已售出”，无当前价格、库存或可购买主图；闲鱼侧是五选一合集且价格从239 CNY起，不把该历史同版页当作当前利润证据。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬详情页确认标题、KRCD-0011 与 2017-01-25 信息，页面明确“已售出”；内置浏览器仍可见并加载首张主图，已保留为已售实物观察图，不把它当作当前库存或利润证据。闲鱼侧是五选一合集且价格从239 CNY起。",
         "catalog_no": "KRCD-0011",
         "barcode": null,
         "price": 14131,
@@ -5055,7 +5063,7 @@
         "observed_at": "2026-09-22T17:04:32+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "source_no_image",
+        "image_state": "current_sold_image",
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWXcZdmayREpgKwbdGbzd.webp@jpg"
       },
       "xianyu": {
@@ -7122,7 +7130,7 @@
       "counterpart_state": "observed_related",
       "observation": {
         "title": "narcissu 水仙 C83场贩小说 两本一起",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接当前显示商品标题与400 CNY，但页面明确“卖掉了”，不再是可购买现售；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开原链接，页面显示商品标题、400 CNY 与“卖掉了”；页面仍可见首张商品主图，已确认该图可作为已售实物观察图保留，不把它当作当前可购买库存。",
         "catalog_no": null,
         "barcode": null,
         "price": 400,
@@ -7132,7 +7140,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
       "image_url": "https://img.alicdn.com/bao/uploaded/i3/2210449506356/O1CN01sRow4LKnleG3thGC_!!4611686018427379764-0-xy_item.jpg_Q90.jpg_.webp",
-      "image_state": "source_no_image"
+        "image_state": "current_sold_image"
       },
       "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp",
       "counterpart_candidate": {
