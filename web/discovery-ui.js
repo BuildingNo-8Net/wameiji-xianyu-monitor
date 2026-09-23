@@ -348,6 +348,7 @@
 
   function auditObservationImage(observation) {
     const source = observation && typeof observation === "object" ? observation : {};
+    if (source.image_state === "source_no_image") return "";
     const directImage = usableProductImage(source.image_url || source.main_image_url);
     if (directImage) return directImage;
 
@@ -467,7 +468,8 @@
     const item = pair && typeof pair === "object" ? pair : {};
     const japaneseSource = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
     const xianyuEvidence = String(item.xianyu && item.xianyu.version_evidence || "");
-    const historicalMismatch = /历史错配|不是同一商品|不能当作单卷同款|附件不一致|不作同 SKU/.test(xianyuEvidence);
+    const historicalMismatch = item.same_product_verified === false
+      || /历史错配|不是同一商品|不能当作单卷同款|附件不一致|不作同 SKU/.test(xianyuEvidence);
     const currentEvidenceUnavailable = /未加载|无法重新确认|未能确认/.test(xianyuEvidence);
     const sourceHost = String(japaneseSource.marketplace_host || "日本来源");
     const japaneseLabel = japaneseSource.is_wameiji_platform

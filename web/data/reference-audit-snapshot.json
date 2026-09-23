@@ -67,7 +67,7 @@
         "observed_at": "2026-09-22T17:25:40+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2215778032591/O1CN01stgB50rCxXE3thOC_!!4611686018427386831-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4033685196/O1CN0197ZDR71oFp77B7VDw_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/1-a9d90f12e9ca56db.webp"
     },
@@ -191,7 +191,7 @@
         "observed_at": "2026-09-14T16:52:09Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN019Ohr3G1hWaANLvPCL_!!4611686018427383421-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2215111880801/O1CN01ah5LK21HmuNm9HY5v_!!4611686018427383905-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/6-5262161d4824d7e6.webp"
     },
@@ -222,7 +222,7 @@
         "observed_at": "2026-09-21T06:53:44Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2211904345937/O1CN01ioDb6xY8epH3thMP_!!4611686018427385681-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01z7X83V4XbMJ3thGS_!!4611686018427385681-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/10-ad66f99c63ff08ac.webp"
     },
@@ -292,6 +292,9 @@
     {
       "reference_product_id": 13,
       "stable_key": "sample:ce603c1a4a257a00440c4314206d290eaae6f7c91d99a984e11ae53bd722767a",
+      "same_product_verified": false,
+      "same_product_verified": false,
+      "same_product_verified": false,
       "wameiji": {
         "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
         "version_evidence": "Manual Chrome/IAB Wameiji detail title matches [中古]TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜, covering the sample keywords 月姫, PLUS+DISC, and 歌月十夜. The detail explicitly says the product is used, the image is illustrative, condition and accessories vary by arrival, and limited extras are not included by title alone. Record is title-level only; do not treat it as proof of the sample three CDs, outer box, obi, or complete accessories.",
@@ -572,6 +575,9 @@
     {
       "reference_product_id": 22,
       "stable_key": "sample:f1e63661cafe1b24f9eab8cb16ec8fdd338b250bad98f12375fa023a71b68021",
+      "same_product_verified": false,
+      "same_product_verified": false,
+      "same_product_verified": false,
       "wameiji": {
         "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
         "version_evidence": "Manual Chrome/IAB Wameiji detail title matches [中古]TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜, covering the sample keywords 月姫, PLUS+DISC, and 歌月十夜. The detail explicitly says the product is used, the image is illustrative, condition and accessories vary by arrival, and limited extras are not included by title alone. Record is title-level only; do not treat it as proof of the sample three CDs, outer box, obi, or complete accessories.",
@@ -758,6 +764,9 @@
     {
       "reference_product_id": 33,
       "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
+      "same_product_verified": false,
+      "same_product_verified": false,
+      "same_product_verified": false,
       "wameiji": {
         "title": "ef−the first tale SP01",
         "version_evidence": "人工内置浏览器挖煤姬具体详情页：标题为 ef−the first tale SP01，价格2,500日元，状态接近未使用，日本国内运费卖家承担；页面无商品说明，未确认 SP01 的具体内容、是否为样本所称前篇初回版、附件或腰封。",
@@ -3297,7 +3306,7 @@
         "observed_at": "2026-09-22T17:25:40+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2215778032591/O1CN01stgB50rCxXE3thOC_!!4611686018427386831-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4033685196/O1CN0197ZDR71oFp77B7VDw_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/1-a9d90f12e9ca56db.webp"
     },
@@ -3421,7 +3430,7 @@
         "observed_at": "2026-09-14T16:52:09Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN019Ohr3G1hWaANLvPCL_!!4611686018427383421-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2215111880801/O1CN01ah5LK21HmuNm9HY5v_!!4611686018427383905-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/6-5262161d4824d7e6.webp"
     },
@@ -3515,7 +3524,7 @@
         "observed_at": "2026-09-21T06:53:44Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2211904345937/O1CN01ioDb6xY8epH3thMP_!!4611686018427385681-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01z7X83V4XbMJ3thGS_!!4611686018427385681-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/10-ad66f99c63ff08ac.webp"
     },
@@ -3546,7 +3555,8 @@
         "observed_at": "2026-09-15T12:00:16+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01XvUrci1XK59jkqafe_!!6000000002904-2-tps-1050-1050.png_790x10000.jpg_.webp"
+        "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01XvUrci1XK59jkqafe_!!6000000002904-2-tps-1050-1050.png_790x10000.jpg_.webp",
+        "image_state": "source_no_image"
       },
       "reference_image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp"
     },
@@ -3584,6 +3594,7 @@
     {
       "reference_product_id": 13,
       "stable_key": "sample:ce603c1a4a257a00440c4314206d290eaae6f7c91d99a984e11ae53bd722767a",
+      "same_product_verified": false,
       "wameiji": {
         "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
         "version_evidence": "Manual Chrome/IAB Wameiji detail title matches [中古]TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜, covering the sample keywords 月姫, PLUS+DISC, and 歌月十夜. The detail explicitly says the product is used, the image is illustrative, condition and accessories vary by arrival, and limited extras are not included by title alone. Record is title-level only; do not treat it as proof of the sample three CDs, outer box, obi, or complete accessories.",
@@ -3864,6 +3875,7 @@
     {
       "reference_product_id": 22,
       "stable_key": "sample:f1e63661cafe1b24f9eab8cb16ec8fdd338b250bad98f12375fa023a71b68021",
+      "same_product_verified": false,
       "wameiji": {
         "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
         "version_evidence": "Manual Chrome/IAB Wameiji detail title matches [中古]TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜, covering the sample keywords 月姫, PLUS+DISC, and 歌月十夜. The detail explicitly says the product is used, the image is illustrative, condition and accessories vary by arrival, and limited extras are not included by title alone. Record is title-level only; do not treat it as proof of the sample three CDs, outer box, obi, or complete accessories.",
@@ -4019,6 +4031,7 @@
     {
       "reference_product_id": 33,
       "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
+      "same_product_verified": false,
       "wameiji": {
         "title": "ef−the first tale SP01",
         "version_evidence": "人工内置浏览器挖煤姬具体详情页：标题为 ef−the first tale SP01，价格2,500日元，状态接近未使用，日本国内运费卖家承担；页面无商品说明，未确认 SP01 的具体内容、是否为样本所称前篇初回版、附件或腰封。",
