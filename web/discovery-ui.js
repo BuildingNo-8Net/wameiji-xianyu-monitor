@@ -398,7 +398,7 @@
   function referenceAuditObservationMarkup(label, observation, currency, market) {
     const source = observation && typeof observation === "object" ? observation : {};
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
-    const href = safeHttpUrl(source.source_url);
+    const href = safeHttpUrl(source.detail_source_url || source.source_url);
     const image = auditObservationImage(source);
     const title = esc(source.title || "未命名商品记录");
     const price = currency === "JPY" ? jpy(source.price, displayJpyCnyRate()) : cny(source.price);
@@ -558,7 +558,7 @@
   function referenceAuditUnavailableSideMarkup(label, observation, market, state, referenceImage) {
     const source = observation && typeof observation === "object" ? observation : {};
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
-    const href = safeHttpUrl(source.source_url);
+    const href = safeHttpUrl(source.detail_source_url || source.source_url);
     const observedImage = auditObservationImage(source);
     const image = observedImage || referenceImage;
     const title = esc(source.title || "当前没有可公开核对的具体商品页");
