@@ -6816,7 +6816,7 @@
       "stable_key": "sample:bca3653bd2c65a2997d9a5f5cade20e2d893f6897eaf08d53bc529b2b6053241",
       "available_market": "xianyu",
       "missing_market": "wameiji",
-      "counterpart_state": "search_only",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "《缘之空》精装珍藏画集，圣基文化出品",
         "version_evidence": "闲鱼侧人工 Chrome/IAB 详情页核验：活动价 36.40 CNY，包邮；实物为精装画集，含 2 张海报，外壳四角有轻微磨损，内页无缺页无涂写。2026-09-23 02:31（+08:00）再次在挖煤姬内置浏览器以「ヨスガノソラ 画集」精确检索，当前没有可核验的《缘之空》圣基文化同版画集详情；不把近似画集或周边当匹配，继续保留为闲鱼单边主要观察对象。",
@@ -6844,6 +6844,20 @@
         "is_wameiji_platform": true,
         "state": "search_only",
         "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+      },
+      "wameiji": {
+        "title": "空の境界 未来福音 原画集",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬现售页：同为日本同人原画集/画集实物，11,000 JPY；与样本《缘之空》画集不是同一作品，作为画集品类相关观察，不计为同款。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 11000,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuma/detail/6d26ddfaf238fed5a41733d40bc4e80a",
+        "observed_at": "2026-09-23T11:20:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://image03.doorzo.net/img/196324568/l/2437881531.jpg?1547299121=&updated_at=2019-01-12T13:18:42.000Z",
+        "state": "observed_related"
       }
     },
     {
@@ -6851,7 +6865,7 @@
       "stable_key": "sample:3b589fa991d8a5e6e91b4b7c986f0bb0d925c74e461b76b76e32b708b8edb030",
       "available_market": "wameiji",
       "missing_market": "xianyu",
-      "counterpart_state": "search_only",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "オトメ*ドメイン RADIO*MAIDEN Vol.10",
         "version_evidence": "2026-09-23 02:33（+08:00）人工 Chrome/IAB 复核：挖煤姬详情页仍可打开同版商品“【新品未開封】オトメ*ドメイン RADIO*MAIDEN Vol.10”，标价 4,980 日元，未使用，页面标注 4~7 日发货、无物流保障。闲鱼按「オトメ RADIO MAIDEN Vol.10」精确检索，页面明确“小闲鱼没有找到你想要的宝贝”，没有 Vol.10 同版实物；维持单边观察，不计入双侧匹配。",
@@ -6879,6 +6893,20 @@
         "is_wameiji_platform": false,
         "state": "search_only",
         "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+      },
+      "xianyu": {
+        "title": "乙女领域 录制版语音剧CD／RADIO*MAIDEN 预约特典",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售页：乙女*Domain RADIO*MAIDEN 预约特典录制语音剧CD，54 CNY；与样本 Vol.10 不是同一卷，作为同系列相关观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 54,
+        "currency": "CNY",
+        "source_url": "https://www.goofish.com/item?id=1022550203177&categoryId=126862148",
+        "observed_at": "2026-09-23T11:18:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01RLMY4l1KwTL4pdZ4Z_!!6000000001228-2-tps-360-360.png_360x10000.jpg_.webp",
+        "state": "observed_related"
       }
     },
     {
@@ -6886,7 +6914,7 @@
       "stable_key": "sample:efd530b47e5f58a4bf0f238d37cf7df201458246af69133d88f21a13af0f74e6",
       "available_market": "xianyu",
       "missing_market": "wameiji",
-      "counterpart_state": "search_only",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "narcissu 水仙 C83场贩小说 两本一起",
         "version_evidence": "2026-09-23 02:35（+08:00）人工内置浏览器复核闲鱼侧：标题明确为 narcissu（水仙）C83 场贩小说两本一起；成色几乎全新；页面显示400 CNY包邮、1人想要、132浏览，并有立即购买。挖煤姬按「narcissu 水仙 C83 小说」精确检索，结果页明确“已经按照原文进行搜索”“暂无数据”，没有同版详情或可购买链接；不把其他作品/泛小说结果当匹配，继续保留为闲鱼单边主要观察对象。",
@@ -6914,6 +6942,20 @@
         "is_wameiji_platform": true,
         "state": "search_only",
         "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+      },
+      "wameiji": {
+        "title": "narcissu SIDE 2nd 同人小说 CD-ROM（附原声）",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬现售页：STAGE NANA《narcissu -SIDE 2nd-》实体 CD-ROM，13,800 JPY；与样本 C83 场贩小说不是同一载体，作为同系列相关观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 13800,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33695a3776595941765748787937675572704e6976482f",
+        "observed_at": "2026-09-23T11:16:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imgoss.mokaki.cn/ossimg/product/2026/9/15/c0df91f9-3dd6-4bc5-af1d-493826c0597a.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1200/quality,q_90/format,webp",
+        "state": "observed_related"
       }
     },
     {
@@ -6991,7 +7033,7 @@
       "stable_key": "sample:01627ff9b576bd1172380c0928aa14dbd4e1e01ad263a865994f6186037841c2",
       "available_market": "xianyu",
       "missing_market": "wameiji",
-      "counterpart_state": "search_only",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "Purple software",
         "version_evidence": "2026-09-23 02:41（+08:00）人工 Chrome/IAB 复核闲鱼详情：Purple software《天津罪》OP《こころに響く恋ほたる》预约特典 CD，95 CNY 包邮、190 浏览，可立即购买。挖煤姬按原文检索“こころに響く恋ほたる 予約特典 CD”，结果仅有《絆きらめく恋いろは》原声 1,900 JPY 等近似条目，没有《天津罪》预约特典 CD 同版；不把近似结果当匹配，继续保留为闲鱼单边观察。",
@@ -7019,6 +7061,20 @@
         "is_wameiji_platform": true,
         "state": "search_only",
         "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+      },
+      "wameiji": {
+        "title": "アオイトリ 初回生産限定盤 DVD付",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬现售页：Purple software《アオイトリ》初回生产限定盘（附DVD），2,980 JPY；页面标注中古、有些许损伤或污渍，作为同厂牌同作品相关观察。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": 2980,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuma/detail/2f9889a3492dae3ebaa07c982b5d48f0",
+        "observed_at": "2026-09-23T11:14:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://image02.doorzo.net/img/812459108/l/2783082345.jpg?1769311153=&updated_at=2026-01-25T03:19:13.000Z",
+        "state": "observed_related"
       }
     },
     {
@@ -7061,7 +7117,7 @@
       "stable_key": "sample:bf016599131551025a47e66d48c9c8bc56f7b14be36b31f7691866f1e434e06b",
       "available_market": "xianyu",
       "missing_market": "wameiji",
-      "counterpart_state": "search_only",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "中古青鸟初回版",
         "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页核验：中古青鸟／アオイトリ Purple software 初回版；标题明确内含本体一枚和 OST 两枚，成色几乎全新，价格500 CNY，页面显示2人想要、371浏览并可立即购买。2026-09-23 02:47（+08:00）人工 Chrome/IAB 在挖煤姬以「アオイトリ 青鳥 初回版 Purple software」原文精确检索，页面明确“已经按照原文进行搜索”并显示“暂无数据”，没有《アオイトリ》Purple software 初回版本体+OST同版；不把近似周边当匹配，继续保留为闲鱼单边观察。",
@@ -7089,6 +7145,20 @@
         "is_wameiji_platform": true,
         "state": "search_only",
         "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+      },
+      "wameiji": {
+        "title": "Blue Bird 初回限定盤",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬现售页：Blue Bird 初回限定盘，350 JPY；与样本“青鸟”标题对应但发行/作品身份仍需人工确认，作为相关观察。",
+        "catalog_no": "WPCL-10932",
+        "barcode": null,
+        "price": 350,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/rakuma/detail/19e424e9f30e31f39a10c7c3fce7ce37",
+        "observed_at": "2026-09-23T11:12:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/img/836032143/l/2880679188.jpg?1780961459=&updated_at=2026-06-08T23:30:59.000Z",
+        "state": "observed_related"
       }
     },
     {
