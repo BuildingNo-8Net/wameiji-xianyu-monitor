@@ -7272,7 +7272,7 @@
       },
       "xianyu": {
         "title": "无限轨道 晓之护卫 南条薰 色纸",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售详情页：同系列南条薰色纸，60 CNY，标注全新、可直拍；不是样本中的签名海报+卡套组，明确标为同系列主要观察对象。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售详情页：同系列南条薰色纸，60 CNY，标注全新、可直拍；不是样本中的签名海报+卡套组，明确标为同系列主要观察对象。首张主图已从当前详情页读取并写入。",
         "catalog_no": null,
         "barcode": null,
         "price": 60,
@@ -7281,6 +7281,7 @@
         "observed_at": "2026-09-23T03:04:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01kSgGjY2CRm9YAmq3y_!!4611686018427385159-53-fleamarket.heic_Q90.jpg_.webp",
         "state": "observed_related"
       },
       "reference_image_url": "assets/reference-samples/68-c68d21145ef01026.webp"
