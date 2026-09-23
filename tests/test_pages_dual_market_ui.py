@@ -138,6 +138,8 @@ def test_reference_audit_cards_use_marketplace_main_images_and_platform_colours(
     assert "ossimg\\/)" not in javascript
     assert "referenceAuditImageMarkup" not in javascript
     assert "const referenceImage = usableProductImage(item.reference_image_url);" in javascript
+    assert "const observedImage = auditObservationImage(source);" in javascript
+    assert "当前相关观察 · 非样本同款" in javascript
     assert "参考样本图 · 非当前商品页" in javascript
     assert '"xianyu-side"' in javascript
     assert '"wameiji-side"' in javascript

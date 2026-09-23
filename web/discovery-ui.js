@@ -559,6 +559,8 @@
     const source = observation && typeof observation === "object" ? observation : {};
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
     const href = safeHttpUrl(source.source_url);
+    const observedImage = auditObservationImage(source);
+    const image = observedImage || referenceImage;
     const title = esc(source.title || "当前没有可公开核对的具体商品页");
     const heading = href
       ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
@@ -569,11 +571,11 @@
     const stateText = referenceStateLabel(state);
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
-        referenceImage
-          ? '<div class="reference-audit-market-media reference-audit-reference-media"><img src="' + esc(referenceImage) + '" alt="参考样本图 · 两侧当前未见" loading="eager" decoding="async" /></div>'
+        image
+          ? '<div class="reference-audit-market-media ' + (observedImage ? '' : 'reference-audit-reference-media') + '"><img src="' + esc(image) + '" alt="' + (observedImage ? '当前相关观察 · 非样本同款 · 第一张主图' : '参考样本图 · 两侧当前未见') + '" loading="eager" decoding="async" /></div>'
           : '<div class="reference-audit-market-media reference-audit-market-media-missing">两侧当前未见</div>',
         '<small>' + esc(label) + '</small>',
-        '<span class="reference-audit-reference-label">参考样本图 · 两侧当前未见</span>',
+        '<span class="reference-audit-reference-label">' + esc(observedImage ? '当前相关观察 · 非样本同款' : '参考样本图 · 两侧当前未见') + '</span>',
         '<b>状态：' + esc(stateText) + '</b>',
         '<strong>' + heading + '</strong>',
         evidence,
