@@ -253,7 +253,8 @@
         "observed_at": "2026-09-15T12:00:16+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01XvUrci1XK59jkqafe_!!6000000002904-2-tps-1050-1050.png_790x10000.jpg_.webp"
+        "image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp",
+        "image_state": "reference_only"
       },
       "reference_image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp"
     },
