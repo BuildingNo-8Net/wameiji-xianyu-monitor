@@ -644,7 +644,7 @@
       "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
       "wameiji": {
         "title": "魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON",
-        "version_evidence": "详情页标题与商品介绍确认《魔法使いの夜》初回限定仕様原声CD；商品状态“接近未使用”，说明为为导入电脑曾开封一次。与闲鱼样本同作品/初回形态，但该页是原声CD条目，不把它直接当成闲鱼3CD盒完整同版。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页面，未出现商品标题、价格或主图；保留历史链接与字段，但标记源站无图，不能继续把历史图片当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 3999,
@@ -653,7 +653,8 @@
         "observed_at": "2026-09-21T11:25:15Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg",
+        "image_state": "source_no_image"
       },
       "xianyu": {
         "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
@@ -3948,7 +3949,7 @@
       "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
       "wameiji": {
         "title": "魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON",
-        "version_evidence": "详情页标题与商品介绍确认《魔法使いの夜》初回限定仕様原声CD；商品状态“接近未使用”，说明为为导入电脑曾开封一次。与闲鱼样本同作品/初回形态，但该页是原声CD条目，不把它直接当成闲鱼3CD盒完整同版。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页面，未出现商品标题、价格或主图；保留历史链接与字段，但标记源站无图，不能继续把历史图片当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 3999,
@@ -3957,7 +3958,8 @@
         "observed_at": "2026-09-21T11:25:15Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m78526639907_1.jpg",
+        "image_state": "source_no_image"
       },
       "xianyu": {
         "title": "魔法使之夜 原声集 初回限定版 OST 3CD BOX",
