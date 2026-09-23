@@ -468,16 +468,23 @@
     const item = pair && typeof pair === "object" ? pair : {};
     const japaneseSource = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
     const xianyuEvidence = String(item.xianyu && item.xianyu.version_evidence || "");
+    const wameijiEvidence = String(japaneseSource.version_evidence || "");
+    const combinedEvidence = xianyuEvidence + " " + wameijiEvidence;
     const historicalMismatch = item.same_product_verified === false
       || /历史错配|不是同一商品|不能当作单卷同款|附件不一致|不作同 SKU/.test(xianyuEvidence);
-    const currentEvidenceUnavailable = /未加载|无法重新确认|未能确认/.test(xianyuEvidence);
+    const currentEvidenceUnavailable = /未加载|无法重新确认|未能确认|重定向至.*login|跨境商品请前往/.test(combinedEvidence);
+    const auditLabel = currentEvidenceUnavailable
+      ? "当前证据受阻 · 已打开核验"
+      : historicalMismatch
+        ? "已人工核验 · 历史错配"
+        : "已人工核验 · 观察记录";
     const sourceHost = String(japaneseSource.marketplace_host || "日本来源");
     const japaneseLabel = japaneseSource.is_wameiji_platform
       ? "挖煤姬进货侧"
       : "日本来源侧 · " + sourceHost + "（待挖煤姬复核）";
     return [
       '<article class="reference-audit-pair">',
-        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · 待逐件核验</div>',
+        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · ' + auditLabel + '</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY", "xianyu"),
           referenceAuditCenterMarkup(
@@ -669,7 +676,7 @@
       const caveats = [];
       if (unavailableCount) caveats.push("当前证据未加载 " + unavailableCount + " 条");
       if (mismatchCount) caveats.push("历史错配 " + mismatchCount + " 条");
-      pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条待逐件核验记录" + (caveats.length ? "（" + caveats.join("；") + "）" : "") + "（不是达标机会）";
+      pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条已逐条打开记录" + (caveats.length ? "（" + caveats.join("；") + "）" : "") + "；仍需逐件确认版本、成色与附件（不是达标机会）";
     }
     if (pairList) {
       pairList.innerHTML = pairs.length

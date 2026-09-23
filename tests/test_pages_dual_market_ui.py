@@ -92,6 +92,8 @@ def test_homepage_exposes_the_full_reference_audit_queue_separately_from_profit_
     assert "双侧实物观察" in javascript
     assert "日本来源侧" in javascript
     assert "待挖煤姬复核" in javascript
+    assert "已人工核验 · 观察记录" in javascript
+    assert "待逐件核验</div>" not in javascript
 
 
 def test_homepage_keeps_unprofitable_dual_listings_in_the_observation_queue() -> None:
@@ -271,7 +273,7 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260923-reference-analysis-v1" in homepage
+    assert "discovery-ui.js?v=20260923-reference-analysis-v2" in homepage
     assert "styles/kuro.css?v=20260923-reference-analysis-v1" in homepage
 
 
