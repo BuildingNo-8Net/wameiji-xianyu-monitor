@@ -428,8 +428,10 @@
   }
 
   function referenceAuditCenterMarkup(xianyu, wameiji, label, note) {
-    const sale = Number(xianyu && xianyu.price);
-    const purchase = Number(wameiji && wameiji.price);
+    const saleRaw = xianyu && xianyu.price;
+    const purchaseRaw = wameiji && wameiji.price;
+    const sale = saleRaw === null || saleRaw === undefined || saleRaw === "" ? NaN : Number(saleRaw);
+    const purchase = purchaseRaw === null || purchaseRaw === undefined || purchaseRaw === "" ? NaN : Number(purchaseRaw);
     const rate = displayJpyCnyRate();
     const saleKnown = Number.isFinite(sale) && sale >= 0;
     const purchaseKnown = Number.isFinite(purchase) && purchase >= 0 && Number.isFinite(rate) && rate > 0;
