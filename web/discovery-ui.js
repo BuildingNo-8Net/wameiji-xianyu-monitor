@@ -676,14 +676,17 @@
         pair && pair.xianyu && pair.xianyu.version_evidence,
         pair && pair.wameiji && pair.wameiji.version_evidence,
       ].filter(Boolean).join(" ");
-      const unavailableCount = pairs.filter((pair) => /未加载|无法重新确认|未能确认|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核/.test(evidenceText(pair))).length;
+      const unavailablePattern = /未加载|无法重新确认|未能确认|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核/;
+      const unavailableCount = pairs.filter((pair) => unavailablePattern.test(evidenceText(pair))).length;
+      const fullyUnavailableCount = pairs.filter((pair) => [pair && pair.xianyu, pair && pair.wameiji].every((source) => source && unavailablePattern.test(String(source.version_evidence || "")))).length;
       const noImageCount = pairs.filter((pair) => [
         pair && pair.xianyu,
         pair && pair.wameiji,
       ].some((source) => source && source.image_state === "source_no_image")).length;
       const mismatchCount = pairs.filter((pair) => /历史错配|不是同一商品/.test(evidenceText(pair))).length;
       const caveats = [];
-      if (unavailableCount) caveats.push("当前证据未加载 " + unavailableCount + " 条");
+      if (unavailableCount) caveats.push("一侧当前证据受阻 " + unavailableCount + " 条");
+      if (fullyUnavailableCount) caveats.push("两侧当前均未见 " + fullyUnavailableCount + " 条");
       if (noImageCount) caveats.push("源站未提供主图 " + noImageCount + " 条");
       if (mismatchCount) caveats.push("历史错配 " + mismatchCount + " 条");
       pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条已逐条打开记录" + (caveats.length ? "（" + caveats.join("；") + "）" : "") + "；仍需逐件确认版本、成色与附件（不是达标机会）";
