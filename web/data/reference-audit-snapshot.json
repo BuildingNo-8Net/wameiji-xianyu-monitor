@@ -1272,9 +1272,10 @@
     {
       "reference_product_id": 59,
       "stable_key": "sample:c3a5cdc3aadaf30946559bb963866a16e4bef5c4365308e0e667f3f5ff1bec62",
+      "same_product_verified": false,
       "wameiji": {
         "title": "【未開封】Fate/EXTELLA LINK PSVITA プレミアム限定版",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：Fate/EXTELLA LINK PSVITA Premium Limited Edition，未使用，价格1,000日元、日本国内运费卖家承担、代购手续费200日元、4~7日发货、有物流保障；页面标注航空禁运。说明确认游戏软件与原声 CD 套装均为新品未开封；与闲鱼样本限定版附件需继续逐项核对。",
+      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬页确认 PSVITA Premium Limited Edition 未使用、游戏与原声CD均未开封、1,000 JPY；但未证明闲鱼侧所写尼禄皮肤特典券码仍存在或可用，因此不把两侧当作附件完全一致的同款利润匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 1000,
@@ -1283,7 +1284,8 @@
         "observed_at": "2026-09-21T04:21:41Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m89963971298_1.jpg"
+      "image_url": "https://static.mercdn.net/item/detail/orig/photos/m89963971298_1.jpg",
+      "relation_note": "游戏本体与原声CD已核到；尼禄皮肤券码状态未知，需人工补证。"
       },
       "xianyu": {
         "title": "命运之夜Fate/Extella Link附特典尼禄皮肤装备",
