@@ -743,18 +743,19 @@
       "reference_product_id": 30,
       "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
       "wameiji": {
-        "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬原链接当前只加载通用页，未出现商品标题、价格或主图；此前历史记录本身已标注不支持该商品，且与样本形态不一致，保留链接作审计线索并标记源站无图。",
+        "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト（现存替代观察）",
+      "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原挖煤姬链接与样本形态不一致且显示不支持该商品；已改为当前可打开的日本 Mercari 同标题实物观察，1,999 JPY、新品未使用、可购买，第一张主图已加载。挖煤姬代理对该条仍有限制，因此这里保留直接 Mercari 链接作为现存替代，不把它当作挖煤姬可购买库存。",
         "catalog_no": null,
         "barcode": null,
         "price": 1999,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35393534313030323139362f",
-        "observed_at": "2026-09-22T17:02:04+08:00",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-      "image_url": "https://img06.mokaki.cn/thumb/item/webp/m59541002196_1.jpg?1772349556",
-        "image_state": "observed_main_image"
+        "source_url": "https://jp.mercari.com/item/m59541002196",
+        "observed_at": "2026-09-24T10:45:00+08:00",
+        "marketplace_host": "jp.mercari.com",
+        "is_wameiji_platform": false,
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m59541002196_1.jpg?1772349556",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "xianyu": {
         "title": "历史错配（非样本）：Broccoli ゆずソフト D賞-④ 卡盒",
@@ -1539,17 +1540,18 @@
       "same_product_verified": false,
       "wameiji": {
         "title": "【中古】同人音楽CDソフト 自棄酒金魚掬い / 犬丸芝居小屋",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，页面显示“不支持该商品”，未出现标题、价格、库存或主图；保留 YKS-001 与历史标题作审计线索，不把旧图当作当前实拍。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原挖煤姬旧链接显示“不支持该商品”，已改为当前可打开的挖煤姬代理链接。新页标题、型番 YKS-001、CD+DVD 2枚组与样本完全一致，店铺卖家駿河屋メルカリ店，18,500 JPY、库存剩1件；第一张主图已在内置浏览器加载。",
         "catalog_no": null,
         "barcode": null,
         "price": 19566,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576b6b5a4341736a384b764c6f414772333735622f",
-        "observed_at": "2026-09-21T01:51:19Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f6a4b793251596755346d48776f747436596359774542",
+        "observed_at": "2026-09-24T10:25:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
+        "image_state": "current_related_image",
+        "state": "replacement_related",
+        "image_url": "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress"
       },
       "xianyu": {
         "title": "自棄酒金魚掬い 犬丸芝居小屋 滚苹果专辑",
@@ -1765,17 +1767,18 @@
       "same_product_verified": false,
       "wameiji": {
         "title": "milet made of glass CD+Blu-ray 新品未開封",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，页面显示“没有找到相关商品”，无标题、价格、库存或主图；保留历史标题仅作审计线索，不视为当前在售实物证据。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原挖煤姬旧链接显示“没有找到相关商品”，已换成当前可打开的挖煤姬在售替代观察。新页标题为“【新品未開封】milet made of glass CD+Blu-ray”，11,500 JPY，未使用、可立即购买；第一张主图已在内置浏览器加载。替代链接与原样本同专辑、同 CD+Blu-ray 形态，不把它直接视为利润达标机会。",
         "catalog_no": null,
         "barcode": null,
-        "price": 12222,
+        "price": 11500,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333637373039353635392f",
-        "observed_at": "2026-09-23T09:10:00Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3537313539373633363432",
+        "observed_at": "2026-09-24T10:35:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m23677095659_1.jpg"
+        "image_state": "current_related_image",
+        "state": "replacement_related",
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m57159763642_1.jpg?1789916086"
       },
       "xianyu": {
         "title": "milet 全新原创专辑 Made of Glass 初回生产限定盘 CD+BD / CD+2DVD",
@@ -3302,17 +3305,19 @@
         "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m34135105020_1.jpg?1786081996"
       },
       "xianyu": {
-        "title": "罪恶王冠主题曲 My Dearest CD+DVD 初回限定盘",
-        "version_evidence": "2026-09-22 18:05（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当时只显示标题“罪恶王冠主题曲 My Dearest cd+dvd初回限定盘”，详情正文、价格、图片和库存没有呈现；当时无法核对 CD+DVD、卡牌、应募券或成色。保留旧记录 144 CNY 作为历史观察，不把它当作当前可购买证据。19:20（+08:00）再次打开同一链接，详情已加载但商品已下架：144 CNY 包邮、3人想要、187浏览；标题为 My Dearest CD+DVD 初回限定盘，描述明确无侧封、带卡牌和应募券、盘面完美。因页面标注“已下架”，不视为当前可购买机会。2026-09-23 00:49（+08:00）人工 Chrome/IAB 再次打开同一详情页：当前仍显示 144 CNY 包邮、3 人想要、188 浏览，标题/描述仍明确 CD+DVD 初回限定、无侧封、带卡牌和应募券、盘面完美，但页面继续标注“已下架”；维持历史观察，不视为当前机会。2026-09-23 01:54（+08:00）再次人工打开同一详情页，页面显示 144 CNY 包邮、3 人想要、189 浏览，正文列出 My Dearest 及 8 首曲目，明确无侧封、带卡牌和应募券、盘面完美；页面仍标注“已下架”，不视为当前可购买机会。",
+        "title": "日版 CD+DVD 楪祈 罪恶王冠 supercell My Dearest（现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原闲鱼链接仍标注已下架，已换成同曲目、同为日版 CD+DVD 初回限定盘的当前在售替代观察。当前页标题为“日版CD+DVD 楪祈 罪恶王冠 supercell My Dearest(初回生産限定盤)(DVD付) 拆封 带卡片 贴纸贴在盒子上面了”，88 CNY；第一张主图已在内置浏览器直接打开。替代链接用于补齐当前图片与链接，不等同原 SKU，也不直接视为利润达标机会。",
         "catalog_no": null,
         "barcode": null,
-        "price": 144,
+        "price": 88,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1037357615567&categoryId=126864811",
-        "observed_at": "2026-09-23T01:54:38+08:00",
+        "source_url": "https://www.goofish.com/item?id=1080173000956&categoryId=126864811",
+        "observed_at": "2026-09-24T10:15:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01SGB4Gx1baoDw284jA_!!4611686018427382138-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2215724649178/O1CN01rEFiY8dc8nD2vH2e_!!4611686018427382490-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/123-8eca2b4954af65dc.webp"
     },
@@ -5089,17 +5094,18 @@
       "same_product_verified": false,
       "wameiji": {
         "title": "【中古】同人音楽CDソフト 自棄酒金魚掬い / 犬丸芝居小屋",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，页面显示“不支持该商品”，未出现标题、价格、库存或主图；保留 YKS-001 与历史标题作审计线索，不把旧图当作当前实拍。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原挖煤姬旧链接显示“不支持该商品”，已改为当前可打开的挖煤姬代理链接。新页标题、型番 YKS-001、CD+DVD 2枚组与样本完全一致，店铺卖家駿河屋メルカリ店，18,500 JPY、库存剩1件；第一张主图已在内置浏览器加载。",
         "catalog_no": null,
         "barcode": null,
         "price": 19566,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a576b6b5a4341736a384b764c6f414772333735622f",
-        "observed_at": "2026-09-21T01:51:19Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f6a4b793251596755346d48776f747436596359774542",
+        "observed_at": "2026-09-24T10:25:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JWkkZBJD5rdnxNYG7V5jw.webp@jpg"
+        "image_state": "current_related_image",
+        "state": "replacement_related",
+        "image_url": "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress"
       },
       "xianyu": {
         "title": "自棄酒金魚掬い 犬丸芝居小屋 滚苹果专辑",
@@ -5343,17 +5349,18 @@
       "same_product_verified": false,
       "wameiji": {
         "title": "milet made of glass CD+Blu-ray 新品未開封",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开原挖煤姬链接，页面显示“没有找到相关商品”，无标题、价格、库存或主图；保留历史标题仅作审计线索，不视为当前在售实物证据。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原挖煤姬旧链接显示“没有找到相关商品”，已换成当前可打开的挖煤姬在售替代观察。新页标题为“【新品未開封】milet made of glass CD+Blu-ray”，11,500 JPY，未使用、可立即购买；第一张主图已在内置浏览器加载。替代链接与原样本同专辑、同 CD+Blu-ray 形态，不把它直接视为利润达标机会。",
         "catalog_no": null,
         "barcode": null,
-        "price": 12222,
+        "price": 11500,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32333637373039353635392f",
-        "observed_at": "2026-09-23T09:10:00Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3537313539373633363432",
+        "observed_at": "2026-09-24T10:35:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m23677095659_1.jpg"
+        "image_state": "current_related_image",
+        "state": "replacement_related",
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m57159763642_1.jpg?1789916086"
       },
       "xianyu": {
         "title": "milet 全新原创专辑 Made of Glass 初回生产限定盘 CD+BD / CD+2DVD",
@@ -6876,17 +6883,16 @@
         "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m34135105020_1.jpg?1786081996"
       },
       "xianyu": {
-        "title": "罪恶王冠主题曲 My Dearest CD+DVD 初回限定盘",
-        "version_evidence": "2026-09-22 18:05（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当时只显示标题“罪恶王冠主题曲 My Dearest cd+dvd初回限定盘”，详情正文、价格、图片和库存没有呈现；当时无法核对 CD+DVD、卡牌、应募券或成色。保留旧记录 144 CNY 作为历史观察，不把它当作当前可购买证据。2026-09-23 01:54（+08:00）再次人工打开同一详情页，页面显示 144 CNY 包邮、3 人想要、189 浏览，正文列出 My Dearest 及 8 首曲目，明确无侧封、带卡牌和应募券、盘面完美；页面仍标注“已下架”，不视为当前可购买机会。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 144,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1037357615567&categoryId=126864811",
-        "observed_at": "2026-09-23T01:54:38+08:00",
+        "title": "日版 CD+DVD 楪祈 罪恶王冠 supercell My Dearest（现存替代观察）",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原闲鱼链接仍标注已下架，已换成同曲目、同为日版 CD+DVD 初回限定盘的当前在售替代观察。当前页标题为“日版CD+DVD 楪祈 罪恶王冠 supercell My Dearest(初回生産限定盤)(DVD付) 拆封 带卡片 贴纸贴在盒子上面了”，88 CNY；第一张主图已在内置浏览器直接打开。替代链接用于补齐当前图片与链接，不等同原 SKU，也不直接视为利润达标机会。",
+        "price": 88,
+        "source_url": "https://www.goofish.com/item?id=1080173000956&categoryId=126864811",
+        "observed_at": "2026-09-24T10:15:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01SGB4Gx1baoDw284jA_!!4611686018427382138-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2215724649178/O1CN01rEFiY8dc8nD2vH2e_!!4611686018427382490-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/123-8eca2b4954af65dc.webp"
     },
