@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-23T03:04:00+08:00",
+  "generated_at": "2026-09-24T12:05:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧记录仅表示两端商品证据已被打开并保留；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧观察、11 条单边观察均已逐条打开；登录受阻、下架、售出、图片为样图或版本未锁定的情况已在卡片中单独标注。",
   "summary": {
@@ -137,14 +137,14 @@
       "reference_product_id": 5,
       "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
       "wameiji": {
-        "title": "サクラノ詩 初回限定版",
-        "version_evidence": "挖煤姬 Rakuma 搜索卡明确出现「サクラノ詩 初回限定版」，标价 8,000 JPY；为搜索卡证据，尚未进入可复核详情页，附件与成色未核验。",
+        "title": "サクラノ詩 ~櫻の森の上を舞う~ 10th Anniversary Edition",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 打开挖煤姬现存 Mercari 详情页：サクラノ詩 10th Anniversary Edition，19,410 JPY，未使用，页面可加入购物车/立即购买；4 张碟、追加剧本/音乐和特典册。与闲鱼初回限定版的版本和附件不同，仅作同作品双侧实物观察，不作同版利润证明。",
         "catalog_no": null,
         "barcode": null,
-        "price": 8000,
+        "price": 19410,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/search?fid=all&sid=&keywords=%E3%82%B5%E3%82%AF%E3%83%A9%E3%83%8E%E8%A9%A9%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88&sort=default&identity=all&seller=%5B%22%22%5D",
-        "observed_at": "2026-09-19T07:14:59Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a546a516b4664326b5348466d4d6d6570643867422f",
+        "observed_at": "2026-09-22T17:45:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTjQkEZuWtwLhYfKfYasc.jpg@jpg"
@@ -760,17 +760,19 @@
         "state": "replacement_related"
       },
       "xianyu": {
-        "title": "历史错配（非样本）：Broccoli ゆずソフト D賞-④ 卡盒",
-        "version_evidence": "2026-09-22 17:16（+08:00）人工 Chrome/IAB 复核：样本图片是柚子社 RJ 盒子；此前闲鱼记录却是 Broccoli ゆずソフト D赏-④ 千恋*万花卡盒，属于不同商品形态。该旧记录保留作历史审计，但不再作为样本 #30 当前闲鱼对应物，也不计入双侧机会。",
+        "title": "柚子社 RIDDLE JOKER 设定集（同系列替代观察）",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼现售页：RIDDLE JOKER 设定集，3.50 CNY；与样本午餐垫不是同一商品形态，明确标注为同系列替代观察，不计入同款或利润判断。",
         "catalog_no": null,
         "barcode": null,
-        "price": 50,
+        "price": 3.5,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E6%9F%9A%E5%AD%90%E7%A4%BE%20%E5%9C%A8%E5%8E%9F%E4%B8%83%E6%B5%B7%20%E4%B8%9B%E9%9B%A8%20%E8%8C%89%E5%AD%90%20%E8%95%BE%E5%A8%9C%20%E7%9B%92%E5%AD%90",
-        "observed_at": "2026-09-22T17:16:16+08:00",
+        "source_url": "https://www.goofish.com/item?id=997446339847&categoryId=202036301",
+        "observed_at": "2026-09-23T03:15:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4011246583/O1CN01KTQPmxa39WB2R3n2_!!4611686018427380727-0-xy_item.jpg_450x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/3383198852/O1CN01ASECAD2FGH58t9Cx2_!!4611686018427380868-53-xy_item.heic_450x10000Q90.jpg_.webp",
+        "image_state": "current_related_image",
+        "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/30-d626a72b6c446739.webp"
     },
@@ -1920,13 +1922,13 @@
       },
       "xianyu": {
         "title": "EGOIST GREATEST HITS 2011-2017 ALTER EGO 完全生产限定 CD+Blu-ray+狗牌",
-        "version_evidence": "2026-09-22 18:17（+08:00）人工 Chrome/IAB 再次打开闲鱼原详情链接，页面标题仍为“EGOIST GREATEST HITS 2011－2017”，相关推荐中持续出现 ALTER EGO 完全生产限定版本；但详情正文、价格、库存和图片区仍未加载，当前无法重新确认 CD+Blu-ray、狗牌、侧封或白色收纳盒。保留旧记录 650 CNY 作为历史观察，不把它当作当前可购买证据。19:23（+08:00）改用原记录搜索链接复核，搜索结果正常加载1页，出现多条同版卡片：650 CNY（完全生产限定、CD+Blu-ray、狗牌、全新未拆、有侧封、东西齐全）、600 CNY及660 CNY同版卡；这些是当前搜索结果线索，尚未进入具体详情页，继续保留为待详情核验，不把卡片直接当作完整实物证据。2026-09-23 00:57（+08:00）人工 Chrome/IAB 再次打开原详情链接，当前仅显示站点壳、卖家头像和相关推荐，未加载目标商品标题、正文、价格、库存或图片；维持当前证据未加载，不把推荐卡片当作精确现货。",
+        "version_evidence": "2026-09-23 02:07（+08:00）人工 Chrome/IAB 打开闲鱼具体详情页：650 CNY 包邮、7 人想要、845 浏览；标题为 EGOIST GREATEST HITS 2011－2017 ALTER EGO 完全生产限定 CD+Blu-ray+狗牌，描述写明狗牌全新未拆、有侧封、东西齐全。与挖煤姬 VVCL-1148 完全生产限定 CD+Blu-ray 对应，仍需核对跨境成本，不直接等同正利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 650,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=EGOIST%20GREATEST%20HITS%202011-2017%20ALTER%20EGO%20%E5%AE%8C%E5%85%A8%E7%94%9F%E4%BA%A7%E9%99%90%E5%AE%9A",
-        "observed_at": "2026-09-22T11:23:00Z",
+        "source_url": "https://www.goofish.com/item?id=932642096275&categoryId=126864811",
+        "observed_at": "2026-09-23T02:07:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2215513133422/O1CN01kYbCRK1b9KUI7ejK4_!!4611686018427384174-53-xy_item.heic_Q90.jpg_.webp"
@@ -2670,7 +2672,7 @@
         "price": 15800,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fneobest%2F4988002948420%2F",
-        "observed_at": "2026-09-23T12:35:00+08:00",
+        "observed_at": "2026-09-24T11:42:00+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://shop.r10s.jp/neobest/cabinet/shohin/10952852/4988002948420.jpg",
@@ -2679,17 +2681,17 @@
       },
       "xianyu": {
         "title": "星野源 Gen 生产限定 透明彩胶 180g 2LP",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼搜索页，页面停留在“加载中...”且未显示任何商品卡或价格；当前没有可确认的星野源《Gen》在售条目，旧价格与图片仅作历史线索，不视为当前可购买证据。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开闲鱼具体详情页：最后现货♥星野源Gen黑胶2LP全新未拆生产限定版透明胶黑胶，399 CNY 包邮，7 人想要、614 浏览，页面有立即购买；描述为 2025-12 发行、透明胶 180g 重量盘 2LP。与挖煤姬 VIJL-60366/7 方向对应，但品番仍需跨侧核对，不直接等同正利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 399,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E6%98%9F%E9%87%8E%E6%BA%90%20Gen%20%E9%BB%91%E8%83%B6%20%E9%80%8F%E6%98%8E%E8%83%B6%202LP%20180g",
+        "source_url": "https://www.goofish.com/item?id=981734274914&categoryId=202061902",
         "observed_at": "2026-09-23T12:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01zw7ol31eTt3opgAe1_!!4611686018427383601-0-fleamarket.jpg_Q90.jpg_.webp",
-        "image_state": "observed_main_image",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01Pyj5YW24f2iEg2FjH_!!4611686018427385545-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "current_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
@@ -2942,18 +2944,18 @@
         "same_product_verified": false
       },
       "xianyu": {
-        "title": "Ado WORLD TOUR 2025 Hibana 初回限定蓝光 全新未拆",
-        "version_evidence": "2026-09-23 18:24（+08:00）人工 Chrome/IAB 打开记录中的闲鱼搜索链接：结果页共1页，出现多条 Ado WORLD TOUR 2025 Hibana 初回限定2BD线索，当前可见约40–585 CNY（含全新未拆/埼玉超级竞技场&奥兰多等描述），但不是单一详情页，无法把某一条的价格、库存或主图归属于原样本；保留为当前搜索线索，不视为已核实的单件现货。",
+        "title": "全新现货 Ado Hibana WORLD TOUR 2025 初回限定盘",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开闲鱼具体详情页：活动价 550–580 CNY 包邮，2 人想要、222 浏览；日版初回限定 2BD，埼玉超级竞技场&奥兰多两场实录，未拆封，页面有立即购买。与挖煤姬 TYXT-19045 方向对应，但品番与跨境成本仍需核对，不直接等同正利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
+        "price": 550,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=Ado%20WORLD%20TOUR%202025%20Hibana%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%20Blu-ray",
-        "observed_at": "2026-09-23T18:24:00+08:00",
+        "source_url": "https://www.goofish.com/item?id=1047649063786&categoryId=0",
+        "observed_at": "2026-09-24T11:50:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2846067622/O1CN01AIY9fZ26Avx4KAcbG_!!4611686018427382694-53-xy_item.heic_Q90.jpg_.webp",
-        "image_state": "observed_main_image",
+        "image_state": "current_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/111-4b9d9eceb4d07631.webp"
@@ -3352,7 +3354,7 @@
       },
       "xianyu": {
         "title": "国现 无刺/有刺 トゲナシトゲアリ Girls Band Cry 黑胶 1专2专 完全生产限定盘",
-        "version_evidence": "2026-09-22 18:06（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当时仅显示标题“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”和卖家信息，详情正文、价格、成色及库存没有呈现；当时无法核对 UMJK-9162、贴纸或 289 CNY。保留旧记录 289 CNY 作为历史观察，不把它当作当前可购买证据。19:20（+08:00）再次打开原搜索链接，搜索结果已加载，共3页；出现多条棘ナシ/棘アリ黑胶相关商品，价格约264、292、308、349、350 CNY，其中有“棘ナシ完全限定生产、附赠贴纸”条目，但均为搜索结果卡片，未能确认原记录对应的具体商品、UMJK-9162品番或库存，继续作为搜索观察而非精确匹配。2026-09-23 01:57（+08:00）人工 Chrome/IAB 打开记录中的具体详情链接，页面已加载商品：289 CNY 包邮、62 浏览；标题为“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”，格式 LP 黑胶唱片、2 枚，说明为《棘ナシ》完全生产限定模拟唱片并附封面图案贴纸，页面有立即购买。页面正文同时含代购税费/运费另行补款规则，UMJK-9162 品番和实际成色仍需与挖煤姬侧核对，不直接视为达标利润机会。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开闲鱼具体详情页：289 CNY 包邮、63 浏览，标题为“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”，页面有立即购买；正文明确 2LP、附《棘ナシ》唱片封面图案贴纸及代购税费/运费另补规则。与挖煤姬 UMJK-9162 方向对应，但品番和成色仍需跨侧核对，不直接等同正利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 289,
@@ -3361,7 +3363,9 @@
         "observed_at": "2026-09-23T01:57:09+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01ZP7WBCxnKDI3th7A_!!4611686018427384413-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01fo4W4J1KHiFbeRXex_!!4611686018427385075-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "current_main_image",
+        "detail_source_url": "https://www.goofish.com/item?id=1038997634344&categoryId=0"
       },
       "reference_image_url": "assets/reference-samples/124-104ad8079b2b1674.webp"
     },
@@ -6268,18 +6272,18 @@
         "same_product_verified": false
       },
       "xianyu": {
-        "title": "现货 星野源 Gen 限定版 黑胶 LP 黑胶唱片 日版首版初回",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 打开闲鱼搜索页，页面停留在“加载中...”且未显示任何商品卡或价格；当前没有可确认的星野源《Gen》在售条目，旧价格与图片仅作历史线索，不视为当前可购买证据。",
+        "title": "最后现货♥星野源Gen黑胶2LP全新未拆生产限定版透明胶黑胶",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开闲鱼具体详情页：最后现货♥星野源Gen黑胶2LP全新未拆生产限定版透明胶黑胶，399 CNY 包邮，7 人想要、614 浏览，页面有立即购买；描述为 2025-12 发行、透明胶 180g 重量盘 2LP。与挖煤姬 VIJL-60366/7 方向对应，但品番仍需跨侧核对，不直接等同正利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": 659,
+        "price": 399,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E6%98%9F%E9%87%8E%E6%BA%90%20Gen%20%E9%BB%91%E8%83%B6%20%E9%80%8F%E6%98%8E%E8%83%B6%202LP%20180g",
-        "observed_at": "2026-09-23T12:35:00+08:00",
+        "source_url": "https://www.goofish.com/item?id=981734274914&categoryId=202061902",
+        "observed_at": "2026-09-24T11:42:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01zw7ol31eTt3opgAe1_!!4611686018427383601-0-fleamarket.jpg_Q90.jpg_.webp",
-        "image_state": "observed_main_image",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01Pyj5YW24f2iEg2FjH_!!4611686018427385545-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "current_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/103-cb00b6c6cd5b63e0.webp"
@@ -6532,17 +6536,17 @@
       },
       "xianyu": {
         "title": "全新现货 Ado Hibana WORLD TOUR 2025 初回限定盘",
-        "version_evidence": "2026-09-23 18:24（+08:00）人工 Chrome/IAB 打开闲鱼原记录对应的搜索链接：结果页共1页，出现多条 Ado WORLD TOUR 2025 Hibana 初回限定2BD线索，当前可见约40–585 CNY（含全新未拆/埼玉超级竞技场&奥兰多等描述），但不是单一详情页，无法把某一条的价格、库存或主图归属于原样本；保留为当前搜索线索，不视为已核实的单件现货。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开闲鱼具体详情页：活动价 550–580 CNY 包邮，2 人想要、222 浏览；日版初回限定 2BD，埼玉超级竞技场&奥兰多两场实录，未拆封，页面有立即购买。与挖煤姬 TYXT-19045 方向对应，但品番与跨境成本仍需核对，不直接等同正利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
+        "price": 550,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1047649063786&categoryId=0",
-        "observed_at": "2026-09-23T18:24:00+08:00",
+        "observed_at": "2026-09-24T11:50:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2846067622/O1CN01AIY9fZ26Avx4KAcbG_!!4611686018427382694-53-xy_item.heic_Q90.jpg_.webp",
-        "image_state": "observed_main_image",
+        "image_state": "current_main_image",
         "same_product_verified": false
       },
       "reference_image_url": "assets/reference-samples/111-4b9d9eceb4d07631.webp"
@@ -6936,7 +6940,7 @@
       },
       "xianyu": {
         "title": "无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费",
-        "version_evidence": "2026-09-22 18:06（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当时仅显示标题“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”和卖家信息，详情正文、价格、成色及库存没有呈现；当时无法核对 UMJK-9162、贴纸或 289 CNY。保留旧记录 289 CNY 作为历史观察，不把它当作当前可购买证据。2026-09-23 01:57（+08:00）人工 Chrome/IAB 打开同一具体详情链接，页面已加载商品：289 CNY 包邮、62 浏览；标题为“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”，格式 LP 黑胶唱片、2 枚，说明为《棘ナシ》完全生产限定模拟唱片并附封面图案贴纸，页面有立即购买。页面正文同时含代购税费/运费另行补款规则，UMJK-9162 品番和实际成色仍需与挖煤姬侧核对，不直接视为达标利润机会。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开闲鱼具体详情页：289 CNY 包邮、63 浏览，标题为“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”，页面有立即购买；正文明确 2LP、附《棘ナシ》唱片封面图案贴纸及代购税费/运费另补规则。与挖煤姬 UMJK-9162 方向对应，但品番和成色仍需跨侧核对，不直接等同正利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 289,
@@ -6945,7 +6949,9 @@
         "observed_at": "2026-09-23T01:57:09+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01ZP7WBCxnKDI3th7A_!!4611686018427384413-0-mtopupload.jpg_110x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/O1CN01fo4W4J1KHiFbeRXex_!!4611686018427385075-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "current_main_image",
+        "detail_source_url": "https://www.goofish.com/item?id=1038997634344&categoryId=0"
       },
       "reference_image_url": "assets/reference-samples/124-104ad8079b2b1674.webp"
     },
