@@ -7045,7 +7045,7 @@
       "stable_key": "sample:617fc2dbd5580cf7da5b8f46224ee5b7d333dd1e69acc84da0726dfbb3d941e8",
       "available_market": "xianyu",
       "missing_market": "wameiji",
-      "counterpart_state": "search_only",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "[等待官方补货]Whiterium Laur2025春m3新专 专辑CD",
         "version_evidence": "2026-09-22 21:04（+08:00）人工 Chrome/IAB 打开闲鱼具体详情页：标题为[等待官方补货]Whiterium Laur2025春m3新专 专辑CD；价格126.80 CNY；页面显示43人想要、2448浏览、可直拍；明确为非现货，拍下后预计12-25天内到货，存储介质为CD，标签含同人音乐/hardcore。2026-09-23 02:29（+08:00）人工 Chrome/IAB 在挖煤姬以“Whiterium Laur 2025 春 M3 CD”精确检索，结果页明确“已经按照原文进行搜索”并显示“暂无数据”，没有 Mercari 同版专辑；继续作为闲鱼单边主要观察对象，不伪装成双侧找到。",
@@ -7060,19 +7060,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01s7g1j629NFOsAQO5z_!!4611686018427382103-0-fleamarket.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/7-617fc2dbd5580cf7.webp",
-      "counterpart_candidate": {
-        "title": "未见同款：[等待官方补货]Whiterium Laur2025春m3新专 专辑CD",
-        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬「Whiterium」检索，结果仅为无关商品（void tRrLM、日用品、服装等），未见 Laur/Whiterium 同人 CD；不把近似结果冒充同款，保留为闲鱼单边主要观察对象。",
+      "wameiji": {
+        "title": "【CD】Whiterium / Laur (Last Labyrinth)",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开挖煤姬具体详情页，标题为【CD】Whiterium / Laur (Last Labyrinth)，页面明确显示“价格 已售出”和“售罄”；商品介绍写明 Whiterium / Laur (Last Labyrinth)、2025-04-27 发布，保留当前售出页与第一张主图用于样本核验，不作为当前可购买或利润证据。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/search?keywords=%5B%E7%AD%89%E5%BE%85%E5%AE%98%E6%96%B9%E8%A1%A5%E8%B4%A7%5DWhiterium%20Laur2025%E6%98%A5m3%E6%96%B0%E4%B8%93%20%E4%B8%93%E8%BE%91CD",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3931313539353437313937",
+        "observed_at": "2026-09-24T12:22:04+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_state": "current_sold_image",
+        "image_url": "https://image03.doorzo.net/item/detail/orig/photos/m91159547197_1.jpg",
+        "state": "current_sold_image",
+        "relation_note": "挖煤姬页与闲鱼样本同为 Whiterium / Laur 作品，但该页已售罄；保留真实售出页和主图，不计算当前利润。"
+      },
+      "counterpart_candidate": {
+        "title": "已售同款：Whiterium / Laur (Last Labyrinth)",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 先重开挖煤姬关键词检索未见在售同版，再通过 Mercari 原站检索并打开挖煤姬详情页，确认存在同为 Whiterium / Laur (Last Labyrinth) 的已售实物；售罄页和第一张主图已单独保留，不能作为当前可购买或利润证据。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": null,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3931313539353437313937",
         "observed_at": "2026-09-24T12:20:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "state": "search_only",
-        "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+        "state": "current_sold_image",
+        "image_state": "current_sold_image",
+        "image_url": "https://image03.doorzo.net/item/detail/orig/photos/m91159547197_1.jpg",
+        "relation_note": "已验证同作品实物但页面已售罄；不计算当前利润。"
     }
     },
     {
@@ -7450,7 +7468,7 @@
       "stable_key": "sample:24d2cce2c61c113f8625bee4d0754a4039dd2e4f30e170a697bd782695630977",
       "available_market": "xianyu",
       "missing_market": "wameiji",
-      "counterpart_state": "search_only",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "nerdneko CURE 初音未来 一专-四专 正版全新 有侧 包邮",
         "version_evidence": "2026-09-22 人工 Chrome/IAB 打开闲鱼详情页确认：标题为 nerdneko CURE 初音未来；一专-四专；正版全新、有侧、包邮；价格区间135-160 CNY，当前按一专记录135 CNY；页面显示7人想要、213浏览，可立即购买。2026-09-23 02:51（+08:00）人工 Chrome/IAB 在挖煤姬以「nerdneko CURE 初音未来 一专 二专 三专 四专 CD」精确检索，结果仅见 NiOver 同人音乐 CD 等无关条目，没有 nerdneko CURE 一至四专实体套装；不把泛初音/同人CD当匹配，继续保留为闲鱼单边主要观察对象。",
@@ -7465,19 +7483,37 @@
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/4033685196/O1CN01yywCk71oFp76CDdV0_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/41-24d2cce2c61c113f.webp",
-      "counterpart_candidate": {
-        "title": "未见同款：nerdneko CURE 初音未来 一专-四专 正版全新 有侧 包邮",
-        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬「nerdneko CURE」检索，结果仅为无关猫/服装/杂项商品，未见 nerdneko CURE 初音未来实体专辑；不把泛初音或同人 CD 冒充同款，保留为闲鱼单边主要观察对象。",
+      "wameiji": {
+        "title": "Nerdneko - CURE ミクゲイザー名盤1st 廃盤CD",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开挖煤姬具体详情页，标题为 Nerdneko - CURE ミクゲイザー名盤1st 廃盤CD，页面明确显示“价格 已售出”和“售罄”；商品介绍写明 Nerdneko 1st album、2022 年发行且曲目含 CURE，保留当前售出页与第一张主图用于样本核验，不作为当前可购买或利润证据。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/search?keywords=nerdneko%20CURE%20%E5%88%9D%E9%9F%B3%E6%9C%AA%E6%9D%A5%20%E4%B8%80%E4%B8%93-%E5%9B%9B%E4%B8%93%20%E6%AD%A3%E7%89%88%E5%85%A8%E6%96%B0%20%E6%9C%89%E4%BE%A7%20%E5%8C%85%E9%82%AE",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3135343837373134353135",
+        "observed_at": "2026-09-24T12:22:04+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_state": "current_sold_image",
+        "image_url": "https://image03.doorzo.net/item/detail/orig/photos/m15487714515_1.jpg",
+        "state": "current_sold_image",
+        "relation_note": "挖煤姬页是 Nerdneko CURE 一专的真实售出页，与闲鱼侧同作品/同一专辑方向；并非一至四专整套，不计算当前利润。"
+      },
+      "counterpart_candidate": {
+        "title": "已售相关实物：Nerdneko - CURE ミクゲイザー名盤1st 廃盤CD",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 先重开挖煤姬关键词检索未见在售同版，再通过 Mercari 原站检索并打开挖煤姬详情页，确认 Nerdneko CURE 一专已售实物；商品介绍含 CURE 曲目且为 2022 年发行，售罄页和第一张主图已保留，不能冒充一至四专整套或当前利润机会。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": null,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6974656d2f6d3135343837373134353135",
         "observed_at": "2026-09-24T12:22:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "state": "search_only",
-        "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+        "state": "current_sold_image",
+        "image_state": "current_sold_image",
+        "image_url": "https://image03.doorzo.net/item/detail/orig/photos/m15487714515_1.jpg",
+        "relation_note": "已验证 CURE 一专实物但页面已售罄，且不是一至四专整套；不计算当前利润。"
       }
     }
   ],
