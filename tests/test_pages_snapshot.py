@@ -788,7 +788,8 @@ def test_all_reference_audit_cards_have_a_local_reference_image() -> None:
     for record in records:
         relative_path = record["reference_image_url"]
         assert relative_path.startswith("assets/reference-samples/")
-        assert (Path("web/data") / relative_path).is_file()
+        # The JSON value is a site-root-relative URL, not a path relative to the JSON file.
+        assert (Path("web") / relative_path).is_file()
 
 
 def test_unavailable_cards_keep_both_market_links_and_reference_evidence() -> None:
