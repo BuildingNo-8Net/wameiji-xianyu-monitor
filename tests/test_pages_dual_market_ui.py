@@ -716,6 +716,14 @@ if (!mismatched.includes("120.00 CNY") || !mismatched.includes("4.38 CNY")) {{
 if (mismatched.includes("115.62 CNY") || mismatched.includes("91.62 CNY")) {{
   throw new Error("unverified pairs must not display a synthetic spread or net value");
 }}
+const noSellableXianyu = referenceAuditCenterMarkup(
+  {{ price: null }}, {{ price: 13800 }}, "非卖品展示", "闲鱼不在售", false
+);
+if (!noSellableXianyu.includes("闲鱼侧无可售价格")
+  || !noSellableXianyu.includes("挖煤姬报价仅作观察参考")
+  || noSellableXianyu.includes("两侧挂牌价分别保留")) {{
+  throw new Error("a non-sale listing must not claim that both sides have usable prices");
+}}
 const comparable = referenceAuditCenterMarkup(
   {{ price: 120 }}, {{ price: 99 }}, "同版本样本", "同一商品已核验", true
 );
