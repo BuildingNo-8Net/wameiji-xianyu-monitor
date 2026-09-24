@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T06:47:00+08:00",
+  "generated_at": "2026-09-25T06:55:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
   "summary": {
@@ -448,32 +448,35 @@
     {
       "reference_product_id": 16,
       "stable_key": "sample:d580264c560ec284bc4c396afd45d4739bfd1f225eba2726520e7a2f798fd1ce",
+      "same_product_verified": true,
+      "relation_note": "2026-09-25 人工内置浏览器重开两侧详情并核对首图：两边标题均为Kanon AIR Piano Arrange Album Re-feel，封面视觉一致，可确认同一专辑方向；挖煤姬标题标“带腰带/obi”，2000 JPY，标签显示无明显损伤但卖家描述另称CD盒前面有划痕，且未用CD机测试播放；闲鱼120 CNY、126浏览，描述称中古、已拆封、状态良好、可正常播放，但未提及是否含obi。附件（obi）在闲鱼侧未确认，状态/播放测试也不等价；只记作同专辑观察，不代表可比成色或利润成立。",
       "wameiji": {
         "title": "●帯付き Kanon AIR Piano Arrange Album Re-feel",
-        "version_evidence": "人工Chrome/IAB挖煤姬详情页：●帯付き Kanon AIR Piano Arrange Album Re-feel；店铺卖家商品，2,000日元；页面说明带腰带，外壳有伤，因无CD播放器未确认播放。",
+        "version_evidence": "2026-09-25 人工内置浏览器重开当前详情：●帯付き Kanon AIR Piano Arrange Album Re-feel，2,000 JPY（页面约89 CNY）；标题称带obi，商品说明称CD播放器不在手边、未测试播放，CD盒前面有划痕。页面标签“没有明显的损伤或污渍”与说明存在差异，以具体划痕说明为准；店铺卖家，日本国内运费卖家承担，代购手续费200 JPY，物流保障有。首张商品图封面与闲鱼对应专辑一致。",
         "catalog_no": null,
         "barcode": null,
         "price": 2000,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a566b53726a523271554841384c4e745a39725a6e2f",
-        "observed_at": "2026-09-21T07:07:27Z",
+        "observed_at": "2026-09-24T22:55:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/-/large/plain/2JVkSjDtHo9itxYCU46dok.jpg@jpg"
+        "image_url": "https://imghk.doorzo.net/-/large/plain/2JVkSjDtHo9itxYCU46dok.jpg@jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "Kanon AIR Piano Arrange Album Re-feel（日版中古·现存替代观察）",
-        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原闲鱼链接已下架；改用现存闲鱼详情 https://www.goofish.com/item?id=1074105638308&categoryId=126864811，标题为 Kanon AIR Piano Arrange Album Re-feel Key社 key sounds label OST 日版CD 中古品，120 CNY，首张主图已在浏览器页面核验。该条是同标题替代观察，成色/附件与原下架样本不等同，不用于原样本利润核算。",
+        "version_evidence": "2026-09-25 人工内置浏览器重开当前详情：https://www.goofish.com/item?id=1074105638308&categoryId=126864811；标题“Kanon AIR Piano Arrange Album Re-feel Key社 key sounds label OST 日版CD”，120 CNY、126浏览。详情称中古、已拆封、状态良好、可正常播放，明确存储介质为CD；未说明是否带obi。首张商品图与挖煤姬同一专辑封面相符。该链接仍是现存替代观察，不是原样本旧链接对应的当前库存；不推断附件相同或成色等价。",
         "catalog_no": null,
         "barcode": null,
         "price": 120,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1074105638308&categoryId=126864811",
-        "observed_at": "2026-09-24T10:00:00+08:00",
+        "observed_at": "2026-09-25T06:55:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2208072923154/O1CN01gLpLA8Leg8J3thGS_!!4611686018427385874-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "current_related_image",
+        "image_state": "observed_first_gallery_image",
         "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/16-d580264c560ec284.webp"
@@ -3975,32 +3978,35 @@
     {
       "reference_product_id": 16,
       "stable_key": "sample:d580264c560ec284bc4c396afd45d4739bfd1f225eba2726520e7a2f798fd1ce",
+      "same_product_verified": true,
+      "relation_note": "2026-09-25 人工内置浏览器重开两侧详情并核对首图：两边标题均为Kanon AIR Piano Arrange Album Re-feel，封面视觉一致，可确认同一专辑方向；挖煤姬标题标“带腰带/obi”，2000 JPY，标签显示无明显损伤但卖家描述另称CD盒前面有划痕，且未用CD机测试播放；闲鱼120 CNY、126浏览，描述称中古、已拆封、状态良好、可正常播放，但未提及是否含obi。附件（obi）在闲鱼侧未确认，状态/播放测试也不等价；只记作同专辑观察，不代表可比成色或利润成立。",
       "wameiji": {
         "title": "●帯付き Kanon AIR Piano Arrange Album Re-feel",
-        "version_evidence": "人工Chrome/IAB挖煤姬详情页：●帯付き Kanon AIR Piano Arrange Album Re-feel；店铺卖家商品，2,000日元；页面说明带腰带，外壳有伤，因无CD播放器未确认播放。",
+        "version_evidence": "2026-09-25 人工内置浏览器重开当前详情：●帯付き Kanon AIR Piano Arrange Album Re-feel，2,000 JPY（页面约89 CNY）；标题称带obi，商品说明称CD播放器不在手边、未测试播放，CD盒前面有划痕。页面标签“没有明显的损伤或污渍”与说明存在差异，以具体划痕说明为准；店铺卖家，日本国内运费卖家承担，代购手续费200 JPY，物流保障有。首张商品图封面与闲鱼对应专辑一致。",
         "catalog_no": null,
         "barcode": null,
         "price": 2000,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a566b53726a523271554841384c4e745a39725a6e2f",
-        "observed_at": "2026-09-21T07:07:27Z",
+        "observed_at": "2026-09-24T22:55:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/-/large/plain/2JVkSjDtHo9itxYCU46dok.jpg@jpg"
+        "image_url": "https://imghk.doorzo.net/-/large/plain/2JVkSjDtHo9itxYCU46dok.jpg@jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "Kanon AIR Piano Arrange Album Re-feel（日版中古·现存替代观察）",
-        "version_evidence": "2026-09-24 人工 Chrome/IAB 检索原样本关键词后，原闲鱼链接已下架；改用现存闲鱼详情 https://www.goofish.com/item?id=1074105638308&categoryId=126864811，标题为 Kanon AIR Piano Arrange Album Re-feel Key社 key sounds label OST 日版CD 中古品，120 CNY，首张主图已在浏览器页面核验。该条是同标题替代观察，成色/附件与原下架样本不等同，不用于原样本利润核算。",
+        "version_evidence": "2026-09-25 人工内置浏览器重开当前详情：https://www.goofish.com/item?id=1074105638308&categoryId=126864811；标题“Kanon AIR Piano Arrange Album Re-feel Key社 key sounds label OST 日版CD”，120 CNY、126浏览。详情称中古、已拆封、状态良好、可正常播放，明确存储介质为CD；未说明是否带obi。首张商品图与挖煤姬同一专辑封面相符。该链接仍是现存替代观察，不是原样本旧链接对应的当前库存；不推断附件相同或成色等价。",
         "catalog_no": null,
         "barcode": null,
         "price": 120,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1074105638308&categoryId=126864811",
-        "observed_at": "2026-09-24T10:00:00+08:00",
+        "observed_at": "2026-09-25T06:55:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2208072923154/O1CN01gLpLA8Leg8J3thGS_!!4611686018427385874-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "current_related_image",
+        "image_state": "observed_first_gallery_image",
         "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/16-d580264c560ec284.webp"
