@@ -753,6 +753,87 @@ def test_published_reference_audit_keeps_direct_images_and_links_for_observed_si
                     assert side["image_url"].startswith("https://")
 
 
+def test_sample_17_non_sale_display_price_is_not_treated_as_a_sellable_quote() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    pair = next(
+        record for record in payload["dual_observed_pairs"]
+        if record["reference_product_id"] == 17
+    )
+
+    assert pair["same_product_verified"] is False
+    assert pair["xianyu"]["price"] is None
+    assert "非卖品" in pair["relation_note"]
+    assert "不比较" in pair["relation_note"]
+
+
+def test_sample_18_bundle_vs_single_volume_is_not_a_same_sku_comparison() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    pair = next(
+        record for record in payload["dual_observed_pairs"]
+        if record["reference_product_id"] == 18
+    )
+
+    assert pair["same_product_verified"] is False
+    assert pair["wameiji"]["price"] == 19299
+    assert "4张CD合售" in pair["relation_note"]
+    assert "单独第三卷" in pair["relation_note"]
+    assert "不能按同SKU或利润机会比较" in pair["relation_note"]
+
+
+def test_sample_19_vol11_replacement_is_not_mislabeled_as_vol14() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    pair = next(
+        record for record in payload["dual_observed_pairs"]
+        if record["reference_product_id"] == 19
+    )
+
+    assert pair["same_product_verified"] is False
+    assert "Vol.11" in pair["xianyu"]["title"]
+    assert "vol.14" in pair["wameiji"]["title"].lower()
+    assert "原Vol.14链接已删除" in pair["relation_note"]
+    assert "不可混成同刊价差或利润比较" in pair["relation_note"]
+
+
+def test_sample_20_matching_virtual_maiden_drama_cd_is_kept_as_observation() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    pair = next(
+        record for record in payload["dual_observed_pairs"]
+        if record["reference_product_id"] == 20
+    )
+
+    assert pair["same_product_verified"] is True
+    assert pair["xianyu"]["state"] == "replacement_current"
+    assert pair["xianyu"]["price"] == 400
+    assert pair["wameiji"]["price"] == 3200
+    assert "名称和封套" in pair["relation_note"]
+    assert "不将状态差异" in pair["relation_note"]
+
+
+def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    pair = next(
+        record for record in payload["dual_observed_pairs"]
+        if record["reference_product_id"] == 21
+    )
+
+    assert pair["same_product_verified"] is True
+    assert pair["xianyu"]["price"] == 193
+    assert pair["wameiji"]["price"] == 2799
+    assert "24首配乐" in pair["relation_note"]
+    assert "具体选项" in pair["relation_note"]
+    assert "不把页面标价差视为实际利润" in pair["relation_note"]
+
+
 def test_single_and_unavailable_records_keep_manual_browser_evidence_labels() -> None:
     """Every non-dual record must identify its manual browser evidence source."""
     payload = json.loads(
