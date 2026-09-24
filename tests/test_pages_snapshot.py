@@ -747,7 +747,10 @@ def test_published_reference_audit_keeps_direct_images_and_links_for_observed_si
             side = record.get(market)
             if side is not None:
                 assert side["source_url"].startswith("https://")
-                assert side["image_url"].startswith("https://")
+                if side.get("image_state") in {"source_no_image", "first_gallery_image_link_unverified", "reference_only", "no_verified_item_photo"}:
+                    assert side.get("image_url") is None
+                else:
+                    assert side["image_url"].startswith("https://")
 
 
 def test_single_and_unavailable_records_keep_manual_browser_evidence_labels() -> None:
