@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T05:45:00+08:00",
+  "generated_at": "2026-09-25T06:47:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
   "summary": {
@@ -412,32 +412,35 @@
     {
       "reference_product_id": 15,
       "stable_key": "sample:5630f456531b04a9d23d69dc721d4e98835ec0546cb987022baacc8438e2c9e9",
+      "same_product_verified": false,
+      "relation_note": "2026-09-25 人工内置浏览器重新核验两侧当前详情与首图：均为Rewrite初回限定版方向，首图封面视觉相符；挖煤姬明确为Windows PC游戏并列出腰带、特典卡×2、挂件、广播CD、改编专辑、替换外盒封面、官方书及本体，页面成色未使用但卖家称拍摄时已开封；闲鱼标题为日版Rewrite初回限定版，标价268元包邮、几乎全新/有原袋，描述称内容全。闲鱼未列品番与完整附件清单，附件一致性、精确SKU与成色等价均未交叉确认；仅记为同版本候选观察，不作确定同款或利润机会。",
       "wameiji": {
         "title": "【新品未開封】Rewrite リライトPC用ゲーム 初回限定版",
-        "version_evidence": "人工Chrome/IAB挖煤姬详情页：Rewrite リライトPC用ゲーム 初回限定版；5,800日元；Windows PC游戏，含腰带、特典卡、挂件、广播CD、改编专辑、官方书及本体。卖家说明为拍摄照片已开封但未使用的新品，页面成色未使用。",
+        "version_evidence": "2026-09-25 人工内置浏览器重开当前详情：Rewrite PC用游戏初回限定版，5,800 JPY（页面约257 CNY），Windows PC游戏；描述列腰带、特典卡×2、挂件、广播CD、改编专辑、替换外盒封面、官方书及游戏本体。页面成色标“未使用”，描述同时称拍摄时已开封但未使用；日本国内运费卖家承担、代购手续费200 JPY、无物流保障。首张商品图为Rewrite封面，商品页提示图片可能与实物不同。",
         "catalog_no": null,
         "barcode": null,
         "price": 5800,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35323536353031343133302f",
-        "observed_at": "2026-09-21T07:06:26Z",
+        "observed_at": "2026-09-24T22:47:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m52565014130_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m52565014130_1.jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "Rewrite 罚抄 初回限定版 日版 key社",
-        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：标题“Rewrite 罚抄 初回限定版 日版 key社”，价格268 CNY包邮，描述带原包装盒、内容全、保存很新；首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此这里明确标为同系列当前替代观察，不冒充原链接的精确库存。",
+        "version_evidence": "2026-09-25 人工内置浏览器重新打开当前详情：标题“Rewrite 罚抄 初回限定版 日版 key社”，268 CNY包邮、1人想要/265浏览；描述称带原包装盒、内容全、保存很新，页面成色“几乎全新”、原袋状态“有原袋”，但类目显示“收纳盒”。首张商品图为Rewrite封面，与挖煤姬首图视觉相符。页面未列品番或逐项附件清单；此链接是当前同版本候选替代观察，不代表原样本链接对应库存，也不足以确认精确SKU/附件或成色等价。",
         "catalog_no": null,
         "barcode": null,
         "price": 268,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.705e72afvrnbG8&id=1078370489115&categoryId=126860296",
-        "observed_at": "2026-09-24T10:00:00+08:00",
+        "observed_at": "2026-09-25T06:47:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/2213941510788/O1CN01IpWImVFsqhI1pITk_!!4611686018427380356-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "current_related_image",
+        "image_state": "observed_first_gallery_image",
         "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/15-5630f456531b04a9.webp"
@@ -3936,32 +3939,35 @@
     {
       "reference_product_id": 15,
       "stable_key": "sample:5630f456531b04a9d23d69dc721d4e98835ec0546cb987022baacc8438e2c9e9",
+      "same_product_verified": false,
+      "relation_note": "2026-09-25 人工内置浏览器重新核验两侧当前详情与首图：均为Rewrite初回限定版方向，首图封面视觉相符；挖煤姬明确为Windows PC游戏并列出腰带、特典卡×2、挂件、广播CD、改编专辑、替换外盒封面、官方书及本体，页面成色未使用但卖家称拍摄时已开封；闲鱼标题为日版Rewrite初回限定版，标价268元包邮、几乎全新/有原袋，描述称内容全。闲鱼未列品番与完整附件清单，附件一致性、精确SKU与成色等价均未交叉确认；仅记为同版本候选观察，不作确定同款或利润机会。",
       "wameiji": {
         "title": "【新品未開封】Rewrite リライトPC用ゲーム 初回限定版",
-        "version_evidence": "人工Chrome/IAB挖煤姬详情页：Rewrite リライトPC用ゲーム 初回限定版；5,800日元；Windows PC游戏，含腰带、特典卡、挂件、广播CD、改编专辑、官方书及本体。卖家说明为拍摄照片已开封但未使用的新品，页面成色未使用。",
+        "version_evidence": "2026-09-25 人工内置浏览器重开当前详情：Rewrite PC用游戏初回限定版，5,800 JPY（页面约257 CNY），Windows PC游戏；描述列腰带、特典卡×2、挂件、广播CD、改编专辑、替换外盒封面、官方书及游戏本体。页面成色标“未使用”，描述同时称拍摄时已开封但未使用；日本国内运费卖家承担、代购手续费200 JPY、无物流保障。首张商品图为Rewrite封面，商品页提示图片可能与实物不同。",
         "catalog_no": null,
         "barcode": null,
         "price": 5800,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d35323536353031343133302f",
-        "observed_at": "2026-09-21T07:06:26Z",
+        "observed_at": "2026-09-24T22:47:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m52565014130_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m52565014130_1.jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "Rewrite 罚抄 初回限定版 日版 key社",
-        "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：标题“Rewrite 罚抄 初回限定版 日版 key社”，价格268 CNY包邮，描述带原包装盒、内容全、保存很新；首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此这里明确标为同系列当前替代观察，不冒充原链接的精确库存。",
+        "version_evidence": "2026-09-25 人工内置浏览器重新打开当前详情：标题“Rewrite 罚抄 初回限定版 日版 key社”，268 CNY包邮、1人想要/265浏览；描述称带原包装盒、内容全、保存很新，页面成色“几乎全新”、原袋状态“有原袋”，但类目显示“收纳盒”。首张商品图为Rewrite封面，与挖煤姬首图视觉相符。页面未列品番或逐项附件清单；此链接是当前同版本候选替代观察，不代表原样本链接对应库存，也不足以确认精确SKU/附件或成色等价。",
         "catalog_no": null,
         "barcode": null,
         "price": 268,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.705e72afvrnbG8&id=1078370489115&categoryId=126860296",
-        "observed_at": "2026-09-24T10:00:00+08:00",
+        "observed_at": "2026-09-25T06:47:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/2213941510788/O1CN01IpWImVFsqhI1pITk_!!4611686018427380356-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "current_related_image",
+        "image_state": "observed_first_gallery_image",
         "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/15-5630f456531b04a9.webp"
