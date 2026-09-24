@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T12:05:00+08:00",
+  "generated_at": "2026-09-25T05:45:00+08:00",
   "mode": "reference_audit_snapshot",
-  "disclaimer": "双侧记录仅表示两端商品证据已被打开并保留；未证明同版本、同成色、同附件、成本完整或正利润，不能当作达标机会。当前 112 条双侧观察、11 条单边观察均已逐条打开；登录受阻、下架、售出、图片为样图或版本未锁定的情况已在卡片中单独标注。",
+  "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
   "summary": {
     "reference_product_count": 125,
     "both_found_count": 104,
@@ -43,218 +43,256 @@
     {
       "reference_product_id": 1,
       "stable_key": "sample:a9d90f12e9ca56db33bf8d0cbec691301de16049652c9f7abbe3aa1145e97cc2",
+      "same_product_verified": false,
+      "relation_note": "两侧均与TUYU/礼衣特典方向相关，但闲鱼只写泛称“礼衣 tuyu特典”并标CD；挖煤姬指向《やっぱり雨は降るんだね》Animate特典音乐CD。首图封套图案明显不同，且无品番/特典清单可证明同SKU；不得合并为同款利润卡。",
       "wameiji": {
         "title": "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典 音楽 CD",
-        "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬详情页：TUYU「やっぱり雨は降るんだね」礼衣/Animate特典音乐CD；当前页面价格6,631日元（约295 CNY），店铺卖家，成色“没有明显的损伤或污渍”，日本国内运费卖家承担并可加入购物车。与闲鱼样本“礼衣 tuyu特典”标题一致，配件细节仍以图片/说明为准。",
-        "catalog_no": "SQEX-11185",
+        "version_evidence": "2026-09-24 人工内置浏览器重开详情页：TUYU《やっぱり雨は降るんだね》礼衣/Animate特典音乐CD，当前6,631 JPY，店铺卖家、页面成色“没有明显的损伤或污渍”、卖家承担日本国内运费，商品图片为3张；可见首图是蓝发人物插画。描述仅要求查看卖家主页与图片，没有列明特典清单/品番。闲鱼当前详情为“礼衣 tuyu特典”CD、150 CNY包邮、102浏览、全新未拆封，首图为剪影封套实拍；详情只标出CD，没有品番或特典清单。两侧作品/特典方向相近但首图、成色不同，未核实具体品番及特典内容，保留为观察记录，不宣称同SKU或利润匹配。",
+        "catalog_no": null,
         "barcode": null,
         "price": 6631,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f43435454774233584e45685738466a4e546e7755694b2f",
-        "observed_at": "2026-09-22T09:20:00Z",
+        "observed_at": "2026-09-24T00:00:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/hAKEAoC896BipW3MFHc767.jpg@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/hAKEAoC896BipW3MFHc767.jpg@jpg",
+        "image_state": "observed_main_image"
       },
       "xianyu": {
         "title": "礼衣 tuyu特典",
-        "version_evidence": "2026-09-22 17:25（+08:00）人工 Chrome/IAB 打开闲鱼详情页：标题“礼衣 tuyu特典”，价格 150 CNY 包邮，明确“全新未拆封”，标签含礼衣/专辑/CD/日版；与挖煤姬礼衣 Animate 特典 CD 同目标。配件细节仍以图片和说明为准。",
+        "version_evidence": "2026-09-24 人工内置浏览器重新打开闲鱼原链接：标题“礼衣 tuyu特典”，150 CNY包邮、103浏览，页面明确“全新未拆封”，标签含礼衣/专辑/CD/日版；首图为剪影封套实拍，详情只显示存储介质CD，未给品番或特典清单。与挖煤姬具体《やっぱり雨は降るんだね》特典商品封套图案不同，不能判同SKU。",
         "catalog_no": null,
         "barcode": null,
         "price": 150,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1071313464471",
-        "observed_at": "2026-09-22T17:25:40+08:00",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4033685196/O1CN0197ZDR71oFp77B7VDw_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4033685196/O1CN0197ZDR71oFp77B7VDw_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_main_image"
       },
       "reference_image_url": "assets/reference-samples/1-a9d90f12e9ca56db.webp"
     },
     {
       "reference_product_id": 2,
       "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
+      "same_product_verified": false,
+      "relation_note": "挖煤姬当前为《Under Mentality》初回限定CD+BD，闲鱼已换为仍在售的同作品日版专辑（详情只标CD，未证明初回/BD版）；仅作相关观察，不是同SKU，不可比较利润。旧CD+BD闲鱼链接已售，保留在历史核验说明中。",
       "wameiji": {
         "title": "ツユ アンダーメンタリティ CD Blu-ray 初回限定盤 ピアノアレンジcd",
-        "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬详情页：初回限定 CD+Blu-ray + 钢琴编曲CD；当前18,999日元（约844 CNY），二手但页面标注没有明显损伤污渍，日本国内运费卖家承担、代购手续费300日元、预计4~7日发货，可加入购物车并立即购买。说明明确无杯垫、曾播放数次、纸箱背面有撕胶污渍；与闲鱼样本的版本/附件差异继续保留为核验项。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开挖煤姬具体详情页并核验首张在售商品图：标题为ツユ《アンダーメンタリティ》初回限定CD+Blu-ray，说明另写附钢琴编曲CD、明确无杯垫；二手、无明显损伤污渍，18,999日元（页面约840 CNY），卖家承担日本国内运费、代购手续费300日元，4~7日发货，页面可加入购物车/立即购买。与闲鱼链接的附件及现售状态不可直接等同。",
         "catalog_no": null,
         "barcode": null,
         "price": 18999,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32303034333531383737382f",
-        "observed_at": "2026-09-22T09:45:00Z",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m20043518778_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m20043518778_1.jpg",
+        "image_state": "observed_main_image",
+        "state": "found"
       },
       "xianyu": {
-        "title": "TUYU（ツユ）3rd专辑 Under Mentality 初回限定 BD蓝光版",
-        "version_evidence": "初回限定 CD+BD蓝光+画册+三方背硬盒; 全套配件; 几乎全新; 标价800元包邮",
+        "title": "ツユ tuyu アンダーメンタリティ 日版专辑全新未拆稀少",
+        "version_evidence": "2026-09-25 04:04 人工通过闲鱼站内检索并打开当前详情：标题《ツユ tuyu アンダーメンタリティ 日版专辑全新未拆稀少》，¥390包邮，1人想要、237浏览，页面显示可立即购买；商品介质栏只写CD，标题/描述称9.5新日版专辑，未列初回限定、BD、画册或杯垫，不能认定为挖煤姬初回CD+BD同款。页面首张主图直链已核验。原链接《TUYU Under Mentality 初回限定 BD蓝光版》曾列CD、BD、画册、三方背硬盒，¥790包邮、3人想要/186浏览，但当前已售；仅保留作历史证据，不计入现货/利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": 800,
+        "price": 390,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1080956335537",
-        "observed_at": "2026-09-14T16:50:34Z",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.8.5094ad299glr7v&id=1077380058162&categoryId=126864811",
+        "observed_at": "2026-09-25T04:04:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2476367223/O1CN01lJWsnuqWHMG2BxNI_!!4611686018427387255-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3985592079/O1CN01CQs1o2FtxNG3thAe_!!4611686018427383567-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/2-2ae7664bc8f011ce.webp"
     },
     {
       "reference_product_id": 4,
       "stable_key": "sample:2ab9b3aa29d6a05cfaaf3b6497f8ba709e3fbd135fb92451f5ae383cc3312334",
+      "same_product_verified": true,
+      "relation_note": "两侧均明确为MADOSOFT《ハミダシクリエイティブ凸》初回版，闲鱼首图与挖煤姬首图呈现相同封面图案；商品版本可对应。成色不同（闲鱼全新未拆，挖煤姬店铺未使用），利润比较仍按各自当前页面价格与费用计算。",
       "wameiji": {
         "title": "【特価商品】ハミダシクリエイティブ凸 初回版",
-        "version_evidence": "挖煤姬详情人工复核（2026-09-22）：标题为《ハミダシクリエイティブ凸 初回版》；店铺卖家、未使用、卖家承担日本国内运费、无物流保障；页面可加入购物车/立即购买，描述列出天梨路线及初回版内容。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重新核验具体挖煤姬商品：标题《ハミダシクリエイティブ凸 初回版》，店铺卖家、未使用、10,762日元（页面约476 CNY），日本国内运费卖家承担，代购手续费300日元、无物流保障；页面可加入购物车/立即购买，说明列出新增天梨路线及主要女主新剧情。首张主图与闲鱼封面图案相同。",
         "catalog_no": null,
         "barcode": null,
         "price": 10762,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4d6a62484c4e577a4e6d71554a5173796b6461662f",
-        "observed_at": "2026-09-21T17:40:09Z",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image02.doorzo.net/-/large/plain/2JMjb7zca6Cq8Vwg8JZjxP.jpg@jpg"
+        "image_url": "https://image02.doorzo.net/-/large/plain/2JMjb7zca6Cq8Vwg8JZjxP.jpg@jpg",
+        "image_state": "observed_main_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "灵感满溢的甜蜜创想凸 初回版",
-        "version_evidence": "闲鱼详情标题为灵感满溢的甜蜜创想凸初回版，明确madosoft/窗社、全新未拆、正版初回限定，500 CNY包邮。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开闲鱼原链接：标题《灵感满溢的甜蜜创想凸 初回版》，说明明确MADOSOFT/窗社、全新未拆、正版初回限定，500 CNY包邮；当前仍显示立即购买，6人想要、650浏览。首张实物主图与挖煤姬首图封面图案相同。",
         "catalog_no": null,
         "barcode": null,
         "price": 500,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1029227800211&categoryId=126860296",
-        "observed_at": "2026-09-19T07:28:49Z",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2221084765457/O1CN01ZmFCzW1qBMSO53Nez_!!4611686018427383057-53-xy_item.heic_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2221084765457/O1CN01ZmFCzW1qBMSO53Nez_!!4611686018427383057-53-xy_item.heic_Q90.jpg_.webp",
+        "image_state": "observed_main_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/4-2ab9b3aa29d6a05c.webp"
     },
     {
       "reference_product_id": 5,
       "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
+      "same_product_verified": false,
+      "relation_note": "两侧同为《樱之诗》系列但不是同一版本或附件：闲鱼原链接已售，为初回限定版并带两张色纸/设定集，盒子有挤压痕；挖煤姬为仍售的10周年重制版，四张碟并附追加剧本/音乐和特典册。2026-09-25 闲鱼检索另见“收藏编号056”候选标价9999元，但详情触发滑块验证，库存、版本和实物图未核，不能替代已售条目或作为同SKU/利润对比。",
       "wameiji": {
         "title": "サクラノ詩 ~櫻の森の上を舞う~ 10th Anniversary Edition",
-        "version_evidence": "2026-09-22 人工 Chrome/IAB 打开挖煤姬现存 Mercari 详情页：サクラノ詩 10th Anniversary Edition，19,410 JPY，未使用，页面可加入购物车/立即购买；4 张碟、追加剧本/音乐和特典册。与闲鱼初回限定版的版本和附件不同，仅作同作品双侧实物观察，不作同版利润证明。",
+        "version_evidence": "2026-09-24 人工内置浏览器重开挖煤姬 Mercari 详情：サクラノ詩 10th Anniversary Edition，19,410 JPY（约858 CNY），店铺卖家、未使用、日本国内运费卖家承担、手续费300 JPY、无物流保障，页面可加入购物车/立即购买；说明列出4张碟、追加剧本/新音乐及10周年特典册。画廊1张，首图为该条目页面图；平台提示图片可能与实物有差异。与闲鱼已售初回限定版不是相同版本/附件，不能做同款利润比较。",
         "catalog_no": null,
         "barcode": null,
         "price": 19410,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a546a516b4664326b5348466d4d6d6570643867422f",
-        "observed_at": "2026-09-22T17:45:00+08:00",
+        "observed_at": "2026-09-24T11:54:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTjQkEZuWtwLhYfKfYasc.jpg@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTjQkEZuWtwLhYfKfYasc.jpg@jpg",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "［急出］枕社 樱之诗 初回限定版 带两张色纸和设定集",
-        "version_evidence": "闲鱼详情与实拍：樱之诗初回限定版、带两张色纸和设定集；盒子有挤压痕。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开原闲鱼详情：标题为《樱之诗》初回限定版，带两张色纸和设定集、盒子有挤压痕；标价480 CNY、4人想要/905浏览，页面明确“卖掉了”，仅作历史价。2026-09-25 人工内置浏览器检索到标题“枕社 樱之诗 初回限定版 收藏编号056 限定款 正版周边 带原包装”的搜索卡片，标价9999元，卡片主图可见；打开已知详情链接 https://www.goofish.com/item?id=1084719238003&categoryId=126860296 后出现滑块验证，未绕过。候选是否仍在售、是否为样本同版、卡片图是否为实物均未核实，因此未替换原已售记录，也未将候选图当作当前首图。",
         "catalog_no": null,
         "barcode": null,
-        "price": 500,
+        "price": 480,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
-        "observed_at": "2026-09-15T14:35:15Z",
+        "search_source_url": "https://www.goofish.com/search?q=%E6%9E%95%E7%A4%BE%20%E6%A8%B1%E4%B9%8B%E8%AF%97%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
+        "observed_at": "2026-09-24T11:19:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "current_sold_image"
       },
       "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"
     },
     {
       "reference_product_id": 6,
       "stable_key": "sample:5262161d4824d7e693f64f7ccb05f83ec9d891902a71ce9311ae36266fc98880",
+      "same_product_verified": false,
+      "relation_note": "两侧均为 FRS001LE《现在就想告诉哥哥我是妹妹！》完全生产限定版 PC 软件，但附件完整度不同：闲鱼方明确“无原画集”，挖煤姬当前在售方列有原画集及其他印刷物；成色也分别为轻微使用痕迹与未使用。只作同版本但不完整度不同的样本观察，不作同包/同成色利润对比。",
       "wameiji": {
         "title": "いますぐお兄ちゃんに妹だっていいたい!　完全生産限定版　FRS001LE　PCソフト 未使用品",
-        "version_evidence": "2026-09-23 内置浏览器 Chrome/IAB 挖煤姬搜索后打开在售同款：FRS001LE 完全生产限定版 PC软件，4,980日元（约221 CNY），店铺卖家、未使用、可加入购物车；页面列出三张碟、主题曲CD、OP动画DVD、原画集、说明书等内容。原先 m18875535321 详情页已售出，已替换为当前在售同款。",
+        "version_evidence": "2026-09-25 05:41（内置浏览器复核）挖煤姬详情仍在售：标题为 いますぐお兄ちゃんに妹だっていいたい! 完全生産限定版 FRS001LE PC软件，4,980 JPY，店铺卖家、标未使用，可加入购物车/立即购买，卖家承担日本国内运费、手续费200 JPY、有物流保障。说明列三张未拆碟、游戏碟、主题曲CD、OP动画DVD、いま妹＆恋チョコ原画集、说明书和歌词卡；与闲鱼明确缺原画集的商品附件不同。页面首图直链单独打开核验为该商品包装实拍图。",
         "catalog_no": null,
         "barcode": null,
         "price": 4980,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a553359653636446b6d6a46796170755437626b4e2f",
-        "observed_at": "2026-09-23T14:38:08+08:00",
+        "observed_at": "2026-09-25T05:41:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTfUARaCv7LsoHBBXwMxD.jpg@jpg"
       },
       "xianyu": {
         "title": "【出】现在就想告诉哥哥我是妹妹！完全生产限定版",
-        "version_evidence": "Windows XP/Vista/7/8; 三张碟+说明书; 无原画集; 轻微使用痕迹; 300元顺丰包邮",
+        "version_evidence": "2026-09-25 05:41（内置浏览器复核）闲鱼详情仍可立即购买：标题《现在就想告诉哥哥我是妹妹！完全生产限定版》，fairy sprite/雪碧社，300 CNY包邮，2人想要/419浏览，轻微使用痕迹；正文列Windows XP/Vista/7/8、三张碟+说明书并明确无原画集。首张画廊图直链已单独打开，确认是该限定版包装正面；与挖煤姬同版本方向但此件缺原画集，附件不一致。",
         "catalog_no": null,
         "barcode": null,
         "price": 300,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1041306363872",
-        "observed_at": "2026-09-14T16:52:09Z",
+        "observed_at": "2026-09-24T11:19:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2215111880801/O1CN01ah5LK21HmuNm9HY5v_!!4611686018427383905-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+    "image_url": "https://img.alicdn.com/bao/uploaded/i3/2215111880801/O1CN01Ybgkgx1HmuNm8zYgA_!!4611686018427383905-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+    "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/6-5262161d4824d7e6.webp"
     },
     {
       "reference_product_id": 10,
       "stable_key": "sample:ad66f99c63ff08ac4aa3b4ebdc929cc1ed8d6f132701959b7ce16855b3ae3481",
+      "same_product_verified": true,
+      "relation_note": "两侧商品名均锁定 WHITE ALBUM2 Original Soundtrack -setsuna- CD，可作为同一专辑样本观察；但闲鱼为全新未拆，挖煤姬为中古(7)且缺腰封，品相附件不同。挖煤姬页声明首图可能与实物不同，不能据该图证明实物成色。",
       "wameiji": {
         "title": "ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna",
-        "version_evidence": "挖煤姬当前详情页标题为「ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna」；页面标价5,170日元，商品状态说明为中古品（7）帯欠/並，页面提供加入购物车和立即购买。与闲鱼样本 WHITE ALBUM2 Original Soundtrack ~setsuna~ CD 对应，但腰带/附件状态按挖煤姬页面单侧核验，不据此判定同款利润。",
+        "version_evidence": "2026-09-25 05:45（内置浏览器复核）挖煤姬详情仍可加入购物车/立即购买：WHITE ALBUM2 Original Soundtrack -setsuna-，5,170 JPY，店铺卖家 MANDARAKE，中古等级(7)「帯欠/並」，日本国内运费买家承担、手续费200 JPY、无物流保障，页面标记航空禁运。商品说明明确商品图为参考图；首图直链已单独打开，图面为 WHITE ALBUM2 -setsuna- 封面，保留为来源页参考图，不作为卖家实拍或附件证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 5170,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a577a4b396957417272467a32666b4669723638652f",
-        "observed_at": "2026-09-21T10:38:19Z",
+        "observed_at": "2026-09-25T05:45:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/-/large/plain/2JWzK9hTgSmowxmxDN8cJy.jpg@jpg"
+        "image_url": "https://imghk.doorzo.net/-/large/plain/2JWzK9hTgSmowxmxDN8cJy.jpg@jpg",
+        "image_state": "page_reference_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "『全新未拆』 WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS",
-        "version_evidence": "人工Chrome/IAB闲鱼详情页：WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS；日版正版、全新未拆封、存储介质CD，价格100 CNY，包邮，有立即购买。",
+        "version_evidence": "2026-09-25 05:45（内置浏览器复核）闲鱼详情标题「WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS」，当前100 CNY包邮、1人想要/234浏览；页面明确日版正版、全新未拆封、存储介质CD，仍有立即购买。首张画廊图直链单独打开核验，画面为该专辑封面实物，不是截图。",
         "catalog_no": null,
         "barcode": null,
         "price": 100,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077273672591&categoryId=126864811",
-        "observed_at": "2026-09-21T06:53:44Z",
+        "observed_at": "2026-09-25T05:45:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01z7X83V4XbMJ3thGS_!!4611686018427385681-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01z7X83V4XbMJ3thGS_!!4611686018427385681-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/10-ad66f99c63ff08ac.webp"
     },
     {
       "reference_product_id": 11,
       "stable_key": "sample:f5dd5351eb7f50c7ffaf8eb0eab2776712c5b0ea176ed01937d43b1c328a32e6",
+      "same_product_verified": true,
+      "relation_note": "两侧标题与实物首图均对应《空之境界 俯瞰风景》广播剧CD，挖煤姬详情列型番MGCG-1408；闲鱼已换为当前在售实物¥129（有侧标、盒子破损），挖煤姬¥1,400 JPY并附对谈册。闲鱼详情未证实对谈册是否齐全，成色也不同；按同一CD版本保留双侧参考，不把价差当作附件/成色一致的利润。",
       "wameiji": {
         "title": "【中古】同人ドラマCDソフト 空の境界 ドラマCD ～俯瞰風景～ / Magic・Cage",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：骏河屋メルカリ店铺卖家，型番 MGCG-1408，2002-08-09，压制 CD；为《空之境界》第一章官方语音广播剧，附奈须きのこ×虚淵玄对谈册；页面显示中古、成色“没有明显的损伤或污渍”、价格1,200日元、日本国内运费买家承担、代购手续费200日元、无物流保障。与闲鱼同人/广播剧 CD 版本和附件继续核对。",
+        "version_evidence": "2026-09-25 05:43（内置浏览器复核）挖煤姬详情仍可加入购物车/立即购买：骏河屋メルカリ店铺，型番MGCG-1408，2002-08-09压制CD；《空之境界》第一章官方语音广播剧，说明明确附奈须きのこ×虚淵玄对谈册。当前1,400 JPY，中古无明显损伤污渍，日本国内运费买家承担、手续费200 JPY、无物流保障。首图直链单独打开可加载，图为该剧CD包装封面；页面仍提示图片可能与实物不同，故只作来源页参考图。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1200,
+        "price": 1400,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f6e76515776446f564d4546596b6644575a6e736e574e2f",
-        "observed_at": "2026-09-21T04:13:24Z",
+        "observed_at": "2026-09-25T05:43:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/ZDiem2N5o2hGr8jdxLj5VV.webp@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/ZDiem2N5o2hGr8jdxLj5VV.webp@jpg",
+        "image_state": "page_reference_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "空之境界 俯瞰风景 两仪式 drama广播剧",
-        "version_evidence": "日版正版中古；2002年Magic Cage发行；无侧标；页面说明收录OP/ED/角色",
+        "version_evidence": "2026-09-25 05:43（内置浏览器复核）闲鱼当前详情《绝版稀有 日版 CD 空之境界 俯瞰风景 两仪式 drama 广播剧 有侧标 盒子烂》，129 CNY包邮、1人想要/225浏览，详情仍有“立即购买”；卖家称图片为实拍图、通常2-3天发货，D265是个人收纳编号。已看完3张图：首图为包装正面，另有包装背面与碟片/包装实物；带侧标、盒子破损。当前首图直链单独打开确认与详情图相符；未证实包含挖煤姬商品所附对谈册。",
         "catalog_no": null,
         "barcode": null,
-        "price": 130,
+        "price": 129,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1070237273564&categoryId=126864811",
-        "observed_at": "2026-09-15T12:00:16+08:00",
+        "source_url": "https://www.goofish.com/item?id=1022572554442&categoryId=126864811",
+        "observed_at": "2026-09-25T05:43:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp",
-        "image_state": "reference_only"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/3806490968/O1CN01akSR1b1J1OW0sRpFJ_!!4611686018427384152-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp"
     },
@@ -292,32 +330,38 @@
     {
       "reference_product_id": 13,
       "stable_key": "sample:ce603c1a4a257a00440c4314206d290eaae6f7c91d99a984e11ae53bd722767a",
+      "relation_note": "闲鱼三碟组合原链接已下架；挖煤姬乐天链接是规格/附件随库存变化的目录页，图片为示意图，不能当当前实物主图或完整月箱配件证据。两侧只保留标题级历史/目录观察，不计同SKU利润。",
       "same_product_verified": false,
       "wameiji": {
         "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
-        "version_evidence": "Manual Chrome/IAB Wameiji detail title matches [中古]TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜, covering the sample keywords 月姫, PLUS+DISC, and 歌月十夜. The detail explicitly says the product is used, the image is illustrative, condition and accessories vary by arrival, and limited extras are not included by title alone. Record is title-level only; do not treat it as proof of the sample three CDs, outer box, obi, or complete accessories.",
+        "version_evidence": "2026-09-24 人工内置浏览器重开挖煤姬乐天详情：标题为「【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜」，104,459 JPY（约4,618 CNY），数量1，日本国内运费0、手续费300 JPY；但页面只显示类目与标题级说明，图片明确为示意图且成色/附件随入库变化，限定特典及同捆物不保证。卖家评分3.67，页面购买按钮显示“卖家好评过低”而不可购买。只能作标题/搜索相关观察，不证明样本三碟、外盒、腰封或完整配件，也不是当前可购买同款。",
         "catalog_no": null,
         "barcode": null,
-        "price": 104459,
+        "price": null,
+        "last_observed_price": 104459,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhappystorefujioka%2Fb07d9816wh%2F",
-        "observed_at": "2026-09-21T05:35:00Z",
+        "observed_at": "2026-09-24T18:22:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image03.doorzo.net/tshopr10sjp/happystorefujioka/cabinet/26061900-4/b07d9816wh.jpg?fitin=600:600"
+        "image_url": "https://image03.doorzo.net/tshopr10sjp/happystorefujioka/cabinet/26061900-4/b07d9816wh.jpg?fitin=600:600",
+        "image_state": "page_reference_image",
+        "state": "blocked"
       },
       "xianyu": {
         "title": "TYPE-MOON 月姬，歌月十夜还有plus disc",
         "version_evidence": "页面明确列出月姬、歌月十夜、plus disc；编号 TMCD-0101 / 0103；无腰封；可打包或单出；盘面无划痕、功能正常。未提月箱外盒，不把它冒充为完整盒装。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1550,
+        "price": 1445,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1078821962730&categoryId=126860296",
-        "observed_at": "2026-09-21T05:14:08Z",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2207554449804/O1CN01fGy8OqRJu7D2BxNI_!!4611686018427384204-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2207554449804/O1CN01fGy8OqRJu7D2BxNI_!!4611686018427384204-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "not_currently_listed"
       },
       "reference_image_url": "assets/reference-samples/13-ce603c1a4a257a00.webp"
     },
@@ -586,31 +630,36 @@
       "reference_product_id": 22,
       "stable_key": "sample:f1e63661cafe1b24f9eab8cb16ec8fdd338b250bad98f12375fa023a71b68021",
       "same_product_verified": false,
+      "relation_note": "样本#22为TYPE-MOON月箱完整套装参考。原挖煤姬乐天链接与样本#13复用同一条三碟目录页，图片是示意图且规格/附件随库存变化；原闲鱼链接也与#13复用同一条已下架的无腰封三碟组合。两条旧链接均不是已核实的月箱商品，已撤出价格和商品图配对。两侧站内搜索曾出现候选，但具体详情页尚未核实；当前只保留样本参考图，不计同SKU利润。",
       "wameiji": {
-        "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
-        "version_evidence": "Manual Chrome/IAB Wameiji detail title matches [中古]TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜, covering the sample keywords 月姫, PLUS+DISC, and 歌月十夜. The detail explicitly says the product is used, the image is illustrative, condition and accessories vary by arrival, and limited extras are not included by title alone. Record is title-level only; do not treat it as proof of the sample three CDs, outer box, obi, or complete accessories.",
+        "title": "TYPE-MOON 月箱完整套装（样本参考；具体版本/商品待核）",
+        "version_evidence": "人工内置浏览器按TYPE-MOON 月箱检索，结果出现多个系列商品，但未打开并核实任何一条与参考样本的整套版本、封装和附件相符的商品详情。原复用的三碟乐天目录页规格/附件依库存变化，示意图不是本样本商品主图，已撤出错误配对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 104459,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhappystorefujioka%2Fb07d9816wh%2F",
-        "observed_at": "2026-09-21T05:35:00Z",
+        "price": null,
+        "currency": null,
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&sort=default&isStock=true&seller=%5B%22%22%5D&website=%5B%22mercari%22%5D&keywords=TYPE-MOON+%E6%9C%88%E7%AE%B1",
+        "observed_at": "2026-09-24T17:06:33Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image03.doorzo.net/tshopr10sjp/happystorefujioka/cabinet/26061900-4/b07d9816wh.jpg?fitin=600:600"
+        "image_url": null,
+        "image_state": "reference_only",
+        "state": "blocked"
       },
       "xianyu": {
-        "title": "TYPE-MOON 月姬，歌月十夜还有plus disc",
-        "version_evidence": "页面明确列出月姬、歌月十夜、plus disc；编号 TMCD-0101 / 0103；无腰封；可打包或单出；盘面无划痕、功能正常。未提月箱外盒，不把它冒充为完整盒装。",
+        "title": "TYPE-MOON 月箱完整套装（样本参考；具体版本/商品待核）",
+        "version_evidence": "人工内置浏览器按TYPE-MOON 月箱同人合集检索，结果出现多条月箱相关候选，但未打开并核实任何一条与参考样本整套版本、封装和附件相符的商品详情。原复用的闲鱼链接实际为已下架、无腰封、可拆卖的三碟组合，不是完整月箱，已撤出错误配对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1550,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1078821962730&categoryId=126860296",
-        "observed_at": "2026-09-21T05:14:08Z",
+        "price": null,
+        "currency": null,
+        "source_url": "https://www.goofish.com/search?q=TYPE-MOON%20%E6%9C%88%E7%AE%B1%20%E5%90%8C%E4%BA%BA%E5%90%88%E9%9B%86&spm=a21ybx.search.searchInput.0",
+        "observed_at": "2026-09-24T17:06:33Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2207554449804/O1CN01fGy8OqRJu7D2BxNI_!!4611686018427384204-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": null,
+        "image_state": "reference_only",
+        "state": "blocked"
       },
       "reference_image_url": "assets/reference-samples/22-f1e63661cafe1b24.webp"
     },
@@ -650,7 +699,7 @@
       "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
       "wameiji": {
         "title": "魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON",
-      "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON，价格4,800 JPY，页面显示首张主图且可购买；与闲鱼侧同为魔法使之夜初回原声集，附件/盒况仍以两侧图片核对。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON，价格4,800 JPY，页面显示首张主图且可购买；与闲鱼侧同为魔法使之夜初回原声集，附件/盒况仍以两侧图片核对。",
         "catalog_no": null,
         "barcode": null,
         "price": 4800,
@@ -713,6 +762,7 @@
       "reference_product_id": 29,
       "stable_key": "sample:ddcbc943aeb23cbafacd934dbcadbb388b9c4b4670f0171419545cdd74e8ce5f",
       "same_product_verified": false,
+      "relation_note": "参考样本标题/图像指向《FLOWERS》相关商品；挖煤姬链接是霜月遥《トロイメライ》Collection音乐CD，虽属Innocent Grey相关作品，但不是该样本的同一商品。闲鱼侧为多张OST打包价，也不能按单张/同SKU价格比较。",
       "wameiji": {
         "title": "トロイメライ 初回限定版 新品未開封 Innocent Grey 霜月はるか",
         "version_evidence": "挖煤姬具体详情页标题明确为《トロイメライ -Innocent Grey Haruka Shimotsuki Collection-》霜月はるか初回限定版；描述明确列出初回特典：オリジナルコースター2枚、特装パッケージ；商品状态未使用/新品未开封，生产结束。",
@@ -746,7 +796,7 @@
       "stable_key": "sample:d626a72b6c446739b70c50c6178e45256c47e088abaa7bc8fafea959ef37887d",
       "wameiji": {
         "title": "RIDDLE JOKER ランチョンマット リドルジョーカー ゆずソフト（现存替代观察）",
-      "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原挖煤姬链接与样本形态不一致且显示不支持该商品；已改为当前可打开的日本 Mercari 同标题实物观察，1,999 JPY、新品未使用、可购买，第一张主图已加载。挖煤姬代理对该条仍有限制，因此这里保留直接 Mercari 链接作为现存替代，不把它当作挖煤姬可购买库存。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 复核：原挖煤姬链接与样本形态不一致且显示不支持该商品；已改为当前可打开的日本 Mercari 同标题实物观察，1,999 JPY、新品未使用、可购买，第一张主图已加载。挖煤姬代理对该条仍有限制，因此这里保留直接 Mercari 链接作为现存替代，不把它当作挖煤姬可购买库存。",
         "catalog_no": null,
         "barcode": null,
         "price": 1999,
@@ -780,31 +830,36 @@
       "reference_product_id": 33,
       "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
       "same_product_verified": false,
+      "relation_note": "不是同一商品：闲鱼为 minori《ef 悠久之翼/ef - a fairy tale of the two》PC游戏上卷初回版（游戏盘+设定卡）；挖煤姬标题为 ef−the first tale SP01，详情无说明、配件未明。两侧各自保留实物首图和观察价，但不作同SKU/利润对比。",
       "wameiji": {
         "title": "ef−the first tale SP01",
-        "version_evidence": "人工内置浏览器挖煤姬具体详情页：标题为 ef−the first tale SP01，价格2,500日元，状态接近未使用，日本国内运费卖家承担；页面无商品说明，未确认 SP01 的具体内容、是否为样本所称前篇初回版、附件或腰封。",
+        "version_evidence": "2026-09-24 人工内置浏览器重开原挖煤姬详情：标题 ef−the first tale SP01，2,500 JPY（约111 CNY），二手、接近未使用，日本国内运费卖家承担、手续费200 JPY、无物流保障，页面有购物车/立即购买；详情明确没有商品说明，不能确认 SP01 具体内容、是否等同PC游戏上卷初回版、附件或腰封。页面首张图为其商品页画面中出现的 ef 人物图，保留作此链接首图，不将它推断为附件/版本证明。",
         "catalog_no": null,
         "barcode": null,
         "price": 2500,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33323330313332343738322f",
-        "observed_at": "2026-09-21T15:17:17Z",
+        "observed_at": "2026-09-24T11:49:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/thumb/item/webp/m32301324782_1.jpg"
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m32301324782_1.jpg?1643898636",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "【minori】ef 悠久之翼 初回版 上卷",
-        "version_evidence": "人工 Chrome/IAB 闲鱼当前详情页：minori ef 悠久之翼初回版上卷；成色新、内容物齐全；游戏光盘+设定卡；价格299 CNY包邮；当前可立即购买。",
+        "version_evidence": "2026-09-24 人工内置浏览器重开闲鱼详情：当前标题【minori】ef 悠久之翼 初回版 上卷，299 CNY包邮，4人想要/102浏览，详情称成色新、内容物齐全、游戏光盘+设定卡，页面有立即购买。首张主图为该商品的实拍包装图。它是PC游戏上卷，不等同挖煤姬标题 SP01 的具体商品。",
         "catalog_no": null,
         "barcode": null,
         "price": 299,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=936356588245&categoryId=126860296",
-        "observed_at": "2026-09-21T04:56:34Z",
+        "observed_at": "2026-09-24T11:49:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01DVnQPm1d0HoMvN1Eh_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN012tbsvy1d0HoMvNcdc_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
     },
@@ -907,7 +962,7 @@
       "stable_key": "sample:764f8ee44d948dc055c7d288633bdce05e51436dc3a6734e84e20e392e77220f",
       "wameiji": {
         "title": "国内盤CD★放課後ティータイム/Houkago Tea Time■ 映画「けいおん！」劇中歌アルバム放課後ティータイム in MOVIE 【PCCG1128/4988013016569】U53895",
-      "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：放課後ティータイム/Houkago Tea Time《放課後ティータイム in MOVIE》，目录号PCCG1128/JAN 4988013016569，价格1,000 JPY，页面显示首张主图并可购买；中古盒况和附件仍按页面照片核对。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：放課後ティータイム/Houkago Tea Time《放課後ティータイム in MOVIE》，目录号PCCG1128/JAN 4988013016569，价格1,000 JPY，页面显示首张主图并可购买；中古盒况和附件仍按页面照片核对。",
         "catalog_no": null,
         "barcode": null,
         "price": 1000,
@@ -916,7 +971,7 @@
         "observed_at": "2026-09-24T09:45:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-      "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JH944u6tuSxgAmxmUMbgt.jpg@jpg",
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JH944u6tuSxgAmxmUMbgt.jpg@jpg",
         "image_state": "observed_main_image",
         "state": "observed_current"
       },
@@ -1062,190 +1117,211 @@
     {
       "reference_product_id": 51,
       "stable_key": "sample:6991b7346484a1ee5ef2d96fd2854030c0a6e946b00527586b0f9b2af2ca31a3",
+      "same_product_verified": true,
+      "relation_note": "两边均为Fate/hollow ataraxia PS Vita限定版；挖煤姬详情明确型番VLJM-35123，闲鱼标题与实物首图吻合，属于同版本参考。闲鱼卖家称附件齐全，挖煤姬列出限定内容但下载码可用性未确认；不等同于同品相/附件状态。",
       "wameiji": {
         "title": "Fate/hollow ataraxia 限定版 PS Vita ゲームソフト 未開封ねんどろいどぷちアヴェンジャーフィギュア付き 美品 角川ゲームス TYPE-MOON 付属品完備 カプセルマテリアル VLJM-35123",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：店铺卖家，Fate/hollow ataraxia PS Vita 限定版，型番 VLJM-35123；说明列出特制収納BOX、游戏本体、未开封ねんどろいどぷちアヴェンジャー、Capsule material/Hanafuda material、花札下载代码传单。页面显示成色“没有明显的损伤或污渍”、价格2,980日元、日本国内运费卖家承担、代购手续费200日元、无物流保障并标注航空禁运；下载代码可用性未确认。",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）重开挖煤姬煤炉详情：当前仍可加入购物车/立即购买，2,980 JPY（约132 CNY），卖家承担日本国内运费，手续费200 JPY、无物流保障并标注航空禁运。标题/说明确认PS Vita限定版和型番VLJM-35123；列有特制收纳盒、游戏本体、未开封ねんどろいどぷちアヴェンジャー、Capsule material/Hanafuda material、花札下载代码传单，代码可用性仍未确认。首图直链仍显示同一套装包装与赠品；页面有图片可能与实物不同的提示。",
         "catalog_no": null,
         "barcode": null,
         "price": 2980,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f755350347239433476544b69446769583746756e694e2f",
-        "observed_at": "2026-09-21T04:18:43Z",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JNgeB5ghSc3jU2wJ7NMvh.jpg@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JNgeB5ghSc3jU2wJ7NMvh.jpg@jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "fate 虚空明镜 Fate/hollow ataraxia PSV限定版 同捆特典小安粘土人 日版日文限定版 附件全",
-        "version_evidence": "Current listing title explicitly claims PSV limited edition, bundled Nendoroid Petit Avenger, Japanese release, and complete accessories. Page-text does not enumerate every component or condition; comparison remains seller-claim level pending image/detail confirmation.",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）闲鱼详情仍有“立即购买”，当前240 CNY包邮、1人想要/268浏览。标题、首图和详情显示Fate/hollow ataraxia PSV限定版及同捆小安粘土人；首图直链打开后与详情的盒装实拍一致。卖家称附件全，但每件品相和下载码可用性没有独立验证。与挖煤姬VLJM-35123同版本；附件状态仍需分别对待。",
         "catalog_no": null,
         "barcode": null,
         "price": 240,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1057027726898&categoryId=126856346",
-        "observed_at": "2026-09-14T17:13:00Z",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3385513124/O1CN019BfhhO1YwqSIBtM0M_!!4611686018427384996-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3385513124/O1CN019BfhhO1YwqSIBtM0M_!!4611686018427384996-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/51-6991b7346484a1ee.webp"
     },
     {
       "reference_product_id": 52,
       "stable_key": "sample:52e257b4080e104439390c470440ee3727861059d11e6a9720472deb5f14d758",
+      "same_product_verified": true,
+      "relation_note": "两侧标题、ヨルシカ《だから僕は音楽を辞めた》初回生産限定BOX规格及首图木盒/CD包装相符，作为同一版本参考可核；但闲鱼实物有外袋及木盒/内页损伤，挖煤姬卖家标未使用/未开封，成色不等价，不得把价格差直接当作无条件利润。",
       "wameiji": {
         "title": "ヨルシカ だから僕は音楽を辞めた 初回生産限定盤 BOX仕様",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：ヨルシカ《だから僕は音楽を辞めた》初回生産限定盘 BOX，页面显示未使用、价格30,000日元、日本国内运费卖家承担、代购手续费300日元、2~3日发货、有物流保障。卖家说明未开封、暗处保管；盒材质“推测为木制”，养猫但分室保管；版本材质与附件仍需以图和闲鱼样本逐项核对。",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）挖煤姬详情仍可加入购物车/立即购买，30,000 JPY（页面约1,326 CNY），未使用、卖家承担日本国内运费、手续费300 JPY、有物流保障，预计2–3日发货。卖家称未开封、暗处保管，木制材质为卖家推测，家有猫但分室保管。第一张主图直链已打开核对，为木盒包装及内页CD信息图；页面提示图片可能与实物不同。",
         "catalog_no": null,
         "barcode": null,
         "price": 30000,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33313636353633333936362f",
-        "observed_at": "2026-09-21T04:19:23Z",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m31665633966_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m31665633966_1.jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "【出】ヨルシカ 油鹿西卡 yrsk 所以我放弃了音乐 音辞 初回限定盘 CD 夜鹿 木盒风 专辑 だから僕は音楽を辞めた音辞 盗作yorushika 专辑 1st full album 初回限定 木盒 初回 suis n-buna 拿不拿",
-        "version_evidence": "标题明确音辞、初回限定盘、CD、木盒；与参考样本音辞/BOX规格对应。",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）闲鱼详情仍可立即购买，480 CNY包邮、3人想要/923浏览；标题为ヨルシカ《だから僕は音楽を辞めた》初回限定木盒版。卖家称仅开盒检查未使用，但外包装袋破损、木盒及内页有损伤；第一张主图直链已打开核对，与当前详情主图一致，画面为木盒背面/内页信息。两边同为该专辑初回BOX版本，但闲鱼有损、挖煤姬标未使用，成色不可直接比较。",
         "catalog_no": null,
         "barcode": null,
         "price": 480,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1075912213716&categoryId=126864811",
-        "observed_at": "2026-09-15T15:57:27Z",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2203039968859/O1CN01fK1TMcenR4D3thGS_!!4611686018427383387-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2203039968859/O1CN01fK1TMcenR4D3thGS_!!4611686018427383387-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/52-52e257b4080e1044.webp"
     },
     {
       "reference_product_id": 53,
       "stable_key": "sample:f51c7e9a3f32ba6d360a8b20e083ffb708d6723faeafe89fefa679e79e48d346",
-      "same_product_verified": false,
+      "same_product_verified": true,
       "wameiji": {
-        "title": "Aimer daydream【初回生産限定盤A】Blu-ray",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬详情页仍显示 Aimer daydream 初回生产限定盘A Blu-ray，1,200 JPY，描述只明确 Blu-ray 影像内容，未证明 CD 本体随附；闲鱼侧明确是 CD+BD 两枚装，因此不把挖煤姬页当作同版完整套装或利润匹配。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1200,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34333031303633383734372f",
-        "observed_at": "2026-09-21T04:48:47Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-      "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m43010638747_1.jpg?1787658572",
-      "relation_note": "仅核到 Blu-ray 单项信息，CD 是否随附未知；不计同款利润。"
-      },
-      "xianyu": {
-        "title": "【现货】正品 Aimer《daydream》初回限定盘A（CD+BD）原装正版日版",
-        "version_evidence": "Current Xianyu listing explicitly identifies Aimer daydream initial limited A, CD+Blu-ray, 13 CD tracks plus 3 Blu-ray tracks, sealed with obi. This matches the initial-A CD+BD form rather than normal CD or limited B DVD.",
+        "title": "Aimer daydream 初回生産限定盤A CD+Blu-ray",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）重开挖煤姬具体Mercari页：标题Aimer daydream初回生産限定盤A CD+Blu-ray；当前7,999 JPY（页面约354 CNY），无明显损伤/污渍，卖家承担日本国内运费，手续费240 JPY、有物流保障，页面仍可加入购物车/立即购买。详情称CD播放过一次。首张主图直链已在页面打开核对，为该商品包装图；站点提示图片可能与实物不同。型式与SECL-1983初回A CD+BD规格一致。",
         "catalog_no": "SECL-1983",
         "barcode": null,
-        "price": 283,
+        "price": 7999,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33373732323733383439342f",
+        "observed_at": "2026-09-25T04:40:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m37722738494_1.jpg?1784248948",
+        "image_state": "observed_first_gallery_image"
+      },
+      "xianyu": {
+        "title": "标价包邮！Aimer daydream 初回限定盘A 日版CD+BD",
+        "version_evidence": "2026-09-25 04:40（人工内置浏览器复核）闲鱼详情仍可立即购买，当前168 CNY包邮、2人想要/163浏览；标题与正文明确初回限定A CD+BD，已拆封，带侧标和盒子（卖家称原包装在）；CD有细微毛痕、BD有灰。该商品页第一张画廊图直链已打开核对，显示为 daydream 包装主图，而非此前页面上错误的人像照片。与挖煤姬SECL-1983初回A CD+Blu-ray同版本，但成色与附件状态有差异，不作同成色或利润结论。",
+        "catalog_no": "SECL-1983",
+        "barcode": null,
+        "price": 168,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1041583191474&categoryId=126864811",
-        "observed_at": "2026-09-14T18:53:33Z",
+        "source_url": "https://www.goofish.com/item?id=1080171737027&categoryId=126864811",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01mOSp5u1zFK3s7mIHZ_!!0-mtopupload.jpg_110x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/1713419028/O1CN01E8jVKAJuh6I3thGS_!!4611686018427384596-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/53-f51c7e9a3f32ba6d.webp"
     },
     {
       "reference_product_id": 54,
       "stable_key": "sample:fadb1a708c0fcea5a74806ee589c7790202d027ee3a124f622f8b477a98be5fa",
+      "same_product_verified": true,
+      "relation_note": "闲鱼与挖煤姬详情标题均锁定TYPE-MOON Fes. 10TH ANNIVERSARY Blu-ray Box完全生産限定版；双方都列出4枚套装（主编2张BD、特典BD、特典CD），可认定同一版本参考。闲鱼标几乎全新/未使用，挖煤姬为二手无明显损伤；成色不等价，运费与手续费需按实际到手成本核算。",
       "wameiji": {
         "title": "TYPE-MOON Fes. 10TH アニバーサリー BDBox完全生産限定版",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：TYPE-MOON 10周年活动 Blu-ray Box，完全生産限定版，4枚组（本编 Blu-ray 2张、特典映像 Blu-ray 1张、特典 CD 1张）、三方背盒、数码包、36页册子；页面显示二手、成色“没有明显的损伤或污渍”、价格6,480日元、日本国内运费卖家承担、代购手续费200日元、1~2日发货。与闲鱼限定版套装附件需继续逐项核对。",
+    "version_evidence": "2026-09-25 04:59（内置浏览器逐项复核）挖煤姬详情仍为TYPE-MOON Fes. 10TH Anniversary BD Box完全生产限定版，当前6,480 JPY（页面约287 CNY）；显示二手、无明显损伤污渍，日本国内运费卖家承担、手续费200 JPY、有物流保障、1–2日发货，仍可加入购物车/立即购买。说明列2张本编BD、1张特典BD、1张特典CD、三方背盒、数码包、36页册子。首图直链已单独打开确认与本条目套装一致；页面仍提示图片可能与实物不同。",
         "catalog_no": null,
         "barcode": null,
         "price": 6480,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34353136373833303538352f",
-        "observed_at": "2026-09-21T04:11:27Z",
+    "observed_at": "2026-09-25T04:59:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m45167830585_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m45167830585_1.jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "型月10周年庆典蓝光套装 完全生产限定版",
-        "version_evidence": "详情明确TYPE-MOON Fes. 10TH ANNIVERSARY Blu-ray Disc BOX完全生产限定版；4碟（2主蓝光+1特典蓝光+1特典CD），对应样本。",
+    "version_evidence": "2026-09-25 04:59（内置浏览器逐项复核）闲鱼详情仍有“立即购买”，当前320 CNY包邮、2人想要/278浏览。标题及详情为TYPE-MOON Fes. 10TH ANNIVERSARY Blu-ray Disc BOX完全生产限定版，四碟（2张主BD+1张特典BD+1张特典CD），并列三方背盒、数码包与36页册子；页面称几乎全新、重新封装但未使用。首图直链打开后与详情红色套装盒实拍吻合；与挖煤姬是同一版本参考，但成色不等价。",
         "catalog_no": null,
         "barcode": null,
-        "price": 290,
+        "price": 320,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076443392812&categoryId=126860296",
-        "observed_at": "2026-09-15T16:00:04Z",
+    "observed_at": "2026-09-25T04:59:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01Ny4P0cPJ1pI37rd6_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01Ny4P0cPJ1pI37rd6_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/54-fadb1a708c0fcea5.webp"
     },
     {
       "reference_product_id": 55,
       "stable_key": "sample:0dc9988288567b17514d4ce7ae8a6ab616392cde155c24f2da0636b910336f1f",
+      "same_product_verified": false,
+    "relation_note": "两边都是TYPE-MOON 10th Anniversary Phantasm画集，但具体版本/品相未核成一致：闲鱼是多规格链接，卖家区分再刷版与带腰封首刷版，页面未显示当前选中项；挖煤姬为网络OFF店铺二手书（JAN 9784041102435），明示首图为示例且腰封、装帧和状态不保证。闲鱼不记录成单一确定价；挖煤姬图片仅作页面参考，不能用于价差或利润判断。",
       "wameiji": {
         "title": "TYPE-MOON 10th Anniversary Phantasm／Type‐Moon",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：角川书店，网络 OFF 店铺卖家；中古本/游戏攻略本，发行日 2012-08-01，JAN 9784041102435，价格1,720日元，日本国内运费卖家承担、代购手续费200日元、无物流保障。页面标注“有些许损伤或污渍”，图片为示例、装帧/腰封及商品状态可能不同，跨站库存不足时可能取消；与闲鱼样本版本和附件需继续核对。",
+    "version_evidence": "2026-09-25 04:59（内置浏览器逐项复核）挖煤姬原链接仍为TYPE-MOON 10th Anniversary Phantasm／Type-Moon，角川书店、网络OFF店铺卖家，JAN 9784041102435，发行日2012-08-01；报价1,720日元，页面仍可加入购物车/立即购买，日本国内运费卖家承担、手续费200日元、无物流保障，成色显示有些许损伤或污渍。说明明确首图仅为示例，腰封/装帧/状态可能不同，跨站库存不足可能取消；首图直链虽与页面示例一致，不能证明当前实物。",
         "catalog_no": null,
         "barcode": null,
         "price": 1720,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4b7967594a32445a437462426938426b534e42782f",
-        "observed_at": "2026-09-21T04:21:02Z",
+    "observed_at": "2026-09-25T04:59:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JVYCzKUQk22SbGRy8jHXw.jpg@jpg"
+    "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JVYCzKUQk22SbGRy8jHXw.jpg@jpg",
+    "image_state": "page_reference_image"
       },
       "xianyu": {
         "title": "Type-MOON十周年画集 TYPE-MOON 10th Anniversary Phantasm",
-        "version_evidence": "详情明确398页，左侧再刷、右侧带书腰的初版首刷；与样本画集身份对应。",
+    "version_evidence": "2026-09-25 04:59（内置浏览器逐项复核）闲鱼详情仍可“立即购买”，页面报价区间¥228–350、25人想要/1013浏览；标题及说明为TYPE-MOON 10th Anniversary Phantasm、398页。卖家明确左侧再刷版228元、右侧带腰封初版首刷350元，封面颜色不同；当前选择项未明确，故不能把228元或350元绑定到首图，快照价格留空。第一张画廊直链已打开，图为本条目画集封面实拍；但无法据此判定具体选中版本/腰封。",
         "catalog_no": null,
         "barcode": null,
-        "price": 228,
+    "price": null,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=977270387587&categoryId=126860296",
-        "observed_at": "2026-09-15T16:01:56Z",
+    "observed_at": "2026-09-25T04:59:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01qczRy22DqnPtKZmbO_!!4611686018427387797-0-fleamarket.jpg_Q90.jpg_.webp"
+    "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01qczRy22DqnPtKZmbO_!!4611686018427387797-0-fleamarket.jpg_Q90.jpg_.webp",
+    "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/55-0dc9988288567b17.webp"
     },
     {
       "reference_product_id": 57,
       "stable_key": "sample:f5ba9a2f22115993f45a3c6bb5fdf9da73d3c1b7074bf69b586465c55fd72255",
+      "same_product_verified": false,
+      "relation_note": "样本 #57 是《罗小黑战记2》蓝光特装版（样本图提及手办及套装附件），此前误配成宝可梦×初音未来商品，已撤下错链。当前挖煤姬找到同作品的蓝光手办特装版，可确认标题、蓝光、手办版本和14,552 JPY可下单，但商品页未列全套附件，故仅作相关观察、非同SKU；闲鱼用精确及简化关键词检索均无可核验在售结果，不补假图、不计利润。",
       "wameiji": {
-        "title": "ポケモン×初音ミク VOLTAGE Live Blu-ray Amazon特典付",
-        "version_evidence": "商品描述明确：VOLTAGE Live蓝光；ReLive!音源CD；MEMORIAL REPORT特别书；亚克力立牌2种套装；明信片18张；特典映像“アナザーアングル定点映像 FULL STAGE”；未使用。",
+        "title": "羅小黒戦記２ ぼくらが望む未来（シャオヘイ迷你手办特装版）Blu-ray（挖煤姬相关观察）",
+        "version_evidence": "2026-09-25 人工内置浏览器从挖煤姬站内搜索结果打开当前Rakuten详情页：标题明确《羅小黒戦記２ ぼくらが望む未来（シャオヘイ ミニフィギュア付き特装版）[Blu-ray]》，当前14,552 JPY，页面有加入购物车/立即购买；说明列出商品名、Blu-ray、发售日及重量970g，但未列明样本截图提及的2CD、说明册、外盒等全部附件。因此保留为同作品相关观察，不认定同一完整套装或同SKU；图链取自当前详情页已加载的首张商品图。",
         "catalog_no": null,
         "barcode": null,
-        "price": 17999,
+        "price": 14552,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32343332333734373837342f",
-        "observed_at": "2026-09-21T11:02:20Z",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsproutsllc%2Fs-b0h1ht74c7-20260904%2F",
+        "observed_at": "2026-09-25T08:00:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m24323747874_1.jpg"
+        "image_url": "https://image03.doorzo.net/tshopr10sjp/sproutsllc/cabinet/r20260904035448/b0h1ht74c7-1.jpg?fitin=600:600",
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_related"
       },
       "xianyu": {
-        "title": "初音未来宝可梦联动CD 初回限定收藏 双碟豪华版",
-      "version_evidence": "2026-09-24 人工 Chrome/IAB 闲鱼检索并打开当前详情页：初音未来宝可梦联动CD，价格288 CNY包邮，7人想要/356浏览，标题及说明明确Project VOLTAGE 18 Types/Songs Collection 2CD，含封盒、贴纸和公式设定集；首张主图已从当前详情页核验。原样本链接仍受跨境桌面页限制，因此标为同目标当前替代观察。",
+        "title": "罗小黑战记2 蓝光特装版（闲鱼当前检索未找到可核验在售项）",
+        "version_evidence": "2026-09-25 人工内置浏览器在闲鱼用‘罗小黑战记2 蓝光 BD 限定特装版 手办’及简化词‘罗小黑战记2 蓝光’检索，两个结果页均显示‘小闲鱼没有找到你想要的宝贝’；不沿用此前误配的宝可梦链接、报价或商品图。当前无可核验在售商品，等待后续复查。",
         "catalog_no": null,
         "barcode": null,
-        "price": 288,
+        "price": null,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.3bdc1d7ab2LLk9&id=1046610055905&categoryId=126860296",
-        "observed_at": "2026-09-21T14:50:24Z",
+        "source_url": "https://www.goofish.com/search?q=%E7%BD%97%E5%B0%8F%E9%BB%91%E6%88%98%E8%AE%B02%20%E8%93%9D%E5%85%89",
+        "observed_at": "2026-09-25T08:00:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-      "image_url": "https://img.alicdn.com/bao/uploaded/i4/O1CN01hW3JJK2KHG2ZcxJ1e_!!4611686018427384795-0-fleamarket.jpg_Q90.jpg_.webp",
-        "image_state": "current_related_image",
-        "state": "replacement_related"
+        "image_url": null,
+        "image_state": "no_verified_item_photo",
+        "state": "not_currently_listed"
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     },
@@ -1254,7 +1330,7 @@
       "stable_key": "sample:1efbfc4868bcf9990abfe2cee8978219783836d2db9d082cb0ca569103b3608e",
       "wameiji": {
         "title": "LiSA LEO-NiNE 初回生産限定盤A CD+BD",
-      "version_evidence": "2026-09-24 人工 Chrome/IAB 挖煤姬煤炉详情页当前可购：LiSA LEO-NiNE 初回生産限定盤A CD+BD，1,200 JPY（约54 CNY），接近未使用；说明明确初回生産限定盤A、CD+BD、三方背盒、品番VVCL-1703，首张主图已从当前详情页核验。原PayPay页三件套与当前页品番存在差异，保留为相关替代观察。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 挖煤姬煤炉详情页当前可购：LiSA LEO-NiNE 初回生産限定盤A CD+BD，1,200 JPY（约54 CNY），接近未使用；说明明确初回生産限定盤A、CD+BD、三方背盒、品番VVCL-1703，首张主图已从当前详情页核验。原PayPay页三件套与当前页品番存在差异，保留为相关替代观察。",
         "catalog_no": null,
         "barcode": null,
         "price": 1200,
@@ -1263,7 +1339,7 @@
         "observed_at": "2026-09-24T10:30:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-      "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m20609400911_1.jpg?1789205952",
+        "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m20609400911_1.jpg?1789205952",
         "image_state": "observed_main_image",
         "state": "replacement_current"
       },
@@ -1288,7 +1364,7 @@
       "same_product_verified": false,
       "wameiji": {
         "title": "【未開封】Fate/EXTELLA LINK PSVITA プレミアム限定版",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬页确认 PSVITA Premium Limited Edition 未使用、游戏与原声CD均未开封、1,000 JPY；但未证明闲鱼侧所写尼禄皮肤特典券码仍存在或可用，因此不把两侧当作附件完全一致的同款利润匹配。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 挖煤姬页确认 PSVITA Premium Limited Edition 未使用、游戏与原声CD均未开封、1,000 JPY；但未证明闲鱼侧所写尼禄皮肤特典券码仍存在或可用，因此不把两侧当作附件完全一致的同款利润匹配。",
         "catalog_no": null,
         "barcode": null,
         "price": 1000,
@@ -1297,8 +1373,8 @@
         "observed_at": "2026-09-21T04:21:41Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-      "image_url": "https://static.mercdn.net/item/detail/orig/photos/m89963971298_1.jpg",
-      "relation_note": "游戏本体与原声CD已核到；尼禄皮肤券码状态未知，需人工补证。"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m89963971298_1.jpg",
+        "relation_note": "游戏本体与原声CD已核到；尼禄皮肤券码状态未知，需人工补证。"
       },
       "xianyu": {
         "title": "命运之夜Fate/Extella Link附特典尼禄皮肤装备",
@@ -1513,7 +1589,6 @@
       "reference_product_id": 66,
       "stable_key": "sample:0b3187f6838924e6d3d4afbfbd26638073335ff0a1fca212cd783a4568828cd2",
       "same_product_verified": false,
-      "same_product_verified": false,
       "wameiji": {
         "title": "初音ミク / Winterland’s Anthology (中古アニメ系CD)",
         "version_evidence": "2026-09-23 人工 Chrome/IAB 打开挖煤姬详情页确认标题、KRCD-0011 与 2017-01-25 信息，页面明确“已售出”；内置浏览器仍可见并加载首张主图，已保留为已售实物观察图，不把它当作当前库存或利润证据。闲鱼侧是五选一合集且价格从239 CNY起。",
@@ -1676,7 +1751,6 @@
     {
       "reference_product_id": 73,
       "stable_key": "sample:bed36c005c3f3cf6a49d121c2c050471b91f91811c2d2b45e4a25b92907fa4e3",
-      "same_product_verified": false,
       "same_product_verified": false,
       "wameiji": {
         "title": "ポケモン feat. 初音ミク VOLTAGE Live! Blu-ray特装盤",
@@ -1995,9 +2069,8 @@
         "observed_at": "2026-09-23T09:50:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN017y4XfKLVxuJ2V5ev_!!4611686018427385545-2-xy_item.png_220x10000.jpg_.webp",
         "image_state": "current_related_image",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN017y4XfKLVxuJ2V5ev_!!4611686018427385545-2-xy_item.png_220x10000.jpg_.webp",
         "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/82-3e9574128a6c5f23.webp"
@@ -2161,9 +2234,8 @@
         "observed_at": "2026-09-23T10:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2209080889175/O1CN01MG4YUW2HeD1Hvj7fH_!!4611686018427383639-53-xy_item.heic_220x10000Q90.jpg_.webp",
         "image_state": "current_related_image",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2209080889175/O1CN01MG4YUW2HeD1Hvj7fH_!!4611686018427383639-53-xy_item.heic_220x10000Q90.jpg_.webp",
         "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/87-37135d9f8a4bdb83.webp"
@@ -2351,7 +2423,7 @@
         "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼详情页：宇多田光《SCIENCE FICTION》完全生产限定盘，ESCL-5925，2CD+SPECIAL PACKAGE，全新正版；当前290 CNY包邮，282浏览，可立即购买；发行日24.4.10。",
         "catalog_no": "ESCL-5925",
         "barcode": null,
-        "price": 290,
+        "price": 320,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=790914461030&categoryId=126864811",
         "observed_at": "2026-09-23T11:20:00+08:00",
@@ -2473,7 +2545,7 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m82639812057_1.jpg",
-        "image_state": "observed_main_image"
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "全新未拆现货 宇多田光 Fantome 幻影 初回生产限定盘 双黑胶 2LP",
@@ -3046,12 +3118,12 @@
         "price": 95,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.17.387d56b5uJYPaP&id=1077617896246&categoryId=126864811",
-      "observed_at": "2026-09-24T10:10:00+08:00",
-      "marketplace_host": "www.goofish.com",
-      "is_wameiji_platform": false,
+        "observed_at": "2026-09-24T10:10:00+08:00",
+        "marketplace_host": "www.goofish.com",
+        "is_wameiji_platform": false,
         "image_state": "current_related_image",
         "state": "replacement_related",
-      "image_url": "https://img.alicdn.com/bao/uploaded/i1/2216095432175/O1CN01ALbswcq78YC2BxNI_!!4611686018427387375-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2216095432175/O1CN01ALbswcq78YC2BxNI_!!4611686018427387375-0-xy_item.jpg_Q90.jpg_.webp"
       },
       "reference_image_url": "assets/reference-samples/114-9ceab5cf2bc2e2fe.webp"
     },
@@ -3339,6 +3411,7 @@
     {
       "reference_product_id": 124,
       "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
+      "same_product_verified": false,
       "wameiji": {
         "title": "棘ナシ (完全生産限定アナログレコード盤) / トゲナシトゲアリ",
         "version_evidence": "Manual detail locks sample as 2nd album 棘ナシ (not sibling 棘アリ): UMJK-9162, JAN 4988031862438, 2026-08-19, complete-production limited analog. One LP with 12 named tracks and 棘ナシ record-jacket artwork sticker.",
@@ -3353,8 +3426,8 @@
         "image_url": "https://shop.r10s.jp/akaikumasan/cabinet/picture20260309/4988031862438.jpg"
       },
       "xianyu": {
-        "title": "国现 无刺/有刺 トゲナシトゲアリ Girls Band Cry 黑胶 1专2专 完全生产限定盘",
-        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开闲鱼具体详情页：289 CNY 包邮、63 浏览，标题为“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费”，页面有立即购买；正文明确 2LP、附《棘ナシ》唱片封面图案贴纸及代购税费/运费另补规则。与挖煤姬 UMJK-9162 方向对应，但品番和成色仍需跨侧核对，不直接等同正利润。",
+        "title": "无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞ 免日本代购费",
+        "version_evidence": "2026-09-24 人工内置浏览器打开具体闲鱼商品页：页面标价289 CNY、64浏览；标题为“无刺［LP黑胶唱片＋贴纸］＜完全生产限定版＞”，正文规格明确2LP并含《棘ナシ》封面贴纸，另说明税费和国际运费需补。挖煤姬/官方 UMJK-9162 对应的是1LP版本，因此这是同专辑相关样本但盘数不匹配，不能当作同SKU或利润配对。",
         "catalog_no": null,
         "barcode": null,
         "price": 289,
@@ -3372,7 +3445,7 @@
     {
       "reference_product_id": 125,
       "stable_key": "sample:74f93be01bbf73a31c2ecebdd16e2c4771f5aa4b7558b561377cc2e70ae9a292",
-      "same_product_verified": false,
+      "same_product_verified": null,
       "wameiji": {
         "title": "【完全生産限定】ガールズバンドクライ/トゲナシトゲアリ「棘ナシ」アナログ盤（12インチ）",
         "version_evidence": "人工内置浏览器挖煤姬当前详情页核验：トゲナシトゲアリ 2nd Album「棘ナシ」完全生産限定アナログレコード盤，12英寸；UMJK-9162；2026/08/19；未使用；7500 JPY；卖家承担日本国内运费；手续费225 JPY；物流保障有；页面有加入购物车和立即购买。商品介绍列出12曲、A/B两面曲目，并说明《ガールズバンドクライ》角色设计手岛nari绘制封面。",
@@ -3387,17 +3460,18 @@
         "image_url": "https://imghk.doorzo.net/-/large/plain/2JVYEGT6Rw7cb6vhm2NCU8.jpg@jpg"
       },
       "xianyu": {
-        "title": "【黑胶彩胶】药屋少女的呢喃 LP 动画原声音乐专辑 OST Original Soundtrack 正版唱片 欧版限定版 全新未拆",
-        "version_evidence": "2026-09-23 02:01（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前详情为“药屋少女的呢喃”欧版限定彩胶 2LP；页面显示 599 CNY 包邮、15 人想要、543 浏览，标题含 Original Soundtrack，描述写明预售不确定有货、可更换为 CD 版 OST。与样本目标《棘ナシ》完全生产限定 12 英寸黑胶不是同一商品。保留为历史错配，不作为样本 #125 的当前双侧证据。",
+        "title": "GBC哭泣少女乐队 棘ナシ 无刺 专辑黑胶唱片",
+        "version_evidence": "2026-09-24 人工内置浏览器重新打开闲鱼详情：标题为 GBC《棘ナシ/无刺》黑胶唱片；页面描述标注 LP 黑胶唱片、全新未拆封、塑封完整、称为实体店实物拍摄；标价308 CNY包邮，1人想要、112浏览，广东省7–21天发货。它与挖煤姬侧同专辑名且都标 LP，但闲鱼未显示 UMJK-9162、盘数或限定附件，故仅作为相关双侧观察，不确认同一 SKU，也不据此计算利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": 599,
+        "price": 308,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
-        "observed_at": "2026-09-22T18:08:00+08:00",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.3.5fde1c8fvu6OCW&id=1077530956595&categoryId=126864811",
+        "observed_at": "2026-09-24T15:10:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/810413873/O1CN01VtDEkC1eTt6RITFoz_!!4611686018427383601-53-xy_item.heic_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/705578014/O1CN01L58ecysm6OH3FPpA_!!4611686018427380766-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/125-74f93be01bbf73a3.webp"
     }
@@ -3406,155 +3480,184 @@
     {
       "reference_product_id": 1,
       "stable_key": "sample:a9d90f12e9ca56db33bf8d0cbec691301de16049652c9f7abbe3aa1145e97cc2",
+      "same_product_verified": false,
+      "relation_note": "两侧均与TUYU/礼衣特典方向相关，但闲鱼只写泛称“礼衣 tuyu特典”并标CD；挖煤姬指向《やっぱり雨は降るんだね》Animate特典音乐CD。首图封套图案明显不同，且无品番/特典清单可证明同SKU；不得合并为同款利润卡。",
       "wameiji": {
         "title": "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典 音楽 CD",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：TUYU「やっぱり雨は降るんだね」礼衣/Animate特典音乐CD；页面显示价格6,980日元、店铺卖家、成色“没有明显的损伤或污渍”。与闲鱼样本“礼衣 tuyu特典”标题一致，配件细节仍以图片/说明为准。",
+        "version_evidence": "2026-09-24 13:01 UTC 人工内置浏览器重开挖煤姬煤炉详情：TUYU《やっぱり雨は降るんだね》Animate礼衣/CD，当前6,631 JPY（约294 CNY），店铺卖家、成色“没有明显的损伤或污渍”、卖家承担日本国内运费、代购手续费200 JPY、有物流保障；可加入购物车/立即购买，商品图共3张。详情只要求查看卖家主页和图片，未列特典清单/品番。首图为该具体链接的第一张图片（插画封面），与闲鱼首图剪影封套不同；不确认同SKU。",
         "catalog_no": null,
         "barcode": null,
-        "price": 6980,
+        "price": 6631,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f43435454774233584e45685738466a4e546e7755694b2f",
-        "observed_at": "2026-09-21T03:04:31Z",
+        "observed_at": "2026-09-24T13:01:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/hAKEAoC896BipW3MFHc767.jpg@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/hAKEAoC896BipW3MFHc767.jpg@jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "礼衣 tuyu特典",
-        "version_evidence": "2026-09-22 17:25（+08:00）人工 Chrome/IAB 打开闲鱼详情页：标题“礼衣 tuyu特典”，价格 150 CNY 包邮，明确“全新未拆封”，标签含礼衣/专辑/CD/日版；与挖煤姬礼衣 Animate 特典 CD 同目标。配件细节仍以图片和说明为准。",
+        "version_evidence": "2026-09-24 13:01 UTC 人工内置浏览器重开闲鱼原链接：标题“礼衣 tuyu特典”，150 CNY包邮、104浏览，页面明确“全新未拆封”，标签含礼衣/专辑/CD/日版；首图为剪影封套实拍，详情只显示存储介质CD，未给品番或特典清单。与挖煤姬具体《やっぱり雨は降るんだね》特典商品的插画首图不同，不能判同SKU。",
         "catalog_no": null,
         "barcode": null,
         "price": 150,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1071313464471",
-        "observed_at": "2026-09-22T17:25:40+08:00",
+        "observed_at": "2026-09-24T13:01:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4033685196/O1CN0197ZDR71oFp77B7VDw_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/4033685196/O1CN0197ZDR71oFp77B7VDw_!!4611686018427381452-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/1-a9d90f12e9ca56db.webp"
     },
     {
       "reference_product_id": 2,
       "stable_key": "sample:2ae7664bc8f011ce489c88ebfad5314f1f882edb5d1f7effcc193b5495b6d353",
+      "same_product_verified": false,
+      "relation_note": "挖煤姬当前为《Under Mentality》初回限定CD+BD，闲鱼已换为仍在售的同作品日版专辑（详情只标CD，未证明初回/BD版）；仅作相关观察，不是同SKU，不可比较利润。旧CD+BD闲鱼链接已售，保留在历史核验说明中。",
       "wameiji": {
         "title": "ツユ アンダーメンタリティ CD Blu-ray 初回限定盤 ピアノアレンジcd",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：初回限定 CD+Blu-ray + 钢琴编曲CD；页面显示二手、成色“没有明显的损伤或污渍”、价格18,999日元、日本国内运费卖家承担、代购手续费300日元。说明明确无杯垫、曾播放数次、纸箱背面有撕胶污渍；与样本的版本/附件差异保留为核验项。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 打开挖煤姬具体详情页并核验首张在售商品图：标题为ツユ《アンダーメンタリティ》初回限定CD+Blu-ray，说明另写附钢琴编曲CD、明确无杯垫；二手、无明显损伤污渍，18,999日元（页面约840 CNY），卖家承担日本国内运费、代购手续费300日元，4~7日发货，页面可加入购物车/立即购买。与闲鱼链接的附件及现售状态不可直接等同。",
         "catalog_no": null,
         "barcode": null,
         "price": 18999,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32303034333531383737382f",
-        "observed_at": "2026-09-21T04:03:06Z",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m20043518778_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m20043518778_1.jpg",
+        "image_state": "observed_main_image",
+        "state": "found"
       },
       "xianyu": {
-        "title": "TUYU（ツユ）3rd专辑 Under Mentality 初回限定 BD蓝光版",
-        "version_evidence": "初回限定 CD+BD蓝光+画册+三方背硬盒; 全套配件; 几乎全新; 标价800元包邮",
+        "title": "ツユ tuyu アンダーメンタリティ 日版专辑全新未拆稀少",
+        "version_evidence": "2026-09-25 04:04 人工通过闲鱼站内检索并打开当前详情：标题《ツユ tuyu アンダーメンタリティ 日版专辑全新未拆稀少》，¥390包邮，1人想要、237浏览，页面显示可立即购买；商品介质栏只写CD，标题/描述称9.5新日版专辑，未列初回限定、BD、画册或杯垫，不能认定为挖煤姬初回CD+BD同款。页面首张主图直链已核验。原链接《TUYU Under Mentality 初回限定 BD蓝光版》曾列CD、BD、画册、三方背硬盒，¥790包邮、3人想要/186浏览，但当前已售；仅保留作历史证据，不计入现货/利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": 800,
+        "price": 390,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1080956335537",
-        "observed_at": "2026-09-14T16:50:34Z",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.8.5094ad299glr7v&id=1077380058162&categoryId=126864811",
+        "observed_at": "2026-09-25T04:04:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2476367223/O1CN01lJWsnuqWHMG2BxNI_!!4611686018427387255-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3985592079/O1CN01CQs1o2FtxNG3thAe_!!4611686018427383567-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/2-2ae7664bc8f011ce.webp"
     },
     {
       "reference_product_id": 4,
       "stable_key": "sample:2ab9b3aa29d6a05cfaaf3b6497f8ba709e3fbd135fb92451f5ae383cc3312334",
+      "same_product_verified": true,
+      "relation_note": "两侧均明确为MADOSOFT《ハミダシクリエイティブ凸》初回版，闲鱼首图与挖煤姬首图呈现相同封面图案；商品版本可对应。成色不同（闲鱼全新未拆，挖煤姬店铺未使用），利润比较仍按各自当前页面价格与费用计算。",
       "wameiji": {
         "title": "【特価商品】ハミダシクリエイティブ凸 初回版",
-        "version_evidence": "挖煤姬详情人工复核（2026-09-22）：标题为《ハミダシクリエイティブ凸 初回版》；店铺卖家、未使用、卖家承担日本国内运费、无物流保障；页面可加入购物车/立即购买，描述列出天梨路线及初回版内容。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重新核验具体挖煤姬商品：标题《ハミダシクリエイティブ凸 初回版》，店铺卖家、未使用、10,762日元（页面约476 CNY），日本国内运费卖家承担，代购手续费300日元、无物流保障；页面可加入购物车/立即购买，说明列出新增天梨路线及主要女主新剧情。首张主图与闲鱼封面图案相同。",
         "catalog_no": null,
         "barcode": null,
         "price": 10762,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4d6a62484c4e577a4e6d71554a5173796b6461662f",
-        "observed_at": "2026-09-21T17:40:09Z",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image02.doorzo.net/-/large/plain/2JMjb7zca6Cq8Vwg8JZjxP.jpg@jpg"
+        "image_url": "https://image02.doorzo.net/-/large/plain/2JMjb7zca6Cq8Vwg8JZjxP.jpg@jpg",
+        "image_state": "observed_main_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "灵感满溢的甜蜜创想凸 初回版",
-        "version_evidence": "闲鱼详情标题为灵感满溢的甜蜜创想凸初回版，明确madosoft/窗社、全新未拆、正版初回限定，500 CNY包邮。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开闲鱼原链接：标题《灵感满溢的甜蜜创想凸 初回版》，说明明确MADOSOFT/窗社、全新未拆、正版初回限定，500 CNY包邮；当前仍显示立即购买，6人想要、650浏览。首张实物主图与挖煤姬首图封面图案相同。",
         "catalog_no": null,
         "barcode": null,
         "price": 500,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1029227800211&categoryId=126860296",
-        "observed_at": "2026-09-19T07:28:49Z",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2221084765457/O1CN01ZmFCzW1qBMSO53Nez_!!4611686018427383057-53-xy_item.heic_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/2221084765457/O1CN01ZmFCzW1qBMSO53Nez_!!4611686018427383057-53-xy_item.heic_Q90.jpg_.webp",
+        "image_state": "observed_main_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/4-2ab9b3aa29d6a05c.webp"
     },
     {
       "reference_product_id": 5,
       "stable_key": "sample:f42a6e1b46a7705e35ed2d92fe1b87a0d42b15b33450833aacf4d709cc2734b0",
+      "same_product_verified": false,
+      "relation_note": "两侧同为《樱之诗》系列但不是同一版本或附件：闲鱼为已售初回限定版并带两张色纸/设定集，盒子有挤压痕；挖煤姬为仍售的10周年重制版，四张碟并附追加剧本/音乐和特典册。仅作为系列实物观察，不得作为同SKU或利润对比。",
       "wameiji": {
         "title": "サクラノ詩 ~櫻の森の上を舞う~ 10th Anniversary Edition",
-        "version_evidence": "挖煤姬详情人工复核（2026-09-22）：标题为《サクラノ詩》10th Anniversary Edition；店铺卖家、未使用、19,410 JPY、卖家承担日本国内运费、无物流保障，页面可加入购物车/立即购买。描述明确为10周年重制版、4张碟、追加剧本/音乐和特典册。它与闲鱼初回限定版版本及附件不同，仅作双侧实物观察，不作同版/利润证明。",
+        "version_evidence": "2026-09-24 人工内置浏览器重开挖煤姬 Mercari 详情：サクラノ詩 10th Anniversary Edition，19,410 JPY（约858 CNY），店铺卖家、未使用、日本国内运费卖家承担、手续费300 JPY、无物流保障，页面可加入购物车/立即购买；说明列出4张碟、追加剧本/新音乐及10周年特典册。画廊1张，首图为该条目页面图；平台提示图片可能与实物有差异。与闲鱼已售初回限定版不是相同版本/附件，不能做同款利润比较。",
         "catalog_no": null,
         "barcode": null,
         "price": 19410,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a546a516b4664326b5348466d4d6d6570643867422f",
-        "observed_at": "2026-09-21T17:45:00Z",
+        "observed_at": "2026-09-24T11:54:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTjQkEZuWtwLhYfKfYasc.jpg@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JTjQkEZuWtwLhYfKfYasc.jpg@jpg",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "［急出］枕社 樱之诗 初回限定版 带两张色纸和设定集",
-        "version_evidence": "人工 Chrome 复核的闲鱼详情明确为《サクラノ詩/樱之诗》初回限定版，带两张色纸和设定集，盒子有挤压痕，价格500 CNY。它与挖煤姬当前10周年重制版同为《サクラノ詩》实体作品，但版本、附件和成色不同，因此仅作双侧实物观察，不作同版/利润证明。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开原闲鱼详情：标题为《樱之诗》初回限定版，带两张色纸和设定集、盒子有挤压痕；标价480 CNY、4人想要/905浏览，页面明确“卖掉了”，仅作历史价。2026-09-25 人工内置浏览器检索到标题“枕社 樱之诗 初回限定版 收藏编号056 限定款 正版周边 带原包装”的搜索卡片，标价9999元，卡片主图可见；打开已知详情链接 https://www.goofish.com/item?id=1084719238003&categoryId=126860296 后出现滑块验证，未绕过。候选是否仍在售、是否为样本同版、卡片图是否为实物均未核实，因此未替换原已售记录，也未将候选图当作当前首图。",
         "catalog_no": null,
         "barcode": null,
-        "price": 500,
+        "price": 480,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1071616002184&categoryId=202126106",
-        "observed_at": "2026-09-15T14:35:15Z",
+        "search_source_url": "https://www.goofish.com/search?q=%E6%9E%95%E7%A4%BE%20%E6%A8%B1%E4%B9%8B%E8%AF%97%20%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88",
+        "observed_at": "2026-09-24T11:19:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "current_sold_image",
+        "state": "current_sold_image"
       },
       "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"
     },
     {
       "reference_product_id": 6,
       "stable_key": "sample:5262161d4824d7e693f64f7ccb05f83ec9d891902a71ce9311ae36266fc98880",
+      "same_product_verified": false,
+      "relation_note": "两侧均为 FRS001LE《现在就想告诉哥哥我是妹妹！》完全生产限定版 PC 软件，但附件完整度不同：闲鱼方明确“无原画集”，挖煤姬当前在售方列有原画集及其他印刷物；成色也分别为轻微使用痕迹与未使用。只作同版本但不完整度不同的样本观察，不作同包/同成色利润对比。",
       "wameiji": {
-        "title": "いますぐお兄ちゃんに妹だっていいたい! 完全生産限定版 PCソフト",
-        "version_evidence": "完全生産限定版 PC软件; 未使用品、碟未开封; 无明显损伤; 日本国内运费卖家承担; 代购手续费200日元",
+        "title": "いますぐお兄ちゃんに妹だっていいたい!　完全生産限定版　FRS001LE　PCソフト 未使用品",
+        "version_evidence": "2026-09-25 05:41（内置浏览器复核）挖煤姬详情仍在售：标题为 いますぐお兄ちゃんに妹だっていいたい! 完全生産限定版 FRS001LE PC软件，4,980 JPY，店铺卖家、标未使用，可加入购物车/立即购买，卖家承担日本国内运费、手续费200 JPY、有物流保障。说明列三张未拆碟、游戏碟、主题曲CD、OP动画DVD、いま妹＆恋チョコ原画集、说明书和歌词卡；与闲鱼明确缺原画集的商品附件不同。页面首图直链单独打开核验为该商品包装实拍图。",
         "catalog_no": null,
         "barcode": null,
-        "price": 3500,
+        "price": 4980,
         "currency": "JPY",
-        "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31383837353533353332312f",
-        "observed_at": "2026-09-14T16:52:09Z",
-        "marketplace_host": "meruki.cn",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a553359653636446b6d6a46796170755437626b4e2f",
+        "observed_at": "2026-09-25T05:41:00+08:00",
+        "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m18875535321_1.jpg"
+        "image_url": "https://image03.doorzo.net/-/large/plain/2JTfUARaCv7LsoHBBXwMxD.jpg@jpg",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "【出】现在就想告诉哥哥我是妹妹！完全生产限定版",
-        "version_evidence": "Windows XP/Vista/7/8; 三张碟+说明书; 无原画集; 轻微使用痕迹; 300元顺丰包邮",
+        "version_evidence": "2026-09-25 05:41（内置浏览器复核）闲鱼详情仍可立即购买：标题《现在就想告诉哥哥我是妹妹！完全生产限定版》，fairy sprite/雪碧社，300 CNY包邮，2人想要/419浏览，轻微使用痕迹；正文列Windows XP/Vista/7/8、三张碟+说明书并明确无原画集。首张画廊图直链已单独打开，确认是该限定版包装正面；与挖煤姬同版本方向但此件缺原画集，附件不一致。",
         "catalog_no": null,
         "barcode": null,
         "price": 300,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1041306363872",
-        "observed_at": "2026-09-14T16:52:09Z",
+        "observed_at": "2026-09-25T05:41:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2215111880801/O1CN01ah5LK21HmuNm9HY5v_!!4611686018427383905-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+    "image_url": "https://img.alicdn.com/bao/uploaded/i3/2215111880801/O1CN01Ybgkgx1HmuNm8zYgA_!!4611686018427383905-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+    "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/6-5262161d4824d7e6.webp"
     },
@@ -3562,30 +3665,34 @@
       "reference_product_id": 8,
       "stable_key": "sample:9cb168701acdc46fee86f43c6ae35fda5bca7eddd8e4033c7d6aa0fd1bf3bf54",
       "wameiji": {
-        "title": "WHITEALBUM2 ORIGINALSOUNDTRACK～kazusa～帯付",
-        "version_evidence": "挖煤姬详情：日版和纱OST、带侧标；购于二手后仅导入电脑一次，侧标收纳在CD盒内，状态无明显伤污。",
+        "title": "WHITE ALBUM 2 Original Soundtrack ～kazusa～",
+        "version_evidence": "2026-09-25 04:19（内置浏览器复核）旧链接 m67214647991 已售，原显示金额约2,400日元，不再用旧价计算。挖煤姬站内找到新的同名kazusa单CD在售条目：19,800日元（约876元），页面有“加入购物车/立即购买”；日版AQUAPLUS，CD 1张，说明附歌词册和腰封，二手、盒/封面/盘面状况良好、无明显伤污，日本国内运费卖家承担，代购手续费300日元、无物流保障。页面首图直链已核对；站点提示图可能与实物不同，故仅作为来源页首图，不证明实物成色。",
         "catalog_no": null,
         "barcode": null,
-        "price": 16100,
+        "price": 19800,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d36373231343634373939312f",
-        "observed_at": "2026-09-15T14:38:19Z",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5736784561697663594a537166344459465937792f",
+        "observed_at": "2026-09-25T04:19:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m67214647991_1.jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JW6xEZiNRUBMeERREzrzs.jpg@jpg",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "『全新未拆』WHITE ALBUM2 Original Soundtrack ～kazusa～ 冬马和纱角色OST",
-        "version_evidence": "人工 Chrome 闲鱼详情：AQUAPLUS发行、日版正版、CD、全新未拆封、360元包邮。与挖煤姬同为kazusa单张原声，但成色为全新对二手；不能作为进货盈利机会。",
+        "version_evidence": "2026-09-25 04:19（内置浏览器复核）闲鱼搜索结果仍显示该同名商品卡片：标题称“全新未拆”、标价360 CNY，显示“6天内降价/累计降价10%”；搜索卡片主图直链已核对。重开详情页遇到拖动滑块验证码，未绕过，因此页面详情、实际库存、品相和附件未能重新确认；卡片标题声称全新未拆不视为已核实。与挖煤姬同为kazusa单CD的相关报价，品相/附件状态不一致或未核，不作为盈利机会。",
         "catalog_no": null,
         "barcode": null,
         "price": 360,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077273348061&categoryId=126864811",
-        "observed_at": "2026-09-14T17:09:40Z",
+        "observed_at": "2026-09-25T04:19:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2213970028017/O1CN01djafMhUi1pF2BxV2_!!4611686018427381233-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2211904345937/O1CN01phpkyo85ShK3thLe_!!4611686018427385681-0-xy_item.jpg_450x10000Q90.jpg_.webp",
+        "image_state": "observed_search_result_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/8-9cb168701acdc46f.webp"
     },
@@ -3593,29 +3700,34 @@
       "reference_product_id": 9,
       "stable_key": "sample:041a5116df1fb97ae1e1b9d3dca066b866cfc1150427596716d096355c90f6ef",
       "same_product_verified": false,
+      "relation_note": "闲鱼实物为缺内箱、缺卡牌且多出来源不明CD的eden初回限定套装；挖煤姬Rakuten候选页题为 eden* Sofmap LIMITED EDITION，但未提供型番/当前实物附件证明，卖家评分限制无法购买。挖煤姬卡片展示该详情页第一张目录参考图并明确标注“页面参考图”，不是卖家实拍，也不证明实物或限定附件；煤炉搜索仅出现不同作品/版本的 eden PLUS MOSAIC 限定版，不能替代。两侧保留为观察记录，不确认同版本、不比较价差或利润。",
       "wameiji": {
         "title": "【中古】eden* ソフマップ LIMITED EDTION",
-        "version_evidence": "人工 Chrome 打开挖煤姬对应的原始乐天商品页；标题明确为 minori《eden* ソフマップ LIMITED EDTION》，价格 53,609 JPY。原始乐天页首图直链可加载。店铺说明同时明确图片为示意图、限定特典/同梱物不保证，不能据此确认床单、卡牌或内箱齐全。",
-        "catalog_no": "b007gttzzy",
+        "version_evidence": "2026-09-25 03:45（内置浏览器逐项复核）重开挖煤姬Rakuten详情《【中古】eden* ソフマップ LIMITED EDTION》：当前页面报价39,554 JPY、店铺评分3.67、数量1，但购买按钮为“卖家好评过低”而不能下单，型番为空。商品页首图直链已核对并与当前主图一致；页面明确为示意图，成色/附件随入库变化且限定特典不保证，故只作为页面参考图展示，不能证明现货实物或附件齐全。站内Mercari仅出现另一个作品/版本 eden PLUS MOSAIC ソフマップ限定版，不能替代目标。价格不计入成本或利润。",
+        "catalog_no": null,
         "barcode": null,
-        "price": 53609,
-        "currency": "JPY",
+        "price": null,
+        "currency": null,
         "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhappystorefujioka%2Fb007gttzzy%2F",
-        "observed_at": "2026-09-21T12:00:00+08:00",
+        "search_source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&keywords=eden*+minori+PC%E6%B8%B8%E6%88%8F",
+        "observed_at": "2026-09-25T03:45:00+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://tshop.r10s.jp/happystorefujioka/cabinet/26070600-1/b007gttzzy.jpg"
+        "image_url": "https://imghk02.doorzo.net/tshopr10sjp/happystorefujioka/cabinet/26070600-1/b007gttzzy.jpg?fitin=600:600",
+        "image_state": "page_reference_image",
+        "state": "blocked"
       },
       "xianyu": {
         "title": "eden初回限定",
-        "version_evidence": "人工 Chrome 打开闲鱼当前具体商品页；页面明确为 eden 初回限定，盒子品相不错，但缺内箱、缺卡牌，另多出一张来源未明 CD，450 CNY。该闲鱼条目与挖煤姬侧都指向 minori《eden*》限定实体，但闲鱼侧未明确写 Sofmap 版，且附件/成色明显不一致；仅作双侧实物观察，不作同 SKU 或利润结论。另在闲鱼页面核到同系列展示条目明确说明特装版=普通盒+特典床单，用于限定版附件边界交叉核对。",
+        "version_evidence": "2026-09-25 03:45（内置浏览器复核）闲鱼详情仍可立即购买，标题“eden初回限定”，450 CNY、2人想要/1,164浏览。首图为该商品详情页第一张实拍图。卖家说明盒子品相不错但缺内箱、缺卡牌，另多出来源不明CD；未见Sofmap版标识或可核目录号，不确认与挖煤姬页面候选同版本。",
         "catalog_no": null,
         "barcode": null,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/2204042895424/O1CN01BPAIN31pwFOwEoPng_!!4611686018427379776-53-xy_item.heic_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
         "price": 450,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1050892358760&categoryId=126864811",
-        "observed_at": "2026-09-21T12:00:00+08:00",
+        "observed_at": "2026-09-25T03:45:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false
       },
@@ -3624,63 +3736,74 @@
     {
       "reference_product_id": 10,
       "stable_key": "sample:ad66f99c63ff08ac4aa3b4ebdc929cc1ed8d6f132701959b7ce16855b3ae3481",
+      "same_product_verified": true,
+      "relation_note": "两侧商品名均锁定 WHITE ALBUM2 Original Soundtrack -setsuna- CD，可作为同一专辑样本观察；但闲鱼为全新未拆，挖煤姬为中古(7)且缺腰封，品相附件不同。挖煤姬页声明首图可能与实物不同，不能据该图证明实物成色。",
       "wameiji": {
         "title": "ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna",
-        "version_evidence": "挖煤姬当前详情页标题为「ゲームCD WHITE ALBUM2 オリジナルサウンドトラック setsuna」；页面标价5,170日元，商品状态说明为中古品（7）帯欠/並，页面提供加入购物车和立即购买。与闲鱼样本 WHITE ALBUM2 Original Soundtrack ~setsuna~ CD 对应，但腰带/附件状态按挖煤姬页面单侧核验，不据此判定同款利润。",
+        "version_evidence": "2026-09-25 05:45（内置浏览器复核）挖煤姬详情仍可加入购物车/立即购买：WHITE ALBUM2 Original Soundtrack -setsuna-，5,170 JPY，店铺卖家 MANDARAKE，中古等级(7)「帯欠/並」，日本国内运费买家承担、手续费200 JPY、无物流保障，页面标记航空禁运。商品说明明确商品图为参考图；首图直链已单独打开，图面为 WHITE ALBUM2 -setsuna- 封面，保留为来源页参考图，不作为卖家实拍或附件证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 5170,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a577a4b396957417272467a32666b4669723638652f",
-        "observed_at": "2026-09-21T10:38:19Z",
+        "observed_at": "2026-09-25T05:45:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/-/large/plain/2JWzK9hTgSmowxmxDN8cJy.jpg@jpg"
+        "image_url": "https://imghk.doorzo.net/-/large/plain/2JWzK9hTgSmowxmxDN8cJy.jpg@jpg",
+        "image_state": "page_reference_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "『全新未拆』 WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS",
-        "version_evidence": "人工Chrome/IAB闲鱼详情页：WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS；日版正版、全新未拆封、存储介质CD，价格100 CNY，包邮，有立即购买。",
+        "version_evidence": "2026-09-25 05:45（内置浏览器复核）闲鱼详情标题「WHITE ALBUM2 Original Soundtrack -setsuna- AQUAPLUS」，当前100 CNY包邮、1人想要/234浏览；页面明确日版正版、全新未拆封、存储介质CD，仍有立即购买。首张画廊图直链单独打开核验，画面为该专辑封面实物，不是截图。",
         "catalog_no": null,
         "barcode": null,
         "price": 100,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1077273672591&categoryId=126864811",
-        "observed_at": "2026-09-21T06:53:44Z",
+        "observed_at": "2026-09-25T05:45:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01z7X83V4XbMJ3thGS_!!4611686018427385681-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01z7X83V4XbMJ3thGS_!!4611686018427385681-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/10-ad66f99c63ff08ac.webp"
     },
     {
       "reference_product_id": 11,
       "stable_key": "sample:f5dd5351eb7f50c7ffaf8eb0eab2776712c5b0ea176ed01937d43b1c328a32e6",
+      "same_product_verified": true,
+      "relation_note": "两侧标题与实物首图均对应《空之境界 俯瞰风景》广播剧CD，挖煤姬详情列型番MGCG-1408；闲鱼现为当前在售实物¥129（有侧标、盒子破损），挖煤姬¥1,400 JPY并附对谈册。闲鱼详情未证实对谈册是否齐全，成色也不同；按同一CD版本保留双侧参考，不把价差当作附件/成色一致的利润。",
       "wameiji": {
         "title": "【中古】同人ドラマCDソフト 空の境界 ドラマCD ～俯瞰風景～ / Magic・Cage",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：骏河屋メルカリ店铺卖家，型番 MGCG-1408，2002-08-09，压制 CD；为《空之境界》第一章官方语音广播剧，附奈须きのこ×虚淵玄对谈册；页面显示中古、成色“没有明显的损伤或污渍”、价格1,200日元、日本国内运费买家承担、代购手续费200日元、无物流保障。与闲鱼同人/广播剧 CD 版本和附件继续核对。",
+        "version_evidence": "2026-09-25 05:43（内置浏览器复核）挖煤姬详情仍可加入购物车/立即购买：骏河屋メルカリ店铺，型番MGCG-1408，2002-08-09压制CD；《空之境界》第一章官方语音广播剧，说明明确附奈须きのこ×虚淵玄对谈册。当前1,400 JPY，中古无明显损伤污渍，日本国内运费买家承担、手续费200 JPY、无物流保障。首图直链单独打开可加载，图为该剧CD包装封面；页面仍提示图片可能与实物不同，故只作来源页参考图。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1200,
+        "price": 1400,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f6e76515776446f564d4546596b6644575a6e736e574e2f",
-        "observed_at": "2026-09-21T04:13:24Z",
+        "observed_at": "2026-09-25T05:43:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/ZDiem2N5o2hGr8jdxLj5VV.webp@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/ZDiem2N5o2hGr8jdxLj5VV.webp@jpg",
+        "image_state": "page_reference_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "空之境界 俯瞰风景 两仪式 drama广播剧",
-        "version_evidence": "日版正版中古；2002年Magic Cage发行；无侧标；页面说明收录OP/ED/角色",
+        "version_evidence": "2026-09-25 05:43（内置浏览器复核）闲鱼当前详情《绝版稀有 日版 CD 空之境界 俯瞰风景 两仪式 drama 广播剧 有侧标 盒子烂》，129 CNY包邮、1人想要/225浏览，详情仍有“立即购买”；卖家称图片为实拍图、通常2-3天发货，D265是个人收纳编号。已看完3张图：首图为包装正面，另有包装背面与碟片/包装实物；带侧标、盒子破损。当前首图直链单独打开确认与详情图相符；未证实包含挖煤姬商品所附对谈册。",
         "catalog_no": null,
         "barcode": null,
-        "price": 130,
+        "price": 129,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1070237273564&categoryId=126864811",
-        "observed_at": "2026-09-15T12:00:16+08:00",
+        "source_url": "https://www.goofish.com/item?id=1022572554442&categoryId=126864811",
+        "observed_at": "2026-09-25T05:43:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01XvUrci1XK59jkqafe_!!6000000002904-2-tps-1050-1050.png_790x10000.jpg_.webp",
-        "image_state": "observed_main_image"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/3806490968/O1CN01akSR1b1J1OW0sRpFJ_!!4611686018427384152-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp"
     },
@@ -3719,31 +3842,37 @@
       "reference_product_id": 13,
       "stable_key": "sample:ce603c1a4a257a00440c4314206d290eaae6f7c91d99a984e11ae53bd722767a",
       "same_product_verified": false,
+      "relation_note": "闲鱼三碟组合原链接已下架；挖煤姬乐天链接是规格/附件随库存变化的目录页，图片为示意图，不能当当前实物主图或完整月箱配件证据。两侧只保留标题级历史/目录观察，不计同SKU利润。",
       "wameiji": {
         "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
-        "version_evidence": "Manual Chrome/IAB Wameiji detail title matches [中古]TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜, covering the sample keywords 月姫, PLUS+DISC, and 歌月十夜. The detail explicitly says the product is used, the image is illustrative, condition and accessories vary by arrival, and limited extras are not included by title alone. Record is title-level only; do not treat it as proof of the sample three CDs, outer box, obi, or complete accessories.",
+        "version_evidence": "2026-09-25人工内置浏览器重开挖煤姬乐天详情：标题为【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜，页面显示报价104,459 JPY，但购买按钮为‘卖家好评过低’，无法下单；卖家评分3.67。商品说明明确图片为示意图、成色和附件随入库变化，标题不保证限定特典/捆绑物。该价格只保留为页面报价快照，不是可购买成本；不能证明样本三碟、外盒、腰封或附件齐全。",
         "catalog_no": null,
         "barcode": null,
-        "price": 104459,
+        "price": null,
+        "last_observed_price": 104459,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhappystorefujioka%2Fb07d9816wh%2F",
-        "observed_at": "2026-09-21T05:35:00Z",
+        "observed_at": "2026-09-24T18:22:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image03.doorzo.net/tshopr10sjp/happystorefujioka/cabinet/26061900-4/b07d9816wh.jpg?fitin=600:600"
+        "image_url": "https://image03.doorzo.net/tshopr10sjp/happystorefujioka/cabinet/26061900-4/b07d9816wh.jpg?fitin=600:600",
+        "image_state": "page_reference_image",
+        "state": "blocked"
       },
       "xianyu": {
         "title": "TYPE-MOON 月姬，歌月十夜还有plus disc",
-        "version_evidence": "页面明确列出月姬、歌月十夜、plus disc；编号 TMCD-0101 / 0103；无腰封；可打包或单出；盘面无划痕、功能正常。未提月箱外盒，不把它冒充为完整盒装。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开原闲鱼链接：页面标题为“TYPE-MOON 月姬，歌月十夜还有plus disc”，标价¥1,445、2人想要、283浏览，页面明确“已下架”。详情列TMCD-0101/0103、无腰封、可打包或单出、盘面无划痕；不是完整月箱，仅保留为过往三碟组合线索，不作为当前商品或利润证据。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1550,
+        "price": 1445,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1078821962730&categoryId=126860296",
-        "observed_at": "2026-09-21T05:14:08Z",
+        "observed_at": "2026-09-24T10:25:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2207554449804/O1CN01fGy8OqRJu7D2BxNI_!!4611686018427384204-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2207554449804/O1CN01fGy8OqRJu7D2BxNI_!!4611686018427384204-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "historical_first_gallery_image",
+        "state": "not_currently_listed"
       },
       "reference_image_url": "assets/reference-samples/13-ce603c1a4a257a00.webp"
     },
@@ -4012,31 +4141,36 @@
       "reference_product_id": 22,
       "stable_key": "sample:f1e63661cafe1b24f9eab8cb16ec8fdd338b250bad98f12375fa023a71b68021",
       "same_product_verified": false,
+      "relation_note": "样本#22为TYPE-MOON月箱完整套装参考。原挖煤姬乐天链接与样本#13复用同一条三碟目录页，图片是示意图且规格/附件随库存变化；原闲鱼链接也与#13复用同一条已下架的无腰封三碟组合。两条旧链接均不是已核实的月箱商品，已撤出价格和商品图配对。两侧站内搜索曾出现候选，但具体详情页尚未核实；当前只保留样本参考图，不计同SKU利润。",
       "wameiji": {
-        "title": "【中古】TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜",
-        "version_evidence": "Manual Chrome/IAB Wameiji detail title matches [中古]TYPE-MOON 月姫 月姫PLUS+DISC 歌月十夜, covering the sample keywords 月姫, PLUS+DISC, and 歌月十夜. The detail explicitly says the product is used, the image is illustrative, condition and accessories vary by arrival, and limited extras are not included by title alone. Record is title-level only; do not treat it as proof of the sample three CDs, outer box, obi, or complete accessories.",
+        "title": "TYPE-MOON 月箱完整套装（样本参考；具体版本/商品待核）",
+        "version_evidence": "人工内置浏览器按TYPE-MOON 月箱检索，结果出现多个系列商品，但未打开并核实任何一条与参考样本的整套版本、封装和附件相符的商品详情。原复用的三碟乐天目录页规格/附件依库存变化，示意图不是本样本商品主图，已撤出错误配对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 104459,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fhappystorefujioka%2Fb07d9816wh%2F",
-        "observed_at": "2026-09-21T05:35:00Z",
+        "price": null,
+        "currency": null,
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&sort=default&isStock=true&seller=%5B%22%22%5D&website=%5B%22mercari%22%5D&keywords=TYPE-MOON+%E6%9C%88%E7%AE%B1",
+        "observed_at": "2026-09-24T17:06:33Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://image03.doorzo.net/tshopr10sjp/happystorefujioka/cabinet/26061900-4/b07d9816wh.jpg?fitin=600:600"
+        "image_url": null,
+        "image_state": "reference_only",
+        "state": "blocked"
       },
       "xianyu": {
-        "title": "TYPE-MOON 月姬，歌月十夜还有plus disc",
-        "version_evidence": "页面明确列出月姬、歌月十夜、plus disc；编号 TMCD-0101 / 0103；无腰封；可打包或单出；盘面无划痕、功能正常。未提月箱外盒，不把它冒充为完整盒装。",
+        "title": "TYPE-MOON 月箱完整套装（样本参考；具体版本/商品待核）",
+        "version_evidence": "人工内置浏览器按TYPE-MOON 月箱同人合集检索，结果出现多条月箱相关候选，但未打开并核实任何一条与参考样本整套版本、封装和附件相符的商品详情。原复用的闲鱼链接实际为已下架、无腰封、可拆卖的三碟组合，不是完整月箱，已撤出错误配对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 1550,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1078821962730&categoryId=126860296",
-        "observed_at": "2026-09-21T05:14:08Z",
+        "price": null,
+        "currency": null,
+        "source_url": "https://www.goofish.com/search?q=TYPE-MOON%20%E6%9C%88%E7%AE%B1%20%E5%90%8C%E4%BA%BA%E5%90%88%E9%9B%86&spm=a21ybx.search.searchInput.0",
+        "observed_at": "2026-09-24T17:06:33Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2207554449804/O1CN01fGy8OqRJu7D2BxNI_!!4611686018427384204-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": null,
+        "image_state": "reference_only",
+        "state": "blocked"
       },
       "reference_image_url": "assets/reference-samples/22-f1e63661cafe1b24.webp"
     },
@@ -4076,7 +4210,7 @@
       "stable_key": "sample:dfb84f1434a20e77050d68b792e2280a59177ec8350f62837dca7e8a6f48b08a",
       "wameiji": {
         "title": "魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON",
-      "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON，价格4,800 JPY，页面显示首张主图且可购买；与闲鱼侧同为魔法使之夜初回原声集，附件/盒况仍以两侧图片核对。",
+        "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬原链接并确认当前详情：魔法使いの夜 初回限定仕様 オリジナルサウンドトラック CD TYPE-MOON，价格4,800 JPY，页面显示首张主图且可购买；与闲鱼侧同为魔法使之夜初回原声集，附件/盒况仍以两侧图片核对。",
         "catalog_no": null,
         "barcode": null,
         "price": 4800,
@@ -4171,31 +4305,36 @@
       "reference_product_id": 33,
       "stable_key": "sample:7ebc8a536b32469da98524cc1bc99ff871999c1fd5ed28a9abf4031417eb7460",
       "same_product_verified": false,
+      "relation_note": "不是同一商品：闲鱼为 minori《ef 悠久之翼/ef - a fairy tale of the two》PC游戏上卷初回版（游戏盘+设定卡）；挖煤姬标题为 ef−the first tale SP01，详情无说明、配件未明。两侧各自保留实物首图和观察价，但不作同SKU/利润对比。",
       "wameiji": {
         "title": "ef−the first tale SP01",
-        "version_evidence": "人工内置浏览器挖煤姬具体详情页：标题为 ef−the first tale SP01，价格2,500日元，状态接近未使用，日本国内运费卖家承担；页面无商品说明，未确认 SP01 的具体内容、是否为样本所称前篇初回版、附件或腰封。",
+        "version_evidence": "2026-09-24 人工内置浏览器重开原挖煤姬详情：标题 ef−the first tale SP01，2,500 JPY（约111 CNY），二手、接近未使用，日本国内运费卖家承担、手续费200 JPY、无物流保障，页面有购物车/立即购买；详情明确没有商品说明，不能确认 SP01 具体内容、是否等同PC游戏上卷初回版、附件或腰封。页面首张图为其商品页画面中出现的 ef 人物图，保留作此链接首图，不将它推断为附件/版本证明。",
         "catalog_no": null,
         "barcode": null,
         "price": 2500,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33323330313332343738322f",
-        "observed_at": "2026-09-21T15:17:17Z",
+        "observed_at": "2026-09-24T11:49:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/thumb/item/webp/m32301324782_1.jpg"
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m32301324782_1.jpg?1643898636",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "【minori】ef 悠久之翼 初回版 上卷",
-        "version_evidence": "人工 Chrome/IAB 闲鱼当前详情页：minori ef 悠久之翼初回版上卷；成色新、内容物齐全；游戏光盘+设定卡；价格299 CNY包邮；当前可立即购买。",
+        "version_evidence": "2026-09-24 人工内置浏览器重开闲鱼详情：当前标题【minori】ef 悠久之翼 初回版 上卷，299 CNY包邮，4人想要/102浏览，详情称成色新、内容物齐全、游戏光盘+设定卡，页面有立即购买。首张主图为该商品的实拍包装图。它是PC游戏上卷，不等同挖煤姬标题 SP01 的具体商品。",
         "catalog_no": null,
         "barcode": null,
         "price": 299,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=936356588245&categoryId=126860296",
-        "observed_at": "2026-09-21T04:56:34Z",
+        "observed_at": "2026-09-24T11:49:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01DVnQPm1d0HoMvN1Eh_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN012tbsvy1d0HoMvNcdc_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/33-7ebc8a536b32469d.webp"
     },
@@ -4234,31 +4373,37 @@
     {
       "reference_product_id": 35,
       "stable_key": "sample:e614e34d2690d0fa07d8da5f629e2a1c9ae52c5b8b433a968ecfa34b996a0fa5",
+      "same_product_verified": false,
+      "relation_note": "样本#35参考图只可辨认出Innocent Grey游戏盒，具体作品/版本标题被遮挡。原两侧链接都指向《トロイメライ》音乐CD，与游戏盒形态不符，已撤销错误配对；本次两平台站内搜索未能打开并核实与参考图对应的具体游戏详情页。当前不得按这两条旧链接显示价格或商品图，也不计同SKU利润。",
       "wameiji": {
-        "title": "トロイメライ 初回限定版 新品未開封 Innocent Grey 霜月はるか",
-        "version_evidence": "挖煤姬当前 Mercari 具体详情页明确为 Innocent Grey《トロイメライ -Innocent Grey Haruka Shimotsuki Collection-》初回限定版，附原始特典杯垫2枚和特装包装，未使用，价格33,000 JPY（页面约1,462 CNY）。",
+        "title": "Innocent Grey 游戏盒子：具体作品/版本未核实",
+        "version_evidence": "人工内置浏览器按Innocent Grey游戏软件检索，出现FLOWERS等多个不同作品/版本的候选，但未找到能与参考图的具体封面、版本和附件核对一致且已打开核验的商品详情。原先复用的《トロイメライ》是音乐CD，不是本样本游戏盒，已撤出配对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 33000,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d31363232323635383832372f",
-        "observed_at": "2026-09-19T20:47:03Z",
+        "price": null,
+        "currency": null,
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&sort=default&isStock=true&seller=%5B%22%22%5D&website=%5B%22mercari%22%5D&keywords=Innocent+Grey+%E3%82%B2%E3%83%BC%E3%83%A0%E3%82%BD%E3%83%95%E3%83%88",
+        "observed_at": "2026-09-24T16:47:32Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m16222658827_1.jpg"
+        "image_url": null,
+        "image_state": "reference_only",
+        "state": "blocked"
       },
       "xianyu": {
-        "title": "Innocent Grey HarukaShimotuki Collection トロイメライ",
-        "version_evidence": "人工 Chrome 打开闲鱼当前具体详情页；标题明确为 Innocent Grey HarukaShimotuki Collection《トロイメライ》，详情写明闲置中古、品相如图，价格345 CNY包邮，当前可立即购买。主图可见《トロイメライ》CD盒与封面。它确认同一作品/同一 Collection 的当前实体，但页面未写初回限定、特典杯垫或特装包装，因此与挖煤姬初回限定版不宣称同一 SKU，仅作为双侧实物观察。",
+        "title": "Innocent Grey 游戏盒子：具体作品/版本未核实",
+        "version_evidence": "人工内置浏览器按样本原始描述“Innocent Grey 游戏盒子”检索，结果页可见多个该社不同作品/周边，但本轮未能打开并核实一条与参考图封面和具体版本一致的游戏商品详情。原先链接实际指向《トロイメライ》音乐CD，已撤出配对。",
         "catalog_no": null,
         "barcode": null,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01uBTBPL1I0BlHYBsou_!!4611686018427382286-0-fleamarket.jpg_Q90.jpg_.webp",
-        "price": 345,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=875387664712&categoryId=126864811",
-        "observed_at": "2026-09-20T18:32:36Z",
+        "image_url": null,
+        "price": null,
+        "currency": null,
+        "source_url": "https://www.goofish.com/search?q=Innocent%20Grey%20%E6%B8%B8%E6%88%8F%E7%9B%92%E5%AD%90",
+        "observed_at": "2026-09-24T16:47:32Z",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_state": "reference_only",
+        "state": "blocked"
       },
       "reference_image_url": "assets/reference-samples/35-e614e34d2690d0fa.webp"
     },
@@ -4575,249 +4720,285 @@
     {
       "reference_product_id": 50,
       "stable_key": "sample:3173a93da0e6185bd6775d03e646fd10917708ad99cc49cb92cffd5de58d4738",
+      "same_product_verified": false,
+      "relation_note": "两侧均指向リリィ、さよなら《どうして君は世界で一人》CD，挖煤姬商品页列JAN 4589910070205。闲鱼页目前可打开，但它是多个专辑/成色选项的合集；目标选项文字标120 CNY、带腰封/全新，但页面主图为合集图库图，未能确认专属该选项的实物状态。挖煤姬为605 JPY中古，商品图为页面样图、不保证腰封，且标有些许损伤。只保留为同作品观察，不确认同SKU/同成色，不比较利润。",
       "wameiji": {
-        "title": "【中古】 どうして君は世界で一人／リリィ、さよなら。",
-        "version_evidence": "人工 Chrome 打开挖煤姬当前 Rakuten 具体详情页；商品规格明确标题《どうして君は世界で一人》、目录号 VMAN7、JAN 4589910070205、发行日 2016-06-22，二手品相为“非常好”，99 JPY。",
+        "title": "どうして君は世界で一人 [CD] リリィ、さよなら。_02",
+        "version_evidence": "2026-09-25人工通过挖煤姬站内标题检索，打开Mercari在售商品详情（非旧Rakuten目录链接）：标题《どうして君は世界で一人 [CD] リリィ、さよなら。_02》，商品介绍列JAN 4589910070205；当前605 JPY，店铺卖家、页面成色“有些许损伤或污渍”，卖家承担日本国内运费，手续费200 JPY，无物流保障，页面显示可加入购物车/立即购买。商品页首图直链已核验并记录；但商品介绍明确商品图片为样图，且不保证标题未写“帯あり”的商品附带腰封，因此该图只标为页面示意图，不能证明实物品相或配件。",
         "catalog_no": "VMAN7",
         "barcode": "4589910070205",
-        "price": 99,
+        "price": 605,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fbookoffonline%2F0018672960%2F",
-        "observed_at": "2026-09-21T12:00:00+08:00",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a5638645662415851436b4d3735364e626b506e382f",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imgoss.mokaki.cn/ossimg/65cca9650d72043406a3b17c5e36a619.png!compress",
-        "image_state": "observed_main_image"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JV8Y52xxbisFRB4eaHmr8.jpg@jpg",
+        "image_state": "page_reference_image",
+        "state": "found"
       },
       "xianyu": {
         "title": "リリィ さよなら Lily Sayonara／どうして君は世界で一人 有册封全新",
-        "version_evidence": "人工 Chrome 打开闲鱼当前具体商品页；页面正文明确选项“どうして君は世界で一人 有册封全新 120”，同一链接为多选项商品，页面活动价区间 100–120 CNY，8 人想要。该选项与挖煤姬侧同名专辑对应，但闲鱼侧为全新带册封、挖煤姬侧为中古非常好，成色不同；未把页面区间最低价当作该 SKU 价格。",
+        "version_evidence": "2026-09-25 05:19（+08:00）人工内置浏览器重开原闲鱼详情：页面当前显示价格区间100–120 CNY、8人想要、67浏览；标题/选项文字明确列出“どうして君は世界で一人 有册封全新 120 不包邮”，对应目标选项挂牌120 CNY。商品链接为多选项合集，当前主图不能单独证明已选中该选项，图片只作为该商品页第一张图库图；不把区间价或主图误写成单一选项的实拍。挖煤姬为中古，当前605 JPY；商品页说明图片为样图、标题未写“帯あり”可能不附腰封，且成色“有些许损伤或污渍”，两侧不确认同SKU/同成色，不比较利润。",
         "catalog_no": null,
         "barcode": null,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/2209761708320/O1CN01RZ1t1o2BKcPJm6vqW_!!4611686018427382048-53-xy_item.heic_Q90.jpg_.webp",
         "price": 120,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=966395255268&categoryId=126864811",
-        "observed_at": "2026-09-21T12:00:00+08:00",
+        "observed_at": "2026-09-25T05:19:00+08:00",
         "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false
+        "is_wameiji_platform": false,
+        "image_state": "observed_first_gallery_image",
+        "state": "found"
       },
       "reference_image_url": "assets/reference-samples/50-3173a93da0e6185b.webp"
     },
     {
       "reference_product_id": 51,
       "stable_key": "sample:6991b7346484a1ee5ef2d96fd2854030c0a6e946b00527586b0f9b2af2ca31a3",
+      "same_product_verified": true,
+      "relation_note": "两边均为Fate/hollow ataraxia PS Vita限定版；挖煤姬详情明确型番VLJM-35123，闲鱼标题与实物首图吻合，属于同版本参考。闲鱼卖家称附件齐全，挖煤姬列出限定内容但下载码可用性未确认；不等同于同品相/附件状态。",
       "wameiji": {
         "title": "Fate/hollow ataraxia 限定版 PS Vita ゲームソフト 未開封ねんどろいどぷちアヴェンジャーフィギュア付き 美品 角川ゲームス TYPE-MOON 付属品完備 カプセルマテリアル VLJM-35123",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：店铺卖家，Fate/hollow ataraxia PS Vita 限定版，型番 VLJM-35123；说明列出特制収納BOX、游戏本体、未开封ねんどろいどぷちアヴェンジャー、Capsule material/Hanafuda material、花札下载代码传单。页面显示成色“没有明显的损伤或污渍”、价格2,980日元、日本国内运费卖家承担、代购手续费200日元、无物流保障并标注航空禁运；下载代码可用性未确认。",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）重开挖煤姬煤炉详情：当前仍可加入购物车/立即购买，2,980 JPY（约132 CNY），卖家承担日本国内运费，手续费200 JPY、无物流保障并标注航空禁运。标题/说明确认PS Vita限定版和型番VLJM-35123；列有特制收纳盒、游戏本体、未开封ねんどろいどぷちアヴェンジャー、Capsule material/Hanafuda material、花札下载代码传单，代码可用性仍未确认。首图直链仍显示同一套装包装与赠品；页面有图片可能与实物不同的提示。",
         "catalog_no": null,
         "barcode": null,
         "price": 2980,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f755350347239433476544b69446769583746756e694e2f",
-        "observed_at": "2026-09-21T04:18:43Z",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JNgeB5ghSc3jU2wJ7NMvh.jpg@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JNgeB5ghSc3jU2wJ7NMvh.jpg@jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "fate 虚空明镜 Fate/hollow ataraxia PSV限定版 同捆特典小安粘土人 日版日文限定版 附件全",
-        "version_evidence": "Current listing title explicitly claims PSV limited edition, bundled Nendoroid Petit Avenger, Japanese release, and complete accessories. Page-text does not enumerate every component or condition; comparison remains seller-claim level pending image/detail confirmation.",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）闲鱼详情仍有“立即购买”，当前240 CNY包邮、1人想要/268浏览。标题、首图和详情显示Fate/hollow ataraxia PSV限定版及同捆小安粘土人；首图直链打开后与详情的盒装实拍一致。卖家称附件全，但每件品相和下载码可用性没有独立验证。与挖煤姬VLJM-35123同版本；附件状态仍需分别对待。",
         "catalog_no": null,
         "barcode": null,
         "price": 240,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1057027726898&categoryId=126856346",
-        "observed_at": "2026-09-14T17:13:00Z",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3385513124/O1CN019BfhhO1YwqSIBtM0M_!!4611686018427384996-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/3385513124/O1CN019BfhhO1YwqSIBtM0M_!!4611686018427384996-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/51-6991b7346484a1ee.webp"
     },
     {
       "reference_product_id": 52,
       "stable_key": "sample:52e257b4080e104439390c470440ee3727861059d11e6a9720472deb5f14d758",
+      "same_product_verified": true,
+      "relation_note": "两侧标题、ヨルシカ《だから僕は音楽を辞めた》初回生産限定BOX规格及首图木盒/CD包装相符，作为同一版本参考可核；但闲鱼实物有外袋及木盒/内页损伤，挖煤姬卖家标未使用/未开封，成色不等价，不得把价格差直接当作无条件利润。",
       "wameiji": {
         "title": "ヨルシカ だから僕は音楽を辞めた 初回生産限定盤 BOX仕様",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：ヨルシカ《だから僕は音楽を辞めた》初回生産限定盘 BOX，页面显示未使用、价格30,000日元、日本国内运费卖家承担、代购手续费300日元、2~3日发货、有物流保障。卖家说明未开封、暗处保管；盒材质“推测为木制”，养猫但分室保管；版本材质与附件仍需以图和闲鱼样本逐项核对。",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）挖煤姬详情仍可加入购物车/立即购买，30,000 JPY（页面约1,326 CNY），未使用、卖家承担日本国内运费、手续费300 JPY、有物流保障，预计2–3日发货。卖家称未开封、暗处保管，木制材质为卖家推测，家有猫但分室保管。第一张主图直链已打开核对，为木盒包装及内页CD信息图；页面提示图片可能与实物不同。",
         "catalog_no": null,
         "barcode": null,
         "price": 30000,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33313636353633333936362f",
-        "observed_at": "2026-09-21T04:19:23Z",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m31665633966_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m31665633966_1.jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "【出】ヨルシカ 油鹿西卡 yrsk 所以我放弃了音乐 音辞 初回限定盘 CD 夜鹿 木盒风 专辑 だから僕は音楽を辞めた音辞 盗作yorushika 专辑 1st full album 初回限定 木盒 初回 suis n-buna 拿不拿",
-        "version_evidence": "标题明确音辞、初回限定盘、CD、木盒；与参考样本音辞/BOX规格对应。",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）闲鱼详情仍可立即购买，480 CNY包邮、3人想要/923浏览；标题为ヨルシカ《だから僕は音楽を辞めた》初回限定木盒版。卖家称仅开盒检查未使用，但外包装袋破损、木盒及内页有损伤；第一张主图直链已打开核对，与当前详情主图一致，画面为木盒背面/内页信息。两边同为该专辑初回BOX版本，但闲鱼有损、挖煤姬标未使用，成色不可直接比较。",
         "catalog_no": null,
         "barcode": null,
         "price": 480,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1075912213716&categoryId=126864811",
-        "observed_at": "2026-09-15T15:57:27Z",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2203039968859/O1CN01fK1TMcenR4D3thGS_!!4611686018427383387-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2203039968859/O1CN01fK1TMcenR4D3thGS_!!4611686018427383387-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/52-52e257b4080e1044.webp"
     },
     {
       "reference_product_id": 53,
       "stable_key": "sample:f51c7e9a3f32ba6d360a8b20e083ffb708d6723faeafe89fefa679e79e48d346",
+      "same_product_verified": true,
       "wameiji": {
-        "title": "Aimer daydream【初回生産限定盤A】Blu-ray",
-        "version_evidence": "挖煤姬详情页：二手；没有明显的损伤或污渍；くりやん；商品为Aimer daydream初回生产限定盘A Blu-ray；页面描述含2015 Aimer Live Tour DAWN最终公演影像；当前可还价/加入购物车/立即购买。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1200,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34333031303633383734372f",
-        "observed_at": "2026-09-21T04:48:47Z",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://imghk02.doorzo.net/item/detail/orig/photos/m43010638747_1.jpg?1787658572"
-      },
-      "xianyu": {
-        "title": "【现货】正品 Aimer《daydream》初回限定盘A（CD+BD）原装正版日版",
-        "version_evidence": "Current Xianyu listing explicitly identifies Aimer daydream initial limited A, CD+Blu-ray, 13 CD tracks plus 3 Blu-ray tracks, sealed with obi. This matches the initial-A CD+BD form rather than normal CD or limited B DVD.",
+        "title": "Aimer daydream 初回生産限定盤A CD+Blu-ray",
+        "version_evidence": "2026-09-25 04:40（内置浏览器复核）重开挖煤姬具体Mercari页：标题Aimer daydream初回生産限定盤A CD+Blu-ray；当前7,999 JPY（页面约354 CNY），无明显损伤/污渍，卖家承担日本国内运费，手续费240 JPY、有物流保障，页面仍可加入购物车/立即购买。详情称CD播放过一次。首张主图直链已在页面打开核对，为该商品包装图；站点提示图片可能与实物不同。型式与SECL-1983初回A CD+BD规格一致。",
         "catalog_no": "SECL-1983",
         "barcode": null,
-        "price": 283,
+        "price": 7999,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d33373732323733383439342f",
+        "observed_at": "2026-09-25T04:40:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m37722738494_1.jpg?1784248948",
+        "image_state": "observed_first_gallery_image"
+      },
+      "xianyu": {
+        "title": "标价包邮！Aimer daydream 初回限定盘A 日版CD+BD",
+        "version_evidence": "2026-09-25 04:40（人工内置浏览器复核）闲鱼详情仍可立即购买，当前168 CNY包邮、2人想要/163浏览；标题与正文明确初回限定A CD+BD，已拆封，带侧标和盒子（卖家称原包装在）；CD有细微毛痕、BD有灰。该商品页第一张画廊图直链已打开核对，显示为 daydream 包装主图，而非此前页面上错误的人像照片。与挖煤姬SECL-1983初回A CD+Blu-ray同版本，但成色与附件状态有差异，不作同成色或利润结论。",
+        "catalog_no": "SECL-1983",
+        "barcode": null,
+        "price": 168,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1041583191474&categoryId=126864811",
-        "observed_at": "2026-09-14T18:53:33Z",
+        "source_url": "https://www.goofish.com/item?id=1080171737027&categoryId=126864811",
+        "observed_at": "2026-09-25T04:40:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01mOSp5u1zFK3s7mIHZ_!!0-mtopupload.jpg_110x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/1713419028/O1CN01E8jVKAJuh6I3thGS_!!4611686018427384596-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/53-f51c7e9a3f32ba6d.webp"
     },
     {
       "reference_product_id": 54,
       "stable_key": "sample:fadb1a708c0fcea5a74806ee589c7790202d027ee3a124f622f8b477a98be5fa",
+      "same_product_verified": true,
+      "relation_note": "闲鱼与挖煤姬详情标题均锁定TYPE-MOON Fes. 10TH ANNIVERSARY Blu-ray Box完全生産限定版；双方都列出4枚套装（主编2张BD、特典BD、特典CD），可认定同一版本参考。闲鱼标几乎全新/未使用，挖煤姬为二手无明显损伤；成色不等价，运费与手续费需按实际到手成本核算。",
       "wameiji": {
         "title": "TYPE-MOON Fes. 10TH アニバーサリー BDBox完全生産限定版",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：TYPE-MOON 10周年活动 Blu-ray Box，完全生産限定版，4枚组（本编 Blu-ray 2张、特典映像 Blu-ray 1张、特典 CD 1张）、三方背盒、数码包、36页册子；页面显示二手、成色“没有明显的损伤或污渍”、价格6,480日元、日本国内运费卖家承担、代购手续费200日元、1~2日发货。与闲鱼限定版套装附件需继续逐项核对。",
+        "version_evidence": "2026-09-25 04:59（内置浏览器逐项复核）挖煤姬详情仍为TYPE-MOON Fes. 10TH Anniversary BD Box完全生产限定版，当前6,480 JPY（页面约287 CNY）；显示二手、无明显损伤污渍，日本国内运费卖家承担、手续费200 JPY、有物流保障、1–2日发货，仍可加入购物车/立即购买。说明列2张本编BD、1张特典BD、1张特典CD、三方背盒、数码包、36页册子。首图直链已单独打开确认与本条目套装一致；页面仍提示图片可能与实物不同。",
         "catalog_no": null,
         "barcode": null,
         "price": 6480,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34353136373833303538352f",
-        "observed_at": "2026-09-21T04:11:27Z",
+        "observed_at": "2026-09-25T04:59:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m45167830585_1.jpg"
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m45167830585_1.jpg",
+        "image_state": "observed_first_gallery_image"
       },
       "xianyu": {
         "title": "型月10周年庆典蓝光套装 完全生产限定版",
-        "version_evidence": "详情明确TYPE-MOON Fes. 10TH ANNIVERSARY Blu-ray Disc BOX完全生产限定版；4碟（2主蓝光+1特典蓝光+1特典CD），对应样本。",
+        "version_evidence": "2026-09-25 04:59（内置浏览器逐项复核）闲鱼详情仍有“立即购买”，当前320 CNY包邮、2人想要/278浏览。标题及详情为TYPE-MOON Fes. 10TH ANNIVERSARY Blu-ray Disc BOX完全生产限定版，四碟（2张主BD+1张特典BD+1张特典CD），并列三方背盒、数码包与36页册子；页面称几乎全新、重新封装但未使用。首图直链打开后与详情红色套装盒实拍吻合；与挖煤姬是同一版本参考，但成色不等价。",
         "catalog_no": null,
         "barcode": null,
-        "price": 290,
+        "price": 320,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1076443392812&categoryId=126860296",
-        "observed_at": "2026-09-15T16:00:04Z",
+        "observed_at": "2026-09-25T04:59:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01Ny4P0cPJ1pI37rd6_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01Ny4P0cPJ1pI37rd6_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/54-fadb1a708c0fcea5.webp"
     },
     {
       "reference_product_id": 55,
       "stable_key": "sample:0dc9988288567b17514d4ce7ae8a6ab616392cde155c24f2da0636b910336f1f",
+      "same_product_verified": false,
+        "relation_note": "两边都是TYPE-MOON 10th Anniversary Phantasm画集，但具体版本/品相未核成一致：闲鱼是多规格链接，卖家区分再刷版与带腰封首刷版，页面未显示当前选中项；挖煤姬为网络OFF店铺二手书（JAN 9784041102435），明示首图为示例且腰封、装帧和状态不保证。闲鱼不记录成单一确定价；挖煤姬图片仅作页面参考，不能用于价差或利润判断。",
       "wameiji": {
         "title": "TYPE-MOON 10th Anniversary Phantasm／Type‐Moon",
-        "version_evidence": "内置浏览器 Chrome/IAB 挖煤姬详情页核验：角川书店，网络 OFF 店铺卖家；中古本/游戏攻略本，发行日 2012-08-01，JAN 9784041102435，价格1,720日元，日本国内运费卖家承担、代购手续费200日元、无物流保障。页面标注“有些许损伤或污渍”，图片为示例、装帧/腰封及商品状态可能不同，跨站库存不足时可能取消；与闲鱼样本版本和附件需继续核对。",
+        "version_evidence": "2026-09-25 04:59（内置浏览器逐项复核）挖煤姬原链接仍为TYPE-MOON 10th Anniversary Phantasm／Type-Moon，角川书店、网络OFF店铺卖家，JAN 9784041102435，发行日2012-08-01；报价1,720日元，页面仍可加入购物车/立即购买，日本国内运费卖家承担、手续费200日元、无物流保障，成色显示有些许损伤或污渍。说明明确首图仅为示例，腰封/装帧/状态可能不同，跨站库存不足可能取消；首图直链虽与页面示例一致，不能证明当前实物。",
         "catalog_no": null,
         "barcode": null,
         "price": 1720,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f324a4b7967594a32445a437462426938426b534e42782f",
-        "observed_at": "2026-09-21T04:21:02Z",
+        "observed_at": "2026-09-25T04:59:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JVYCzKUQk22SbGRy8jHXw.jpg@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/2JVYCzKUQk22SbGRy8jHXw.jpg@jpg",
+        "image_state": "page_reference_image"
       },
       "xianyu": {
         "title": "Type-MOON十周年画集 TYPE-MOON 10th Anniversary Phantasm",
-        "version_evidence": "详情明确398页，左侧再刷、右侧带书腰的初版首刷；与样本画集身份对应。",
+        "version_evidence": "2026-09-25 04:59（内置浏览器逐项复核）闲鱼详情仍可“立即购买”，页面报价区间¥228–350、25人想要/1013浏览；标题及说明为TYPE-MOON 10th Anniversary Phantasm、398页。卖家明确左侧再刷版228元、右侧带腰封初版首刷350元，封面颜色不同；当前选择项未明确，故不能把228元或350元绑定到首图，快照价格留空。第一张画廊直链已打开，图为本条目画集封面实拍；但无法据此判定具体选中版本/腰封。",
         "catalog_no": null,
         "barcode": null,
-        "price": 228,
+        "price": null,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=977270387587&categoryId=126860296",
-        "observed_at": "2026-09-15T16:01:56Z",
+        "observed_at": "2026-09-25T04:59:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01qczRy22DqnPtKZmbO_!!4611686018427387797-0-fleamarket.jpg_Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01qczRy22DqnPtKZmbO_!!4611686018427387797-0-fleamarket.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/55-0dc9988288567b17.webp"
     },
     {
       "reference_product_id": 56,
       "stable_key": "sample:1fd51e4ead2b2779f66fd5126f386cbd42d1a0eb4d4fb13b48d56d074e61257d",
+    "same_product_verified": true,
+    "relation_note": "两侧当前详情都确认かいりきベア《セイデンキ少女》KRRC-6标准CD，可作为同一基础SKU观察；闲鱼卖家称带侧标且无瑕疵，挖煤姬标准版页面未列侧标并标二手无明显损伤，附件/品相不等价。价格是当前挂牌，不代表已售或利润达标。",
       "wameiji": {
         "title": "かいりきベア — セイデンキ少女",
-        "version_evidence": "挖煤姬详情标注 KRRC-6、2015-08-16、standard used CD；样本参考版为无侧标（无 obi）。",
+      "version_evidence": "2026-09-25 05:06（内置浏览器复核）使用挖煤姬 www.meruki.cn 详情页打开成功；标题为《【中古】アニメ系CD かいりきベア / セイデンキ少女》，说明列KRRC-6、通常版；当前17,000 JPY，店铺卖家駿河屋メルカリ店，二手且页面显示无明显损伤或污渍，日本国内运费卖家承担、手续费300 JPY、无物流保障，详情页仍显示加入购物车/立即购买。主图直链打开后与本品封面一致；商品仍有平台图片可能与实物不同提示，侧标未列入配件，因此不推定附侧标。",
         "catalog_no": "KRRC-6",
         "barcode": null,
-        "price": 16815,
+      "price": 17000,
         "currency": "JPY",
         "source_url": "https://meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f4463434872674551474e684d69464733766b6f4a39642f",
-        "observed_at": "2026-09-14T18:45:46Z",
-        "marketplace_host": "meruki.cn",
+      "observed_at": "2026-09-25T05:06:00+08:00",
+      "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/KKKSjRtDuyxmoaDiTUXzAR.webp@jpg"
+        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/KKKSjRtDuyxmoaDiTUXzAR.webp@jpg",
+      "image_state": "observed_first_gallery_image",
+      "state": "observed_current"
       },
       "xianyu": {
         "title": "かいりきベア怪力熊 专辑 セイデンキ少女 带侧无瑕疵",
-        "version_evidence": "闲鱼详情页标题明确为かいりきベア《セイデンキ少女》实体专辑，带侧标且无瑕疵；标价 1,800 CNY，可直接购买。与挖煤姬同一专辑/版本族，闲鱼侧为带侧标版本。",
+      "version_evidence": "2026-09-25 05:06（内置浏览器逐项复核）闲鱼详情仍显示立即购买，标价1,800 CNY、19人想要/4,649浏览。标题为かいりきベア怪力熊《セイデンキ少女》，卖家称带侧标、无瑕疵；首张主图直链打开后与该专辑封面相符。卖家描述与挖煤姬标准版的侧标/配件状态不同，不直接比较成色或利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 1800,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=741309981528&categoryId=126864811",
-        "observed_at": "2026-09-19T06:00:21Z",
+      "observed_at": "2026-09-25T05:06:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01e3QwZA1dU3NThD5ut_!!53-fleamarket.heic_Q90.jpg_.webp"
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01e3QwZA1dU3NThD5ut_!!53-fleamarket.heic_Q90.jpg_.webp",
+      "image_state": "observed_first_gallery_image",
+      "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/56-1fd51e4ead2b2779.webp"
     },
     {
       "reference_product_id": 57,
       "stable_key": "sample:f5ba9a2f22115993f45a3c6bb5fdf9da73d3c1b7074bf69b586465c55fd72255",
+      "same_product_verified": false,
+      "relation_note": "样本 #57 是《罗小黑战记2》蓝光特装版（样本图提及手办及套装附件），此前误配成宝可梦×初音未来商品，已撤下错链。当前挖煤姬找到同作品的蓝光手办特装版，可确认标题、蓝光、手办版本和14,552 JPY可下单，但商品页未列全套附件，故仅作相关观察、非同SKU；闲鱼用精确及简化关键词检索均无可核验在售结果，不补假图、不计利润。",
       "wameiji": {
-        "title": "ポケモン×初音ミク VOLTAGE Live Blu-ray Amazon特典付",
-        "version_evidence": "商品描述明确：VOLTAGE Live蓝光；ReLive!音源CD；MEMORIAL REPORT特别书；亚克力立牌2种套装；明信片18张；特典映像“アナザーアングル定点映像 FULL STAGE”；未使用。",
+        "title": "羅小黒戦記２ ぼくらが望む未来（シャオヘイ迷你手办特装版）Blu-ray（挖煤姬相关观察）",
+        "version_evidence": "2026-09-25 人工内置浏览器从挖煤姬站内搜索结果打开当前Rakuten详情页：标题明确《羅小黒戦記２ ぼくらが望む未来（シャオヘイ ミニフィギュア付き特装版）[Blu-ray]》，当前14,552 JPY，页面有加入购物车/立即购买；说明列出商品名、Blu-ray、发售日及重量970g，但未列明样本截图提及的2CD、说明册、外盒等全部附件。因此保留为同作品相关观察，不认定同一完整套装或同SKU；图链取自当前详情页已加载的首张商品图。",
         "catalog_no": null,
         "barcode": null,
-        "price": 17999,
+        "price": 14552,
         "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32343332333734373837342f",
-        "observed_at": "2026-09-21T11:02:20Z",
+        "source_url": "https://www.meruki.cn/mall/rakuten/detail/https%3A%2F%2Fitem.rakuten.co.jp%2Fsproutsllc%2Fs-b0h1ht74c7-20260904%2F",
+        "observed_at": "2026-09-25T08:00:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m24323747874_1.jpg"
+        "image_url": "https://image03.doorzo.net/tshopr10sjp/sproutsllc/cabinet/r20260904035448/b0h1ht74c7-1.jpg?fitin=600:600",
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_related"
       },
       "xianyu": {
-        "title": "全新【亚马逊日本限定】宝可梦 × 初音未来 VOLTAGE Live！蓝光特装版（蓝光光盘＋书籍＋其他赠品）",
-        "version_evidence": "人工 Chrome/IAB 闲鱼搜索卡核验：当前卡片标题明确写有“亚马逊日本限定”与“VOLTAGE Live！蓝光特装版”，并列出蓝光光盘、书籍/其他赠品及亚马逊限定5首曲目特典 CD。点开详情后被闲鱼跨境商品 APP 门禁拦截，因此单件配件、成色、库存与卖家详情尚未完成详情级核验。",
+        "title": "罗小黑战记2 蓝光特装版（闲鱼当前检索未找到可核验在售项）",
+        "version_evidence": "2026-09-25 人工内置浏览器在闲鱼用‘罗小黑战记2 蓝光 BD 限定特装版 手办’及简化词‘罗小黑战记2 蓝光’检索，两个结果页均显示‘小闲鱼没有找到你想要的宝贝’；不沿用此前误配的宝可梦链接、报价或商品图。当前无可核验在售商品，等待后续复查。",
         "catalog_no": null,
         "barcode": null,
-        "price": 811,
+        "price": null,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1059700813523&categoryId=201459411",
-        "observed_at": "2026-09-21T14:50:24Z",
+        "source_url": "https://www.goofish.com/search?q=%E7%BD%97%E5%B0%8F%E9%BB%91%E6%88%98%E8%AE%B02%20%E8%93%9D%E5%85%89",
+        "observed_at": "2026-09-25T08:00:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN01dkIPvh1V2YudRgavn_!!4611686018427383123-0-mtopupload.jpg"
+        "image_url": null,
+        "image_state": "no_verified_item_photo",
+        "state": "not_currently_listed"
       },
       "reference_image_url": "assets/reference-samples/57-f5ba9a2f22115993.webp"
     },
@@ -4996,8 +5177,9 @@
         "observed_at": "2026-09-14T18:04:56Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://shop.r10s.jp/mifsoft/cabinet/025/mary-1004.jpg"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://shop.r10s.jp/mifsoft/cabinet/025/mary-1004.jpg",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "Orangestar mary 彼はきっと魔法を使う 专辑 cd（日版，全新）",
@@ -5318,8 +5500,9 @@
         "observed_at": "2026-09-23T09:05:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/soundace/cabinet/suke01/1/so-mov-dv-c-00426.jpg?downsize=200:*"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://tshop.r10s.jp/soundace/cabinet/suke01/1/so-mov-dv-c-00426.jpg?downsize=200:*",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "ZARD Forever Best 25周年纪念 日版4CD（全新未拆封，带原塑封）",
@@ -5416,8 +5599,9 @@
         "observed_at": "2026-09-23T09:15:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/sasatatu86/cabinet/05577637/06532690/13592819/750.jpg?fitin=275:275"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://tshop.r10s.jp/sasatatu86/cabinet/05577637/06532690/13592819/750.jpg?fitin=275:275",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "有现货♥夜鹿ヨルシカ创作LP黑胶包邮全新未拆12寸45转限定",
@@ -5449,8 +5633,9 @@
         "observed_at": "2026-09-23T09:20:00Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m59481550077_1.jpg"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m59481550077_1.jpg",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "宇多田光《This Is The One》日版黑胶LP，环球首版，重量盘，全新未拆封，四角尖尖，品相完美。",
@@ -5482,8 +5667,9 @@
         "observed_at": "2026-09-23T09:25:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/surprise-2/cabinet/imgr0845/anzx-18501.jpg?downsize=500:*"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://tshop.r10s.jp/surprise-2/cabinet/imgr0845/anzx-18501.jpg?downsize=500:*",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "鬼灭之刃：无限城篇 第一章 猗窝座再袭 Blu-ray 完全生产限定版（日版，全新未拆）",
@@ -5576,8 +5762,9 @@
         "observed_at": "2026-09-23T09:50:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://shop.r10s.jp/hmvjapan/cabinet/a25/66000/12565453.jpg"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://shop.r10s.jp/hmvjapan/cabinet/a25/66000/12565453.jpg",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "现货♥宇多田光BADモード日版黑胶2LP完全生产限定盘",
@@ -5590,9 +5777,8 @@
         "observed_at": "2026-09-23T09:50:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN017y4XfKLVxuJ2V5ev_!!4611686018427385545-2-xy_item.png_220x10000.jpg_.webp",
         "image_state": "current_related_image",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/20297417/O1CN017y4XfKLVxuJ2V5ev_!!4611686018427385545-2-xy_item.png_220x10000.jpg_.webp",
         "state": "replacement_related"
       },
       "reference_image_url": "assets/reference-samples/82-3e9574128a6c5f23.webp"
@@ -5643,8 +5829,9 @@
         "observed_at": "2026-09-23T10:10:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0799/jbcj-9086.jpg?fitin=275:275"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0799/jbcj-9086.jpg?fitin=275:275",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "坂井泉水 ZARD Best Request 35周年纪念 3CD套装（日版原版，全新未拆，Blu-spec CD2）",
@@ -5676,8 +5863,9 @@
         "observed_at": "2026-09-23T10:20:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/book/cabinet/4513/4560429724513.jpg?fitin=275:275"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://tshop.r10s.jp/book/cabinet/4513/4560429724513.jpg?fitin=275:275",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "Aimer - After Dark 日版首版 全新未拆",
@@ -5709,8 +5897,9 @@
         "observed_at": "2026-09-23T10:30:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0829/fljg-9012.jpg?fitin=275:275"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0829/fljg-9012.jpg?fitin=275:275",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "坂本龙一 1996 30周年纪念版黑胶2LP 30th anniversary edition（全新未拆）",
@@ -5755,8 +5944,9 @@
         "observed_at": "2026-09-23T10:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
-        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01aAwHAH24f2hKJt39t_!!4611686018427385545-0-fleamarket.jpg_450x10000Q90.jpg_.webp"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01aAwHAH24f2hKJt39t_!!4611686018427385545-0-fleamarket.jpg_450x10000Q90.jpg_.webp",
+        "state": "blocked"
       },
       "reference_image_url": "assets/reference-samples/87-37135d9f8a4bdb83.webp"
     },
@@ -5775,8 +5965,9 @@
         "observed_at": "2026-09-23T10:40:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://img.fril.jp/img/800693998/l/2731215840.jpg?1763512503=&updated_at=2025-11-19T00:35:04.000Z"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://img.fril.jp/img/800693998/l/2731215840.jpg?1763512503=&updated_at=2025-11-19T00:35:04.000Z",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "藤井风 三专Prema 藤井风黑胶lp",
@@ -5839,8 +6030,9 @@
         "observed_at": "2026-09-23T10:50:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/eskl-6.jpg?downsize=400:*"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0833/eskl-6.jpg?downsize=400:*",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "宇多田光 パッパパラダイス Papapa Paradise 日版限定 7寸黑胶海报套装",
@@ -5871,8 +6063,9 @@
         "observed_at": "2026-09-23T11:00:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://shop.r10s.jp/cyberbay/cabinet/02413830/img60166590.jpg"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://shop.r10s.jp/cyberbay/cabinet/02413830/img60166590.jpg",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "现货 原装正版 milet Walkin' In My Lane 初回限定B CD+DVD（日版，全新未拆）",
@@ -5904,8 +6097,9 @@
         "observed_at": "2026-09-23T11:10:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0820/thca-60299.jpg?fitin=275:275"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0820/thca-60299.jpg?fitin=275:275",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "【现货】葬送的芙莉莲 第二季 FRIEND Beyond Journey's End Season2 动漫原声带（日版CD，初回限定版，全新未拆）",
@@ -5968,8 +6162,9 @@
         "observed_at": "2026-09-23T11:30:00Z",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
-        "image_state": "observed_main_image",
-        "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/03442474715459f08b27875781e9d35ef9c406fa83a8b3347ac1313203dc7bda/i-img1080x1080-1789290218729821jgx1bh24.jpg"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0209/user/03442474715459f08b27875781e9d35ef9c406fa83a8b3347ac1313203dc7bda/i-img1080x1080-1789290218729821jgx1bh24.jpg",
+        "state": "login_required"
       },
       "xianyu": {
         "title": "高桥洋子《残酷的天使的 thesis》EVA 30周年初回限定彩胶 LP / NAS-2164 / 4988003660604",
@@ -5982,8 +6177,9 @@
         "observed_at": "2026-09-23T11:30:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
-        "image_url": "https://img.alicdn.com/bao/uploaded/i2/89820215/O1CN01EqUMqn1DSWHSK6Jl8_!!4611686018427382839-53-xy_item.heic_450x10000Q90.jpg_.webp"
+        "image_state": "historical_first_gallery_image",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/89820215/O1CN01EqUMqn1DSWHSK6Jl8_!!4611686018427382839-53-xy_item.heic_450x10000Q90.jpg_.webp",
+        "state": "blocked"
       },
       "reference_image_url": "assets/reference-samples/94-09cdcbeb0b4c2822.webp"
     },
@@ -6065,7 +6261,8 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m82639812057_1.jpg",
-        "image_state": "observed_main_image"
+        "image_state": "historical_first_gallery_image",
+        "state": "blocked"
       },
       "xianyu": {
         "title": "全新未拆现货 宇多田光 Fantome 幻影 初回生产限定盘 双黑胶 2LP",
@@ -6098,7 +6295,8 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m14920004756_1.jpg",
-        "image_state": "observed_main_image"
+        "image_state": "historical_first_gallery_image",
+        "state": "blocked"
       },
       "xianyu": {
         "title": "特惠YOASOBI THE BOOK for 全新未拆专辑 CD+特制活页夹",
@@ -6131,8 +6329,9 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://img.fril.jp/img/823311623/l/2829147663.jpg?1789616310=&updated_at=2026-09-17T03:38:30.000Z",
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "login_required"
       },
       "xianyu": {
         "title": "宇多田光 Distance 限定版黑胶唱片 全新",
@@ -6165,8 +6364,9 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://tshop.r10s.jp/guruguru2/cabinet/231/wpjl-10295.jpg?fitin=275:275",
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "blocked"
       },
       "xianyu": {
         "title": "【黑胶】爱缪 黑胶 LP 彩胶 Aimyon 首专 青春のエキサイトメント 日版原版 10周年纪念限定黑胶 2LP 180g重量盘",
@@ -6180,8 +6380,9 @@
         "observed_at": "2026-09-23T12:20:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "blocked"
       },
       "reference_image_url": "assets/reference-samples/100-b48c761166295009.webp"
     },
@@ -6200,8 +6401,9 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://image02.doorzo.net/item/detail/orig/photos/m51647522231_1.jpg?1786792802",
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "blocked"
       },
       "xianyu": {
         "title": "milet《eyes》现货！完全生产限定盘 2LP黑胶 日版现货 全新未拆",
@@ -6234,8 +6436,9 @@
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://static.mercdn.net/item/detail/orig/photos/m74730051646_1.jpg",
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "blocked"
       },
       "xianyu": {
         "title": "终极现货★YOASOBI The BOOK1粉胶LP【此为订金】jp限定封面彩胶黑胶品相完好",
@@ -6268,8 +6471,9 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://shop.r10s.jp/neobest/cabinet/shohin/10952852/4988002948420.jpg",
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "login_required"
       },
       "xianyu": {
         "title": "最后现货♥星野源Gen黑胶2LP全新未拆生产限定版透明胶黑胶",
@@ -6317,8 +6521,9 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i1/20297417/O1CN012MTOa624f2lxe1N98_!!4611686018427385545-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "blocked"
       },
       "reference_image_url": "assets/reference-samples/104-19b89a331f3bf4df.webp"
     },
@@ -6405,8 +6610,9 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://tshop.r10s.jp/surprise-web/cabinet/imgr0812/uijy-75324.jpg?downsize=400:*",
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "login_required"
       },
       "xianyu": {
         "title": "刘德华 回到你身边 日本初回生产限定LP黑胶 全新未拆封",
@@ -6531,8 +6737,9 @@
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
         "image_url": "https://shop.r10s.jp/surprise-web/cabinet/imgr0821/tyxt-19045.jpg",
-        "image_state": "observed_main_image",
-        "same_product_verified": false
+        "image_state": "historical_first_gallery_image",
+        "same_product_verified": false,
+        "state": "login_required"
       },
       "xianyu": {
         "title": "全新现货 Ado Hibana WORLD TOUR 2025 初回限定盘",
@@ -6925,6 +7132,7 @@
     {
       "reference_product_id": 124,
       "stable_key": "sample:104ad8079b2b1674d8582527f61c33c137d30adeb86126c0b7a43bb8af41748a",
+      "same_product_verified": false,
       "wameiji": {
         "title": "棘ナシ (完全生産限定アナログレコード盤) / トゲナシトゲアリ",
         "version_evidence": "挖煤姬详情锁定 2nd album 棘ナシ、UMJK-9162、JAN 4988031862438、2026-08-19、完全生产限定模拟唱片；1LP、12曲目，含棘ナシ封面图案贴纸。",
@@ -6958,7 +7166,7 @@
     {
       "reference_product_id": 125,
       "stable_key": "sample:74f93be01bbf73a31c2ecebdd16e2c4771f5aa4b7558b561377cc2e70ae9a292",
-      "same_product_verified": false,
+      "same_product_verified": null,
       "wameiji": {
         "title": "【完全生産限定】ガールズバンドクライ/トゲナシトゲアリ「棘ナシ」アナログ盤（12インチ）",
         "version_evidence": "人工内置浏览器挖煤姬当前详情页核验：トゲナシトゲアリ 2nd Album「棘ナシ」完全生産限定アナログレコード盤，12英寸；UMJK-9162；2026/08/19；未使用；7500 JPY；卖家承担日本国内运费；手续费225 JPY；物流保障有；页面有加入购物车和立即购买。商品介绍列出12曲、A/B两面曲目，并说明《ガールズバンドクライ》角色设计手岛nari绘制封面。",
@@ -6973,17 +7181,18 @@
         "image_url": "https://imghk.doorzo.net/-/large/plain/2JVYEGT6Rw7cb6vhm2NCU8.jpg@jpg"
       },
       "xianyu": {
-        "title": "【黑胶彩胶】药屋少女的呢喃 LP 动画原声音乐专辑 OST Original Soundtrack 正版唱片 欧版限定版 全新未拆",
-        "version_evidence": "2026-09-23 02:01（+08:00）人工 Chrome/IAB 打开闲鱼原链接，当前详情为“药屋少女的呢喃”欧版限定彩胶 2LP；页面显示 599 CNY 包邮、15 人想要、543 浏览，标题含 Original Soundtrack，描述写明预售不确定有货、可更换为 CD 版 OST。与样本目标《棘ナシ》完全生产限定 12 英寸黑胶不是同一商品。保留为历史错配，不作为样本 #125 的当前双侧证据。",
+        "title": "GBC哭泣少女乐队 棘ナシ 无刺 专辑黑胶唱片",
+        "version_evidence": "2026-09-24 人工内置浏览器重新打开闲鱼详情：标题为 GBC《棘ナシ/无刺》黑胶唱片；页面描述标注 LP 黑胶唱片、全新未拆封、塑封完整、称为实体店实物拍摄；标价308 CNY包邮，1人想要、112浏览，广东省7–21天发货。它与挖煤姬侧同专辑名且都标 LP，但闲鱼未显示 UMJK-9162、盘数或限定附件，故仅作为相关双侧观察，不确认同一 SKU，也不据此计算利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": 599,
+        "price": 308,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1049953842687&categoryId=126864811",
-        "observed_at": "2026-09-23T02:01:00+08:00",
+        "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.3.5fde1c8fvu6OCW&id=1077530956595&categoryId=126864811",
+        "observed_at": "2026-09-24T15:10:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/810413873/O1CN01VtDEkC1eTt6RITFoz_!!4611686018427383601-53-xy_item.heic_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i4/705578014/O1CN01L58ecysm6OH3FPpA_!!4611686018427380766-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image"
       },
       "reference_image_url": "assets/reference-samples/125-74f93be01bbf73a3.webp"
     }
@@ -6994,7 +7203,7 @@
       "stable_key": "sample:9b672eed92a617aaac757676f4d939f1602c08f8649bbdafaa72e2436f7764dc",
       "available_market": "xianyu",
       "missing_market": "wameiji",
-    "counterpart_state": "observed_related",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "全新未拆 Erdelåten -Where the Marsh Still Sings- 同人音乐CD",
         "version_evidence": "闲鱼侧人工 Chrome/IAB 详情页：标题与描述明确为 Erdelåten -Where the Marsh Still Sings-、Rigël Theatre、M3 凯尔特专辑 CD；全新未拆；价格90 CNY；邮费自理；页面有立即购买。2026-09-23 02:55（+08:00）再次用内置浏览器在挖煤姬以「Erdelåten Where the Marsh Still Sings CD」原文精确检索，页面确认按原文搜索，结果仅为 The eskargot miles、Free Soul、Traveling Miles 等无关 CD，没有 Rigël Theatre 同版商品；不把近似音乐 CD 当匹配，继续保留为闲鱼单边主要观察对象。",
@@ -7091,7 +7300,7 @@
         "image_state": "current_sold_image",
         "image_url": "https://image03.doorzo.net/item/detail/orig/photos/m91159547197_1.jpg",
         "relation_note": "已验证同作品实物但页面已售罄；不计算当前利润。"
-    }
+      }
     },
     {
       "reference_product_id": 26,
@@ -7178,7 +7387,7 @@
       },
       "xianyu": {
         "title": "乙女领域 录制版语音剧CD／RADIO*MAIDEN 预约特典",
-      "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接当前仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示该商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
+        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接当前仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示该商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
         "catalog_no": null,
         "barcode": null,
         "price": 54,
@@ -7187,7 +7396,7 @@
         "observed_at": "2026-09-23T11:18:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-      "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01RLMY4l1KwTL4pdZ4Z_!!6000000001228-2-tps-360-360.png_360x10000.jpg_.webp",
+        "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01RLMY4l1KwTL4pdZ4Z_!!6000000001228-2-tps-360-360.png_360x10000.jpg_.webp",
         "image_state": "observed_main_image",
         "state": "observed_related"
       }
@@ -7209,38 +7418,40 @@
         "observed_at": "2026-09-23T02:35:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-      "image_url": "https://img.alicdn.com/bao/uploaded/i3/2210449506356/O1CN01sRow4LKnleG3thGC_!!4611686018427379764-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2210449506356/O1CN01sRow4LKnleG3thGC_!!4611686018427379764-0-xy_item.jpg_Q90.jpg_.webp",
         "image_state": "current_sold_image"
       },
       "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp",
       "counterpart_candidate": {
-        "title": "未见同款：narcissu 水仙 C83场贩小说 两本一起",
-        "version_evidence": "人工 Chrome/IAB 检索入口已保留；当前页面未见可核对的在售同款，不把近似品冒充同款。",
+        "title": "未找到匹配商品：narcissu 水仙 C83场贩小说 两本一起",
+        "version_evidence": "人工内置浏览器按参考样本原文检索挖煤姬；当前结果为narcissus女装等同名无关商品，未见可核对的C83场贩小说两册套装详情，不把同名游戏CD-ROM或服装冒充同款。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
-        "currency": "JPY",
+        "currency": null,
         "source_url": "https://www.meruki.cn/search?keywords=narcissu%20%E6%B0%B4%E4%BB%99%20C83%E5%9C%BA%E8%B4%A9%E5%B0%8F%E8%AF%B4%20%E4%B8%A4%E6%9C%AC%E4%B8%80%E8%B5%B7",
-        "observed_at": "2026-09-23T11:12:00+08:00",
+        "observed_at": "2026-09-24T17:36:40Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
         "state": "search_only",
-        "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
+        "image_url": null,
+        "image_state": "reference_only",
+        "relation_note": "精确检索结果为同名女装等无关商品；无匹配小说详情页，不显示旧错配价格/图片，也不计算利润。"
       },
       "wameiji": {
-        "title": "narcissu SIDE 2nd 同人小说 CD-ROM（附原声）",
-      "version_evidence": "2026-09-24 人工 Chrome/IAB 重开挖煤姬详情页并确认当前商品：narcissu SIDE 2nd 同人小说 CD-ROM（附原声），价格13,800 JPY，页面显示首张主图且可购买；与闲鱼侧已售的narcissu C83场贩小说属于同作品/同人线索，版本与附件差异保留核验。",
+        "title": "未找到匹配商品：narcissu 水仙 C83场贩小说 两本一起",
+        "version_evidence": "人工内置浏览器按参考样本原文打开挖煤姬搜索；页面按原文检索，但结果显示narcissus女装等无关条目，没有C83场贩小说两册套装详情。此前录入的narcissu SIDE 2nd是PC游戏/附原声CD-ROM，并非参考图中的两本纸质场贩小说，已撤销错误商品配对。",
         "catalog_no": null,
         "barcode": null,
-        "price": 13800,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f33695a3776595941765748787937675572704e6976482f",
-        "observed_at": "2026-09-24T09:50:00+08:00",
+        "price": null,
+        "currency": null,
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&keywords=narcissu%20%E6%B0%B4%E4%BB%99%20C83%E5%9C%BA%E8%B4%A9%E5%B0%8F%E8%AF%B4%20%E4%B8%A4%E6%9C%AC%E4%B8%80%E8%B5%B7&sort=default&identity=all&isStock=true&seller=%5B%22%22%5D&website=%5B%22mercari%22%5D",
+        "observed_at": "2026-09-24T17:36:40Z",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-      "image_url": "https://imgoss.mokaki.cn/ossimg/product/2026/9/15/c0df91f9-3dd6-4bc5-af1d-493826c0597a.jpg?x-oss-process=image/auto-orient,1/resize,m_lfit,w_1200/quality,q_90/format,webp",
-        "image_state": "observed_main_image",
-        "state": "observed_related"
+        "image_url": null,
+        "image_state": "reference_only",
+        "state": "blocked"
       }
     },
     {
@@ -7362,15 +7573,15 @@
         "state": "observed_related"
       }
     },
-  {
-    "reference_product_id": 37,
+    {
+      "reference_product_id": 37,
       "stable_key": "sample:58baee497a1a4eb6a23c2d1587b4e398c4f2cbcb78074125fb7efe9595cfd864",
       "available_market": "wameiji",
       "missing_market": "xianyu",
-    "counterpart_state": "observed_related",
+      "counterpart_state": "observed_related",
       "observation": {
         "title": "ブロッコリートレカアイテムくじSP ゆずソフト カードボックス 3個セット【サノバウィッチ・ドラクリオット・天色アイルノーツ】",
-    "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬 JDirectItems Fleamarket 详情页：标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含サノバウィッチ、ドラクリオット、天色アイルノーツ；未使用，2400日元（约107人民币），代购手续费200日元，3~7日发货，有物流保障，页面可加入购物车/立即购买。2026-09-24 人工 Chrome/IAB 在闲鱼重新检索“柚子社 卡盒”，打开现售 D赏卡盒详情，40 CNY、只剩乃爱/辉夜单个；与样本同奖项同系列但不是三盒套装，作为相关观察写入，不冒充同款或利润证据。",
+        "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬 JDirectItems Fleamarket 详情页：标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含サノバウィッチ、ドラクリオット、天色アイルノーツ；未使用，2400日元（约107人民币），代购手续费200日元，3~7日发货，有物流保障，页面可加入购物车/立即购买。2026-09-24 人工 Chrome/IAB 在闲鱼重新检索“柚子社 卡盒”，打开现售 D赏卡盒详情，40 CNY、只剩乃爱/辉夜单个；与样本同奖项同系列但不是三盒套装，作为相关观察写入，不冒充同款或利润证据。",
         "catalog_no": null,
         "barcode": null,
         "price": 2400,

@@ -349,6 +349,8 @@
   function auditObservationImage(observation) {
     const source = observation && typeof observation === "object" ? observation : {};
     if (source.image_state === "source_no_image") return "";
+    if (source.image_state === "reference_only") return "";
+    if (source.image_state === "no_verified_item_photo") return "";
     const directImage = usableProductImage(source.image_url || source.main_image_url);
     if (directImage) return directImage;
 
@@ -399,6 +401,7 @@
     const source = observation && typeof observation === "object" ? observation : {};
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
     const href = safeHttpUrl(source.detail_source_url || source.source_url);
+    const searchHref = safeHttpUrl(source.search_source_url);
     const image = auditObservationImage(source);
     const title = esc(source.title || "未命名商品记录");
     const price = currency === "JPY" ? jpy(source.price, displayJpyCnyRate()) : cny(source.price);
@@ -407,33 +410,84 @@
     const heading = href
       ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
       : '<span>' + title + '</span>';
-    const imageAlt = source.image_state === "reference_only"
-      ? title + " · 参考样本图 · 非当前商品"
-      : title + " · 第一张主图";
+    const imageAlt = source.image_state === "page_reference_image"
+      ? title + " · 来源页示意图 · 非实物照"
+      : source.image_state === "first_gallery_image_link_unverified"
+        ? title + " · 首图直链待复核"
+      : source.image_state === "reference_only"
+        ? title + " · 参考样本图 · 非当前商品"
+        : source.image_state === "current_sold_image"
+          ? title + " · 已售历史商品首图 · 非当前在售图"
+        : source.image_state === "historical_first_gallery_image"
+          ? title + " · 历史页面首图 · 当前链接受阻"
+          : title + " · 第一张主图";
+    const imageBadge = source.image_state === "page_reference_image"
+      ? '<span class="reference-audit-image-badge">来源页示意图 · 非实物照</span>'
+      : source.image_state === "historical_first_gallery_image"
+        ? '<span class="reference-audit-image-badge">历史页面首图 · 当前链接受阻</span>'
+      : source.image_state === "current_sold_image"
+        ? '<span class="reference-audit-image-badge">已售历史商品图 · 非当前在售图</span>'
+      : source.image_state === "first_gallery_image_link_unverified"
+        ? '<span class="reference-audit-image-badge">首图直链待复核 · 不显示疑似错图</span>'
+      : "";
     const missingImageLabel = source.image_state === "source_no_image"
       ? "源站未提供主图"
+      : source.image_state === "no_verified_item_photo"
+        ? "无可核验的实物主图"
       : source.image_state === "reference_only"
         ? "参考样本图 · 非当前商品"
-        : "主图链接待补";
-    const evidenceStatus = source.state && source.state !== "found"
-      ? "当前未见 / 历史证据"
-      : "历史快照 · 下单前复核";
+      : source.image_state === "first_gallery_image_link_unverified"
+        ? "首图直链待复核"
+      : source.image_state === "page_reference_image"
+          ? "来源页示意图链接待补"
+          : "主图链接待补";
+    const evidenceStatus = source.state === "blocked"
+      ? "当前详情未能核实 · 不作在售报价"
+      : source.state === "current_sold_image"
+        ? "已售 · 历史挂牌价，仅作参考"
+      : source.state === "login_required"
+        ? "登录/验证受阻 · 历史证据"
+      : source.state === "not_currently_listed"
+        ? "原商品已下架 · 历史证据"
+      : source.state === "observed_related" || source.state === "replacement_related"
+        ? "相关商品观察 · 非样本同款"
+      : source.state === "replacement_current"
+        ? "现售替代观察 · 非原链接"
+      : source.state === "observed_current"
+        ? "当前详情已复核 · 观察记录"
+      : source.state === "found"
+        ? "已找到具体商品页 · 下单前复核"
+      : source.state
+        ? "当前状态待复核 · 历史证据"
+        : "历史快照 · 下单前复核";
+    const sourceUnavailable = ["blocked", "login_required", "not_currently_listed", "current_sold_image"]
+      .includes(source.state);
+    const displayedPrice = price === "--"
+      ? "--"
+      : sourceUnavailable
+        ? "历史挂牌价 · " + price
+        : source.state === "observed_related" || source.state === "replacement_related"
+          ? "相关观察价 · " + price
+          : price;
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
         image
-          ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + imageAlt + '" loading="eager" decoding="async" /></a>'
+          ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + imageAlt + '" loading="eager" decoding="async" />' + imageBadge + '</a>'
           : '<div class="reference-audit-market-media reference-audit-market-media-missing">' + missingImageLabel + '</div>',
         '<small>' + esc(label) + '</small>',
         '<span class="reference-audit-source-status">' + esc(evidenceStatus) + '</span>',
         '<b>' + heading + '</b>',
-        '<strong>' + esc(price) + '</strong>',
+        '<strong>' + esc(displayedPrice) + '</strong>',
         catalog ? '<em>' + esc(catalog) + '</em>' : "",
         evidence,
+        searchHref && searchHref !== href
+          ? '<a class="reference-audit-search-link" href="' + esc(searchHref) + '" target="_blank" rel="noopener">查看站内检索结果</a>'
+          : "",
       '</div>',
     ].join("");
   }
 
-  function referenceAuditCenterMarkup(xianyu, wameiji, label, note) {
+  function referenceAuditCenterMarkup(xianyu, wameiji, label, note, sameProductVerified) {
     const saleRaw = xianyu && xianyu.price;
     const purchaseRaw = wameiji && wameiji.price;
     const sale = saleRaw === null || saleRaw === undefined || saleRaw === "" ? NaN : Number(saleRaw);
@@ -442,11 +496,25 @@
     const saleKnown = Number.isFinite(sale) && sale >= 0;
     const purchaseKnown = Number.isFinite(purchase) && purchase >= 0 && Number.isFinite(rate) && rate > 0;
     const purchaseCny = purchaseKnown ? purchase * rate : NaN;
-    const spread = saleKnown && purchaseKnown ? sale - purchaseCny : NaN;
+    const unavailable = [xianyu, wameiji].some((source) => source && [
+      "blocked", "login_required", "not_currently_listed", "current_sold_image",
+    ].includes(source.state));
+    const comparable = sameProductVerified === true && !unavailable;
+    const spread = comparable && saleKnown && purchaseKnown ? sale - purchaseCny : NaN;
     const saleFee = saleKnown ? sale * 0.016 : NaN;
-    const referenceValue = Number.isFinite(spread) ? spread - 15 - 5 - 2 - saleFee : NaN;
-    const status = saleKnown && purchaseKnown ? "参考核算 · 不设利润门槛" : "参考核算 · 已检索无在售同款";
-    const detail = saleKnown && purchaseKnown
+    const referenceValue = comparable && Number.isFinite(spread) ? spread - 15 - 5 - 2 - saleFee : NaN;
+    const status = unavailable
+      ? "来源当前受阻 · 历史价不计利润"
+      : !comparable
+      ? "同款未证 · 不比较价差或利润"
+      : saleKnown && purchaseKnown
+        ? "参考核算 · 不设利润门槛"
+        : "参考核算 · 已检索无在售同款";
+    const detail = unavailable
+      ? "至少一侧已售、下架、登录受阻或详情未能核实；保留历史挂牌价作样本线索，不作为当前报价或利润依据。"
+      : !comparable
+      ? "两侧挂牌价分别保留作样本参考；未确认是同一商品/版本，价差和利润不适用。"
+      : saleKnown && purchaseKnown
       ? "默认扣除头程15、国内包邮5、包材2 CNY及闲鱼1.6%手续费；日本内运/代购费、版本与成色差异未补齐。"
       : "已保留检索入口和样本图；缺失侧人工检索暂未见可核对的在售同款，不用0或错误商品代替。";
     return [
@@ -455,8 +523,8 @@
         '<div class="reference-audit-analysis-grid">',
           '<div><small>闲鱼挂牌价</small><strong>' + esc(saleKnown ? cny(sale) : "无在售同款") + '</strong></div>',
           '<div><small>挖煤姬折合</small><strong>' + esc(purchaseKnown ? cny(purchaseCny) : "无在售同款") + '</strong></div>',
-          '<div><small>参考价差</small><strong>' + esc(Number.isFinite(spread) ? cny(spread) : "无法核算") + '</strong></div>',
-          '<div><small>默认成本后参考值</small><strong>' + esc(Number.isFinite(referenceValue) ? cny(referenceValue) : "无法核算") + '</strong></div>',
+          '<div><small>参考价差</small><strong>' + esc(comparable ? (Number.isFinite(spread) ? cny(spread) : "无法核算") : "不比较") + '</strong></div>',
+          '<div><small>默认成本后参考值</small><strong>' + esc(comparable ? (Number.isFinite(referenceValue) ? cny(referenceValue) : "无法核算") : "不适用") + '</strong></div>',
         '</div>',
         '<span>' + esc(label || "样本参考核算") + ' · ' + esc(detail) + '</span>',
         '<em>' + esc(note || "这是样本参考，不等于当前可购买或达标机会") + '</em>',
@@ -470,13 +538,16 @@
     const xianyuEvidence = String(item.xianyu && item.xianyu.version_evidence || "");
     const wameijiEvidence = String(japaneseSource.version_evidence || "");
     const combinedEvidence = xianyuEvidence + " " + wameijiEvidence;
-    const historicalMismatch = item.same_product_verified === false
+    const nonComparable = item.same_product_verified !== true
       || /历史错配|不是同一商品|不能当作单卷同款|附件不一致|不作同 SKU/.test(xianyuEvidence);
-    const currentEvidenceUnavailable = /未加载|无法重新确认|未能确认|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核/.test(combinedEvidence);
+    const currentEvidenceUnavailable = [item.xianyu, japaneseSource].some((source) => source && [
+      "blocked", "login_required", "not_currently_listed", "current_sold_image",
+    ].includes(source.state))
+      || /未加载|无法重新确认|未能确认|未找到可核实的在售同款|无可核实在售同款|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核|已售|卖掉了|已下架|售罄/.test(combinedEvidence);
     const auditLabel = currentEvidenceUnavailable
       ? "当前证据受阻 · 已打开核验"
-      : historicalMismatch
-        ? "已人工核验 · 历史错配"
+      : nonComparable
+        ? "已人工核验 · 非同款/未证同款"
         : "已人工核验 · 观察记录";
     const sourceHost = String(japaneseSource.marketplace_host || "日本来源");
     const japaneseLabel = japaneseSource.is_wameiji_platform
@@ -490,8 +561,9 @@
           referenceAuditCenterMarkup(
             item.xianyu,
             item.wameiji,
-            historicalMismatch ? "历史错配 · 仍保留参考核算" : currentEvidenceUnavailable ? "当前证据未加载" : "双侧样本参考",
-            historicalMismatch ? "当前闲鱼页与参考样本不是同一商品，不进入同款或利润判断" : currentEvidenceUnavailable ? "链接仍保留，但详情正文/价格未加载，旧价格不代表当前可购买" : "版本、成色、附件与到手成本仍需逐件核对",
+            nonComparable ? "非同款/未证同款 · 不做利润比较" : currentEvidenceUnavailable ? "当前证据未加载" : "双侧样本参考",
+            item.relation_note || (nonComparable ? "当前未证明两侧为同一商品，不显示价差或利润结论" : currentEvidenceUnavailable ? "链接仍保留，但详情正文/价格未加载，旧价格不代表当前可购买" : "版本、成色、附件与到手成本仍需逐件核对"),
+            !nonComparable && !currentEvidenceUnavailable,
           ),
           referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY", "wameiji"),
         '</div>',
@@ -563,6 +635,7 @@
             availableMarket === "wameiji" ? observation : displayCandidate,
             displayCandidate ? "单边 + 相关对象参考核算" : "单边样本参考核算",
             displayCandidate ? "相关对象已打开具体详情页，但版本、成色或附件仍未证实同款" : "只保留已打开的具体商品页，不把近似品凑成同款",
+            false,
           ),
           missingMarkup,
         '</div>',
@@ -691,7 +764,7 @@
         pair && pair.xianyu && pair.xianyu.version_evidence,
         pair && pair.wameiji && pair.wameiji.version_evidence,
       ].filter(Boolean).join(" ");
-      const unavailablePattern = /未加载|无法重新确认|未能确认|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核/;
+      const unavailablePattern = /未加载|无法重新确认|未能确认|未找到|未能打开并核实|未打开并核实|已撤销错误配对|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核/;
       const unavailableCount = pairs.filter((pair) => unavailablePattern.test(evidenceText(pair))).length;
       const fullyUnavailableCount = pairs.filter((pair) => [pair && pair.xianyu, pair && pair.wameiji].every((source) => source && unavailablePattern.test(String(source.version_evidence || "")))).length;
       const noImageCount = pairs.filter((pair) => [
@@ -704,7 +777,7 @@
       if (fullyUnavailableCount) caveats.push("两侧当前均未见 " + fullyUnavailableCount + " 条");
       if (noImageCount) caveats.push("源站未提供主图 " + noImageCount + " 条");
       if (mismatchCount) caveats.push("历史错配 " + mismatchCount + " 条");
-      pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条已逐条打开记录" + (caveats.length ? "（" + caveats.join("；") + "）" : "") + "；仍需逐件确认版本、成色与附件（不是达标机会）";
+      pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条来源记录" + (caveats.length ? "（" + caveats.join("；") + "）" : "") + "；逐卡复核版本、成色、附件、在售状态与图片进行中（不是达标机会）";
     }
     if (pairList) {
       pairList.innerHTML = pairs.length
