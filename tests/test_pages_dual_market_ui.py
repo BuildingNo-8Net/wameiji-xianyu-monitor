@@ -209,19 +209,63 @@ def test_sample_2_replaces_sold_listing_with_live_related_cd_without_claiming_sa
         assert "当前已售" in xianyu["version_evidence"]
 
 
-def test_sample_8_updates_sold_wameiji_listing_and_records_xianyu_captcha_limit() -> None:
+def test_sample_8_confirms_same_kazusa_cd_direction_without_equating_condition_or_accessories() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     sample_8 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 8)
     wameiji = sample_8["wameiji"]
     xianyu = sample_8["xianyu"]
 
+    assert sample_8["same_product_verified"] is True
+    assert "同一张kazusa单CD专辑" in sample_8["relation_note"]
+    assert "不将标价差当作利润" in sample_8["relation_note"]
     assert wameiji["price"] == 19800
     assert wameiji["source_url"].endswith("324a5736784561697663594a537166344459465937792f")
     assert wameiji["image_url"] == "https://assets.mercari-shops-static.com/-/large/plain/2JW6xEZiNRUBMeERREzrzs.jpg@jpg"
     assert wameiji["state"] == "found"
     assert xianyu["price"] == 360
-    assert xianyu["image_state"] == "observed_search_result_image"
-    assert "拖动滑块验证码" in xianyu["version_evidence"]
+    assert xianyu["image_state"] == "observed_first_gallery_image"
+    assert "当前具体闲鱼详情页可打开" in xianyu["version_evidence"]
+    assert "1,035浏览" in xianyu["version_evidence"]
+    assert "未证明歌词册/腰封" in xianyu["version_evidence"]
+
+
+def test_sample_12_confirms_tuyu_album_and_tracks_live_price_range_and_first_gallery_images() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    rows = [
+        row
+        for collection in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"])
+        for row in collection
+        if row["reference_product_id"] == 12
+    ]
+
+    assert len(rows) == 2
+    for sample_12 in rows:
+        assert sample_12["same_product_verified"] is True
+        assert "TUYU-0002" in sample_12["relation_note"] or "TUYU-0002" in sample_12["wameiji"]["version_evidence"]
+        assert "240–280元区间" in sample_12["relation_note"]
+        assert sample_12["wameiji"]["image_state"] == "observed_first_gallery_image"
+        assert sample_12["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert "32人想要/1,373浏览" in sample_12["xianyu"]["version_evidence"]
+
+
+def test_sample_14_removes_unrelated_comic_listing_and_keeps_reference_image_for_missing_exact_match() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    sample_14 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 14)
+    xianyu = sample_14["xianyu"]
+    wameiji = sample_14["wameiji"]
+
+    assert sample_14["same_product_verified"] is False
+    assert "漫画单本" in sample_14["relation_note"]
+    assert "SW-045T" in wameiji["version_evidence"]
+    assert wameiji["catalog_no"] == "SW-045T"
+    assert wameiji["image_state"] == "page_reference_image"
+    assert xianyu["state"] == "not_currently_listed"
+    assert xianyu["price"] is None
+    assert xianyu["image_state"] == "reference_only"
+    assert xianyu["image_url"] is None
+    assert sample_14["reference_image_url"] == "assets/reference-samples/14-b9f4a41e4e062903.webp"
+    assert "1077589995824" not in xianyu["source_url"]
+    assert "minori%20eden%20TRIAL%20DISC" in xianyu["source_url"]
 
 
 def test_sample_11_replaces_sold_xianyu_link_with_verified_live_detail() -> None:
