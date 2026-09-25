@@ -375,6 +375,39 @@ def test_sample_53_uses_live_aimer_daydream_packaging_main_image() -> None:
         assert "包装主图" in sample["xianyu"]["version_evidence"]
 
 
+def test_samples_23_to_25_refresh_current_status_and_preserve_match_limits() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        rows = {row["reference_product_id"]: row for row in snapshot[collection]}
+
+        sold = rows[23]
+        assert sold["same_product_verified"] is True
+        assert sold["xianyu"]["price"] == 62  # historical displayed price, never current
+        assert sold["xianyu"]["state"] == "current_sold_image"
+        assert sold["xianyu"]["image_state"] == "current_sold_image"
+        assert "卖掉了" in sold["xianyu"]["version_evidence"]
+        assert sold["wameiji"]["state"] == "observed_current"
+        assert sold["wameiji"]["image_state"] == "page_reference_image"
+        assert "样品" in sold["wameiji"]["version_evidence"]
+
+        uncertain = rows[24]
+        assert uncertain["same_product_verified"] is False
+        assert uncertain["xianyu"]["price"] == 293
+        assert uncertain["xianyu"]["state"] == "observed_current"
+        assert uncertain["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert uncertain["wameiji"]["price"] == 4800
+        assert "3CD" in uncertain["relation_note"]
+        assert "不比较价差或利润" in uncertain["relation_note"]
+
+        limited_box = rows[25]
+        assert limited_box["same_product_verified"] is False
+        assert limited_box["xianyu"]["price"] == 710
+        assert limited_box["wameiji"]["price"] == 9000
+        assert limited_box["xianyu"]["state"] == "observed_current"
+        assert limited_box["wameiji"]["state"] == "observed_current"
+        assert "附件状态与实物成色不能交叉核对" in limited_box["relation_note"]
+
+
 def test_sample_51_current_links_and_first_images_match_fate_vita_limited_set() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for collection in ("dual_found_pairs", "dual_observed_pairs"):
