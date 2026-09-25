@@ -183,7 +183,7 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/2960045069/O1CN0159vSBp1nJeocoJ6Sh_!!4611686018427384845-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "observed_first_gallery_image",
+        "image_state": "current_sold_image",
         "state": "current_sold_image"
       },
       "reference_image_url": "assets/reference-samples/5-f42a6e1b46a7705e.webp"

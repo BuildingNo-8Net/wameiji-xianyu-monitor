@@ -534,6 +534,17 @@ def test_blocked_and_sold_source_images_are_never_labeled_as_current() -> None:
         assert "1084719238003" in source["version_evidence"]
         assert "滑块验证" in source["version_evidence"]
         assert source["search_source_url"].startswith("https://www.goofish.com/search?")
+        old_snapshot = next(row for row in snapshot["dual_found_pairs"] if row["reference_product_id"] == sample_id)
+        assert old_snapshot[side]["state"] == "current_sold_image"
+        assert old_snapshot[side]["image_state"] == "current_sold_image"
+
+    sample_106 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 106)
+    assert sample_106["wameiji"]["state"] == "current_sold_image"
+    assert sample_106["wameiji"]["image_state"] == "current_sold_image"
+
+    sample_28 = next(row for row in snapshot["single_observed_records"] if row["reference_product_id"] == 28)
+    assert sample_28["observation"]["state"] == "current_sold_image"
+    assert sample_28["observation"]["image_state"] == "current_sold_image"
 
     sample_106 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 106)
     assert sample_106["wameiji"]["state"] == "current_sold_image"
