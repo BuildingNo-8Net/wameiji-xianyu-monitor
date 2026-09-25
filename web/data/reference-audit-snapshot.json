@@ -2942,7 +2942,8 @@
         "is_wameiji_platform": true,
         "image_url": "https://img.mandarake.co.jp/webshopimg/03/00/948/0300341948/030034194815.jpg",
         "image_state": "current_sold_image",
-        "same_product_verified": false
+        "same_product_verified": false,
+        "state": "current_sold_image"
       },
       "xianyu": {
         "title": "罪恶王冠 EGOIST The Everlasting Guilty Crown 初回限定版 日版CD+DVD",
@@ -6759,7 +6760,8 @@
         "is_wameiji_platform": true,
         "image_url": "https://img.mandarake.co.jp/webshopimg/03/00/948/0300341948/030034194815.jpg",
         "image_state": "current_sold_image",
-        "same_product_verified": false
+        "same_product_verified": false,
+        "state": "current_sold_image"
       },
       "xianyu": {
         "title": "罪恶王冠 EGOIST The Everlasting Guilty Crown 初回限定版 日版CD+DVD",
@@ -7582,7 +7584,8 @@
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i3/2210449506356/O1CN01sRow4LKnleG3thGC_!!4611686018427379764-0-xy_item.jpg_Q90.jpg_.webp",
-        "image_state": "current_sold_image"
+        "image_state": "current_sold_image",
+        "state": "current_sold_image"
       },
       "reference_image_url": "assets/reference-samples/28-efd530b47e5f58a4.webp",
       "counterpart_candidate": {
