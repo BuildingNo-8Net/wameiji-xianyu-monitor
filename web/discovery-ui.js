@@ -351,6 +351,7 @@
     if (source.image_state === "source_no_image") return "";
     if (source.image_state === "reference_only") return "";
     if (source.image_state === "no_verified_item_photo") return "";
+    if (source.image_state === "first_gallery_image_link_unverified") return "";
     const directImage = usableProductImage(source.image_url || source.main_image_url);
     if (directImage) return directImage;
 
@@ -381,6 +382,19 @@
     return "";
   }
 
+  function versionedAuditImageUrl(imageUrl) {
+    const image = safeHttpUrl(imageUrl);
+    const snapshotVersion = view.referenceAudit && view.referenceAudit.generated_at;
+    if (!image || !snapshotVersion) return image;
+    try {
+      const url = new URL(image);
+      url.searchParams.set("reference_audit", String(snapshotVersion));
+      return url.toString();
+    } catch (_error) {
+      return image;
+    }
+  }
+
   function inferredMercariMainImage(sourceUrl) {
     const value = safeHttpUrl(sourceUrl);
     if (!value || !/\/mall\/mercari\/detail\//i.test(value)) return "";
@@ -402,7 +416,7 @@
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
     const href = safeHttpUrl(source.detail_source_url || source.source_url);
     const searchHref = safeHttpUrl(source.search_source_url);
-    const image = auditObservationImage(source);
+    const image = versionedAuditImageUrl(auditObservationImage(source));
     const title = esc(source.title || "未命名商品记录");
     const price = currency === "JPY" ? jpy(source.price, displayJpyCnyRate()) : cny(source.price);
     const evidence = source.version_evidence ? '<p>' + esc(source.version_evidence) + '</p>' : "";
@@ -653,7 +667,7 @@
     const source = observation && typeof observation === "object" ? observation : {};
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
     const href = safeHttpUrl(source.detail_source_url || source.source_url);
-    const observedImage = auditObservationImage(source);
+    const observedImage = versionedAuditImageUrl(auditObservationImage(source));
     const image = observedImage || referenceImage;
     const title = esc(source.title || "当前没有可公开核对的具体商品页");
     const heading = href
