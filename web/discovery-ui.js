@@ -383,16 +383,10 @@
   }
 
   function versionedAuditImageUrl(imageUrl) {
-    const image = safeHttpUrl(imageUrl);
-    const snapshotVersion = view.referenceAudit && view.referenceAudit.generated_at;
-    if (!image || !snapshotVersion) return image;
-    try {
-      const url = new URL(image);
-      url.searchParams.set("reference_audit", String(snapshotVersion));
-      return url.toString();
-    } catch (_error) {
-      return image;
-    }
+    // Listing-image CDNs often sign or strictly validate their query strings.
+    // Keep the verified source URL byte-for-byte intact; cache-busting params
+    // can turn a valid first-image URL into a 400 response (e.g. Doorzo/Rakuten).
+    return safeHttpUrl(imageUrl);
   }
 
   function inferredMercariMainImage(sourceUrl) {
