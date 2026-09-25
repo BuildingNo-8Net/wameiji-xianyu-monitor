@@ -141,7 +141,9 @@ def test_reference_audit_cards_use_marketplace_main_images_and_platform_colours(
     assert "referenceAuditImageMarkup" not in javascript
     assert "const referenceImage = usableProductImage(item.reference_image_url);" in javascript
     assert "const relatedSource = item[missingMarket]" in javascript
-    assert "const displayCandidate = relatedCandidate || candidate;" in javascript
+    assert 'candidate?.state === "search_only"' in javascript
+    assert "const displayCandidate = relatedCandidate || (searchOnlyCandidate ? null : candidate);" in javascript
+    assert "当前未找到可核验同款商品页" in javascript
     assert "const observedImage = versionedAuditImageUrl(auditObservationImage(source));" in javascript
     assert "当前相关观察 · 非样本同款" in javascript
     assert "参考样本图 · 非当前商品页" in javascript
@@ -726,6 +728,33 @@ def test_sample_28_does_not_match_a_pc_game_cdrom_to_two_printed_novels() -> Non
     assert wameiji["state"] == "blocked"
     assert "PC游戏/附原声CD-ROM" in wameiji["version_evidence"]
     assert sample_28["reference_image_url"].endswith("28-efd530b47e5f58a4.webp")
+
+
+def test_sample_26_removes_unrelated_artbook_and_labels_search_only_evidence() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    sample = next(row for row in snapshot["single_observed_records"] if row["reference_product_id"] == 26)
+
+    assert sample["counterpart_state"] == "not_currently_listed"
+    assert "wameiji" not in sample
+    assert sample["observation"]["state"] == "observed_current"
+    assert sample["observation"]["image_state"] == "observed_first_gallery_image"
+    assert sample["observation"]["price"] == 36.4
+    assert sample["observation"]["source_url"].endswith("id=1027107076352&categoryId=202029302")
+    assert "不确认同一版次" in sample["observation"]["version_evidence"]
+
+    candidate = sample["counterpart_candidate"]
+    assert candidate["state"] == "search_only"
+    assert candidate["source_url"] == (
+        "https://www.meruki.cn/search?keywords="
+        "%E3%83%A8%E3%82%B9%E3%82%AC%E3%83%8E%E3%82%BD%E3%83%A9+%E7%94%BB%E9%9B%86"
+    )
+    assert candidate["price"] is None
+    assert candidate["image_url"] is None
+    assert "《ゴッドイーター》" in candidate["version_evidence"]
+    assert "空之境界" in candidate["version_evidence"]
+    assert "当前未找到可核验同款商品页" in javascript
+    assert "searchOnlyCandidate" in javascript
 
 
 def test_sample_35_does_not_reuse_music_cd_links_for_an_unidentified_game_box() -> None:

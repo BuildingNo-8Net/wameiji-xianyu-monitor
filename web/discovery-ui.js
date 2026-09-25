@@ -616,11 +616,26 @@
             || "已打开的相关观察；版本、成色或附件未证同款，不计入双侧核验或利润机会",
         }
       : null;
-    const displayCandidate = relatedCandidate || candidate;
+    const searchOnlyCandidate = !relatedCandidate && candidate?.state === "search_only"
+      ? candidate
+      : null;
+    const displayCandidate = relatedCandidate || (searchOnlyCandidate ? null : candidate);
     const candidateCurrency = missingMarket === "wameiji" ? "JPY" : "CNY";
     const candidateLabel = missingMarket === "wameiji" ? "挖煤姬进货侧 · 相关观察" : "闲鱼销售侧 · 相关观察";
     const referenceImage = usableProductImage(item.reference_image_url);
-    const missingMarkup = displayCandidate
+    const missingMarkup = searchOnlyCandidate
+      ? [
+          '<div class="reference-audit-side ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
+            referenceImage
+              ? '<div class="reference-audit-market-media reference-audit-reference-media"><img src="' + esc(referenceImage) + '" alt="参考样本图 · 非当前商品" loading="eager" decoding="async" /></div>'
+              : '<div class="reference-audit-market-media reference-audit-market-media-missing">当前未找到具体商品页</div>',
+            '<small>' + esc(missingLabel) + '</small>',
+            '<b>当前未找到可核验同款商品页</b>',
+            '<a href="' + esc(safeHttpUrl(searchOnlyCandidate.source_url) || "#") + '" target="_blank" rel="noopener">' + esc(searchOnlyCandidate.title || "查看站内搜索结果") + '</a>',
+            '<p>' + esc(searchOnlyCandidate.version_evidence || "仅保留站内搜索证据；没有可确认的具体商品页或当前商品主图。") + '</p>',
+          '</div>',
+        ].join("")
+      : displayCandidate
       ? [
           '<div class="reference-audit-candidate-wrap ' + (missingMarket === "wameiji" ? "wameiji-side" : "xianyu-side") + '">',
             '<div class="reference-audit-candidate-badge">主要观察对象 · 相关候选（未证同款）</div>',
@@ -647,7 +662,7 @@
         ].join("");
     return [
       '<article class="reference-audit-pair">',
-        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + (displayCandidate ? " · 单边 + 相关观察" : " · 单边检索证据") + '</div>',
+        '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + (displayCandidate ? " · 单边 + 相关观察" : " · 单边检索观察") + '</div>',
         '<div class="reference-audit-sides">',
           referenceAuditObservationMarkup(availableLabel, observation, currency, availableMarket),
           referenceAuditCenterMarkup(
