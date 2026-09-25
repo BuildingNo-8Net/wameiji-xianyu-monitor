@@ -3,6 +3,7 @@ from __future__ import annotations
 import subprocess
 import json
 import re
+from datetime import datetime
 from pathlib import Path
 
 
@@ -194,24 +195,18 @@ if (image !== "") {{
     assert result.returncode == 0, result.stderr or result.stdout
 
 
-def test_reference_audit_image_urls_refresh_with_the_published_snapshot() -> None:
+def test_reference_audit_image_urls_preserve_strict_source_query_parameters() -> None:
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     start = javascript.index("function versionedAuditImageUrl")
     end = javascript.index("function inferredMercariMainImage")
     image_url_renderer = javascript[start:end]
     harness = f"""
-const view = {{ referenceAudit: {{ generated_at: "2026-09-25T19:05:43+08:00" }} }};
 const safeHttpUrl = (value) => /^https?:\\/\\//.test(value) ? value : "";
 {image_url_renderer}
-const original = "https://img.alicdn.com/cover.webp?size=790";
+const original = "https://imghk.doorzo.net/tshopr10sjp/guruguru2/cabinet/205/vman-7.jpg?fitin=600:600";
 const rendered = versionedAuditImageUrl(original);
-const parsed = new URL(rendered);
-if (parsed.origin + parsed.pathname !== "https://img.alicdn.com/cover.webp") {{
-  throw new Error("the card must still load the direct marketplace image URL");
-}}
-if (parsed.searchParams.get("size") !== "790"
-  || parsed.searchParams.get("reference_audit") !== "2026-09-25T19:05:43+08:00") {{
-  throw new Error("preserve original image parameters and key the browser cache to the snapshot");
+if (rendered !== original) {{
+  throw new Error("do not mutate signed/strict marketplace image URLs with cache-busting params");
 }}
 if (versionedAuditImageUrl("") !== "") {{
   throw new Error("missing images must stay missing rather than inventing a fallback");
@@ -295,7 +290,7 @@ def test_sample_3_xianyu_listing_is_sold_not_currently_available() -> None:
     assert "不是闲鱼样本" in sample_3["wameiji"]["relation_note"]
 
 
-def test_sample_41_does_not_assign_an_unselected_price_option_or_promote_search_hit() -> None:
+def test_sample_41_keeps_unselected_xianyu_option_and_uses_verified_live_wameiji_candidate() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     sample_41 = next(row for row in snapshot["single_observed_records"] if row["reference_product_id"] == 41)
     observation = sample_41["observation"]
@@ -303,10 +298,23 @@ def test_sample_41_does_not_assign_an_unselected_price_option_or_promote_search_
     assert observation["price"] is None
     assert observation["observed_at"] == "2026-09-25T19:42:00+08:00"
     assert "135–160 CNY区间" in observation["version_evidence"]
-    assert "详情尚未打开核对" in observation["version_evidence"]
+    assert "仍未选中具体专辑选项" in observation["version_evidence"]
     assert sample_41["counterpart_state"] == "observed_related"
-    assert sample_41["wameiji"]["state"] == "current_sold_image"
-    assert "待核线索" in sample_41["wameiji"]["version_evidence"]
+    assert sample_41["same_product_verified"] is False
+    assert sample_41["wameiji"]["state"] == "observed_current"
+    assert sample_41["wameiji"]["price"] == 10000
+    assert sample_41["wameiji"]["source_url"] == (
+        "https://www.meruki.cn/mall/mercari/detail/"
+        "68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d34363537313237383932312f"
+    )
+    assert sample_41["wameiji"]["image_url"] == (
+        "https://imghk02.doorzo.net/item/detail/orig/photos/m46571278921_1.jpg?1790239139"
+    )
+    assert sample_41["wameiji"]["image_state"] == "observed_first_gallery_image"
+    assert "CURE一专" in sample_41["wameiji"]["version_evidence"]
+    assert "全新未拆" in sample_41["wameiji"]["version_evidence"]
+    assert "加入购物车/立即购买" in sample_41["wameiji"]["version_evidence"]
+    assert "售罄" not in sample_41["wameiji"]["version_evidence"]
 
 
 def test_samples_10_and_11_use_the_latest_matching_evidence_timestamps() -> None:
@@ -542,6 +550,59 @@ def test_sample_50_reopened_multi_option_listing_keeps_option_and_gallery_limits
     assert sample["wameiji"]["image_url"] == "https://imghk.doorzo.net/tshopr10sjp/guruguru2/cabinet/205/vman-7.jpg?fitin=600:600"
     assert sample["wameiji"]["image_state"] == "page_reference_image"
     assert "详情页提醒图片可能与实物不同" in sample["wameiji"]["version_evidence"]
+
+
+def test_reference_audit_snapshot_timestamp_is_not_older_than_its_observations() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    generated_at = datetime.fromisoformat(snapshot["generated_at"])
+    observed_at = [
+        datetime.fromisoformat(source["observed_at"])
+        for collection in ("dual_found_pairs", "dual_observed_pairs", "single_observed_records", "unavailable_records")
+        for row in snapshot[collection]
+        for source in (row.get("xianyu"), row.get("wameiji"))
+        if source and source.get("observed_at")
+    ]
+
+    assert observed_at
+    assert generated_at >= max(observed_at)
+
+
+def test_sample_5_wameiji_evidence_matches_the_linked_sakura_no_uta_listing() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    rows = [
+        row
+        for collection in ("dual_found_pairs", "dual_observed_pairs")
+        for row in snapshot[collection]
+        if row["reference_product_id"] == 5
+    ]
+
+    assert len(rows) == 2
+    for row in rows:
+        assert row["same_product_verified"] is False
+        item = row["wameiji"]
+        assert "サクラノ詩" in item["title"]
+        assert "サクラノ詩" in item["version_evidence"]
+        assert "ハミダシクリエイティブ" not in item["version_evidence"]
+        assert item["price"] == 19410
+        assert "加入购物车" in item["version_evidence"]
+
+
+def test_sample_66_replaces_sold_wameiji_item_with_the_live_matching_catalog_number() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        sample = next(row for row in snapshot[collection] if row["reference_product_id"] == 66)
+        assert sample["same_product_verified"] is False
+        assert sample["wameiji"]["title"] == "【中古】アニメ系CD 初音ミク / Winterland’s Anthology"
+        assert sample["wameiji"]["catalog_no"] == "KRCD-0011"
+        assert sample["wameiji"]["price"] == 15700
+        assert sample["wameiji"]["state"] == "observed_current"
+        assert sample["wameiji"]["image_state"] == "page_reference_image"
+        assert sample["wameiji"]["image_url"] == (
+            "https://assets.mercari-shops-static.com/-/large/plain/eYJdde7pUJUvjnyPn8ouxd.webp@jpg"
+        )
+        assert "加入购物车/立即购买" in sample["wameiji"]["version_evidence"]
+        assert "五选一合集" in sample["xianyu"]["version_evidence"]
+        assert "不把239 CNY当作本选项价格" in sample["relation_note"]
 
 
 def test_sample_53_uses_live_aimer_daydream_packaging_main_image() -> None:
@@ -975,6 +1036,7 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
     direct_marketplace_images = (
         "https://static.mercdn.net/item/detail/orig/photos/",
         "https://imghk.doorzo.net/",
+        "https://imghk02.doorzo.net/item/detail/orig/photos/",
         "https://image03.doorzo.net/item/detail/orig/photos/",
     )
     assert sum(str(row.get("image_url", "")).startswith(direct_marketplace_images) for row in mercari_item_rows) >= 40
@@ -1180,7 +1242,7 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260924-reference-analysis-v6" in homepage
+    assert "discovery-ui.js?v=20260925-reference-analysis-v7" in homepage
     assert "styles/kuro.css?v=20260923-reference-analysis-v1" in homepage
 
 
