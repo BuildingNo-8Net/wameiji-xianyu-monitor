@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T23:01:00+08:00",
+  "generated_at": "2026-09-25T23:40:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
   "summary": {
@@ -4915,7 +4915,7 @@
         "observed_at": "2026-09-25T22:00:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_state": "observed_first_gallery_image",
+        "image_state": "multi_option_listing_image",
         "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/50-3173a93da0e6185b.webp"
