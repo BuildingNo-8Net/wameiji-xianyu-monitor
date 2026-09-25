@@ -420,6 +420,8 @@
       : '<span>' + title + '</span>';
     const imageAlt = source.image_state === "page_reference_image"
       ? title + " · 来源页示意图 · 非实物照"
+      : source.image_state === "multi_option_listing_image"
+        ? title + " · 多规格合集首图 · 未锁定具体选项"
       : source.image_state === "first_gallery_image_link_unverified"
         ? title + " · 首图直链待复核"
       : source.image_state === "reference_only"
@@ -431,6 +433,8 @@
           : title + " · 第一张主图";
     const imageBadge = source.image_state === "page_reference_image"
       ? '<span class="reference-audit-image-badge">来源页示意图 · 非实物照</span>'
+      : source.image_state === "multi_option_listing_image"
+        ? '<span class="reference-audit-image-badge">多规格合集首图 · 具体选项未锁定</span>'
       : source.image_state === "historical_first_gallery_image"
         ? '<span class="reference-audit-image-badge">历史页面首图 · 当前链接受阻</span>'
       : source.image_state === "current_sold_image"

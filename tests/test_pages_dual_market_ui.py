@@ -233,6 +233,17 @@ def test_listing_reference_image_is_shown_with_explicit_non_item_badge() -> None
     assert ".reference-audit-image-badge" in stylesheet
 
 
+def test_multivariant_listing_image_is_not_mislabeled_as_selected_item_photo() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    sample_50 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
+
+    assert sample_50["xianyu"]["image_state"] == "multi_option_listing_image"
+    assert sample_50["xianyu"]["image_url"].startswith("https://img.alicdn.com/")
+    assert 'source.image_state === "multi_option_listing_image"' in javascript
+    assert "多规格合集首图 · 具体选项未锁定" in javascript
+
+
 def test_sample_9_replaces_wrong_rakuten_match_with_live_related_minori_item() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
@@ -537,7 +548,7 @@ def test_sample_50_reopened_multi_option_listing_keeps_option_and_gallery_limits
     assert sample["same_product_verified"] is False
     assert sample["xianyu"]["state"] == "observed_current"
     assert sample["xianyu"]["price"] == 120
-    assert sample["xianyu"]["image_state"] == "observed_first_gallery_image"
+    assert sample["xianyu"]["image_state"] == "multi_option_listing_image"
     assert sample["xianyu"]["source_url"] == "https://www.goofish.com/item?id=966395255268&categoryId=126864811"
     assert "当前显示100–120 CNY区间" in sample["xianyu"]["version_evidence"]
     assert "多选项合集" in sample["xianyu"]["version_evidence"]
@@ -1242,7 +1253,7 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260925-reference-analysis-v7" in homepage
+    assert "discovery-ui.js?v=20260925-reference-analysis-v8" in homepage
     assert "styles/kuro.css?v=20260923-reference-analysis-v1" in homepage
 
 
