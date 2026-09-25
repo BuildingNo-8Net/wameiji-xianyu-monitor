@@ -632,6 +632,9 @@
             '<small>' + esc(missingLabel) + '</small>',
             '<b>当前未找到可核验同款商品页</b>',
             '<a href="' + esc(safeHttpUrl(searchOnlyCandidate.source_url) || "#") + '" target="_blank" rel="noopener">' + esc(searchOnlyCandidate.title || "查看站内搜索结果") + '</a>',
+            searchOnlyCandidate.detail_source_url
+              ? '<a class="reference-audit-source-link" href="' + esc(safeHttpUrl(searchOnlyCandidate.detail_source_url) || "#") + '" target="_blank" rel="noopener">打开原样本详情页（当前网页端不可核验）</a>'
+              : '',
             '<p>' + esc(searchOnlyCandidate.version_evidence || "仅保留站内搜索证据；没有可确认的具体商品页或当前商品主图。") + '</p>',
           '</div>',
         ].join("")

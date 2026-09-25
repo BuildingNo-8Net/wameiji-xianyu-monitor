@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T22:40:00+08:00",
+  "generated_at": "2026-09-25T22:47:00+08:00",
   "mode": "reference_audit_snapshot",
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
   "summary": {
@@ -7524,49 +7524,39 @@
       "stable_key": "sample:3b589fa991d8a5e6e91b4b7c986f0bb0d925c74e461b76b76e32b708b8edb030",
       "available_market": "wameiji",
       "missing_market": "xianyu",
-      "counterpart_state": "observed_related",
+      "counterpart_state": "not_currently_listed",
       "observation": {
         "title": "オトメ*ドメイン RADIO*MAIDEN Vol.10",
-        "version_evidence": "2026-09-23 02:33（+08:00）人工 Chrome/IAB 复核：挖煤姬详情页仍可打开同版商品“【新品未開封】オトメ*ドメイン RADIO*MAIDEN Vol.10”，标价 4,980 日元，未使用，页面标注 4~7 日发货、无物流保障。闲鱼按「オトメ RADIO MAIDEN Vol.10」精确检索，页面明确“小闲鱼没有找到你想要的宝贝”，没有 Vol.10 同版实物；维持单边观察，不计入双侧匹配。",
+        "version_evidence": "2026-09-25 22:47（+08:00）人工内置浏览器复核挖煤姬：详情页标题为“【新品未開封】オトメ*ドメイン RADIO*MAIDEN Vol.10”，4,980 日元；页面标注未使用、卖家承担日本国内运费、代购手续费 200 日元、预计 4~7 日发货、无物流保障，且显示“活动中”及“加入购物车/立即购买”。商品图说明可能与实物不同，故首图仅记作挖煤姬当前商品图，附件与盘面仍需向卖家确认。2026-09-25 22:47 人工内置浏览器在闲鱼按“少女领域 广播剧 CD vol.10”搜索，页面明确“小闲鱼没有找到你想要的宝贝”；旧闲鱼详情页此前仅显示跨境商品需前往 App 及二维码，未能核实其商品、价格、库存或主图。原有“预约特典”闲鱼关联商品和二维码占位图不对应 Vol.10 当前可售商品，已移除，不再计作找到。",
         "catalog_no": null,
         "barcode": null,
         "price": 4980,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f6a702f6974656d732f6d33303739373637303537352f",
-        "observed_at": "2026-09-23T02:33:00+08:00",
+        "observed_at": "2026-09-25T22:47:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m30797670575_1.jpg?1780720213"
+        "image_url": "https://imghk.doorzo.net/item/detail/orig/photos/m30797670575_1.jpg?1780720213",
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/27-3b589fa991d8a5e6.webp",
       "counterpart_candidate": {
-        "title": "未见同款：オトメ*ドメイン RADIO*MAIDEN Vol.10",
-        "version_evidence": "人工 Chrome/IAB 检索入口已保留；当前页面未见可核对的在售同款，不把近似品冒充同款。",
+        "title": "闲鱼未找到同款：少女领域广播剧 CD vol.10",
+        "version_evidence": "2026-09-25 人工内置浏览器按“少女领域 广播剧 CD vol.10”检索，页面显示“小闲鱼没有找到你想要的宝贝”；结果区仅为无关推荐。原样本详情链接当前网页端只显示跨境商品请前往闲鱼 App 及二维码，无法核实原商品标题、价格、在售状态或图片。旧录入“RADIO*MAIDEN 预约特典”及二维码占位图没有当前商品页证据，故移除，不把历史标签或推荐商品算作当前同款。",
         "catalog_no": null,
         "barcode": null,
         "price": null,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/search?q=%E3%82%AA%E3%83%88%E3%83%A1*%E3%83%89%E3%83%A1%E3%82%A4%E3%83%B3%20RADIO*MAIDEN%20Vol.10",
-        "observed_at": "2026-09-23T11:12:00+08:00",
+        "source_url": "https://www.goofish.com/search?q=%E5%B0%91%E5%A5%B3%E9%A2%86%E5%9F%9F%20%E5%B9%BF%E6%92%AD%E5%89%A7%20CD%20vol.10",
+        "observed_at": "2026-09-25T22:47:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "state": "search_only",
-        "relation_note": "当前仅有检索入口，无可验证在售同款；不计算利润。"
-      },
-      "xianyu": {
-        "title": "乙女领域 录制版语音剧CD／RADIO*MAIDEN 预约特典",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼原链接当前仅显示“跨境商品请前往闲鱼APP端查看”及二维码，未显示该商品标题、价格或主图；保留历史标题与链接作检索线索，标记源站无图，不把旧图当作当前实拍。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 54,
-        "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1022550203177&categoryId=126862148",
-        "observed_at": "2026-09-23T11:18:00+08:00",
-        "marketplace_host": "www.goofish.com",
-        "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/imgextra/i2/O1CN01RLMY4l1KwTL4pdZ4Z_!!6000000001228-2-tps-360-360.png_360x10000.jpg_.webp",
-        "image_state": "observed_main_image",
-        "state": "observed_related"
+        "detail_source_url": "https://www.goofish.com/item?id=1022550203177&categoryId=126862148",
+        "image_url": null,
+        "image_state": "reference_only",
+        "relation_note": "只保留当前搜索入口和原样本详情页入口；无当前可核验同款商品，不展示旧图/价格，也不计算利润。"
       }
     },
     {
