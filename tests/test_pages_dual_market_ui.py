@@ -238,31 +238,47 @@ def test_multivariant_listing_image_is_not_mislabeled_as_selected_item_photo() -
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     sample_50 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
 
-    assert sample_50["xianyu"]["image_state"] == "multi_option_listing_image"
+    assert sample_50["same_product_verified"] is False
+    assert sample_50["price_comparable"] is False
+    assert sample_50["xianyu"]["image_state"] == "historical_multi_option_listing_image"
     assert sample_50["xianyu"]["image_url"].startswith("https://img.alicdn.com/")
+    assert "不认定同一SKU" in sample_50["relation_note"]
+    assert "694浏览" in sample_50["xianyu"]["version_evidence"]
     assert 'source.image_state === "multi_option_listing_image"' in javascript
     assert "多规格合集首图 · 具体选项未锁定" in javascript
 
 
-def test_sample_9_replaces_wrong_rakuten_match_with_live_related_minori_item() -> None:
+def test_sample_9_keeps_different_eden_edition_related_and_exact_candidate_unavailable() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     sample_9 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 9)
     wameiji = sample_9["wameiji"]
 
     assert sample_9["same_product_verified"] is False
+    assert sample_9["xianyu"]["observed_at"] == "2026-09-26T04:26:00+08:00"
+    assert "1,181浏览" in sample_9["xianyu"]["version_evidence"]
+    assert "卖掉了" in sample_9["xianyu"]["version_evidence"]
+    assert sample_9["xianyu"]["state"] == "blocked"
+    assert sample_9["xianyu"]["price"] is None
+    assert sample_9["xianyu"]["last_observed_price"] == 450
+    assert sample_9["xianyu"]["image_state"] == "historical_first_gallery_image"
+    assert sample_9["xianyu"]["image_url"].startswith("https://img.alicdn.com/")
+    assert "搜索卡仍列出该链接" in sample_9["xianyu"]["version_evidence"]
     assert wameiji["state"] == "observed_current"
     assert wameiji["price"] == 28000
+    assert wameiji["observed_at"] == "2026-09-26T04:27:00+08:00"
     assert wameiji["currency"] == "JPY"
     assert wameiji["image_url"] == "https://image03.doorzo.net/item/detail/orig/photos/m25204356827_1.jpg?1790093141"
-    assert wameiji["image_state"] == "observed_first_gallery_image"
+    assert wameiji["image_state"] == "page_reference_image"
     assert "/mall/mercari/detail/" in wameiji["source_url"]
     assert "search_source_url" in wameiji
     assert "eden PLUS MOSAIC" in wameiji["version_evidence"]
     assert "接近未使用" in wameiji["version_evidence"]
-    assert "不是样本所指《eden》作品/版本" in wameiji["version_evidence"]
-    assert "原Rakuten候选已排除" in wameiji["version_evidence"]
-    assert "eden*+minori" in wameiji["search_source_url"]
+    assert "不是同一版本" in wameiji["version_evidence"]
+    assert "原详情本轮触发验证码拦截" in sample_9["relation_note"]
+    assert "keywords=minori+eden+%E5%88%9D%E5%9B%9E" in wameiji["search_source_url"]
+    assert "暂无数据" in wameiji["version_evidence"]
+    assert "不支持该商品" in wameiji["version_evidence"]
     assert "未找到可核实的在售同款" in javascript
     assert "查看站内检索结果" in javascript
 
@@ -333,11 +349,23 @@ def test_samples_10_and_11_use_the_latest_matching_evidence_timestamps() -> None
     sample_10 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 10)
     sample_11 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 11)
 
-    assert sample_10["wameiji"]["observed_at"] == "2026-09-25T18:48:00+08:00"
-    assert sample_10["xianyu"]["observed_at"] == "2026-09-25T18:48:00+08:00"
+    assert sample_10["wameiji"]["observed_at"] == "2026-09-26T05:18:00+08:00"
+    assert sample_10["wameiji"]["state"] == "observed_current"
+    assert sample_10["xianyu"]["observed_at"] == "2026-09-26T05:18:00+08:00"
+    assert sample_10["xianyu"]["state"] == "blocked"
+    assert sample_10["xianyu"]["price"] is None
+    assert sample_10["xianyu"]["last_observed_price"] == 100
+    assert sample_10["xianyu"]["image_state"] == "historical_first_gallery_image"
+    assert "滑块验证码" in sample_10["xianyu"]["version_evidence"]
     assert "237浏览" in sample_10["xianyu"]["version_evidence"]
-    assert sample_11["wameiji"]["observed_at"] == "2026-09-25T18:56:00+08:00"
-    assert sample_11["xianyu"]["observed_at"] == "2026-09-25T18:56:00+08:00"
+    assert sample_11["wameiji"]["observed_at"] == "2026-09-26T05:20:00+08:00"
+    assert sample_11["wameiji"]["state"] == "observed_current"
+    assert sample_11["xianyu"]["observed_at"] == "2026-09-26T05:20:00+08:00"
+    assert sample_11["xianyu"]["state"] == "blocked"
+    assert sample_11["xianyu"]["price"] is None
+    assert sample_11["xianyu"]["last_observed_price"] == 129
+    assert sample_11["xianyu"]["image_state"] == "historical_first_gallery_image"
+    assert "滑块验证码" in sample_11["xianyu"]["version_evidence"]
     assert "227浏览" in sample_11["xianyu"]["version_evidence"]
 
 
@@ -408,6 +436,27 @@ def test_sample_14_keeps_sold_xianyu_search_result_separate_from_current_buyable
     assert xianyu["source_url"] == "https://www.goofish.com/search?q=minori%20eden*%20TRIAL%20DISC&spm=a21ybx.item.searchInput.0"
 
 
+def test_sample_17_does_not_conflate_narcissu_2_with_narcissu_side_2nd() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    rows = [
+        row
+        for collection in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"])
+        for row in collection
+        if row["reference_product_id"] == 17
+    ]
+
+    assert len(rows) == 2
+    for row in rows:
+        assert row["same_product_verified"] is False
+        assert "闲鱼精确详情 id=859421708400 已打开复核" in row["relation_note"]
+        assert "但详情未能打开" in row["relation_note"]
+        assert "SIDE 2nd" in row["relation_note"]
+        assert "Narcissu2 音乐CD加本体一盒2盘" in row["xianyu"]["version_evidence"]
+        assert row["xianyu"]["image_url"] is None
+        assert row["wameiji"]["title"].find("SIDE 2nd") >= 0
+        assert "图片可能与实物不同" in row["wameiji"]["version_evidence"]
+
+
 def test_sample_15_marks_rewrite_items_as_related_when_condition_and_contents_are_not_proven_equal() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     rows = [
@@ -462,7 +511,7 @@ def test_sample_16_confirms_same_album_but_not_comparable_condition_or_obi_compl
         assert "未说明是否带obi" in xianyu["version_evidence"]
 
 
-def test_sample_11_replaces_sold_xianyu_link_with_verified_live_detail() -> None:
+def test_sample_11_marks_xianyu_as_blocked_and_keeps_its_price_and_image_historical() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     sample_11 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 11)
     xianyu = sample_11["xianyu"]
@@ -470,26 +519,178 @@ def test_sample_11_replaces_sold_xianyu_link_with_verified_live_detail() -> None
     assert sample_11["same_product_verified"] is True
     assert "MGCG-1408" in sample_11["wameiji"]["version_evidence"]
     assert xianyu["source_url"] == "https://www.goofish.com/item?id=1022572554442&categoryId=126864811"
-    assert xianyu["state"] == "found"
-    assert xianyu["price"] == 129
-    assert "已卖出" not in xianyu["version_evidence"]
+    assert xianyu["state"] == "blocked"
+    assert xianyu["price"] is None
+    assert xianyu["last_observed_price"] == 129
+    assert "滑块验证码" in xianyu["version_evidence"]
     assert "盒子破损" in xianyu["version_evidence"]
-    assert xianyu["image_state"] == "observed_first_gallery_image"
+    assert xianyu["image_state"] == "historical_first_gallery_image"
     assert xianyu["image_url"] == "https://img.alicdn.com/bao/uploaded/i4/3806490968/O1CN01akSR1b1J1OW0sRpFJ_!!4611686018427384152-0-xy_item.jpg_790x10000Q90.jpg_.webp"
-    assert "当前首图直链单独打开确认与详情图相符" in xianyu["version_evidence"]
+    assert "该价格和首图现在仅作为历史线索" in xianyu["version_evidence"]
 
 
-def test_sample_53_uses_single_version_aimer_listing_and_its_first_image() -> None:
+def test_sample_53_keeps_last_xianyu_price_and_image_historical_when_captcha_blocks() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
-    sample_53 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 53)
-    xianyu = sample_53["xianyu"]
+    for collection_name in ("dual_found_pairs", "dual_observed_pairs"):
+        sample_53 = next(row for row in snapshot[collection_name] if row["reference_product_id"] == 53)
+        xianyu = sample_53["xianyu"]
+        wameiji = sample_53["wameiji"]
 
-    assert sample_53["same_product_verified"] is True
-    assert xianyu["source_url"] == "https://www.goofish.com/item?id=1080171737027&categoryId=126864811"
-    assert xianyu["price"] == 168
-    assert "CD有细微毛痕" in xianyu["version_evidence"]
-    assert xianyu["image_state"] == "observed_first_gallery_image"
-    assert xianyu["image_url"] == "https://img.alicdn.com/bao/uploaded/i2/1713419028/O1CN01E8jVKAJuh6I3thGS_!!4611686018427384596-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        assert sample_53["same_product_verified"] is True
+        assert sample_53["price_comparable"] is False
+        assert xianyu["source_url"] == "https://www.goofish.com/item?id=1080171737027&categoryId=126864811"
+        assert xianyu["price"] is None
+        assert xianyu["last_observed_price"] == 168
+        assert xianyu["observed_at"] == "2026-09-26T05:30:00+08:00"
+        assert xianyu["state"] == "blocked"
+        assert "出现滑块验证码" in xianyu["version_evidence"]
+        assert xianyu["image_state"] == "historical_first_gallery_image"
+        assert xianyu["image_url"] == "https://img.alicdn.com/bao/uploaded/i2/1713419028/O1CN01E8jVKAJuh6I3thGS_!!4611686018427384596-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        assert wameiji["state"] == "observed_current"
+        assert wameiji["price"] == 7999
+        assert wameiji["observed_at"] == "2026-09-26T05:43:00+08:00"
+        assert "当前闲鱼挂牌/库存/图片无法核验" in sample_53["relation_note"]
+        assert "闲鱼当前¥168包邮" not in sample_53["relation_note"]
+
+
+def test_sample_1_has_current_wameiji_state_and_is_not_the_reference_tuyu_album() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for collection_name in ("dual_found_pairs", "dual_observed_pairs"):
+        sample_1 = next(row for row in snapshot[collection_name] if row["reference_product_id"] == 1)
+
+        assert sample_1["same_product_verified"] is False
+        assert sample_1["wameiji"]["state"] == "observed_current"
+        assert sample_1["wameiji"]["observed_at"] == "2026-09-26T05:43:00+08:00"
+        assert sample_1["wameiji"]["image_state"] == "page_reference_image"
+        assert "两侧仅保留作TUYU相关观察" in sample_1["relation_note"]
+
+
+def test_sample_80_matches_the_base_egoist_edition_but_not_the_bonus_bundle() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    row = next(item for item in snapshot["dual_observed_pairs"] if item["reference_product_id"] == 80)
+
+    assert row["same_product_verified"] is True
+    assert row["price_comparable"] is False
+    assert row["wameiji"]["catalog_no"] == "VVCL-1148"
+    assert row["xianyu"]["catalog_no"] is None
+    assert "CD＋Blu-ray" in row["wameiji"]["version_evidence"]
+    assert "狗牌" in row["xianyu"]["title"]
+    assert "挖煤姬记录未证明包含这些附件" in row["relation_note"]
+    assert "利润可比处理" in row["relation_note"]
+
+
+def test_exact_catalog_and_barcode_matches_are_not_mislabeled_as_different_products() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    expected = {
+        61: ("UPJY-9202/3", "4988031460023"),
+        85: ("DFCL-2046", None),
+        94: ("NAS-2164", "4988003660604"),
+    }
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        rows = {row["reference_product_id"]: row for row in snapshot[collection]}
+        for reference_id, (catalog_no, barcode) in expected.items():
+            row = rows[reference_id]
+            assert row["same_product_verified"] is True
+            assert row["price_comparable"] is False
+            assert row["wameiji"]["catalog_no"] == catalog_no
+            assert row["xianyu"]["catalog_no"] == catalog_no
+            if barcode is not None:
+                assert row["wameiji"]["barcode"] == barcode
+                assert row["xianyu"]["barcode"] == barcode
+
+
+def test_round8_sample_relations_are_evidence_backed_and_never_auto_compare_profit() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    expected = {
+        43: True,
+        44: False,
+        45: True,
+        42: True,
+        47: True,
+        49: True,
+        60: True,
+        62: False,
+        64: True,
+        69: True,
+        70: True,
+        72: True,
+        75: True,
+        81: True,
+        83: True,
+        89: True,
+        91: True,
+        93: True,
+        95: True,
+        96: True,
+        97: True,
+        98: True,
+        99: True,
+        100: False,
+        101: True,
+        104: True,
+        106: True,
+        107: True,
+        108: True,
+        109: True,
+        110: True,
+        111: True,
+        113: True,
+        116: True,
+        117: True,
+        118: True,
+        119: True,
+        120: True,
+        121: True,
+        122: True,
+        123: True,
+        124: False,
+    }
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        rows = {row["reference_product_id"]: row for row in snapshot[collection]}
+        for reference_id, same_product in expected.items():
+            if reference_id not in rows and collection == "dual_found_pairs":
+                continue
+            row = rows[reference_id]
+            assert row["same_product_verified"] is same_product
+            assert row["price_comparable"] is False
+            assert row["relation_note"]
+
+    sample_62 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 62)
+    assert "12" in sample_62["xianyu"]["title"]
+    assert "LP" in sample_62["xianyu"]["title"]
+    assert "未写欧洲版、黑胶或12英寸" in sample_62["relation_note"]
+    sample_44 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 44)
+    assert "单张" in sample_44["relation_note"]
+    assert "四张Team Grimoire系列CD合售" in sample_44["relation_note"]
+    sample_114 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 114)
+    assert sample_114["same_product_verified"] is not True
+    sample_115 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 115)
+    assert sample_115["same_product_verified"] is None
+    sample_124 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 124)
+    assert sample_124["same_product_verified"] is False
+    assert "1LP" in sample_124["wameiji"]["version_evidence"]
+    assert "2LP" in sample_124["xianyu"]["version_evidence"]
+    assert "盘数冲突" in sample_124["relation_note"]
+
+
+def test_explicit_catalog_identifiers_are_not_left_only_inside_free_text_evidence() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    expected_wameiji = {
+        23: (None, "4988102218560"),
+        42: ("PCCG1128", "4988013016569"),
+        60: ("ESCL-6268", None),
+        114: ("SRCL9567", "4547366329674"),
+        119: ("DUED1223", "4589686422857"),
+        120: (None, "4560429729075"),
+        122: ("VVCL-1961", None),
+    }
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        rows = {row["reference_product_id"]: row for row in snapshot[collection]}
+        for reference_id, (catalog_no, barcode) in expected_wameiji.items():
+            if reference_id not in rows and collection == "dual_found_pairs":
+                continue
+            assert rows[reference_id]["wameiji"]["catalog_no"] == catalog_no
+            assert rows[reference_id]["wameiji"]["barcode"] == barcode
 
 
 def test_sample_56_login_redirect_was_resolved_and_historical_labels_remain_available() -> None:
@@ -522,25 +723,43 @@ def test_blocked_and_sold_source_images_are_never_labeled_as_current() -> None:
         assert source["state"] == "blocked", sample_id
         assert source["image_state"] == "historical_first_gallery_image", sample_id
 
-    for sample_id in (97, 98, 100, 101, 102):
-        source = pairs[sample_id]["wameiji"]
-        assert source["state"] == "blocked", sample_id
-        assert source["image_state"] == "historical_first_gallery_image", sample_id
+    current_sample_100 = pairs[100]["wameiji"]
+    assert current_sample_100["state"] == "observed_current"
+    assert current_sample_100["image_state"] == "page_reference_image"
+
+    sold_sample_98 = pairs[98]["wameiji"]
+    assert sold_sample_98["state"] == "current_sold_image"
+    assert sold_sample_98["image_state"] == "current_sold_image"
+
+    sold_sample_101 = pairs[101]["wameiji"]
+    assert sold_sample_101["state"] == "current_sold_image"
+    assert sold_sample_101["image_state"] == "current_sold_image"
+
+    current_sample_102 = pairs[102]["wameiji"]
+    assert current_sample_102["state"] == "observed_current"
+    assert current_sample_102["image_state"] == "page_reference_image"
 
     for sample_id, side in ((5, "xianyu"),):
         source = pairs[sample_id][side]
-        assert source["state"] == "current_sold_image", sample_id
-        assert source["image_state"] == "current_sold_image", sample_id
-        assert "1084719238003" in source["version_evidence"]
-        assert "滑块验证" in source["version_evidence"]
+        assert source["state"] == "observed_related", sample_id
+        assert source["source_url"] == "https://www.goofish.com/item?id=1084719238003&categoryId=126860296"
+        assert source["price"] == 9999
+        assert source["image_url"] is None
+        assert source["image_state"] == "first_gallery_image_link_unverified", sample_id
+        assert "立即购买" in source["version_evidence"]
+        assert "附件未核" in source["version_evidence"]
         assert source["search_source_url"].startswith("https://www.goofish.com/search?")
         old_snapshot = next(row for row in snapshot["dual_found_pairs"] if row["reference_product_id"] == sample_id)
-        assert old_snapshot[side]["state"] == "current_sold_image"
-        assert old_snapshot[side]["image_state"] == "current_sold_image"
+        assert old_snapshot[side] == source
 
     sample_106 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 106)
     assert sample_106["wameiji"]["state"] == "current_sold_image"
     assert sample_106["wameiji"]["image_state"] == "current_sold_image"
+    assert sample_106["xianyu"]["state"] == "blocked"
+    assert sample_106["xianyu"]["price"] is None
+    assert sample_106["xianyu"]["last_observed_price"] == 85
+    assert sample_106["xianyu"]["image_state"] == "historical_first_gallery_image"
+    assert "滑块验证码" in sample_106["xianyu"]["version_evidence"]
 
     sample_28 = next(row for row in snapshot["single_observed_records"] if row["reference_product_id"] == 28)
     assert sample_28["observation"]["state"] == "current_sold_image"
@@ -565,21 +784,101 @@ def test_sample_50_reopened_multi_option_listing_keeps_option_and_gallery_limits
     sample = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
 
     assert sample["same_product_verified"] is False
-    assert sample["xianyu"]["state"] == "observed_current"
-    assert sample["xianyu"]["price"] == 120
-    assert sample["xianyu"]["image_state"] == "multi_option_listing_image"
+    assert sample["price_comparable"] is False
+    assert sample["xianyu"]["state"] == "blocked"
+    assert sample["xianyu"]["price"] is None
+    assert sample["xianyu"]["last_observed_price"] == 120
+    assert sample["xianyu"]["price_range"] == {"min": 100, "max": 120, "currency": "CNY"}
+    assert sample["xianyu"]["observed_at"] == "2026-09-26T04:08:00+08:00"
+    assert sample["xianyu"]["image_state"] == "historical_multi_option_listing_image"
     assert sample["xianyu"]["source_url"] == "https://www.goofish.com/item?id=966395255268&categoryId=126864811"
-    assert "当前显示100–120 CNY区间" in sample["xianyu"]["version_evidence"]
-    assert "多选项合集" in sample["xianyu"]["version_evidence"]
-    assert "未能从界面确认默认购买项" in sample["xianyu"]["version_evidence"]
+    assert "100–120 CNY" in sample["xianyu"]["version_evidence"]
+    assert "どうして君は世界で一人 有册封全新 120" in sample["xianyu"]["version_evidence"]
+    assert "未进入订单流程确认该选项仍有库存" in sample["xianyu"]["version_evidence"]
+    assert "694浏览" in sample["xianyu"]["version_evidence"]
+    assert "不认定同一SKU" in sample["relation_note"]
     assert sample["wameiji"]["state"] == "observed_current"
-    assert sample["wameiji"]["price"] == 1170
-    assert sample["wameiji"]["source_url"].startswith("https://www.meruki.cn/mall/rakuten/detail/")
-    assert sample["wameiji"]["catalog_no"] == "VMAN-7"
+    assert sample["wameiji"]["price"] == 605
+    assert sample["wameiji"]["source_url"].startswith("https://www.meruki.cn/mall/mercari/detail/")
     assert sample["wameiji"]["barcode"] == "4589910070205"
-    assert sample["wameiji"]["image_url"] == "https://imghk.doorzo.net/tshopr10sjp/guruguru2/cabinet/205/vman-7.jpg?fitin=600:600"
+    assert sample["wameiji"]["image_url"] == "https://assets.mercari-shops-static.com/-/large/plain/2JV8Y52xxbisFRB4eaHmr8.jpg@jpg"
     assert sample["wameiji"]["image_state"] == "page_reference_image"
-    assert "详情页提醒图片可能与实物不同" in sample["wameiji"]["version_evidence"]
+    assert sample["wameiji"]["image_state"] == "page_reference_image"
+    assert "商品图片可能与实物不同" in sample["wameiji"]["version_evidence"]
+
+
+def test_sample_87_blocked_xianyu_price_is_historical_and_meruki_item_is_rechecked() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    sample = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 87)
+
+    assert sample.get("same_product_verified") is not True
+    assert sample["xianyu"]["state"] == "blocked"
+    assert sample["xianyu"]["price"] is None
+    assert sample["xianyu"]["last_observed_price"] == 580
+    assert sample["xianyu"]["observed_at"] == "2026-09-26T01:55:00+08:00"
+    assert "扫码弹窗阻挡" in sample["xianyu"]["version_evidence"]
+    assert sample["wameiji"]["price"] == 2610
+    assert sample["wameiji"]["observed_at"] == "2026-09-26T01:55:00+08:00"
+    assert sample["wameiji"]["image_state"] == "page_reference_image"
+    assert "无外盒/歌词卡" in sample["wameiji"]["version_evidence"]
+
+
+def test_sample_114_reopened_pair_drops_dead_xianyu_image_and_unseen_catalog_fields() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    sample = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 114)
+
+    assert sample.get("same_product_verified") is not True
+    assert sample["xianyu"]["state"] == "blocked"
+    assert sample["xianyu"]["price"] is None
+    assert sample["xianyu"]["last_observed_price"] == 499
+    assert sample["xianyu"]["observed_at"] == "2026-09-26T04:18:00+08:00"
+    assert sample["xianyu"]["catalog_no"] is None
+    assert sample["xianyu"]["barcode"] is None
+    assert sample["xianyu"]["image_url"] is None
+    assert sample["xianyu"]["image_state"] == "no_verified_item_photo"
+    assert "滑块验证码" in sample["xianyu"]["version_evidence"]
+    assert "1×1空白图" in sample["xianyu"]["version_evidence"]
+    assert sample["wameiji"]["image_state"] == "observed_first_gallery_image"
+    assert sample["wameiji"]["price"] == 5197
+    assert sample["wameiji"]["observed_at"] == "2026-09-26T02:00:00+08:00"
+
+
+def test_multi_option_xianyu_ranges_are_structured_and_use_the_listed_lower_bound() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    expected_ranges = {
+        48: (180, 550),
+        59: (177, 233),
+        75: (427, 549),
+        77: (199, 333),
+        84: (218, 228),
+        88: (145, 280),
+        89: (248, 2800),
+        98: (255, 309),
+        109: (351, 480),
+        110: (175, 375),
+        111: (550, 580),
+        117: (119, 169),
+    }
+
+    for sample_id, (minimum, maximum) in expected_ranges.items():
+        copies = [
+            row
+            for collection in ("dual_found_pairs", "dual_observed_pairs")
+            for row in snapshot[collection]
+            if row["reference_product_id"] == sample_id
+        ]
+        assert copies, sample_id
+        for sample in copies:
+            if sample["xianyu"].get("state") == "blocked":
+                assert sample["xianyu"]["price"] is None, sample_id
+                assert sample["xianyu"]["last_observed_price"] == minimum, sample_id
+            else:
+                assert sample["xianyu"]["price"] == minimum, sample_id
+            assert sample["xianyu"]["price_range"] == {
+                "min": minimum,
+                "max": maximum,
+                "currency": "CNY",
+            }, sample_id
 
 
 def test_reference_audit_snapshot_timestamp_is_not_older_than_its_observations() -> None:
@@ -635,17 +934,24 @@ def test_sample_66_replaces_sold_wameiji_item_with_the_live_matching_catalog_num
         assert "不把239 CNY当作本选项价格" in sample["relation_note"]
 
 
-def test_sample_53_uses_live_aimer_daydream_packaging_main_image() -> None:
+def test_sample_53_keeps_live_wameiji_and_marks_xianyu_blocked_after_recheck() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for collection in ("dual_found_pairs", "dual_observed_pairs"):
         sample = next(row for row in snapshot[collection] if row["reference_product_id"] == 53)
         assert sample["same_product_verified"] is True
-        assert sample["xianyu"]["price"] == 168
+        assert sample["xianyu"]["price"] is None
+        assert sample["xianyu"]["last_observed_price"] == 168
+        assert sample["xianyu"]["observed_at"] == "2026-09-26T05:30:00+08:00"
+        assert sample["xianyu"]["state"] == "blocked"
+        assert sample["xianyu"]["image_state"] == "historical_first_gallery_image"
+        assert sample["wameiji"]["price"] == 7999
+        assert sample["wameiji"]["observed_at"] == "2026-09-26T05:43:00+08:00"
+        assert sample["wameiji"]["image_state"] == "page_reference_image"
         assert sample["xianyu"]["image_url"] == (
             "https://img.alicdn.com/bao/uploaded/i2/1713419028/"
             "O1CN01E8jVKAJuh6I3thGS_!!4611686018427384596-0-xy_item.jpg_790x10000Q90.jpg_.webp"
         )
-        assert "daydream包装图" in sample["xianyu"]["version_evidence"]
+        assert "2026-09-26 05:30内置浏览器重开原链接后出现滑块验证码" in sample["xianyu"]["version_evidence"]
 
 
 def test_samples_23_to_25_refresh_current_status_and_preserve_match_limits() -> None:
@@ -655,11 +961,15 @@ def test_samples_23_to_25_refresh_current_status_and_preserve_match_limits() -> 
 
         candidate = rows[23]
         assert candidate["same_product_verified"] is True
-        assert candidate["xianyu"]["price"] == 60
-        assert candidate["xianyu"]["state"] == "observed_current"
+        assert candidate["xianyu"]["price"] is None
+        assert candidate["xianyu"]["last_observed_price"] == 60
+        assert candidate["xianyu"]["observed_at"] == "2026-09-26T05:30:00+08:00"
+        assert candidate["xianyu"]["state"] == "blocked"
         assert candidate["xianyu"]["image_url"] is None
         assert candidate["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
-        assert "原闲鱼页" in candidate["xianyu"]["version_evidence"]
+        assert "候选¥60" in candidate["xianyu"]["version_evidence"]
+        assert "05:30重开原详情" in candidate["xianyu"]["version_evidence"]
+        assert "滑块验证" in candidate["xianyu"]["version_evidence"]
         assert "JAN" in candidate["wameiji"]["version_evidence"]
         assert candidate["wameiji"]["state"] == "observed_current"
         assert candidate["wameiji"]["image_state"] == "page_reference_image"
@@ -774,7 +1084,7 @@ def test_sample_22_uses_current_moon_box_related_xianyu_listing_without_claiming
         assert "/item?" in xianyu["source_url"]
         assert "完整附件待核" in xianyu["title"]
         assert "立即购买" in xianyu["version_evidence"]
-        assert "262浏览" in xianyu["version_evidence"]
+        assert "265浏览" in xianyu["version_evidence"]
 
 
 def test_sample_13_seller_rating_block_is_not_counted_as_a_buyable_price() -> None:
@@ -787,8 +1097,9 @@ def test_sample_13_seller_rating_block_is_not_counted_as_a_buyable_price() -> No
         assert wameiji["state"] == "blocked"
         assert wameiji["price"] is None
         assert wameiji["last_observed_price"] == 104459
+        assert wameiji["observed_at"] == "2026-09-26T01:42:00+08:00"
         assert wameiji["image_state"] == "page_reference_image"
-        assert "不能下单" in wameiji["version_evidence"]
+        assert "卖家好评过低" in wameiji["version_evidence"]
         assert "不保证" in wameiji["version_evidence"]
         assert "TYPE-MOON+%E6%9C%88%E5%A7%AB+PLUS%2BDISC+%E6%AD%8C%E6%9C%88%E5%8D%81%E5%A4%9C" in wameiji["search_source_url"]
         assert "website=rakuten" in wameiji["rakuten_search_source_url"]
@@ -796,10 +1107,11 @@ def test_sample_13_seller_rating_block_is_not_counted_as_a_buyable_price() -> No
         assert xianyu["title"] == "月姬 月箱 TYPE-MOON同人合集"
         assert xianyu["price"] == 2300
         assert xianyu["state"] == "observed_current"
+        assert xianyu["observed_at"] == "2026-09-26T01:42:00+08:00"
         assert xianyu["image_state"] == "observed_first_gallery_image"
         assert xianyu["image_url"].startswith("https://img.alicdn.com/bao/uploaded/")
         assert "配件" in xianyu["version_evidence"] and "旧三碟条目" in xianyu["version_evidence"]
-        assert "177浏览" in xianyu["version_evidence"]
+        assert "180浏览" in xianyu["version_evidence"]
 
 
 def test_sample_28_does_not_match_a_pc_game_cdrom_to_two_printed_novels() -> None:
@@ -932,11 +1244,15 @@ def test_sample_54_current_listings_and_direct_first_images_match_manual_evidenc
 
 def test_sample_55_does_not_assign_one_price_or_real_item_photo_to_uncertain_variants() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
-    for rows in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"]):
+    for collection, rows in (("dual_found_pairs", snapshot["dual_found_pairs"]), ("dual_observed_pairs", snapshot["dual_observed_pairs"])):
         row = next(row for row in rows if row["reference_product_id"] == 55)
         assert row["xianyu"]["price"] is None
         assert "¥228–350" in row["xianyu"]["version_evidence"]
-        assert row["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert row["xianyu"]["image_state"] == (
+            "historical_first_gallery_image"
+            if collection == "dual_found_pairs"
+            else "observed_first_gallery_image"
+        )
         assert row["wameiji"]["image_state"] == "page_reference_image"
         assert "首图仅为示例" in row["wameiji"]["version_evidence"]
         assert "不能用于价差或利润判断" in row["relation_note"]
@@ -959,6 +1275,11 @@ def test_sample_6_does_not_publish_a_secondary_gallery_photo_as_the_main_image()
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for rows in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"]):
         sample_6 = next(row for row in rows if row["reference_product_id"] == 6)
+        assert sample_6["same_product_verified"] is True
+        assert sample_6["price_comparable"] is False
+        assert sample_6["wameiji"]["state"] == "observed_current"
+        assert sample_6["wameiji"]["image_state"] == "page_reference_image"
+        assert sample_6["xianyu"]["state"] == "observed_current"
         assert sample_6["xianyu"]["image_url"].endswith("O1CN01Ybgkgx1HmuNm8zYgA_!!4611686018427383905-0-xy_item.jpg_790x10000Q90.jpg_.webp")
         assert sample_6["xianyu"]["image_state"] == "observed_first_gallery_image"
         assert "首张画廊图直链已单独打开" in sample_6["xianyu"]["version_evidence"]
@@ -968,42 +1289,113 @@ def test_sample_33_uses_each_listing_first_gallery_image_not_another_gallery_pho
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for rows in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"]):
         sample_33 = next(row for row in rows if row["reference_product_id"] == 33)
+        assert sample_33["same_product_verified"] is False
+        assert sample_33["price_comparable"] is False
+        assert sample_33["xianyu"]["state"] == "observed_current"
+        assert sample_33["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert sample_33["wameiji"]["state"] == "observed_current"
+        assert sample_33["wameiji"]["image_state"] == "page_reference_image"
+        assert "不能证明是同一游戏/版本" in sample_33["relation_note"]
         assert sample_33["xianyu"]["image_url"].endswith("O1CN012tbsvy1d0HoMvNcdc_!!4611686018427383289-53-fleamarket.heic_790x10000Q90.jpg_.webp")
         assert sample_33["wameiji"]["image_url"] == "https://imghk.doorzo.net/item/detail/orig/photos/m32301324782_1.jpg?1643898636"
         assert "thumb/item/webp" not in sample_33["wameiji"]["image_url"]
 
 
-def test_sample_17_excludes_display_only_listing_and_keeps_unverified_image_blank() -> None:
+def test_sample_17_excludes_display_only_listing_and_marks_direct_image_link_unverified() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for rows in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"]):
         sample_17 = next(row for row in rows if row["reference_product_id"] == 17)
-        assert sample_17["same_product_verified"] is True
+        assert sample_17["same_product_verified"] is False
         assert sample_17["xianyu"]["source_url"].endswith("id=859421708400&categoryId=126860296")
         assert sample_17["xianyu"]["price"] == 600
         assert sample_17["xianyu"]["state"] == "observed_current"
+        assert sample_17["xianyu"]["observed_at"] == "2026-09-26T05:06:00+08:00"
+        assert "2,252浏览" in sample_17["xianyu"]["version_evidence"]
+        assert "闲鱼精确详情 id=859421708400 已打开复核" in sample_17["relation_note"]
         assert sample_17["xianyu"]["image_url"] is None
         assert sample_17["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
         assert "995592593200" not in sample_17["xianyu"]["source_url"]
         assert "展示/非卖品/拍下不发" in sample_17["xianyu"]["version_evidence"]
         assert sample_17["wameiji"]["price"] == 13800
         assert sample_17["wameiji"]["state"] == "observed_current"
-        assert "页面提示图片可能与实物不同" in sample_17["wameiji"]["version_evidence"]
-        assert "不作利润结论" in sample_17["relation_note"]
+        assert "图片可能与实物不同" in sample_17["wameiji"]["version_evidence"]
+        assert sample_17["wameiji"]["image_state"] == "page_reference_image"
+        assert "不计算利润" in sample_17["relation_note"]
+        assert "SIDE 2nd" in sample_17["relation_note"]
+
+
+def test_sample_23_keeps_search_price_historical_when_detail_is_captcha_blocked() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for rows in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"]):
+        sample_23 = next(row for row in rows if row["reference_product_id"] == 23)
+        xianyu = sample_23["xianyu"]
+        assert xianyu["source_url"].endswith("id=1057452820190&categoryId=126860296")
+        assert xianyu["price"] is None
+        assert xianyu["last_observed_price"] == 60
+        assert xianyu["observed_at"] == "2026-09-26T05:30:00+08:00"
+        assert xianyu["state"] == "blocked"
+        assert "候选¥60" in xianyu["version_evidence"]
+        assert "05:30重开原详情" in xianyu["version_evidence"]
+        assert "滑块验证" in xianyu["version_evidence"]
+        assert xianyu["image_url"] is None
+        assert xianyu["image_state"] == "first_gallery_image_link_unverified"
+        assert "首图直链仍未核实" in sample_23["relation_note"]
+        assert "详情观察同商品ID 1057452820190" in sample_23["relation_note"]
+        assert "不能据此认定成色/附件一致或计算利润" in sample_23["relation_note"]
+
+
+def test_sample_22_keeps_current_month_box_listing_separate_from_sample_13() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for rows in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"]):
+        sample_13 = next(row for row in rows if row["reference_product_id"] == 13)
+        sample_22 = next(row for row in rows if row["reference_product_id"] == 22)
+        xianyu = sample_22["xianyu"]
+        assert xianyu["source_url"].endswith("id=1081169121696&categoryId=126860296")
+        assert xianyu["price"] == 2188
+        assert xianyu["observed_at"] == "2026-09-26T01:29:00+08:00"
+        assert "265浏览" in xianyu["version_evidence"]
+        assert "¥2,188" in sample_22["relation_note"]
+        assert "1084287467098" not in xianyu["source_url"]
+        assert sample_13["xianyu"]["source_url"].endswith("id=1084287467098&categoryId=126864811")
+        assert sample_13["xianyu"]["price"] == 2300
+        assert "¥2,300" in sample_13["relation_note"]
 
 
 def test_sample_1_keeps_different_tuyu_bonus_covers_as_related_not_same_sku() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
-    sample_1 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 1)
-    assert sample_1["same_product_verified"] is False
-    assert sample_1["xianyu"]["price"] == 150
-    assert sample_1["xianyu"]["image_state"] == "observed_first_gallery_image"
-    assert "Animate特典同款" in sample_1["xianyu"]["version_evidence"]
-    assert sample_1["xianyu"]["search_source_url"].startswith("https://www.goofish.com/search?q=")
-    assert sample_1["wameiji"]["price"] == 6631
-    assert sample_1["wameiji"]["image_state"] == "observed_first_gallery_image"
-    assert sample_1["wameiji"]["source_url"].startswith("https://www.meruki.cn/mall/mercari/detail/")
-    assert sample_1["xianyu"]["image_url"] != sample_1["wameiji"]["image_url"]
-    assert "不比较价差或利润" in sample_1["relation_note"]
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        sample_1 = next(row for row in snapshot[collection] if row["reference_product_id"] == 1)
+        assert sample_1["same_product_verified"] is False
+        assert sample_1["xianyu"]["state"] == "blocked"
+        assert sample_1["xianyu"]["price"] is None
+        assert sample_1["xianyu"]["last_observed_price"] == 150
+        assert sample_1["xianyu"]["observed_at"] == "2026-09-26T04:24:00+08:00"
+        assert sample_1["xianyu"]["catalog_no"] is None
+        assert "验证码拦截" in sample_1["xianyu"]["version_evidence"]
+        assert "搜索结果可见记录" in sample_1["xianyu"]["version_evidence"]
+        assert sample_1["xianyu"]["image_state"] == "historical_first_gallery_image"
+        assert "不足以证明同款" in sample_1["xianyu"]["version_evidence"]
+        assert sample_1["xianyu"]["search_source_url"].startswith("https://www.goofish.com/search?q=")
+        assert sample_1["wameiji"]["price"] == 6631
+        assert sample_1["wameiji"]["observed_at"] == "2026-09-26T05:43:00+08:00"
+        assert sample_1["wameiji"]["image_state"] == "page_reference_image"
+        assert sample_1["wameiji"]["source_url"].startswith("https://www.meruki.cn/mall/mercari/detail/")
+        assert sample_1["xianyu"]["image_url"] != sample_1["wameiji"]["image_url"]
+        assert "不比较价差或利润" in sample_1["relation_note"]
+
+
+def test_reference_audit_snapshot_has_no_duplicate_json_keys() -> None:
+    content = Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+
+    def reject_duplicate_keys(pairs: list[tuple[str, object]]) -> dict[str, object]:
+        result: dict[str, object] = {}
+        for key, value in pairs:
+            if key in result:
+                raise ValueError(f"duplicate JSON key: {key}")
+            result[key] = value
+        return result
+
+    json.loads(content, object_pairs_hook=reject_duplicate_keys)
 
 
 def test_sample_18_does_not_compare_four_disc_bundle_with_one_volume() -> None:
@@ -1020,18 +1412,18 @@ def test_sample_18_does_not_compare_four_disc_bundle_with_one_volume() -> None:
         assert "不能按同SKU或利润机会比较" in sample_18["relation_note"]
 
 
-def test_sample_20_marks_xianyu_search_card_as_unverified_detail() -> None:
+def test_sample_20_confirms_live_xianyu_detail_and_keeps_condition_difference() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for collection in ("dual_found_pairs", "dual_observed_pairs"):
         sample_20 = next(row for row in snapshot[collection] if row["reference_product_id"] == 20)
         assert sample_20["same_product_verified"] is True
         assert sample_20["xianyu"]["price"] == 400
         assert sample_20["xianyu"]["search_source_url"].startswith("https://www.goofish.com/search?q=")
-        assert "只确认搜索卡片仍可见" in sample_20["xianyu"]["version_evidence"]
-        assert "未见商品正文/库存/立即购买" in sample_20["xianyu"]["version_evidence"]
+        assert "¥400包邮、181浏览，有立即购买" in sample_20["xianyu"]["version_evidence"]
+        assert "实物拍摄所见所得" in sample_20["xianyu"]["version_evidence"]
         assert sample_20["wameiji"]["price"] == 3200
         assert "仍显示加入购物车/立即购买" in sample_20["wameiji"]["version_evidence"]
-        assert "现货详情/库存与附件仍待二次核验" in sample_20["relation_note"]
+        assert "不同实物，成色不同" in sample_20["relation_note"]
 
 
 def test_sample_21_uses_current_prices_and_keeps_xianyu_variant_ambiguity() -> None:
@@ -1039,11 +1431,12 @@ def test_sample_21_uses_current_prices_and_keeps_xianyu_variant_ambiguity() -> N
     for collection in ("dual_found_pairs", "dual_observed_pairs"):
         sample_21 = next(row for row in snapshot[collection] if row["reference_product_id"] == 21)
         assert sample_21["same_product_verified"] is True
+        assert sample_21["price_comparable"] is False
         assert sample_21["xianyu"]["price"] == 193
         assert "未证明首价¥193对应哪个选项" in sample_21["xianyu"]["version_evidence"]
         assert sample_21["wameiji"]["price"] == 2899
-        assert "当前2,899 JPY（旧快照2,799 JPY）" in sample_21["wameiji"]["version_evidence"]
-        assert "不把页面标价差视为实际利润" in sample_21["relation_note"]
+        assert "当前2,899 JPY" in sample_21["wameiji"]["version_evidence"]
+        assert "不把标价差视为可比价或利润" in sample_21["relation_note"]
 
 
 def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
@@ -1073,13 +1466,16 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
     assert not any("static.312588698.com/thumb/item/webp/" in str(row.get("image_url", "")) for row in mercari_item_rows)
     sample_50 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
     assert sample_50["same_product_verified"] is False
-    assert sample_50["wameiji"]["source_url"].startswith("https://www.meruki.cn/mall/rakuten/detail/")
-    assert sample_50["wameiji"]["catalog_no"] == "VMAN-7"
+    assert sample_50["price_comparable"] is False
+    assert sample_50["wameiji"]["source_url"].startswith("https://www.meruki.cn/mall/mercari/detail/")
     assert sample_50["wameiji"]["barcode"] == "4589910070205"
-    assert sample_50["wameiji"]["image_url"] == "https://imghk.doorzo.net/tshopr10sjp/guruguru2/cabinet/205/vman-7.jpg?fitin=600:600"
+    assert sample_50["wameiji"]["image_url"] == "https://assets.mercari-shops-static.com/-/large/plain/2JV8Y52xxbisFRB4eaHmr8.jpg@jpg"
     assert sample_50["wameiji"]["image_state"] == "page_reference_image"
-    assert "目录封面" in sample_50["wameiji"]["version_evidence"]
-    assert "未能从界面确认默认购买项" in sample_50["xianyu"]["version_evidence"]
+    assert "JAN 4589910070205" in sample_50["wameiji"]["version_evidence"]
+    assert "总价区间100–120 CNY" in sample_50["xianyu"]["version_evidence"]
+    assert sample_50["xianyu"]["state"] == "blocked"
+    assert sample_50["xianyu"]["price"] is None
+    assert sample_50["xianyu"]["last_observed_price"] == 120
     assert sum(bool(row.get("image_url")) for row in rows) >= 70
 
 
@@ -1178,6 +1574,7 @@ def test_reference_audit_does_not_calculate_spread_for_unverified_product_pairs(
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     assert '"历史挂牌价 · " + price' in javascript
     assert "相关商品观察 · 非样本同款" in javascript
+    assert 'cny(rangeMin) + " – " + cny(rangeMax)' in javascript
     start = javascript.index("function referenceAuditCenterMarkup")
     end = javascript.index("function referenceAuditPairMarkup")
     center_renderer = javascript[start:end]
@@ -1221,6 +1618,44 @@ if (!unavailable.includes("来源当前受阻 · 历史价不计利润")
   || unavailable.includes("115.62 CNY") || unavailable.includes("91.70 CNY")) {{
   throw new Error("sold, blocked, login-gated and unlisted records must never calculate as current profit");
 }}
+const blockedUnknown = referenceAuditCenterMarkup(
+  {{ price: null, state: "blocked" }}, {{ price: null, state: "login_required" }},
+  "受阻来源", "当前页面未读到报价", true
+);
+if (!blockedUnknown.includes("闲鱼挂牌价</small><strong>当前未核实")
+  || !blockedUnknown.includes("挖煤姬折合</small><strong>当前未核实")) {{
+  throw new Error("a blocked source with no known price must not be rendered as no currently listed item");
+}}
+const historicalSoldQuote = referenceAuditCenterMarkup(
+  {{ price: 120, state: "found" }},
+  {{ price: 99, price_range: {{ min: 90, max: 99 }}, state: "current_sold_image" }},
+  "已售商品", "保留历史挂牌价", true
+);
+if (!historicalSoldQuote.includes("挖煤姬折合</small><strong>当前未核实")
+  || historicalSoldQuote.includes("4.38 CNY")
+  || historicalSoldQuote.includes("3.98 CNY")) {{
+  throw new Error("sold historical prices and ranges must not appear as current quotes in the comparison panel");
+}}
+const unlistedHistoricalQuote = referenceAuditCenterMarkup(
+  {{ price: 177, price_range: {{ min: 177, max: 233 }}, state: "not_currently_listed" }},
+  {{ price: 300, state: "observed_current" }}, "已下架商品", "旧价格仅保留作历史", false
+);
+if (!unlistedHistoricalQuote.includes("闲鱼挂牌价</small><strong>当前未核实")
+  || unlistedHistoricalQuote.includes("177.00 CNY – 233.00 CNY")) {{
+  throw new Error("unlisted historical ranges must not appear as current quotes in the comparison panel");
+}}
+const sameVersionUnpriced = referenceAuditCenterMarkup(
+  {{ price: 687, price_range: {{ min: 687, max: 799 }} }},
+  {{ price: 13999 }}, "同款观察", "多选项报价未锁定", true, false
+);
+const spreadCell = sameVersionUnpriced.match(/<small>参考价差<\\/small><strong>(.*?)<\\/strong>/);
+const netCell = sameVersionUnpriced.match(/<small>默认成本后参考值<\\/small><strong>(.*?)<\\/strong>/);
+if (!sameVersionUnpriced.includes("同款已核 · 选项/价格未锁定，不比较")
+  || !sameVersionUnpriced.includes("687.00 CNY – 799.00 CNY")
+  || !spreadCell || spreadCell[1] !== "不比较"
+  || !netCell || netCell[1] !== "不适用") {{
+  throw new Error("a verified edition with an unresolved multi-option price must retain observations but suppress the spread and net value");
+}}
 """
 
     result = subprocess.run(
@@ -1231,6 +1666,75 @@ if (!unavailable.includes("来源当前受阻 · 历史价不计利润")
     )
 
     assert result.returncode == 0, result.stderr or result.stdout
+
+
+def test_blocked_reference_card_keeps_last_price_as_explicit_history() -> None:
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    start = javascript.index("function referenceAuditObservationMarkup")
+    end = javascript.index("function referenceAuditCenterMarkup")
+    observation_renderer = javascript[start:end]
+    harness = f"""
+const safeHttpUrl = (value) => value || "";
+const auditObservationImage = () => "";
+const versionedAuditImageUrl = (value) => value || "";
+const esc = (value) => String(value);
+const displayJpyCnyRate = () => 0.0442;
+const cny = (value) => Number.isFinite(Number(value)) ? Number(value).toFixed(2) + " CNY" : "--";
+const jpy = (value) => Number.isFinite(Number(value)) ? Number(value).toFixed(0) + " JPY" : "--";
+{observation_renderer}
+const card = referenceAuditObservationMarkup(
+  "闲鱼销售侧",
+  {{ title: "礼衣 tuyu特典", state: "blocked", price: null, last_observed_price: 150 }},
+  "CNY",
+  "xianyu"
+);
+if (!card.includes("历史挂牌价 · 150.00 CNY")
+  || !card.includes("当前详情未能核实 · 不作在售报价")) {{
+  throw new Error("blocked cards should preserve the last price but label it as historical, never as an active quote");
+}}
+"""
+    result = subprocess.run(
+        ["node", "-e", harness],
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    assert result.returncode == 0, result.stderr or result.stdout
+
+
+def test_reference_samples_separate_version_identity_from_price_comparability() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        rows = {row["reference_product_id"]: row for row in snapshot[collection]}
+
+        voltage = rows[73]
+        assert voltage["same_product_verified"] is True
+        assert voltage["price_comparable"] is False
+        assert voltage["xianyu"]["image_state"] == "multi_option_listing_image"
+        assert voltage["wameiji"]["image_state"] == "page_reference_image"
+        assert "选项/价格未锁定" in voltage["relation_note"]
+
+        bad_mode = rows[82]
+        assert bad_mode["same_product_verified"] is True
+        assert bad_mode["price_comparable"] is False
+        assert bad_mode["xianyu"]["catalog_no"] == bad_mode["wameiji"]["catalog_no"] == "ESJL-3123"
+        assert bad_mode["wameiji"]["state"] == "login_required"
+
+
+def test_duplicate_sample_layers_keep_current_replacements_separate_and_remove_unsupported_quotes() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    layers = {
+        name: {row["reference_product_id"]: row for row in snapshot[name]}
+        for name in ("dual_found_pairs", "dual_observed_pairs")
+    }
+
+    for layer in layers.values():
+        assert layer[93]["xianyu"]["price"] == 290
+        assert layer[100]["xianyu"]["price"] is None
+        assert layer[100]["xianyu"]["image_state"] == "historical_first_gallery_image"
+    assert layers["dual_found_pairs"][87]["xianyu"]["source_url"] != layers["dual_observed_pairs"][87]["xianyu"]["source_url"]
+    assert layers["dual_found_pairs"][87]["xianyu"]["state"] == "replacement_related"
+    assert layers["dual_found_pairs"][114]["xianyu"]["source_url"] != layers["dual_observed_pairs"][114]["xianyu"]["source_url"]
 
 
 def test_dual_market_ui_states_the_china_resale_profit_direction() -> None:

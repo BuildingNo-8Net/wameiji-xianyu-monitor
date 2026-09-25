@@ -412,7 +412,20 @@
     const searchHref = safeHttpUrl(source.search_source_url);
     const image = versionedAuditImageUrl(auditObservationImage(source));
     const title = esc(source.title || "未命名商品记录");
-    const price = currency === "JPY" ? jpy(source.price, displayJpyCnyRate()) : cny(source.price);
+    const sourceUnavailable = ["blocked", "login_required", "not_currently_listed", "current_sold_image"]
+      .includes(source.state);
+    const priceValue = source.price === null || source.price === undefined || source.price === ""
+      ? sourceUnavailable ? source.last_observed_price : source.price
+      : source.price;
+    const priceRange = source.price_range && typeof source.price_range === "object"
+      ? source.price_range
+      : null;
+    const rangeMin = priceRange && Number(priceRange.min);
+    const rangeMax = priceRange && Number(priceRange.max);
+    const hasPriceRange = Number.isFinite(rangeMin) && Number.isFinite(rangeMax) && rangeMin <= rangeMax;
+    const price = hasPriceRange
+      ? (currency === "JPY" ? jpy(rangeMin, displayJpyCnyRate()) + " – " + jpy(rangeMax, displayJpyCnyRate()) : cny(rangeMin) + " – " + cny(rangeMax))
+      : currency === "JPY" ? jpy(priceValue, displayJpyCnyRate()) : cny(priceValue);
     const evidence = source.version_evidence ? '<p>' + esc(source.version_evidence) + '</p>' : "";
     const catalog = [source.catalog_no, source.barcode].filter(Boolean).join(" · ");
     const heading = href
@@ -472,8 +485,6 @@
       : source.state
         ? "当前状态待复核 · 历史证据"
         : "历史快照 · 下单前复核";
-    const sourceUnavailable = ["blocked", "login_required", "not_currently_listed", "current_sold_image"]
-      .includes(source.state);
     const displayedPrice = price === "--"
       ? "--"
       : sourceUnavailable
@@ -499,7 +510,7 @@
     ].join("");
   }
 
-  function referenceAuditCenterMarkup(xianyu, wameiji, label, note, sameProductVerified) {
+  function referenceAuditCenterMarkup(xianyu, wameiji, label, note, sameProductVerified, comparisonAllowed = true) {
     const saleRaw = xianyu && xianyu.price;
     const purchaseRaw = wameiji && wameiji.price;
     const sale = saleRaw === null || saleRaw === undefined || saleRaw === "" ? NaN : Number(saleRaw);
@@ -508,15 +519,30 @@
     const saleKnown = Number.isFinite(sale) && sale >= 0;
     const purchaseKnown = Number.isFinite(purchase) && purchase >= 0 && Number.isFinite(rate) && rate > 0;
     const purchaseCny = purchaseKnown ? purchase * rate : NaN;
+    const saleRange = xianyu && xianyu.price_range;
+    const saleRangeMin = saleRange && Number(saleRange.min);
+    const saleRangeMax = saleRange && Number(saleRange.max);
+    const saleRangeKnown = Number.isFinite(saleRangeMin) && Number.isFinite(saleRangeMax) && saleRangeMin <= saleRangeMax;
+    const purchaseRange = wameiji && wameiji.price_range;
+    const purchaseRangeMin = purchaseRange && Number(purchaseRange.min);
+    const purchaseRangeMax = purchaseRange && Number(purchaseRange.max);
+    const purchaseRangeKnown = Number.isFinite(purchaseRangeMin) && Number.isFinite(purchaseRangeMax) && purchaseRangeMin <= purchaseRangeMax && Number.isFinite(rate) && rate > 0;
+    const xianyuUnavailable = xianyu && ["blocked", "login_required", "not_currently_listed", "current_sold_image"].includes(xianyu.state);
+    const wameijiUnavailable = wameiji && ["blocked", "login_required", "not_currently_listed", "current_sold_image"].includes(wameiji.state);
+    const saleQuote = xianyuUnavailable ? "当前未核实" : saleRangeKnown ? cny(saleRangeMin) + " – " + cny(saleRangeMax) : saleKnown ? cny(sale) : "无在售同款";
+    const purchaseQuote = wameijiUnavailable ? "当前未核实" : purchaseRangeKnown ? cny(purchaseRangeMin * rate) + " – " + cny(purchaseRangeMax * rate) : purchaseKnown ? cny(purchaseCny) : "无在售同款";
     const unavailable = [xianyu, wameiji].some((source) => source && [
       "blocked", "login_required", "not_currently_listed", "current_sold_image",
     ].includes(source.state));
-    const comparable = sameProductVerified === true && !unavailable;
+    const comparable = sameProductVerified === true && comparisonAllowed !== false && !unavailable;
+    const priceUnresolved = sameProductVerified === true && comparisonAllowed === false && !unavailable;
     const spread = comparable && saleKnown && purchaseKnown ? sale - purchaseCny : NaN;
     const saleFee = saleKnown ? sale * 0.016 : NaN;
     const referenceValue = comparable && Number.isFinite(spread) ? spread - 15 - 5 - 2 - saleFee : NaN;
     const status = unavailable
       ? "来源当前受阻 · 历史价不计利润"
+      : priceUnresolved
+      ? "同款已核 · 选项/价格未锁定，不比较"
       : !comparable
       ? "同款未证 · 不比较价差或利润"
       : saleKnown && purchaseKnown
@@ -524,6 +550,8 @@
         : "参考核算 · 已检索无在售同款";
     const detail = unavailable
       ? "至少一侧已售、下架、登录受阻或详情未能核实；保留历史挂牌价作样本线索，不作为当前报价或利润依据。"
+      : priceUnresolved
+      ? "商品版本已核对，但挂牌页存在多选项/价格区间或附加费用未锁定；分别保留来源报价，不计算价差或利润。"
       : !comparable
       ? saleKnown && purchaseKnown
         ? "两侧挂牌价分别保留作样本参考；未确认是同一商品/版本，价差和利润不适用。"
@@ -539,8 +567,8 @@
       '<div class="reference-audit-center reference-audit-analysis">',
         '<b>' + esc(status) + '</b>',
         '<div class="reference-audit-analysis-grid">',
-          '<div><small>闲鱼挂牌价</small><strong>' + esc(saleKnown ? cny(sale) : "无在售同款") + '</strong></div>',
-          '<div><small>挖煤姬折合</small><strong>' + esc(purchaseKnown ? cny(purchaseCny) : "无在售同款") + '</strong></div>',
+          '<div><small>闲鱼挂牌价</small><strong>' + esc(saleQuote) + '</strong></div>',
+          '<div><small>挖煤姬折合</small><strong>' + esc(purchaseQuote) + '</strong></div>',
           '<div><small>参考价差</small><strong>' + esc(comparable ? (Number.isFinite(spread) ? cny(spread) : "无法核算") : "不比较") + '</strong></div>',
           '<div><small>默认成本后参考值</small><strong>' + esc(comparable ? (Number.isFinite(referenceValue) ? cny(referenceValue) : "无法核算") : "不适用") + '</strong></div>',
         '</div>',
@@ -562,10 +590,17 @@
       "blocked", "login_required", "not_currently_listed", "current_sold_image",
     ].includes(source.state))
       || /未加载|无法重新确认|未能确认|未找到可核实的在售同款|无可核实在售同款|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核|已售|卖掉了|已下架|售罄/.test(combinedEvidence);
+    // An explicit false means the selected price/option cannot be compared.
+    // If a same-version pair has known prices but no such ambiguity flag, keep
+    // the indicative arithmetic visible; the relation note still says it is
+    // not realized profit when condition/accessory differences remain.
+    const priceComparisonUnresolved = item.price_comparable === false;
     const auditLabel = currentEvidenceUnavailable
       ? "当前证据受阻 · 已打开核验"
       : nonComparable
         ? "已人工核验 · 非同款/未证同款"
+        : priceComparisonUnresolved
+          ? "已核验同版本 · 价格/选项未锁定"
         : "已人工核验 · 观察记录";
     const sourceHost = String(japaneseSource.marketplace_host || "日本来源");
     const japaneseLabel = japaneseSource.is_wameiji_platform
@@ -579,9 +614,10 @@
           referenceAuditCenterMarkup(
             item.xianyu,
             item.wameiji,
-            nonComparable ? "非同款/未证同款 · 不做利润比较" : currentEvidenceUnavailable ? "当前证据未加载" : "双侧样本参考",
+            nonComparable ? "非同款/未证同款 · 不做利润比较" : currentEvidenceUnavailable ? "当前证据未加载" : priceComparisonUnresolved ? "同款观察 · 选项/价格未锁定" : "双侧样本参考",
             item.relation_note || (nonComparable ? "当前未证明两侧为同一商品，不显示价差或利润结论" : currentEvidenceUnavailable ? "链接仍保留，但详情正文/价格未加载，旧价格不代表当前可购买" : "版本、成色、附件与到手成本仍需逐件核对"),
             !nonComparable && !currentEvidenceUnavailable,
+            !priceComparisonUnresolved,
           ),
           referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY", "wameiji"),
         '</div>',
