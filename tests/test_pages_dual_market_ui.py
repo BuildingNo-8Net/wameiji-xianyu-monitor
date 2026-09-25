@@ -757,6 +757,31 @@ def test_sample_26_removes_unrelated_artbook_and_labels_search_only_evidence() -
     assert "searchOnlyCandidate" in javascript
 
 
+def test_sample_27_removes_unverified_xianyu_pair_and_keeps_both_evidence_links() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    sample = next(row for row in snapshot["single_observed_records"] if row["reference_product_id"] == 27)
+
+    assert sample["counterpart_state"] == "not_currently_listed"
+    assert "xianyu" not in sample
+    assert sample["observation"]["state"] == "observed_current"
+    assert sample["observation"]["price"] == 4980
+    assert sample["observation"]["image_state"] == "observed_first_gallery_image"
+    assert "活动中" in sample["observation"]["version_evidence"]
+    candidate = sample["counterpart_candidate"]
+    assert candidate["state"] == "search_only"
+    assert "没有找到" in candidate["version_evidence"]
+    assert candidate["price"] is None
+    assert candidate["image_url"] is None
+    assert candidate["image_state"] == "reference_only"
+    assert candidate["source_url"] == (
+        "https://www.goofish.com/search?q="
+        "%E5%B0%91%E5%A5%B3%E9%A2%86%E5%9F%9F%20%E5%B9%BF%E6%92%AD%E5%89%A7%20CD%20vol.10"
+    )
+    assert candidate["detail_source_url"].endswith("id=1022550203177&categoryId=126862148")
+    assert "打开原样本详情页（当前网页端不可核验）" in javascript
+
+
 def test_sample_35_does_not_reuse_music_cd_links_for_an_unidentified_game_box() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     rows = {row["reference_product_id"]: row for row in snapshot["dual_observed_pairs"]}
