@@ -762,10 +762,14 @@ def test_sample_17_non_sale_display_price_is_not_treated_as_a_sellable_quote() -
         if record["reference_product_id"] == 17
     )
 
-    assert pair["same_product_verified"] is False
-    assert pair["xianyu"]["price"] is None
+    assert pair["same_product_verified"] is True
+    assert pair["xianyu"]["price"] == 600
+    assert pair["xianyu"]["state"] == "observed_current"
+    assert pair["xianyu"]["image_url"] is None
+    assert "id=859421708400" in pair["xianyu"]["source_url"]
+    assert "id=995592593200" in pair["relation_note"]
     assert "非卖品" in pair["relation_note"]
-    assert "不比较" in pair["relation_note"]
+    assert "不作利润结论" in pair["relation_note"]
 
 
 def test_sample_18_bundle_vs_single_volume_is_not_a_same_sku_comparison() -> None:
@@ -813,8 +817,8 @@ def test_sample_20_matching_virtual_maiden_drama_cd_is_kept_as_observation() -> 
     assert pair["xianyu"]["state"] == "replacement_current"
     assert pair["xianyu"]["price"] == 400
     assert pair["wameiji"]["price"] == 3200
-    assert "名称和封套" in pair["relation_note"]
-    assert "不将状态差异" in pair["relation_note"]
+    assert "同专辑观察" in pair["relation_note"]
+    assert "不将页面价格差当作已证实利润" in pair["relation_note"]
 
 
 def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None:
@@ -828,9 +832,9 @@ def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None
 
     assert pair["same_product_verified"] is True
     assert pair["xianyu"]["price"] == 193
-    assert pair["wameiji"]["price"] == 2799
+    assert pair["wameiji"]["price"] == 2899
     assert "24首配乐" in pair["relation_note"]
-    assert "具体选项" in pair["relation_note"]
+    assert "对应选项与实物腰封状态仍需确认" in pair["relation_note"]
     assert "不把页面标价差视为实际利润" in pair["relation_note"]
 
 
