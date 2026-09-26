@@ -412,10 +412,13 @@
     const searchHref = safeHttpUrl(source.search_source_url);
     const image = versionedAuditImageUrl(auditObservationImage(source));
     const title = esc(source.title || "未命名商品记录");
-    const sourceUnavailable = ["blocked", "login_required", "not_currently_listed", "current_sold_image"]
+    const sourceStateUnmarked = !source.state;
+    const sourceUnavailable = sourceStateUnmarked || ["blocked", "login_required", "not_currently_listed", "current_sold_image"]
       .includes(source.state);
     const priceValue = source.price === null || source.price === undefined || source.price === ""
       ? sourceUnavailable ? source.last_observed_price : source.price
+      : sourceStateUnmarked && source.last_observed_price !== null && source.last_observed_price !== undefined
+        ? source.last_observed_price
       : source.price;
     const priceRange = source.price_range && typeof source.price_range === "object"
       ? source.price_range
@@ -466,7 +469,9 @@
       : source.image_state === "page_reference_image"
           ? "来源页示意图链接待补"
           : "主图链接待补";
-    const evidenceStatus = source.state === "blocked"
+    const evidenceStatus = sourceStateUnmarked
+      ? "当前状态未标注 · 历史参考"
+      : source.state === "blocked"
       ? "当前详情未能核实 · 不作在售报价"
       : source.state === "current_sold_image"
         ? "已售 · 历史挂牌价，仅作参考"
@@ -527,20 +532,31 @@
     const purchaseRangeMin = purchaseRange && Number(purchaseRange.min);
     const purchaseRangeMax = purchaseRange && Number(purchaseRange.max);
     const purchaseRangeKnown = Number.isFinite(purchaseRangeMin) && Number.isFinite(purchaseRangeMax) && purchaseRangeMin <= purchaseRangeMax && Number.isFinite(rate) && rate > 0;
-    const xianyuUnavailable = xianyu && ["blocked", "login_required", "not_currently_listed", "current_sold_image"].includes(xianyu.state);
-    const wameijiUnavailable = wameiji && ["blocked", "login_required", "not_currently_listed", "current_sold_image"].includes(wameiji.state);
-    const saleQuote = xianyuUnavailable ? "当前未核实" : saleRangeKnown ? cny(saleRangeMin) + " – " + cny(saleRangeMax) : saleKnown ? cny(sale) : "无在售同款";
-    const purchaseQuote = wameijiUnavailable ? "当前未核实" : purchaseRangeKnown ? cny(purchaseRangeMin * rate) + " – " + cny(purchaseRangeMax * rate) : purchaseKnown ? cny(purchaseCny) : "无在售同款";
-    const unavailable = [xianyu, wameiji].some((source) => source && [
+    const xianyuUnavailable = !xianyu || !xianyu.state
+      || ["blocked", "login_required", "not_currently_listed", "current_sold_image"].includes(xianyu.state);
+    const wameijiUnavailable = !wameiji || !wameiji.state
+      || ["blocked", "login_required", "not_currently_listed", "current_sold_image"].includes(wameiji.state);
+    const saleHistoricalQuote = saleRangeKnown ? cny(saleRangeMin) + " – " + cny(saleRangeMax) : saleKnown ? cny(sale) : "当前未核实";
+    const purchaseHistoricalQuote = purchaseRangeKnown ? cny(purchaseRangeMin * rate) + " – " + cny(purchaseRangeMax * rate) : purchaseKnown ? cny(purchaseCny) : "当前未核实";
+    const saleQuote = xianyuUnavailable
+      ? xianyu && !xianyu.state ? "状态未标注 · " + saleHistoricalQuote : "当前未核实"
+      : saleRangeKnown ? cny(saleRangeMin) + " – " + cny(saleRangeMax) : saleKnown ? cny(sale) : "无在售同款";
+    const purchaseQuote = wameijiUnavailable
+      ? wameiji && !wameiji.state ? "状态未标注 · " + purchaseHistoricalQuote : "当前未核实"
+      : purchaseRangeKnown ? cny(purchaseRangeMin * rate) + " – " + cny(purchaseRangeMax * rate) : purchaseKnown ? cny(purchaseCny) : "无在售同款";
+    const unavailable = [xianyu, wameiji].some((source) => !source || [
       "blocked", "login_required", "not_currently_listed", "current_sold_image",
     ].includes(source.state));
-    const comparable = sameProductVerified === true && comparisonAllowed !== false && !unavailable;
-    const priceUnresolved = sameProductVerified === true && comparisonAllowed === false && !unavailable;
+    const stateUnmarked = [xianyu, wameiji].some((source) => source && !source.state);
+    const comparable = sameProductVerified === true && comparisonAllowed !== false && !unavailable && !stateUnmarked;
+    const priceUnresolved = sameProductVerified === true && comparisonAllowed === false && !unavailable && !stateUnmarked;
     const spread = comparable && saleKnown && purchaseKnown ? sale - purchaseCny : NaN;
     const saleFee = saleKnown ? sale * 0.016 : NaN;
     const referenceValue = comparable && Number.isFinite(spread) ? spread - 15 - 5 - 2 - saleFee : NaN;
     const status = unavailable
       ? "来源当前受阻 · 历史价不计利润"
+      : stateUnmarked
+      ? "来源状态未标注 · 历史价不计利润"
       : priceUnresolved
       ? "同款已核 · 选项/价格未锁定，不比较"
       : !comparable
@@ -550,6 +566,12 @@
         : "参考核算 · 已检索无在售同款";
     const detail = unavailable
       ? "至少一侧已售、下架、登录受阻或详情未能核实；保留历史挂牌价作样本线索，不作为当前报价或利润依据。"
+      : stateUnmarked
+      ? !saleKnown && purchaseKnown
+        ? "闲鱼侧无可售价格；挖煤姬报价仅作观察参考。至少一侧状态未标注，挂牌价不视为当前报价；不比较价差或利润。"
+        : saleKnown && !purchaseKnown
+          ? "挖煤姬侧无可核对价格；闲鱼挂牌价仅作历史观察。至少一侧状态未标注，不视为当前报价；不比较价差或利润。"
+          : "至少一侧缺少明确的现售/下架状态；保留链接和挂牌价作历史观察，不视为当前报价；未证同款不比较价差或利润。"
       : priceUnresolved
       ? "商品版本已核对，但挂牌页存在多选项/价格区间或附加费用未锁定；分别保留来源报价，不计算价差或利润。"
       : !comparable
@@ -586,7 +608,8 @@
     const combinedEvidence = xianyuEvidence + " " + wameijiEvidence;
     const nonComparable = item.same_product_verified !== true
       || /历史错配|不是同一商品|不能当作单卷同款|附件不一致|不作同 SKU/.test(xianyuEvidence);
-    const currentEvidenceUnavailable = [item.xianyu, japaneseSource].some((source) => source && [
+    const sourceStateUnmarked = !item.xianyu || !item.xianyu.state || !japaneseSource.state;
+    const currentEvidenceUnavailable = sourceStateUnmarked || [item.xianyu, japaneseSource].some((source) => source && [
       "blocked", "login_required", "not_currently_listed", "current_sold_image",
     ].includes(source.state))
       || /未加载|无法重新确认|未能确认|未找到可核实的在售同款|无可核实在售同款|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核|已售|卖掉了|已下架|售罄/.test(combinedEvidence);
@@ -596,7 +619,7 @@
     // not realized profit when condition/accessory differences remain.
     const priceComparisonUnresolved = item.price_comparable === false;
     const auditLabel = currentEvidenceUnavailable
-      ? "当前证据受阻 · 已打开核验"
+      ? sourceStateUnmarked ? "当前状态未标注" : "当前证据受阻 · 已打开核验"
       : nonComparable
         ? "已人工核验 · 非同款/未证同款"
         : priceComparisonUnresolved
@@ -614,8 +637,8 @@
           referenceAuditCenterMarkup(
             item.xianyu,
             item.wameiji,
-            nonComparable ? "非同款/未证同款 · 不做利润比较" : currentEvidenceUnavailable ? "当前证据未加载" : priceComparisonUnresolved ? "同款观察 · 选项/价格未锁定" : "双侧样本参考",
-            item.relation_note || (nonComparable ? "当前未证明两侧为同一商品，不显示价差或利润结论" : currentEvidenceUnavailable ? "链接仍保留，但详情正文/价格未加载，旧价格不代表当前可购买" : "版本、成色、附件与到手成本仍需逐件核对"),
+            nonComparable ? "非同款/未证同款 · 不做利润比较" : sourceStateUnmarked ? "来源状态未标注" : currentEvidenceUnavailable ? "当前证据未加载" : priceComparisonUnresolved ? "同款观察 · 选项/价格未锁定" : "双侧样本参考",
+            item.relation_note || (nonComparable ? "当前未证明两侧为同一商品，不显示价差或利润结论" : sourceStateUnmarked ? "至少一侧状态未标注，挂牌价仅作历史参考，不据此判断当前在售或计算利润" : currentEvidenceUnavailable ? "链接仍保留，但详情正文/价格未加载，旧价格不代表当前可购买" : "版本、成色、附件与到手成本仍需逐件核对"),
             !nonComparable && !currentEvidenceUnavailable,
             !priceComparisonUnresolved,
           ),
