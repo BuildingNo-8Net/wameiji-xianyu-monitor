@@ -1377,8 +1377,9 @@ def test_sample_67_refreshes_live_pages_and_keeps_disc_count_unverified() -> Non
         assert sample["xianyu"]["image_state"] == "observed_first_gallery_image"
         assert sample["xianyu"]["image_url"].endswith("O1CN01AFJdhl1dU3cLxy9CX_!!4611686018427383946-53-xy_item.heic_790x10000Q90.jpg_.webp")
         assert "未列型番、盘数或附件清单" in sample["xianyu"]["version_evidence"]
-        assert sample["wameiji"]["observed_at"] == "2026-09-26T21:32:00+08:00"
-        assert sample["xianyu"]["observed_at"] == "2026-09-26T21:32:00+08:00"
+        assert sample["wameiji"]["observed_at"] == "2026-09-27T22:16:00Z"
+        assert sample["xianyu"]["observed_at"] == "2026-09-27T22:16:00Z"
+        assert "222浏览" in sample["relation_note"]
 
 
 def test_sample_68_keeps_unavailable_exact_listing_separate_from_related_items() -> None:
