@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T06:49:00+08:00",
+  "generated_at": "2026-09-28T07:17:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -1217,10 +1217,10 @@
       "stable_key": "sample:992eddc9105c5a3ebf798879cd95fab61122c2eee2e54933b9237ce7de1fe1a6",
       "same_product_verified": false,
       "price_comparable": false,
-      "relation_note": "2026-09-28 05:44 内置浏览器复核：闲鱼样本对应链接仍在售，现价¥140包邮、7人想要/446浏览，标题与正文确认《月と花束》期间限定动画盘CD+DVD，卖家称有特典但未列明具体附件。挖煤姬精确搜索后打开候选：2,999 JPY，说明确认《Fate/EXTRA Last Encore》角色卡2张，页面详情可加购/立即购买；画廊首图实物可见同专辑封面与两张特典卡，平台提示图片可能与实物不同。两边同为《月と花束》动画限定CD+DVD方向，版本匹配更强，但闲鱼卖家未逐项列明附件，不能确认完整套装一致，不比较利润。挖煤姬图片直链尚未通过页面UI取得，不写入图片字段。",
+      "relation_note": "2026-09-28 05:44 内置浏览器核验两侧商品版本与状态；07:11重新打开挖煤姬详情，确认仍为《月と花束》动画限定CD+DVD、现价2,999 JPY并可购买，卖家说明附Fate/EXTRA角色卡2张。当前第一张画廊图已在页面实际渲染，显示CD封面及两张卡；页面提示图片可能与实物不同。其图片资源清单给出首图直链 https://imghk.doorzo.net/item/detail/orig/photos/m58456548085_1.jpg?1782981491，但独立新标签打开被站点断开（ERR_CONNECTION_CLOSED），故只标为页面首图源，不宣称独立直链访问成功。闲鱼同为《月と花束》动画限定CD+DVD方向，但卖家未逐项列明特典，不能确认完整套装一致，不比较利润。",
       "wameiji": {
         "title": "さユり《月と花束》期间限定动画盘 CD+DVD（角色卡2张）",
-        "version_evidence": "2026-09-28 05:44 内置浏览器打开详情：标题为“さユり「月と花束」期間生産限定アニメ盤（CD+DVD）”，当前2,999 JPY；说明写明《Fate/EXTRA Last Encore》角色卡2张封入，成色总体良好，详情页显示加入购物车/立即购买，卖家承担日本国内运费，手续费200日元、有物流保障。画廊首图在内置浏览器中可见专辑实物封面和两张角色卡；页面仍提示图片可能与实物不同。该候选与样本照片中的双卡配置相符，但闲鱼卖家未逐项列明附件，仍不据此确认完整套装相同；图片直链尚未通过页面UI取得，不填写直链字段。",
+        "version_evidence": "2026-09-28 05:44内置浏览器打开详情，07:11复核：标题为“さユり「月と花束」期間生産限定アニメ盤（CD+DVD）”，现价2,999 JPY；说明写明《Fate/EXTRA Last Encore》角色卡2张封入，成色总体良好，页面显示加入购物车/立即购买，卖家承担日本国内运费，手续费200日元、有物流保障。当前第一张画廊图在详情页实际渲染为CD封面与两张卡，页面提示商品图片可能与实物不同。内置浏览器的页面资源清单将 https://imghk.doorzo.net/item/detail/orig/photos/m58456548085_1.jpg?1782981491 列为首图；独立新标签访问该URL返回ERR_CONNECTION_CLOSED。图片直链尚未通过页面UI取得，故不填写图片字段；闲鱼卖家未逐项列明特典，仍不确认完整套装相同或比较利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 2999,
@@ -3402,7 +3402,7 @@
       "stable_key": "sample:f0af407b900be9c399e6a0dfea7bc1b53f09fbc578249c141593a6d71437624c",
       "same_product_verified": true,
       "price_comparable": false,
-      "relation_note": "2026-09-27 23:55 内置浏览器复核：原先记录的闲鱼链接是包含Overwatch美版在内的多规格商品，价格无法归属目标款，不能继续作为主观察链接。站内重新找到并打开独立闲鱼Art Edition商品1075533667570：条码820200663191、湖水蓝2LP、¥305包邮、98浏览、立即购买，商品描述和主图与样本版本吻合。挖煤姬HMV商品为BOOK4VINYL2彩胶2LP，预售新品5,599 JPY，页面有加入购物车/立即购买，另有660 JPY日本运费和168 JPY代购手续费；图片与闲鱼目标版封面吻合，但页面提示图片可能与实物不同。两侧同版观察，闲鱼未标可核实的单件实拍URL，成色与实物交付仍不充分，暂不比较利润。",
+      "relation_note": "2026-09-27 23:55内置浏览器复核：原先闲鱼链接含Overwatch美版多规格，价格无法归属目标款，已弃用。改查独立闲鱼商品1075533667570：条码820200663191、湖水蓝2LP、¥305包邮；07:17复核仍显示立即购买，1人想要/101浏览，版本描述与样本吻合。内置浏览器图片资源清单将第一张主图对应为https://img.alicdn.com/bao/uploaded/i3/2220845042300/O1CN01Y3JGZCs5AII3jcuR_!!4611686018427382396-0-xy_item.jpg_790x10000Q90.jpg_.webp；该直链已在浏览器独立打开，主图是湖水蓝唱片及ART EDITION插画封面，与当前商品页第一张图和样本相符。挖煤姬HMV候选为BOOK4VINYL2彩胶2LP，预售新品5,599 JPY，另有660 JPY日本运费和168 JPY手续费；其图为页面参考图。两边同版观察但成色/实际交付未充分核实，不比较利润。",
       "wameiji": {
         "title": "THE BOOK for, (YOASOBI ART EDITION) color vinyl / 2LP",
         "version_evidence": "2026-09-27 23:55 内置浏览器重开挖煤姬HMV原详情：标题THE BOOK for (YOASOBI ART EDITION)，BOOK4VINYL2，2枚LP、预售新品，5,599 JPY；日本国内运费660 JPY、手续费168 JPY。页面仍有加入购物车和立即购买，显示HMV店铺。主图为蓝绿封面与唱片示意图，与闲鱼独立Art Edition商品页主图一致；详情明确提示商品图片可能与实物不同，故仍标页面参考图，不冒充卖家实拍。",
@@ -3420,7 +3420,7 @@
       },
       "xianyu": {
         "title": "现货包邮 原装正版 夜游 YOASOBI The Book For Art Edition 水蓝色彩胶2LP",
-        "version_evidence": "2026-09-27 23:55 内置浏览器站内检索后打开独立闲鱼商品1075533667570：当前¥305包邮、1人想要/98浏览，页面显示立即购买。商品描述列明THE BOOK for ART EDITION、湖水蓝彩胶2LP、条码820200663191，与样本版本吻合。详情页第一张主图可见与挖煤姬HMV版本相同的蓝绿封面和唱片图；但本次未取得该闲鱼主图的直接图片URL，故不把页面截图当图片，也不把HMV图冒充为闲鱼图。",
+        "version_evidence": "2026-09-28 07:17内置浏览器重开闲鱼商品1075533667570：当前¥305包邮、1人想要/101浏览，页面显示立即购买。商品描述列明THE BOOK for ART EDITION、湖水蓝彩胶2LP、条码820200663191，与样本版本吻合。当前第一张主图直链已从该详情页图片资源清单取得并独立打开核验，画面为湖水蓝唱片与ART EDITION插画封面，和页面及参考样本对应；图为刊登主图，不据此证明个体品相。",
         "catalog_no": "BOOK4VINYL2",
         "barcode": "820200663191",
         "price": 305,
@@ -3428,12 +3428,12 @@
         "price_range": null,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.7f2a545dIyqdJK&id=1075533667570&categoryId=126864811",
-        "observed_at": "2026-09-27T23:55:00+08:00",
+        "observed_at": "2026-09-28T07:17:00+08:00",
         "search_source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20for%20Art%20Edition%20%E5%BD%A9%E8%83%B6",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": null,
-        "image_state": "no_verified_item_photo",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2220845042300/O1CN01Y3JGZCs5AII3jcuR_!!4611686018427382396-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
         "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/109-f0af407b900be9c3.webp"
@@ -5381,10 +5381,10 @@
       "stable_key": "sample:992eddc9105c5a3ebf798879cd95fab61122c2eee2e54933b9237ce7de1fe1a6",
       "same_product_verified": false,
       "price_comparable": false,
-      "relation_note": "2026-09-28 05:44 内置浏览器复核：闲鱼样本对应链接仍在售，现价¥140包邮、7人想要/446浏览，标题与正文确认《月と花束》期间限定动画盘CD+DVD，卖家称有特典但未列明具体附件。挖煤姬精确搜索后打开候选：2,999 JPY，说明确认《Fate/EXTRA Last Encore》角色卡2张，页面详情可加购/立即购买；画廊首图实物可见同专辑封面与两张特典卡，平台提示图片可能与实物不同。两边同为《月と花束》动画限定CD+DVD方向，版本匹配更强，但闲鱼卖家未逐项列明附件，不能确认完整套装一致，不比较利润。挖煤姬图片直链尚未通过页面UI取得，不写入图片字段。",
+      "relation_note": "2026-09-28 05:44 内置浏览器核验两侧商品版本与状态；07:11重新打开挖煤姬详情，确认仍为《月と花束》动画限定CD+DVD、现价2,999 JPY并可购买，卖家说明附Fate/EXTRA角色卡2张。当前第一张画廊图已在页面实际渲染，显示CD封面及两张卡；页面提示图片可能与实物不同。其图片资源清单给出首图直链 https://imghk.doorzo.net/item/detail/orig/photos/m58456548085_1.jpg?1782981491，但独立新标签打开被站点断开（ERR_CONNECTION_CLOSED），故只标为页面首图源，不宣称独立直链访问成功。闲鱼同为《月と花束》动画限定CD+DVD方向，但卖家未逐项列明特典，不能确认完整套装一致，不比较利润。",
       "wameiji": {
         "title": "さユり《月と花束》期间限定动画盘 CD+DVD（角色卡2张）",
-        "version_evidence": "2026-09-28 05:44 内置浏览器打开详情：标题为“さユり「月と花束」期間生産限定アニメ盤（CD+DVD）”，当前2,999 JPY；说明写明《Fate/EXTRA Last Encore》角色卡2张封入，成色总体良好，详情页显示加入购物车/立即购买，卖家承担日本国内运费，手续费200日元、有物流保障。画廊首图在内置浏览器中可见专辑实物封面和两张角色卡；页面仍提示图片可能与实物不同。该候选与样本照片中的双卡配置相符，但闲鱼卖家未逐项列明附件，仍不据此确认完整套装相同；图片直链尚未通过页面UI取得，不填写直链字段。",
+        "version_evidence": "2026-09-28 05:44内置浏览器打开详情，07:11复核：标题为“さユり「月と花束」期間生産限定アニメ盤（CD+DVD）”，现价2,999 JPY；说明写明《Fate/EXTRA Last Encore》角色卡2张封入，成色总体良好，页面显示加入购物车/立即购买，卖家承担日本国内运费，手续费200日元、有物流保障。当前第一张画廊图在详情页实际渲染为CD封面与两张卡，页面提示商品图片可能与实物不同。内置浏览器的页面资源清单将 https://imghk.doorzo.net/item/detail/orig/photos/m58456548085_1.jpg?1782981491 列为首图；独立新标签访问该URL返回ERR_CONNECTION_CLOSED。图片直链尚未通过页面UI取得，故不填写图片字段；闲鱼卖家未逐项列明特典，仍不确认完整套装相同或比较利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 2999,
@@ -7746,7 +7746,7 @@
       "stable_key": "sample:f0af407b900be9c399e6a0dfea7bc1b53f09fbc578249c141593a6d71437624c",
       "same_product_verified": true,
       "price_comparable": false,
-      "relation_note": "2026-09-27 23:55 内置浏览器复核：原先记录的闲鱼链接是包含Overwatch美版在内的多规格商品，价格无法归属目标款，不能继续作为主观察链接。站内重新找到并打开独立闲鱼Art Edition商品1075533667570：条码820200663191、湖水蓝2LP、¥305包邮、98浏览、立即购买，商品描述和主图与样本版本吻合。挖煤姬HMV商品为BOOK4VINYL2彩胶2LP，预售新品5,599 JPY，页面有加入购物车/立即购买，另有660 JPY日本运费和168 JPY代购手续费；图片与闲鱼目标版封面吻合，但页面提示图片可能与实物不同。两侧同版观察，闲鱼未标可核实的单件实拍URL，成色与实物交付仍不充分，暂不比较利润。",
+      "relation_note": "2026-09-27 23:55内置浏览器复核：原先闲鱼链接含Overwatch美版多规格，价格无法归属目标款，已弃用。改查独立闲鱼商品1075533667570：条码820200663191、湖水蓝2LP、¥305包邮；07:17复核仍显示立即购买，1人想要/101浏览，版本描述与样本吻合。内置浏览器图片资源清单将第一张主图对应为https://img.alicdn.com/bao/uploaded/i3/2220845042300/O1CN01Y3JGZCs5AII3jcuR_!!4611686018427382396-0-xy_item.jpg_790x10000Q90.jpg_.webp；该直链已在浏览器独立打开，主图是湖水蓝唱片及ART EDITION插画封面，与当前商品页第一张图和样本相符。挖煤姬HMV候选为BOOK4VINYL2彩胶2LP，预售新品5,599 JPY，另有660 JPY日本运费和168 JPY手续费；其图为页面参考图。两边同版观察但成色/实际交付未充分核实，不比较利润。",
       "wameiji": {
         "title": "THE BOOK for, (YOASOBI ART EDITION) color vinyl / 2LP",
         "version_evidence": "2026-09-27 23:55 内置浏览器重开挖煤姬HMV原详情：标题THE BOOK for (YOASOBI ART EDITION)，BOOK4VINYL2，2枚LP、预售新品，5,599 JPY；日本国内运费660 JPY、手续费168 JPY。页面仍有加入购物车和立即购买，显示HMV店铺。主图为蓝绿封面与唱片示意图，与闲鱼独立Art Edition商品页主图一致；详情明确提示商品图片可能与实物不同，故仍标页面参考图，不冒充卖家实拍。",
@@ -7764,7 +7764,7 @@
       },
       "xianyu": {
         "title": "现货包邮 原装正版 夜游 YOASOBI The Book For Art Edition 水蓝色彩胶2LP",
-        "version_evidence": "2026-09-27 23:55 内置浏览器站内检索后打开独立闲鱼商品1075533667570：当前¥305包邮、1人想要/98浏览，页面显示立即购买。商品描述列明THE BOOK for ART EDITION、湖水蓝彩胶2LP、条码820200663191，与样本版本吻合。详情页第一张主图可见与挖煤姬HMV版本相同的蓝绿封面和唱片图；但本次未取得该闲鱼主图的直接图片URL，故不把页面截图当图片，也不把HMV图冒充为闲鱼图。",
+        "version_evidence": "2026-09-28 07:17内置浏览器重开闲鱼商品1075533667570：当前¥305包邮、1人想要/101浏览，页面显示立即购买。商品描述列明THE BOOK for ART EDITION、湖水蓝彩胶2LP、条码820200663191，与样本版本吻合。当前第一张主图直链已从该详情页图片资源清单取得并独立打开核验，画面为湖水蓝唱片与ART EDITION插画封面，和页面及参考样本对应；图为刊登主图，不据此证明个体品相。",
         "catalog_no": "BOOK4VINYL2",
         "barcode": "820200663191",
         "price": 305,
@@ -7772,12 +7772,12 @@
         "price_range": null,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.1.7f2a545dIyqdJK&id=1075533667570&categoryId=126864811",
-        "observed_at": "2026-09-27T23:55:00+08:00",
+        "observed_at": "2026-09-28T07:17:00+08:00",
         "search_source_url": "https://www.goofish.com/search?q=YOASOBI%20THE%20BOOK%20for%20Art%20Edition%20%E5%BD%A9%E8%83%B6",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": null,
-        "image_state": "no_verified_item_photo",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2220845042300/O1CN01Y3JGZCs5AII3jcuR_!!4611686018427382396-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
         "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/109-f0af407b900be9c3.webp"

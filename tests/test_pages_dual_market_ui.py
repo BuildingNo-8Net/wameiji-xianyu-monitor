@@ -2757,7 +2757,7 @@ def test_home_feed_is_two_columns_with_compact_three_part_cards() -> None:
     assert "右侧挖煤姬" in homepage
 
 
-def test_sample_109_replaces_multivariant_overwatch_link_with_exact_art_edition_listing() -> None:
+def test_sample_109_replaces_multivariant_overwatch_link_and_uses_verified_first_photo() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
 
     for rows in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"]):
@@ -2770,11 +2770,11 @@ def test_sample_109_replaces_multivariant_overwatch_link_with_exact_art_edition_
         assert xianyu["source_url"].endswith("id=1075533667570&categoryId=126864811")
         assert xianyu["catalog_no"] == "BOOK4VINYL2"
         assert xianyu["barcode"] == "820200663191"
-        assert xianyu["observed_at"] == "2026-09-27T23:55:00+08:00"
+        assert xianyu["observed_at"] == "2026-09-28T07:17:00+08:00"
         assert "305" in xianyu["version_evidence"]
         assert "351–480" not in xianyu["version_evidence"]
-        assert xianyu["image_url"] is None
-        assert xianyu["image_state"] == "no_verified_item_photo"
+        assert xianyu["image_url"].endswith("O1CN01Y3JGZCs5AII3jcuR_!!4611686018427382396-0-xy_item.jpg_790x10000Q90.jpg_.webp")
+        assert xianyu["image_state"] == "observed_first_gallery_image"
         assert sample_109["wameiji"]["image_state"] == "page_reference_image"
         assert "提示商品图片可能与实物不同" in sample_109["wameiji"]["version_evidence"]
 
