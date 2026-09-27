@@ -1885,7 +1885,7 @@ def test_sample_47_live_candidate_is_not_promoted_to_verified_same_product() -> 
         assert wameiji["price"] == 2999
         assert wameiji["state"] == "observed_current"
         assert wameiji["image_state"] == "observed_first_gallery_image"
-        assert wameiji["image_url"] == "https://imghk.doorzo.net/item/detail/orig/photos/m58456548085_1.jpg?1782981491"
+        assert wameiji["image_url"] == "https://static.312588698.com/thumb/item/webp/m58456548085_1.jpg?1782981491"
         assert "角色卡2张" in wameiji["version_evidence"]
         assert "ERR_CONNECTION_CLOSED" in wameiji["version_evidence"]
         assert "/mall/mercari/detail/" in wameiji["source_url"]
@@ -2227,16 +2227,18 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
     assert mercari_item_rows
     # Mercari detail images may be served through Wameiji's direct proxy host
     # (imghk.doorzo.net) rather than the original static.mercdn.net hostname.
-    # Both are direct listing-image URLs; screenshot/thumbnail hosts remain
-    # excluded by this allowlist.
+    # One explicitly browser-verified sample-47 image uses the same listing
+    # photo through Wameiji's static thumbnail mirror because its original
+    # image host fails to load on the public Pages site.
     direct_marketplace_images = (
         "https://static.mercdn.net/item/detail/orig/photos/",
         "https://imghk.doorzo.net/",
         "https://imghk02.doorzo.net/item/detail/orig/photos/",
         "https://image03.doorzo.net/item/detail/orig/photos/",
+        "https://static.312588698.com/thumb/item/webp/m58456548085_1.jpg?1782981491",
     )
     assert sum(str(row.get("image_url", "")).startswith(direct_marketplace_images) for row in mercari_item_rows) >= 40
-    assert not any("static.312588698.com/thumb/item/webp/" in str(row.get("image_url", "")) for row in mercari_item_rows)
+    assert sum(str(row.get("image_url", "")).startswith("https://static.312588698.com/thumb/item/webp/") for row in mercari_item_rows) == 1
     sample_50 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
     assert sample_50["same_product_verified"] is False
     assert sample_50["price_comparable"] is False
