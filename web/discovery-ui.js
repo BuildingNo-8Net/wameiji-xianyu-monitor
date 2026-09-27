@@ -106,6 +106,8 @@
   }
 
   function displayJpyCnyRate() {
+    const auditRate = Number(view.referenceAudit && view.referenceAudit.display_exchange_rate_cny_per_jpy);
+    if (Number.isFinite(auditRate) && auditRate > 0) return auditRate;
     const boardRate = Number(view.dualMarketBoard && view.dualMarketBoard.display_exchange_rate_cny_per_jpy);
     if (Number.isFinite(boardRate) && boardRate > 0) return boardRate;
     const configuredRate = Number(window.JPY_TO_CNY || window.JPY_RATE);

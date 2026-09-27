@@ -2538,6 +2538,38 @@ def test_reference_samples_separate_version_identity_from_price_comparability() 
         assert fantome["xianyu"]["state"] == "blocked"
 
 
+def test_reference_audit_uses_its_current_platform_exchange_rate_before_stale_board_rate() -> None:
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    start = javascript.index("function displayJpyCnyRate")
+    end = javascript.index("function percent", start)
+    rate_function = javascript[start:end]
+    harness = f"""
+let view = {{
+  dualMarketBoard: {{ display_exchange_rate_cny_per_jpy: 0.046 }},
+  referenceAudit: {{ display_exchange_rate_cny_per_jpy: 0.0444 }},
+}};
+const window = {{ JPY_RATE: 0.046, JPY_TO_CNY: 0.046 }};
+{rate_function}
+if (displayJpyCnyRate() !== 0.0444) {{
+  throw new Error("reference audit must prefer its current observed platform rate over the stale profit-snapshot rate");
+}}
+view.referenceAudit = {{}};
+if (displayJpyCnyRate() !== 0.046) {{
+  throw new Error("other displays must retain the configured/board rate when no audit-specific rate exists");
+}}
+"""
+    result = subprocess.run(
+        ["node", "-e", harness],
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+    assert result.returncode == 0, result.stderr or result.stdout
+
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    assert snapshot["display_exchange_rate_cny_per_jpy"] == 0.0444
+
+
 def test_duplicate_sample_layers_keep_current_replacements_separate_and_remove_unsupported_quotes() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     layers = {
