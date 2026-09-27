@@ -749,6 +749,8 @@ def test_published_reference_audit_keeps_direct_images_and_links_for_observed_si
                 assert side["source_url"].startswith("https://")
                 if side.get("image_state") in {"source_no_image", "first_gallery_image_link_unverified", "reference_only", "no_verified_item_photo"}:
                     assert side.get("image_url") is None
+                elif side.get("image_state") == "historical_first_gallery_image":
+                    assert side.get("image_url") is None or side["image_url"].startswith("https://")
                 else:
                     assert side["image_url"].startswith("https://")
 
