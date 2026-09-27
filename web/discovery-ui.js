@@ -413,7 +413,9 @@
     const image = versionedAuditImageUrl(auditObservationImage(source));
     const title = esc(source.title || "未命名商品记录");
     const sourceStateUnmarked = !source.state;
-    const sourceUnavailable = sourceStateUnmarked || ["blocked", "login_required", "not_currently_listed", "current_sold_image"]
+    const unpricedCurrentObservation = source.state === "observed_current"
+      && (source.price === null || source.price === undefined || source.price === "");
+    const sourceUnavailable = sourceStateUnmarked || unpricedCurrentObservation || ["blocked", "login_required", "not_currently_listed", "current_sold_image"]
       .includes(source.state);
     const priceValue = source.price === null || source.price === undefined || source.price === ""
       ? sourceUnavailable ? source.last_observed_price : source.price
@@ -434,12 +436,18 @@
     const heading = href
       ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
       : '<span>' + title + '</span>';
-    const imageAlt = source.image_state === "page_reference_image"
+    const imageAlt = sourceUnavailable && image
+      ? title + " · 历史商品图，当前状态未核实"
+      : source.image_state === "page_reference_image"
       ? title + " · 来源页示意图 · 非实物照"
       : source.image_state === "multi_option_listing_image"
         ? title + " · 多规格合集首图 · 未锁定具体选项"
+      : source.image_state === "historical_multi_option_listing_image"
+        ? title + " · 历史多规格合集首图 · 当前详情受阻"
       : source.image_state === "first_gallery_image_link_unverified"
         ? title + " · 首图直链待复核"
+      : source.image_state === "search_result_item_image"
+        ? title + " · 搜索结果商品图 · 详情页主图未核实"
       : source.image_state === "reference_only"
         ? title + " · 参考样本图 · 非当前商品"
         : source.image_state === "current_sold_image"
@@ -447,16 +455,22 @@
         : source.image_state === "historical_first_gallery_image"
           ? title + " · 历史页面首图 · 当前链接受阻"
           : title + " · 第一张主图";
-    const imageBadge = source.image_state === "page_reference_image"
+    const imageBadge = sourceUnavailable && image
+      ? '<span class="reference-audit-image-badge">历史商品图 · 当前状态未核实</span>'
+      : source.image_state === "page_reference_image"
       ? '<span class="reference-audit-image-badge">来源页示意图 · 非实物照</span>'
       : source.image_state === "multi_option_listing_image"
         ? '<span class="reference-audit-image-badge">多规格合集首图 · 具体选项未锁定</span>'
+      : source.image_state === "historical_multi_option_listing_image"
+        ? '<span class="reference-audit-image-badge">历史多规格页首图 · 当前详情受阻</span>'
       : source.image_state === "historical_first_gallery_image"
         ? '<span class="reference-audit-image-badge">历史页面首图 · 当前链接受阻</span>'
       : source.image_state === "current_sold_image"
         ? '<span class="reference-audit-image-badge">已售历史商品图 · 非当前在售图</span>'
       : source.image_state === "first_gallery_image_link_unverified"
         ? '<span class="reference-audit-image-badge">首图直链待复核 · 不显示疑似错图</span>'
+      : source.image_state === "search_result_item_image"
+        ? '<span class="reference-audit-image-badge">搜索结果商品图 · 详情页主图未核实</span>'
       : "";
     const missingImageLabel = source.image_state === "source_no_image"
       ? "源站未提供主图"
@@ -473,6 +487,8 @@
       ? "当前状态未标注 · 历史参考"
       : source.state === "blocked"
       ? "当前详情未能核实 · 不作在售报价"
+      : unpricedCurrentObservation
+        ? "当前挂牌状态未核实 · 历史价格参考"
       : source.state === "current_sold_image"
         ? "已售 · 历史挂牌价，仅作参考"
       : source.state === "login_required"
