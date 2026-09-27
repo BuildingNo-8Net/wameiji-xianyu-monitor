@@ -466,14 +466,14 @@ def test_sample_4_current_pair_keeps_version_match_separate_from_profit_comparab
     assert sample_4["same_product_verified"] is True
     assert sample_4["price_comparable"] is False
     assert sample_4["xianyu"]["price"] == 500
-    assert sample_4["xianyu"]["observed_at"] == "2026-09-26T15:18:00+08:00"
-    assert "立即购买按钮可见" in sample_4["xianyu"]["version_evidence"]
-    assert sample_4["wameiji"]["price"] == 10771
-    assert sample_4["wameiji"]["observed_at"] == "2026-09-26T15:18:00+08:00"
-    assert sample_4["wameiji"]["image_state"] == "page_reference_image"
+    assert sample_4["xianyu"]["observed_at"] == "2026-09-28T06:15:00+08:00"
+    assert "仍显示立即购买" in sample_4["xianyu"]["version_evidence"]
+    assert sample_4["wameiji"]["price"] == 107710
+    assert sample_4["wameiji"]["observed_at"] == "2026-09-28T06:15:00+08:00"
+    assert sample_4["wameiji"]["image_state"] == "no_verified_item_photo"
     assert "无物流保障" in sample_4["wameiji"]["version_evidence"]
-    assert "图片可能与实物不同" in sample_4["relation_note"]
-    assert "不计算利润" in sample_4["relation_note"]
+    assert "占位图而非商品图" in sample_4["relation_note"]
+    assert "不比较利润" in sample_4["relation_note"]
 
 
 def test_sample_5_uses_reference_screenshot_price_and_keeps_anniversary_edition_related_only() -> None:
