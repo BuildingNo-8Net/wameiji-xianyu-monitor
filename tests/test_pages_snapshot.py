@@ -1132,8 +1132,9 @@ def test_sample_47_uses_live_exact_edition_candidates_without_claiming_full_bund
         assert pair["wameiji"]["price"] == 2999
         assert "/mall/mercari/detail/" in pair["wameiji"]["source_url"]
         assert "角色卡2张" in pair["wameiji"]["version_evidence"]
-        assert pair["wameiji"]["image_url"] is None
-        assert pair["wameiji"]["image_state"] == "no_verified_item_photo"
+        assert pair["wameiji"]["image_url"] == "https://imghk.doorzo.net/item/detail/orig/photos/m58456548085_1.jpg?1782981491"
+        assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
+        assert "ERR_CONNECTION_CLOSED" in pair["wameiji"]["version_evidence"]
 
 
 def test_sample_21_marks_both_live_kanon_pages_current_without_cross_sample_search_link() -> None:

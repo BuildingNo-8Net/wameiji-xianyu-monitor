@@ -1884,10 +1884,10 @@ def test_sample_47_live_candidate_is_not_promoted_to_verified_same_product() -> 
         assert row["price_comparable"] is False
         assert wameiji["price"] == 2999
         assert wameiji["state"] == "observed_current"
-        assert wameiji["image_state"] == "no_verified_item_photo"
-        assert wameiji["image_url"] is None
+        assert wameiji["image_state"] == "observed_first_gallery_image"
+        assert wameiji["image_url"] == "https://imghk.doorzo.net/item/detail/orig/photos/m58456548085_1.jpg?1782981491"
         assert "角色卡2张" in wameiji["version_evidence"]
-        assert "图片直链尚未通过页面UI取得" in wameiji["version_evidence"]
+        assert "ERR_CONNECTION_CLOSED" in wameiji["version_evidence"]
         assert "/mall/mercari/detail/" in wameiji["source_url"]
         assert row["xianyu"]["price"] == 140
         assert row["xianyu"]["state"] == "observed_current"
