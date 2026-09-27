@@ -465,14 +465,18 @@ def test_sample_4_current_pair_keeps_version_match_separate_from_profit_comparab
 
     assert sample_4["same_product_verified"] is True
     assert sample_4["price_comparable"] is False
-    assert sample_4["xianyu"]["price"] == 500
+    assert sample_4["xianyu"]["price"] is None
+    assert sample_4["xianyu"]["last_observed_price"] == 500
     assert sample_4["xianyu"]["observed_at"] == "2026-09-28T06:15:00+08:00"
-    assert "仍显示立即购买" in sample_4["xianyu"]["version_evidence"]
-    assert sample_4["wameiji"]["price"] == 107710
-    assert sample_4["wameiji"]["observed_at"] == "2026-09-28T06:15:00+08:00"
+    assert "详情未加载" in sample_4["xianyu"]["version_evidence"]
+    assert sample_4["xianyu"]["state"] == "blocked"
+    assert sample_4["xianyu"]["image_state"] == "historical_first_gallery_image"
+    assert sample_4["wameiji"]["price"] == 10571
+    assert sample_4["wameiji"]["observed_at"] == "2026-09-28T07:26:00+08:00"
     assert sample_4["wameiji"]["image_state"] == "no_verified_item_photo"
     assert "无物流保障" in sample_4["wameiji"]["version_evidence"]
-    assert "占位图而非商品图" in sample_4["relation_note"]
+    assert "Doorzo占位图" in sample_4["relation_note"]
+    assert "当前在售状态无法复核" in sample_4["relation_note"]
     assert "不比较利润" in sample_4["relation_note"]
 
 
