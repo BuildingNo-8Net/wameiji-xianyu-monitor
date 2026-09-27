@@ -1085,7 +1085,7 @@ def test_same_product_with_unmatched_condition_or_accessories_is_not_price_compa
             assert record["price_comparable"] is False, sample_id
 
 
-def test_sample_46_replaces_inactive_xianyu_link_with_cover_matched_current_candidate() -> None:
+def test_sample_46_replaces_inactive_xianyu_link_with_visible_current_candidate() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
     )
@@ -1098,17 +1098,40 @@ def test_sample_46_replaces_inactive_xianyu_link_with_cover_matched_current_cand
         )
         assert pair["same_product_verified"] is True
         assert pair["price_comparable"] is False
-        assert pair["wameiji"]["price"] == 3592
+        assert pair["wameiji"]["price"] == 3413
         assert pair["wameiji"]["state"] == "observed_current"
         assert pair["wameiji"]["image_state"] == "page_reference_image"
-        assert pair["xianyu"]["price"] == 200
-        assert "1085787502992" in pair["xianyu"]["source_url"]
+        assert pair["xianyu"]["price"] == 350
+        assert "687375217838" in pair["xianyu"]["source_url"]
         assert pair["xianyu"]["state"] == "observed_current"
-        assert pair["xianyu"]["image_state"] == "observed_main_image"
-        assert "25浏览" in pair["xianyu"]["version_evidence"]
-        assert "12:18" in pair["xianyu"]["version_evidence"]
-        assert "O1CN01kcHyUhjmQUE1pIQy" in pair["xianyu"]["image_url"]
-        assert "1075254857683" in pair["xianyu"]["version_evidence"]
+        assert pair["xianyu"]["image_url"] is None
+        assert pair["xianyu"]["image_state"] == "no_verified_item_photo"
+        assert "14人想要" in pair["xianyu"]["version_evidence"]
+        assert "已下架" in pair["xianyu"]["version_evidence"]
+        assert "1085787502992" in pair["xianyu"]["version_evidence"]
+
+
+def test_sample_47_uses_live_exact_edition_candidates_without_claiming_full_bundle_match() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+
+    for collection_name in ("dual_found_pairs", "dual_observed_pairs"):
+        pair = next(
+            record
+            for record in payload[collection_name]
+            if record["reference_product_id"] == 47
+        )
+        assert pair["same_product_verified"] is False
+        assert pair["price_comparable"] is False
+        assert pair["xianyu"]["price"] == 140
+        assert "849019159158" in pair["xianyu"]["source_url"]
+        assert "446浏览" in pair["xianyu"]["version_evidence"]
+        assert pair["wameiji"]["price"] == 2999
+        assert "/mall/mercari/detail/" in pair["wameiji"]["source_url"]
+        assert "角色卡2张" in pair["wameiji"]["version_evidence"]
+        assert pair["wameiji"]["image_url"] is None
+        assert pair["wameiji"]["image_state"] == "no_verified_item_photo"
 
 
 def test_sample_21_marks_both_live_kanon_pages_current_without_cross_sample_search_link() -> None:

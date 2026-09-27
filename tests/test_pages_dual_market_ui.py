@@ -341,11 +341,11 @@ def test_sample_60_rechecks_current_images_prices_and_export_restriction() -> No
         assert row["wameiji"]["price"] == 6200
         assert row["wameiji"]["state"] == "observed_current"
         assert "ESCL-6268" in row["wameiji"]["version_evidence"]
-        assert "没有证据证明" in row["wameiji"]["version_evidence"]
+        assert "没有参考样本中的" in row["wameiji"]["version_evidence"]
         assert row["wameiji"]["image_state"] == "page_reference_image"
         assert row["wameiji"]["image_url"].endswith("2JWeQin6w2x8wiVC3S3Srz.webp@jpg")
         assert row["xianyu"]["price"] == 777
-        assert "167浏览" in row["xianyu"]["version_evidence"]
+        assert "172浏览" in row["xianyu"]["version_evidence"]
         assert "通常版CD" in row["xianyu"]["version_evidence"]
         assert row["xianyu"]["source_url"].endswith("id=1083531548078&categoryId=126860296")
         assert row["xianyu"]["state"] == "observed_current"
@@ -996,16 +996,16 @@ def test_round8_sample_relations_are_evidence_backed_and_never_auto_compare_prof
         sample_65 = next(row for row in snapshot[collection_name] if row["reference_product_id"] == 65)
         assert sample_65["same_product_verified"] is False
         assert sample_65["price_comparable"] is False
-        assert "带侧（腰封）" in sample_65["relation_note"]
-        assert "不作为样本同款" in sample_65["xianyu"]["version_evidence"]
+        assert "参考样本明确带侧" in sample_65["relation_note"]
+        assert "不作为样本同版本" in sample_65["xianyu"]["version_evidence"]
         assert sample_65["wameiji"]["state"] == "observed_current"
         assert sample_65["xianyu"]["state"] == "replacement_related"
         assert sample_65["wameiji"]["image_state"] == "observed_first_gallery_image"
         assert sample_65["xianyu"]["image_state"] == "observed_first_gallery_image"
         assert sample_65["wameiji"]["image_url"].startswith("https://image02.doorzo.net/item/detail/orig/photos/m70515766054_1.jpg")
         assert "O1CN01PDkdtw1joZ4H6xAkU" in sample_65["xianyu"]["image_url"]
-        assert sample_65["wameiji"]["observed_at"] == "2026-09-26T21:25:00+08:00"
-        assert sample_65["xianyu"]["observed_at"] == "2026-09-26T21:25:00+08:00"
+        assert sample_65["wameiji"]["observed_at"] == "2026-09-27T22:10:00Z"
+        assert sample_65["xianyu"]["observed_at"] == "2026-09-27T22:10:00Z"
     sample_44 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 44)
     assert "单张" in sample_44["relation_note"]
     assert "四张不同专辑CD合照" in sample_44["relation_note"]
@@ -1863,21 +1863,22 @@ def test_sample_55_does_not_assign_one_price_or_real_item_photo_to_uncertain_var
         assert "不能用挖煤姬示例图证明实物" in row["relation_note"]
 
 
-def test_sample_47_search_candidate_is_not_promoted_to_verified_same_product() -> None:
+def test_sample_47_live_candidate_is_not_promoted_to_verified_same_product() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for collection in ("dual_found_pairs", "dual_observed_pairs"):
         row = next(row for row in snapshot[collection] if row["reference_product_id"] == 47)
         wameiji = row["wameiji"]
         assert row["same_product_verified"] is False
         assert row["price_comparable"] is False
-        assert wameiji["price"] is None
-        assert wameiji["state"] == "search_only"
+        assert wameiji["price"] == 2999
+        assert wameiji["state"] == "observed_current"
         assert wameiji["image_state"] == "no_verified_item_photo"
         assert wameiji["image_url"] is None
-        assert "カードなし" in wameiji["version_evidence"]
-        assert "尚未进入候选详情" in wameiji["version_evidence"]
-        assert "/search?website=mercari" in wameiji["source_url"]
-        assert row["xianyu"].get("state") in {"observed_current", "found"}
+        assert "角色卡2张" in wameiji["version_evidence"]
+        assert "图片直链尚未通过页面UI取得" in wameiji["version_evidence"]
+        assert "/mall/mercari/detail/" in wameiji["source_url"]
+        assert row["xianyu"]["price"] == 140
+        assert row["xianyu"]["state"] == "observed_current"
 
 
 def test_sample_56_current_krrc6_pair_preserves_accessory_difference() -> None:
