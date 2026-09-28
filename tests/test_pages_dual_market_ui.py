@@ -2677,6 +2677,21 @@ def test_sample_54_latest_recheck_marks_xianyu_blocked_and_wameiji_current() -> 
         assert "仍显示加入购物车/立即购买" in sample["wameiji"]["version_evidence"]
 
 
+def test_sample_78_latest_recheck_separates_blocked_xianyu_from_current_wameiji() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        sample = next(row for row in snapshot[collection] if row["reference_product_id"] == 78)
+        assert sample["xianyu"]["state"] == "blocked"
+        assert sample["xianyu"]["price"] is None
+        assert sample["xianyu"]["last_observed_price"] == 620
+        assert sample["xianyu"]["image_state"] == "historical_first_gallery_image"
+        assert sample["wameiji"]["state"] == "observed_current"
+        assert sample["wameiji"]["price"] == 129999
+        assert sample["wameiji"]["image_state"] == "no_verified_item_photo"
+        assert "仅加载站点外壳/页脚" in sample["xianyu"]["version_evidence"]
+        assert "当前首图区域仍未显示可核实实物图" in sample["wameiji"]["version_evidence"]
+
+
 def test_reference_audit_renderer_cache_version_is_bumped_for_current_state_labels() -> None:
     homepage = Path("web/index.html").read_text(encoding="utf-8")
     assert "discovery-ui.js?v=20260929-reference-audit-v12" in homepage
@@ -2963,13 +2978,15 @@ def test_samples_74_and_75_current_page_evidence_is_synchronized() -> None:
         sample_78 = next(row for row in rows if row["reference_product_id"] == 78)
         assert sample_78["same_product_verified"] is False
         assert sample_78["price_comparable"] is False
-        assert sample_78["wameiji"]["state"] == "current_listed"
+        assert sample_78["wameiji"]["state"] == "observed_current"
         assert sample_78["wameiji"]["price"] == 129999
         assert "2026年重制" in sample_78["wameiji"]["version_evidence"]
         assert sample_78["wameiji"]["image_state"] == "no_verified_item_photo"
         assert sample_78["wameiji"]["image_url"] is None
-        assert sample_78["xianyu"]["price"] == 620
-        assert sample_78["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert sample_78["xianyu"]["price"] is None
+        assert sample_78["xianyu"]["last_observed_price"] == 620
+        assert sample_78["xianyu"]["state"] == "blocked"
+        assert sample_78["xianyu"]["image_state"] == "historical_first_gallery_image"
         assert sample_78["xianyu"]["image_url"].endswith("jpg_790x10000Q90.jpg_.webp")
         assert "不认定同版" in sample_78["relation_note"]
 
