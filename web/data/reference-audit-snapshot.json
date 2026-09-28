@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T08:50:00+08:00",
+  "generated_at": "2026-09-28T09:06:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -287,7 +287,7 @@
       "stable_key": "sample:f5dd5351eb7f50c7ffaf8eb0eab2776712c5b0ea176ed01937d43b1c328a32e6",
       "price_comparable": false,
       "same_product_verified": true,
-      "relation_note": "2026-09-28 04:36 内置浏览器复核：挖煤姬商品页仍显示1,400日元、可加购/购买，详情列管理编号186100152001、MGCG-1408、2002-08-09发行、CD及对谈册；其首图为页面参考图，封面和侧标与样本方向一致。闲鱼商品1022572554442此前02:11曾显示¥129及立即购买，首图与封面相符；04:36重开详情已弹出滑块验证，当前状态不能核实，故撤销“当前可买”标记并将¥129移为历史挂牌价。两侧仍是同作品发行方向，但闲鱼称盒子烂、挖煤姬称无明显损伤，附件/成色不等，不比较利润。",
+      "relation_note": "2026-09-28 09:06 内置浏览器复核：挖煤姬商品页显示1,400日元、可加购/购买，详情列管理编号186100152001、MGCG-1408、2002-08-09发行、CD及对谈册；首图为页面参考图，封面与样本相符。闲鱼原商品1022572554442本次详情可正常加载，当前¥129包邮、1人想要/235浏览并显示“立即购买”；标题标CD、有侧标且盒损，主图直链已单独打开并与样本封面相符。闲鱼当前与挖煤姬记录指向同一发行方向，但闲鱼称盒损、挖煤姬称无明显损伤，附件清单也未在闲鱼侧核全，不比较利润。",
       "wameiji": {
         "title": "【中古】同人ドラマCDソフト 空の境界 ドラマCD ～俯瞰風景～ / Magic・Cage",
         "version_evidence": "2026-09-28 02:11 内置浏览器重核挖煤姬详情：商品仍为《空の境界 ドラマCD ～俯瞰風景～ / Magic・Cage》，页面显示1,400日元、加入购物车/立即购买；详情列管理编号186100152001、MGCG-1408、发行日2002-08-09、CD及对谈册。商品状态为无明显损伤或污渍，日本国内运费买家承担、手续费200日元、无物流保障。主图直链 https://assets.mercari-shops-static.com/-/large/plain/ZDiem2N5o2hGr8jdxLj5VV.webp@jpg 已在浏览器独立打开，封面和侧标与样本相符；挖煤姬提示商品图可能与实物不同。",
@@ -304,21 +304,20 @@
         "state": "observed_current"
       },
       "xianyu": {
-        "title": "空之境界 俯瞰风景 两仪式 drama广播剧（历史候选；当前详情验证受阻）",
-        "version_evidence": "2026-09-28 04:36 内置浏览器重开闲鱼商品1022572554442时，商品详情被滑块验证码拦截；未尝试绕过。此前02:11观察到的¥129包邮、1人想要/234浏览及立即购买仅作历史记录，不能证明当前仍在售。已核过的首图直链显示单独CD盒正面、封面与样本方向相符，但现标为历史图；卖家曾描述有侧标、盒损，附件及成色仍需核实。",
+        "title": "绝版稀有 日版 CD 空之境界 俯瞰风景 两仪式 drama 广播剧（当前候选；有侧标、盒损）",
+        "version_evidence": "2026-09-28 09:06 内置浏览器重新打开闲鱼原商品1022572554442：详情当前可正常加载，显示¥129包邮、1人想要/235浏览及“立即购买”。标题为“绝版稀有 日版 CD 空之境界 俯瞰风景 两仪式 drama 广播剧 有侧标 盒子烂”；正文称“图片就是实拍图”，存储介质为CD。当前第一张实拍图直链已在浏览器单独打开，显示同一张《俯瞰风景》CD封面，与参考样本一致；原参考截图中的商品当时已卖出，当前候选链接本次仍显示可立即购买。闲鱼卖家明确盒损；挖煤姬详情标无明显损伤且列有CD及对谈册，闲鱼侧附件未逐项列全，成色/附件不可比，不计算利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
-        "last_observed_price": 129,
+        "price": 129,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1022572554442&categoryId=126864811",
         "search_source_url": "https://www.goofish.com/search?q=%E7%A9%BA%E4%B9%8B%E5%A2%83%E7%95%8C%20%E4%BF%AF%E7%9E%B0%E9%A3%8E%E6%99%AF%20%E4%B8%A4%E4%BB%AA%E5%BC%8F%20drama%20CD",
-      "observed_at": "2026-09-28T04:36:00+08:00",
+      "observed_at": "2026-09-28T09:06:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/3806490968/O1CN01akSR1b1J1OW0sRpFJ_!!4611686018427384152-0-xy_item.jpg_450x10000Q90.jpg_.webp",
-        "image_state": "historical_first_gallery_image",
-        "state": "blocked"
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp"
     },
@@ -4374,7 +4373,7 @@
       "stable_key": "sample:f5dd5351eb7f50c7ffaf8eb0eab2776712c5b0ea176ed01937d43b1c328a32e6",
       "price_comparable": false,
       "same_product_verified": true,
-      "relation_note": "2026-09-28 04:36 内置浏览器复核：挖煤姬商品页仍显示1,400日元、可加购/购买，详情列管理编号186100152001、MGCG-1408、2002-08-09发行、CD及对谈册；其首图为页面参考图，封面和侧标与样本方向一致。闲鱼商品1022572554442此前02:11曾显示¥129及立即购买，首图与封面相符；04:36重开详情已弹出滑块验证，当前状态不能核实，故撤销“当前可买”标记并将¥129移为历史挂牌价。两侧仍是同作品发行方向，但闲鱼称盒子烂、挖煤姬称无明显损伤，附件/成色不等，不比较利润。",
+      "relation_note": "2026-09-28 09:06 内置浏览器复核：挖煤姬商品页显示1,400日元、可加购/购买，详情列管理编号186100152001、MGCG-1408、2002-08-09发行、CD及对谈册；首图为页面参考图，封面与样本相符。闲鱼原商品1022572554442本次详情可正常加载，当前¥129包邮、1人想要/235浏览并显示“立即购买”；标题标CD、有侧标且盒损，主图直链已单独打开并与样本封面相符。闲鱼当前与挖煤姬记录指向同一发行方向，但闲鱼称盒损、挖煤姬称无明显损伤，附件清单也未在闲鱼侧核全，不比较利润。",
       "wameiji": {
         "title": "【中古】同人ドラマCDソフト 空の境界 ドラマCD ～俯瞰風景～ / Magic・Cage",
         "version_evidence": "2026-09-28 02:11 内置浏览器重核挖煤姬详情：商品仍为《空の境界 ドラマCD ～俯瞰風景～ / Magic・Cage》，页面显示1,400日元、加入购物车/立即购买；详情列管理编号186100152001、MGCG-1408、发行日2002-08-09、CD及对谈册。商品状态为无明显损伤或污渍，日本国内运费买家承担、手续费200日元、无物流保障。主图直链 https://assets.mercari-shops-static.com/-/large/plain/ZDiem2N5o2hGr8jdxLj5VV.webp@jpg 已在浏览器独立打开，封面和侧标与样本相符；挖煤姬提示商品图可能与实物不同。",
@@ -4391,21 +4390,20 @@
       "state": "observed_current"
       },
       "xianyu": {
-        "title": "空之境界 俯瞰风景 两仪式 drama广播剧（历史候选；当前详情验证受阻）",
-        "version_evidence": "2026-09-28 04:36 内置浏览器重开闲鱼商品1022572554442时，商品详情被滑块验证码拦截；未尝试绕过。此前02:11观察到的¥129包邮、1人想要/234浏览及立即购买仅作历史记录，不能证明当前仍在售。已核过的首图直链显示单独CD盒正面、封面与样本方向相符，但现标为历史图；卖家曾描述有侧标、盒损，附件及成色仍需核实。",
+        "title": "绝版稀有 日版 CD 空之境界 俯瞰风景 两仪式 drama 广播剧（当前候选；有侧标、盒损）",
+        "version_evidence": "2026-09-28 09:06 内置浏览器重新打开闲鱼原商品1022572554442：详情当前可正常加载，显示¥129包邮、1人想要/235浏览及“立即购买”。标题为“绝版稀有 日版 CD 空之境界 俯瞰风景 两仪式 drama 广播剧 有侧标 盒子烂”；正文称“图片就是实拍图”，存储介质为CD。当前第一张实拍图直链已在浏览器单独打开，显示同一张《俯瞰风景》CD封面，与参考样本一致；原参考截图中的商品当时已卖出，当前候选链接本次仍显示可立即购买。闲鱼卖家明确盒损；挖煤姬详情标无明显损伤且列有CD及对谈册，闲鱼侧附件未逐项列全，成色/附件不可比，不计算利润。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
-        "last_observed_price": 129,
+        "price": 129,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1022572554442&categoryId=126864811",
         "search_source_url": "https://www.goofish.com/search?q=%E7%A9%BA%E4%B9%8B%E5%A2%83%E7%95%8C%20%E4%BF%AF%E7%9E%B0%E9%A3%8E%E6%99%AF%20%E4%B8%A4%E4%BB%AA%E5%BC%8F%20drama%20CD",
-        "observed_at": "2026-09-28T04:36:00+08:00",
+      "observed_at": "2026-09-28T09:06:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i4/3806490968/O1CN01akSR1b1J1OW0sRpFJ_!!4611686018427384152-0-xy_item.jpg_450x10000Q90.jpg_.webp",
-        "image_state": "historical_first_gallery_image",
-        "state": "blocked"
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/11-f5dd5351eb7f50c7.webp"
     },

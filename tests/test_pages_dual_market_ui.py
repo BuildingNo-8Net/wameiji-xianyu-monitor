@@ -562,14 +562,13 @@ def test_samples_10_and_11_use_the_latest_matching_evidence_timestamps() -> None
     assert "8,000 JPY" in sample_10["relation_note"]
     assert sample_11["wameiji"]["observed_at"] == "2026-09-28T02:11:00+08:00"
     assert sample_11["wameiji"]["state"] == "observed_current"
-    assert sample_11["xianyu"]["observed_at"] == "2026-09-28T04:36:00+08:00"
-    assert sample_11["xianyu"]["state"] == "blocked"
-    assert sample_11["xianyu"]["price"] is None
-    assert sample_11["xianyu"]["last_observed_price"] == 129
-    assert sample_11["xianyu"]["image_state"] == "historical_first_gallery_image"
-    assert "04:36" in sample_11["xianyu"]["version_evidence"]
-    assert "验证码拦截" in sample_11["xianyu"]["version_evidence"]
-    assert "单独CD盒正面" in sample_11["xianyu"]["version_evidence"]
+    assert sample_11["xianyu"]["observed_at"] == "2026-09-28T09:06:00+08:00"
+    assert sample_11["xianyu"]["state"] == "observed_current"
+    assert sample_11["xianyu"]["price"] == 129
+    assert sample_11["xianyu"]["image_state"] == "observed_first_gallery_image"
+    assert "09:06" in sample_11["xianyu"]["version_evidence"]
+    assert "盒子烂" in sample_11["xianyu"]["version_evidence"]
+    assert "立即购买" in sample_11["xianyu"]["version_evidence"]
     assert 'const unpricedCurrentObservation = source.state === "observed_current"' in javascript
     assert "历史商品图 · 当前状态未核实" in javascript
 
@@ -758,7 +757,7 @@ def test_sample_16_confirms_same_album_but_not_comparable_condition_or_obi_compl
         assert "未说明是否带obi" in xianyu["version_evidence"]
 
 
-def test_sample_11_moves_xianyu_price_to_history_when_fresh_detail_is_captcha_blocked() -> None:
+def test_sample_11_refreshes_xianyu_price_and_first_image_when_detail_is_available() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     sample_11 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 11)
@@ -767,11 +766,11 @@ def test_sample_11_moves_xianyu_price_to_history_when_fresh_detail_is_captcha_bl
     assert sample_11["same_product_verified"] is True
     assert "MGCG-1408" in sample_11["wameiji"]["version_evidence"]
     assert xianyu["source_url"] == "https://www.goofish.com/item?id=1022572554442&categoryId=126864811"
-    assert xianyu["state"] == "blocked"
-    assert xianyu["price"] is None
-    assert xianyu["last_observed_price"] == 129
-    assert "滑块验证码拦截" in xianyu["version_evidence"]
-    assert xianyu["image_state"] == "historical_first_gallery_image"
+    assert xianyu["state"] == "observed_current"
+    assert xianyu["price"] == 129
+    assert "09:06" in xianyu["version_evidence"]
+    assert "盒子烂" in xianyu["version_evidence"]
+    assert xianyu["image_state"] == "observed_first_gallery_image"
     assert 'const unpricedCurrentObservation = source.state === "observed_current"' in javascript
     assert xianyu["image_url"] == "https://img.alicdn.com/bao/uploaded/i4/3806490968/O1CN01akSR1b1J1OW0sRpFJ_!!4611686018427384152-0-xy_item.jpg_450x10000Q90.jpg_.webp"
     assert sample_11["wameiji"]["price"] == 1400
