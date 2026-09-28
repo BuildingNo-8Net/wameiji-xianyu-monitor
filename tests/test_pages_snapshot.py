@@ -854,6 +854,26 @@ def test_sample_20_matching_virtual_maiden_drama_cd_is_kept_as_observation() -> 
     assert "成色不同" in pair["relation_note"]
 
 
+def test_sample_75_current_xianyu_preorder_is_not_rendered_as_unverified_history() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    pair = next(
+        record for record in payload["dual_observed_pairs"]
+        if record["reference_product_id"] == 75
+    )
+
+    assert pair["xianyu"]["state"] == "observed_current"
+    assert pair["xianyu"]["price_range"] == {"min": 427, "max": 549, "currency": "CNY"}
+    assert pair["xianyu"]["observed_at"] == "2026-09-29T05:44:00+08:00"
+    assert "39浏览" in pair["xianyu"]["version_evidence"]
+    assert "不是卖家实物照" in pair["xianyu"]["version_evidence"]
+    assert pair["wameiji"]["state"] == "not_currently_listed"
+    assert pair["wameiji"]["image_url"] is None
+    assert pair["price_comparable"] is False
+    assert "不比较利润" in pair["relation_note"]
+
+
 def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
@@ -940,8 +960,11 @@ def test_sample_56_marks_wameiji_login_redirect_as_blocked_and_keeps_price_histo
     assert pair["xianyu"]["state"] == "observed_current"
     assert pair["xianyu"]["price"] == 1800
     assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
-    assert "跳转登录页" in pair["relation_note"]
-    assert "4,657浏览" in pair["xianyu"]["version_evidence"]
+    assert "跳转至登录页" in pair["relation_note"]
+    assert pair["xianyu"]["observed_at"] == "2026-09-29T05:45:00+08:00"
+    assert "4,660浏览" in pair["xianyu"]["version_evidence"]
+    assert "商品首图直链直接打开后与页面主图一致" in pair["xianyu"]["version_evidence"]
+    assert pair["wameiji"]["observed_at"] == "2026-09-29T05:45:00+08:00"
 
 
 def test_sample_89_rechecks_both_current_listings_without_comparing_deposit_range() -> None:
