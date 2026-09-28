@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T07:03:00+08:00",
+  "generated_at": "2026-09-29T07:11:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -8511,13 +8511,13 @@
       "counterpart_state": "not_currently_listed",
       "observation": {
       "title": "[等待官方补货]Whiterium Laur2025春m3新专 专辑CD",
-      "version_evidence": "2026-09-26 15:33（+08:00）内置浏览器重开闲鱼详情：挂牌¥126.80，43人想要、2454浏览，可直拍但明确非现货，拍下预计12–25天到货。页面首图为木桌上 Whiterium CD 与插画集合照，与样本已售截图的CD/插画集封面相符；旧记录里的 image_url 实际打开是卖家介绍/¥1说明图，并非此商品首图，已撤下错误图链接。闲鱼当前实物图可见但尚未取得并人工打开验证其第一张主图直链，因此不填伪造图片地址；图片链接待核，不作库存已到或利润结论。",
+      "version_evidence": "2026-09-29 07:10（+08:00）内置浏览器人工重开闲鱼详情：挂牌¥126.80，43人想要、2,457浏览，可直拍但明确非现货，拍下预计12–25天到货。页面首图可见木桌上的 Whiterium CD 与插画集合照，封面与样本已售截图相符；这只能证明作品/封面相关，不能确认当前预售的附件和版本与样本完全一致。此前 image_url 曾指向卖家介绍/¥1说明图，并非此商品首图，已撤下错误图链接。当前首图直链尚未人工打开验证，image_url 继续留空；不把预售写成现货，也不计算利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 126.8,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=915704660051&categoryId=126864811",
-      "observed_at": "2026-09-26T15:33:00+08:00",
+      "observed_at": "2026-09-29T07:10:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
       "image_url": null,
