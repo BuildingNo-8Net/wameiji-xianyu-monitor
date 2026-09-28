@@ -8821,7 +8821,9 @@
         "observed_at": "2026-09-28T20:38:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2220797024623/O1CN01ybNCKy1k1O9wNCon2_!!4611686018427386223-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/2220797024623/O1CN01ybNCKy1k1O9wNCon2_!!4611686018427386223-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/40-bf01659913155102.webp",
       "counterpart_candidate": {

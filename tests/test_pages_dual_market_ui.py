@@ -535,6 +535,8 @@ def test_sample_40_removes_unrelated_kobukuro_cd_from_aoi_tori_game_observation(
 
     assert sample_40["counterpart_state"] == "not_currently_listed"
     assert sample_40["observation"]["price"] == 500
+    assert sample_40["observation"]["state"] == "observed_current"
+    assert sample_40["observation"]["image_state"] == "observed_first_gallery_image"
     assert sample_40["observation"]["observed_at"] == "2026-09-28T20:38:00+08:00"
     assert "アオイトリ Purple software" in sample_40["observation"]["version_evidence"]
     assert sample_40["wameiji"]["state"] == "not_currently_listed"
