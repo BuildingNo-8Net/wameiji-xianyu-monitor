@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T21:14:00+08:00",
+  "generated_at": "2026-09-28T21:24:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -246,7 +246,7 @@
       "stable_key": "sample:ad66f99c63ff08ac4aa3b4ebdc929cc1ed8d6f132701959b7ce16855b3ae3481",
       "price_comparable": false,
       "same_product_verified": true,
-      "relation_note": "2026-09-28 08:50 内置浏览器核对参考样本及挖煤姬：样本标题与实拍为带侧标的同款CD，页面结构化字段另写“LP黑胶唱片”，与图文冲突，不据该字段改判载体；挖煤姬现售8,000 JPY，同封面CD，价格/成色/附件不可直接比较。原闲鱼样本已售，¥860仅为历史记录；原商品链接曾受滑块验证阻挡。2026-09-28 18:39 内置浏览器重新打开闲鱼候选1078063417899：¥350包邮、3人想要/329浏览，页面显示可立即购买；标题为WHITE ALBUM2 Original Soundtrack～setsuna～日版CD带侧标，放大后的卖家实拍主图显示同一CD封面，与样本图相符。将闲鱼侧链接更新到此当前候选，不再把原已售商品图挂在当前候选下。受浏览器界面限制，尚未取得并单独打开该候选的第一张主图直链，因此当前闲鱼image_url留空、不用截图或旧商品图替代；两侧价差/利润不比较。",
+      "relation_note": "2026-09-28 08:50 内置浏览器核对参考样本及挖煤姬：样本标题与实拍为带侧标的同款CD，页面结构化字段另写“LP黑胶唱片”，与图文冲突，不据该字段改判载体；挖煤姬现售8,000 JPY，同封面CD，价格/成色/附件不可直接比较。原闲鱼样本已售，¥860仅为历史记录；原商品链接曾受滑块验证阻挡。2026-09-28 18:39 内置浏览器重新打开闲鱼候选1078063417899：¥350包邮、3人想要/329浏览，页面显示可立即购买；标题为WHITE ALBUM2 Original Soundtrack～setsuna～日版CD带侧标，放大后的卖家实拍主图显示同一CD封面，与样本图相符。将闲鱼侧链接更新到此当前候选，不再把原已售商品图挂在当前候选下。2026-09-28 21:22 在内置浏览器从该详情页图廊确认第1张商品图，读取并单独打开其原始图片直链 https://img.alicdn.com/bao/uploaded/i1/2211904345937/O1CN01f4kStVXGW9G3thKK_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp；直链实图为WHITE ALBUM2 Original Soundtrack～setsuna～CD封套，匹配本候选及样本的首图，不是截图或历史商品图。当前候选附件未逐项确认，且两侧成色/价格口径未对齐，不比较利润。",
       "wameiji": {
         "title": "WHITE ALBUM2 オリジナルサウンドトラック〜setsuna〜（CD）",
         "version_evidence": "2026-09-28 08:50 内置浏览器重开挖煤姬原详情：标题WHITE ALBUM2 オリジナルサウンドトラック〜setsuna〜；商品介绍明确为游戏《WHITE ALBUM2》原声CD，说明碟、盒、册子整体无明显伤污。当前8,000日元，页面显示加入购物车/立即购买；第一张实拍直链已单独打开，红发角色封面与样本实拍CD封面一致。样本闲鱼截图标题与实物图也指向这张CD，但其另一结构化字段写LP，与图文矛盾；因此此候选按封面/标题同CD保留，库存仅确认挖煤姬侧，不做跨市场现价或利润比较。",
@@ -265,7 +265,7 @@
       },
       "xianyu": {
         "title": "WHITE ALBUM2 Original Soundtrack ～setsuna～ 日版CD（当前候选；带侧标）",
-        "version_evidence": "原始闲鱼样本截图的标题与实物图指向WHITE ALBUM2 Original Soundtrack～setsuna～CD并带侧标；其中结构化“存储介质 LP黑胶唱片”与标题/实物图矛盾，原样本商品已售、¥860与旧图只作历史证据。2026-09-28 18:39 内置浏览器打开当前候选1078063417899：标题/详情显示WHITE ALBUM2 Original Soundtrack ～setsuna～、小木曾雪菜角色歌集、日版正版CD、带侧标，¥350包邮，3人想要、329浏览，页面可立即购买。放大相册第1/3张可见卖家实拍CD封套和侧标，封面与原样本图一致。当前候选的直接主图URL尚未从浏览器UI独立取得，故image_url留空，不复用已售商品图或截图。页面没有逐项确认附件，且两侧成色/价格口径未对齐。",
+        "version_evidence": "原始闲鱼样本截图的标题与实物图指向WHITE ALBUM2 Original Soundtrack～setsuna～CD并带侧标；其中结构化“存储介质 LP黑胶唱片”与标题/实物图矛盾，原样本商品已售、¥860与旧图只作历史证据。2026-09-28 21:22 内置浏览器重新打开当前候选1078063417899：标题/详情显示WHITE ALBUM2 Original Soundtrack ～setsuna～、小木曾雪菜角色歌集、日版正版CD、带侧标，¥350包邮、3人想要/329浏览，页面可立即购买；相册第1/3张是卖家实拍CD封套和侧标，与样本封面相符。读取并单独打开相册第1张的直接主图URL，直链实图与商品及样本封面匹配；已补入image_url。页面没有逐项确认附件，且两侧成色/价格口径未对齐。",
         "catalog_no": null,
         "barcode": null,
         "price": 350,
@@ -273,11 +273,11 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1078063417899&categoryId=126864811",
         "search_source_url": "https://www.goofish.com/search?q=WHITE%20ALBUM2%20Original%20Soundtrack%20setsuna%20CD",
-        "observed_at": "2026-09-28T18:39:00+08:00",
+        "observed_at": "2026-09-28T21:22:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": null,
-        "image_state": "no_verified_item_photo",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2211904345937/O1CN01f4kStVXGW9G3thKK_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
         "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/10-ad66f99c63ff08ac.webp"
@@ -4332,7 +4332,7 @@
       "stable_key": "sample:ad66f99c63ff08ac4aa3b4ebdc929cc1ed8d6f132701959b7ce16855b3ae3481",
       "price_comparable": false,
       "same_product_verified": true,
-      "relation_note": "2026-09-28 08:50 内置浏览器核对参考样本及挖煤姬：样本标题与实拍为带侧标的同款CD，页面结构化字段另写“LP黑胶唱片”，与图文冲突，不据该字段改判载体；挖煤姬现售8,000 JPY，同封面CD，价格/成色/附件不可直接比较。原闲鱼样本已售，¥860仅为历史记录；原商品链接曾受滑块验证阻挡。2026-09-28 18:39 内置浏览器重新打开闲鱼候选1078063417899：¥350包邮、3人想要/329浏览，页面显示可立即购买；标题为WHITE ALBUM2 Original Soundtrack～setsuna～日版CD带侧标，放大后的卖家实拍主图显示同一CD封面，与样本图相符。将闲鱼侧链接更新到此当前候选，不再把原已售商品图挂在当前候选下。受浏览器界面限制，尚未取得并单独打开该候选的第一张主图直链，因此当前闲鱼image_url留空、不用截图或旧商品图替代；两侧价差/利润不比较。",
+      "relation_note": "2026-09-28 08:50 内置浏览器核对参考样本及挖煤姬：样本标题与实拍为带侧标的同款CD，页面结构化字段另写“LP黑胶唱片”，与图文冲突，不据该字段改判载体；挖煤姬现售8,000 JPY，同封面CD，价格/成色/附件不可直接比较。原闲鱼样本已售，¥860仅为历史记录；原商品链接曾受滑块验证阻挡。2026-09-28 18:39 内置浏览器重新打开闲鱼候选1078063417899：¥350包邮、3人想要/329浏览，页面显示可立即购买；标题为WHITE ALBUM2 Original Soundtrack～setsuna～日版CD带侧标，放大后的卖家实拍主图显示同一CD封面，与样本图相符。将闲鱼侧链接更新到此当前候选，不再把原已售商品图挂在当前候选下。2026-09-28 21:22 在内置浏览器从该详情页图廊确认第1张商品图，读取并单独打开其原始图片直链 https://img.alicdn.com/bao/uploaded/i1/2211904345937/O1CN01f4kStVXGW9G3thKK_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp；直链实图为WHITE ALBUM2 Original Soundtrack～setsuna～CD封套，匹配本候选及样本的首图，不是截图或历史商品图。当前候选附件未逐项确认，且两侧成色/价格口径未对齐，不比较利润。",
       "wameiji": {
         "title": "WHITE ALBUM2 オリジナルサウンドトラック〜setsuna〜（CD）",
         "version_evidence": "2026-09-28 08:50 内置浏览器重开挖煤姬原详情：标题WHITE ALBUM2 オリジナルサウンドトラック〜setsuna〜；商品介绍明确为游戏《WHITE ALBUM2》原声CD，说明碟、盒、册子整体无明显伤污。当前8,000日元，页面显示加入购物车/立即购买；第一张实拍直链已单独打开，红发角色封面与样本实拍CD封面一致。样本闲鱼截图标题与实物图也指向这张CD，但其另一结构化字段写LP，与图文矛盾；因此此候选按封面/标题同CD保留，库存仅确认挖煤姬侧，不做跨市场现价或利润比较。",
@@ -4351,7 +4351,7 @@
       },
       "xianyu": {
         "title": "WHITE ALBUM2 Original Soundtrack ～setsuna～ 日版CD（当前候选；带侧标）",
-        "version_evidence": "原始闲鱼样本截图的标题与实物图指向WHITE ALBUM2 Original Soundtrack～setsuna～CD并带侧标；其中结构化“存储介质 LP黑胶唱片”与标题/实物图矛盾，原样本商品已售、¥860与旧图只作历史证据。2026-09-28 18:39 内置浏览器打开当前候选1078063417899：标题/详情显示WHITE ALBUM2 Original Soundtrack ～setsuna～、小木曾雪菜角色歌集、日版正版CD、带侧标，¥350包邮，3人想要、329浏览，页面可立即购买。放大相册第1/3张可见卖家实拍CD封套和侧标，封面与原样本图一致。当前候选的直接主图URL尚未从浏览器UI独立取得，故image_url留空，不复用已售商品图或截图。页面没有逐项确认附件，且两侧成色/价格口径未对齐。",
+        "version_evidence": "原始闲鱼样本截图的标题与实物图指向WHITE ALBUM2 Original Soundtrack～setsuna～CD并带侧标；其中结构化“存储介质 LP黑胶唱片”与标题/实物图矛盾，原样本商品已售、¥860与旧图只作历史证据。2026-09-28 21:22 内置浏览器重新打开当前候选1078063417899：标题/详情显示WHITE ALBUM2 Original Soundtrack ～setsuna～、小木曾雪菜角色歌集、日版正版CD、带侧标，¥350包邮、3人想要/329浏览，页面可立即购买；相册第1/3张是卖家实拍CD封套和侧标，与样本封面相符。读取并单独打开相册第1张的直接主图URL，直链实图与商品及样本封面匹配；已补入image_url。页面没有逐项确认附件，且两侧成色/价格口径未对齐。",
         "catalog_no": null,
         "barcode": null,
         "price": 350,
@@ -4359,11 +4359,11 @@
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1078063417899&categoryId=126864811",
         "search_source_url": "https://www.goofish.com/search?q=%E7%99%BD%E8%89%B2%E7%9B%B8%E7%B0%BF2%20WHITE%20ALBUM2%20setsuna%20CD",
-        "observed_at": "2026-09-28T18:39:00+08:00",
+        "observed_at": "2026-09-28T21:22:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": null,
-        "image_state": "no_verified_item_photo",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/2211904345937/O1CN01f4kStVXGW9G3thKK_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
         "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/10-ad66f99c63ff08ac.webp"

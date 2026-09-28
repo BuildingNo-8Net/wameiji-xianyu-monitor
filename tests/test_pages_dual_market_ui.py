@@ -566,14 +566,17 @@ def test_samples_10_and_11_use_the_latest_matching_evidence_timestamps() -> None
     assert "LP黑胶唱片" in sample_10["relation_note"]
     assert "结构化“存储介质 LP黑胶唱片”与标题/实物图矛盾" in sample_10["xianyu"]["version_evidence"]
     assert "1078063417899" in sample_10["xianyu"]["version_evidence"]
-    assert "直接主图URL尚未从浏览器UI独立取得" in sample_10["xianyu"]["version_evidence"]
-    assert sample_10["xianyu"]["observed_at"] == "2026-09-28T18:39:00+08:00"
+    assert "读取并单独打开相册第1张的直接主图URL" in sample_10["xianyu"]["version_evidence"]
+    assert sample_10["xianyu"]["observed_at"] == "2026-09-28T21:22:00+08:00"
     assert sample_10["xianyu"]["state"] == "observed_current"
     assert sample_10["xianyu"]["price"] == 350
     assert sample_10["xianyu"]["last_observed_price"] is None
     assert sample_10["xianyu"]["source_url"] == "https://www.goofish.com/item?id=1078063417899&categoryId=126864811"
-    assert sample_10["xianyu"]["image_url"] is None
-    assert sample_10["xianyu"]["image_state"] == "no_verified_item_photo"
+    assert sample_10["xianyu"]["image_url"] == (
+        "https://img.alicdn.com/bao/uploaded/i1/2211904345937/"
+        "O1CN01f4kStVXGW9G3thKK_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp"
+    )
+    assert sample_10["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert "存储介质 LP黑胶唱片" in sample_10["xianyu"]["version_evidence"]
     assert "860" in sample_10["xianyu"]["version_evidence"]
     assert "受滑块验证阻挡" in sample_10["relation_note"]
