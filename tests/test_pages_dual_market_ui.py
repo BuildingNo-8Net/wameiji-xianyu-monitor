@@ -1916,15 +1916,19 @@ def test_sample_54_current_listings_and_mismatched_first_image_are_disclosed() -
         row = next(row for row in rows if row["reference_product_id"] == 54)
         assert row["same_product_verified"] is True
         assert row["wameiji"]["price"] == 6480
-        assert row["xianyu"]["price"] == 320
+        assert row["wameiji"]["state"] == "observed_current"
+        assert row["xianyu"]["price"] is None
+        assert row["xianyu"]["last_observed_price"] == 320
+        assert row["xianyu"]["state"] == "blocked"
         assert row["wameiji"]["image_url"] == "https://static.mercdn.net/item/detail/orig/photos/m45167830585_1.jpg"
         assert row["xianyu"]["image_url"] == "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01Ny4P0cPJ1pI37rd6_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp"
         assert row["wameiji"]["image_state"] == "observed_first_gallery_image"
-        assert row["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert row["xianyu"]["image_state"] == "historical_first_gallery_image"
         assert "仍显示加入购物车/立即购买" in row["wameiji"]["version_evidence"]
         assert "296浏览" in row["xianyu"]["version_evidence"]
         assert "人物插图" in row["wameiji"]["version_evidence"]
-        assert "图片不作为同款实物证明" in row["relation_note"]
+        assert "首图" in row["relation_note"]
+        assert "不比较利润" in row["relation_note"]
 
 
 def test_sample_55_does_not_assign_one_price_or_real_item_photo_to_uncertain_variants() -> None:
@@ -2658,6 +2662,19 @@ if (!card.includes("样本 #55 · 当前证据受阻 · 已打开核验") || car
 """
     result = subprocess.run(["node", "-e", harness], text=True, capture_output=True, check=False)
     assert result.returncode == 0, result.stderr or result.stdout
+
+
+def test_sample_54_latest_recheck_marks_xianyu_blocked_and_wameiji_current() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        sample = next(row for row in snapshot[collection] if row["reference_product_id"] == 54)
+        assert sample["xianyu"]["state"] == "blocked"
+        assert sample["xianyu"]["price"] is None
+        assert sample["xianyu"]["last_observed_price"] == 320
+        assert sample["wameiji"]["state"] == "observed_current"
+        assert sample["wameiji"]["price"] == 6480
+        assert "仅加载闲鱼站点页脚" in sample["xianyu"]["version_evidence"]
+        assert "仍显示加入购物车/立即购买" in sample["wameiji"]["version_evidence"]
 
 
 def test_reference_audit_renderer_cache_version_is_bumped_for_current_state_labels() -> None:
