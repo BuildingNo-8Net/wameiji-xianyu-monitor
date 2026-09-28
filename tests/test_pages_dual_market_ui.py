@@ -2632,6 +2632,39 @@ def test_reference_samples_separate_version_identity_from_price_comparability() 
         assert fantome["xianyu"]["state"] == "blocked"
 
 
+def test_sample_55_sold_and_blocked_sources_do_not_render_as_unmarked() -> None:
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    start = javascript.index("function referenceAuditObservationMarkup")
+    end = javascript.index("function referenceAuditSingleMarkup")
+    renderers = javascript[start:end]
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    sample = next(row for row in snapshot["dual_found_pairs"] if row["reference_product_id"] == 55)
+    assert sample["xianyu"]["state"] == "blocked"
+    assert sample["wameiji"]["state"] == "current_sold_image"
+
+    harness = f"""
+const safeHttpUrl = (value) => value || "";
+const auditObservationImage = () => "";
+const versionedAuditImageUrl = (value) => value || "";
+const esc = (value) => String(value ?? "");
+const displayJpyCnyRate = () => 0.0444;
+const cny = (value) => Number.isFinite(Number(value)) ? Number(value).toFixed(2) + " CNY" : "--";
+const jpy = (value) => Number.isFinite(Number(value)) ? Number(value).toFixed(0) + " JPY" : "--";
+{renderers}
+const card = referenceAuditPairMarkup({json.dumps(sample, ensure_ascii=False)});
+if (!card.includes("样本 #55 · 当前证据受阻 · 已打开核验") || card.includes("当前状态未标注")) {{
+  throw new Error("sample 55 has explicit blocked/sold states and must not render as unmarked");
+}}
+"""
+    result = subprocess.run(["node", "-e", harness], text=True, capture_output=True, check=False)
+    assert result.returncode == 0, result.stderr or result.stdout
+
+
+def test_reference_audit_renderer_cache_version_is_bumped_for_current_state_labels() -> None:
+    homepage = Path("web/index.html").read_text(encoding="utf-8")
+    assert "discovery-ui.js?v=20260929-reference-audit-v12" in homepage
+
+
 def test_reference_audit_uses_its_current_platform_exchange_rate_before_stale_board_rate() -> None:
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     start = javascript.index("function displayJpyCnyRate")
@@ -2719,7 +2752,7 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260928-reference-audit-v11" in homepage
+    assert "discovery-ui.js?v=20260929-reference-audit-v12" in homepage
     assert "styles/kuro.css?v=20260923-reference-analysis-v1" in homepage
 
 
