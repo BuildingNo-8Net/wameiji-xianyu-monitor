@@ -258,8 +258,9 @@ def test_sample_9_removes_wrong_wameiji_edition_and_preserves_exact_search_evide
     wameiji = sample_9["wameiji"]
 
     assert sample_9["same_product_verified"] is False
-    assert sample_9["xianyu"]["observed_at"] == "2026-09-29T00:49:00+08:00"
+    assert sample_9["xianyu"]["observed_at"] == "2026-09-29T07:03:00+08:00"
     assert "显示立即购买" in sample_9["xianyu"]["version_evidence"]
+    assert "详情首图现场显示" in sample_9["xianyu"]["version_evidence"]
     assert "缺内箱、卡牌" in sample_9["xianyu"]["version_evidence"]
     assert "当前可购买" in sample_9["xianyu"]["title"]
     assert sample_9["xianyu"]["state"] == "observed_related"
