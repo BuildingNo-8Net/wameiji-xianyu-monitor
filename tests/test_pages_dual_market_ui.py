@@ -1711,7 +1711,7 @@ def test_sample_20_restores_live_xianyu_detail_and_keeps_condition_mismatch_expl
         assert sample["xianyu"]["state"] == "observed_current"
         assert sample["xianyu"]["price"] == 400
         assert sample["xianyu"]["last_observed_price"] is None
-        assert sample["xianyu"]["observed_at"] == "2026-09-27T23:50:00+08:00"
+        assert sample["xianyu"]["observed_at"] == "2026-09-28T23:25:00+08:00"
         assert sample["xianyu"]["image_state"] == "observed_first_gallery_image"
         assert sample["xianyu"]["image_url"].startswith("https://img.alicdn.com/bao/uploaded/")
         assert "立即购买" in sample["xianyu"]["version_evidence"]
@@ -2254,7 +2254,7 @@ def test_sample_20_records_the_live_xianyu_detail_without_a_captcha_claim() -> N
         assert sample_20["xianyu"]["state"] == "observed_current"
         assert sample_20["xianyu"]["search_source_url"].startswith("https://www.goofish.com/search?q=")
         assert "¥400包邮" in sample_20["xianyu"]["version_evidence"]
-        assert "187浏览" in sample_20["xianyu"]["version_evidence"]
+        assert "189浏览" in sample_20["xianyu"]["version_evidence"]
         assert "立即购买" in sample_20["xianyu"]["version_evidence"]
         assert "全新塑封未拆" in sample_20["xianyu"]["version_evidence"]
         assert sample_20["wameiji"]["price"] == 3200
