@@ -2103,10 +2103,12 @@ def test_sample_7_refreshes_live_xianyu_and_removes_wrong_seller_info_image() ->
     sample_7 = next(row for row in snapshot["single_observed_records"] if row["reference_product_id"] == 7)
     assert sample_7["observation"]["state"] == "observed_current"
     assert sample_7["observation"]["price"] == 126.8
-    assert sample_7["observation"]["observed_at"] == "2026-09-26T15:33:00+08:00"
+    assert sample_7["observation"]["observed_at"] == "2026-09-29T07:10:00+08:00"
     assert sample_7["observation"]["image_url"] is None
     assert sample_7["observation"]["image_state"] == "no_verified_item_photo"
-    assert "卖家介绍/¥1说明图，并非此商品首图" in sample_7["observation"]["version_evidence"]
+    assert "2,457浏览" in sample_7["observation"]["version_evidence"]
+    assert "非现货" in sample_7["observation"]["version_evidence"]
+    assert "image_url 继续留空" in sample_7["observation"]["version_evidence"]
     assert sample_7["wameiji"]["state"] == "current_sold_image"
     assert sample_7["wameiji"]["image_state"] == "current_sold_image"
     assert sample_7["wameiji"]["image_url"] == "https://image03.doorzo.net/item/detail/orig/photos/m91159547197_1.jpg"
