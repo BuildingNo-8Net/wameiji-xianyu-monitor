@@ -1217,15 +1217,15 @@ def test_sample_50_keeps_multivariant_quote_unassigned_to_reference_product() ->
     assert pair["same_product_verified"] is False
     assert pair["price_comparable"] is False
     assert pair["xianyu"]["state"] == "not_currently_listed"
-    assert pair["xianyu"]["observed_at"] == "2026-09-28T04:02:00+08:00"
+    assert pair["xianyu"]["observed_at"] == "2026-09-28T22:52:00+08:00"
     assert pair["xianyu"]["price"] is None
     assert pair["xianyu"]["last_observed_price"] == 98
     assert pair["xianyu"]["price_range"] is None
     assert pair["xianyu"]["image_state"] == "no_verified_item_photo"
     assert pair["xianyu"]["image_url"] is None
     assert pair["xianyu"]["source_url"] == pair["xianyu"]["search_source_url"]
-    assert "同名专辑无册封¥120已出" in pair["xianyu"]["version_evidence"]
-    assert "目标CD+LP选项未列为在售" in pair["xianyu"]["version_evidence"]
+    assert "结果页仅见中森明菜《CRIMSON》LP、渡边彻《约束》EP" in pair["xianyu"]["version_evidence"]
+    assert "目标CD+LP选项不在售" in pair["xianyu"]["version_evidence"]
     assert pair["wameiji"]["barcode"] is None
     assert pair["wameiji"]["price"] is None
     assert pair["wameiji"]["last_observed_price"] is None
