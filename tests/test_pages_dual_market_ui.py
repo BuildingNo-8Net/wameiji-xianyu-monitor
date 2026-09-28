@@ -532,16 +532,19 @@ def test_samples_10_and_11_use_the_latest_matching_evidence_timestamps() -> None
     sample_10 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 10)
     sample_11 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 11)
 
-    assert sample_10["same_product_verified"] is False
+    assert sample_10["same_product_verified"] is True
     assert sample_10["price_comparable"] is False
-    assert sample_10["wameiji"]["observed_at"] == "2026-09-28T03:36:00+08:00"
-    assert sample_10["wameiji"]["state"] == "observed_related"
+    assert sample_10["wameiji"]["observed_at"] == "2026-09-28T08:50:00+08:00"
+    assert sample_10["wameiji"]["state"] == "observed_current"
     assert sample_10["wameiji"]["price"] == 8000
     assert sample_10["wameiji"]["image_url"] == "https://static.mercdn.net/item/detail/orig/photos/m44548019130_1.jpg"
     assert sample_10["wameiji"]["image_state"] == "observed_first_gallery_image"
-    assert "当前8,000 JPY" in sample_10["wameiji"]["version_evidence"]
-    assert "媒介不同" in sample_10["relation_note"]
+    assert "当前8,000日元" in sample_10["wameiji"]["version_evidence"]
+    assert "实拍为带侧标的同款CD" in sample_10["relation_note"]
     assert "LP黑胶唱片" in sample_10["relation_note"]
+    assert "结构化“存储介质 LP黑胶唱片”与标题/实物图矛盾" in sample_10["xianyu"]["version_evidence"]
+    assert "1078063417899" in sample_10["xianyu"]["version_evidence"]
+    assert "直接主图URL尚未从浏览器UI独立取得" in sample_10["xianyu"]["version_evidence"]
     assert sample_10["xianyu"]["observed_at"] == "2026-09-28T04:15:00+08:00"
     assert sample_10["xianyu"]["state"] == "not_currently_listed"
     assert sample_10["xianyu"]["price"] is None
@@ -552,12 +555,11 @@ def test_samples_10_and_11_use_the_latest_matching_evidence_timestamps() -> None
         "O1CN01nW9DXz1WUKZb2L3qi_!!4611686018427385847-0-xy_item.jpg_450x10000Q90.jpg_.webp"
     )
     assert sample_10["xianyu"]["image_state"] == "historical_first_gallery_image"
-    assert "setsuna & kazusa Special Select" in sample_10["xianyu"]["version_evidence"]
-    assert "未找到可确认的当前样本LP" in sample_10["xianyu"]["version_evidence"]
+    assert "存储介质 LP黑胶唱片" in sample_10["xianyu"]["version_evidence"]
     assert "860" in sample_10["xianyu"]["version_evidence"]
-    assert "触发滑块验证" in sample_10["xianyu"]["version_evidence"]
-    assert "旧¥860仅作历史观察" in sample_10["relation_note"]
-    assert "8,000" in sample_10["relation_note"]
+    assert "受滑块验证阻挡" in sample_10["xianyu"]["version_evidence"]
+    assert "原闲鱼样本已售" in sample_10["relation_note"]
+    assert "8,000 JPY" in sample_10["relation_note"]
     assert sample_11["wameiji"]["observed_at"] == "2026-09-28T02:11:00+08:00"
     assert sample_11["wameiji"]["state"] == "observed_current"
     assert sample_11["xianyu"]["observed_at"] == "2026-09-28T04:36:00+08:00"
