@@ -858,7 +858,7 @@ def test_sample_75_current_xianyu_preorder_is_not_rendered_as_unverified_history
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
     )
-    assert payload["generated_at"] == "2026-09-29T05:45:00+08:00"
+    assert payload["generated_at"] == "2026-09-29T06:03:00+08:00"
     pair = next(
         record for record in payload["dual_observed_pairs"]
         if record["reference_product_id"] == 75
@@ -873,6 +873,48 @@ def test_sample_75_current_xianyu_preorder_is_not_rendered_as_unverified_history
     assert pair["wameiji"]["image_url"] is None
     assert pair["price_comparable"] is False
     assert "不比较利润" in pair["relation_note"]
+
+
+def test_sample_78_refreshes_live_xianyu_and_removes_broken_wameiji_image() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        pair = next(
+            record for record in payload[collection]
+            if record["reference_product_id"] == 78
+        )
+        assert pair["xianyu"]["state"] == "observed_current"
+        assert pair["xianyu"]["price"] == 620
+        assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert "120浏览" in pair["xianyu"]["version_evidence"]
+        assert "准确SKU" in pair["xianyu"]["version_evidence"]
+        assert pair["wameiji"]["image_state"] == "no_verified_item_photo"
+        assert pair["wameiji"]["image_url"] is None
+        assert "UIJY-75383" in pair["wameiji"]["version_evidence"]
+        assert pair["price_comparable"] is False
+        assert pair["same_product_verified"] is False
+
+
+def test_sample_77_downgrades_lp_match_without_exact_version_or_image_link() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        pair = next(
+            record for record in payload[collection]
+            if record["reference_product_id"] == 77
+        )
+        assert pair["same_product_verified"] is False
+        assert pair["price_comparable"] is False
+        assert pair["xianyu"]["state"] == "observed_current"
+        assert pair["xianyu"]["price_range"] == {"min": 199, "max": 333, "currency": "CNY"}
+        assert pair["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
+        assert pair["xianyu"]["image_url"] is None
+        assert "1436浏览" in pair["xianyu"]["version_evidence"]
+        assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
+        assert pair["wameiji"]["image_url"].endswith("m41163446629_1.jpg")
+        assert "平台占位图" in pair["wameiji"]["version_evidence"]
 
 
 def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None:
