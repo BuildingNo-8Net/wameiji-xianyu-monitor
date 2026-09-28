@@ -18,6 +18,8 @@ SNAPSHOT = ROOT / "web" / "data" / "reference-audit-snapshot.json"
 
 # Exact pairs observed from the corresponding visible detail pages.
 OBSERVED = {
+    # Goofish sample 46 first image opened and visually matched to the live item page.
+    "https://www.goofish.com/item?id=687375217838&categoryId=126864811": "https://img.alicdn.com/bao/uploaded/i2/O1CN016zJoMt21VTHnrOwh9_!!0-fleamarket.jpg_790x10000Q90.jpg_.webp",
     # Goofish first-image assets captured before its anti-bot challenge.
     "https://www.goofish.com/item?id=1001729302397&categoryId=126864811": "https://img.alicdn.com/bao/uploaded/i2/O1CN01SyHn2U1njIwyKqseQ_!!4611686018427384677-0-mtopupload.jpg_110x10000Q90.jpg_.webp",
     "https://www.goofish.com/item?id=1011291721486&categoryId=202061902": "https://img.alicdn.com/bao/uploaded/i3/O1CN01ynM6GabIUMG1wLSm_!!4611686018427380249-0-mtopupload.jpg_110x10000Q90.jpg_.webp",

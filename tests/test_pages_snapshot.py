@@ -1107,8 +1107,8 @@ def test_sample_46_replaces_inactive_xianyu_link_with_visible_current_candidate(
         assert pair["xianyu"]["price"] == 350
         assert "687375217838" in pair["xianyu"]["source_url"]
         assert pair["xianyu"]["state"] == "observed_current"
-        assert pair["xianyu"]["image_url"] is None
-        assert pair["xianyu"]["image_state"] == "no_verified_item_photo"
+        assert pair["xianyu"]["image_url"] == "https://img.alicdn.com/bao/uploaded/i2/O1CN016zJoMt21VTHnrOwh9_!!0-fleamarket.jpg_790x10000Q90.jpg_.webp"
+        assert pair["xianyu"]["image_state"] == "observed_main_image"
         assert "14人想要" in pair["xianyu"]["version_evidence"]
         assert "已下架" in pair["xianyu"]["version_evidence"]
         assert "1085787502992" in pair["xianyu"]["version_evidence"]
@@ -1481,6 +1481,22 @@ def test_sample_34_current_details_and_first_images_preserve_accessory_gap() -> 
         assert "首图直链" in sample["relation_note"]
         assert sample["xianyu"]["observed_at"].startswith("2026-09-27")
         assert sample["wameiji"]["observed_at"].startswith("2026-09-27")
+
+
+def test_sample_46_xianyu_live_first_image_is_recorded_in_both_snapshot_lists() -> None:
+    """Keep the manually opened Goofish main image while preserving edition uncertainty."""
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    expected = "https://img.alicdn.com/bao/uploaded/i2/O1CN016zJoMt21VTHnrOwh9_!!0-fleamarket.jpg_790x10000Q90.jpg_.webp"
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        sample = next(row for row in payload[collection] if row["reference_product_id"] == 46)
+        assert sample["xianyu"]["source_url"].endswith("id=687375217838&categoryId=126864811")
+        assert sample["xianyu"]["image_url"] == expected
+        assert sample["xianyu"]["image_state"] == "observed_main_image"
+        assert sample["price_comparable"] is False
+        assert sample["same_product_verified"] is True
+        assert "私聊" in sample["xianyu"]["version_evidence"]
 
 
 def test_reference_audit_covers_each_sample_once_and_uses_wameiji_for_observed_japan_sides() -> None:
