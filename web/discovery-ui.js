@@ -438,7 +438,9 @@
     const heading = href
       ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
       : '<span>' + title + '</span>';
-    const imageAlt = sourceUnavailable && image
+    const imageAlt = source.state === "current_sold_image" && image
+      ? title + " · 已售历史商品首图 · 非当前在售图"
+      : sourceUnavailable && image
       ? title + " · 历史商品图，当前状态未核实"
       : source.image_state === "page_reference_image"
       ? title + " · 来源页示意图 · 非实物照"
@@ -457,7 +459,9 @@
         : source.image_state === "historical_first_gallery_image"
           ? title + " · 历史页面首图 · 当前链接受阻"
           : title + " · 第一张主图";
-    const imageBadge = sourceUnavailable && image
+    const imageBadge = source.state === "current_sold_image" && image
+      ? '<span class="reference-audit-image-badge">已售历史商品首图 · 非当前在售图</span>'
+      : sourceUnavailable && image
       ? '<span class="reference-audit-image-badge">历史商品图 · 当前状态未核实</span>'
       : source.image_state === "page_reference_image"
       ? '<span class="reference-audit-image-badge">来源页示意图 · 非实物照</span>'
@@ -496,7 +500,7 @@
       : source.state === "login_required"
         ? "登录/验证受阻 · 历史证据"
       : source.state === "not_currently_listed"
-        ? "原商品已下架 · 历史证据"
+        ? "当前未见可核验同款 · 历史参考"
       : source.state === "observed_related" || source.state === "replacement_related"
         ? "相关商品观察 · 非样本同款"
       : source.state === "replacement_current"
