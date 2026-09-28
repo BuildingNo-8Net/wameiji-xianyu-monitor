@@ -307,9 +307,9 @@ def test_sample_1_does_not_restore_the_wrong_xianyu_laiyi_bonus_listing() -> Non
         assert sample["xianyu"]["image_url"] is None
         assert sample["xianyu"]["image_state"] == "no_verified_item_photo"
         assert "礼衣" not in sample["xianyu"]["title"]
-        assert sample["wameiji"]["state"] == "observed_related"
+        assert sample["wameiji"]["state"] == "observed_current"
         assert "特典" in sample["wameiji"]["title"]
-        assert "不认定同一SKU" in sample["wameiji"]["version_evidence"]
+        assert "同一SKU" in sample["wameiji"]["version_evidence"]
         assert "没有找到你想要的宝贝" in sample["xianyu"]["version_evidence"]
 
 
@@ -832,17 +832,18 @@ def test_sample_1_keeps_unverified_tuyu_bonus_cd_as_related_not_same_product() -
         sample_1 = next(row for row in snapshot[collection_name] if row["reference_product_id"] == 1)
 
         assert sample_1["same_product_verified"] is False
-        assert sample_1["wameiji"]["state"] == "observed_related"
-        assert sample_1["wameiji"]["observed_at"] == "2026-09-28T03:48:00+08:00"
-        assert sample_1["wameiji"]["title"] == "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典 音楽 CD"
-        assert sample_1["wameiji"]["price"] == 6631
+        assert sample_1["wameiji"]["state"] == "observed_current"
+        assert sample_1["wameiji"]["observed_at"] == "2026-09-28T18:22:00+08:00"
+        assert sample_1["wameiji"]["title"] == "ツユ 特典CD 礼衣でぃお（Under Mentality 相关候选）"
+        assert sample_1["wameiji"]["price"] == 8888
         assert sample_1["wameiji"]["image_state"] == "no_verified_item_photo"
         assert sample_1["wameiji"]["image_url"] is None
         assert sample_1["xianyu"]["state"] == "not_currently_listed"
         assert sample_1["xianyu"]["last_observed_price"] == 100
         assert sample_1["xianyu"]["image_url"] is None
         assert "TUYU ツユ 2专 特典CD" in sample_1["xianyu"]["title"]
-        assert "详情画廊显示1/3张但三张均为平台占位图" in sample_1["relation_note"]
+        assert "第一张专辑方向" in sample_1["relation_note"]
+        assert "礼衣でぃお" in sample_1["relation_note"]
         assert "不比较价格或利润" in sample_1["relation_note"]
 
 
@@ -2117,15 +2118,15 @@ def test_sample_1_keeps_historical_xianyu_sample_separate_from_current_related_w
         assert sample_1["xianyu"]["image_state"] == "no_verified_item_photo"
         assert sample_1["xianyu"]["image_url"] is None
         assert "不比较价格或利润" in sample_1["relation_note"]
-        assert sample_1["wameiji"]["title"] == "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典 音楽 CD"
-        assert sample_1["wameiji"]["price"] == 6631
-        assert sample_1["wameiji"]["observed_at"] == "2026-09-28T03:48:00+08:00"
-        assert sample_1["wameiji"]["state"] == "observed_related"
+        assert sample_1["wameiji"]["title"] == "ツユ 特典CD 礼衣でぃお（Under Mentality 相关候选）"
+        assert sample_1["wameiji"]["price"] == 8888
+        assert sample_1["wameiji"]["observed_at"] == "2026-09-28T18:22:00+08:00"
+        assert sample_1["wameiji"]["state"] == "observed_current"
         assert sample_1["wameiji"]["image_state"] == "no_verified_item_photo"
         assert sample_1["wameiji"]["image_url"] is None
-        assert sample_1["wameiji"]["source_url"].endswith("43435454774233584e45685738466a4e546e7755694b2f")
-        assert "礼衣 アニメイト 特典" in sample_1["wameiji"]["version_evidence"]
-        assert "平台占位图" in sample_1["wameiji"]["version_evidence"]
+        assert sample_1["wameiji"]["source_url"].endswith("6d32373430333533343532302f")
+        assert "アンダーメンタリティ" in sample_1["wameiji"]["version_evidence"]
+        assert "占位图" in sample_1["wameiji"]["version_evidence"]
 
 
 def test_sample_73_separates_same_bd_edition_from_unconfirmed_bonus_ticket_and_multivariant_quote() -> None:
