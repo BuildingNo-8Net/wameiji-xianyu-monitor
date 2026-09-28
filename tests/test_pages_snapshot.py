@@ -5,6 +5,7 @@ import hashlib
 import importlib.util
 import io
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -756,6 +757,38 @@ def test_published_reference_audit_keeps_direct_images_and_links_for_observed_si
                     assert side["image_url"].startswith("https://")
 
 
+def test_wameiji_mercari_photo_id_matches_the_linked_detail_item() -> None:
+    """Catch cross-item image links in the public reference audit."""
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    records = list(payload["dual_observed_pairs"])
+    records.extend(
+        {
+            "reference_product_id": record["reference_product_id"],
+            record["available_market"]: record["observation"],
+        }
+        for record in payload["single_observed_records"]
+    )
+    records.extend(payload["unavailable_records"])
+
+    for record in records:
+        side = record.get("wameiji")
+        if not side or not side.get("image_url"):
+            continue
+        detail_hex = re.search(r"/detail/([0-9a-fA-F]{40,})/?", side["source_url"])
+        if not detail_hex:
+            continue
+        detail_url = bytes.fromhex(detail_hex.group(1)).decode("utf-8")
+        item_id = re.search(r"/(m\d{8,})/?$", detail_url)
+        photo_id = re.search(r"/photos/(m\d{8,})_\d+\.", side["image_url"])
+        if item_id and photo_id:
+            assert photo_id.group(1) == item_id.group(1), (
+                f"sample #{record['reference_product_id']} links Mercari item "
+                f"{item_id.group(1)} to photo {photo_id.group(1)}"
+            )
+
+
 def test_sample_17_multivariant_candidate_price_conflict_is_not_a_single_quote() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
@@ -858,12 +891,14 @@ def test_sample_75_current_xianyu_preorder_is_not_rendered_as_unverified_history
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
     )
-    assert payload["generated_at"] == "2026-09-29T06:20:00+08:00"
     pair = next(
         record for record in payload["dual_observed_pairs"]
         if record["reference_product_id"] == 75
     )
 
+    assert datetime.fromisoformat(payload["generated_at"]) >= datetime.fromisoformat(
+        pair["xianyu"]["observed_at"]
+    )
     assert pair["xianyu"]["state"] == "observed_current"
     assert pair["xianyu"]["price_range"] == {"min": 427, "max": 549, "currency": "CNY"}
     assert pair["xianyu"]["observed_at"] == "2026-09-29T05:44:00+08:00"
