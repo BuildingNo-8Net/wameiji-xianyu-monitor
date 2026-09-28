@@ -989,7 +989,7 @@ def test_round8_sample_relations_are_evidence_backed_and_never_auto_compare_prof
         43: True,
         44: False,
         45: False,
-        42: True,
+        42: False,
         47: False,
         49: True,
         60: False,
@@ -1107,6 +1107,18 @@ def test_explicit_catalog_identifiers_are_not_left_only_inside_free_text_evidenc
                 continue
             assert rows[reference_id]["wameiji"]["catalog_no"] == catalog_no
             assert rows[reference_id]["wameiji"]["barcode"] == barcode
+
+
+def test_sample_42_image_conflict_is_not_published_as_verified_same_product() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        sample = next(row for row in snapshot[collection] if row["reference_product_id"] == 42)
+        assert sample["same_product_verified"] is False
+        assert sample["price_comparable"] is False
+        assert sample["wameiji"]["image_url"] is None
+        assert sample["wameiji"]["image_state"] == "no_verified_item_photo"
+        assert "DEATH DEVIL" in sample["relation_note"]
+        assert "撤销同款确认" in sample["relation_note"]
 
 
 def test_sample_120_has_current_linked_images_and_keeps_unverified_accessories_out_of_profit() -> None:
