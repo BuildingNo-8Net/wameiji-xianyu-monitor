@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T06:20:00+08:00",
+  "generated_at": "2026-09-29T06:39:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -17,7 +17,7 @@
     {
       "wameiji": "found",
       "xianyu": "found",
-      "count": 104
+      "count": 103
     },
     {
       "wameiji": "found",
@@ -27,7 +27,7 @@
     {
       "wameiji": "not_currently_listed",
       "xianyu": "found",
-      "count": 8
+      "count": 9
     },
     {
       "wameiji": "price_unfavorable",
@@ -3392,28 +3392,29 @@
       "relation_note": "文本证据复核：两侧均为ヨルシカ《幻燈》音乐画集专辑，闲鱼标题与详情明确对应；品相、外袋切口、腰封及QR使用情况未双侧对齐，不比较利润。",
       "wameiji": {
         "title": "【美品・帯あり】ヨルシカ 幻燈 音楽画集アルバム 加藤隆 アルバム",
-        "version_evidence": "2026-09-26 12:32（+08:00）内置浏览器重新打开挖煤姬详情：标题为ヨルシカ《幻燈》音乐画集，页面价11,999日元（约533人民币），近未使用，带腰封；国内运费卖家承担、手续费300日元、预计4–7日发货、无物流保障；页面仍显示可加入购物车/立即购买。详情称外袋开封且有较大切口，画集本体和腰封无明显伤折，QR只读过一次。直接打开首图链接后封面与样本同为《幻燈》，但页面明确提示图片可能与实物不同，因此只标页面参考图，不视作卖家实物照已核。",
+        "version_evidence": "2026-09-29 06:39（+08:00）内置浏览器复核：原挖煤姬链接标题仍为ヨルシカ《幻燈》音乐画集，但详情明确显示“已售出”，不再作为当前在售商品或现价。页面主图加载为挖煤姬占位图，不能作为商品图片。原历史记录价11,999日元；品相、腰封、外袋切口及QR使用信息仅代表已售旧记录。随后在挖煤姬站内搜索找到另一条在售《幻燈 ヨルシカ》候选，19,999日元，详情称CD且听过1-2次，但其页面主图同样未加载，内容版本/是否含音乐画集无法从可见证据确认，因此暂不替换成匹配项、不计利润，等待人工补核。",
         "catalog_no": null,
         "barcode": null,
-        "price": 11999,
+        "price": null,
+        "last_observed_price": 11999,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37363032323236343739332f",
-        "observed_at": "2026-09-26T12:32:00+08:00",
+        "observed_at": "2026-09-29T06:39:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m76022264793_1.jpg",
-        "image_state": "page_reference_image",
-        "state": "observed_current"
+        "image_url": null,
+        "image_state": "no_verified_item_photo",
+        "state": "not_currently_listed"
       },
       "xianyu": {
         "title": "夜鹿 幻灯 音乐画集",
-        "version_evidence": "2026-09-26 12:30（+08:00）内置浏览器重新打开闲鱼详情：夜鹿/ヨルシカ《幻燈》音乐画集，标题与正文写明加藤隆作画、Yorushika乐曲；450 CNY包邮，24人想要、页面显示1036浏览，并显示立即购买。直接打开首图链接后封面与样本均为《幻燈》音乐画集封面；本次页面未见可靠的品相、外袋、QR使用状态或特典信息，不据此补写。",
+        "version_evidence": "2026-09-29 06:39（+08:00）内置浏览器重新打开闲鱼详情：夜鹿/ヨルシカ《幻燈》音乐画集，标题与正文写明加藤隆作画、Yorushika乐曲；450 CNY包邮，25人想要、页面显示1067浏览，并显示立即购买。浏览器当前可见主图为《幻燈》音乐画集实拍封面，与参考样本的作品封面相符；本次页面未见可靠的品相、外袋、QR使用状态或特典信息，不据此补写。",
         "catalog_no": null,
         "barcode": null,
         "price": 450,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1066763813328&categoryId=126860296",
-        "observed_at": "2026-09-26T12:30:00+08:00",
+        "observed_at": "2026-09-29T06:39:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/4033685196/O1CN01IQA2po1oFp6wEO7XJ_!!4611686018427381452-53-xy_item.heic_Q90.jpg_.webp",
@@ -7769,28 +7770,29 @@
       "relation_note": "文本证据复核：两侧均为ヨルシカ《幻燈》音乐画集专辑，闲鱼标题与详情明确对应；品相、外袋切口、腰封及QR使用情况未双侧对齐，不比较利润。",
       "wameiji": {
         "title": "【美品・帯あり】ヨルシカ 幻燈 音楽画集アルバム 加藤隆 アルバム",
-        "version_evidence": "2026-09-26 12:32（+08:00）内置浏览器重新打开挖煤姬详情：标题为ヨルシカ《幻燈》音乐画集，页面价11,999日元（约533人民币），近未使用，带腰封；国内运费卖家承担、手续费300日元、预计4–7日发货、无物流保障；页面仍显示可加入购物车/立即购买。详情称外袋开封且有较大切口，画集本体和腰封无明显伤折，QR只读过一次。直接打开首图链接后封面与样本同为《幻燈》，但页面明确提示图片可能与实物不同，因此只标页面参考图，不视作卖家实物照已核。",
+        "version_evidence": "2026-09-29 06:39（+08:00）内置浏览器复核：原挖煤姬链接标题仍为ヨルシカ《幻燈》音乐画集，但详情明确显示“已售出”，不再作为当前在售商品或现价。页面主图加载为挖煤姬占位图，不能作为商品图片。原历史记录价11,999日元；品相、腰封、外袋切口及QR使用信息仅代表已售旧记录。随后在挖煤姬站内搜索找到另一条在售《幻燈 ヨルシカ》候选，19,999日元，详情称CD且听过1-2次，但其页面主图同样未加载，内容版本/是否含音乐画集无法从可见证据确认，因此暂不替换成匹配项、不计利润，等待人工补核。",
         "catalog_no": null,
         "barcode": null,
-        "price": 11999,
+        "price": null,
+        "last_observed_price": 11999,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d37363032323236343739332f",
-        "observed_at": "2026-09-26T12:32:00+08:00",
+        "observed_at": "2026-09-29T06:39:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://static.mercdn.net/item/detail/orig/photos/m76022264793_1.jpg",
-        "image_state": "page_reference_image",
-        "state": "observed_current"
+        "image_url": null,
+        "image_state": "no_verified_item_photo",
+        "state": "not_currently_listed"
       },
       "xianyu": {
         "title": "夜鹿 幻灯 音乐画集",
-        "version_evidence": "2026-09-26 12:30（+08:00）内置浏览器重新打开闲鱼详情：夜鹿/ヨルシカ《幻燈》音乐画集，标题与正文写明加藤隆作画、Yorushika乐曲；450 CNY包邮，24人想要、页面显示1036浏览，并显示立即购买。直接打开首图链接后封面与样本均为《幻燈》音乐画集封面；本次页面未见可靠的品相、外袋、QR使用状态或特典信息，不据此补写。",
+        "version_evidence": "2026-09-29 06:39（+08:00）内置浏览器重新打开闲鱼详情：夜鹿/ヨルシカ《幻燈》音乐画集，标题与正文写明加藤隆作画、Yorushika乐曲；450 CNY包邮，25人想要、页面显示1067浏览，并显示立即购买。浏览器当前可见主图为《幻燈》音乐画集实拍封面，与参考样本的作品封面相符；本次页面未见可靠的品相、外袋、QR使用状态或特典信息，不据此补写。",
         "catalog_no": null,
         "barcode": null,
         "price": 450,
         "currency": "CNY",
         "source_url": "https://www.goofish.com/item?id=1066763813328&categoryId=126860296",
-        "observed_at": "2026-09-26T12:30:00+08:00",
+        "observed_at": "2026-09-29T06:39:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
         "image_url": "https://img.alicdn.com/bao/uploaded/i2/4033685196/O1CN01IQA2po1oFp6wEO7XJ_!!4611686018427381452-53-xy_item.heic_Q90.jpg_.webp",
