@@ -1220,15 +1220,15 @@ def test_sample_50_keeps_multivariant_quote_unassigned_to_reference_product() ->
     assert pair["same_product_verified"] is False
     assert pair["price_comparable"] is False
     assert pair["xianyu"]["state"] == "not_currently_listed"
-    assert pair["xianyu"]["observed_at"] == "2026-09-28T23:42:00+08:00"
+    assert pair["xianyu"]["observed_at"] == "2026-09-29T00:49:00+08:00"
     assert pair["xianyu"]["price"] is None
     assert pair["xianyu"]["last_observed_price"] == 98
     assert pair["xianyu"]["price_range"] is None
     assert pair["xianyu"]["image_state"] == "no_verified_item_photo"
     assert pair["xianyu"]["image_url"] is None
     assert pair["xianyu"]["source_url"] == pair["xianyu"]["search_source_url"]
-    assert "结果页仅见中森明菜《CRIMSON》LP、渡边彻《约束》EP" in pair["xianyu"]["version_evidence"]
-    assert "目标CD+LP选项不在售" in pair["xianyu"]["version_evidence"]
+    assert "小闲鱼没有找到你想要的宝贝" in pair["xianyu"]["version_evidence"]
+    assert "原图¥98仅作历史挂牌" in pair["xianyu"]["version_evidence"]
     assert pair["wameiji"]["barcode"] is None
     assert pair["wameiji"]["price"] is None
     assert pair["wameiji"]["last_observed_price"] is None
@@ -1292,7 +1292,7 @@ def test_sample_1_keeps_related_tuyu_candidate_without_unverified_image() -> Non
         )
         assert pair["same_product_verified"] is False
         assert pair["price_comparable"] is False
-        assert pair["wameiji"]["state"] == "observed_current"
+        assert pair["wameiji"]["state"] == "observed_related"
         assert pair["wameiji"]["title"].startswith("ツユ 特典CD 礼衣でぃお")
         assert pair["wameiji"]["price"] == 8888
         assert pair["wameiji"]["source_url"] == expected_detail
