@@ -795,15 +795,15 @@ def test_sample_18_reference_is_single_volume_and_bundle_is_related_only() -> No
     )
 
     assert pair["same_product_verified"] is False
-    assert pair["wameiji"]["price"] == 19299
+    assert pair["wameiji"]["price"] == 19199
     assert pair["wameiji"]["state"] == "observed_current"
     assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
     assert pair["xianyu"]["state"] == "observed_related"
     assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
-    assert "参考图是壳之少女广播剧CD第三卷单碟盒装" in pair["relation_note"]
-    assert "四碟合售" in pair["relation_note"]
-    assert "非样本第三卷盒装单碟" in pair["relation_note"]
-    assert "闲鱼精确搜索当前只见" in pair["relation_note"]
+    assert "样本 #18 是《殻ノ少女》广播剧CD第三卷单碟盒装" in pair["relation_note"]
+    assert "四碟散碟合售" in pair["relation_note"]
+    assert "不是样本的第三卷盒装单碟" in pair["relation_note"]
+    assert "闲鱼 1063580553056 当前仍为¥900" in pair["relation_note"]
 
 
 def test_sample_19_stale_vol11_link_is_not_presented_as_active_vol14_inventory() -> None:

@@ -2235,10 +2235,11 @@ def test_sample_18_bundle_candidate_is_not_presented_as_the_reference_item() -> 
         assert sample_18["xianyu"]["image_state"] == "observed_first_gallery_image"
         assert "VOL.2与VOL.3各含DISC1/2的4张CD合售" in sample_18["xianyu"]["version_evidence"]
         assert "不含原盒/封面/歌词本" in sample_18["xianyu"]["version_evidence"]
-        assert sample_18["wameiji"]["price"] == 19299
+        assert sample_18["wameiji"]["price"] == 19199
         assert sample_18["wameiji"]["state"] == "observed_current"
         assert sample_18["wameiji"]["image_state"] == "observed_first_gallery_image"
         assert "第三巻 シェオルの殻" in sample_18["wameiji"]["version_evidence"]
+        assert "当前19,199 JPY" in sample_18["wameiji"]["version_evidence"]
         assert "页面显示加入购物车/立即购买" in sample_18["wameiji"]["version_evidence"]
         assert "search?q=%E5%A3%B3%E4%B9%8B%E5%B0%91%E5%A5%B3" in sample_18["xianyu"]["search_source_url"]
         assert "不比较利润" in sample_18["relation_note"]
