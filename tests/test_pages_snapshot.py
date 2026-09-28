@@ -779,7 +779,10 @@ def test_sample_17_multivariant_candidate_price_conflict_is_not_a_single_quote()
     assert "SIDE 2nd" in pair["relation_note"]
     assert pair["wameiji"]["image_url"] is None
     assert pair["wameiji"]["image_state"] == "no_verified_item_photo"
-    assert "Doorzo灰色占位图" in pair["wameiji"]["version_evidence"]
+    assert "Doorzo占位图" in pair["wameiji"]["version_evidence"]
+    assert pair["wameiji"]["state"] == "blocked"
+    assert pair["wameiji"]["price"] is None
+    assert pair["wameiji"]["last_observed_price"] == 13800
 
 
 def test_sample_18_reference_is_single_volume_and_bundle_is_related_only() -> None:

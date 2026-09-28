@@ -751,7 +751,8 @@ def test_sample_17_replaces_wrong_xianyu_listing_with_unlocked_multivariant_cand
         assert "未选中目标变体" in row["xianyu"]["version_evidence"]
         assert row["xianyu"]["image_url"] is None
         assert row["wameiji"]["title"].find("SIDE 2nd") >= 0
-        assert "图片可能与实物不同" in row["wameiji"]["version_evidence"]
+        assert "不支持该商品" in row["wameiji"]["version_evidence"]
+        assert row["wameiji"]["state"] == "blocked"
 
 
 def test_sample_15_keeps_rewrite_candidate_related_and_removes_stale_xianyu_price() -> None:
@@ -2034,17 +2035,18 @@ def test_sample_17_keeps_multivariant_xianyu_price_and_image_unverified() -> Non
         assert sample_17["xianyu"]["price"] is None
         assert sample_17["xianyu"]["price_range"] == {"min": 198, "max": 398, "currency": "CNY"}
         assert sample_17["xianyu"]["state"] == "observed_related"
-        assert sample_17["xianyu"]["observed_at"] == "2026-09-28T05:08:00+08:00"
+        assert sample_17["xianyu"]["observed_at"] == "2026-09-28T23:05:00+08:00"
         assert "326人想要/2万浏览" in sample_17["xianyu"]["version_evidence"]
         assert "未选中目标变体" in sample_17["xianyu"]["version_evidence"]
         assert "此前闲鱼859421708400只是泛称《Narcissu2》" in sample_17["relation_note"]
         assert "闲鱼新候选首图直链尚未核实" in sample_17["relation_note"]
         assert sample_17["xianyu"]["image_url"] is None
         assert sample_17["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
-        assert sample_17["wameiji"]["price"] == 13800
-        assert sample_17["wameiji"]["state"] == "observed_current"
-        assert sample_17["wameiji"]["observed_at"] == "2026-09-28T05:08:00+08:00"
-        assert "图片可能与实物不同" in sample_17["wameiji"]["version_evidence"]
+        assert sample_17["wameiji"]["price"] is None
+        assert sample_17["wameiji"]["last_observed_price"] == 13800
+        assert sample_17["wameiji"]["state"] == "blocked"
+        assert sample_17["wameiji"]["observed_at"] == "2026-09-28T23:05:00+08:00"
+        assert "不支持该商品" in sample_17["wameiji"]["version_evidence"]
         assert sample_17["wameiji"]["image_state"] == "no_verified_item_photo"
         assert sample_17["wameiji"]["image_url"] is None
         assert "不比较价差或利润" in sample_17["relation_note"]
