@@ -1921,8 +1921,8 @@ def test_sample_54_current_listings_and_mismatched_first_image_are_disclosed() -
         assert row["xianyu"]["image_url"] == "https://img.alicdn.com/bao/uploaded/i2/2211904345937/O1CN01Ny4P0cPJ1pI37rd6_!!4611686018427385681-0-xy_item.jpg_Q90.jpg_.webp"
         assert row["wameiji"]["image_state"] == "observed_first_gallery_image"
         assert row["xianyu"]["image_state"] == "observed_first_gallery_image"
-        assert "仍可加入购物车/立即购买" in row["wameiji"]["version_evidence"]
-        assert "291浏览" in row["xianyu"]["version_evidence"]
+        assert "仍显示加入购物车/立即购买" in row["wameiji"]["version_evidence"]
+        assert "296浏览" in row["xianyu"]["version_evidence"]
         assert "人物插图" in row["wameiji"]["version_evidence"]
         assert "图片不作为同款实物证明" in row["relation_note"]
 
