@@ -622,15 +622,12 @@
     const item = pair && typeof pair === "object" ? pair : {};
     const japaneseSource = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
     const xianyuEvidence = String(item.xianyu && item.xianyu.version_evidence || "");
-    const wameijiEvidence = String(japaneseSource.version_evidence || "");
-    const combinedEvidence = xianyuEvidence + " " + wameijiEvidence;
     const nonComparable = item.same_product_verified !== true
       || /历史错配|不是同一商品|不能当作单卷同款|附件不一致|不作同 SKU/.test(xianyuEvidence);
     const sourceStateUnmarked = !item.xianyu || !item.xianyu.state || !japaneseSource.state;
     const currentEvidenceUnavailable = sourceStateUnmarked || [item.xianyu, japaneseSource].some((source) => source && [
       "blocked", "login_required", "not_currently_listed", "current_sold_image",
-    ].includes(source.state))
-      || /未加载|无法重新确认|未能确认|未找到可核实的在售同款|无可核实在售同款|重定向至.*login|跨境商品请前往|页面仅显示|仅显示.*导航|只加载通用页面|无法看到|无法复核|已售|卖掉了|已下架|售罄/.test(combinedEvidence);
+    ].includes(source.state));
     // An explicit false means the selected price/option cannot be compared.
     // If a same-version pair has known prices but no such ambiguity flag, keep
     // the indicative arithmetic visible; the relation note still says it is

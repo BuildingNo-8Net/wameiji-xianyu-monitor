@@ -282,7 +282,7 @@ def test_sample_9_refreshes_incomplete_xianyu_and_labels_different_wameiji_editi
     assert "keywords=eden+minori+%E5%88%9D%E5%9B%9E" in wameiji["search_source_url"]
     assert "加入购物车/立即购买" in wameiji["version_evidence"]
     assert "PLUS MOSAIC封面" in sample_9["relation_note"]
-    assert "未找到可核实的在售同款" in javascript
+    assert "缺失侧人工检索暂未见可核对的在售同款" in javascript
     assert "查看站内检索结果" in javascript
 
 
@@ -593,6 +593,38 @@ def test_samples_10_and_11_use_the_latest_matching_evidence_timestamps() -> None
     assert "立即购买" in sample_11["xianyu"]["version_evidence"]
     assert 'const unpricedCurrentObservation = source.state === "observed_current"' in javascript
     assert "历史商品图 · 当前状态未核实" in javascript
+
+
+def test_historical_sold_notes_do_not_override_current_source_states_in_pair_card() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    sample_10 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 10)
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    renderer = javascript[
+        javascript.index("function referenceAuditPairMarkup") :
+        javascript.index("function referenceAuditSingleMarkup")
+    ]
+    harness = f"""
+const esc = (value) => String(value);
+const referenceAuditObservationMarkup = () => "";
+const referenceAuditCenterMarkup = (...args) => JSON.stringify(args);
+{renderer}
+const html = referenceAuditPairMarkup({json.dumps(sample_10, ensure_ascii=False)});
+if (!html.includes("样本 #10 · 已核验同版本 · 价格/选项未锁定")) {{
+  throw new Error("a current observed candidate must not be marked blocked because its evidence mentions the old sold listing");
+}}
+if (html.includes("当前证据受阻")) {{
+  throw new Error("historical sold/blocked notes must not override current source state");
+}}
+"""
+
+    result = subprocess.run(
+        ["node", "-e", harness],
+        text=True,
+        capture_output=True,
+        check=False,
+    )
+
+    assert result.returncode == 0, result.stderr or result.stdout
 
 
 def test_sample_59_sold_wameiji_item_has_no_invented_current_price() -> None:
