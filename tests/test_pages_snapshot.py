@@ -765,24 +765,24 @@ def test_sample_17_multivariant_candidate_price_conflict_is_not_a_single_quote()
         if record["reference_product_id"] == 17
     )
 
-    assert pair["same_product_verified"] is False
+    assert pair["same_product_verified"] is True
     assert pair["xianyu"]["price"] is None
     assert pair["xianyu"]["price_range"] == {"min": 198, "max": 398, "currency": "CNY"}
     assert pair["xianyu"]["state"] == "observed_related"
-    assert pair["xianyu"]["image_url"] is None
+    assert pair["xianyu"]["image_url"] == "https://img.alicdn.com/bao/uploaded/i2/O1CN01TJ2Iov1DiXdj3HUc4_!!0-fleamarket.jpg_790x10000Q90.jpg_.webp"
+    assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert pair["xianyu"]["source_url"].endswith("id=628389467723&categoryId=126864811")
     assert "左边2，带原声cd，168" in pair["xianyu"]["version_evidence"]
     assert "¥198–398" in pair["xianyu"]["version_evidence"]
     assert "未选中目标变体" in pair["xianyu"]["version_evidence"]
     assert "旧859421708400" not in pair["relation_note"]
-    assert "不比较价差或利润" in pair["relation_note"]
+    assert "不能取168作为成交/现价" in pair["relation_note"]
     assert "SIDE 2nd" in pair["relation_note"]
-    assert pair["wameiji"]["image_url"] is None
-    assert pair["wameiji"]["image_state"] == "no_verified_item_photo"
-    assert "Doorzo占位图" in pair["wameiji"]["version_evidence"]
-    assert pair["wameiji"]["state"] == "blocked"
-    assert pair["wameiji"]["price"] is None
-    assert pair["wameiji"]["last_observed_price"] == 13800
+    assert pair["wameiji"]["image_url"] == "https://assets.mercari-shops-static.com/-/large/plain/8BFxxaFrjQ4J59b88WvhUk.webp@jpg"
+    assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
+    assert pair["wameiji"]["state"] == "observed_current"
+    assert pair["wameiji"]["price"] == 13800
+    assert pair["wameiji"]["last_observed_price"] is None
 
 
 def test_sample_18_reference_is_single_volume_and_bundle_is_related_only() -> None:
@@ -845,7 +845,7 @@ def test_sample_20_matching_virtual_maiden_drama_cd_is_kept_as_observation() -> 
     assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
     assert "¥400包邮" in pair["xianyu"]["version_evidence"]
-    assert "189浏览" in pair["xianyu"]["version_evidence"]
+    assert "191浏览" in pair["xianyu"]["version_evidence"]
     assert "立即购买" in pair["xianyu"]["version_evidence"]
     assert "主图直链" in pair["wameiji"]["version_evidence"]
     assert pair["xianyu"]["price"] == 400
@@ -1160,10 +1160,10 @@ def test_sample_21_marks_both_live_kanon_pages_current_without_cross_sample_sear
         assert pair["wameiji"]["price"] == 2699
         assert pair["xianyu"]["price"] == 193
         assert "search_source_url" not in pair["wameiji"]
-        assert "178浏览" in pair["xianyu"]["version_evidence"]
+        assert "179浏览" in pair["xianyu"]["version_evidence"]
 
 
-def test_sample_24_deleted_wameiji_page_keeps_price_and_image_historical_only() -> None:
+def test_sample_24_refreshes_current_live_wameiji_listing_and_matching_first_images() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
     )
@@ -1176,12 +1176,14 @@ def test_sample_24_deleted_wameiji_page_keeps_price_and_image_historical_only() 
         )
         wameiji = pair["wameiji"]
         assert pair["price_comparable"] is False
-        assert wameiji["state"] == "not_currently_listed"
-        assert wameiji["price"] is None
-        assert wameiji["last_observed_price"] == 4800
-        assert wameiji["image_state"] == "historical_first_gallery_image"
-        assert "商品删除" in wameiji["version_evidence"]
+        assert wameiji["state"] == "observed_current"
+        assert wameiji["price"] == 4800
+        assert wameiji["last_observed_price"] is None
+        assert wameiji["image_state"] == "observed_first_gallery_image"
+        assert "3DISCS" in wameiji["version_evidence"]
+        assert pair["same_product_verified"] is True
         assert pair["xianyu"]["state"] == "observed_current"
+        assert "470浏览" in pair["xianyu"]["version_evidence"]
 
 
 def test_sample_48_keeps_live_signed_album_but_blocks_unselected_option_price_comparison() -> None:
@@ -1277,14 +1279,14 @@ def test_sample_125_replaces_wrong_gbc_pair_with_apothecary_diaries_reference_an
     assert "当前未找到在售结果" in pair["xianyu"]["version_evidence"]
 
 
-def test_sample_1_keeps_related_tuyu_candidate_without_unverified_image() -> None:
+def test_sample_1_links_exact_live_second_album_bonus_and_marks_catalog_image() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
     )
     expected_detail = (
         "https://www.meruki.cn/mall/mercari/detail/"
-        "68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f"
-        "6d32373430333533343532302f"
+        "68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f"
+        "324a576d5636537a613975347a415343516b7848714c2f"
     )
     for collection_name in ("dual_found_pairs", "dual_observed_pairs"):
         pair = next(
@@ -1292,13 +1294,18 @@ def test_sample_1_keeps_related_tuyu_candidate_without_unverified_image() -> Non
         )
         assert pair["same_product_verified"] is False
         assert pair["price_comparable"] is False
-        assert pair["wameiji"]["state"] == "observed_related"
-        assert pair["wameiji"]["title"].startswith("ツユ 特典CD 礼衣でぃお")
-        assert pair["wameiji"]["price"] == 8888
+        assert pair["wameiji"]["state"] == "observed_current"
+        assert pair["wameiji"]["title"].startswith("【中古】同人音楽CDソフト 貴方を不幸に誘いますね 特典CD")
+        assert pair["wameiji"]["price"] == 2272
         assert pair["wameiji"]["source_url"] == expected_detail
-        assert pair["wameiji"]["image_state"] == "no_verified_item_photo"
-        assert pair["wameiji"]["image_url"] is None
-        assert "占位图" in pair["relation_note"]
+        assert pair["wameiji"]["image_state"] == "page_reference_image"
+        assert pair["wameiji"]["image_url"] == (
+            "https://assets.mercari-shops-static.com/-/large/plain/"
+            "2JWmV6RtdbJJQBpGCR9HyB.webp@jpg"
+        )
+        assert "样本同版的日本侧当前观察" in pair["relation_note"]
+        assert "不视作卖家实拍或成色证明" in pair["wameiji"]["version_evidence"]
+        assert pair["price_comparable"] is False
         assert pair["xianyu"]["state"] == "not_currently_listed"
 
 
