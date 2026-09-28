@@ -520,6 +520,7 @@ def test_publish_image_allowlist_covers_verified_wameiji_marketplace_cdns() -> N
     assert {
         "auctions.c.yimg.jp",
         "thumbnail.image.rakuten.co.jp",
+        "tshop.r10s.jp",
         "assets.mercari-shops-static.com",
         "static.312588698.com",
         "static.mercdn.net",

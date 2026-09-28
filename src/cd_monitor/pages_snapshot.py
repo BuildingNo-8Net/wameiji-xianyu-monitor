@@ -26,6 +26,7 @@ ALLOWED_IMAGE_HOSTS = frozenset(
         "img.alicdn.com",
         "auctions.c.yimg.jp",
         "thumbnail.image.rakuten.co.jp",
+        "tshop.r10s.jp",
         "assets.mercari-shops-static.com",
         "static.312588698.com",
         "static.mercdn.net",

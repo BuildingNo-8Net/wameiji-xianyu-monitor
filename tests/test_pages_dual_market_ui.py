@@ -271,7 +271,7 @@ def test_sample_9_refreshes_incomplete_xianyu_and_labels_different_wameiji_editi
     assert wameiji["price"] == 28000
     assert wameiji["observed_at"] == "2026-09-28T02:55:00+08:00"
     assert wameiji["currency"] == "JPY"
-    assert wameiji["image_url"] == "https://imghk.doorzo.net/item/detail/orig/photos/m25204356827_1.jpg?1790093141"
+    assert wameiji["image_url"] == "https://static.312588698.com/thumb/item/webp/m25204356827_1.jpg?1790093141"
     assert wameiji["image_state"] == "observed_first_gallery_image"
     assert "/mall/mercari/detail/" in wameiji["source_url"]
     assert "search_source_url" in wameiji
@@ -993,10 +993,10 @@ def test_round8_sample_relations_are_evidence_backed_and_never_auto_compare_prof
         assert sample_64["xianyu"]["state"] == "observed_current"
         assert sample_64["wameiji"]["image_state"] == "observed_first_gallery_image"
         assert sample_64["xianyu"]["image_state"] == "observed_first_gallery_image"
-        assert sample_64["wameiji"]["observed_at"] == "2026-09-27T01:37:00+08:00"
+        assert sample_64["wameiji"]["observed_at"] == "2026-09-28T08:02:00+08:00"
         assert sample_64["xianyu"]["observed_at"] == "2026-09-27T01:37:00+08:00"
         assert "歌词本及CD/DVD双碟" in sample_64["relation_note"]
-        assert sample_64["wameiji"]["image_url"].startswith("https://image03.doorzo.net/")
+        assert sample_64["wameiji"]["image_url"] == "https://static.312588698.com/thumb/item/webp/m42956021178_1.jpg?1776008640"
         sample_65 = next(row for row in snapshot[collection_name] if row["reference_product_id"] == 65)
         assert sample_65["same_product_verified"] is False
         assert sample_65["price_comparable"] is False
@@ -1587,11 +1587,11 @@ def test_sample_57_removes_wrong_pokemon_match_and_keeps_only_verified_related_l
 
         wameiji = sample["wameiji"]
         assert "\u7f85\u5c0f\u9ed2\u6226\u8a18\uff12" in wameiji["title"]
-        assert wameiji["price"] == 15895
-        assert "当前15,895 JPY" in wameiji["version_evidence"]
+        assert wameiji["price"] == 15987
+        assert "当前15,987 JPY" in wameiji["version_evidence"]
         assert wameiji["state"] == "observed_related"
         assert "rakuten/detail" in wameiji["source_url"]
-        assert "image03.doorzo.net/tshopr10sjp/sproutsllc" in wameiji["image_url"]
+        assert wameiji["image_url"].startswith("https://tshop.r10s.jp/sproutsllc/cabinet/r20260904035448/b0h1ht74c7-1.jpg")
         assert "\u5b9d\u53ef\u68a6" not in wameiji["title"]
 
         xianyu = sample["xianyu"]
@@ -2236,9 +2236,12 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
         "https://imghk02.doorzo.net/item/detail/orig/photos/",
         "https://image03.doorzo.net/item/detail/orig/photos/",
         "https://static.312588698.com/thumb/item/webp/m58456548085_1.jpg?1782981491",
+        "https://static.312588698.com/thumb/item/webp/m25204356827_1.jpg?1790093141",
+        "https://static.312588698.com/thumb/item/webp/m42956021178_1.jpg?1776008640",
+        "https://tshop.r10s.jp/sproutsllc/cabinet/r20260904035448/b0h1ht74c7-1.jpg",
     )
     assert sum(str(row.get("image_url", "")).startswith(direct_marketplace_images) for row in mercari_item_rows) >= 40
-    assert sum(str(row.get("image_url", "")).startswith("https://static.312588698.com/thumb/item/webp/") for row in mercari_item_rows) == 1
+    assert sum(str(row.get("image_url", "")).startswith("https://static.312588698.com/thumb/item/webp/") for row in mercari_item_rows) == 3
     sample_50 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
     assert sample_50["same_product_verified"] is False
     assert sample_50["price_comparable"] is False
