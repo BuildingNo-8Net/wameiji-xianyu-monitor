@@ -529,6 +529,21 @@ def test_sample_41_keeps_unselected_xianyu_option_and_uses_verified_live_wameiji
     assert "售罄" not in sample_41["wameiji"]["version_evidence"]
 
 
+def test_sample_40_removes_unrelated_kobukuro_cd_from_aoi_tori_game_observation() -> None:
+    snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
+    sample_40 = next(row for row in snapshot["single_observed_records"] if row["reference_product_id"] == 40)
+
+    assert sample_40["counterpart_state"] == "not_currently_listed"
+    assert sample_40["observation"]["price"] == 500
+    assert sample_40["observation"]["observed_at"] == "2026-09-28T20:38:00+08:00"
+    assert "アオイトリ Purple software" in sample_40["observation"]["version_evidence"]
+    assert sample_40["wameiji"]["state"] == "not_currently_listed"
+    assert sample_40["wameiji"]["price"] is None
+    assert sample_40["wameiji"]["image_url"] is None
+    assert "コブクロ" in sample_40["wameiji"]["version_evidence"]
+    assert "WPCL-10932" in sample_40["wameiji"]["version_evidence"]
+
+
 def test_samples_10_and_11_use_the_latest_matching_evidence_timestamps() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
@@ -1578,8 +1593,8 @@ def test_sample_52_current_yorushika_links_keep_condition_mismatch_explicit() ->
         assert sample["same_product_verified"] is True
         assert sample["wameiji"]["price"] == 30000
         assert sample["xianyu"]["price"] == 480
-        assert "935浏览" in sample["xianyu"]["version_evidence"]
-        assert "闲鱼有损、挖煤姬标未使用" in sample["xianyu"]["version_evidence"]
+        assert "963浏览" in sample["xianyu"]["version_evidence"]
+        assert "成色不等价" in sample["relation_note"]
         assert sample["xianyu"]["image_url"].endswith(".webp")
 
 
@@ -1615,15 +1630,13 @@ def test_sample_58_lisa_listing_does_not_claim_unverified_edition_a_match() -> N
         assert sample["same_product_verified"] is False
         assert sample["wameiji"]["catalog_no"] == "VVCL-1703"
         assert sample["wameiji"]["price"] == 1111
-        assert sample["xianyu"]["price"] is None
-        assert sample["xianyu"]["last_observed_price"] == 145
-        assert sample["xianyu"]["state"] == "blocked"
-        assert sample["xianyu"]["observed_at"] == "2026-09-27T03:42:00+08:00"
-        assert "54浏览" in sample["xianyu"]["version_evidence"]
+        assert sample["xianyu"]["price"] == 145
+        assert sample["xianyu"]["state"] == "observed_current"
+        assert sample["xianyu"]["observed_at"] == "2026-09-28T20:16:51+08:00"
+        assert "55浏览" in sample["xianyu"]["version_evidence"]
         assert "1051289253288" in sample["xianyu"]["version_evidence"]
         assert "145 CNY" in sample["xianyu"]["version_evidence"]
         assert "1051289253288" in sample["relation_note"]
-        assert "VVCL-1703" in sample["relation_note"]
         assert "VVCL-1703" in sample["relation_note"]
 
 
@@ -1871,13 +1884,13 @@ def test_sample_55_does_not_assign_one_price_or_real_item_photo_to_uncertain_var
             else "observed_first_gallery_image"
         )
         assert row["wameiji"]["image_state"] == "page_reference_image"
-        assert row["wameiji"]["price"] == 1610
-        assert row["wameiji"]["state"] == "observed_current"
+        assert row["wameiji"]["price"] is None
+        assert row["wameiji"]["state"] == "current_sold_image"
         assert row["xianyu"]["state"] == "blocked"
-        assert row["wameiji"]["observed_at"] == "2026-09-28T00:55:00+08:00"
+        assert row["wameiji"]["observed_at"] == "2026-09-28T20:08:29+08:00"
         assert "图片仅为示例" in row["wameiji"]["version_evidence"]
-        assert "不能确认具体版本" in row["relation_note"]
-        assert "不能用挖煤姬示例图证明实物" in row["relation_note"]
+        assert "当前商品状态不可核" in row["relation_note"]
+        assert "不能把示例图当实物证明" in row["relation_note"]
 
 
 def test_sample_47_live_candidate_is_not_promoted_to_verified_same_product() -> None:
