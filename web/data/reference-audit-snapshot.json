@@ -1198,7 +1198,7 @@
       },
       "xianyu": {
         "title": "削除 ∀rkadia sakuzyo 专辑CD 阿卡迪亚",
-        "version_evidence": "2026-09-28 05:44 内置浏览器复核：原替代链接1085787502992详情页显示“已下架”。站内搜索后打开新候选687375217838，页面现显示¥350、14人想要、2075浏览和立即购买按钮；标题为“削除 ∀rkadia sakuzyo 专辑CD 阿卡迪亚”，卖家文案称感兴趣可点想要并私聊。商品主图在页面中可见，与样本及挖煤姬封面为同一专辑图案；但该候选未列品番/曲目，实物附件及成色无法确认，且当前主图直链尚未人工核验，故不沿用旧商品图链接。",
+        "version_evidence": "2026-09-28 05:44 内置浏览器复核：原替代链接1085787502992详情页显示“已下架”。站内搜索后打开新候选687375217838，页面现显示¥350、14人想要、2075浏览和立即购买按钮；标题为“削除 ∀rkadia sakuzyo 专辑CD 阿卡迪亚”，卖家文案称感兴趣可点想要并私聊。商品主图在页面中可见，与样本及挖煤姬封面为同一专辑图案。2026-09-28 内置浏览器打开闲鱼页实际首图直链并与商品页/样本封面目视比对一致；该图片只证明封面对应，不证明品番、曲目、实物附件或成色，交易需私聊确认。",
         "catalog_no": null,
         "barcode": null,
         "price": 350,
@@ -1207,8 +1207,8 @@
         "observed_at": "2026-09-27T21:44:04Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": null,
-        "image_state": "no_verified_item_photo",
+        "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN016zJoMt21VTHnrOwh9_!!0-fleamarket.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_main_image",
         "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
@@ -5363,7 +5363,7 @@
       },
       "xianyu": {
         "title": "削除 ∀rkadia sakuzyo 专辑CD 阿卡迪亚",
-        "version_evidence": "2026-09-28 05:44 内置浏览器复核：原替代链接1085787502992详情页显示“已下架”。站内搜索后打开新候选687375217838，页面现显示¥350、14人想要、2075浏览和立即购买按钮；标题为“削除 ∀rkadia sakuzyo 专辑CD 阿卡迪亚”，卖家文案称感兴趣可点想要并私聊。商品主图在页面中可见，与样本及挖煤姬封面为同一专辑图案；但该候选未列品番/曲目，实物附件及成色无法确认，且当前主图直链尚未人工核验，故不沿用旧商品图链接。",
+        "version_evidence": "2026-09-28 05:44 内置浏览器复核：原替代链接1085787502992详情页显示“已下架”。站内搜索后打开新候选687375217838，页面现显示¥350、14人想要、2075浏览和立即购买按钮；标题为“削除 ∀rkadia sakuzyo 专辑CD 阿卡迪亚”，卖家文案称感兴趣可点想要并私聊。商品主图在页面中可见，与样本及挖煤姬封面为同一专辑图案。2026-09-28 内置浏览器打开闲鱼页实际首图直链并与商品页/样本封面目视比对一致；该图片只证明封面对应，不证明品番、曲目、实物附件或成色，交易需私聊确认。",
         "catalog_no": null,
         "barcode": null,
       "price": 350,
@@ -5372,8 +5372,8 @@
         "observed_at": "2026-09-27T21:44:04Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-      "image_url": null,
-        "image_state": "no_verified_item_photo",
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/O1CN016zJoMt21VTHnrOwh9_!!0-fleamarket.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_main_image",
         "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/46-3dc0c3015607abe3.webp"
