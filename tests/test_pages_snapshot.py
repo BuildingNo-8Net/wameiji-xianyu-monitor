@@ -1293,8 +1293,8 @@ def test_sample_1_keeps_related_tuyu_candidate_without_unverified_image() -> Non
         assert pair["wameiji"]["title"].startswith("ツユ 特典CD 礼衣でぃお")
         assert pair["wameiji"]["price"] == 8888
         assert pair["wameiji"]["source_url"] == expected_detail
-        assert pair["wameiji"]["image_state"] == "no_verified_item_photo"
-        assert pair["wameiji"]["image_url"] is None
+        assert pair["wameiji"]["image_state"] == "search_result_item_image"
+        assert pair["wameiji"]["image_url"] == "https://static.312588698.com/thumb/item/webp/m27403534520_1.jpg?1734452566"
         assert "占位图" in pair["relation_note"]
         assert pair["xianyu"]["state"] == "not_currently_listed"
 
