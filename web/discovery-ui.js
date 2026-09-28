@@ -415,8 +415,15 @@
     const image = versionedAuditImageUrl(auditObservationImage(source));
     const title = esc(source.title || "未命名商品记录");
     const sourceStateUnmarked = !source.state;
+    const priceRange = source.price_range && typeof source.price_range === "object"
+      ? source.price_range
+      : null;
+    const rangeMin = priceRange && Number(priceRange.min);
+    const rangeMax = priceRange && Number(priceRange.max);
+    const hasPriceRange = Number.isFinite(rangeMin) && Number.isFinite(rangeMax) && rangeMin <= rangeMax;
     const unpricedCurrentObservation = source.state === "observed_current"
-      && (source.price === null || source.price === undefined || source.price === "");
+      && (source.price === null || source.price === undefined || source.price === "")
+      && !hasPriceRange;
     const sourceUnavailable = sourceStateUnmarked || unpricedCurrentObservation || ["blocked", "login_required", "not_currently_listed", "current_sold_image"]
       .includes(source.state);
     const priceValue = source.price === null || source.price === undefined || source.price === ""
@@ -424,12 +431,6 @@
       : sourceStateUnmarked && source.last_observed_price !== null && source.last_observed_price !== undefined
         ? source.last_observed_price
       : source.price;
-    const priceRange = source.price_range && typeof source.price_range === "object"
-      ? source.price_range
-      : null;
-    const rangeMin = priceRange && Number(priceRange.min);
-    const rangeMax = priceRange && Number(priceRange.max);
-    const hasPriceRange = Number.isFinite(rangeMin) && Number.isFinite(rangeMax) && rangeMin <= rangeMax;
     const price = hasPriceRange
       ? (currency === "JPY" ? jpy(rangeMin, displayJpyCnyRate()) + " – " + jpy(rangeMax, displayJpyCnyRate()) : cny(rangeMin) + " – " + cny(rangeMax))
       : currency === "JPY" ? jpy(priceValue, displayJpyCnyRate()) : cny(priceValue);
@@ -554,6 +555,8 @@
     const purchaseRangeMin = purchaseRange && Number(purchaseRange.min);
     const purchaseRangeMax = purchaseRange && Number(purchaseRange.max);
     const purchaseRangeKnown = Number.isFinite(purchaseRangeMin) && Number.isFinite(purchaseRangeMax) && purchaseRangeMin <= purchaseRangeMax && Number.isFinite(rate) && rate > 0;
+    const saleQuoteKnown = saleKnown || saleRangeKnown;
+    const purchaseQuoteKnown = purchaseKnown || purchaseRangeKnown;
     const xianyuUnavailable = !xianyu || !xianyu.state
       || ["blocked", "login_required", "not_currently_listed", "current_sold_image"].includes(xianyu.state);
     const wameijiUnavailable = !wameiji || !wameiji.state
@@ -589,19 +592,19 @@
     const detail = unavailable
       ? "至少一侧已售、下架、登录受阻或详情未能核实；保留历史挂牌价作样本线索，不作为当前报价或利润依据。"
       : stateUnmarked
-      ? !saleKnown && purchaseKnown
+      ? !saleQuoteKnown && purchaseQuoteKnown
         ? "闲鱼侧无可售价格；挖煤姬报价仅作观察参考。至少一侧状态未标注，挂牌价不视为当前报价；不比较价差或利润。"
-        : saleKnown && !purchaseKnown
+        : saleQuoteKnown && !purchaseQuoteKnown
           ? "挖煤姬侧无可核对价格；闲鱼挂牌价仅作历史观察。至少一侧状态未标注，不视为当前报价；不比较价差或利润。"
           : "至少一侧缺少明确的现售/下架状态；保留链接和挂牌价作历史观察，不视为当前报价；未证同款不比较价差或利润。"
       : priceUnresolved
       ? "商品版本已核对，但挂牌页存在多选项/价格区间或附加费用未锁定；分别保留来源报价，不计算价差或利润。"
       : !comparable
-      ? saleKnown && purchaseKnown
+      ? saleQuoteKnown && purchaseQuoteKnown
         ? "两侧挂牌价分别保留作样本参考；未确认是同一商品/版本，价差和利润不适用。"
-        : !saleKnown && purchaseKnown
+        : !saleQuoteKnown && purchaseQuoteKnown
           ? "闲鱼侧无可售价格；挖煤姬报价仅作观察参考，不计算价差或利润。"
-          : saleKnown && !purchaseKnown
+          : saleQuoteKnown && !purchaseQuoteKnown
             ? "挖煤姬侧无可用报价；闲鱼挂牌价仅作观察参考，不计算价差或利润。"
             : "两侧当前可用价格均未核实；仅保留链接和参考图，不计算价差或利润。"
       : saleKnown && purchaseKnown
