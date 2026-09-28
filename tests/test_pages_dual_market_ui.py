@@ -833,8 +833,8 @@ def test_sample_1_keeps_unverified_tuyu_bonus_cd_as_related_not_same_product() -
         assert sample_1["wameiji"]["observed_at"] == "2026-09-28T18:22:00+08:00"
         assert sample_1["wameiji"]["title"] == "ツユ 特典CD 礼衣でぃお（Under Mentality 相关候选）"
         assert sample_1["wameiji"]["price"] == 8888
-        assert sample_1["wameiji"]["image_state"] == "no_verified_item_photo"
-        assert sample_1["wameiji"]["image_url"] is None
+        assert sample_1["wameiji"]["image_state"] == "search_result_item_image"
+        assert sample_1["wameiji"]["image_url"] == "https://static.312588698.com/thumb/item/webp/m27403534520_1.jpg?1734452566"
         assert sample_1["xianyu"]["state"] == "not_currently_listed"
         assert sample_1["xianyu"]["last_observed_price"] == 100
         assert sample_1["xianyu"]["image_url"] is None
@@ -2119,11 +2119,12 @@ def test_sample_1_keeps_historical_xianyu_sample_separate_from_current_related_w
         assert sample_1["wameiji"]["price"] == 8888
         assert sample_1["wameiji"]["observed_at"] == "2026-09-28T18:22:00+08:00"
         assert sample_1["wameiji"]["state"] == "observed_current"
-        assert sample_1["wameiji"]["image_state"] == "no_verified_item_photo"
-        assert sample_1["wameiji"]["image_url"] is None
+        assert sample_1["wameiji"]["image_state"] == "search_result_item_image"
+        assert sample_1["wameiji"]["image_url"] == "https://static.312588698.com/thumb/item/webp/m27403534520_1.jpg?1734452566"
         assert sample_1["wameiji"]["source_url"].endswith("6d32373430333533343532302f")
         assert "アンダーメンタリティ" in sample_1["wameiji"]["version_evidence"]
         assert "占位图" in sample_1["wameiji"]["version_evidence"]
+        assert "搜索结果商品图" in sample_1["wameiji"]["version_evidence"]
 
 
 def test_sample_73_separates_same_bd_edition_from_unconfirmed_bonus_ticket_and_multivariant_quote() -> None:
@@ -2240,7 +2241,7 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
         "https://tshop.r10s.jp/sproutsllc/cabinet/r20260904035448/b0h1ht74c7-1.jpg",
     )
     assert sum(str(row.get("image_url", "")).startswith(direct_marketplace_images) for row in mercari_item_rows) >= 40
-    assert sum(str(row.get("image_url", "")).startswith("https://static.312588698.com/thumb/item/webp/") for row in mercari_item_rows) == 3
+    assert sum(str(row.get("image_url", "")).startswith("https://static.312588698.com/thumb/item/webp/") for row in mercari_item_rows) == 4
     sample_50 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 50)
     assert sample_50["same_product_verified"] is False
     assert sample_50["price_comparable"] is False
