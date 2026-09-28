@@ -267,12 +267,13 @@ def test_sample_9_refreshes_incomplete_xianyu_and_labels_different_wameiji_editi
     assert sample_9["xianyu"]["last_observed_price"] == 450
     assert sample_9["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert sample_9["xianyu"]["image_url"].startswith("https://img.alicdn.com/bao/uploaded/")
-    assert wameiji["state"] == "observed_related"
-    assert wameiji["price"] == 28000
-    assert wameiji["observed_at"] == "2026-09-28T02:55:00+08:00"
+    assert wameiji["state"] == "not_currently_listed"
+    assert wameiji["price"] is None
+    assert wameiji["last_observed_price"] == 28000
+    assert wameiji["observed_at"] == "2026-09-28T22:05:00+08:00"
     assert wameiji["currency"] == "JPY"
     assert wameiji["image_url"] == "https://static.312588698.com/thumb/item/webp/m25204356827_1.jpg?1790093141"
-    assert wameiji["image_state"] == "observed_first_gallery_image"
+    assert wameiji["image_state"] == "historical_first_gallery_image"
     assert "/mall/mercari/detail/" in wameiji["source_url"]
     assert "search_source_url" in wameiji
     assert "eden PLUS MOSAIC ソフマップ限定版" in wameiji["version_evidence"]
@@ -280,7 +281,7 @@ def test_sample_9_refreshes_incomplete_xianyu_and_labels_different_wameiji_editi
     assert "28,000 JPY的“eden PLUS MOSAIC" in sample_9["relation_note"]
     assert "不比较价格或利润" in sample_9["relation_note"]
     assert "keywords=eden+minori+%E5%88%9D%E5%9B%9E" in wameiji["search_source_url"]
-    assert "加入购物车/立即购买" in wameiji["version_evidence"]
+    assert "商品删除" in wameiji["version_evidence"]
     assert "PLUS MOSAIC封面" in sample_9["relation_note"]
     assert "缺失侧人工检索暂未见可核对的在售同款" in javascript
     assert "查看站内检索结果" in javascript

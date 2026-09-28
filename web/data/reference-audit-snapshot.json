@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T21:24:00+08:00",
+  "generated_at": "2026-09-28T22:05:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -4291,22 +4291,23 @@
       "stable_key": "sample:041a5116df1fb97ae1e1b9d3dca066b866cfc1150427596716d096355c90f6ef",
       "price_comparable": false,
       "same_product_verified": false,
-      "relation_note": "2026-09-28 02:55 重新按参考样本核对：闲鱼商品1050892358760当前¥450并显示立即购买，但卖家明确写缺内箱、卡牌，且多出一张CD来源未证，与样本“八角尖尖东西齐全”附件不符，仅作当前相关观察。挖煤姬精确检索“eden* they were only two 初回限定版 minori”无结果；放宽检索仅找到现售28,000 JPY的“eden PLUS MOSAIC ソフマップ限定版”，首图直链显示另一款PLUS MOSAIC封面，不能冒充样本中的初回限定游戏，作为同系列相关观察保留。旧《eden* TRIAL DISC》与旧53,609 JPY记录均不作当前目标同款。两侧不是同一完整套装，不比较价格或利润。",
+      "relation_note": "2026-09-28 02:55 重新按参考样本核对：闲鱼商品1050892358760当前¥450并显示立即购买，但卖家明确写缺内箱、卡牌，且多出一张CD来源未证，与样本“八角尖尖东西齐全”附件不符，仅作当前相关观察。挖煤姬精确检索“eden* they were only two 初回限定版 minori”无结果；放宽检索仅找到现售28,000 JPY的“eden PLUS MOSAIC ソフマップ限定版”，首图直链显示另一款PLUS MOSAIC封面，不能冒充样本中的初回限定游戏，作为同系列相关观察保留。旧《eden* TRIAL DISC》与旧53,609 JPY记录均不作当前目标同款。2026-09-28 22:05 内置浏览器重开挖煤姬商品页m25204356827，页面现显示“商品删除”；另行打开已记录的第一张图直链，仍显示eden* PLUS MOSAIC封面。将挖煤姬侧改为已下架历史相关观察，保留真实历史首图但不再显示为现货/现价。两侧不是同一完整套装，不比较价格或利润。",
       "wameiji": {
-        "title": "eden PLUS MOSAIC ソフマップ限定版 minori",
-        "version_evidence": "2026-09-28 02:55 内置浏览器重新搜索并打开挖煤姬Mercari结果：精确检索“eden* they were only two 初回限定版 minori”无结果；放宽为“eden minori 初回限定版 PCゲーム”后当前仅见此商品，标题eden PLUS MOSAIC ソフマップ限定版 minori，28,000 JPY，接近未使用，页面仍显示加入购物车/立即购买，日本国内运费卖家承担、手续费300 JPY、无物流保障。详情首图直链已从当前渲染商品页打开，显示印有eden* PLUS MOSAIC的盒装封面；它不是参考图中“eden* 初回限定”八角完整套装，故只作同系列相关观察。此前2,500 JPY的TRIAL DISC和旧53,609 JPY页面都不是该完整套装，不作为当前匹配。",
+        "title": "【已下架】eden PLUS MOSAIC ソフマップ限定版 minori（历史相关观察）",
+        "version_evidence": "2026-09-28 02:55 内置浏览器重新搜索并打开挖煤姬Mercari结果：精确检索“eden* they were only two 初回限定版 minori”无结果；放宽为“eden minori 初回限定版 PCゲーム”后曾见此商品，标题eden PLUS MOSAIC ソフマップ限定版 minori，历史挂牌28,000 JPY。详情首图直链显示印有eden* PLUS MOSAIC的盒装封面；它不是参考图中“eden* 初回限定”八角完整套装，只作同系列相关观察。2026-09-28 22:05 内置浏览器重开原挖煤姬商品页m25204356827，页面已明确显示“商品删除”；第一张图片直链仍可打开并显示eden* PLUS MOSAIC封面。故只保留为下架历史相关观察，28,000 JPY为历史挂牌价，不是现价或可购买库存。",
         "catalog_no": null,
         "barcode": null,
         "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f6d32353230343335363832372f",
         "search_source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&website=mercari&keywords=eden+minori+%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A%E7%89%88+PC%E3%82%B2%E3%83%BC%E3%83%A0",
-        "observed_at": "2026-09-28T02:55:00+08:00",
+        "observed_at": "2026-09-28T22:05:00+08:00",
         "marketplace_host": "meruki.cn",
         "is_wameiji_platform": true,
       "image_url": "https://static.312588698.com/thumb/item/webp/m25204356827_1.jpg?1790093141",
-        "image_state": "observed_first_gallery_image",
-        "price": 28000,
+      "image_state": "historical_first_gallery_image",
+        "price": null,
+        "last_observed_price": 28000,
         "currency": "JPY",
-        "state": "observed_related"
+        "state": "not_currently_listed"
       },
       "xianyu": {
         "title": "eden初回限定（当前可购买；缺内箱、卡牌）",
