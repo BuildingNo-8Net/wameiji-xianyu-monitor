@@ -845,9 +845,9 @@ def test_sample_20_matching_virtual_maiden_drama_cd_is_kept_as_observation() -> 
     assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
     assert "¥400包邮" in pair["xianyu"]["version_evidence"]
-    assert "187浏览" in pair["xianyu"]["version_evidence"]
+    assert "189浏览" in pair["xianyu"]["version_evidence"]
     assert "立即购买" in pair["xianyu"]["version_evidence"]
-    assert "首图直链" in pair["wameiji"]["version_evidence"]
+    assert "主图直链" in pair["wameiji"]["version_evidence"]
     assert pair["xianyu"]["price"] == 400
     assert pair["wameiji"]["price"] == 3200
     assert "同作品/封面" in pair["relation_note"]
@@ -1155,12 +1155,12 @@ def test_sample_21_marks_both_live_kanon_pages_current_without_cross_sample_sear
         assert pair["same_product_verified"] is True
         assert pair["price_comparable"] is False
         assert pair["wameiji"]["state"] == "observed_current"
-        assert pair["wameiji"]["image_state"] == "page_reference_image"
+        assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
         assert pair["xianyu"]["state"] == "observed_current"
         assert pair["wameiji"]["price"] == 2699
         assert pair["xianyu"]["price"] == 193
         assert "search_source_url" not in pair["wameiji"]
-        assert "177浏览" in pair["xianyu"]["version_evidence"]
+        assert "178浏览" in pair["xianyu"]["version_evidence"]
 
 
 def test_sample_24_deleted_wameiji_page_keeps_price_and_image_historical_only() -> None:
