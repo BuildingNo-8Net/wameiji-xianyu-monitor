@@ -1539,18 +1539,18 @@ def test_samples_23_to_25_refresh_current_status_and_preserve_match_limits() -> 
 
         candidate = rows[23]
         assert candidate["same_product_verified"] is True
-        assert candidate["xianyu"]["price"] is None
-        assert candidate["xianyu"]["last_observed_price"] == 60
-        assert candidate["xianyu"]["observed_at"] == "2026-09-26T05:30:00+08:00"
-        assert candidate["xianyu"]["state"] == "blocked"
-        assert candidate["xianyu"]["image_url"] is None
-        assert candidate["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
-        assert "候选¥60" in candidate["xianyu"]["version_evidence"]
-        assert "05:30重开原详情" in candidate["xianyu"]["version_evidence"]
-        assert "滑块验证" in candidate["xianyu"]["version_evidence"]
+        assert candidate["xianyu"]["price"] == 60
+        assert candidate["xianyu"]["last_observed_price"] is None
+        assert candidate["xianyu"]["observed_at"] == "2026-09-28T21:03:00+08:00"
+        assert candidate["xianyu"]["state"] == "observed_current"
+        assert candidate["xianyu"]["image_url"].startswith("https://img.alicdn.com/bao/uploaded/i1/3423267827/")
+        assert candidate["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert "10浏览" in candidate["xianyu"]["version_evidence"]
+        assert "页面显示立即购买" in candidate["xianyu"]["version_evidence"]
         assert "JAN" in candidate["wameiji"]["version_evidence"]
         assert candidate["wameiji"]["state"] == "observed_current"
         assert candidate["wameiji"]["image_state"] == "page_reference_image"
+        assert candidate["wameiji"]["observed_at"] == "2026-09-28T21:03:00+08:00"
         assert "JAN 4988102218560" in candidate["wameiji"]["version_evidence"]
 
         uncertain = rows[24]
@@ -2011,24 +2011,24 @@ def test_sample_17_keeps_multivariant_xianyu_price_and_image_unverified() -> Non
         assert "SIDE 2nd" in sample_17["relation_note"]
 
 
-def test_sample_23_keeps_search_price_historical_when_detail_is_captcha_blocked() -> None:
+def test_sample_23_refreshes_current_xianyu_detail_and_first_gallery_image() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for rows in (snapshot["dual_found_pairs"], snapshot["dual_observed_pairs"]):
         sample_23 = next(row for row in rows if row["reference_product_id"] == 23)
         xianyu = sample_23["xianyu"]
         assert xianyu["source_url"].endswith("id=1057452820190&categoryId=126860296")
-        assert xianyu["price"] is None
-        assert xianyu["last_observed_price"] == 60
-        assert xianyu["observed_at"] == "2026-09-26T05:30:00+08:00"
-        assert xianyu["state"] == "blocked"
-        assert "候选¥60" in xianyu["version_evidence"]
-        assert "05:30重开原详情" in xianyu["version_evidence"]
-        assert "滑块验证" in xianyu["version_evidence"]
-        assert xianyu["image_url"] is None
-        assert xianyu["image_state"] == "first_gallery_image_link_unverified"
-        assert "首图直链仍未核实" in sample_23["relation_note"]
-        assert "详情观察同商品ID 1057452820190" in sample_23["relation_note"]
-        assert "不能据此认定成色/附件一致或计算利润" in sample_23["relation_note"]
+        assert xianyu["price"] == 60
+        assert xianyu["last_observed_price"] is None
+        assert xianyu["observed_at"] == "2026-09-28T21:03:00+08:00"
+        assert xianyu["state"] == "observed_current"
+        assert "10浏览" in xianyu["version_evidence"]
+        assert "页面显示立即购买" in xianyu["version_evidence"]
+        assert "image_url留空" not in xianyu["version_evidence"]
+        assert xianyu["image_url"].startswith("https://img.alicdn.com/bao/uploaded/i1/3423267827/")
+        assert xianyu["image_state"] == "observed_first_gallery_image"
+        assert "闲鱼商品ID 1057452820190" in sample_23["relation_note"]
+        assert "不比较利润" in sample_23["relation_note"]
+        assert "样图" in sample_23["relation_note"]
 
 
 def test_sample_85_keeps_wameiji_catalog_image_caveat_and_refreshes_live_xianyu_item() -> None:
