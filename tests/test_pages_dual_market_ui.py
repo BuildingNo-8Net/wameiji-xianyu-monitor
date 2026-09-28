@@ -2228,8 +2228,8 @@ def test_sample_21_uses_current_prices_and_keeps_xianyu_variant_ambiguity() -> N
         assert sample_21["price_comparable"] is False
         assert sample_21["xianyu"]["price"] == 193
         assert "首价对应哪个选项和腰封状态未明确" in sample_21["xianyu"]["version_evidence"]
-        assert sample_21["wameiji"]["price"] == 2899
-        assert "当前2,899 JPY" in sample_21["wameiji"]["version_evidence"]
+        assert sample_21["wameiji"]["price"] == 2699
+        assert "当前2,699 JPY" in sample_21["wameiji"]["version_evidence"]
         assert "价格不可比，不计算利润" in sample_21["relation_note"]
 
 

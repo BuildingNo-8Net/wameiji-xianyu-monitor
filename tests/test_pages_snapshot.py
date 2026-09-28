@@ -862,7 +862,7 @@ def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None
 
     assert pair["same_product_verified"] is True
     assert pair["xianyu"]["price"] == 193
-    assert pair["wameiji"]["price"] == 2899
+    assert pair["wameiji"]["price"] == 2699
     assert "24曲" in pair["relation_note"]
     assert "腰封/成色附件未核齐" in pair["relation_note"]
     assert "价格不可比，不计算利润" in pair["relation_note"]
@@ -1154,10 +1154,10 @@ def test_sample_21_marks_both_live_kanon_pages_current_without_cross_sample_sear
         assert pair["wameiji"]["state"] == "observed_current"
         assert pair["wameiji"]["image_state"] == "page_reference_image"
         assert pair["xianyu"]["state"] == "observed_current"
-        assert pair["wameiji"]["price"] == 2899
+        assert pair["wameiji"]["price"] == 2699
         assert pair["xianyu"]["price"] == 193
         assert "search_source_url" not in pair["wameiji"]
-        assert "169浏览" in pair["xianyu"]["version_evidence"]
+        assert "177浏览" in pair["xianyu"]["version_evidence"]
 
 
 def test_sample_24_deleted_wameiji_page_keeps_price_and_image_historical_only() -> None:
