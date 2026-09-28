@@ -858,7 +858,7 @@ def test_sample_75_current_xianyu_preorder_is_not_rendered_as_unverified_history
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
     )
-    assert payload["generated_at"] == "2026-09-29T06:03:00+08:00"
+    assert payload["generated_at"] == "2026-09-29T06:20:00+08:00"
     pair = next(
         record for record in payload["dual_observed_pairs"]
         if record["reference_product_id"] == 75

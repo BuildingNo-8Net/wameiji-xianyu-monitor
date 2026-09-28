@@ -1265,7 +1265,7 @@ def test_blocked_and_sold_source_images_are_never_labeled_as_current() -> None:
 
     # These notes document login redirects or pages that never loaded the product;
     # their retained images are historical evidence, not current listing photos.
-    for sample_id in (79, 84, 92, 94, 99, 103, 107, 111):
+    for sample_id in (84, 92, 94, 99, 103, 107, 111):
         source = pairs[sample_id]["wameiji"]
         assert source["state"] == "login_required", sample_id
         assert source["image_state"] == "historical_first_gallery_image", sample_id
@@ -3107,9 +3107,10 @@ def test_samples_74_and_75_current_page_evidence_is_synchronized() -> None:
         assert "不计算价差或利润" in sample_78["relation_note"]
 
         sample_79 = next(row for row in rows if row["reference_product_id"] == 79)
-        assert sample_79["wameiji"]["price"] is None
-        assert sample_79["wameiji"]["last_observed_price"] == 9680
-        assert sample_79["wameiji"]["image_state"] == "historical_first_gallery_image"
+        assert sample_79["wameiji"]["price"] == 9680
+        assert sample_79["wameiji"]["last_observed_price"] is None
+        assert sample_79["wameiji"]["state"] == "observed_current"
+        assert sample_79["wameiji"]["image_state"] == "observed_catalog_first_image"
         assert sample_79["xianyu"]["price"] is None
         assert sample_79["xianyu"]["last_observed_price"] == 470
         assert sample_79["xianyu"]["image_state"] == "current_sold_image"
