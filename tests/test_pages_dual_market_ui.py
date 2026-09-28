@@ -282,7 +282,7 @@ def test_sample_9_refreshes_incomplete_xianyu_and_labels_different_wameiji_editi
     assert "keywords=eden+minori+%E5%88%9D%E5%9B%9E" in wameiji["search_source_url"]
     assert "加入购物车/立即购买" in wameiji["version_evidence"]
     assert "PLUS MOSAIC封面" in sample_9["relation_note"]
-    assert "未找到可核实的在售同款" in javascript
+    assert "缺失侧人工检索暂未见可核对的在售同款" in javascript
     assert "查看站内检索结果" in javascript
 
 
