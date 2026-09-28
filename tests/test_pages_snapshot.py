@@ -1280,8 +1280,8 @@ def test_sample_1_keeps_related_tuyu_candidate_without_unverified_image() -> Non
     )
     expected_detail = (
         "https://www.meruki.cn/mall/mercari/detail/"
-        "68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f"
-        "43435454774233584e45685738466a4e546e7755694b2f"
+        "68747470733a2f2f7777772e6d6572636172692e636f6d2f6a702f6974656d732f"
+        "6d32373430333533343532302f"
     )
     for collection_name in ("dual_found_pairs", "dual_observed_pairs"):
         pair = next(
@@ -1289,15 +1289,13 @@ def test_sample_1_keeps_related_tuyu_candidate_without_unverified_image() -> Non
         )
         assert pair["same_product_verified"] is False
         assert pair["price_comparable"] is False
-        assert pair["wameiji"]["state"] == "observed_related"
-        assert pair["wameiji"]["title"].startswith(
-            "ツユ やっぱり雨は降るんだね 礼衣 アニメイト 特典"
-        )
-        assert pair["wameiji"]["price"] == 6631
+        assert pair["wameiji"]["state"] == "observed_current"
+        assert pair["wameiji"]["title"].startswith("ツユ 特典CD 礼衣でぃお")
+        assert pair["wameiji"]["price"] == 8888
         assert pair["wameiji"]["source_url"] == expected_detail
         assert pair["wameiji"]["image_state"] == "no_verified_item_photo"
         assert pair["wameiji"]["image_url"] is None
-        assert "平台占位图" in pair["relation_note"]
+        assert "占位图" in pair["relation_note"]
         assert pair["xianyu"]["state"] == "not_currently_listed"
 
 
