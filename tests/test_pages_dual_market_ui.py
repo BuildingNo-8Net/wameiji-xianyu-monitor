@@ -244,7 +244,7 @@ def test_sample_50_does_not_show_multivariant_unrelated_image_as_current_item() 
     assert sample_50["xianyu"]["image_url"] is None
     assert sample_50["xianyu"]["state"] == "not_currently_listed"
     assert sample_50["xianyu"]["source_url"] == sample_50["xianyu"]["search_source_url"]
-    assert sample_50["xianyu"]["observed_at"] == "2026-09-28T22:52:00+08:00"
+    assert sample_50["xianyu"]["observed_at"] == "2026-09-28T23:42:00+08:00"
     assert sample_50["xianyu"]["last_observed_price"] == 98
     assert sample_50["wameiji"]["state"] == "not_currently_listed"
     assert sample_50["wameiji"]["price"] is None
@@ -1277,7 +1277,7 @@ def test_sample_50_exact_current_search_rejects_unrelated_multi_option_listing()
     assert sample["xianyu"]["price"] is None
     assert sample["xianyu"]["last_observed_price"] == 98
     assert sample["xianyu"]["price_range"] is None
-    assert sample["xianyu"]["observed_at"] == "2026-09-28T22:52:00+08:00"
+    assert sample["xianyu"]["observed_at"] == "2026-09-28T23:42:00+08:00"
     assert sample["xianyu"]["image_state"] == "no_verified_item_photo"
     assert sample["xianyu"]["image_url"] is None
     assert sample["xianyu"]["source_url"] == sample["xianyu"]["search_source_url"]
@@ -1289,10 +1289,10 @@ def test_sample_50_exact_current_search_rejects_unrelated_multi_option_listing()
     assert sample["wameiji"]["barcode"] is None
     assert sample["wameiji"]["image_url"] is None
     assert sample["wameiji"]["image_state"] == "no_verified_item_photo"
-    assert sample["wameiji"]["observed_at"] == "2026-09-28T22:52:00+08:00"
+    assert sample["wameiji"]["observed_at"] == "2026-09-28T23:42:00+08:00"
     assert "りりあ。《記録》" in sample["wameiji"]["version_evidence"]
     assert "艺人/作品均与リリィ、さよなら不同" in sample["wameiji"]["version_evidence"]
-    assert "未见样本《约束/约定》CD+LP" in sample["wameiji"]["version_evidence"]
+    assert "CD+LP同款" in sample["wameiji"]["version_evidence"]
     assert "どうして君は世界で一人" not in sample["wameiji"]["title"]
 
 
@@ -2316,7 +2316,7 @@ def test_reference_audit_snapshot_persists_direct_marketplace_images() -> None:
     assert sample_50["wameiji"]["barcode"] is None
     assert sample_50["wameiji"]["image_url"] is None
     assert sample_50["wameiji"]["image_state"] == "no_verified_item_photo"
-    assert "2026-09-28T22:52:00+08:00" == sample_50["xianyu"]["observed_at"]
+    assert "2026-09-28T23:42:00+08:00" == sample_50["xianyu"]["observed_at"]
     assert sample_50["xianyu"]["state"] == "not_currently_listed"
     assert sample_50["xianyu"]["price"] is None
     assert sample_50["xianyu"]["price_range"] is None
