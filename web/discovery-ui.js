@@ -413,6 +413,7 @@
     const href = safeHttpUrl(source.detail_source_url || source.source_url);
     const searchHref = safeHttpUrl(source.search_source_url);
     const image = versionedAuditImageUrl(auditObservationImage(source));
+    const historicalReferenceImage = source.image_state === "historical_reference_sample";
     const title = esc(source.title || "未命名商品记录");
     const sourceStateUnmarked = !source.state;
     const priceRange = source.price_range && typeof source.price_range === "object"
@@ -439,7 +440,9 @@
     const heading = href
       ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + title + '</a>'
       : '<span>' + title + '</span>';
-    const imageAlt = source.state === "current_sold_image" && image
+    const imageAlt = historicalReferenceImage
+      ? "原始参考样本图 · 当前无可核验在售链接"
+      : source.state === "current_sold_image" && image
       ? title + " · 已售历史商品首图 · 非当前在售图"
       : sourceUnavailable && image
       ? title + " · 历史商品图，当前状态未核实"
@@ -460,7 +463,9 @@
         : source.image_state === "historical_first_gallery_image"
           ? title + " · 历史页面首图 · 当前链接受阻"
           : title + " · 第一张主图";
-    const imageBadge = source.state === "current_sold_image" && image
+    const imageBadge = historicalReferenceImage
+      ? '<span class="reference-audit-image-badge">历史样本图 · 非当前商品</span>'
+      : source.state === "current_sold_image" && image
       ? '<span class="reference-audit-image-badge">已售历史商品首图 · 非当前在售图</span>'
       : sourceUnavailable && image
       ? '<span class="reference-audit-image-badge">历史商品图 · 当前状态未核实</span>'
@@ -520,10 +525,11 @@
         : source.state === "observed_related" || source.state === "replacement_related"
           ? "相关观察价 · " + price
           : price;
+    const imageHref = historicalReferenceImage ? image : href || image;
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
         image
-          ? '<a class="reference-audit-market-media" href="' + esc(href || image) + '" target="_blank" rel="noopener" title="打开商品详情页"><img src="' + esc(image) + '" alt="' + imageAlt + '" loading="eager" decoding="async" />' + imageBadge + '</a>'
+          ? '<a class="reference-audit-market-media" href="' + esc(imageHref) + '" target="_blank" rel="noopener" title="' + (historicalReferenceImage ? "打开原始参考样本图" : "打开商品详情页") + '"><img src="' + esc(image) + '" alt="' + imageAlt + '" loading="eager" decoding="async" />' + imageBadge + '</a>'
           : '<div class="reference-audit-market-media reference-audit-market-media-missing">' + missingImageLabel + '</div>',
         '<small>' + esc(label) + '</small>',
         '<span class="reference-audit-source-status">' + esc(evidenceStatus) + '</span>',
@@ -628,6 +634,16 @@
   function referenceAuditPairMarkup(pair) {
     const item = pair && typeof pair === "object" ? pair : {};
     const japaneseSource = item.wameiji && typeof item.wameiji === "object" ? item.wameiji : {};
+    const referenceImageValue = String(item.reference_image_url || "").trim();
+    const referenceImage = /^assets\/reference-samples\/[A-Za-z0-9+._/-]+$/.test(referenceImageValue)
+      && !referenceImageValue.includes("..")
+      ? referenceImageValue
+      : "";
+    const withHistoricalReferenceFallback = (source) => {
+      const observation = source && typeof source === "object" ? source : {};
+      if (!referenceImage || auditObservationImage(observation)) return observation;
+      return { ...observation, image_url: referenceImage, image_state: "historical_reference_sample" };
+    };
     const xianyuEvidence = String(item.xianyu && item.xianyu.version_evidence || "");
     const nonComparable = item.same_product_verified !== true
       || /历史错配|不是同一商品|不能当作单卷同款|附件不一致|不作同 SKU/.test(xianyuEvidence);
@@ -655,7 +671,7 @@
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · ' + auditLabel + '</div>',
         '<div class="reference-audit-sides">',
-          referenceAuditObservationMarkup("闲鱼销售侧", item.xianyu, "CNY", "xianyu"),
+          referenceAuditObservationMarkup("闲鱼销售侧", withHistoricalReferenceFallback(item.xianyu), "CNY", "xianyu"),
           referenceAuditCenterMarkup(
             item.xianyu,
             item.wameiji,
@@ -664,7 +680,7 @@
             !nonComparable && !currentEvidenceUnavailable,
             !priceComparisonUnresolved,
           ),
-          referenceAuditObservationMarkup(japaneseLabel, japaneseSource, "JPY", "wameiji"),
+          referenceAuditObservationMarkup(japaneseLabel, withHistoricalReferenceFallback(japaneseSource), "JPY", "wameiji"),
         '</div>',
       '</article>',
     ].join("");

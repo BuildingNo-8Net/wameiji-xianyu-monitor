@@ -614,6 +614,7 @@ def test_historical_sold_notes_do_not_override_current_source_states_in_pair_car
     ]
     harness = f"""
 const esc = (value) => String(value);
+const auditObservationImage = () => "";
 const referenceAuditObservationMarkup = () => "";
 const referenceAuditCenterMarkup = (...args) => JSON.stringify(args);
 {renderer}
@@ -2831,6 +2832,59 @@ if (!card.includes("样本 #55 · 当前证据受阻 · 已打开核验") || car
     assert result.returncode == 0, result.stderr or result.stdout
 
 
+def test_dual_sample_card_shows_historical_reference_image_when_no_current_photo_exists() -> None:
+    javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
+    start = javascript.index("function referenceAuditObservationMarkup")
+    end = javascript.index("function referenceAuditSingleMarkup")
+    renderers = javascript[start:end]
+    sample = {
+        "reference_product_id": 1,
+        "same_product_verified": False,
+        "price_comparable": False,
+        "xianyu": {
+            "title": "TUYU reference sample (sold)",
+            "state": "not_currently_listed",
+            "price": None,
+            "source_url": "https://www.goofish.com/search?q=TUYU",
+            "image_url": None,
+            "image_state": "no_verified_item_photo",
+        },
+        "wameiji": {
+            "title": "ツユ 特典CD 礼衣でぃお",
+            "state": "observed_current",
+            "price": 8888,
+            "source_url": "https://www.meruki.cn/item/verified",
+            "image_url": "https://static.mercdn.net/item/detail/orig/photos/m27403534520_1.jpg",
+            "image_state": "observed_first_gallery_image",
+        },
+        "reference_image_url": "assets/reference-samples/1-reference.webp",
+    }
+
+    harness = f"""
+const safeHttpUrl = (value) => value || "";
+const usableProductImage = (value) => value || "";
+const auditObservationImage = (source) => source.image_state === "reference_only" ? "" : (source.image_url || "");
+const versionedAuditImageUrl = (value) => value || "";
+const esc = (value) => String(value ?? "");
+const displayJpyCnyRate = () => 0.0444;
+const cny = (value) => Number.isFinite(Number(value)) ? Number(value).toFixed(2) + " CNY" : "--";
+const jpy = (value) => Number.isFinite(Number(value)) ? Number(value).toFixed(0) + " JPY" : "--";
+{renderers}
+const card = referenceAuditPairMarkup({json.dumps(sample, ensure_ascii=False)});
+if (!card.includes('src="assets/reference-samples/1-reference.webp"')
+  || !card.includes('alt="原始参考样本图 · 当前无可核验在售链接"')
+  || !card.includes("历史样本图 · 非当前商品")) {{
+  throw new Error("a missing live photo should fall back to the original sample image with an explicit historical-only label");
+}}
+if (!card.includes('<a class="reference-audit-market-media" href="assets/reference-samples/1-reference.webp"')
+  || card.includes('<a class="reference-audit-market-media" href="https://www.goofish.com/search?q=TUYU"')) {{
+  throw new Error("the historical reference image must not link to the unrelated live search as though it were that listing's photo");
+}}
+"""
+    result = subprocess.run(["node", "-e", harness], text=True, capture_output=True, check=False)
+    assert result.returncode == 0, result.stderr or result.stdout
+
+
 def test_sample_54_latest_recheck_marks_both_current_and_preserves_image_difference() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     for collection in ("dual_found_pairs", "dual_observed_pairs"):
@@ -2865,7 +2919,7 @@ def test_sample_78_latest_recheck_separates_current_xianyu_from_related_wameiji(
 
 def test_reference_audit_renderer_cache_version_is_bumped_for_current_state_labels() -> None:
     homepage = Path("web/index.html").read_text(encoding="utf-8")
-    assert "discovery-ui.js?v=20260929-reference-audit-v13" in homepage
+    assert "discovery-ui.js?v=20260929-reference-audit-v14" in homepage
 
 
 def test_reference_audit_uses_its_current_platform_exchange_rate_before_stale_board_rate() -> None:
@@ -2955,7 +3009,7 @@ def test_homepage_busts_cached_renderer_after_dual_observation_queue_fix() -> No
 
     assert "app.js?v=20260915-reference-audit-v1" in homepage
     assert "dual-market-data.js?v=20260915-reference-audit-v1" in homepage
-    assert "discovery-ui.js?v=20260929-reference-audit-v13" in homepage
+    assert "discovery-ui.js?v=20260929-reference-audit-v14" in homepage
     assert "styles/kuro.css?v=20260923-reference-analysis-v1" in homepage
 
 
