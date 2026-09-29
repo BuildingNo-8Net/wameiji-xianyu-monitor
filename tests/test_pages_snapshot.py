@@ -1348,6 +1348,33 @@ def test_sample_50_keeps_multivariant_quote_unassigned_to_reference_product() ->
     assert pair["price_comparable"] is False
 
 
+def test_sample_58_uses_exact_complete_edition_not_initial_edition_a() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    pair = next(
+        record
+        for record in payload["dual_observed_pairs"]
+        if record["reference_product_id"] == 58
+    )
+
+    assert pair["same_product_verified"] is True
+    assert pair["price_comparable"] is False
+    assert pair["wameiji"]["state"] == "observed_current"
+    assert pair["wameiji"]["price"] == 2000
+    assert pair["wameiji"]["catalog_no"] == "VVCL-1700~1702"
+    assert "CD+BD+フォトブック" in pair["wameiji"]["title"]
+    assert pair["wameiji"]["source_url"].endswith(
+        "6d37393832303531333436312f"
+    )
+    assert pair["wameiji"]["image_state"] == "page_reference_image"
+    assert pair["wameiji"]["image_url"].endswith(
+        "m79820513461_1.jpg?1790508487"
+    )
+    assert "VVCL-1703" in pair["relation_note"]
+    assert "不比较利润" in pair["relation_note"]
+
+
 def test_sample_114_moves_xianyu_quote_to_history_when_detail_is_captcha_blocked() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
