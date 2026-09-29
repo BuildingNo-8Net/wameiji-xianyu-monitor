@@ -967,6 +967,21 @@ def test_sample_9_adds_live_related_trial_disc_without_claiming_same_edition() -
     assert "不是样本" in pair["wameiji"]["version_evidence"]
 
 
+def test_sample_13_adds_related_moon_princess_cd_without_claiming_moonbox_match() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        pair = next(row for row in payload[collection] if row["reference_product_id"] == 13)
+        assert pair["same_product_verified"] is False
+        assert pair["price_comparable"] is False
+        assert pair["wameiji"]["state"] == "observed_related"
+        assert pair["wameiji"]["price"] == 1300
+        assert pair["wameiji"]["image_state"] == "page_reference_image"
+        assert pair["wameiji"]["image_url"].endswith("m88296327741_1.jpg?1738854167")
+        assert "非月箱套装" in pair["wameiji"]["title"]
+
+
 def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
