@@ -33,7 +33,7 @@ def test_web_server_serves_dashboard_api_and_static_app(tmp_path) -> None:
         audit = _get_json(f"{base_url}/api/reference-audit")
         assert audit["mode"] == "reference_audit_snapshot"
         assert audit["summary"]["reference_product_count"] == 125
-        assert audit["summary"]["both_observed_count"] == 112
+        assert audit["summary"]["both_observed_count"] == 111
 
         summary = _get_json(f"{base_url}/api/summary")
         assert summary["watch_count"] == 1
