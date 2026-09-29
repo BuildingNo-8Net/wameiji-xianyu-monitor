@@ -407,7 +407,20 @@
     return "https://static.mercdn.net/item/detail/orig/photos/" + match[1] + "_1.jpg";
   }
 
-  function referenceAuditObservationMarkup(label, observation, currency, market) {
+  function referenceAuditRelationLabel(source, sameProductVerified) {
+    if (source.state !== "observed_related" && source.state !== "replacement_related") return "";
+    if (sameProductVerified !== true) return "相关商品观察 · 非样本同款";
+    return source.state === "replacement_related"
+      ? "同版替代观察 · 具体链接不同"
+      : "同版相关观察 · 套装/选项待核";
+  }
+
+  function referenceAuditPriceLabel(source, price, sameProductVerified) {
+    if (source.state !== "observed_related" && source.state !== "replacement_related") return price;
+    return (sameProductVerified === true ? "同版观察价 · " : "相关观察价 · ") + price;
+  }
+
+  function referenceAuditObservationMarkup(label, observation, currency, market, sameProductVerified = false) {
     const source = observation && typeof observation === "object" ? observation : {};
     const marketClass = market === "wameiji" ? "wameiji-side" : "xianyu-side";
     const href = safeHttpUrl(source.detail_source_url || source.source_url);
@@ -444,6 +457,8 @@
       ? "原始参考样本图 · 当前无可核验在售链接"
       : source.state === "current_sold_image" && image
       ? title + " · 已售历史商品首图 · 非当前在售图"
+      : source.image_state === "removed_listing_image"
+      ? title + " · 商品已删除后保留的原首图 · 非当前在售图"
       : sourceUnavailable && image
       ? title + " · 历史商品图，当前状态未核实"
       : source.image_state === "page_reference_image"
@@ -467,6 +482,8 @@
       ? '<span class="reference-audit-image-badge">历史样本图 · 非当前商品</span>'
       : source.state === "current_sold_image" && image
       ? '<span class="reference-audit-image-badge">已售历史商品首图 · 非当前在售图</span>'
+      : source.image_state === "removed_listing_image"
+      ? '<span class="reference-audit-image-badge">已下架商品原首图 · 非当前在售图</span>'
       : sourceUnavailable && image
       ? '<span class="reference-audit-image-badge">历史商品图 · 当前状态未核实</span>'
       : source.image_state === "page_reference_image"
@@ -508,7 +525,7 @@
       : source.state === "not_currently_listed"
         ? "当前未见可核验同款 · 历史参考"
       : source.state === "observed_related" || source.state === "replacement_related"
-        ? "相关商品观察 · 非样本同款"
+        ? referenceAuditRelationLabel(source, sameProductVerified)
       : source.state === "replacement_current"
         ? "现售替代观察 · 非原链接"
       : source.state === "observed_current"
@@ -522,9 +539,7 @@
       ? "--"
       : sourceUnavailable
         ? "历史挂牌价 · " + price
-        : source.state === "observed_related" || source.state === "replacement_related"
-          ? "相关观察价 · " + price
-          : price;
+        : referenceAuditPriceLabel(source, price, sameProductVerified);
     const imageHref = historicalReferenceImage ? image : href || image;
     return [
       '<div class="reference-audit-side ' + marketClass + '">',
@@ -671,7 +686,7 @@
       '<article class="reference-audit-pair">',
         '<div class="reference-audit-pair-id">样本 #' + esc(item.reference_product_id || "--") + ' · ' + auditLabel + '</div>',
         '<div class="reference-audit-sides">',
-          referenceAuditObservationMarkup("闲鱼销售侧", withHistoricalReferenceFallback(item.xianyu), "CNY", "xianyu"),
+          referenceAuditObservationMarkup("闲鱼销售侧", withHistoricalReferenceFallback(item.xianyu), "CNY", "xianyu", item.same_product_verified === true),
           referenceAuditCenterMarkup(
             item.xianyu,
             item.wameiji,
@@ -680,7 +695,7 @@
             !nonComparable && !currentEvidenceUnavailable,
             !priceComparisonUnresolved,
           ),
-          referenceAuditObservationMarkup(japaneseLabel, withHistoricalReferenceFallback(japaneseSource), "JPY", "wameiji"),
+          referenceAuditObservationMarkup(japaneseLabel, withHistoricalReferenceFallback(japaneseSource), "JPY", "wameiji", item.same_product_verified === true),
         '</div>',
       '</article>',
     ].join("");
@@ -739,9 +754,10 @@
             '<div class="reference-audit-candidate-badge">主要观察对象 · 相关候选（未证同款）</div>',
             referenceAuditObservationMarkup(
               candidateLabel,
-              displayCandidate.image_url || referenceImage
-                ? { ...displayCandidate, image_url: displayCandidate.image_url || referenceImage, image_state: displayCandidate.image_url ? displayCandidate.image_state : "reference_only" }
-                : { ...displayCandidate, image_state: "source_no_image" },
+              {
+                ...displayCandidate,
+                image_state: displayCandidate.image_state || (displayCandidate.image_url ? "observed_first_gallery_image" : "first_gallery_image_link_unverified"),
+              },
               candidateCurrency,
               missingMarket,
             ),
