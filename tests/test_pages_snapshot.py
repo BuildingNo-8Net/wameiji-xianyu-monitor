@@ -931,7 +931,7 @@ def test_sample_78_refreshes_live_xianyu_and_removes_broken_wameiji_image() -> N
         assert pair["same_product_verified"] is False
 
 
-def test_sample_77_downgrades_lp_match_without_exact_version_or_image_link() -> None:
+def test_sample_77_records_verified_first_image_but_keeps_match_unconfirmed() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
     )
@@ -944,10 +944,10 @@ def test_sample_77_downgrades_lp_match_without_exact_version_or_image_link() -> 
         assert pair["price_comparable"] is False
         assert pair["xianyu"]["state"] == "observed_current"
         assert pair["xianyu"]["price_range"] == {"min": 199, "max": 333, "currency": "CNY"}
-        assert pair["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
-        assert pair["xianyu"]["image_url"] is None
-        assert "1436浏览" in pair["xianyu"]["version_evidence"]
-        assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
+        assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert pair["xianyu"]["image_url"].endswith("jpg_790x10000Q90.jpg_.webp")
+        assert "1443浏览" in pair["xianyu"]["version_evidence"]
+        assert pair["wameiji"]["image_state"] == "page_reference_image"
         assert pair["wameiji"]["image_url"].endswith("m41163446629_1.jpg")
         assert "平台占位图" in pair["wameiji"]["version_evidence"]
 
@@ -1640,6 +1640,37 @@ def test_sample_46_xianyu_live_first_image_is_recorded_in_both_snapshot_lists() 
         assert sample["price_comparable"] is False
         assert sample["same_product_verified"] is True
         assert "私聊" in sample["xianyu"]["version_evidence"]
+
+
+def test_sample_71_replaces_deleted_dvd_with_live_bluray_candidate_without_profit_claim() -> None:
+    """A live edition candidate must not silently erase the seller-title disc-count mismatch."""
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    expected_xianyu_image = (
+        "https://img.alicdn.com/bao/uploaded/i2/20297417/"
+        "O1CN01sEDdXVtbZCI70gAX_!!4611686018427385545-0-xy_item.jpg_790x10000Q90.jpg_.webp"
+    )
+    expected_wameiji_image = (
+        "https://imghk.doorzo.net/item/detail/orig/photos/"
+        "m97098009553_1.jpg?1789274211"
+    )
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        sample = next(row for row in payload[collection] if row["reference_product_id"] == 71)
+        assert sample["same_product_verified"] is False
+        assert sample["price_comparable"] is False
+        assert "CD+2Blu-ray" in sample["xianyu"]["title"]
+        assert sample["xianyu"]["price"] == 699
+        assert sample["xianyu"]["image_url"] == expected_xianyu_image
+        assert sample["xianyu"]["observed_at"].startswith("2026-09-29T03:07")
+        assert sample["wameiji"]["state"] == "observed_current"
+        assert sample["wameiji"]["price"] == 13500
+        assert sample["wameiji"]["catalog_no"] == "SECL-3332～3"
+        assert sample["wameiji"]["image_url"] == expected_wameiji_image
+        assert sample["wameiji"]["image_state"] == "page_reference_image"
+        assert "图片可能与实物不同" in sample["wameiji"]["version_evidence"]
+        assert "2Blu-ray" in sample["relation_note"]
+        assert "不计利润" in sample["relation_note"]
 
 
 def test_reference_audit_covers_each_sample_once_and_uses_wameiji_for_observed_japan_sides() -> None:
