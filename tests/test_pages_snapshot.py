@@ -1333,11 +1333,18 @@ def test_sample_50_keeps_multivariant_quote_unassigned_to_reference_product() ->
     assert "小闲鱼没有找到你想要的宝贝" in pair["xianyu"]["version_evidence"]
     assert "原图¥98仅作历史挂牌" in pair["xianyu"]["version_evidence"]
     assert pair["wameiji"]["barcode"] is None
-    assert pair["wameiji"]["price"] is None
+    assert pair["wameiji"]["title"].startswith("【相关观察·非样本同款】")
+    assert pair["wameiji"]["price"] == 605
     assert pair["wameiji"]["last_observed_price"] is None
-    assert pair["wameiji"]["state"] == "not_currently_listed"
-    assert pair["wameiji"]["image_url"] is None
-    assert pair["wameiji"]["source_url"] == pair["wameiji"]["search_source_url"]
+    assert pair["wameiji"]["state"] == "observed_related"
+    assert pair["wameiji"]["image_state"] == "page_reference_image"
+    assert pair["wameiji"]["image_url"] == (
+        "https://assets.mercari-shops-static.com/-/large/plain/2JV8Y52xxbisFRB4eaHmr8.jpg@jpg"
+    )
+    assert pair["wameiji"]["source_url"].endswith(
+        "324a5638645662415851436b4d3735364e626b506e382f"
+    )
+    assert "并非样本《約束/约定》CD+LP" in pair["wameiji"]["version_evidence"]
     assert pair["price_comparable"] is False
 
 
