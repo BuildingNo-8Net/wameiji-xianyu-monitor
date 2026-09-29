@@ -839,7 +839,7 @@ def test_sample_18_reference_is_single_volume_and_bundle_is_related_only() -> No
     assert "闲鱼 1063580553056 当前仍为¥900" in pair["relation_note"]
 
 
-def test_sample_19_stale_vol11_link_is_not_presented_as_active_vol14_inventory() -> None:
+def test_sample_19_keeps_vol14_unavailable_and_adds_related_live_vol12_listing() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
     )
@@ -849,16 +849,16 @@ def test_sample_19_stale_vol11_link_is_not_presented_as_active_vol14_inventory()
     )
 
     assert pair["same_product_verified"] is False
-    assert "Vol.14" in pair["xianyu"]["title"]
+    assert "Vol.12" in pair["xianyu"]["title"]
     assert "vol.14" in pair["wameiji"]["title"].lower()
-    assert pair["xianyu"]["state"] == "not_currently_listed"
-    assert pair["xianyu"]["price"] is None
-    assert pair["xianyu"]["last_observed_price"] == 70
-    assert pair["xianyu"]["image_state"] == "no_verified_item_photo"
+    assert pair["xianyu"]["state"] == "observed_related"
+    assert pair["xianyu"]["price"] == 69
+    assert pair["xianyu"]["last_observed_price"] is None
+    assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert pair["wameiji"]["state"] == "observed_related"
     assert pair["wameiji"]["image_state"] == "observed_first_gallery_image"
-    assert "旧商品1062970929669后跳转推荐列表" in pair["xianyu"]["version_evidence"]
-    assert "Vol.14电子PDF ¥6.99，不是实体刊" in pair["relation_note"]
+    assert "Vol.11旧链接已跳转推荐列表" in pair["xianyu"]["version_evidence"]
+    assert "精确搜索Vol.14实体无结果" in pair["relation_note"]
     assert "附件状态仍待核" in pair["wameiji"]["version_evidence"]
     assert "不比较利润" in pair["relation_note"]
 
@@ -980,6 +980,21 @@ def test_sample_13_adds_related_moon_princess_cd_without_claiming_moonbox_match(
         assert pair["wameiji"]["image_state"] == "page_reference_image"
         assert pair["wameiji"]["image_url"].endswith("m88296327741_1.jpg?1738854167")
         assert "非月箱套装" in pair["wameiji"]["title"]
+
+
+def test_sample_19_adds_live_vol12_related_listing_not_vol14_match() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    for collection in ("dual_found_pairs", "dual_observed_pairs"):
+        pair = next(row for row in payload[collection] if row["reference_product_id"] == 19)
+        assert pair["same_product_verified"] is False
+        assert pair["price_comparable"] is False
+        assert pair["xianyu"]["state"] == "observed_related"
+        assert pair["xianyu"]["price"] == 69
+        assert pair["xianyu"]["image_state"] == "observed_first_gallery_image"
+        assert pair["xianyu"]["image_url"].endswith("jpg_790x10000Q90.jpg_.webp")
+        assert "非Vol.14" in pair["xianyu"]["title"]
 
 
 def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None:

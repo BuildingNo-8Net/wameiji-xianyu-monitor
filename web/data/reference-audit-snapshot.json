@@ -604,7 +604,7 @@
       "stable_key": "sample:9023460e3fa6165ddb5c804ea951e0ff307b0c57a8de381bc1e7e6de16ad4817",
       "price_comparable": false,
       "same_product_verified": false,
-      "relation_note": "2026-09-28 23:24 内置浏览器逐页复核：参考图为TYPE-MOON ACE Vol.14实物杂志并带附录/海报。挖煤姬Vol.14当前1,599 JPY，页面显示加入购物车/立即购买；卖家只写“附录应该全部都在”，未逐项确认附录，所以仅作版本相关观察，不证明与样本完整同套。闲鱼旧Vol.11链接先前打开后跳转推荐列表，无法当作在售商品；今次再次搜索“TYPE-MOON ACE Vol.14 型月杂志 实体”，页面明确显示没有找到商品，推荐列表为无关商品；此前精确搜索只见Vol.14电子PDF ¥6.99，不是实体刊。闲鱼本轮未找到可核实的Vol.14实物，不用电子版/旧Vol.11代替，不比较利润。",
+      "relation_note": "2026-09-29 03:27Z 内置浏览器重新核验：样本是TYPE-MOON ACE Vol.14实物杂志并带附录/海报。挖煤姬Vol.14候选当前1,599 JPY，卖家只称附录‘应该都在’，未逐项确认。闲鱼精确搜索Vol.14实体无结果，电子PDF不作实物；扩展检索找到当前可买的TYPE-MOON ACE Vol.12实体杂志，69 CNY包邮、48浏览、轻微使用痕迹，详情首图为Vol.12封面，与样本同刊系但刊号不同且注明无赠品。两边都只是同刊系相关观察，不是同版本、附件不可比，不比较利润。",
       "wameiji": {
         "title": "TYPEMOONエース vol.14 付録付き",
       "version_evidence": "2026-09-27 02:55 内置浏览器重开挖煤姬详情：TYPEMOONエース Vol.14，当前1,599 JPY、接近未使用；卖家承担日本国内运费、手续费200 JPY，4–7日发货，有物流保障，页面显示加入购物车/立即购买。说明原文“付録は全部付いていると思います”（卖家认为附录都在），不是逐项清单。商品第一张主图直链 https://static.mercdn.net/item/detail/orig/photos/m92859754530_1.jpg 已单独打开，封面刊号为Vol.14并与样本一致；附件状态仍待核。",
@@ -621,20 +621,21 @@
         "state": "observed_related"
       },
       "xianyu": {
-      "title": "TYPE-MOON ACE Vol.14 闲鱼实物在售未找到（旧Vol.11链接失效）",
-      "version_evidence": "2026-09-28 23:24 内置浏览器手工复核闲鱼精确搜索“TYPE-MOON ACE Vol.14 型月杂志 实体”：页面结果为“没有找到你想要的宝贝”，仅显示不相关猜你喜欢；未打开/使用不相关推荐商品。2026-09-27重开旧商品1062970929669后跳转推荐列表，无法核实为当前在售商品；其最后观察价¥70只留作历史挂牌。此前精确搜索曾见¥6.99电子PDF，不是实体刊。本轮未找到可核实的Vol.14实体。",
+      "title": "TYPE-MOON ACE Vol.12 实体刊（同刊系相关观察，非Vol.14）",
+      "version_evidence": "2026-09-29 03:27Z 内置浏览器打开当前闲鱼商品1075836314440：¥69包邮、48浏览，成色轻微使用痕迹，显示立即购买并有7天无理由退货。标题/正文确认为《TYPE-MOON ACE》第12期官方实体杂志，明确无赠品；页面首图可见Vol.12封面，和当前详情商品的首张图一致。样本目标是Vol.14并带附录/海报；本件刊号不同且无赠品，只作为同刊系相关观察，不是同款/利润候选。之前Vol.11旧链接已跳转推荐列表，不把其历史¥70挂牌视作现价或当前候选。",
         "catalog_no": null,
         "barcode": null,
       "price": null,
-      "last_observed_price": 70,
+      "last_observed_price": null,
         "currency": "CNY",
-      "source_url": "https://www.goofish.com/search?q=TYPE-MOON%20ACE%20Vol.14%20%E5%9E%8B%E6%9C%88%E6%9D%82%E5%BF%97",
-      "observed_at": "2026-09-28T23:24:00+08:00",
+      "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.11.11453c97j9Jgpp&id=1075836314440&categoryId=202155025",
+      "observed_at": "2026-09-29T03:27:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-      "image_url": null,
-      "image_state": "no_verified_item_photo",
-      "state": "not_currently_listed"
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/2215966909084/O1CN01NurFsew0NmI2vH6i_!!4611686018427380380-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+      "image_state": "observed_first_gallery_image",
+      "price": 69,
+      "state": "observed_related"
       },
       "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
     },
@@ -4718,7 +4719,7 @@
       "stable_key": "sample:9023460e3fa6165ddb5c804ea951e0ff307b0c57a8de381bc1e7e6de16ad4817",
       "price_comparable": false,
       "same_product_verified": false,
-      "relation_note": "2026-09-28 23:24 内置浏览器逐页复核：参考图为TYPE-MOON ACE Vol.14实物杂志并带附录/海报。挖煤姬Vol.14当前1,599 JPY，页面显示加入购物车/立即购买；卖家只写“附录应该全部都在”，未逐项确认附录，所以仅作版本相关观察，不证明与样本完整同套。闲鱼旧Vol.11链接先前打开后跳转推荐列表，无法当作在售商品；今次再次搜索“TYPE-MOON ACE Vol.14 型月杂志 实体”，页面明确显示没有找到商品，推荐列表为无关商品；此前精确搜索只见Vol.14电子PDF ¥6.99，不是实体刊。闲鱼本轮未找到可核实的Vol.14实物，不用电子版/旧Vol.11代替，不比较利润。",
+      "relation_note": "2026-09-29 03:27Z 内置浏览器重新核验：样本是TYPE-MOON ACE Vol.14实物杂志并带附录/海报。挖煤姬Vol.14候选当前1,599 JPY，卖家只称附录‘应该都在’，未逐项确认。闲鱼精确搜索Vol.14实体无结果，电子PDF不作实物；扩展检索找到当前可买的TYPE-MOON ACE Vol.12实体杂志，69 CNY包邮、48浏览、轻微使用痕迹，详情首图为Vol.12封面，与样本同刊系但刊号不同且注明无赠品。两边都只是同刊系相关观察，不是同版本、附件不可比，不比较利润。",
       "wameiji": {
         "title": "TYPEMOONエース vol.14 付録付き",
       "version_evidence": "2026-09-27 02:55 内置浏览器重开挖煤姬详情：TYPEMOONエース Vol.14，当前1,599 JPY、接近未使用；卖家承担日本国内运费、手续费200 JPY，4–7日发货，有物流保障，页面显示加入购物车/立即购买。说明原文“付録は全部付いていると思います”（卖家认为附录都在），不是逐项清单。商品第一张主图直链 https://static.mercdn.net/item/detail/orig/photos/m92859754530_1.jpg 已单独打开，封面刊号为Vol.14并与样本一致；附件状态仍待核。",
@@ -4735,20 +4736,21 @@
         "state": "observed_related"
       },
       "xianyu": {
-      "title": "TYPE-MOON ACE Vol.14 闲鱼实物在售未找到（旧Vol.11链接失效）",
-      "version_evidence": "2026-09-28 23:24 内置浏览器手工复核闲鱼精确搜索“TYPE-MOON ACE Vol.14 型月杂志 实体”：页面结果为“没有找到你想要的宝贝”，仅显示不相关猜你喜欢；未打开/使用不相关推荐商品。2026-09-27重开旧商品1062970929669后跳转推荐列表，无法核实为当前在售商品；其最后观察价¥70只留作历史挂牌。此前精确搜索曾见¥6.99电子PDF，不是实体刊。本轮未找到可核实的Vol.14实体。",
+      "title": "TYPE-MOON ACE Vol.12 实体刊（同刊系相关观察，非Vol.14）",
+      "version_evidence": "2026-09-29 03:27Z 内置浏览器打开当前闲鱼商品1075836314440：¥69包邮、48浏览，成色轻微使用痕迹，显示立即购买并有7天无理由退货。标题/正文确认为《TYPE-MOON ACE》第12期官方实体杂志，明确无赠品；页面首图可见Vol.12封面，和当前详情商品的首张图一致。样本目标是Vol.14并带附录/海报；本件刊号不同且无赠品，只作为同刊系相关观察，不是同款/利润候选。之前Vol.11旧链接已跳转推荐列表，不把其历史¥70挂牌视作现价或当前候选。",
         "catalog_no": null,
         "barcode": null,
       "price": null,
-      "last_observed_price": 70,
+      "last_observed_price": null,
         "currency": "CNY",
-      "source_url": "https://www.goofish.com/search?q=TYPE-MOON%20ACE%20Vol.14%20%E5%9E%8B%E6%9C%88%E6%9D%82%E5%BF%97",
-      "observed_at": "2026-09-28T23:24:00+08:00",
+      "source_url": "https://www.goofish.com/item?spm=a21ybx.search.searchFeedList.11.11453c97j9Jgpp&id=1075836314440&categoryId=202155025",
+      "observed_at": "2026-09-29T03:27:00Z",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-      "image_url": null,
-      "image_state": "no_verified_item_photo",
-      "state": "not_currently_listed"
+      "image_url": "https://img.alicdn.com/bao/uploaded/i2/2215966909084/O1CN01NurFsew0NmI2vH6i_!!4611686018427380380-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+      "image_state": "observed_first_gallery_image",
+      "price": 69,
+      "state": "observed_related"
       },
       "reference_image_url": "assets/reference-samples/19-9023460e3fa6165d.webp"
     },
