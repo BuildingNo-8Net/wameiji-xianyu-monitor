@@ -952,6 +952,21 @@ def test_sample_77_records_verified_first_image_but_keeps_match_unconfirmed() ->
         assert "平台占位图" in pair["wameiji"]["version_evidence"]
 
 
+def test_sample_9_adds_live_related_trial_disc_without_claiming_same_edition() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    pair = next(row for row in payload["dual_observed_pairs"] if row["reference_product_id"] == 9)
+    assert pair["same_product_verified"] is False
+    assert pair["price_comparable"] is False
+    assert pair["wameiji"]["state"] == "observed_related"
+    assert pair["wameiji"]["price"] == 2500
+    assert pair["wameiji"]["image_state"] == "page_reference_image"
+    assert pair["wameiji"]["image_url"].endswith("m11488055179_1.jpg?1777576043")
+    assert "TRIAL DISC" in pair["wameiji"]["title"]
+    assert "不是样本" in pair["wameiji"]["version_evidence"]
+
+
 def test_sample_21_kanon_ost_records_live_price_and_option_uncertainty() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
