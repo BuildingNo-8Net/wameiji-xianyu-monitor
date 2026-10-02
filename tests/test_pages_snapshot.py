@@ -1810,6 +1810,21 @@ def test_sample_36_replaces_sold_disc_and_excludes_different_aoi_tori() -> None:
     assert "wameiji" not in sample
 
 
+def test_sample_37_current_three_box_set_keeps_single_box_separate() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    sample = next(
+        row for row in payload["single_observed_records"] if row["reference_product_id"] == 37
+    )
+    assert sample["observation"]["state"] == "observed_current"
+    assert sample["observation"]["price"] == 2400
+    assert sample["observation"]["image_state"] == "observed_first_gallery_image"
+    assert sample["xianyu"]["state"] == "observed_related"
+    assert sample["xianyu"]["price"] == 40
+    assert sample["counterpart_candidate"]["state"] == "search_only"
+
+
 def test_sample_102_distinguishes_current_wameiji_lp_from_historical_xianyu_deposit() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")

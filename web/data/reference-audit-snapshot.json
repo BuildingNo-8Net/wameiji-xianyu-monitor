@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T16:22:00+08:00",
+  "generated_at": "2026-10-02T16:27:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -8982,16 +8982,18 @@
       "counterpart_state": "observed_related",
       "observation": {
         "title": "ブロッコリートレカアイテムくじSP ゆずソフト カードボックス 3個セット【サノバウィッチ・ドラクリオット・天色アイルノーツ】",
-        "version_evidence": "2026-09-22 人工 Chrome/IAB 重新打开挖煤姬 JDirectItems Fleamarket 详情页：标题/描述明确为ゆずソフト第3弾D賞卡盒3个套装，包含サノバウィッチ、ドラクリオット、天色アイルノーツ；未使用，2400日元（约107人民币），代购手续费200日元，3~7日发货，有物流保障，页面可加入购物车/立即购买。2026-09-24 人工 Chrome/IAB 在闲鱼重新检索“柚子社 卡盒”，打开现售 D赏卡盒详情，40 CNY、只剩乃爱/辉夜单个；与样本同奖项同系列但不是三盒套装，作为相关观察写入，不冒充同款或利润证据。",
+        "version_evidence": "2026-10-02 16:27+08 内置浏览器重开挖煤姬 JDirectItems Fleamarket 商品z592026118：标题明确柚子社第3弾D赏卡盒3个套装，列出サノバウィッチ、ドラクリオット、天色アイルノーツ；当前2,400 JPY、二手但标未使用，代购费200 JPY、3–7日发货、有物流保障，加入购物车/立即购买按钮可见。图库首图资源仍与本记录直链一致；平台提示图片可能与实物不同，不能单凭它证明三盒实物品相。原参考样本与此套装方向相同，但闲鱼仅记录不同角色的单盒相关商品，故不比较双侧利润。",
         "catalog_no": null,
         "barcode": null,
         "price": 2400,
         "currency": "JPY",
         "source_url": "https://www.meruki.cn/mall/paypay/detail/z592026118",
-        "observed_at": "2026-09-23T02:44:00+08:00",
+        "observed_at": "2026-10-02T16:27:00+08:00",
         "marketplace_host": "www.meruki.cn",
         "is_wameiji_platform": true,
-        "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0204/users/c28e5dc80e38b7d34c4130cd97a314d97d0167e0/i-img900x1200-1776057969444siplc4.jpg"
+        "image_url": "https://imghk.doorzo.net/images.auctions.yahoo.co.jp/image/dr000/auc0204/users/c28e5dc80e38b7d34c4130cd97a314d97d0167e0/i-img900x1200-1776057969444siplc4.jpg",
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/37-58baee497a1a4eb6.webp",
       "counterpart_candidate": {
