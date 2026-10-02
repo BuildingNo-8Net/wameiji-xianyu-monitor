@@ -85,13 +85,13 @@ def test_homepage_exposes_the_full_reference_audit_queue_separately_from_profit_
 
     assert 'id="referenceAuditPanel"' in homepage
     assert "125 个参考样本" in homepage
-    assert "双侧实物观察" in homepage
+    assert "双侧线索记录" in homepage
     assert "绝不伪装成达标机会" in homepage
-    assert "挖煤姬页面已复核" in homepage
+    assert "挖煤姬来源记录" in homepage
     assert 'id="referenceAuditPairList"' in homepage
     assert 'data/reference-audit-snapshot.json' in javascript
     assert "renderReferenceAudit" in javascript
-    assert "双侧实物观察" in javascript
+    assert "两侧均有当前商品页" in javascript
     assert "日本来源侧" in javascript
     assert "待挖煤姬复核" in javascript
     assert "已人工核验 · 观察记录" in javascript
@@ -105,9 +105,9 @@ def test_homepage_keeps_unprofitable_dual_listings_in_the_observation_queue() ->
     homepage = Path("web/index.html").read_text(encoding="utf-8")
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
 
-    assert "双侧实物观察" in homepage
+    assert "双侧线索记录" in homepage
     assert "dual_observed_pairs" in javascript
-    assert "双侧实物观察" in javascript
+    assert "双侧线索" in javascript
 
 
 def test_homepage_keeps_concrete_one_sided_listings_in_the_primary_observation_queue() -> None:

@@ -921,17 +921,23 @@
         pair && pair.wameiji,
       ].some((source) => source && source.image_state === "source_no_image")).length;
       const mismatchCount = pairs.filter((pair) => /历史错配|不是同一商品/.test(evidenceText(pair))).length;
+      const bothCurrentListingCount = pairs.filter((pair) =>
+        pair && pair.xianyu && pair.wameiji
+        && pair.xianyu.state === "observed_current"
+        && pair.wameiji.state === "observed_current"
+      ).length;
       const caveats = [];
+      caveats.push("两侧均有当前商品页 " + bothCurrentListingCount + " 条，未必同款");
       if (unavailableCount) caveats.push("一侧当前证据受阻 " + unavailableCount + " 条");
       if (fullyUnavailableCount) caveats.push("两侧当前均未见 " + fullyUnavailableCount + " 条");
       if (noImageCount) caveats.push("源站未提供主图 " + noImageCount + " 条");
       if (mismatchCount) caveats.push("历史错配 " + mismatchCount + " 条");
-      pairSummary.textContent = "双侧实物观察 " + pairs.length + " 条来源记录" + (caveats.length ? "（" + caveats.join("；") + "）" : "") + "；逐卡复核版本、成色、附件、在售状态与图片进行中（不是达标机会）";
+      pairSummary.textContent = "双侧线索 " + pairs.length + " 条来源记录" + (caveats.length ? "（" + caveats.join("；") + "）" : "") + "；逐卡复核版本、成色、附件、在售状态与图片进行中（不是达标机会）";
     }
     if (pairList) {
       pairList.innerHTML = pairs.length
         ? pairs.map(referenceAuditPairMarkup).join("")
-        : '<div class="empty-state">当前没有双侧实物观察记录。</div>';
+        : '<div class="empty-state">当前没有双侧来源记录。</div>';
     }
     if (singleSummary) {
       singleSummary.textContent = "主要观察对象 · 单侧检索观察 " + singles.length + " 条（已有一侧具体商品页，另一侧保留真实检索证据）";
