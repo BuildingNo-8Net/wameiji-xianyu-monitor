@@ -1825,6 +1825,23 @@ def test_sample_37_current_three_box_set_keeps_single_box_separate() -> None:
     assert sample["counterpart_candidate"]["state"] == "search_only"
 
 
+def test_sample_41_keeps_multi_album_xianyu_price_as_range() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    sample = next(
+        row for row in payload["single_observed_records"] if row["reference_product_id"] == 41
+    )
+    assert sample["same_product_verified"] is False
+    assert sample["observation"]["state"] == "observed_current"
+    assert sample["observation"]["price"] is None
+    assert sample["observation"]["price_range"] == {
+        "min": 135, "max": 160, "currency": "CNY"
+    }
+    assert sample["wameiji"]["state"] == "observed_current"
+    assert sample["wameiji"]["price"] == 10000
+
+
 def test_sample_102_distinguishes_current_wameiji_lp_from_historical_xianyu_deposit() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
