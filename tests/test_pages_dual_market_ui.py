@@ -2216,7 +2216,7 @@ def test_sample_6_does_not_publish_wrong_or_unverified_item_photos() -> None:
     assert "452浏览" in current_sample_6["xianyu"]["version_evidence"]
     assert "452浏览" in current_sample_6["relation_note"]
     assert current_sample_6["xianyu"]["state"] == "observed_current"
-    assert current_sample_6["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
+    assert current_sample_6["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert "无原画集" in current_sample_6["xianyu"]["version_evidence"]
     assert "第一张" in current_sample_6["xianyu"]["version_evidence"]
     assert "不认定完整套装同款" in current_sample_6["relation_note"]

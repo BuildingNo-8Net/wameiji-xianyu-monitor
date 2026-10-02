@@ -8707,7 +8707,7 @@
         "catalog_no": null,
         "barcode": null,
         "price": null,
-        "last_observed_price": 28000,
+        "last_observed_price": null,
         "currency": "JPY",
     "source_url": "https://www.meruki.cn/search?keywords=eden*+%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A+minori&website=mercari",
     "search_source_url": "https://www.meruki.cn/search?keywords=eden*+%E5%88%9D%E5%9B%9E%E9%99%90%E5%AE%9A+minori&website=mercari",
