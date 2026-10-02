@@ -3385,7 +3385,7 @@ def test_samples_74_to_80_keep_current_updates_separate_from_historical_layer() 
         assert expected_views in sample_80["xianyu"]["version_evidence"]
 
 
-def test_single_related_candidate_without_a_direct_photo_does_not_reuse_the_sample_screenshot() -> None:
+def test_single_related_candidate_uses_verified_first_photo_not_the_sample_screenshot() -> None:
     javascript = Path("web/discovery-ui.js").read_text(encoding="utf-8")
     start = javascript.index("function referenceAuditRelationLabel")
     end = javascript.index("function referenceAuditUnavailableSideMarkup")
@@ -3408,9 +3408,9 @@ const referenceStateLabel = (value) => String(value ?? "");
 {renderers}
 const card = referenceAuditSingleMarkup({json.dumps(sample, ensure_ascii=False)});
 if (card.includes('src="assets/reference-samples/30-d626a72b6c446739.webp"')
-  || !card.includes("首图直链待复核")
+  || !card.includes("O1CN01wZQ8cw1uH5tS9Axcg")
   || !card.includes("柚子社 rj cd加盒")) {{
-  throw new Error("a related item with no verified direct image must show an explicit missing-image state, never the sold sample screenshot");
+  throw new Error("a related item must show its verified first listing image, never the sold sample screenshot");
 }}
 """
     result = subprocess.run(["node", "-e", harness], text=True, encoding="utf-8", capture_output=True, check=False)

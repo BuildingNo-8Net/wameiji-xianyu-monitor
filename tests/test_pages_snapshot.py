@@ -2059,14 +2059,18 @@ def test_sample_30_replaces_wrong_yuzusoft_items_with_current_related_observatio
     assert historical["wameiji"]["image_url"] == "https://static.mercdn.net/item/detail/orig/photos/m46029609421_1.jpg"
     assert historical["xianyu"]["price"] == 600
     assert historical["xianyu"]["state"] == "observed_related"
-    assert historical["xianyu"]["image_url"] is None
-    assert historical["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
+    first_gallery_url = (
+        "https://img.alicdn.com/bao/uploaded/i4/2218457966011/"
+        "O1CN01wZQ8cw1uH5tS9Axcg_!!4611686018427381179-53-xy_item.heic_790x10000Q90.jpg_.webp"
+    )
+    assert historical["xianyu"]["image_url"] == first_gallery_url
+    assert historical["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert "不比较利润" in historical["relation_note"]
 
     assert current["observation"]["source_url"] == historical["wameiji"]["source_url"]
     assert current["xianyu"]["source_url"].endswith("id=1051600239512&categoryId=126860296")
-    assert current["xianyu"]["image_url"] is None
-    assert current["xianyu"]["image_state"] == "first_gallery_image_link_unverified"
+    assert current["xianyu"]["image_url"] == first_gallery_url
+    assert current["xianyu"]["image_state"] == "observed_first_gallery_image"
     assert "午餐垫" not in current["observation"]["title"]
     assert "RIDDLE JOKER 设定集" not in current["xianyu"]["title"]
     assert "997446339847" not in json.dumps(current, ensure_ascii=False)
