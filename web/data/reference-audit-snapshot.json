@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T15:00:00+08:00",
+  "generated_at": "2026-10-02T15:19:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -369,7 +369,7 @@
       "stable_key": "sample:b9f4a41e4e0629031357bed6126c015c47a2be1c996b40dccb2ecccbff75944e",
       "price_comparable": false,
       "same_product_verified": false,
-      "relation_note": "参考样本为单张minori《eden* TRIAL DISC》CD，蓝色群像封面。闲鱼商品794620837421仍为合集展示，卖家明确两张trial disc已出、仅挂展示，因此¥99不是样本单碟现价。挖煤姬在站内搜索“eden* TRIAL DISC minori”发现个人卖家商品《未開 minori eden* TRIAL DISC Sofmap エディション》，2,500 JPY、未使用、卖家承担日本国内运费、手续费200 JPY，页面有加入购物车/立即购买；首图直链https://static.mercdn.net/item/detail/orig/photos/m11488055179_1.jpg已目视复核，与详情相同且明确为Sofmap edition封面，与样本蓝色群像封面明显不同，因此只保留为相关版本，不认定同款。两侧均不构成已验证同SKU，不比较利润。",
+      "relation_note": "2026-10-02 15:19 重新找到闲鱼现售单张《eden* TRIAL DISC》CD（商品1077722634505，¥150不包邮），第一张实拍图与样本蓝色群像封面一致；此前794620837421合集仅挂展示且trial disc已出，已从当前卡片撤下。挖煤姬候选仍为Sofmap edition，封面与样本不同；两侧不构成已验证同SKU，不比较利润。",
       "wameiji": {
         "title": "未開 minori eden* TRIAL DISC Sofmap エディション",
         "version_evidence": "2026-09-29 04:46 内置浏览器重开挖煤姬详情：标题“未開 minori eden* TRIAL DISC Sofmap エディション”，当前2,500 JPY、未使用、页面显示加入购物车/立即购买；日本国内运费卖家承担、手续费200 JPY、无物流保障。详情为2张图；首图直链https://static.mercdn.net/item/detail/orig/photos/m11488055179_1.jpg已在内置浏览器单独打开，图像与详情放大后的首图一致，清楚标有“with Sofmap-edition jacket”。这是Sofmap版封面，与参考样本蓝色群像封面不同；页面提示商品图片可能与实物不同，因此仅作相关版本，不能确认与样本同款。",
@@ -386,20 +386,20 @@
         "state": "observed_related"
       },
       "xianyu": {
-        "title": "原样本：minori eden* TRIAL DISC CD（当前未见可购买单碟）",
-        "version_evidence": "2026-09-28 22:35 内置浏览器复核闲鱼商品详情（ID 794620837421）：当前¥99包邮、43人想要/7,046浏览及“立即购买”，但商品描述列出minori OST、op、eden*游戏等合集；卖家明确写明两张trial disc“已出”及“仅挂，展示”。所以仅确认合集仍显示可购买、样本单碟已售/不可单独购买；不把¥99当单碟价。详情图为合集，不是参考样本蓝色群像主图，image_url继续为空，不冒用合辑图。",
+        "title": "全新未拆 minori eden* TRIAL DISC CD（蓝色群像封面）",
+        "version_evidence": "2026-10-02 15:19 内置浏览器在闲鱼精确检索 eden TRIAL DISC minori，人工打开商品1077722634505：¥150、不包邮、237浏览，显示立即购买；卖家称全新未拆。图库第一张实拍的蓝色群像CD封面与样本所示作品和封面一致，已取得该商品首图直链。未核到背面编号及内含物，且挖煤姬侧为不同Sofmap封面版本，因此不做双侧同SKU利润比较。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
+        "price": 150,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=794620837421&categoryId=126864811",
-        "search_source_url": "https://www.goofish.com/search?q=minori%20eden*%20TRIAL%20DISC&spm=a21ybx.item.searchInput.0",
-        "observed_at": "2026-09-28T22:35:00+08:00",
+        "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
+        "search_source_url": "https://www.goofish.com/search?q=eden%20TRIAL%20DISC%20minori",
+        "observed_at": "2026-10-02T15:19:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": null,
-        "image_state": "reference_only",
-        "state": "not_currently_listed"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3805743482/O1CN01Tse4kH69WRL3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
     },
@@ -4502,7 +4502,7 @@
       "stable_key": "sample:b9f4a41e4e0629031357bed6126c015c47a2be1c996b40dccb2ecccbff75944e",
       "price_comparable": false,
       "same_product_verified": false,
-      "relation_note": "参考样本为单张minori《eden* TRIAL DISC》CD，蓝色群像封面。闲鱼商品794620837421仍为合集展示，卖家明确两张trial disc已出、仅挂展示，因此¥99不是样本单碟现价。挖煤姬在站内搜索“eden* TRIAL DISC minori”发现个人卖家商品《未開 minori eden* TRIAL DISC Sofmap エディション》，2,500 JPY、未使用、卖家承担日本国内运费、手续费200 JPY，页面有加入购物车/立即购买；首图可见Sofmap版封面，与样本蓝色群像封面明显不同，且平台提示图片可能与实物不同，因此只保留为相关版本，不认定同款。两侧均不构成已验证同SKU，不比较利润。",
+      "relation_note": "2026-10-02 15:19 重新找到闲鱼现售单张《eden* TRIAL DISC》CD（商品1077722634505，¥150不包邮），第一张实拍图与样本蓝色群像封面一致；此前794620837421合集仅挂展示且trial disc已出，已从当前卡片撤下。挖煤姬候选仍为Sofmap edition，封面与样本不同；两侧不构成已验证同SKU，不比较利润。",
       "wameiji": {
         "title": "未開 minori eden* TRIAL DISC Sofmap エディション",
         "version_evidence": "2026-09-29 04:46 内置浏览器重开挖煤姬详情：标题“未開 minori eden* TRIAL DISC Sofmap エディション”，当前2,500 JPY、未使用、页面显示加入购物车/立即购买；日本国内运费卖家承担、手续费200 JPY、无物流保障。详情为2张图；首图直链https://static.mercdn.net/item/detail/orig/photos/m11488055179_1.jpg已在内置浏览器单独打开，图像与详情放大后的首图一致，清楚标有“with Sofmap-edition jacket”。这是Sofmap版封面，与参考样本蓝色群像封面不同；页面提示商品图片可能与实物不同，因此仅作相关版本，不能确认与样本同款。",
@@ -4519,20 +4519,20 @@
         "state": "observed_related"
       },
       "xianyu": {
-        "title": "原样本：minori eden* TRIAL DISC CD（当前未见可购买单碟）",
-        "version_evidence": "2026-09-28 22:35 内置浏览器复核闲鱼商品详情（ID 794620837421）：当前¥99包邮、43人想要/7,046浏览及“立即购买”，但商品描述列出minori OST、op、eden*游戏等合集；卖家明确写明两张trial disc“已出”及“仅挂，展示”。所以仅确认合集仍显示可购买、样本单碟已售/不可单独购买；不把¥99当单碟价。详情图为合集，不是参考样本蓝色群像主图，image_url继续为空，不冒用合辑图。",
+        "title": "全新未拆 minori eden* TRIAL DISC CD（蓝色群像封面）",
+        "version_evidence": "2026-10-02 15:19 内置浏览器在闲鱼精确检索 eden TRIAL DISC minori，人工打开商品1077722634505：¥150、不包邮、237浏览，显示立即购买；卖家称全新未拆。图库第一张实拍的蓝色群像CD封面与样本所示作品和封面一致，已取得该商品首图直链。未核到背面编号及内含物，且挖煤姬侧为不同Sofmap封面版本，因此不做双侧同SKU利润比较。",
         "catalog_no": null,
         "barcode": null,
-        "price": null,
+        "price": 150,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=794620837421&categoryId=126864811",
-        "search_source_url": "https://www.goofish.com/search?q=minori%20eden*%20TRIAL%20DISC&spm=a21ybx.item.searchInput.0",
-        "observed_at": "2026-09-28T22:35:00+08:00",
+        "source_url": "https://www.goofish.com/item?id=1077722634505&categoryId=126864811",
+        "search_source_url": "https://www.goofish.com/search?q=eden%20TRIAL%20DISC%20minori",
+        "observed_at": "2026-10-02T15:19:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": null,
-        "image_state": "reference_only",
-        "state": "not_currently_listed"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i3/3805743482/O1CN01Tse4kH69WRL3thGS_!!4611686018427382138-0-xy_item.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_current"
       },
       "reference_image_url": "assets/reference-samples/14-b9f4a41e4e062903.webp"
     },

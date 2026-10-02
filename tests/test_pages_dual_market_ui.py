@@ -743,7 +743,7 @@ def test_sample_12_confirms_tuyu_0002_from_both_photos_and_refreshes_both_live_s
         assert "不比较利润" in sample_12["relation_note"]
 
 
-def test_sample_14_keeps_sold_xianyu_separate_and_verifies_related_wameiji_first_image() -> None:
+def test_sample_14_uses_current_exact_cover_xianyu_and_keeps_wameiji_version_separate() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     sample_14 = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 14)
     xianyu = sample_14["xianyu"]
@@ -751,7 +751,7 @@ def test_sample_14_keeps_sold_xianyu_separate_and_verifies_related_wameiji_first
 
     assert sample_14["same_product_verified"] is False
     assert "已出" in sample_14["relation_note"]
-    assert "Sofmap版封面" in sample_14["relation_note"]
+    assert "Sofmap edition" in sample_14["relation_note"]
     assert "2,500 JPY" in wameiji["version_evidence"]
     assert "Sofmap版封面" in wameiji["version_evidence"]
     assert wameiji["state"] == "observed_related"
@@ -766,16 +766,15 @@ def test_sample_14_keeps_sold_xianyu_separate_and_verifies_related_wameiji_first
     assert "with Sofmap-edition jacket" in wameiji["version_evidence"]
     assert "首图直链" in wameiji["version_evidence"]
     assert "商品图片可能与实物不同" in wameiji["version_evidence"]
-    assert xianyu["state"] == "not_currently_listed"
-    assert xianyu["price"] is None
-    assert xianyu["image_state"] == "reference_only"
-    assert xianyu["image_url"] is None
-    assert xianyu["observed_at"] == "2026-09-28T22:35:00+08:00"
-    assert "已出" in xianyu["version_evidence"] and "仅挂，展示" in xianyu["version_evidence"]
-    assert "43人想要" in xianyu["version_evidence"]
+    assert xianyu["state"] == "observed_current"
+    assert xianyu["price"] == 150
+    assert xianyu["image_state"] == "observed_first_gallery_image"
+    assert "O1CN01Tse4kH69WRL3thGS" in xianyu["image_url"]
+    assert xianyu["observed_at"] == "2026-10-02T15:19:00+08:00"
+    assert "237浏览" in xianyu["version_evidence"]
     assert sample_14["reference_image_url"] == "assets/reference-samples/14-b9f4a41e4e062903.webp"
     assert "1077589995824" not in xianyu["source_url"]
-    assert xianyu["source_url"] == "https://www.goofish.com/item?id=794620837421&categoryId=126864811"
+    assert xianyu["source_url"] == "https://www.goofish.com/item?id=1077722634505&categoryId=126864811"
 
 
 def test_sample_17_replaces_wrong_xianyu_listing_with_unlocked_multivariant_candidate() -> None:
