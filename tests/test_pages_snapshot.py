@@ -1775,6 +1775,24 @@ def test_sample_45_recovers_current_wameiji_item_but_not_display_only_xianyu_pri
     assert "【展示】" in sample["xianyu"]["version_evidence"]
 
 
+def test_sample_31_uses_matching_caucasus_book_not_different_hanasou_book() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    sample = next(
+        row for row in payload["single_observed_records"] if row["reference_product_id"] == 31
+    )
+    assert sample["available_market"] == "xianyu"
+    assert sample["missing_market"] == "wameiji"
+    assert sample["observation"]["state"] == "observed_current"
+    assert sample["observation"]["price"] == 513
+    assert sample["observation"]["source_url"].endswith("id=990842888306&categoryId=126860296")
+    assert "O1CN01G3wcM71D1Ut1vobZG" in sample["observation"]["image_url"]
+    assert sample["counterpart_candidate"]["state"] == "search_only"
+    assert sample["counterpart_candidate"]["price"] is None
+    assert "《花葬》第二集画集" in sample["counterpart_candidate"]["version_evidence"]
+
+
 def test_sample_102_distinguishes_current_wameiji_lp_from_historical_xianyu_deposit() -> None:
     payload = json.loads(
         Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T15:58:00+08:00",
+  "generated_at": "2026-10-02T16:14:00+08:00",
   "mode": "reference_audit_snapshot",
   "display_exchange_rate_cny_per_jpy": 0.0444,
   "disclaimer": "双侧/单侧记录表示曾找到并保留对应来源证据，不等于本轮已逐卡复核。125 个样本的版本、成色、附件、在售状态与图片匹配仍需逐条审核；未证明成本完整或正利润，不能当作达标机会。登录受阻、下架、售出、图片为样图或版本未锁定的情况应在卡片中单独标注。",
@@ -8897,37 +8897,41 @@
     {
       "reference_product_id": 31,
       "stable_key": "sample:e78d933355ffe3d1523636f9ced7999b538b4e9d16899a03447213a0bc171b6c",
-      "available_market": "wameiji",
-      "missing_market": "xianyu",
+      "available_market": "xianyu",
+      "missing_market": "wameiji",
       "counterpart_state": "not_currently_listed",
       "observation": {
-        "title": "【中古】アニメムック ≪イラスト画集≫ 杉菜水姫(スギナミキ)作品第二集 『花葬』",
-        "version_evidence": "2026-09-23 02:39（+08:00）人工 Chrome/IAB 复核：挖煤姬详情页为骏河屋店铺卖家同版《花葬》第二集画集，37,000 日元，B4 大型画集、120 页（240 页袋綴），页面标注无明显损伤污渍、无物流保障。闲鱼精确检索「杉菜水姫 花葬 画集」结果为网盘/电子版资料、复制原画、自制装饰画及《壳之少女 花葬》限定盒，没有该第二集原版画集实物；不以近似周边替代，维持挖煤姬单边观察。",
+        "title": "innocent grey 白雪七凭之祭 杉菜水姫 CAUCASUS 实体画集",
+        "version_evidence": "2026-10-02 16:14+08 内置浏览器从闲鱼站内‘七凭之祭 画集’搜索打开商品990842888306：当前活动价¥513包邮（非活动价¥540）、1人想要/312浏览，有立即购买入口。当前商品图库第一张是木桌上的《CAUCASUS / Miki Sugina Artworks》实体画集，粉发人物封面及下方腰封与原参考截图可见构图一致；首图取自该商品页图库而非页面截图。卖家标题称‘innocent grey 白雪七凭之祭 杉菜水姬 画集 设定集’，但详情未列页数、品番和缺页/磨损情况；只确认作品与可见封面方向，不证明成色、附件完全同于原样本。原卡片误把另一本《花葬》画集列为样本同版，已撤下。",
         "catalog_no": null,
         "barcode": null,
-        "price": 37000,
-        "currency": "JPY",
-        "source_url": "https://www.meruki.cn/mall/mercari/detail/68747470733a2f2f6a702e6d6572636172692e636f6d2f73686f70732f70726f647563742f774765675a564b6a50567158685755576342796d6f4e2f",
-        "observed_at": "2026-09-23T02:39:00+08:00",
-        "marketplace_host": "www.meruki.cn",
-        "is_wameiji_platform": true,
-        "image_url": "https://assets.mercari-shops-static.com/-/large/plain/XAmE9hhts3ApgztQWASR6n.webp@jpg"
-      },
-      "xianyu": {
-        "title": "杉菜水姫 花葬设定画集（电子版资料，非实物）",
-        "version_evidence": "2026-09-23 人工 Chrome/IAB 闲鱼现售页：标题明确为杉菜水姫《花葬》设定画集，1 CNY，拍下发网盘资料；页面明确是电子版/非实物，不冒充原版实体画集，作为同作者同作品的现售观察对象。",
-        "catalog_no": null,
-        "barcode": null,
-        "price": 1,
+        "price": 513,
         "currency": "CNY",
-        "source_url": "https://www.goofish.com/item?id=1079921309773&categoryId=201459411",
-        "observed_at": "2026-09-23T11:05:00+08:00",
+        "source_url": "https://www.goofish.com/item?id=990842888306&categoryId=126860296",
+        "search_source_url": "https://www.goofish.com/search?q=%E4%B8%83%E5%87%AD%E4%B9%8B%E7%A5%AD%20%E7%94%BB%E9%9B%86",
+        "observed_at": "2026-10-02T16:14:00+08:00",
         "marketplace_host": "www.goofish.com",
         "is_wameiji_platform": false,
-        "image_url": "https://img.alicdn.com/bao/uploaded/i4/3987787377/O1CN013hgK99uQYND1chua_!!4611686018427383409-0-xy_item.jpg_Q90.jpg_.webp",
-        "state": "observed_related"
+        "image_url": "https://img.alicdn.com/bao/uploaded/i1/O1CN01G3wcM71D1Ut1vobZG_!!4611686018427387756-0-fleamarket.jpg_790x10000Q90.jpg_.webp",
+        "image_state": "observed_first_gallery_image",
+        "state": "observed_current"
       },
-      "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp"
+      "reference_image_url": "assets/reference-samples/31-e78d933355ffe3d1.webp",
+      "counterpart_candidate": {
+        "title": "挖煤姬本轮未核实到 CAUCASUS／七凭之祭 实体画集同款",
+        "version_evidence": "2026-10-02 16:14+08 挖煤姬仅看有货的Mercari单站搜索‘CAUCASUS Miki Sugina Artworks’及‘杉菜水姫 コーカサス 画集’均显示暂无数据；放宽至‘CAUCASUS’首屏只见同名帐篷、昆虫卡、音乐CD等无关商品。本轮结果不代表挖煤姬全站绝无同款。此前记录的37,000 JPY《花葬》第二集画集当前确实可购，但与样本《CAUCASUS》是不同作品，图片和价格均已从样本主卡撤下；旧闲鱼¥1电子图包也不是实体画集。",
+        "catalog_no": null,
+        "barcode": null,
+        "price": null,
+        "currency": "JPY",
+        "source_url": "https://www.meruki.cn/search?fid=all&sid=&transType=0&identity=all&website=mercari&keywords=CAUCASUS",
+        "observed_at": "2026-10-02T16:14:00+08:00",
+        "marketplace_host": "www.meruki.cn",
+        "is_wameiji_platform": true,
+        "image_url": null,
+        "image_state": "no_verified_item_photo",
+        "state": "search_only"
+      }
     },
     {
       "reference_product_id": 36,
