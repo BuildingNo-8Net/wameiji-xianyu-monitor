@@ -1751,9 +1751,28 @@ def test_sample_1_rejects_wrong_listings_and_keeps_related_wameiji_item_one_side
     assert sample["observation"]["image_url"] == "https://assets.mercari-shops-static.com/-/large/plain/hAKEAoC896BipW3MFHc767.jpg@jpg"
     assert "封面并不一致" in sample["observation"]["version_evidence"]
     assert sample["counterpart_candidate"]["state"] == "search_only"
+    assert sample["counterpart_candidate"]["price"] is None
     assert sample["counterpart_candidate"]["image_url"] is None
     assert "1071313464471" in sample["counterpart_candidate"]["version_evidence"]
     assert "日落海面剪影封面" in sample["counterpart_candidate"]["version_evidence"]
+
+
+def test_sample_45_recovers_current_wameiji_item_but_not_display_only_xianyu_price() -> None:
+    payload = json.loads(
+        Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8")
+    )
+    sample = next(
+        row for row in payload["dual_observed_pairs"] if row["reference_product_id"] == 45
+    )
+    assert sample["same_product_verified"] is False
+    assert sample["price_comparable"] is False
+    assert sample["wameiji"]["state"] == "observed_current"
+    assert sample["wameiji"]["price"] == 11900
+    assert sample["wameiji"]["source_url"].startswith("https://www.meruki.cn/")
+    assert sample["xianyu"]["state"] == "blocked"
+    assert sample["xianyu"]["price"] is None
+    assert sample["xianyu"]["last_observed_price"] == 721
+    assert "【展示】" in sample["xianyu"]["version_evidence"]
 
 
 def test_sample_102_distinguishes_current_wameiji_lp_from_historical_xianyu_deposit() -> None:

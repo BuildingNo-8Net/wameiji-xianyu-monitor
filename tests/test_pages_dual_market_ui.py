@@ -1190,15 +1190,16 @@ def test_sample_93_records_current_prices_and_marks_meruki_photo_as_illustrative
         assert sample["wameiji"]["image_url"].startswith("https://assets.mercari-shops-static.com/")
 
 
-def test_sample_45_marks_meruki_image_illustrative_and_both_items_blocked_now() -> None:
+def test_sample_45_marks_meruki_image_illustrative_and_xianyu_display_item_not_current_offer() -> None:
     snapshot = json.loads(Path("web/data/reference-audit-snapshot.json").read_text(encoding="utf-8"))
     sample = next(row for row in snapshot["dual_observed_pairs"] if row["reference_product_id"] == 45)
     assert sample["xianyu"]["state"] == "blocked"
-    assert sample["wameiji"]["state"] == "blocked"
-    assert sample["xianyu"]["price"] == 721  # retained as a dated historical observation only
-    assert sample["wameiji"]["price"] == 11900  # retained as a dated historical observation only
+    assert sample["wameiji"]["state"] == "observed_current"
+    assert sample["xianyu"]["price"] is None
+    assert sample["xianyu"]["last_observed_price"] == 721
+    assert sample["wameiji"]["price"] == 11900
     assert sample["wameiji"]["image_state"] == "page_reference_image"
-    assert "2026-09-29" in sample["wameiji"]["version_evidence"]
+    assert "2026-10-02" in sample["wameiji"]["version_evidence"]
     assert "page_reference_image" == sample["wameiji"]["image_state"]
 
 
