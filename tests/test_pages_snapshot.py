@@ -901,14 +901,17 @@ def test_sample_75_current_xianyu_preorder_is_not_rendered_as_unverified_history
         pair["xianyu"]["observed_at"]
     )
     assert pair["xianyu"]["state"] == "observed_current"
+    assert pair["xianyu"]["price"] is None
     assert pair["xianyu"]["price_range"] == {"min": 427, "max": 549, "currency": "CNY"}
-    assert pair["xianyu"]["observed_at"] == "2026-09-29T05:44:00+08:00"
-    assert "39浏览" in pair["xianyu"]["version_evidence"]
-    assert "不是卖家实物照" in pair["xianyu"]["version_evidence"]
-    assert pair["wameiji"]["state"] == "not_currently_listed"
+    assert pair["xianyu"]["observed_at"] == "2026-10-02T15:32:00+08:00"
+    assert "42浏览" in pair["xianyu"]["version_evidence"]
+    assert "非卖家实物照" in pair["xianyu"]["version_evidence"]
+    assert pair["wameiji"]["state"] == "observed_related"
+    assert pair["wameiji"]["price"] == 7777
     assert pair["wameiji"]["image_url"] is None
     assert pair["price_comparable"] is False
-    assert "不比较利润" in pair["relation_note"]
+    assert pair["same_product_verified"] is False
+    assert "不算利润" in pair["relation_note"]
 
 
 def test_sample_78_matches_wameiji_base_edition_but_keeps_mispress_and_image_unverified() -> None:

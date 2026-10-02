@@ -1053,7 +1053,7 @@ def test_round8_sample_relations_are_evidence_backed_and_never_auto_compare_prof
         69: True,
         70: True,
         72: False,
-        75: True,
+        75: False,
         81: True,
         83: True,
         89: True,
@@ -1563,7 +1563,7 @@ def test_multi_option_xianyu_ranges_are_structured_and_use_the_listed_lower_boun
             if sample["xianyu"].get("state") == "blocked":
                 assert sample["xianyu"]["price"] is None, sample_id
                 assert sample["xianyu"]["last_observed_price"] == minimum, sample_id
-            elif sample_id in (48, 77, 89, 98, 117):
+            elif sample_id in (48, 75, 77, 89, 98, 117):
                 assert sample["xianyu"]["price"] is None, sample_id
             else:
                 assert sample["xianyu"]["price"] == minimum, sample_id
@@ -3299,17 +3299,18 @@ def test_samples_74_to_80_keep_current_updates_separate_from_historical_layer() 
         assert sample_74["xianyu"]["image_url"].endswith("jpg_790x10000Q90.jpg_.webp")
 
         sample_75 = next(row for row in rows if row["reference_product_id"] == 75)
-        assert sample_75["same_product_verified"] is True
+        assert sample_75["same_product_verified"] is False
         assert sample_75["price_comparable"] is False
-        assert sample_75["wameiji"]["price"] is None
+        assert sample_75["wameiji"]["price"] == 7777
         assert sample_75["wameiji"]["last_observed_price"] == 7111
-        assert sample_75["wameiji"]["state"] == "not_currently_listed"
+        assert sample_75["wameiji"]["state"] == "observed_related"
         assert sample_75["wameiji"]["image_state"] == "no_verified_item_photo"
         assert sample_75["wameiji"]["image_url"] is None
         assert sample_75["xianyu"]["price_range"] == {"min": 427, "max": 549, "currency": "CNY"}
+        assert sample_75["xianyu"]["price"] is None
         assert sample_75["xianyu"]["image_url"].endswith("jpg_790x10000Q90.jpg_.webp")
-        assert "不能确认当前订单包含特典卡" in sample_75["xianyu"]["version_evidence"]
-        assert "采购链接已售" in sample_75["relation_note"]
+        assert "迟订不保证送卡" in sample_75["xianyu"]["version_evidence"]
+        assert "挖煤姬旧商品已售" in sample_75["relation_note"]
 
         sample_76 = next(row for row in rows if row["reference_product_id"] == 76)
         assert sample_76["same_product_verified"] is False
